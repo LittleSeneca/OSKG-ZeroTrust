@@ -39,13 +39,15 @@ The Identity pillar is documented separately in [[CISA ZTMM — Identity Pillar]
 
 > A device refers to any asset (including its hardware, software, firmware, etc.) that can connect to a network, including servers, desktop and laptop machines, printers, mobile phones, IoT devices, networking equipment, and more.
 
-Agencies should secure all agency devices, manage risks of authorized non-agency devices (BYOD), and prevent unauthorized devices from accessing resources. Device management includes maintaining a dynamic inventory of all assets — hardware, software, firmware, configurations, and known vulnerabilities.
-
 **Related NIST 800-207 mapping:** The Device pillar maps to NIST 800-207's asset management and posture assessment components. See [[NIST 800-207 — Ch3 — Logical Components]] for the Policy Enforcement Point (PEP) role that devices play in access decisions.
 
 **Related NSA guidance:** See [[NSA ZT Device Pillar]] for the threat-informed device security perspective — NSA emphasizes device attestation, firmware integrity, and supply chain provenance more heavily than CISA's maturity model.
 
-### 1.1 Policy Enforcement & Compliance Monitoring
+### Claim 1: Device Policy Enforcement & Compliance Monitoring — maturity progresses from limited visibility and manual enforcement to continuous verification of compliance throughout device/virtual asset lifetimes, with automated methods for managing software, vulnerabilities, and patches integrated across all environments.
+
+**Author's claim:** Agencies should secure all agency devices, manage risks of authorized non-agency devices (BYOD), and prevent unauthorized devices from accessing resources. (§5.2)
+
+**Evidence presented:**
 
 | Stage | Description |
 |-------|-------------|
@@ -54,7 +56,13 @@ Agencies should secure all agency devices, manage risks of authorized non-agency
 | **Advanced** | Verified insights on device compliance upon initial access; enforces compliance for most devices and virtual assets. Automated methods to manage devices/virtual assets, approve software, identify vulnerabilities, and install patches. |
 | **Optimal** | Continuous verification of compliance throughout device/virtual asset lifetime. Integrates device, software, configuration, and vulnerability management across all agency environments including virtual assets. |
 
-### 1.2 Asset & Supply Chain Risk Management
+**Confidence:** HIGH. Direct from the source document.
+
+### Claim 2: Asset & Supply Chain Risk Management — maturity progresses from ad hoc, enterprise-blind tracking to comprehensive near-real-time visibility of all assets across vendors and service providers, with automated supply chain risk management and operations that tolerate supply chain failures.
+
+**Author's claim:** Device management includes maintaining a dynamic inventory of all assets — hardware, software, firmware, configurations, and known vulnerabilities. (§5.2)
+
+**Evidence presented:**
 
 | Stage | Description |
 |-------|-------------|
@@ -63,7 +71,13 @@ Agencies should secure all agency devices, manage risks of authorized non-agency
 | **Advanced** | Develops comprehensive enterprise view of physical and virtual assets via automated processes functioning across multiple vendors — verifying acquisitions, tracking development cycles, providing third-party assessments. |
 | **Optimal** | Comprehensive, at- or near-real-time view of all assets across vendors and service providers. Automates supply chain risk management where applicable; builds operations that tolerate supply chain failures; incorporates best practices. |
 
-### 1.3 Resource Access
+**Confidence:** HIGH. Direct from the source document.
+
+### Claim 3: Device Resource Access — maturity progresses from requiring no device visibility for access decisions to considering real-time risk analytics within devices and virtual assets, integrating device posture with identity and environmental context.
+
+**Author's claim:** Resource access decisions must incorporate device context. (§5.2)
+
+**Evidence presented:**
 
 | Stage | Description |
 |-------|-------------|
@@ -72,7 +86,13 @@ Agencies should secure all agency devices, manage risks of authorized non-agency
 | **Advanced** | Initial resource access considers verified device or virtual asset insights. |
 | **Optimal** | Resource access considers real-time risk analytics within devices and virtual assets. |
 
-### 1.4 Device Threat Protection
+**Confidence:** HIGH. Direct from the source document.
+
+### Claim 4: Device Threat Protection — maturity progresses from manual deployment to some devices to centralized, unified threat protection with advanced capabilities for all devices and virtual assets, integrated with policy enforcement and compliance monitoring.
+
+**Author's claim:** Threat protection capabilities must scale across all devices. (§5.2)
+
+**Evidence presented:**
 
 | Stage | Description |
 |-------|-------------|
@@ -81,31 +101,21 @@ Agencies should secure all agency devices, manage risks of authorized non-agency
 | **Advanced** | Consolidates threat protection to centralized solutions for devices and virtual assets; integrates most capabilities with policy enforcement and compliance monitoring. |
 | **Optimal** | Centralized threat protection solution(s) with advanced capabilities for all devices and virtual assets; unified approach for threat protection, policy enforcement, and compliance monitoring. |
 
-### 1.5 Cross-Cutting Capabilities (Device)
+**Confidence:** HIGH. Direct from the source document.
 
-**Visibility & Analytics:**
-| Stage | Description |
-|-------|-------------|
-| Traditional | Physically labeled inventory, limited software monitoring, regular review with manual analysis. |
-| Initial | Digital identifiers alongside manual inventory; endpoint monitoring when available. Some devices/virtual assets under automated analysis for anomaly detection based on risk. |
-| Advanced | Automated inventory collection (endpoint monitoring on all standard user devices — desktops, laptops, phones, tablets — and virtual assets) and anomaly detection to detect unauthorized devices. |
-| Optimal | Automated status collection of all network-connected devices and virtual assets, correlated with identities, endpoint monitoring, and anomaly detection to inform resource access. Tracks provisioning/deprovisioning patterns for anomalies. |
+### Claim 5: Device Cross-Cutting Capabilities (Visibility & Analytics, Automation & Orchestration, Governance) — progress from manual, physically-labeled inventory to automated status collection of all network-connected devices correlated with identities, endpoint monitoring, and anomaly detection; from manual provisioning to fully automated lifecycle management; from ad hoc policies to automated enterprise-wide device lifecycle governance.
 
-**Automation & Orchestration:**
-| Stage | Description |
-|-------|-------------|
-| Traditional | Manual provisioning, configuration, and/or registration of devices within the enterprise. |
-| Initial | Begins using tools and scripts to automate provisioning, configuration, registration, and deprovisioning for devices and virtual assets. |
-| Advanced | Implemented monitoring and enforcement mechanisms to identify and manually disconnect/isolate non-compliant devices and virtual assets. |
-| Optimal | Fully automated processes for provisioning, registering, monitoring, isolating, remediating, and deprovisioning devices and virtual assets. |
+**Author's claim:** The three cross-cutting capabilities apply within the Device pillar. (§5.2)
 
-**Governance:**
-| Stage | Description |
-|-------|-------------|
-| Traditional | Some policies for lifecycle of traditional/peripheral computing devices; relies on manual processes to maintain (update, patch, sanitize). |
-| Initial | Policies for procurement of new devices, lifecycle of non-traditional computing devices and virtual assets, and regular monitoring/scanning. |
-| Advanced | Enterprise-wide policies for device/virtual asset lifecycle including enumeration and accountability, with some automated enforcement. |
-| Optimal | Automated policies for lifecycle of all network-connected devices and virtual assets across the enterprise. |
+**Evidence presented:**
+
+**Visibility & Analytics:** Traditional → physically labeled inventory, limited software monitoring, regular review with manual analysis. Optimal → automated status collection of all network-connected devices and virtual assets, correlated with identities, endpoint monitoring, and anomaly detection to inform resource access.
+
+**Automation & Orchestration:** Traditional → manual provisioning, configuration, and/or registration. Optimal → fully automated processes for provisioning, registering, monitoring, isolating, remediating, and deprovisioning devices and virtual assets.
+
+**Governance:** Traditional → some policies for lifecycle of traditional/peripheral computing devices; relies on manual processes. Optimal → automated policies for lifecycle of all network-connected devices and virtual assets across the enterprise.
+
+**Confidence:** HIGH. Direct from the source document.
 
 ---
 
@@ -119,7 +129,11 @@ ZTAs enable a shift away from perimeter-focused approaches. Agencies manage inte
 
 **Related NSA guidance:** See [[NSA ZT Network Pillar]] for NSA's network segmentation, encryption, and traffic inspection requirements — NSA emphasizes cryptographic isolation and traffic filtering at a more granular level than CISA.
 
-### 2.1 Network Segmentation
+### Claim 6: Network Segmentation — maturity progresses from large perimeter/macro-segmentation with minimal intra-segment restrictions to fully distributed ingress/egress micro-perimeters with extensive micro-segmentation based on application profiles and dynamic JIT/JEA connectivity.
+
+**Author's claim:** Network segmentation progresses from coarse perimeter to fine-grained application-profile-based micro-perimeters. (§5.3)
+
+**Evidence presented:**
 
 | Stage | Description |
 |-------|-------------|
@@ -128,16 +142,28 @@ ZTAs enable a shift away from perimeter-focused approaches. Agencies manage inte
 | **Advanced** | Expands deployment of endpoint and application profile isolation mechanisms; ingress/egress micro-perimeters; service-specific interconnections. |
 | **Optimal** | Fully distributed ingress/egress micro-perimeters; extensive micro-segmentation based on application profiles; dynamic just-in-time and just-enough connectivity for service-specific interconnections. |
 
-### 2.2 Network Traffic Management
+**Confidence:** HIGH. Direct from the source document.
+
+### Claim 7: Network Traffic Management — maturity progresses from manually implemented static network rules with limited monitoring to dynamic rules and configurations that continuously evolve to meet application profile needs, reprioritizing applications based on mission criticality and risk.
+
+**Author's claim:** Traffic management must become dynamic and risk-aware. (§5.3)
+
+**Evidence presented:**
 
 | Stage | Description |
 |-------|-------------|
-| **Traditional** | Manually implements static network rules and configurations at service provisioning; limited monitoring (e.g., performance monitoring or anomaly detection); manual audits of profile changes for mission-critical applications. |
-| **Initial** | Establishes application profiles with distinct traffic management features; begins mapping all applications to profiles; expands static rules to all applications with periodic manual audits of profile assessments. |
+| **Traditional** | Manually implements static network rules and configurations at service provisioning; limited monitoring; manual audits of profile changes for mission-critical applications. |
+| **Initial** | Establishes application profiles with distinct traffic management features; begins mapping all applications to profiles; expands static rules to all applications with periodic manual audits. |
 | **Advanced** | Dynamic network rules and configurations for resource optimization, periodically adapted based on automated risk-aware and risk-responsive application profile assessments and monitoring. |
 | **Optimal** | Dynamic network rules and configurations that continuously evolve to meet application profile needs and reprioritize applications based on mission criticality, risk, etc. |
 
-### 2.3 Traffic Encryption
+**Confidence:** HIGH. Direct from the source document.
+
+### Claim 8: Traffic Encryption — maturity progresses from encrypting minimal traffic with manual key management to encrypting all appropriate traffic, enforcing least privilege for secure key management enterprise-wide, and incorporating cryptographic agility as widely as possible.
+
+**Author's claim:** Encryption must scale from minimal to comprehensive with cryptographic agility. (§5.3)
+
+**Evidence presented:**
 
 | Stage | Description |
 |-------|-------------|
@@ -146,7 +172,13 @@ ZTAs enable a shift away from perimeter-focused approaches. Agencies manage inte
 | **Advanced** | Ensures encryption for all applicable internal and external traffic protocols; manages issuance and rotation of keys and certificates; begins incorporating cryptographic agility best practices. |
 | **Optimal** | Continues encrypting traffic as appropriate; enforces least privilege for secure key management enterprise-wide; incorporates cryptographic agility as widely as possible. |
 
-### 2.4 Network Resilience
+**Confidence:** HIGH. Direct from the source document.
+
+### Claim 9: Network Resilience — maturity progresses from case-by-case network configuration matching individual application availability demands with limited resilience for non-mission-critical workloads to holistic delivery and awareness adapting to changes in availability demands for all workloads with proportionate resilience.
+
+**Author's claim:** Network resilience must scale from case-by-case to holistic. (§5.3)
+
+**Evidence presented:**
 
 | Stage | Description |
 |-------|-------------|
@@ -155,31 +187,21 @@ ZTAs enable a shift away from perimeter-focused approaches. Agencies manage inte
 | **Advanced** | Network capabilities dynamically manage availability demands and resilience mechanisms for the majority of applications. |
 | **Optimal** | Holistic delivery and awareness in adapting to changes in availability demands for all workloads; proportionate resilience. |
 
-### 2.5 Cross-Cutting Capabilities (Network)
+**Confidence:** HIGH. Direct from the source document.
 
-**Visibility & Analytics:**
-| Stage | Description |
-|-------|-------------|
-| Traditional | Limited boundary-focused network monitoring; minimal analysis to start developing centralized situational awareness. |
-| Initial | Network monitoring based on known indicators of compromise (including network enumeration); develops situational awareness in each environment; begins correlating telemetry across traffic types and environments for analysis and threat hunting. |
-| Advanced | Anomaly-based network detection; situational awareness across all environments; correlates telemetry from multiple sources; incorporates automated processes for robust threat hunting. |
-| Optimal | Visibility into communication across all agency networks and environments; enterprise-wide situational awareness; advanced monitoring automating telemetry correlation across all detection sources. |
+### Claim 10: Network Cross-Cutting Capabilities — progress from boundary-focused manual monitoring to enterprise-wide situational awareness with advanced automated telemetry correlation; from manual configuration management to infrastructure-as-code with automated change management; from static perimeter-focused policies to enterprise-wide policies enabling tailored local controls with dynamic updates.
 
-**Automation & Orchestration:**
-| Stage | Description |
-|-------|-------------|
-| Traditional | Manual processes to manage configuration and resource lifecycle; periodic integration of policy requirements and situational awareness. |
-| Initial | Begins using automated methods for configuration and resource lifecycle management for some networks/environments; ensures all resources have defined lifetimes based on policies and telemetry. |
-| Advanced | Automated change management (e.g., CI/CD) for configuration and resource lifecycle of all networks/environments; responds to and enforces policies and protections against perceived risks. |
-| Optimal | Networks and environments defined using infrastructure-as-code managed by automated change management; automated initiation and expiration aligned with changing needs. |
+**Author's claim:** Cross-cutting capabilities within the Network pillar. (§5.3)
 
-**Governance:**
-| Stage | Description |
-|-------|-------------|
-| Traditional | Static network policies (access, protocols, segmentation, alerts, remediation) with perimeter-protection focus. |
-| Initial | Defines and begins implementing policies tailored to individual network segments and resources; inherits corporate-wide rules as appropriate. |
-| Advanced | Incorporates automation in implementing tailored policies; facilitates transition from perimeter-focused protections. |
-| Optimal | Enterprise-wide network policies enabling tailored, local controls; dynamic updates; secure external connections based on application and user workflows. |
+**Evidence presented:**
+
+**Visibility & Analytics:** Traditional → limited boundary-focused network monitoring. Optimal → visibility into communication across all agency networks and environments; enterprise-wide situational awareness; advanced monitoring automating telemetry correlation across all detection sources.
+
+**Automation & Orchestration:** Traditional → manual processes for configuration and resource lifecycle. Optimal → networks defined using infrastructure-as-code managed by automated change management; automated initiation and expiration aligned with changing needs.
+
+**Governance:** Traditional → static network policies with perimeter-protection focus. Optimal → enterprise-wide network policies enabling tailored, local controls; dynamic updates; secure external connections based on application and user workflows.
+
+**Confidence:** HIGH. Direct from the source document.
 
 ---
 
@@ -191,7 +213,11 @@ Agencies should manage and secure deployed applications and ensure secure applic
 
 **Related NIST 800-207 mapping:** Maps to the Policy Decision Point (PDP) and PEP functions in NIST 800-207 — applications are the resources being accessed, and the access decision considers application-specific context. See [[NIST 800-207 — Ch3 — Logical Components]].
 
-### 3.1 Application Access
+### Claim 11: Application Access — maturity progresses from authorization based primarily on local authorization and static attributes to continuous authorization incorporating real-time risk analytics and factors such as behavior or usage patterns.
+
+**Author's claim:** Access authorization must evolve from static to continuous, context-aware. (§5.4)
+
+**Evidence presented:**
 
 | Stage | Description |
 |-------|-------------|
@@ -200,7 +226,13 @@ Agencies should manage and secure deployed applications and ensure secure applic
 | **Advanced** | Automates application access decisions with expanded contextual information and enforced expiration conditions adhering to least privilege principles. |
 | **Optimal** | Continuously authorizes application access, incorporating real-time risk analytics and factors such as behavior or usage patterns. |
 
-### 3.2 Application Threat Protections
+**Confidence:** HIGH. Direct from the source document.
+
+### Claim 12: Application Threat Protections — maturity progresses from minimal integration with application workflows and general-purpose protections to advanced threat protections integrated into all application workflows with real-time visibility and content-aware protections against sophisticated attacks tailored to applications.
+
+**Author's claim:** Threat protections must integrate deeply into application workflows. (§5.4)
+
+**Evidence presented:**
 
 | Stage | Description |
 |-------|-------------|
@@ -209,7 +241,13 @@ Agencies should manage and secure deployed applications and ensure secure applic
 | **Advanced** | Integrates threat protections into all application workflows; protects against some application-specific and targeted threats. |
 | **Optimal** | Advanced threat protections integrated into all application workflows; real-time visibility and content-aware protections against sophisticated attacks tailored to applications. |
 
-### 3.3 Accessible Applications
+**Confidence:** HIGH. Direct from the source document.
+
+### Claim 13: Accessible Applications — maturity progresses from making mission-critical applications available only over private networks and VPNs to making all applicable applications available over open public networks to authorized users and devices.
+
+**Author's claim:** Applications should become accessible over public networks rather than requiring VPNs. (§5.4)
+
+**Evidence presented:**
 
 | Stage | Description |
 |-------|-------------|
@@ -218,7 +256,13 @@ Agencies should manage and secure deployed applications and ensure secure applic
 | **Advanced** | Makes most applicable mission-critical applications available over open public network connections to authorized users. |
 | **Optimal** | Makes all applicable applications available over open public networks to authorized users and devices, where appropriate. |
 
-### 3.4 Secure Application Development & Deployment Workflow
+**Confidence:** HIGH. This directly aligns with OMB M-22-09's directive.
+
+### Claim 14: Secure Application Development & Deployment — maturity progresses from ad hoc development/testing/production environments with non-robust code deployment to immutable workloads where changes only occur through redeployment, with automated processes replacing administrator access to deployment environments.
+
+**Author's claim:** DevSecOps maturity is integral to the Application pillar. (§5.4)
+
+**Evidence presented:**
 
 | Stage | Description |
 |-------|-------------|
@@ -227,7 +271,13 @@ Agencies should manage and secure deployed applications and ensure secure applic
 | **Advanced** | Distinct, coordinated teams for development, security, and operations; removes developer access to production environment for code deployment. |
 | **Optimal** | Leverages immutable workloads where feasible; only allows changes through redeployment; removes administrator access to deployment environments in favor of automated processes for code deployment. |
 
-### 3.5 Application Security Testing
+**Confidence:** HIGH. Direct from the source document.
+
+### Claim 15: Application Security Testing — maturity progresses from primarily manual pre-deployment testing to integrated security testing throughout the SDLC with routine automated testing of deployed applications.
+
+**Author's claim:** Security testing must be integrated throughout the SDLC. (§5.4)
+
+**Evidence presented:**
 
 | Stage | Description |
 |-------|-------------|
@@ -236,31 +286,21 @@ Agencies should manage and secure deployed applications and ensure secure applic
 | **Advanced** | Integrates application security testing into development and deployment process; includes periodic dynamic testing methods. |
 | **Optimal** | Integrates application security testing throughout the software development lifecycle across the enterprise; routine automated testing of deployed applications. |
 
-### 3.6 Cross-Cutting Capabilities (Application)
+**Confidence:** HIGH. Direct from the source document.
 
-**Visibility & Analytics:**
-| Stage | Description |
-|-------|-------------|
-| Traditional | Some performance and security monitoring of mission-critical applications with limited aggregation and analytics. |
-| Initial | Begins automating application profile (state, health, performance) and security monitoring for improved log collection, aggregation, and analytics. |
-| Advanced | Automates profile and security monitoring for most applications with heuristics to identify application-specific and enterprise-wide trends; refines processes to address gaps in visibility. |
-| Optimal | Continuous and dynamic monitoring across all applications to maintain enterprise-wide comprehensive visibility. |
+### Claim 16: Application Cross-Cutting Capabilities — progress from some performance/security monitoring of mission-critical apps with limited aggregation to continuous dynamic monitoring across all applications; from manual static application hosting to automated configurations continuously optimizing for security and performance; from manual enforcement policies to fully automated policies with dynamic updates through CI/CD.
 
-**Automation & Orchestration:**
-| Stage | Description |
-|-------|-------------|
-| Traditional | Manually establishes static application hosting location and access at provisioning with limited maintenance and review. |
-| Initial | Periodically modifies application configurations (location and access) to meet relevant security and performance goals. |
-| Advanced | Automates application configurations to respond to operational and environmental changes. |
-| Optimal | Automates application configurations to continuously optimize for security and performance. |
+**Author's claim:** Cross-cutting capabilities within the Application pillar. (§5.4)
 
-**Governance:**
-| Stage | Description |
-|-------|-------------|
-| Traditional | Relies primarily on manual enforcement policies for application access, development, deployment, software asset management, security testing and evaluation (ST&E), patching, and tracking software dependencies. |
-| Initial | Begins automating policy enforcement for development (including access to dev infrastructure), deployment, software asset management, ST&E, patching, and tracking dependencies (e.g., SBOM). |
-| Advanced | Tiered, tailored policies enterprise-wide for applications and all aspects of development/deployment lifecycles; leverages automation where possible. |
-| Optimal | Fully automates policies governing applications development and deployment; dynamic updates through the CI/CD pipeline. |
+**Evidence presented:**
+
+**Visibility & Analytics:** Traditional → some performance and security monitoring of mission-critical applications. Optimal → continuous and dynamic monitoring across all applications to maintain enterprise-wide comprehensive visibility.
+
+**Automation & Orchestration:** Traditional → manually establishes static application hosting location and access at provisioning. Optimal → automates application configurations to continuously optimize for security and performance.
+
+**Governance:** Traditional → relies primarily on manual enforcement policies. Optimal → fully automates policies governing applications development and deployment; dynamic updates through the CI/CD pipeline.
+
+**Confidence:** HIGH. Direct from the source document.
 
 ---
 
@@ -270,9 +310,13 @@ Agencies should manage and secure deployed applications and ensure secure applic
 
 Agency data should be protected on devices, in applications, and on networks in accordance with federal requirements. Agencies should inventory, categorize, and label data; protect data at rest and in transit; deploy mechanisms to detect and stop data exfiltration. Data governance policies must ensure all data lifecycle security aspects are enforced across the enterprise.
 
-**Related NIST 800-207 mapping:** Data is the ultimate resource being protected in the ZTA model. The Policy Engine evaluates access to data based on identity, device posture, and environmental context. NIST 800-207 tenet #1 states: "All data sources and computing services are considered resources." See [[NIST 800-207 — Ch3 — Logical Components]].
+**Related NIST 800-207 mapping:** Data is the ultimate resource being protected in the ZTA model. The Policy Engine evaluates access to data based on identity, device posture, and environmental context. NIST 800-207 tenet #1 states: "All data sources and computing services are considered resources."
 
-### 4.1 Data Inventory Management
+### Claim 17: Data Inventory Management — maturity progresses from manual identification and inventory of some agency data to continuous inventory of all applicable agency data with robust data loss prevention strategies that dynamically block suspected data exfiltration.
+
+**Author's claim:** Data inventory is foundational — you can't protect what you don't know exists. (§5.5)
+
+**Evidence presented:**
 
 | Stage | Description |
 |-------|-------------|
@@ -281,7 +325,13 @@ Agency data should be protected on devices, in applications, and on networks in 
 | **Advanced** | Automates data inventory and tracking enterprise-wide, covering all applicable agency data; data loss prevention strategies based on static attributes and/or labels. |
 | **Optimal** | Continuously inventories all applicable agency data; robust data loss prevention strategies that dynamically block suspected data exfiltration. |
 
-### 4.2 Data Categorization
+**Confidence:** HIGH. Direct from the source document.
+
+### Claim 18: Data Categorization — maturity progresses from limited and ad hoc categorization to automated data categorization and labeling enterprise-wide with robust techniques, granular structured formats, and mechanisms to address all data types.
+
+**Author's claim:** Data categorization must scale from ad hoc to automated, enterprise-wide. (§5.5)
+
+**Evidence presented:**
 
 | Stage | Description |
 |-------|-------------|
@@ -290,7 +340,13 @@ Agency data should be protected on devices, in applications, and on networks in 
 | **Advanced** | Automates some data categorization and labeling in a consistent, tiered, targeted manner with simple structured formats and regular review. |
 | **Optimal** | Automates data categorization and labeling enterprise-wide with robust techniques; granular, structured formats; mechanisms to address all data types. |
 
-### 4.3 Data Availability
+**Confidence:** HIGH. Direct from the source document.
+
+### Claim 19: Data Availability — maturity progresses from primarily on-premises data stores with some off-site backups to dynamic methods optimizing data availability, including historical data, according to user and entity need.
+
+**Author's claim:** Data availability must move from static on-premises to dynamic, need-based. (§5.5)
+
+**Evidence presented:**
 
 | Stage | Description |
 |-------|-------------|
@@ -299,7 +355,13 @@ Agency data should be protected on devices, in applications, and on networks in 
 | **Advanced** | Primarily makes data available from redundant, highly available data stores; ensures access to historical data. |
 | **Optimal** | Uses dynamic methods to optimize data availability, including historical data, according to user and entity need. |
 
-### 4.4 Data Access
+**Confidence:** HIGH. Direct from the source document.
+
+### Claim 20: Data Access — maturity progresses from static access controls governing user/entity access to automated dynamic just-in-time and just-enough data access controls enterprise-wide with continuous review of permissions, considering identity, device risk, application, and data category.
+
+**Author's claim:** Data access controls must become dynamic, context-aware, and JIT/JEA. (§5.5)
+
+**Evidence presented:**
 
 | Stage | Description |
 |-------|-------------|
@@ -308,7 +370,13 @@ Agency data should be protected on devices, in applications, and on networks in 
 | **Advanced** | Automates data access controls considering identity, device risk, application, data category, etc.; time-limited where applicable. |
 | **Optimal** | Automates dynamic just-in-time and just-enough data access controls enterprise-wide with continuous review of permissions. |
 
-### 4.5 Data Encryption
+**Confidence:** HIGH. Direct from the source document.
+
+### Claim 21: Data Encryption — maturity progresses from encrypting minimal agency data with ad hoc key management to encrypting data in use where appropriate, enforcing least privilege for secure key management enterprise-wide, and applying encryption using up-to-date standards and cryptographic agility.
+
+**Author's claim:** Encryption must extend from minimal to comprehensive, including data in use. (§5.5)
+
+**Evidence presented:**
 
 | Stage | Description |
 |-------|-------------|
@@ -317,48 +385,44 @@ Agency data should be protected on devices, in applications, and on networks in 
 | **Advanced** | Encrypts all data at rest and in transit to maximum extent possible; begins incorporating cryptographic agility; protects encryption keys (secrets not hard coded, regular rotation). |
 | **Optimal** | Encrypts data in use where appropriate; enforces least privilege for secure key management enterprise-wide; applies encryption using up-to-date standards and cryptographic agility to the extent possible. |
 
-### 4.6 Cross-Cutting Capabilities (Data)
+**Confidence:** HIGH. Direct from the source document.
 
-**Visibility & Analytics:**
-| Stage | Description |
-|-------|-------------|
-| Traditional | Limited visibility into data including location, access, and usage; analysis primarily manual. |
-| Initial | Visibility based on data inventory management, categorization, encryption, and access attempts; some automated analysis and correlation. |
-| Advanced | Maintains data visibility in a comprehensive, enterprise-wide manner; automated analysis and correlation; begins employing predictive analytics. |
-| Optimal | Visibility across full data lifecycle; robust analytics including predictive analytics; comprehensive views of agency data and continuous security posture assessment. |
+### Claim 22: Data Cross-Cutting Capabilities — progress from limited visibility with manual analysis to visibility across the full data lifecycle with robust predictive analytics; from manual ad hoc data lifecycle processes to maximum automation of data lifecycles and security policies; from ad hoc governance with manual implementation to unified data lifecycle policies dynamically enforced across the enterprise.
 
-**Automation & Orchestration:**
-| Stage | Description |
-|-------|-------------|
-| Traditional | Implements data lifecycle and security policies (access, usage, storage, encryption, configurations, protections, backups, categorization, sanitization) through manual, potentially ad hoc, processes. |
-| Initial | Uses some automated processes to implement data lifecycle and security policies. |
-| Advanced | Implements data lifecycle and security policies primarily through automated methods for most agency data in a consistent, tiered, targeted manner across the enterprise. |
-| Optimal | Automates, to the maximum extent possible, data lifecycles and security policies for all agency data across the enterprise. |
+**Author's claim:** Cross-cutting capabilities within the Data pillar. (§5.5)
 
-**Governance:**
-| Stage | Description |
-|-------|-------------|
-| Traditional | Ad hoc data governance policies (protection, categorization, access, inventorying, storage, recovery, removal) with manual implementation. |
-| Initial | Defines high-level data governance policies; relies primarily on manual, segmented implementation. |
-| Advanced | Begins integration of data lifecycle policy enforcement across the enterprise, enabling more unified definitions for data governance policies. |
-| Optimal | Data lifecycle policies are unified to the maximum extent possible and dynamically enforced across the enterprise. |
+**Evidence presented:**
+
+**Visibility & Analytics:** Traditional → limited visibility into data including location, access, and usage; analysis primarily manual. Optimal → visibility across full data lifecycle; robust analytics including predictive analytics; comprehensive views of agency data and continuous security posture assessment.
+
+**Automation & Orchestration:** Traditional → implements data lifecycle and security policies through manual, potentially ad hoc, processes. Optimal → automates, to the maximum extent possible, data lifecycles and security policies for all agency data across the enterprise.
+
+**Governance:** Traditional → ad hoc data governance policies with manual implementation. Optimal → data lifecycle policies are unified to the maximum extent possible and dynamically enforced across the enterprise.
+
+**Confidence:** HIGH. Direct from the source document.
 
 ---
 
 ## 5. Cross-Pillar Observations
 
-### 5.1 Common Maturity Patterns
+### Claim 23: All four pillars share the same maturity trajectory — Traditional (manual, static, siloed) → Initial (automation begins) → Advanced (enterprise-wide, dynamic) → Optimal (fully automated, continuous, just-in-time, real-time risk analytics) — characterized by the same underlying shift from manual/static to automated/continuous across all functions.
 
-All four pillars share the same maturity trajectory — **Traditional → Initial → Advanced → Optimal** — characterized by:
+**Author's claim:** This is a synthesis observation by this note's author.
+
+**Evidence presented (common progression across pillars):**
 
 1. **Traditional:** Manual processes, static configurations, siloed visibility, ad hoc governance, limited automation.
 2. **Initial:** Automation begins (scripts, tools), basic integration across pillars, formalized policies, some contextual information in access decisions.
 3. **Advanced:** Enterprise-wide automated processes, cross-pillar coordination, centralized visibility, dynamic policy adaptation, cryptographic agility begins.
 4. **Optimal:** Fully automated, continuous, just-in-time, enterprise-wide; real-time risk analytics; immutable workloads; cryptographic agility; dynamic enforcement.
 
-### 5.2 Cross-Cutting Capabilities Across Pillars
+**Confidence:** HIGH. The pattern is directly observable across all pillar function tables in the source document.
 
-CISA's three cross-cutting capabilities — **Visibility & Analytics**, **Automation & Orchestration**, and **Governance** — operate within each pillar. As agencies mature, these capabilities become increasingly integrated across pillars:
+### Claim 24: CISA's three cross-cutting capabilities — Visibility & Analytics, Automation & Orchestration, and Governance — become increasingly integrated across pillars as maturity increases, with the Optimal stage characterized by centralized dynamic monitoring, infrastructure-as-code, and fully automated enterprise-wide policies with continuous enforcement.
+
+**Author's claim:** The cross-cutting capabilities operate within each pillar and converge at higher maturity levels. (§5.1–5.5)
+
+**Evidence presented (cross-pillar capability summary):**
 
 | Capability | Traditional | Optimal |
 |------------|-------------|---------|
@@ -366,12 +430,20 @@ CISA's three cross-cutting capabilities — **Visibility & Analytics**, **Automa
 | Automation & Orchestration | Static, manual processes | Dynamic response to enterprise-wide changing requirements; infrastructure-as-code |
 | Governance | Ad hoc policies, manual enforcement | Fully automated enterprise-wide policies with continuous enforcement, dynamic updates |
 
-### 5.3 Key Tensions
+**Confidence:** HIGH. Direct from the source document.
+
+### Claim 25: Key tensions exist between pillar ideals and operational realities — Device pillar vs. BYOD constraints, network vs. application-level controls (defense-in-depth tradeoff), encryption vs. visibility (monitoring tradeoff), and immutable workloads vs. legacy systems (modernization gap) — and CISA acknowledges these tensions without fully resolving them.
+
+**Author's claim:** This is a synthesis observation by this note's author identifying tensions across pillars.
+
+**Evidence presented (key tensions):**
 
 - **Device vs. BYOD:** CISA acknowledges that BYOD policies reduce visibility and control options, creating a tension between the Device pillar's ideal state and practical workforce realities.
 - **Network vs. Application-level controls:** Optimal ZTA pushes security controls *closer to applications and data*, reducing reliance on network-layer protections — but network segmentation remains critical for defense-in-depth.
 - **Encryption vs. Visibility:** Encrypting all traffic (Network pillar Optimal) can conflict with traffic inspection needs for threat detection. Agencies must balance cryptographic protections with monitoring requirements.
 - **Immutable workloads vs. legacy systems:** The Application pillar's Optimal state (immutable workloads, automated CI/CD) assumes modern cloud-native architectures, which many federal legacy systems cannot support.
+
+**Confidence:** MEDIUM. These tensions are visible in the source document but are this note's analytical framing — CISA acknowledges the tensions implicitly through stage descriptions rather than naming them explicitly.
 
 ---
 
