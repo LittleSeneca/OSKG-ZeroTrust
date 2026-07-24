@@ -234,11 +234,16 @@ Beyond the books, these are the people whose work defines the Zero Trust landsca
 | 5 | In Zero Trust We Trust (Naduvath) | Not on libgen | — |
 | 6 | Zero Trust in Resilient Cloud (Halley et al.) | **Acquired** | EPUB (44MB) |
 | 7 | Zero Trust Privacy (Jolly & Garbis) | Not on libgen | — |
-| 8 | NIST SP 800-207 | Free PDF | To download |
-| 9 | NIST SP 800-207A | Free PDF | To download |
-| 10 | CISA ZT Maturity Model | Free PDF | To download |
-| 11 | DoD ZT Reference Architecture | Free PDF | To download |
-| 12 | NSA Embracing Zero Trust | Free PDF | To download |
+| 8 | NIST SP 800-207 | **Acquired** | PDF (945KB) |
+| 9 | NIST SP 800-207A | **Acquired** | PDF (1.4MB) |
+| 10 | CISA ZT Maturity Model v2 | **Acquired** | PDF (1.4MB) |
+| 11 | DoD ZT Reference Architecture v2 | **Acquired** | PDF (6.5MB) |
+| 12 | NSA Embracing Zero Trust | **Acquired** | PDF (644KB) |
+| + | DoD ZT Strategy & Roadmap | **Acquired** | PDF (5.9MB) |
+| + | NSA ZT User Pillar | **Acquired** | PDF (767KB) |
+| + | NSA ZT Device Pillar | **Acquired** | PDF (907KB) |
+| + | NSA ZT Network/Env Pillar | **Acquired** | PDF (641KB) |
+| + | NSTAC Report to the President | **Acquired** | PDF (1.8MB) |
 | 13 | Cyber Defense Matrix (Yu) | **Acquired** | PDF (29MB) |
 
 ---
