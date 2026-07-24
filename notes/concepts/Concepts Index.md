@@ -46,8 +46,12 @@ Core Zero Trust concepts, definitions, and principles. These notes define the vo
 
 Chapter-by-chapter conceptual analysis of each book in the Book Guide. These notes capture definitions, principles, and conceptual frameworks from each source before they are decomposed into claims.
 
+- [[NIST 800-207 — Ch2 — Zero Trust Basics]] — The operative definition, seven tenets, network assumptions, PDP/PEP model. The most-cited chapter in Zero Trust literature.
 - [[NIST 800-207 — Ch3 — Logical Components]] — The canonical ZTA component model: PE, PA, PEP; three approach variations; four deployment models; trust algorithm; control plane / data plane separation. **Load-bearing chapter for the entire ZT standards ecosystem.**
+- [[NIST 800-207 — Ch4 — Deployment Scenarios]] — Five deployment scenarios: satellite facilities, multi-cloud/cloud-to-cloud, contracted services/nonemployee access, cross-enterprise collaboration, public-facing services. Cross-referenced with DoD ZT RA, BeyondCorp, and Green-Ortiz implementation patterns.
 - [[NIST 800-207 — Ch7 — Migration]] — Migration to ZTA: pure vs. hybrid brownfield, the 7-step deployment cycle (actors → assets → processes → policies → solutions → deploy/monitor → expand).
+- [[CISA ZTMM — Identity Pillar]] — Maturity progression for authentication, identity stores, risk assessments, and access management; Traditional → Initial → Advanced → Optimal with NSA User Pillar cross-references.
+- [[CISA ZTMM — Device Network App Data Pillars]] — Combined note covering the four remaining CISA ZTMM v2 pillars: Device, Network/Environment, Application Workload, and Data. Each pillar documented with all functions at all maturity stages plus cross-cutting capabilities. Cross-referenced to NIST 800-207 logical components, NSA Device Pillar, and NSA Network Pillar.
 
 ---
 
