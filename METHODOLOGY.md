@@ -94,7 +94,7 @@ The capstone synthesizes the structural analysis into a document that reports wh
 
 ## How This Aligns with OSKG Principles
 
-The pipeline converges with the ORKG approach. Both implement the same architecture: structured claim extraction → typed edges → graph querying → synthesis from structure. The convergence across a cybersecurity domain (Zero Trust) and the original humanities domain (biblical studies) further validates the pattern as a general solution to scholarly and technical synthesis.
+Both OSKG-ZeroTrust and ORKG implement the same architecture: structured claim extraction → typed edges → graph querying → synthesis from structure. The table below maps the implementation across both systems.
 
 | OSKG Principle | ORKG Implementation | OSKG-ZeroTrust Implementation |
 |---------------|-------------------|-------------------------------|
@@ -106,6 +106,8 @@ The pipeline converges with the ORKG approach. Both implement the same architect
 | **Query layer** | SPARQL / semantic search | Obsidian graph view + tag filtering + wikilink traversal |
 | **Synthesis** | Evidence synthesis from graph structure | Convergence scoring, fault line detection, cascade trees, stress tests |
 | **Openness** | Open-access knowledge graph | Open-source GitHub repo, all claims and edges documented |
+
+The ORKG literature validates this architecture at scale (millions of papers, tens of millions of claims). OSKG-YahWeh validated it at depth in a humanities domain (17 books, 723 claims, biblical studies). OSKG-ZeroTrust extends the validation to a third domain — cybersecurity architecture — with different source types (government standards, practitioner books, implementation narratives), different evidence types (architectural reasoning, case studies, empirical measurement), and different synthesis challenges (vendor influence, active evolution, prescriptive claims). The pattern holds across all three domains. It is not domain-specific. It is a general solution to the problem of synthesizing large bodies of argumentation where claims are contested and evidence types are diverse.
 
 ## Where This Differs from the Standard OSKG Approach
 
@@ -121,21 +123,37 @@ The pipeline converges with the ORKG approach. Both implement the same architect
 | **Query mechanism** | Formal semantic queries (SPARQL) | Filesystem graph traversal (wikilinks + Obsidian graph view) |
 | **Source types** | Peer-reviewed papers | Books, government standards, white papers, implementation narratives, academic papers |
 
-### The Cybersecurity-Specific Challenge
-
-The standard OSKG approach was designed for scientific literature, where claims are empirical, falsifiable, and relatively self-contained. Cybersecurity architecture — particularly Zero Trust — presents different challenges:
-
-- **Claims are often prescriptive, not descriptive.** "Organizations should implement microsegmentation at Layer 7" is a recommendation, not a falsifiable finding. The evidence is architectural reasoning, case studies, and operational experience — different evidence types that carry different weight.
-- **Vendor influence is real.** Many books are published by Cisco Press. Google's BeyondCorp papers document a real implementation but also serve Google Cloud's commercial interests. The graph must distinguish between architectural claims supported by evidence and architectural claims that serve a product strategy.
-- **The domain is actively evolving.** NIST SP 800-207 was published in 2020. CISA's maturity model was updated in 2023. New books appear annually. Claims are not static — they have a temporal dimension that the graph must capture.
-- **Government standards carry genuine authority.** NIST, CISA, DoD, and NSA documents are not just another source — they are the regulatory and architectural bedrock that the rest of the industry builds on. The graph must reflect this asymmetry without treating government standards as infallible.
-- **Implementation evidence is scarce.** Unlike medicine or physics, cybersecurity lacks controlled experiments. The BeyondCorp papers are the closest thing to empirical evidence in the field, and even they document a single organization's experience. Most claims rest on architectural reasoning, not empirical validation.
-
-OSKG-ZeroTrust addresses these by maintaining explicit evidence-type metadata (architectural vs. empirical vs. theoretical vs. anecdotal), tracking source provenance (vendor-affiliated vs. independent vs. government), and capturing temporal context (when was this claim made, and has subsequent work confirmed or challenged it).
-
 ### Query Layer Differences
 
 The standard OSKG uses formal semantic queries (SPARQL) over RDF triples. OSKG-ZeroTrust uses the Obsidian vault as its graph database — wikilinks are edges, files are nodes, tag filtering is the query language, and graph view is the visualization layer. For a corpus of this size, this is sufficient. It enables queries like "show me every HIGH-confidence claim about microsegmentation that has contradicting evidence" through tag intersection and wikilink traversal. For larger corpora, a formal semantic layer would be necessary.
+
+## Domain Adaptation
+
+Zero Trust differs from OSKG-YahWeh in ways that affect methodology at every phase:
+
+| Dimension | OSKG-YahWeh | OSKG-ZeroTrust |
+|-----------|-------------|-----------------|
+| **Source type** | Scholarly monographs, archaeological reports | Technical books, government standards, practitioner guides, white papers |
+| **Evidence type** | Archaeological, epigraphic, textual, iconographic | Architectural, empirical (case studies), theoretical, anecdotal |
+| **Consensus** | Centuries of scholarship with established schools | Rapidly evolving field with significant vendor influence |
+| **Temporality** | Ancient history (static evidence) | Active development (evidence still being produced, claims becoming obsolete) |
+| **Primary sources** | Ancient inscriptions, artifacts, texts | NIST standards, CISA frameworks, DoD reference architectures, Google BeyondCorp |
+| **Claims nature** | Historical/descriptive (what happened, when) | Architectural/prescriptive (how to build, what to do) |
+| **Authority structure** | Peer review and scholarly reputation | Government mandate, vendor market position, practitioner consensus |
+
+These differences are not deficiencies. They are the domain. The methodology adapts while preserving the core OSKG principles.
+
+### What Makes This Domain Hard
+
+The standard OSKG approach was designed for scientific literature, where claims are empirical, falsifiable, and relatively self-contained. Cybersecurity architecture presents different challenges:
+
+- **Claims are often prescriptive, not descriptive.** "Organizations should implement microsegmentation at Layer 7" is a recommendation, not a falsifiable finding. The evidence is architectural reasoning, case studies, and operational experience — different evidence types that carry different weight.
+- **Vendor influence is real.** Many books are published by Cisco Press. Google's BeyondCorp papers document a real implementation but also serve Google Cloud's commercial interests. The graph must distinguish between architectural claims supported by evidence and architectural claims that serve a product strategy.
+- **The domain is actively evolving.** NIST SP 800-207 was published in 2020. CISA's maturity model was updated in 2023. New books appear annually. Claims have a temporal dimension that the graph must capture.
+- **Government standards carry genuine authority.** NIST, CISA, DoD, and NSA documents are the regulatory and architectural bedrock. The graph must reflect this asymmetry without treating government standards as infallible.
+- **Implementation evidence is scarce.** Cybersecurity lacks controlled experiments. The BeyondCorp papers are the closest thing to empirical evidence in the field, and even they document a single organization's experience. Most claims rest on architectural reasoning, not empirical validation.
+
+OSKG-ZeroTrust addresses these by maintaining explicit evidence-type metadata (architectural vs. empirical vs. theoretical vs. anecdotal), tracking source provenance (vendor-affiliated vs. independent vs. government), and capturing temporal context (when was this claim made, and has subsequent work confirmed or challenged it).
 
 ## Fair Use and Copyright
 
@@ -159,7 +177,7 @@ A substantial portion of the Zero Trust corpus consists of United States governm
 
 The Google BeyondCorp papers were published in Usenix ;login: and are freely available from Google Research. The academic papers in the corpus are a mix of open-access (MDPI, Springer Open) and paywalled (Elsevier) publications. For paywalled papers, the same four-factor analysis applies: the knowledge graph extracts atomic claims, not full papers, for scholarly research purposes. This is well within established academic fair use norms.
 
-### Why This Matters
+### Why Fair Use Matters
 
 The OSKG methodology is only viable if fair use protects the extraction pipeline. If every book required publisher permission, the knowledge graph could not exist — not because of cost, but because the transaction overhead would make systematic synthesis impossible. The fair use analysis here is transparent and specific, not a hand-waving assertion. Anyone who wants to audit, reproduce, or extend the graph can evaluate the legal basis for themselves.
 
@@ -175,35 +193,13 @@ The ORKG literature provides the academic scaffolding for this methodology:
 
 4. **Sander (2025).** "ORKG ASK Deep Research: Enhancing Scientific Search through LLM-based Reasoning over Research Papers." Uses ORKG graphs for "evidence synthesis that are difficult to achieve through traditional retrieval."
 
-## Convergence with ORKG
-
-The ORKG literature validates the architecture at scale (millions of papers, tens of millions of claims). OSKG-YahWeh validated it at depth in a humanities domain (17 books, 723 claims, biblical studies). OSKG-ZeroTrust extends the validation to a third domain — cybersecurity architecture — with different source types (government standards, practitioner books, implementation narratives), different evidence types (architectural reasoning, case studies, empirical measurement), and different synthesis challenges (vendor influence, active evolution, prescriptive claims).
-
-The pattern holds across all three domains: structured claim extraction → typed edges → graph querying → synthesis from structure. This is not a domain-specific technique. It is a general solution to the problem of synthesizing large bodies of argumentation where claims are contested, evidence types are diverse, and the sources themselves cannot be taken at face value.
-
-## Why This Matters
+## The Case for Auditable Synthesis
 
 The standard mode of technical synthesis in cybersecurity is narrative: a practitioner reads widely and writes a survey or a framework that identifies patterns. This works but has limits. The synthesizer's own judgments — which authors to trust, which vendors to discount, which arguments feel compelling — are invisible. The reader cannot audit the synthesis. The synthesizer cannot query the evidence base.
 
 An OSKG makes synthesis auditable. Every claim is individually addressable. Every edge is explicit. The synthesis does not say "the industry agrees that microsegmentation is essential" — it says "14 claims at HIGH confidence support microsegmentation as a core ZT principle; 3 claims at MEDIUM confidence challenge its feasibility at scale; the contradiction is concentrated in claims about Layer 7 microsegmentation specifically." The confidence is structural, not rhetorical.
 
 This is particularly valuable for Zero Trust, where the landscape is dense with vendor claims, government mandates, and practitioner experience — and where the gap between what is asserted and what is demonstrated is wide. The graph does not resolve these tensions. But it makes them visible — as contradiction edges, as evidence-type asymmetries, as claims that are heavily supported by architectural reasoning but have zero empirical backing.
-
-## Domain Adaptation
-
-Zero Trust differs from the OSKG-YahWeh domain in ways that affect methodology at every phase:
-
-| Dimension | OSKG-YahWeh | OSKG-ZeroTrust |
-|-----------|-------------|-----------------|
-| **Source type** | Scholarly monographs, archaeological reports | Technical books, government standards, practitioner guides, white papers |
-| **Evidence type** | Archaeological, epigraphic, textual, iconographic | Architectural, empirical (case studies), theoretical, anecdotal |
-| **Consensus** | Centuries of scholarship with established schools | Rapidly evolving field with significant vendor influence |
-| **Temporality** | Ancient history (static evidence) | Active development (evidence still being produced, claims becoming obsolete) |
-| **Primary sources** | Ancient inscriptions, artifacts, texts | NIST standards, CISA frameworks, DoD reference architectures, Google BeyondCorp |
-| **Claims nature** | Historical/descriptive (what happened, when) | Architectural/prescriptive (how to build, what to do) |
-| **Authority structure** | Peer review and scholarly reputation | Government mandate, vendor market position, practitioner consensus |
-
-These differences are not deficiencies. They are the domain. The methodology adapts to them while preserving the core OSKG principles: structured extraction, typed edges, and reproducibility.
 
 ## Related Project Documents
 
