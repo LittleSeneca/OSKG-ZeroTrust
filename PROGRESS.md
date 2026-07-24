@@ -12,9 +12,24 @@ updated: 2026-07-24
 ## Status Summary
 
 - **Total planned notes:** ~85
-- **Notes written:** 0
-- **Remaining:** 85
-- **Last session:** (none)
+- **Notes written:** 16
+- **Remaining:** 69
+- **Last session:** 2026-07-24 — Tier 1 complete (16 notes in 1 session)
+
+## Session Log
+
+### 2026-07-24 — Session 1
+- **Items processed:** 16 (all Tier 1 government standards)
+  - NIST SP 800-207 (7 chapters): Introduction, Zero Trust Basics, Logical Components, Deployment Scenarios, Threats, Federal Guidance, Migration
+  - NSA Embracing a Zero Trust Security Model
+  - NSA User Pillar, Device Pillar, Network/Environment Pillar
+  - CISA ZTMM: Overview and Framework, Identity Pillar, Device/Network/App/Data Pillars
+  - DoD ZT RA: Overview and Strategy, Capabilities and Use Cases
+- **Artifacts created:** 16 notes
+- **Commits:** 8
+- **Model:** DeepSeek V4 Pro
+- **Method:** 1 note written directly (NIST Ch2 — format baseline), 15 dispatched via delegate_task in 5 parallel batches
+- **Items remaining:** 69 (Tiers 2-4)
 
 ## By Priority
 
@@ -27,7 +42,7 @@ Target: 1 session, ~15 notes
 - [x] NSA ZT User Pillar (done)
 - [x] NSA ZT Device Pillar (done)
 - [x] NSA ZT Network/Environment Pillar (done)
-- [x] DoD ZT Reference Architecture v2 (dispatched — 2 notes)
+- [x] DoD ZT Reference Architecture v2 (2 notes done)
 
 ### Tier 2 — Core Books (high-volume, foundation of the knowledge graph)
 Target: 2-3 sessions, ~40 notes

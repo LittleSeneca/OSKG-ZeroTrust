@@ -20,7 +20,7 @@ Government and industry standards that define the Zero Trust architectural lands
 | NIST SP 800-207 — Zero Trust Architecture | NIST | 2020 | To acquire |
 | NIST SP 800-207A — ZTA for Access Control in Cloud-Native Applications | NIST | 2024 | To acquire |
 | CISA Zero Trust Maturity Model | CISA | 2021/2023 | To acquire |
-| DoD Zero Trust Reference Architecture v2.0 | DoD | 2022 | To acquire |
+| DoD Zero Trust Reference Architecture v2.0 | DoD | 2022 | **Acquired — Ch3-4 processed** |
 | DoD Zero Trust Strategy and Roadmap | DoD | 2022 | To acquire |
 | NSA Embracing a Zero Trust Security Model | NSA | 2021 | To acquire |
 | NSA Advancing Zero Trust Maturity — User Pillar | NSA | 2023 | To acquire |

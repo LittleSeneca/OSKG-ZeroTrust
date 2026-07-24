@@ -52,6 +52,7 @@ Chapter-by-chapter conceptual analysis of each book in the Book Guide. These not
 - [[NIST 800-207 — Ch7 — Migration]] — Migration to ZTA: pure vs. hybrid brownfield, the 7-step deployment cycle (actors → assets → processes → policies → solutions → deploy/monitor → expand).
 - [[CISA ZTMM — Identity Pillar]] — Maturity progression for authentication, identity stores, risk assessments, and access management; Traditional → Initial → Advanced → Optimal with NSA User Pillar cross-references.
 - [[CISA ZTMM — Device Network App Data Pillars]] — Combined note covering the four remaining CISA ZTMM v2 pillars: Device, Network/Environment, Application Workload, and Data. Each pillar documented with all functions at all maturity stages plus cross-cutting capabilities. Cross-referenced to NIST 800-207 logical components, NSA Device Pillar, and NSA Network Pillar.
+- [[DoD ZT Reference Architecture — Capabilities and Use Cases]] — The 7-aggregate capability taxonomy (CV-2), the 5-decision-point Fit-for-Purpose mapping (CV-7), and all 17 ZT use cases organized into six thematic clusters: data-centric security, analytics/AI, orchestration, network transformation, device hygiene, and authentication/authorization. Cross-referenced with NIST 800-207, CISA ZTMM, and NSA guidance.
 
 ---
 
