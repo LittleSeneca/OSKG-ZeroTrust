@@ -1,0 +1,7352 @@
+{
+  "sources": [
+    {
+      "file": "Cyber_Defense_Matrix_The_Essential_Guide_to_Navigating_the_Cybersecurity_Landsca.txt",
+      "category": "books",
+      "total_chars": 256451,
+      "source_type": "chapters",
+      "note_count": 11,
+      "sections": [
+        {
+          "id": "ch1",
+          "title": "C H A P T E R 1",
+          "chars": 18512
+        },
+        {
+          "id": "ch2",
+          "title": "C H A P T E R 2",
+          "chars": 16135
+        },
+        {
+          "id": "ch1",
+          "title": "Chapter 1.",
+          "chars": 13711
+        },
+        {
+          "id": "ch3",
+          "title": "C H A P T E R 3",
+          "chars": 39730
+        },
+        {
+          "id": "ch4",
+          "title": "C H A P T E R 4",
+          "chars": 20891
+        },
+        {
+          "id": "ch5",
+          "title": "C H A P T E R 5",
+          "chars": 27143
+        },
+        {
+          "id": "ch6",
+          "title": "C H A P T E R 6",
+          "chars": 20779
+        },
+        {
+          "id": "ch7",
+          "title": "C H A P T E R 7",
+          "chars": 20865
+        },
+        {
+          "id": "ch8",
+          "title": "C H A P T E R 8",
+          "chars": 27116
+        },
+        {
+          "id": "ch9",
+          "title": "C H A P T E R 9",
+          "chars": 29227
+        },
+        {
+          "id": "ch1",
+          "title": "C H A P T E R 1 0",
+          "chars": 11267
+        }
+      ]
+    },
+    {
+      "file": "Project_Zero_Trust_A_Story_about_a_Strategy_for_Aligning_Security_and_the_Busine.txt",
+      "category": "books",
+      "total_chars": 456191,
+      "source_type": "chapters",
+      "note_count": 22,
+      "sections": [
+        {
+          "id": "ch1",
+          "title": "Chapter 1:",
+          "chars": 57
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2:",
+          "chars": 190
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3:",
+          "chars": 59
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4:",
+          "chars": 51
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5:",
+          "chars": 69
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6:",
+          "chars": 52
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7:",
+          "chars": 50
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8:",
+          "chars": 66
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9:",
+          "chars": 58
+        },
+        {
+          "id": "ch10",
+          "title": "Chapter 10:\t The Tabletop Exercise\b",
+          "chars": 59
+        },
+        {
+          "id": "ch11",
+          "title": "Chapter 11:\t Every Step Matters\b",
+          "chars": 15698
+        },
+        {
+          "id": "ch1",
+          "title": "Chapter 1",
+          "chars": 27865
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2",
+          "chars": 35338
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3",
+          "chars": 32698
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4",
+          "chars": 32637
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5",
+          "chars": 39837
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6",
+          "chars": 32010
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7",
+          "chars": 38001
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8",
+          "chars": 32872
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9",
+          "chars": 40778
+        },
+        {
+          "id": "ch10",
+          "title": "Chapter 10",
+          "chars": 42676
+        },
+        {
+          "id": "ch11",
+          "title": "Chapter 11",
+          "chars": 80726
+        }
+      ]
+    },
+    {
+      "file": "Zero_Trust_Architecture_Networking_Technology_Security.txt",
+      "category": "books",
+      "total_chars": 872973,
+      "source_type": "chapters",
+      "note_count": 36,
+      "sections": [
+        {
+          "id": "ch1",
+          "title": "Chapter 1",
+          "chars": 40
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2",
+          "chars": 37
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3",
+          "chars": 47
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4",
+          "chars": 39
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5",
+          "chars": 52
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6",
+          "chars": 27
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7",
+          "chars": 43
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8",
+          "chars": 56
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9",
+          "chars": 37
+        },
+        {
+          "id": "ch10",
+          "title": "Chapter 10",
+          "chars": 37
+        },
+        {
+          "id": "ch11",
+          "title": "Chapter 11",
+          "chars": 137
+        },
+        {
+          "id": "ch1",
+          "title": "Chapter 1",
+          "chars": 889
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2",
+          "chars": 1656
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3",
+          "chars": 265
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4",
+          "chars": 544
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5",
+          "chars": 756
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6",
+          "chars": 1436
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7",
+          "chars": 1516
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8",
+          "chars": 1011
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9",
+          "chars": 566
+        },
+        {
+          "id": "ch10",
+          "title": "Chapter 10",
+          "chars": 580
+        },
+        {
+          "id": "ch11",
+          "title": "Chapter 11",
+          "chars": 24344
+        },
+        {
+          "id": "ch1",
+          "title": "Chapter 1",
+          "chars": 70957
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2",
+          "chars": 99957
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3",
+          "chars": 43491
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4",
+          "chars": 59540
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5",
+          "chars": 60648
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6",
+          "chars": 23309
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7.",
+          "chars": 43846
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7.",
+          "chars": 5023
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7",
+          "chars": 107480
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6, \u201cSegmentation,\u201d presented a definition of segmentation and methodologies",
+          "chars": 386
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8",
+          "chars": 55989
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9",
+          "chars": 58865
+        },
+        {
+          "id": "ch10",
+          "title": "Chapter 10",
+          "chars": 33490
+        },
+        {
+          "id": "ch11",
+          "title": "Chapter 11",
+          "chars": 149977
+        }
+      ]
+    },
+    {
+      "file": "Zero_Trust_Security_An_Enterprise_Guide.txt",
+      "category": "books",
+      "total_chars": 651736,
+      "source_type": "chapters",
+      "note_count": 296,
+      "sections": [
+        {
+          "id": "ch1",
+          "title": "Chapter 1: \u0007Introduction\b...........................................................................",
+          "chars": 120
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2: \u0007What Is Zero Trust?\b....................................................................",
+          "chars": 1323
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3: \u0007Zero Trust Architectures\b...............................................................",
+          "chars": 3384
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4: \u0007Zero Trust in Practice\b.................................................................",
+          "chars": 1263
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5: \u0007Identity and Access Management\b.........................................................",
+          "chars": 1456
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6: \u0007Network Infrastructure\b.................................................................",
+          "chars": 1313
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7: \u0007Network Access Control\b.................................................................",
+          "chars": 1272
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8: \u0007Intrusion Detection and Prevention Systems\b...................................... 117",
+          "chars": 911
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9: \u0007Virtual Private Networks\b...............................................................",
+          "chars": 526
+        },
+        {
+          "id": "ch10",
+          "title": "Chapter 10: \u0007Next-Generation Firewalls\b.............................................................",
+          "chars": 783
+        },
+        {
+          "id": "ch11",
+          "title": "Chapter 11: \u0007Security Operations\b...................................................................",
+          "chars": 872
+        },
+        {
+          "id": "ch12",
+          "title": "Chapter 12: \u0007Privileged Access Management\b........................................................ 1",
+          "chars": 813
+        },
+        {
+          "id": "ch13",
+          "title": "Chapter 13: \u0007Data Protection\b.......................................................................",
+          "chars": 1227
+        },
+        {
+          "id": "ch14",
+          "title": "Chapter 14: \u0007Infrastructure and Platform as a Service\b.......................................... 173",
+          "chars": 664
+        },
+        {
+          "id": "ch15",
+          "title": "Chapter 15: \u0007Software as a Service\b.................................................................",
+          "chars": 1047
+        },
+        {
+          "id": "ch16",
+          "title": "Chapter 16: \u0007IoT Devices and \u201cThings\u201d\b..............................................................",
+          "chars": 628
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17: \u0007A Zero Trust Policy Model\b.............................................................",
+          "chars": 1758
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18: \u0007Zero Trust Scenarios\b..................................................................",
+          "chars": 3516
+        },
+        {
+          "id": "ch19",
+          "title": "Chapter 19: \u0007Making Zero Trust Successful\b..........................................................",
+          "chars": 2203
+        },
+        {
+          "id": "ch20",
+          "title": "Chapter 20: \u0007Conclusion\b............................................................................",
+          "chars": 118
+        },
+        {
+          "id": "ch21",
+          "title": "Chapter 21: \u0007Afterword\b.............................................................................",
+          "chars": 14915
+        },
+        {
+          "id": "ch10",
+          "title": "Chapter 10\u2019s discussion on Next-Generation Firewalls (NGFWs) likewise is",
+          "chars": 4941
+        },
+        {
+          "id": "ch1",
+          "title": "CHAPTER 1",
+          "chars": 5286
+        },
+        {
+          "id": "ch1",
+          "title": "Chapter 1  Introduction",
+          "chars": 935
+        },
+        {
+          "id": "ch1",
+          "title": "Chapter 1  Introduction",
+          "chars": 163
+        },
+        {
+          "id": "ch2",
+          "title": "CHAPTER 2",
+          "chars": 3235
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4.",
+          "chars": 1384
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2  What Is Zero Trust?",
+          "chars": 2138
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2  What Is Zero Trust?",
+          "chars": 1032
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2  What Is Zero Trust?",
+          "chars": 1879
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2  What Is Zero Trust?",
+          "chars": 2052
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2  What Is Zero Trust?",
+          "chars": 2527
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2  What Is Zero Trust?",
+          "chars": 2349
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3, they are typically made up of a distributed set of network enforcement points.",
+          "chars": 558
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2  What Is Zero Trust?",
+          "chars": 2733
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2  What Is Zero Trust?",
+          "chars": 2393
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2  What Is Zero Trust?",
+          "chars": 2111
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2  What Is Zero Trust?",
+          "chars": 1903
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2  What Is Zero Trust?",
+          "chars": 171
+        },
+        {
+          "id": "ch3",
+          "title": "CHAPTER 3",
+          "chars": 4150
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 1259
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 2577
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 2429
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 2370
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 2326
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 2363
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 2738
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 2037
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 1462
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 1949
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 1061
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 2829
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 2182
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 2559
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 1676
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 2914
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 2364
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 3006
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 389
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17.",
+          "chars": 1537
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 1663
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 2093
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 2616
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 1507
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 2140
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 2228
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 1386
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 2185
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 1516
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 1136
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 1743
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 2006
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3  Zero Trust Architectures",
+          "chars": 176
+        },
+        {
+          "id": "ch4",
+          "title": "CHAPTER 4",
+          "chars": 3994
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4  Zero Trust in\u00a0Practice",
+          "chars": 1035
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4  Zero Trust in\u00a0Practice",
+          "chars": 1408
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4  Zero Trust in\u00a0Practice",
+          "chars": 2705
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4  Zero Trust in\u00a0Practice",
+          "chars": 2504
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4  Zero Trust in\u00a0Practice",
+          "chars": 2869
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4  Zero Trust in\u00a0Practice",
+          "chars": 2144
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4  Zero Trust in\u00a0Practice",
+          "chars": 2066
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4  Zero Trust in\u00a0Practice",
+          "chars": 3019
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4  Zero Trust in\u00a0Practice",
+          "chars": 2646
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4  Zero Trust in\u00a0Practice",
+          "chars": 2824
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4  Zero Trust in\u00a0Practice",
+          "chars": 2911
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4  Zero Trust in\u00a0Practice",
+          "chars": 2215
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4  Zero Trust in\u00a0Practice",
+          "chars": 1153
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4  Zero Trust in\u00a0Practice",
+          "chars": 1215
+        },
+        {
+          "id": "ch5",
+          "title": "CHAPTER 5",
+          "chars": 2907
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5  Identity and\u00a0Access Management",
+          "chars": 2482
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5  Identity and\u00a0Access Management",
+          "chars": 2567
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5  Identity and\u00a0Access Management",
+          "chars": 2209
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5  Identity and\u00a0Access Management",
+          "chars": 2349
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5  Identity and\u00a0Access Management",
+          "chars": 2734
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5  Identity and\u00a0Access Management",
+          "chars": 2157
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5  Identity and\u00a0Access Management",
+          "chars": 2282
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5  Identity and\u00a0Access Management",
+          "chars": 2366
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5  Identity and\u00a0Access Management",
+          "chars": 2218
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5  Identity and\u00a0Access Management",
+          "chars": 2429
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5  Identity and\u00a0Access Management",
+          "chars": 2552
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5  Identity and\u00a0Access Management",
+          "chars": 2892
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5  Identity and\u00a0Access Management",
+          "chars": 2054
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5  Identity and\u00a0Access Management",
+          "chars": 1304
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5  Identity and\u00a0Access Management",
+          "chars": 2041
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5  Identity and\u00a0Access Management",
+          "chars": 1752
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5  Identity and\u00a0Access Management",
+          "chars": 2754
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5  Identity and\u00a0Access Management",
+          "chars": 2594
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5  Identity and\u00a0Access Management",
+          "chars": 1490
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5  Identity and\u00a0Access Management",
+          "chars": 182
+        },
+        {
+          "id": "ch6",
+          "title": "CHAPTER 6",
+          "chars": 3346
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6  Network Infrastructure",
+          "chars": 2768
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6  Network Infrastructure",
+          "chars": 2175
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6  Network Infrastructure",
+          "chars": 3024
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6  Network Infrastructure",
+          "chars": 2751
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6  Network Infrastructure",
+          "chars": 2632
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6  Network Infrastructure",
+          "chars": 2672
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6  Network Infrastructure",
+          "chars": 2633
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6  Network Infrastructure",
+          "chars": 2691
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6  Network Infrastructure",
+          "chars": 1295
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6  Network Infrastructure",
+          "chars": 175
+        },
+        {
+          "id": "ch7",
+          "title": "CHAPTER 7",
+          "chars": 3658
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7  Network Access Control",
+          "chars": 1426
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7  Network Access Control",
+          "chars": 2741
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7  Network Access Control",
+          "chars": 2456
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7  Network Access Control",
+          "chars": 2427
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7  Network Access Control",
+          "chars": 2150
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7  Network Access Control",
+          "chars": 2368
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7  Network Access Control",
+          "chars": 2232
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7  Network Access Control",
+          "chars": 2252
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7  Network Access Control",
+          "chars": 2245
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7  Network Access Control",
+          "chars": 1516
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7  Network Access Control",
+          "chars": 175
+        },
+        {
+          "id": "ch8",
+          "title": "CHAPTER 8",
+          "chars": 3777
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8  Intrusion Detection and\u00a0Prevention Systems",
+          "chars": 2863
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8  Intrusion Detection and\u00a0Prevention Systems",
+          "chars": 2517
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8  Intrusion Detection and\u00a0Prevention Systems",
+          "chars": 2763
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8  Intrusion Detection and\u00a0Prevention Systems",
+          "chars": 2664
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8  Intrusion Detection and\u00a0Prevention Systems",
+          "chars": 591
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8  Intrusion Detection and\u00a0Prevention Systems",
+          "chars": 2909
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8  Intrusion Detection and\u00a0Prevention Systems",
+          "chars": 2915
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8  Intrusion Detection and\u00a0Prevention Systems",
+          "chars": 789
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8  Intrusion Detection and\u00a0Prevention Systems",
+          "chars": 195
+        },
+        {
+          "id": "ch9",
+          "title": "CHAPTER 9",
+          "chars": 1484
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9  Virtual Private Networks",
+          "chars": 2395
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9  Virtual Private Networks",
+          "chars": 2948
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9  Virtual Private Networks",
+          "chars": 2560
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9  Virtual Private Networks",
+          "chars": 1226
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9  Virtual Private Networks",
+          "chars": 2531
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9  Virtual Private Networks",
+          "chars": 599
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9  Virtual Private Networks",
+          "chars": 178
+        },
+        {
+          "id": "ch10",
+          "title": "CHAPTER 10",
+          "chars": 4238
+        },
+        {
+          "id": "ch10",
+          "title": "Chapter 10  Next-Generation Firewalls",
+          "chars": 1569
+        },
+        {
+          "id": "ch10",
+          "title": "Chapter 10  Next-Generation Firewalls",
+          "chars": 1038
+        },
+        {
+          "id": "ch10",
+          "title": "Chapter 10  Next-Generation Firewalls",
+          "chars": 2217
+        },
+        {
+          "id": "ch10",
+          "title": "Chapter 10  Next-Generation Firewalls",
+          "chars": 1326
+        },
+        {
+          "id": "ch10",
+          "title": "Chapter 10  Next-Generation Firewalls",
+          "chars": 2334
+        },
+        {
+          "id": "ch10",
+          "title": "Chapter 10  Next-Generation Firewalls",
+          "chars": 1271
+        },
+        {
+          "id": "ch10",
+          "title": "Chapter 10  Next-Generation Firewalls",
+          "chars": 180
+        },
+        {
+          "id": "ch11",
+          "title": "CHAPTER 11",
+          "chars": 4867
+        },
+        {
+          "id": "ch11",
+          "title": "Chapter 11  Security Operations",
+          "chars": 2355
+        },
+        {
+          "id": "ch11",
+          "title": "Chapter 11  Security Operations",
+          "chars": 2229
+        },
+        {
+          "id": "ch11",
+          "title": "Chapter 11  Security Operations",
+          "chars": 2603
+        },
+        {
+          "id": "ch11",
+          "title": "Chapter 11  Security Operations",
+          "chars": 2259
+        },
+        {
+          "id": "ch11",
+          "title": "Chapter 11  Security Operations",
+          "chars": 1675
+        },
+        {
+          "id": "ch11",
+          "title": "Chapter 11  Security Operations",
+          "chars": 1608
+        },
+        {
+          "id": "ch11",
+          "title": "Chapter 11  Security Operations",
+          "chars": 2317
+        },
+        {
+          "id": "ch11",
+          "title": "Chapter 11  Security Operations",
+          "chars": 1562
+        },
+        {
+          "id": "ch11",
+          "title": "Chapter 11  Security Operations",
+          "chars": 1167
+        },
+        {
+          "id": "ch11",
+          "title": "Chapter 11  Security Operations",
+          "chars": 174
+        },
+        {
+          "id": "ch12",
+          "title": "CHAPTER 12",
+          "chars": 3866
+        },
+        {
+          "id": "ch12",
+          "title": "Chapter 12  Privileged Access Management",
+          "chars": 2843
+        },
+        {
+          "id": "ch12",
+          "title": "Chapter 12  Privileged Access Management",
+          "chars": 1797
+        },
+        {
+          "id": "ch12",
+          "title": "Chapter 12  Privileged Access Management",
+          "chars": 2473
+        },
+        {
+          "id": "ch12",
+          "title": "Chapter 12  Privileged Access Management",
+          "chars": 1550
+        },
+        {
+          "id": "ch12",
+          "title": "Chapter 12  Privileged Access Management",
+          "chars": 1740
+        },
+        {
+          "id": "ch12",
+          "title": "Chapter 12  Privileged Access Management",
+          "chars": 183
+        },
+        {
+          "id": "ch13",
+          "title": "CHAPTER 13",
+          "chars": 4658
+        },
+        {
+          "id": "ch13",
+          "title": "Chapter 13  Data Protection",
+          "chars": 1771
+        },
+        {
+          "id": "ch13",
+          "title": "Chapter 13  Data Protection",
+          "chars": 1694
+        },
+        {
+          "id": "ch13",
+          "title": "Chapter 13  Data Protection",
+          "chars": 2168
+        },
+        {
+          "id": "ch13",
+          "title": "Chapter 13  Data Protection",
+          "chars": 1981
+        },
+        {
+          "id": "ch13",
+          "title": "Chapter 13  Data Protection",
+          "chars": 2755
+        },
+        {
+          "id": "ch13",
+          "title": "Chapter 13  Data Protection",
+          "chars": 2053
+        },
+        {
+          "id": "ch13",
+          "title": "Chapter 13  Data Protection",
+          "chars": 2336
+        },
+        {
+          "id": "ch13",
+          "title": "Chapter 13  Data Protection",
+          "chars": 1495
+        },
+        {
+          "id": "ch13",
+          "title": "Chapter 13  Data Protection",
+          "chars": 170
+        },
+        {
+          "id": "ch14",
+          "title": "CHAPTER 14",
+          "chars": 4797
+        },
+        {
+          "id": "ch14",
+          "title": "Chapter 14  Infrastructure and Platform as\u00a0a\u00a0Service",
+          "chars": 2879
+        },
+        {
+          "id": "ch14",
+          "title": "Chapter 14  Infrastructure and Platform as\u00a0a\u00a0Service",
+          "chars": 1606
+        },
+        {
+          "id": "ch14",
+          "title": "Chapter 14  Infrastructure and Platform as\u00a0a\u00a0Service",
+          "chars": 3020
+        },
+        {
+          "id": "ch14",
+          "title": "Chapter 14  Infrastructure and Platform as\u00a0a\u00a0Service",
+          "chars": 1543
+        },
+        {
+          "id": "ch14",
+          "title": "Chapter 14  Infrastructure and Platform as\u00a0a\u00a0Service",
+          "chars": 2921
+        },
+        {
+          "id": "ch14",
+          "title": "Chapter 14  Infrastructure and Platform as\u00a0a\u00a0Service",
+          "chars": 2278
+        },
+        {
+          "id": "ch14",
+          "title": "Chapter 14  Infrastructure and Platform as\u00a0a\u00a0Service",
+          "chars": 1215
+        },
+        {
+          "id": "ch14",
+          "title": "Chapter 14  Infrastructure and Platform as\u00a0a\u00a0Service",
+          "chars": 2872
+        },
+        {
+          "id": "ch14",
+          "title": "Chapter 14  Infrastructure and Platform as\u00a0a\u00a0Service",
+          "chars": 1971
+        },
+        {
+          "id": "ch14",
+          "title": "Chapter 14  Infrastructure and Platform as\u00a0a\u00a0Service",
+          "chars": 195
+        },
+        {
+          "id": "ch15",
+          "title": "CHAPTER 15",
+          "chars": 4722
+        },
+        {
+          "id": "ch15",
+          "title": "Chapter 15  Software as\u00a0a\u00a0Service",
+          "chars": 2581
+        },
+        {
+          "id": "ch15",
+          "title": "Chapter 15  Software as\u00a0a\u00a0Service",
+          "chars": 2453
+        },
+        {
+          "id": "ch15",
+          "title": "Chapter 15  Software as\u00a0a\u00a0Service",
+          "chars": 2174
+        },
+        {
+          "id": "ch15",
+          "title": "Chapter 15  Software as\u00a0a\u00a0Service",
+          "chars": 2738
+        },
+        {
+          "id": "ch15",
+          "title": "Chapter 15  Software as\u00a0a\u00a0Service",
+          "chars": 1835
+        },
+        {
+          "id": "ch15",
+          "title": "Chapter 15  Software as\u00a0a\u00a0Service",
+          "chars": 176
+        },
+        {
+          "id": "ch16",
+          "title": "CHAPTER 16",
+          "chars": 4204
+        },
+        {
+          "id": "ch16",
+          "title": "Chapter 16  IoT Devices and\u00a0\u201cThings\u201d",
+          "chars": 2469
+        },
+        {
+          "id": "ch16",
+          "title": "Chapter 16  IoT Devices and\u00a0\u201cThings\u201d",
+          "chars": 718
+        },
+        {
+          "id": "ch16",
+          "title": "Chapter 16  IoT Devices and\u00a0\u201cThings\u201d",
+          "chars": 2680
+        },
+        {
+          "id": "ch16",
+          "title": "Chapter 16  IoT Devices and\u00a0\u201cThings\u201d",
+          "chars": 1254
+        },
+        {
+          "id": "ch16",
+          "title": "Chapter 16  IoT Devices and\u00a0\u201cThings\u201d",
+          "chars": 864
+        },
+        {
+          "id": "ch16",
+          "title": "Chapter 16  IoT Devices and\u00a0\u201cThings\u201d",
+          "chars": 1749
+        },
+        {
+          "id": "ch16",
+          "title": "Chapter 16  IoT Devices and\u00a0\u201cThings\u201d",
+          "chars": 1527
+        },
+        {
+          "id": "ch16",
+          "title": "Chapter 16  IoT Devices and\u00a0\u201cThings\u201d",
+          "chars": 1222
+        },
+        {
+          "id": "ch16",
+          "title": "Chapter 16  IoT Devices and\u00a0\u201cThings\u201d",
+          "chars": 909
+        },
+        {
+          "id": "ch16",
+          "title": "Chapter 16  IoT Devices and\u00a0\u201cThings\u201d",
+          "chars": 1332
+        },
+        {
+          "id": "ch16",
+          "title": "Chapter 16  IoT Devices and\u00a0\u201cThings\u201d",
+          "chars": 2247
+        },
+        {
+          "id": "ch16",
+          "title": "Chapter 16  IoT Devices and\u00a0\u201cThings\u201d",
+          "chars": 2462
+        },
+        {
+          "id": "ch16",
+          "title": "Chapter 16  IoT Devices and\u00a0\u201cThings\u201d",
+          "chars": 804
+        },
+        {
+          "id": "ch16",
+          "title": "Chapter 16  IoT Devices and\u00a0\u201cThings\u201d",
+          "chars": 2364
+        },
+        {
+          "id": "ch17",
+          "title": "CHAPTER 17",
+          "chars": 4150
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 2521
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 2411
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 3072
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 2413
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 2524
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 2797
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 2435
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 2302
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 2439
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 2675
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 2344
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 2488
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 2134
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 2532
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 2614
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 1479
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 2470
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 1853
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 2531
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 1882
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 1912
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 956
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 1738
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 2364
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 2442
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 1120
+        },
+        {
+          "id": "ch17",
+          "title": "Chapter 17  A Zero Trust Policy Model",
+          "chars": 180
+        },
+        {
+          "id": "ch18",
+          "title": "CHAPTER 18",
+          "chars": 3063
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 2199
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 2590
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 2624
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 2691
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 2520
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 2388
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 2452
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 2357
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 2341
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 2047
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 2106
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 1680
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 2983
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 2265
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 2543
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 1744
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 2216
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 2186
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 2389
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 2257
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 2505
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 2456
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 1461
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 2364
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 2000
+        },
+        {
+          "id": "ch18",
+          "title": "Chapter 18  Zero Trust Scenarios",
+          "chars": 175
+        },
+        {
+          "id": "ch19",
+          "title": "CHAPTER 19",
+          "chars": 4772
+        },
+        {
+          "id": "ch19",
+          "title": "Chapter 19  Making Zero Trust Successful",
+          "chars": 1887
+        },
+        {
+          "id": "ch19",
+          "title": "Chapter 19  Making Zero Trust Successful",
+          "chars": 2198
+        },
+        {
+          "id": "ch19",
+          "title": "Chapter 19  Making Zero Trust Successful",
+          "chars": 2207
+        },
+        {
+          "id": "ch19",
+          "title": "Chapter 19  Making Zero Trust Successful",
+          "chars": 2646
+        },
+        {
+          "id": "ch19",
+          "title": "Chapter 19  Making Zero Trust Successful",
+          "chars": 2819
+        },
+        {
+          "id": "ch19",
+          "title": "Chapter 19  Making Zero Trust Successful",
+          "chars": 2022
+        },
+        {
+          "id": "ch19",
+          "title": "Chapter 19  Making Zero Trust Successful",
+          "chars": 763
+        },
+        {
+          "id": "ch19",
+          "title": "Chapter 19  Making Zero Trust Successful",
+          "chars": 2206
+        },
+        {
+          "id": "ch19",
+          "title": "Chapter 19  Making Zero Trust Successful",
+          "chars": 2367
+        },
+        {
+          "id": "ch19",
+          "title": "Chapter 19  Making Zero Trust Successful",
+          "chars": 2779
+        },
+        {
+          "id": "ch19",
+          "title": "Chapter 19  Making Zero Trust Successful",
+          "chars": 1786
+        },
+        {
+          "id": "ch19",
+          "title": "Chapter 19  Making Zero Trust Successful",
+          "chars": 2645
+        },
+        {
+          "id": "ch19",
+          "title": "Chapter 19  Making Zero Trust Successful",
+          "chars": 2353
+        },
+        {
+          "id": "ch19",
+          "title": "Chapter 19  Making Zero Trust Successful",
+          "chars": 2290
+        },
+        {
+          "id": "ch19",
+          "title": "Chapter 19  Making Zero Trust Successful",
+          "chars": 2807
+        },
+        {
+          "id": "ch19",
+          "title": "Chapter 19  Making Zero Trust Successful",
+          "chars": 2359
+        },
+        {
+          "id": "ch19",
+          "title": "Chapter 19  Making Zero Trust Successful",
+          "chars": 183
+        },
+        {
+          "id": "ch20",
+          "title": "CHAPTER 20",
+          "chars": 3383
+        },
+        {
+          "id": "ch20",
+          "title": "Chapter 20  Conclusion",
+          "chars": 165
+        },
+        {
+          "id": "ch21",
+          "title": "CHAPTER 21",
+          "chars": 3894
+        },
+        {
+          "id": "ch21",
+          "title": "Chapter 21  Afterword",
+          "chars": 19858
+        }
+      ]
+    },
+    {
+      "file": "Zero_Trust_in_Resilient_Cloud_and_Network_Architectures.txt",
+      "category": "books",
+      "total_chars": 1776799,
+      "source_type": "single-large",
+      "note_count": 1,
+      "sections": [
+        {
+          "id": "full",
+          "title": "Zero Trust in Resilient Cloud and Network Architectures",
+          "chars": 1776799
+        }
+      ]
+    },
+    {
+      "file": "Zero_trust_networks_building_secure_systems_in_untrusted_networks.txt",
+      "category": "books",
+      "total_chars": 523351,
+      "source_type": "chapters",
+      "note_count": 116,
+      "sections": [
+        {
+          "id": "ch1",
+          "title": "CHAPTER 1",
+          "chars": 3019
+        },
+        {
+          "id": "ch1",
+          "title": "Chapter 1: Zero Trust Fundamentals",
+          "chars": 4219
+        },
+        {
+          "id": "ch1",
+          "title": "Chapter 1: Zero Trust Fundamentals",
+          "chars": 3321
+        },
+        {
+          "id": "ch1",
+          "title": "Chapter 1: Zero Trust Fundamentals",
+          "chars": 2676
+        },
+        {
+          "id": "ch1",
+          "title": "Chapter 1: Zero Trust Fundamentals",
+          "chars": 5661
+        },
+        {
+          "id": "ch1",
+          "title": "Chapter 1: Zero Trust Fundamentals",
+          "chars": 3979
+        },
+        {
+          "id": "ch1",
+          "title": "Chapter 1: Zero Trust Fundamentals",
+          "chars": 2197
+        },
+        {
+          "id": "ch1",
+          "title": "Chapter 1: Zero Trust Fundamentals",
+          "chars": 5616
+        },
+        {
+          "id": "ch1",
+          "title": "Chapter 1: Zero Trust Fundamentals",
+          "chars": 5730
+        },
+        {
+          "id": "ch1",
+          "title": "Chapter 1: Zero Trust Fundamentals",
+          "chars": 3089
+        },
+        {
+          "id": "ch1",
+          "title": "Chapter 1: Zero Trust Fundamentals",
+          "chars": 36
+        },
+        {
+          "id": "ch2",
+          "title": "CHAPTER 2",
+          "chars": 3034
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2: Managing Trust",
+          "chars": 4800
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2: Managing Trust",
+          "chars": 5459
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2: Managing Trust",
+          "chars": 4144
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2: Managing Trust",
+          "chars": 4889
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2: Managing Trust",
+          "chars": 5590
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2: Managing Trust",
+          "chars": 4350
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2: Managing Trust",
+          "chars": 200
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3.",
+          "chars": 3924
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2: Managing Trust",
+          "chars": 4407
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2: Managing Trust",
+          "chars": 3676
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2: Managing Trust",
+          "chars": 27
+        },
+        {
+          "id": "ch3",
+          "title": "CHAPTER 3",
+          "chars": 4494
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3: Network Agents",
+          "chars": 4713
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3: Network Agents",
+          "chars": 5544
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3: Network Agents",
+          "chars": 4200
+        },
+        {
+          "id": "ch3",
+          "title": "Chapter 3: Network Agents",
+          "chars": 1031
+        },
+        {
+          "id": "ch4",
+          "title": "CHAPTER 4",
+          "chars": 3180
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4: Making Authorization Decisions",
+          "chars": 4495
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4: Making Authorization Decisions",
+          "chars": 4318
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4: Making Authorization Decisions",
+          "chars": 4190
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4: Making Authorization Decisions",
+          "chars": 5732
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4: Making Authorization Decisions",
+          "chars": 4346
+        },
+        {
+          "id": "ch4",
+          "title": "Chapter 4: Making Authorization Decisions",
+          "chars": 749
+        },
+        {
+          "id": "ch5",
+          "title": "CHAPTER 5",
+          "chars": 4411
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5: Trusting Devices",
+          "chars": 4046
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5: Trusting Devices",
+          "chars": 3687
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8, we\u2019ll additionally explore here what the future might hold for zero trust",
+          "chars": 1451
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5: Trusting Devices",
+          "chars": 5313
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5: Trusting Devices",
+          "chars": 4481
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5: Trusting Devices",
+          "chars": 5118
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5: Trusting Devices",
+          "chars": 5095
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5: Trusting Devices",
+          "chars": 4197
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5: Trusting Devices",
+          "chars": 3965
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5: Trusting Devices",
+          "chars": 4135
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5: Trusting Devices",
+          "chars": 4176
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5: Trusting Devices",
+          "chars": 4478
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5: Trusting Devices",
+          "chars": 4903
+        },
+        {
+          "id": "ch5",
+          "title": "Chapter 5: Trusting Devices",
+          "chars": 764
+        },
+        {
+          "id": "ch6",
+          "title": "CHAPTER 6",
+          "chars": 4227
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6: Trusting Users",
+          "chars": 3772
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6: Trusting Users",
+          "chars": 4967
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6: Trusting Users",
+          "chars": 5526
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6: Trusting Users",
+          "chars": 4754
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6: Trusting Users",
+          "chars": 5487
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6: Trusting Users",
+          "chars": 4832
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6: Trusting Users",
+          "chars": 4015
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6: Trusting Users",
+          "chars": 5644
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6: Trusting Users",
+          "chars": 3366
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6: Trusting Users",
+          "chars": 27
+        },
+        {
+          "id": "ch7",
+          "title": "CHAPTER 7",
+          "chars": 3201
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7: Trusting Applications",
+          "chars": 4037
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7: Trusting Applications",
+          "chars": 3791
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7: Trusting Applications",
+          "chars": 4380
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7: Trusting Applications",
+          "chars": 5202
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7: Trusting Applications",
+          "chars": 5085
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7: Trusting Applications",
+          "chars": 4392
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7: Trusting Applications",
+          "chars": 5342
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7: Trusting Applications",
+          "chars": 4188
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7: Trusting Applications",
+          "chars": 4565
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7: Trusting Applications",
+          "chars": 4860
+        },
+        {
+          "id": "ch7",
+          "title": "Chapter 7: Trusting Applications",
+          "chars": 1839
+        },
+        {
+          "id": "ch8",
+          "title": "CHAPTER 8",
+          "chars": 2782
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8: Trusting the Traffic",
+          "chars": 4058
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8: Trusting the Traffic",
+          "chars": 4570
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8: Trusting the Traffic",
+          "chars": 3406
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8: Trusting the Traffic",
+          "chars": 5213
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8: Trusting the Traffic",
+          "chars": 2968
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8: Trusting the Traffic",
+          "chars": 5068
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8: Trusting the Traffic",
+          "chars": 5378
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8: Trusting the Traffic",
+          "chars": 4161
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8: Trusting the Traffic",
+          "chars": 2870
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8: Trusting the Traffic",
+          "chars": 5398
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8: Trusting the Traffic",
+          "chars": 4196
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8: Trusting the Traffic",
+          "chars": 4576
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8: Trusting the Traffic",
+          "chars": 5329
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8: Trusting the Traffic",
+          "chars": 3996
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8: Trusting the Traffic",
+          "chars": 4637
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8: Trusting the Traffic",
+          "chars": 4648
+        },
+        {
+          "id": "ch8",
+          "title": "Chapter 8: Trusting the Traffic",
+          "chars": 2579
+        },
+        {
+          "id": "ch9",
+          "title": "CHAPTER 9",
+          "chars": 3817
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9: Realizing a Zero Trust Network",
+          "chars": 5022
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9: Realizing a Zero Trust Network",
+          "chars": 5387
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9: Realizing a Zero Trust Network",
+          "chars": 3336
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9: Realizing a Zero Trust Network",
+          "chars": 3230
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9: Realizing a Zero Trust Network",
+          "chars": 5454
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9: Realizing a Zero Trust Network",
+          "chars": 4906
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9: Realizing a Zero Trust Network",
+          "chars": 4090
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9: Realizing a Zero Trust Network",
+          "chars": 5210
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9: Realizing a Zero Trust Network",
+          "chars": 4450
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9: Realizing a Zero Trust Network",
+          "chars": 5299
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9: Realizing a Zero Trust Network",
+          "chars": 4818
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9: Realizing a Zero Trust Network",
+          "chars": 4710
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9: Realizing a Zero Trust Network",
+          "chars": 4583
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9: Realizing a Zero Trust Network",
+          "chars": 5345
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9: Realizing a Zero Trust Network",
+          "chars": 4314
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9: Realizing a Zero Trust Network",
+          "chars": 5107
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9: Realizing a Zero Trust Network",
+          "chars": 3543
+        },
+        {
+          "id": "ch9",
+          "title": "Chapter 9: Realizing a Zero Trust Network",
+          "chars": 43
+        },
+        {
+          "id": "ch10",
+          "title": "CHAPTER 10",
+          "chars": 4402
+        },
+        {
+          "id": "ch10",
+          "title": "Chapter 10: The Adversarial View",
+          "chars": 5515
+        },
+        {
+          "id": "ch10",
+          "title": "Chapter 10: The Adversarial View",
+          "chars": 469
+        },
+        {
+          "id": "ch6",
+          "title": "Chapter 6 has more details on these mechanisms for defending against social engi\u2010",
+          "chars": 4087
+        },
+        {
+          "id": "ch10",
+          "title": "Chapter 10: The Adversarial View",
+          "chars": 5647
+        },
+        {
+          "id": "ch10",
+          "title": "Chapter 10: The Adversarial View",
+          "chars": 18378
+        }
+      ]
+    },
+    {
+      "file": "ANSSI_BSI_LLM_Zero_Trust_2025.txt",
+      "category": "standards",
+      "total_chars": 40384,
+      "source_type": "single",
+      "note_count": 1,
+      "sections": [
+        {
+          "id": "full",
+          "title": "ANSSI BSI LLM Zero Trust 2025",
+          "chars": 40384
+        }
+      ]
+    },
+    {
+      "file": "BSI_Zero_Trust_Position_Paper_2023_DE.txt",
+      "category": "standards",
+      "total_chars": 112779,
+      "source_type": "numbered-sections",
+      "note_count": 129,
+      "sections": [
+        {
+          "id": "s53133",
+          "title": "53133 Bonn",
+          "chars": 233
+        },
+        {
+          "id": "s3",
+          "title": "3",
+          "chars": 641
+        },
+        {
+          "id": "s1",
+          "title": "1",
+          "chars": 203
+        },
+        {
+          "id": "s2",
+          "title": "2",
+          "chars": 211
+        },
+        {
+          "id": "s3",
+          "title": "3",
+          "chars": 210
+        },
+        {
+          "id": "s4",
+          "title": "4",
+          "chars": 214
+        },
+        {
+          "id": "s5",
+          "title": "5",
+          "chars": 198
+        },
+        {
+          "id": "s6",
+          "title": "6",
+          "chars": 185
+        },
+        {
+          "id": "s7",
+          "title": "7",
+          "chars": 199
+        },
+        {
+          "id": "s7.1",
+          "title": "7.1",
+          "chars": 192
+        },
+        {
+          "id": "s8",
+          "title": "8",
+          "chars": 174
+        },
+        {
+          "id": "s8.1",
+          "title": "8.1",
+          "chars": 173
+        },
+        {
+          "id": "s8.2",
+          "title": "8.2",
+          "chars": 165
+        },
+        {
+          "id": "s8.3",
+          "title": "8.3",
+          "chars": 151
+        },
+        {
+          "id": "s9",
+          "title": "9",
+          "chars": 173
+        },
+        {
+          "id": "s10",
+          "title": "10",
+          "chars": 193
+        },
+        {
+          "id": "s11",
+          "title": "11",
+          "chars": 182
+        },
+        {
+          "id": "s12",
+          "title": "12",
+          "chars": 979
+        },
+        {
+          "id": "s0",
+          "title": "0 Management Summary",
+          "chars": 24
+        },
+        {
+          "id": "s4",
+          "title": "4",
+          "chars": 2430
+        },
+        {
+          "id": "s1",
+          "title": "1 Kernbotschaften",
+          "chars": 77
+        },
+        {
+          "id": "s1",
+          "title": "1",
+          "chars": 1045
+        },
+        {
+          "id": "s2",
+          "title": "2 Einleitung",
+          "chars": 16
+        },
+        {
+          "id": "s6",
+          "title": "6",
+          "chars": 57
+        },
+        {
+          "id": "s2",
+          "title": "2",
+          "chars": 1597
+        },
+        {
+          "id": "s3",
+          "title": "3 Motivation",
+          "chars": 72
+        },
+        {
+          "id": "s3",
+          "title": "3",
+          "chars": 4548
+        },
+        {
+          "id": "s4",
+          "title": "4 Historie",
+          "chars": 14
+        },
+        {
+          "id": "s8",
+          "title": "8",
+          "chars": 57
+        },
+        {
+          "id": "s4",
+          "title": "4",
+          "chars": 4562
+        },
+        {
+          "id": "s4",
+          "title": "4 Historie",
+          "chars": 1452
+        },
+        {
+          "id": "s5",
+          "title": "5 Definition Zero Trust",
+          "chars": 27
+        },
+        {
+          "id": "s10",
+          "title": "10",
+          "chars": 58
+        },
+        {
+          "id": "s5",
+          "title": "5",
+          "chars": 1832
+        },
+        {
+          "id": "s6",
+          "title": "6 Referenzarchitektur nach NIST",
+          "chars": 92
+        },
+        {
+          "id": "s6",
+          "title": "6",
+          "chars": 3556
+        },
+        {
+          "id": "s6",
+          "title": "6 Referenzarchitektur nach NIST",
+          "chars": 35
+        },
+        {
+          "id": "s12",
+          "title": "12",
+          "chars": 1387
+        },
+        {
+          "id": "s6",
+          "title": "6 Referenzarchitektur nach NIST",
+          "chars": 1230
+        },
+        {
+          "id": "s7",
+          "title": "7 Integrationsmodell",
+          "chars": 24
+        },
+        {
+          "id": "s14",
+          "title": "14",
+          "chars": 58
+        },
+        {
+          "id": "s7",
+          "title": "7",
+          "chars": 1420
+        },
+        {
+          "id": "s7",
+          "title": "7 Integrationsmodell",
+          "chars": 3528
+        },
+        {
+          "id": "s7",
+          "title": "7 Integrationsmodell",
+          "chars": 24
+        },
+        {
+          "id": "s16",
+          "title": "16",
+          "chars": 58
+        },
+        {
+          "id": "s7.1",
+          "title": "7.1",
+          "chars": 3369
+        },
+        {
+          "id": "s8",
+          "title": "8 Bewertungen und Herausforderungen",
+          "chars": 96
+        },
+        {
+          "id": "s8",
+          "title": "8",
+          "chars": 38
+        },
+        {
+          "id": "s8.1",
+          "title": "8.1",
+          "chars": 4382
+        },
+        {
+          "id": "s8",
+          "title": "8 Bewertungen und Herausforderungen",
+          "chars": 39
+        },
+        {
+          "id": "s18",
+          "title": "18",
+          "chars": 58
+        },
+        {
+          "id": "s8.2",
+          "title": "8.2",
+          "chars": 2420
+        },
+        {
+          "id": "s1",
+          "title": "1 Es existiert eine Inventarisierung f\u00fcr alle Entit\u00e4ten der Organisation. Die in den Anwendungsf\u00e4lle",
+          "chars": 356
+        },
+        {
+          "id": "s2",
+          "title": "2 Es existiert eine Richtlinie, die f\u00fchrend ist f\u00fcr die Regelung der Zugriffe von Entit\u00e4ten. Tabelle",
+          "chars": 366
+        },
+        {
+          "id": "s8",
+          "title": "8 Bewertungen und Herausforderungen",
+          "chars": 39
+        },
+        {
+          "id": "s19",
+          "title": "19",
+          "chars": 1875
+        },
+        {
+          "id": "s8",
+          "title": "8 Bewertungen und Herausforderungen",
+          "chars": 39
+        },
+        {
+          "id": "s20",
+          "title": "20",
+          "chars": 2416
+        },
+        {
+          "id": "s8.3",
+          "title": "8.3",
+          "chars": 2435
+        },
+        {
+          "id": "s8",
+          "title": "8 Bewertungen und Herausforderungen",
+          "chars": 2156
+        },
+        {
+          "id": "s8",
+          "title": "8 Bewertungen und Herausforderungen",
+          "chars": 39
+        },
+        {
+          "id": "s22",
+          "title": "22",
+          "chars": 1851
+        },
+        {
+          "id": "s9",
+          "title": "9 Organisations\u00fcbergreifende Betrachtung",
+          "chars": 101
+        },
+        {
+          "id": "s9",
+          "title": "9",
+          "chars": 3661
+        },
+        {
+          "id": "s9",
+          "title": "9 Organisations\u00fcbergreifende Betrachtung",
+          "chars": 44
+        },
+        {
+          "id": "s24",
+          "title": "24",
+          "chars": 1364
+        },
+        {
+          "id": "s9",
+          "title": "9 Organisations\u00fcbergreifende Betrachtung",
+          "chars": 97
+        },
+        {
+          "id": "s25",
+          "title": "25",
+          "chars": 1998
+        },
+        {
+          "id": "s10",
+          "title": "10 Zusammenfassung",
+          "chars": 22
+        },
+        {
+          "id": "s26",
+          "title": "26",
+          "chars": 58
+        },
+        {
+          "id": "s10",
+          "title": "10",
+          "chars": 4182
+        },
+        {
+          "id": "s11",
+          "title": "11 Ausblick / Weiteres Vorgehen",
+          "chars": 92
+        },
+        {
+          "id": "s11",
+          "title": "11",
+          "chars": 678
+        },
+        {
+          "id": "s12",
+          "title": "12 Weiterf\u00fchrende Informationen",
+          "chars": 35
+        },
+        {
+          "id": "s28",
+          "title": "28",
+          "chars": 58
+        },
+        {
+          "id": "s12",
+          "title": "12",
+          "chars": 34
+        },
+        {
+          "id": "s1",
+          "title": "1 NIST SP 800-207 Zero Trust Architecture, August 2020 https://csrc.nist.gov/publications/detail/sp/",
+          "chars": 141
+        },
+        {
+          "id": "s2",
+          "title": "2 CISA Zero Trust Maturity Model, Juni 2021",
+          "chars": 175
+        },
+        {
+          "id": "s3",
+          "title": "3 OpenID Spezifikation Shared Signals Framework, Juni 2021 https://openid.net/specs/openid-sse-",
+          "chars": 145
+        },
+        {
+          "id": "s4",
+          "title": "4 OpenID Spezifikation OpenID Continuous Access Evaluation Profile 1.0 - draft 02, August 2021",
+          "chars": 183
+        },
+        {
+          "id": "s12",
+          "title": "12 Weiterf\u00fchrende Informationen",
+          "chars": 88
+        },
+        {
+          "id": "s29",
+          "title": "29",
+          "chars": 2539
+        },
+        {
+          "id": "s12",
+          "title": "12 Weiterf\u00fchrende Informationen",
+          "chars": 35
+        },
+        {
+          "id": "s30",
+          "title": "30",
+          "chars": 409
+        },
+        {
+          "id": "s12",
+          "title": "12 Weiterf\u00fchrende Informationen",
+          "chars": 88
+        },
+        {
+          "id": "s31",
+          "title": "31",
+          "chars": 70
+        },
+        {
+          "id": "s9",
+          "title": "9",
+          "chars": 57
+        },
+        {
+          "id": "s11",
+          "title": "11",
+          "chars": 58
+        },
+        {
+          "id": "s12",
+          "title": "12",
+          "chars": 58
+        },
+        {
+          "id": "s12",
+          "title": "12",
+          "chars": 62
+        },
+        {
+          "id": "s13",
+          "title": "13",
+          "chars": 200
+        },
+        {
+          "id": "s14",
+          "title": "14",
+          "chars": 75
+        },
+        {
+          "id": "s21",
+          "title": "21",
+          "chars": 75
+        },
+        {
+          "id": "s22",
+          "title": "22",
+          "chars": 85
+        },
+        {
+          "id": "s24",
+          "title": "24",
+          "chars": 65
+        },
+        {
+          "id": "s24",
+          "title": "24",
+          "chars": 74
+        },
+        {
+          "id": "s12",
+          "title": "12 Weiterf\u00fchrende Informationen",
+          "chars": 35
+        },
+        {
+          "id": "s32",
+          "title": "32",
+          "chars": 130
+        },
+        {
+          "id": "s19",
+          "title": "19",
+          "chars": 72
+        },
+        {
+          "id": "s33",
+          "title": "33",
+          "chars": 2664
+        },
+        {
+          "id": "s34",
+          "title": "34",
+          "chars": 2959
+        },
+        {
+          "id": "s1",
+          "title": "1",
+          "chars": 59
+        },
+        {
+          "id": "s35",
+          "title": "35",
+          "chars": 2457
+        },
+        {
+          "id": "s36",
+          "title": "36",
+          "chars": 382
+        },
+        {
+          "id": "s1",
+          "title": "1",
+          "chars": 2406
+        },
+        {
+          "id": "s38",
+          "title": "38",
+          "chars": 2586
+        },
+        {
+          "id": "s1",
+          "title": "1",
+          "chars": 59
+        },
+        {
+          "id": "s39",
+          "title": "39",
+          "chars": 2260
+        },
+        {
+          "id": "s1",
+          "title": "1 Security Information and Event Management",
+          "chars": 52
+        },
+        {
+          "id": "s40",
+          "title": "40",
+          "chars": 2398
+        },
+        {
+          "id": "s1",
+          "title": "1",
+          "chars": 59
+        },
+        {
+          "id": "s41",
+          "title": "41",
+          "chars": 90
+        },
+        {
+          "id": "s42",
+          "title": "42",
+          "chars": 2621
+        },
+        {
+          "id": "s2",
+          "title": "2 Demilitarisierte Zone",
+          "chars": 26
+        },
+        {
+          "id": "s1",
+          "title": "1",
+          "chars": 59
+        },
+        {
+          "id": "s43",
+          "title": "43",
+          "chars": 2785
+        },
+        {
+          "id": "s44",
+          "title": "44",
+          "chars": 1457
+        },
+        {
+          "id": "s3",
+          "title": "3 Vgl. BSI Technische Leitlinie \u201eBSI TL-01101-3\u201c",
+          "chars": 51
+        },
+        {
+          "id": "s1",
+          "title": "1",
+          "chars": 2378
+        },
+        {
+          "id": "s46",
+          "title": "46",
+          "chars": 2572
+        },
+        {
+          "id": "s1",
+          "title": "1",
+          "chars": 59
+        },
+        {
+          "id": "s47",
+          "title": "47",
+          "chars": 2309
+        },
+        {
+          "id": "s48",
+          "title": "48",
+          "chars": 2635
+        },
+        {
+          "id": "s1",
+          "title": "1",
+          "chars": 59
+        },
+        {
+          "id": "s49",
+          "title": "49",
+          "chars": 2211
+        },
+        {
+          "id": "s5",
+          "title": "5 Daten, die sich in persistenten/nicht fl\u00fcchtigen Speichersystemen (bspw. der Festplatte eines Ger\u00e4",
+          "chars": 115
+        },
+        {
+          "id": "s6",
+          "title": "6 Daten, die sich in nicht persistenten/fl\u00fcchtigen Speichersystemen (bspw. dem Arbeitsspeicher eines",
+          "chars": 127
+        },
+        {
+          "id": "s50",
+          "title": "50",
+          "chars": 1320
+        },
+        {
+          "id": "s51",
+          "title": "51",
+          "chars": 63
+        }
+      ]
+    },
+    {
+      "file": "CCCS_Zero_Trust_Approach_ITSM10008.txt",
+      "category": "standards",
+      "total_chars": 60536,
+      "source_type": "numbered-sections",
+      "note_count": 66,
+      "sections": [
+        {
+          "id": "s1",
+          "title": "1",
+          "chars": 173
+        },
+        {
+          "id": "s2",
+          "title": "2",
+          "chars": 541
+        },
+        {
+          "id": "s1",
+          "title": "1",
+          "chars": 126
+        },
+        {
+          "id": "s3",
+          "title": "3",
+          "chars": 1782
+        },
+        {
+          "id": "s4",
+          "title": "4",
+          "chars": 76
+        },
+        {
+          "id": "s1",
+          "title": "1",
+          "chars": 161
+        },
+        {
+          "id": "s1.1",
+          "title": "1.1",
+          "chars": 157
+        },
+        {
+          "id": "s1.2",
+          "title": "1.2",
+          "chars": 167
+        },
+        {
+          "id": "s2",
+          "title": "2",
+          "chars": 151
+        },
+        {
+          "id": "s3",
+          "title": "3",
+          "chars": 151
+        },
+        {
+          "id": "s4",
+          "title": "4",
+          "chars": 150
+        },
+        {
+          "id": "s5",
+          "title": "5",
+          "chars": 154
+        },
+        {
+          "id": "s6",
+          "title": "6",
+          "chars": 154
+        },
+        {
+          "id": "s6.1",
+          "title": "6.1",
+          "chars": 149
+        },
+        {
+          "id": "s6.2",
+          "title": "6.2",
+          "chars": 161
+        },
+        {
+          "id": "s6.3",
+          "title": "6.3",
+          "chars": 153
+        },
+        {
+          "id": "s7",
+          "title": "7",
+          "chars": 159
+        },
+        {
+          "id": "s8",
+          "title": "8",
+          "chars": 157
+        },
+        {
+          "id": "s8.1",
+          "title": "8.1",
+          "chars": 169
+        },
+        {
+          "id": "s8.2",
+          "title": "8.2",
+          "chars": 174
+        },
+        {
+          "id": "s8.3",
+          "title": "8.3",
+          "chars": 550
+        },
+        {
+          "id": "s5",
+          "title": "5",
+          "chars": 57
+        },
+        {
+          "id": "s1",
+          "title": "1 Introduction",
+          "chars": 619
+        },
+        {
+          "id": "s1.1",
+          "title": "1.1",
+          "chars": 2542
+        },
+        {
+          "id": "s6",
+          "title": "6",
+          "chars": 465
+        },
+        {
+          "id": "s1.2",
+          "title": "1.2",
+          "chars": 1517
+        },
+        {
+          "id": "s7",
+          "title": "7",
+          "chars": 57
+        },
+        {
+          "id": "s2",
+          "title": "2 Industry accepted ZT frameworks",
+          "chars": 3353
+        },
+        {
+          "id": "s8",
+          "title": "8",
+          "chars": 57
+        },
+        {
+          "id": "s3",
+          "title": "3 Benefits of a ZT security framework",
+          "chars": 3062
+        },
+        {
+          "id": "s9",
+          "title": "9",
+          "chars": 2060
+        },
+        {
+          "id": "s10",
+          "title": "10",
+          "chars": 58
+        },
+        {
+          "id": "s4",
+          "title": "4 Best practices for implementing a ZTA",
+          "chars": 2535
+        },
+        {
+          "id": "s11",
+          "title": "11",
+          "chars": 3437
+        },
+        {
+          "id": "s12",
+          "title": "12",
+          "chars": 3486
+        },
+        {
+          "id": "s13",
+          "title": "13",
+          "chars": 3149
+        },
+        {
+          "id": "s14",
+          "title": "14",
+          "chars": 58
+        },
+        {
+          "id": "s5",
+          "title": "5 Challenges to organizations",
+          "chars": 3428
+        },
+        {
+          "id": "s15",
+          "title": "15",
+          "chars": 796
+        },
+        {
+          "id": "s16",
+          "title": "16",
+          "chars": 58
+        },
+        {
+          "id": "s6",
+          "title": "6 Additional zero trust guidelines",
+          "chars": 1334
+        },
+        {
+          "id": "s6.1",
+          "title": "6.1",
+          "chars": 1990
+        },
+        {
+          "id": "s17",
+          "title": "17",
+          "chars": 2694
+        },
+        {
+          "id": "s6.2",
+          "title": "6.2",
+          "chars": 545
+        },
+        {
+          "id": "s18",
+          "title": "18",
+          "chars": 870
+        },
+        {
+          "id": "s19",
+          "title": "19",
+          "chars": 2977
+        },
+        {
+          "id": "s20",
+          "title": "20",
+          "chars": 1620
+        },
+        {
+          "id": "s6.3",
+          "title": "6.3",
+          "chars": 1045
+        },
+        {
+          "id": "s21",
+          "title": "21",
+          "chars": 2324
+        },
+        {
+          "id": "s22",
+          "title": "22",
+          "chars": 58
+        },
+        {
+          "id": "s7",
+          "title": "7 Summary",
+          "chars": 1466
+        },
+        {
+          "id": "s23",
+          "title": "23",
+          "chars": 58
+        },
+        {
+          "id": "s8",
+          "title": "8 Supporting content",
+          "chars": 22
+        },
+        {
+          "id": "s8.1",
+          "title": "8.1",
+          "chars": 1204
+        },
+        {
+          "id": "s24",
+          "title": "24",
+          "chars": 58
+        },
+        {
+          "id": "s8.2",
+          "title": "8.2",
+          "chars": 3094
+        },
+        {
+          "id": "s25",
+          "title": "25",
+          "chars": 1827
+        },
+        {
+          "id": "s8.3",
+          "title": "8.3",
+          "chars": 36
+        },
+        {
+          "id": "s1",
+          "title": "1",
+          "chars": 123
+        },
+        {
+          "id": "s2",
+          "title": "2",
+          "chars": 91
+        },
+        {
+          "id": "s3",
+          "title": "3",
+          "chars": 90
+        },
+        {
+          "id": "s4",
+          "title": "4",
+          "chars": 114
+        },
+        {
+          "id": "s5",
+          "title": "5",
+          "chars": 133
+        },
+        {
+          "id": "s6",
+          "title": "6",
+          "chars": 134
+        },
+        {
+          "id": "s7",
+          "title": "7",
+          "chars": 97
+        },
+        {
+          "id": "s8",
+          "title": "8",
+          "chars": 117
+        }
+      ]
+    },
+    {
+      "file": "CCCS_Zero_Trust_Security_Model_ITSAP10008.txt",
+      "category": "standards",
+      "total_chars": 9347,
+      "source_type": "single",
+      "note_count": 1,
+      "sections": [
+        {
+          "id": "full",
+          "title": "CCCS Zero Trust Security Model ITSAP10008",
+          "chars": 9347
+        }
+      ]
+    },
+    {
+      "file": "CISA_Zero_Trust_Maturity_Model_v2.txt",
+      "category": "standards",
+      "total_chars": 76937,
+      "source_type": "numbered-sections",
+      "note_count": 80,
+      "sections": [
+        {
+          "id": "s1.0",
+          "title": "1.0",
+          "chars": 44
+        },
+        {
+          "id": "s2.0",
+          "title": "2.0",
+          "chars": 909
+        },
+        {
+          "id": "s5.1",
+          "title": "5.1",
+          "chars": 155
+        },
+        {
+          "id": "s5.2",
+          "title": "5.2",
+          "chars": 154
+        },
+        {
+          "id": "s5.3",
+          "title": "5.3",
+          "chars": 152
+        },
+        {
+          "id": "s5.4",
+          "title": "5.4",
+          "chars": 140
+        },
+        {
+          "id": "s5.5",
+          "title": "5.5",
+          "chars": 156
+        },
+        {
+          "id": "s5.6",
+          "title": "5.6",
+          "chars": 2137
+        },
+        {
+          "id": "s4",
+          "title": "4",
+          "chars": 3241
+        },
+        {
+          "id": "s1",
+          "title": "1 Exec. Order No. 14028, 86 Fed. Reg. 26633 (May 17, 2021). https://www.govinfo.gov/content/pkg/FR-2",
+          "chars": 132
+        },
+        {
+          "id": "s2",
+          "title": "2 DHS CISA. Emergency Directive 21-01- Mitigate SolarWinds Orion Code Compromise.",
+          "chars": 132
+        },
+        {
+          "id": "s3",
+          "title": "3 DHS CISA. Emergency Directive 21-02 - Mitigate Microsoft Exchange On-Premises Product Vulnerabilit",
+          "chars": 156
+        },
+        {
+          "id": "s5",
+          "title": "5",
+          "chars": 2880
+        },
+        {
+          "id": "s4",
+          "title": "4 OMB Memo M-22-09. Moving the U.S. Government Towards Zero Trust Cybersecurity Principles. January ",
+          "chars": 179
+        },
+        {
+          "id": "s5",
+          "title": "5 NIST SP 800-207: Zero Trust Architecture. 2020.",
+          "chars": 127
+        },
+        {
+          "id": "s6",
+          "title": "6 The President\u2019s National Security Telecommunications Advisory Committee. Report to the President o",
+          "chars": 315
+        },
+        {
+          "id": "s6",
+          "title": "6",
+          "chars": 2301
+        },
+        {
+          "id": "s7",
+          "title": "7 Agencies should review CISA\u2019s, United States Digital Services\u2019, and FedRAMP\u2019s jointly authored Clo",
+          "chars": 301
+        },
+        {
+          "id": "s7",
+          "title": "7",
+          "chars": 1578
+        },
+        {
+          "id": "s8",
+          "title": "8 This illustration was inspired by Figure 1 of the American Council for Technology (ACT) and Indust",
+          "chars": 391
+        },
+        {
+          "id": "s8",
+          "title": "8",
+          "chars": 1881
+        },
+        {
+          "id": "s9",
+          "title": "9 NIST White Paper. Planning for a Zero Trust Architecture: A Planning Guide for Federal Administrat",
+          "chars": 218
+        },
+        {
+          "id": "s10",
+          "title": "10 See AC-6 in NIST SP 800-53 Revision 5. https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/",
+          "chars": 171
+        },
+        {
+          "id": "s9",
+          "title": "9",
+          "chars": 2085
+        },
+        {
+          "id": "s10",
+          "title": "10",
+          "chars": 841
+        },
+        {
+          "id": "s11",
+          "title": "11",
+          "chars": 2457
+        },
+        {
+          "id": "s11",
+          "title": "11 See CISA\u2019s extensible Visibility Reference Framework (eVRF) Guidebook:",
+          "chars": 198
+        },
+        {
+          "id": "s12",
+          "title": "12 Agencies should review OMB Memo M-21-31, Improving the Federal Government\u2019s Investigative and",
+          "chars": 465
+        },
+        {
+          "id": "s13",
+          "title": "13 Based on the Governance function of the Identify category of the NIST Cyber Security Framework Ve",
+          "chars": 160
+        },
+        {
+          "id": "s14",
+          "title": "14 Backups are included within the Data Pillar; however, for detailed guidance on data integrity and",
+          "chars": 235
+        },
+        {
+          "id": "s15",
+          "title": "15 NIST. Guide to Operational Technology Security: NIST Requests Comments on Draft SP 800-82r3. Apri",
+          "chars": 187
+        },
+        {
+          "id": "s16",
+          "title": "16 NIST. Cybersecurity for IoT Program. https://www.nist.gov/itl/applied-cybersecurity/nist-cybersec",
+          "chars": 121
+        },
+        {
+          "id": "s17",
+          "title": "17 NIST NCCOE: Supply Chain Assurance. https://www.nccoe.nist.gov/supply-chain-assurance.",
+          "chars": 91
+        },
+        {
+          "id": "s18",
+          "title": "18 NIST NCCOE: Software Supply Chain and DevOps Security Practices.",
+          "chars": 159
+        },
+        {
+          "id": "s19",
+          "title": "19 Agencies should review the information and resources available for Software Bill of Materials (SB",
+          "chars": 221
+        },
+        {
+          "id": "s12",
+          "title": "12",
+          "chars": 700
+        },
+        {
+          "id": "s20",
+          "title": "20 These considerations span pillars and functions such as trusting credentials, assessing supply ch",
+          "chars": 205
+        },
+        {
+          "id": "s13",
+          "title": "13",
+          "chars": 64
+        },
+        {
+          "id": "s5.1",
+          "title": "5.1 Identity",
+          "chars": 1608
+        },
+        {
+          "id": "s21",
+          "title": "21 CISA resources for MFA available at: https://www.cisa.gov/mfa.",
+          "chars": 69
+        },
+        {
+          "id": "s14",
+          "title": "14",
+          "chars": 1711
+        },
+        {
+          "id": "s22",
+          "title": "22 FIDO2 is a set of protocols developed in collaboration by the Fast IDentity Online (FIDO) Allianc",
+          "chars": 807
+        },
+        {
+          "id": "s23",
+          "title": "23 Personal Identity Verification. A PIV credential is a U.S. federal government-wide credential use",
+          "chars": 248
+        },
+        {
+          "id": "s15",
+          "title": "15",
+          "chars": 2089
+        },
+        {
+          "id": "s16",
+          "title": "16",
+          "chars": 64
+        },
+        {
+          "id": "s5.2",
+          "title": "5.2 Devices",
+          "chars": 2683
+        },
+        {
+          "id": "s24",
+          "title": "24 Agencies should consult OMB Memo M-22-01 Improving Detection of Cybersecurity Vulnerabilities and",
+          "chars": 872
+        },
+        {
+          "id": "s17",
+          "title": "17",
+          "chars": 2970
+        },
+        {
+          "id": "s18",
+          "title": "18",
+          "chars": 2639
+        },
+        {
+          "id": "s19",
+          "title": "19",
+          "chars": 867
+        },
+        {
+          "id": "s26",
+          "title": "26 Lifecycle includes procuring, configuring, tracking, monitoring, updating, using, sanitizing, dep",
+          "chars": 139
+        },
+        {
+          "id": "s20",
+          "title": "20",
+          "chars": 64
+        },
+        {
+          "id": "s5.3",
+          "title": "5.3 Networks",
+          "chars": 2906
+        },
+        {
+          "id": "s21",
+          "title": "21",
+          "chars": 2435
+        },
+        {
+          "id": "s27",
+          "title": "27 For example, when both HTTP and HTTPS options are available, policies and settings prefer HTTPS.",
+          "chars": 101
+        },
+        {
+          "id": "s28",
+          "title": "28 There are a variety of resources agencies should review in regard to encrypting and decrypting ne",
+          "chars": 364
+        },
+        {
+          "id": "s29",
+          "title": "29 DHS. Cryptographic Agility Infographic. May 12, 2022. https://www.dhs.gov/publication/cryptograph",
+          "chars": 126
+        },
+        {
+          "id": "s22",
+          "title": "22",
+          "chars": 2385
+        },
+        {
+          "id": "s23",
+          "title": "23",
+          "chars": 64
+        },
+        {
+          "id": "s5.4",
+          "title": "5.4 Applications and Workloads",
+          "chars": 2432
+        },
+        {
+          "id": "s30",
+          "title": "30 NIST Projects: DevSecOps. https://csrc.nist.gov/Projects/devsecops#plans.",
+          "chars": 79
+        },
+        {
+          "id": "s31",
+          "title": "31 NIST SP 800-204C: Implementation of DevSecOps for a Microservices-based Application with Service ",
+          "chars": 185
+        },
+        {
+          "id": "s24",
+          "title": "24",
+          "chars": 2600
+        },
+        {
+          "id": "s32",
+          "title": "32 This does not include National Security Systems. See National Security Memorandum (NSM)-8 \u201cImprov",
+          "chars": 403
+        },
+        {
+          "id": "s25",
+          "title": "25",
+          "chars": 2344
+        },
+        {
+          "id": "s26",
+          "title": "26",
+          "chars": 64
+        },
+        {
+          "id": "s5.5",
+          "title": "5.5 Data",
+          "chars": 2207
+        },
+        {
+          "id": "s33",
+          "title": "33 NIST NCCOE: Data Classification. https://www.nccoe.nist.gov/data-classification.",
+          "chars": 736
+        },
+        {
+          "id": "s27",
+          "title": "27",
+          "chars": 2696
+        },
+        {
+          "id": "s34",
+          "title": "34 This should include efforts to consolidate key stores and reduce reliance on one-off or siloed ke",
+          "chars": 111
+        },
+        {
+          "id": "s35",
+          "title": "35 See NIST for relevant standards and updates such as: (1) https://www.nist.gov/itl/fips-general-in",
+          "chars": 260
+        },
+        {
+          "id": "s28",
+          "title": "28",
+          "chars": 1517
+        },
+        {
+          "id": "s29",
+          "title": "29",
+          "chars": 64
+        },
+        {
+          "id": "s5.6",
+          "title": "5.6 Cross-Cutting Capabilities",
+          "chars": 2956
+        },
+        {
+          "id": "s30",
+          "title": "30",
+          "chars": 389
+        },
+        {
+          "id": "s31",
+          "title": "31",
+          "chars": 2738
+        },
+        {
+          "id": "s36",
+          "title": "36 NIST. \u201cImplementing a Zero Trust Architecture Project\u201d. https://www.nccoe.nist.gov/projects/imple",
+          "chars": 135
+        },
+        {
+          "id": "s37",
+          "title": "37 DoD. \u201cZero Trust Reference Architecture\u201d. Version 2.0. July 2022.",
+          "chars": 154
+        },
+        {
+          "id": "s38",
+          "title": "38 NSA. \u201cEmbracing a Zero Trust Security Model\u201d. Version 1.0. February 2021.",
+          "chars": 391
+        },
+        {
+          "id": "s32",
+          "title": "32",
+          "chars": 2234
+        }
+      ]
+    },
+    {
+      "file": "DoD_ZT_Reference_Architecture_v2.txt",
+      "category": "standards",
+      "total_chars": 171752,
+      "source_type": "numbered-sections",
+      "note_count": 262,
+      "sections": [
+        {
+          "id": "s1",
+          "title": "1 PURPOSE AND STRATEGIC GOALS ......................................................................",
+          "chars": 105
+        },
+        {
+          "id": "s1.1",
+          "title": "1.1 Introduction ...................................................................................",
+          "chars": 124
+        },
+        {
+          "id": "s1.2",
+          "title": "1.2 Purpose ........................................................................................",
+          "chars": 126
+        },
+        {
+          "id": "s1.3",
+          "title": "1.3 Scope ..........................................................................................",
+          "chars": 473
+        },
+        {
+          "id": "s1.4",
+          "title": "1.4 Vision and Goals (CV-1) ........................................................................",
+          "chars": 340
+        },
+        {
+          "id": "s1.5",
+          "title": "1.5 Cybersecurity (Transition) Problem Statement (OV-1) ................................ 16",
+          "chars": 93
+        },
+        {
+          "id": "s1.6",
+          "title": "1.6 Overall Target Environment (OV-1) ..............................................................",
+          "chars": 106
+        },
+        {
+          "id": "s1.7",
+          "title": "1.7 Assumptions ....................................................................................",
+          "chars": 120
+        },
+        {
+          "id": "s1.8",
+          "title": "1.8 Constraints ....................................................................................",
+          "chars": 123
+        },
+        {
+          "id": "s2",
+          "title": "2 PILLARS AND PRINCIPLES ...........................................................................",
+          "chars": 114
+        },
+        {
+          "id": "s2.1",
+          "title": "2.1 Overview .......................................................................................",
+          "chars": 124
+        },
+        {
+          "id": "s2.2",
+          "title": "2.2 Concept and Tenets of Zero Trust ...............................................................",
+          "chars": 107
+        },
+        {
+          "id": "s2.3",
+          "title": "2.3 Pillars ........................................................................................",
+          "chars": 128
+        },
+        {
+          "id": "s2.4",
+          "title": "2.4 Reference Architecture Principles (OV-6a) ................................................... 23",
+          "chars": 102
+        },
+        {
+          "id": "s3",
+          "title": "3 CAPABILITIES .....................................................................................",
+          "chars": 126
+        },
+        {
+          "id": "s3.1",
+          "title": "3.1 Capabilities Taxonomy (CV-2) ...................................................................",
+          "chars": 110
+        },
+        {
+          "id": "s3.2",
+          "title": "3.2 FFP: Pillars, Resources & Capability Mapping ............................................. 31",
+          "chars": 99
+        },
+        {
+          "id": "s4",
+          "title": "4 USE CASES ........................................................................................",
+          "chars": 126
+        },
+        {
+          "id": "s4.1",
+          "title": "4.1 Data Centric Security Protections (OV-1) ...................................................... ",
+          "chars": 104
+        },
+        {
+          "id": "s4.2",
+          "title": "4.2 Data-Centric Security Protections (OV-2) ..................................................... 3",
+          "chars": 103
+        },
+        {
+          "id": "s4.3",
+          "title": "4.3 Data Encryption Protections (OV-2) .............................................................",
+          "chars": 106
+        },
+        {
+          "id": "s4.4",
+          "title": "4.4 Coordinating Policy for Data-Centric Security Protections (OV-2) ............. 41",
+          "chars": 104
+        },
+        {
+          "id": "s4.5",
+          "title": "4.5 Data Analytics & AI (OV-1) .....................................................................",
+          "chars": 114
+        },
+        {
+          "id": "s4.6",
+          "title": "4.6 Data Analytics & AI (SV-1) .....................................................................",
+          "chars": 114
+        },
+        {
+          "id": "s4.7",
+          "title": "4.7 Centralized Orchestration & Policy Management (OV-1) ............................. 45",
+          "chars": 91
+        },
+        {
+          "id": "s4.8",
+          "title": "4.8 Centralized Orchestration & Policy Management (OV-2) ............................. 46",
+          "chars": 91
+        },
+        {
+          "id": "s4.9",
+          "title": "4.9 Dynamic, Adaptive Policy Feedback Loop (OV-1) ........................................ 47",
+          "chars": 95
+        },
+        {
+          "id": "s4.10",
+          "title": "4.10 VPN-Less Implementation (OV-1) ................................................................",
+          "chars": 107
+        },
+        {
+          "id": "s4.11",
+          "title": "4.11 East-West Segmentation (OV-1) .................................................................",
+          "chars": 108
+        },
+        {
+          "id": "s4.12",
+          "title": "4.12 Global Uniform Device Hygiene (OV-1) ......................................................... ",
+          "chars": 104
+        },
+        {
+          "id": "s4.13",
+          "title": "4.13 Global Uniform Device Hygiene (OV-2) ......................................................... ",
+          "chars": 104
+        },
+        {
+          "id": "s4.14",
+          "title": "4.14 Dynamic, Continuous Authentication (OV-1) ................................................ 54",
+          "chars": 100
+        },
+        {
+          "id": "s4.15",
+          "title": "4.15 Dynamic, Continuous Authentication (OV-2) ................................................ 56",
+          "chars": 100
+        },
+        {
+          "id": "s4.16",
+          "title": "4.16 Conditional Authorization (OV-1) ..............................................................",
+          "chars": 110
+        },
+        {
+          "id": "s4.17",
+          "title": "4.17 Conditional Authorization (OV-2) ..............................................................",
+          "chars": 110
+        },
+        {
+          "id": "s5",
+          "title": "5 TECHNICAL POSITIONS ..............................................................................",
+          "chars": 116
+        },
+        {
+          "id": "s5.1",
+          "title": "5.1 Emerging Technologies ..........................................................................",
+          "chars": 113
+        },
+        {
+          "id": "s5.2",
+          "title": "5.2 Standards, Associated Architectures and Guides ....................................... 64",
+          "chars": 95
+        },
+        {
+          "id": "s5.3",
+          "title": "5.3 Linkages to Other Architectures ................................................................",
+          "chars": 399
+        },
+        {
+          "id": "s6",
+          "title": "6 SECURITY ASSESSMENT ..............................................................................",
+          "chars": 113
+        },
+        {
+          "id": "s6.1",
+          "title": "6.1 Governance .....................................................................................",
+          "chars": 121
+        },
+        {
+          "id": "s6.2",
+          "title": "6.2 Data Governance (OV-2) .........................................................................",
+          "chars": 113
+        },
+        {
+          "id": "s6.3",
+          "title": "6.3 Securing Supply Chain (OV-2) ...................................................................",
+          "chars": 109
+        },
+        {
+          "id": "s7",
+          "title": "7 ARCHITECTURE PATTERNS ............................................................................",
+          "chars": 111
+        },
+        {
+          "id": "s7.1",
+          "title": "7.1 Architecture Patterns (CV-4) ...................................................................",
+          "chars": 664
+        },
+        {
+          "id": "s7.2",
+          "title": "7.2 External Services ..............................................................................",
+          "chars": 323
+        },
+        {
+          "id": "s8",
+          "title": "8 TRANSITION ARCHITECTURE PLANNING (FFP) .................................................. 81",
+          "chars": 96
+        },
+        {
+          "id": "s8.1",
+          "title": "8.1 Maturity Model (FFP) ...........................................................................",
+          "chars": 117
+        },
+        {
+          "id": "s8.2",
+          "title": "8.2 Baseline (OV-1) ................................................................................",
+          "chars": 121
+        },
+        {
+          "id": "s8.3",
+          "title": "8.3 Transition (OV-1) ..............................................................................",
+          "chars": 120
+        },
+        {
+          "id": "s9",
+          "title": "9 APPENDIX (AV-2) ..................................................................................",
+          "chars": 123
+        },
+        {
+          "id": "s9.1",
+          "title": "9.1 Systems ........................................................................................",
+          "chars": 124
+        },
+        {
+          "id": "s9.2",
+          "title": "9.2 Services .......................................................................................",
+          "chars": 125
+        },
+        {
+          "id": "s9.3",
+          "title": "9.3 General Terms ..................................................................................",
+          "chars": 120
+        },
+        {
+          "id": "s9.4",
+          "title": "9.4 DIV-1 ..........................................................................................",
+          "chars": 127
+        },
+        {
+          "id": "s9.5",
+          "title": "9.5 StdV-1-2 References ............................................................................",
+          "chars": 116
+        },
+        {
+          "id": "s9.6",
+          "title": "9.6 Capability Table ...............................................................................",
+          "chars": 121
+        },
+        {
+          "id": "s10",
+          "title": "10 REFERENCES ......................................................................................",
+          "chars": 5817
+        },
+        {
+          "id": "s9",
+          "title": "9",
+          "chars": 14
+        },
+        {
+          "id": "s1",
+          "title": "1 PURPOSE AND STRATEGIC GOALS",
+          "chars": 31
+        },
+        {
+          "id": "s1.1",
+          "title": "1.1 Introduction",
+          "chars": 1038
+        },
+        {
+          "id": "s2021",
+          "title": "2021 Executive Order on Improving the Nation\u2019s Cybersecurity, and the DoD Chief Information",
+          "chars": 568
+        },
+        {
+          "id": "s1.2",
+          "title": "1.2 Purpose",
+          "chars": 922
+        },
+        {
+          "id": "s1",
+          "title": "1 NIST SP 800-207 Zero Trust Architecture, August 2020",
+          "chars": 55
+        },
+        {
+          "id": "s2",
+          "title": "2 DoD Digital Modernization Strategy, June 2019.",
+          "chars": 50
+        },
+        {
+          "id": "s10",
+          "title": "10",
+          "chars": 15
+        },
+        {
+          "id": "s1.3",
+          "title": "1.3 Scope",
+          "chars": 2343
+        },
+        {
+          "id": "s3",
+          "title": "3 DoD Reference Architecture Description \u2013 June 2010",
+          "chars": 54
+        },
+        {
+          "id": "s11",
+          "title": "11",
+          "chars": 2766
+        },
+        {
+          "id": "s12",
+          "title": "12",
+          "chars": 134
+        },
+        {
+          "id": "s30",
+          "title": "30 September 2020: Initial ZT RA v0.9 submitted for review by DISA, NSA, DoD CIO,",
+          "chars": 116
+        },
+        {
+          "id": "s04",
+          "title": "04 November 2020: ZT RA v0.9 submitted to Enterprise Architecture Engineering Panel",
+          "chars": 106
+        },
+        {
+          "id": "s04",
+          "title": "04 December 2020: Zero Trust Joint Engineering Team received feedback and began",
+          "chars": 95
+        },
+        {
+          "id": "s24",
+          "title": "24 December 2020: Submission of ZT RA v0.95 submitted to EAEP",
+          "chars": 64
+        },
+        {
+          "id": "s04",
+          "title": "04 January 2021: EAEP members voted on ZT RA release",
+          "chars": 55
+        },
+        {
+          "id": "s11",
+          "title": "11 Febuary 2021: Digital Modernization Infrastructure Infrastructure Executive Commitee",
+          "chars": 113
+        },
+        {
+          "id": "s13",
+          "title": "13 May 2021: ZT RA v1.0 published on DoD CIO Library",
+          "chars": 55
+        },
+        {
+          "id": "s30",
+          "title": "30 September 2021: ZT RA v2.0 draft development complete",
+          "chars": 59
+        },
+        {
+          "id": "s21",
+          "title": "21 November 2021: DCIO CS Chief Architect directed ZT RA 2.0 to be staffed through",
+          "chars": 142
+        },
+        {
+          "id": "s7",
+          "title": "7 February 2022: CS RA Steering Group - Joint O-6/GS-15 CATMS review of draft ZT",
+          "chars": 101
+        },
+        {
+          "id": "s24",
+          "title": "24 May 2022: EAEP completed assessment",
+          "chars": 41
+        },
+        {
+          "id": "s1",
+          "title": "1 June 2022: Briefed the EAEP results of assessment with complete concurrence of the",
+          "chars": 100
+        },
+        {
+          "id": "s13",
+          "title": "13",
+          "chars": 15
+        },
+        {
+          "id": "s1.4",
+          "title": "1.4 Vision and Goals (CV-1)",
+          "chars": 1425
+        },
+        {
+          "id": "s14",
+          "title": "14",
+          "chars": 3454
+        },
+        {
+          "id": "s15",
+          "title": "15",
+          "chars": 2657
+        },
+        {
+          "id": "s16",
+          "title": "16",
+          "chars": 499
+        },
+        {
+          "id": "s1.5",
+          "title": "1.5 Cybersecurity (Transition) Problem Statement (OV-1)",
+          "chars": 1094
+        },
+        {
+          "id": "s5",
+          "title": "5 DoD Zero Trust Strategy, July 2022",
+          "chars": 38
+        },
+        {
+          "id": "s17",
+          "title": "17",
+          "chars": 1500
+        },
+        {
+          "id": "s18",
+          "title": "18",
+          "chars": 15
+        },
+        {
+          "id": "s1.6",
+          "title": "1.6 Overall Target Environment (OV-1)",
+          "chars": 1730
+        },
+        {
+          "id": "s19",
+          "title": "19",
+          "chars": 1939
+        },
+        {
+          "id": "s1.7",
+          "title": "1.7 Assumptions",
+          "chars": 1323
+        },
+        {
+          "id": "s20",
+          "title": "20",
+          "chars": 15
+        },
+        {
+          "id": "s1.8",
+          "title": "1.8 Constraints",
+          "chars": 468
+        },
+        {
+          "id": "s2",
+          "title": "2 PILLARS AND PRINCIPLES",
+          "chars": 26
+        },
+        {
+          "id": "s2.1",
+          "title": "2.1 Overview",
+          "chars": 1692
+        },
+        {
+          "id": "s2.2",
+          "title": "2.2 Concept and Tenets of Zero Trust",
+          "chars": 401
+        },
+        {
+          "id": "s6",
+          "title": "6 DoD Digital Modernization Strategy, June 2019",
+          "chars": 49
+        },
+        {
+          "id": "s21",
+          "title": "21",
+          "chars": 1904
+        },
+        {
+          "id": "s2.3",
+          "title": "2.3 Pillars",
+          "chars": 430
+        },
+        {
+          "id": "s22",
+          "title": "22",
+          "chars": 1683
+        },
+        {
+          "id": "s23",
+          "title": "23",
+          "chars": 2619
+        },
+        {
+          "id": "s2.4",
+          "title": "2.4 Reference Architecture Principles (OV-6a)",
+          "chars": 1105
+        },
+        {
+          "id": "s25",
+          "title": "25",
+          "chars": 15
+        },
+        {
+          "id": "s3",
+          "title": "3 CAPABILITIES",
+          "chars": 16
+        },
+        {
+          "id": "s3.1",
+          "title": "3.1 Capabilities Taxonomy (CV-2)",
+          "chars": 2181
+        },
+        {
+          "id": "s26",
+          "title": "26",
+          "chars": 603
+        },
+        {
+          "id": "s27",
+          "title": "27",
+          "chars": 1094
+        },
+        {
+          "id": "s28",
+          "title": "28",
+          "chars": 1922
+        },
+        {
+          "id": "s29",
+          "title": "29",
+          "chars": 1257
+        },
+        {
+          "id": "s30",
+          "title": "30",
+          "chars": 1426
+        },
+        {
+          "id": "s31",
+          "title": "31",
+          "chars": 15
+        },
+        {
+          "id": "s3.2",
+          "title": "3.2 FFP: Pillars, Resources & Capability Mapping",
+          "chars": 1395
+        },
+        {
+          "id": "s32",
+          "title": "32",
+          "chars": 7698
+        },
+        {
+          "id": "s4",
+          "title": "4 USE CASES",
+          "chars": 746
+        },
+        {
+          "id": "s4.1",
+          "title": "4.1 Data Centric Security Protections (OV-1)",
+          "chars": 99
+        },
+        {
+          "id": "s36",
+          "title": "36",
+          "chars": 997
+        },
+        {
+          "id": "s4.2",
+          "title": "4.2 Data-Centric Security Protections (OV-2)",
+          "chars": 1291
+        },
+        {
+          "id": "s38",
+          "title": "38",
+          "chars": 178
+        },
+        {
+          "id": "s39",
+          "title": "39",
+          "chars": 15
+        },
+        {
+          "id": "s4.3",
+          "title": "4.3 Data Encryption Protections (OV-2)",
+          "chars": 87
+        },
+        {
+          "id": "s40",
+          "title": "40",
+          "chars": 1071
+        },
+        {
+          "id": "s41",
+          "title": "41",
+          "chars": 15
+        },
+        {
+          "id": "s4.4",
+          "title": "4.4 Coordinating Policy for Data-Centric Security Protections (OV-2)",
+          "chars": 650
+        },
+        {
+          "id": "s42",
+          "title": "42",
+          "chars": 472
+        },
+        {
+          "id": "s4.5",
+          "title": "4.5 Data Analytics & AI (OV-1)",
+          "chars": 74
+        },
+        {
+          "id": "s43",
+          "title": "43",
+          "chars": 1409
+        },
+        {
+          "id": "s44",
+          "title": "44",
+          "chars": 15
+        },
+        {
+          "id": "s4.6",
+          "title": "4.6 Data Analytics & AI (SV-1)",
+          "chars": 1277
+        },
+        {
+          "id": "s45",
+          "title": "45",
+          "chars": 15
+        },
+        {
+          "id": "s4.7",
+          "title": "4.7 Centralized Orchestration & Policy Management (OV-1)",
+          "chars": 1981
+        },
+        {
+          "id": "s46",
+          "title": "46",
+          "chars": 15
+        },
+        {
+          "id": "s4.8",
+          "title": "4.8 Centralized Orchestration & Policy Management (OV-2)",
+          "chars": 123
+        },
+        {
+          "id": "s47",
+          "title": "47",
+          "chars": 1237
+        },
+        {
+          "id": "s4.9",
+          "title": "4.9 Dynamic, Adaptive Policy Feedback Loop (OV-1)",
+          "chars": 775
+        },
+        {
+          "id": "s48",
+          "title": "48",
+          "chars": 805
+        },
+        {
+          "id": "s4.10",
+          "title": "4.10 VPN-Less Implementation (OV-1)",
+          "chars": 1463
+        },
+        {
+          "id": "s49",
+          "title": "49",
+          "chars": 322
+        },
+        {
+          "id": "s4.11",
+          "title": "4.11 East-West Segmentation (OV-1)",
+          "chars": 1190
+        },
+        {
+          "id": "s50",
+          "title": "50",
+          "chars": 15
+        },
+        {
+          "id": "s4.12",
+          "title": "4.12 Global Uniform Device Hygiene (OV-1)",
+          "chars": 1958
+        },
+        {
+          "id": "s51",
+          "title": "51",
+          "chars": 718
+        },
+        {
+          "id": "s52",
+          "title": "52",
+          "chars": 15
+        },
+        {
+          "id": "s4.13",
+          "title": "4.13 Global Uniform Device Hygiene (OV-2)",
+          "chars": 92
+        },
+        {
+          "id": "s53",
+          "title": "53",
+          "chars": 1185
+        },
+        {
+          "id": "s54",
+          "title": "54",
+          "chars": 15
+        },
+        {
+          "id": "s4.14",
+          "title": "4.14 Dynamic, Continuous Authentication (OV-1)",
+          "chars": 102
+        },
+        {
+          "id": "s55",
+          "title": "55",
+          "chars": 1616
+        },
+        {
+          "id": "s56",
+          "title": "56",
+          "chars": 15
+        },
+        {
+          "id": "s4.15",
+          "title": "4.15 Dynamic, Continuous Authentication (OV-2)",
+          "chars": 102
+        },
+        {
+          "id": "s57",
+          "title": "57",
+          "chars": 858
+        },
+        {
+          "id": "s58",
+          "title": "58",
+          "chars": 560
+        },
+        {
+          "id": "s59",
+          "title": "59",
+          "chars": 906
+        },
+        {
+          "id": "s60",
+          "title": "60",
+          "chars": 15
+        },
+        {
+          "id": "s4.16",
+          "title": "4.16 Conditional Authorization (OV-1)",
+          "chars": 605
+        },
+        {
+          "id": "s61",
+          "title": "61",
+          "chars": 555
+        },
+        {
+          "id": "s62",
+          "title": "62",
+          "chars": 15
+        },
+        {
+          "id": "s4.17",
+          "title": "4.17 Conditional Authorization (OV-2)",
+          "chars": 84
+        },
+        {
+          "id": "s63",
+          "title": "63",
+          "chars": 1323
+        },
+        {
+          "id": "s5",
+          "title": "5 TECHNICAL POSITIONS",
+          "chars": 23
+        },
+        {
+          "id": "s5.1",
+          "title": "5.1 Emerging Technologies",
+          "chars": 725
+        },
+        {
+          "id": "s64",
+          "title": "64",
+          "chars": 15
+        },
+        {
+          "id": "s5.2",
+          "title": "5.2 Standards, Associated Architectures and Guides",
+          "chars": 1683
+        },
+        {
+          "id": "s65",
+          "title": "65",
+          "chars": 120
+        },
+        {
+          "id": "s5.3",
+          "title": "5.3 Linkages to Other Architectures",
+          "chars": 2302
+        },
+        {
+          "id": "s66",
+          "title": "66",
+          "chars": 2286
+        },
+        {
+          "id": "s7",
+          "title": "7 Cybersecurity Reference Architecture, Version 4.0, July 2016",
+          "chars": 63
+        },
+        {
+          "id": "s8",
+          "title": "8 DoD ICAM Reference Design, June 2020",
+          "chars": 40
+        },
+        {
+          "id": "s67",
+          "title": "67",
+          "chars": 2447
+        },
+        {
+          "id": "s9",
+          "title": "9 NIST SP 800-207 Zero Trust Architecture, https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIS",
+          "chars": 118
+        },
+        {
+          "id": "s68",
+          "title": "68",
+          "chars": 75
+        },
+        {
+          "id": "s6",
+          "title": "6 SECURITY ASSESSMENT",
+          "chars": 23
+        },
+        {
+          "id": "s6.1",
+          "title": "6.1 Governance",
+          "chars": 680
+        },
+        {
+          "id": "s6.2",
+          "title": "6.2 Data Governance (OV-2)",
+          "chars": 921
+        },
+        {
+          "id": "s69",
+          "title": "69",
+          "chars": 2934
+        },
+        {
+          "id": "s70",
+          "title": "70",
+          "chars": 15
+        },
+        {
+          "id": "s6.3",
+          "title": "6.3 Securing Supply Chain (OV-2)",
+          "chars": 1710
+        },
+        {
+          "id": "s71",
+          "title": "71",
+          "chars": 510
+        },
+        {
+          "id": "s7",
+          "title": "7 ARCHITECTURE PATTERNS",
+          "chars": 25
+        },
+        {
+          "id": "s7.1",
+          "title": "7.1 Architecture Patterns (CV-4)",
+          "chars": 72
+        },
+        {
+          "id": "s72",
+          "title": "72",
+          "chars": 878
+        },
+        {
+          "id": "s73",
+          "title": "73",
+          "chars": 1221
+        },
+        {
+          "id": "s74",
+          "title": "74",
+          "chars": 1745
+        },
+        {
+          "id": "s75",
+          "title": "75",
+          "chars": 609
+        },
+        {
+          "id": "s76",
+          "title": "76",
+          "chars": 444
+        },
+        {
+          "id": "s77",
+          "title": "77",
+          "chars": 691
+        },
+        {
+          "id": "s78",
+          "title": "78",
+          "chars": 991
+        },
+        {
+          "id": "s7.2",
+          "title": "7.2 External Services",
+          "chars": 24
+        },
+        {
+          "id": "s79",
+          "title": "79",
+          "chars": 1281
+        },
+        {
+          "id": "s80",
+          "title": "80",
+          "chars": 821
+        },
+        {
+          "id": "s81",
+          "title": "81",
+          "chars": 15
+        },
+        {
+          "id": "s8",
+          "title": "8 TRANSITION ARCHITECTURE PLANNING (FFP)",
+          "chars": 42
+        },
+        {
+          "id": "s8.1",
+          "title": "8.1 Maturity Model (FFP)",
+          "chars": 1462
+        },
+        {
+          "id": "s82",
+          "title": "82",
+          "chars": 15
+        },
+        {
+          "id": "s8.2",
+          "title": "8.2 Baseline (OV-1)",
+          "chars": 1654
+        },
+        {
+          "id": "s83",
+          "title": "83",
+          "chars": 15
+        },
+        {
+          "id": "s8.3",
+          "title": "8.3 Transition (OV-1)",
+          "chars": 2197
+        },
+        {
+          "id": "s84",
+          "title": "84",
+          "chars": 687
+        },
+        {
+          "id": "s9",
+          "title": "9 APPENDIX (AV-2)",
+          "chars": 450
+        },
+        {
+          "id": "s85",
+          "title": "85",
+          "chars": 15
+        },
+        {
+          "id": "s9.1",
+          "title": "9.1 Systems",
+          "chars": 2315
+        },
+        {
+          "id": "s86",
+          "title": "86",
+          "chars": 2831
+        },
+        {
+          "id": "s87",
+          "title": "87",
+          "chars": 2538
+        },
+        {
+          "id": "s88",
+          "title": "88",
+          "chars": 2198
+        },
+        {
+          "id": "s89",
+          "title": "89",
+          "chars": 2135
+        },
+        {
+          "id": "s90",
+          "title": "90",
+          "chars": 432
+        },
+        {
+          "id": "s9.2",
+          "title": "9.2 Services",
+          "chars": 1261
+        },
+        {
+          "id": "s91",
+          "title": "91",
+          "chars": 1748
+        },
+        {
+          "id": "s92",
+          "title": "92",
+          "chars": 15
+        },
+        {
+          "id": "s9.3",
+          "title": "9.3 General Terms",
+          "chars": 2520
+        },
+        {
+          "id": "s93",
+          "title": "93",
+          "chars": 499
+        },
+        {
+          "id": "s9.4",
+          "title": "9.4 DIV-1",
+          "chars": 2117
+        },
+        {
+          "id": "s94",
+          "title": "94",
+          "chars": 2928
+        },
+        {
+          "id": "s95",
+          "title": "95",
+          "chars": 3366
+        },
+        {
+          "id": "s9.5",
+          "title": "9.5 StdV-1-2 References",
+          "chars": 2397
+        },
+        {
+          "id": "s97",
+          "title": "97",
+          "chars": 318
+        },
+        {
+          "id": "s9.6",
+          "title": "9.6 Capability Table",
+          "chars": 81
+        },
+        {
+          "id": "s1",
+          "title": "1",
+          "chars": 152
+        },
+        {
+          "id": "s1.1",
+          "title": "1.1",
+          "chars": 440
+        },
+        {
+          "id": "s1.2",
+          "title": "1.2",
+          "chars": 228
+        },
+        {
+          "id": "s2",
+          "title": "2",
+          "chars": 275
+        },
+        {
+          "id": "s2.1",
+          "title": "2.1",
+          "chars": 350
+        },
+        {
+          "id": "s2.2",
+          "title": "2.2",
+          "chars": 944
+        },
+        {
+          "id": "s2.3",
+          "title": "2.3",
+          "chars": 369
+        },
+        {
+          "id": "s2.4",
+          "title": "2.4",
+          "chars": 195
+        },
+        {
+          "id": "s3",
+          "title": "3",
+          "chars": 81
+        },
+        {
+          "id": "s3.1",
+          "title": "3.1",
+          "chars": 178
+        },
+        {
+          "id": "s3.2",
+          "title": "3.2",
+          "chars": 1125
+        },
+        {
+          "id": "s3.3",
+          "title": "3.3",
+          "chars": 239
+        },
+        {
+          "id": "s4",
+          "title": "4",
+          "chars": 270
+        },
+        {
+          "id": "s4.1",
+          "title": "4.1",
+          "chars": 178
+        },
+        {
+          "id": "s4.2",
+          "title": "4.2",
+          "chars": 817
+        },
+        {
+          "id": "s4.3",
+          "title": "4.3",
+          "chars": 199
+        },
+        {
+          "id": "s4.4",
+          "title": "4.4",
+          "chars": 503
+        },
+        {
+          "id": "s5",
+          "title": "5",
+          "chars": 127
+        },
+        {
+          "id": "s5.1",
+          "title": "5.1",
+          "chars": 621
+        },
+        {
+          "id": "s5.2",
+          "title": "5.2",
+          "chars": 218
+        },
+        {
+          "id": "s5.3",
+          "title": "5.3",
+          "chars": 255
+        },
+        {
+          "id": "s5.4",
+          "title": "5.4",
+          "chars": 130
+        },
+        {
+          "id": "s5.5",
+          "title": "5.5",
+          "chars": 171
+        },
+        {
+          "id": "s5.6",
+          "title": "5.6",
+          "chars": 261
+        },
+        {
+          "id": "s6",
+          "title": "6",
+          "chars": 182
+        },
+        {
+          "id": "s6.1",
+          "title": "6.1",
+          "chars": 174
+        },
+        {
+          "id": "s6.2",
+          "title": "6.2",
+          "chars": 313
+        },
+        {
+          "id": "s6.3",
+          "title": "6.3",
+          "chars": 184
+        },
+        {
+          "id": "s6.4",
+          "title": "6.4",
+          "chars": 197
+        },
+        {
+          "id": "s6.5",
+          "title": "6.5",
+          "chars": 291
+        },
+        {
+          "id": "s6.6",
+          "title": "6.6",
+          "chars": 285
+        },
+        {
+          "id": "s6.7",
+          "title": "6.7",
+          "chars": 292
+        },
+        {
+          "id": "s7",
+          "title": "7",
+          "chars": 276
+        },
+        {
+          "id": "s8",
+          "title": "8",
+          "chars": 172
+        },
+        {
+          "id": "s8.1",
+          "title": "8.1",
+          "chars": 880
+        },
+        {
+          "id": "s8.2",
+          "title": "8.2",
+          "chars": 165
+        },
+        {
+          "id": "s8.3",
+          "title": "8.3",
+          "chars": 214
+        },
+        {
+          "id": "s8.4",
+          "title": "8.4",
+          "chars": 1343
+        },
+        {
+          "id": "s8.5",
+          "title": "8.5",
+          "chars": 281
+        },
+        {
+          "id": "s8.6",
+          "title": "8.6",
+          "chars": 424
+        },
+        {
+          "id": "s104",
+          "title": "104",
+          "chars": 16
+        },
+        {
+          "id": "s10",
+          "title": "10 REFERENCES",
+          "chars": 486
+        },
+        {
+          "id": "s2018",
+          "title": "2018 DoD Cyber Strategy",
+          "chars": 1294
+        }
+      ]
+    },
+    {
+      "file": "DoD_ZT_Strategy_Roadmap.txt",
+      "category": "standards",
+      "total_chars": 82361,
+      "source_type": "numbered-sections",
+      "note_count": 98,
+      "sections": [
+        {
+          "id": "s1",
+          "title": "1 Information system includes \u201ca discrete set of information resources organized for the collection,",
+          "chars": 291
+        },
+        {
+          "id": "s2",
+          "title": "2 See US National Institute of Standards and Technology (NIST), Special Publication 1271, Getting St",
+          "chars": 309
+        },
+        {
+          "id": "s3",
+          "title": "3 Fact Sheet: 2022 National Defense Strategy, 28 March 2022.",
+          "chars": 2651
+        },
+        {
+          "id": "s5",
+          "title": "5 See Figure 4 in this document for an outcome description of each goal and objective.",
+          "chars": 2132
+        },
+        {
+          "id": "s1",
+          "title": "1",
+          "chars": 1659
+        },
+        {
+          "id": "s6",
+          "title": "6 DoD Directive (DoDD) 8000.01, Chg 1; Management of the Department of Defense Information Enterpris",
+          "chars": 398
+        },
+        {
+          "id": "s7",
+          "title": "7 DoD Digital Modernization Strategy, 5 June 2019, pp. 35 -36 defines the Joint Information Environm",
+          "chars": 551
+        },
+        {
+          "id": "s8",
+          "title": "8 Joint Publication 6-0 Joint Communications System, 10 June 2015, Incorporating Change 1, 04 Octobe",
+          "chars": 372
+        },
+        {
+          "id": "s9",
+          "title": "9 IBID defines DoD Components as the Office of the Secretary of Defense, the Military Departments, t",
+          "chars": 368
+        },
+        {
+          "id": "s10",
+          "title": "10 See Appendix F for definition of DoD ZT Ecosystem, which consists of the breadth of DoD leaders, ",
+          "chars": 258
+        },
+        {
+          "id": "s11",
+          "title": "11 The DoD defines Zero Trust in accordance with NIST SP 800-207, Zero Trust Architecture, August 20",
+          "chars": 113
+        },
+        {
+          "id": "s12",
+          "title": "12 IBID.",
+          "chars": 11
+        },
+        {
+          "id": "s2",
+          "title": "2",
+          "chars": 1038
+        },
+        {
+          "id": "s13",
+          "title": "13 DoDD 5144.02, Chg 1: DoD Chief Information Officer, Section 3, 19 September 2017, notes \u201cThe DoD ",
+          "chars": 427
+        },
+        {
+          "id": "s14",
+          "title": "14 Although applicable to all the DoD, including Components that own and operate National Security S",
+          "chars": 570
+        },
+        {
+          "id": "s15",
+          "title": "15 DoDD 8000.01, Chg 1; Management of the Department of Defense Information Enterprise (DoD IE), Sec",
+          "chars": 454
+        },
+        {
+          "id": "s16",
+          "title": "16 For purposes of this Strategy, the DoD ZT Framework is defined as \u201can official cybersecurity blue",
+          "chars": 1031
+        },
+        {
+          "id": "s3",
+          "title": "3",
+          "chars": 2676
+        },
+        {
+          "id": "s17",
+          "title": "17 Mission partner environment (MPE) initiatives and secret and below releasable environment (SABRE)",
+          "chars": 275
+        },
+        {
+          "id": "s18",
+          "title": "18 See the classified 2018 DoD Cyber Strategy for further details on the strategic environment.",
+          "chars": 97
+        },
+        {
+          "id": "s19",
+          "title": "19 Office of Management and Budget (OMB) Memorandum M-22-09,\u201cMoving the U.S. Government Toward Zero",
+          "chars": 152
+        },
+        {
+          "id": "s20",
+          "title": "20 Executive Order on Improving the Nation\u2019s Cybersecurity (EO 14028), 12 May 2021; National Defense",
+          "chars": 409
+        },
+        {
+          "id": "s4",
+          "title": "4",
+          "chars": 998
+        },
+        {
+          "id": "s21",
+          "title": "21 DoD CIO releases an annual update to the Capability Planning Guidance (CPG) which supports each o",
+          "chars": 286
+        },
+        {
+          "id": "s22",
+          "title": "22 DoD Cyber Security Reference Architecture, version 4.2, approval, January 2022.",
+          "chars": 84
+        },
+        {
+          "id": "s23",
+          "title": "23 DoD ZT RA v2.0, July 2022.",
+          "chars": 86
+        },
+        {
+          "id": "s5",
+          "title": "5",
+          "chars": 1580
+        },
+        {
+          "id": "s24",
+          "title": "24 Capabilities and activities required to achieve Target Level are depicted in Appendix A-D; includ",
+          "chars": 174
+        },
+        {
+          "id": "s6",
+          "title": "6",
+          "chars": 2414
+        },
+        {
+          "id": "s7",
+          "title": "7",
+          "chars": 2127
+        },
+        {
+          "id": "s25",
+          "title": "25 See DoD ZT RA, v2.0 for additional design-level assumptions and constraints (Section 1.7 \u2013 1.9, p",
+          "chars": 113
+        },
+        {
+          "id": "s26",
+          "title": "26 DoD ZT RA, v2.0, July 2022 (Section 2.1, p.20)",
+          "chars": 740
+        },
+        {
+          "id": "s8",
+          "title": "8",
+          "chars": 2060
+        },
+        {
+          "id": "s27",
+          "title": "27 Joint All Domain Command and Control (JADC2), Mission Partner Environment (MPE) and several other",
+          "chars": 132
+        },
+        {
+          "id": "s28",
+          "title": "28 For infrastructure or systems unable to comply with mandated ZT adoption, Components and system o",
+          "chars": 1862
+        },
+        {
+          "id": "s9",
+          "title": "9",
+          "chars": 2211
+        },
+        {
+          "id": "s30",
+          "title": "30 DOTmLPF-P analysis is the first step in Functional Solutions Analysis. It determines/recommends i",
+          "chars": 234
+        },
+        {
+          "id": "s31",
+          "title": "31 The concept of least privileged access\" refers to eliminating \"the idea of trusted or untrusted n",
+          "chars": 298
+        },
+        {
+          "id": "s32",
+          "title": "32 DoD ZT RA, v.2.0, p.21 delineates five (5) tenets that represent the foundational elements and in",
+          "chars": 289
+        },
+        {
+          "id": "s10",
+          "title": "10",
+          "chars": 1903
+        },
+        {
+          "id": "s34",
+          "title": "34 See the DoD ZT RA, v2.0, Sections 2.2 \u2013 2.3, pp. 20 - 23 for a more detailed explanation of the D",
+          "chars": 226
+        },
+        {
+          "id": "s35",
+          "title": "35 Details regarding supporting enablers will be further refined and integrated into next versions o",
+          "chars": 352
+        },
+        {
+          "id": "s11",
+          "title": "11",
+          "chars": 861
+        },
+        {
+          "id": "s36",
+          "title": "36 The strategic goals and corresponding objectives as listed are not prioritized. Rather, each need",
+          "chars": 147
+        },
+        {
+          "id": "s37",
+          "title": "37 While the objectives prescribe \u201cwhat\u201d shall be done in furtherance of the goal, they do not presc",
+          "chars": 1037
+        },
+        {
+          "id": "s12",
+          "title": "12",
+          "chars": 2130
+        },
+        {
+          "id": "s38",
+          "title": "38 Outcomes of Goal 1 also align with two (2) of the five (5) lines of effort defined in the 2018 Do",
+          "chars": 216
+        },
+        {
+          "id": "s39",
+          "title": "39 The DoD Zero Trust Capability Roadmap was developed in conjunction with this Strategy.",
+          "chars": 91
+        },
+        {
+          "id": "s40",
+          "title": "40 The 2022 National Defense Authorization Act, Section 1528 (d) requires \u201cnot later than one year a",
+          "chars": 817
+        },
+        {
+          "id": "s41",
+          "title": "41 Outcomes of Goal 2 also align with two (2) of the five (5) lines of effort defined in the 2018 Do",
+          "chars": 240
+        },
+        {
+          "id": "s13",
+          "title": "13",
+          "chars": 1051
+        },
+        {
+          "id": "s42",
+          "title": "42 Outcomes of Goal 3 also align with two (2) of the five (5) lines of effort defined in the 2018 Do",
+          "chars": 260
+        },
+        {
+          "id": "s43",
+          "title": "43 Outcomes of Goal 4 also align with one (1) of the five (5) lines of effort defined in the 2018 Do",
+          "chars": 194
+        },
+        {
+          "id": "s14",
+          "title": "14",
+          "chars": 865
+        },
+        {
+          "id": "s1.1",
+          "title": "1.1 Commitment. Transform DoD",
+          "chars": 154
+        },
+        {
+          "id": "s4.2",
+          "title": "4.2 Planning. Incorporate ZT",
+          "chars": 202
+        },
+        {
+          "id": "s4.3",
+          "title": "4.3 Programming. Align DoD Future",
+          "chars": 183
+        },
+        {
+          "id": "s4.1",
+          "title": "4.1 Policy. Establish a unified policy",
+          "chars": 258
+        },
+        {
+          "id": "s4.4",
+          "title": "4.4 Funding. Resource through the",
+          "chars": 119
+        },
+        {
+          "id": "s4.5",
+          "title": "4.5 Acquisition. Develop a plan to",
+          "chars": 156
+        },
+        {
+          "id": "s4.6",
+          "title": "4.6 Performance. Measure ZT",
+          "chars": 178
+        },
+        {
+          "id": "s4.7",
+          "title": "4.7 Zero Trust PfMO. Mature the ZT",
+          "chars": 250
+        },
+        {
+          "id": "s1.2",
+          "title": "1.2 Outreach. Conduct a",
+          "chars": 338
+        },
+        {
+          "id": "s1.3",
+          "title": "1.3 Awareness. Implement internal",
+          "chars": 339
+        },
+        {
+          "id": "s1.4",
+          "title": "1.4 Workforce. Identify and develop",
+          "chars": 84
+        },
+        {
+          "id": "s1.5",
+          "title": "1.5 Training. Embed ZT training",
+          "chars": 137
+        },
+        {
+          "id": "s2.1",
+          "title": "2.1 User. Secure, limit, and enforce",
+          "chars": 101
+        },
+        {
+          "id": "s2.2",
+          "title": "2.2 Device. Identify, inventory,",
+          "chars": 114
+        },
+        {
+          "id": "s2.3",
+          "title": "2.3 Applications & Workloads.",
+          "chars": 135
+        },
+        {
+          "id": "s2.4",
+          "title": "2.4 Data. Enable and secure data",
+          "chars": 171
+        },
+        {
+          "id": "s2.5",
+          "title": "2.5 Network & Environment.",
+          "chars": 196
+        },
+        {
+          "id": "s2.6",
+          "title": "2.6 Automation & Orchestration.",
+          "chars": 168
+        },
+        {
+          "id": "s2.7",
+          "title": "2.7 Visibility & Analytics. Analyze",
+          "chars": 206
+        },
+        {
+          "id": "s3.1",
+          "title": "3.1 Capabilities. Achieve intended",
+          "chars": 185
+        },
+        {
+          "id": "s3.2",
+          "title": "3.2 Architecture: Align, update, and",
+          "chars": 188
+        },
+        {
+          "id": "s3.3",
+          "title": "3.3 Interoperability. Ensure the",
+          "chars": 242
+        },
+        {
+          "id": "s3.4",
+          "title": "3.4 Ideation / Innovation. Vet, scale",
+          "chars": 295
+        },
+        {
+          "id": "s15",
+          "title": "15",
+          "chars": 2975
+        },
+        {
+          "id": "s16",
+          "title": "16",
+          "chars": 1793
+        },
+        {
+          "id": "s17",
+          "title": "17",
+          "chars": 1586
+        },
+        {
+          "id": "s44",
+          "title": "44 The DoD Zero Trust Capability Execution Roadmap, v1, developed by the ZT PfMO will be finalized i",
+          "chars": 211
+        },
+        {
+          "id": "s45",
+          "title": "45 Although the full set of DoD ZT Capabilities span from target to advanced, some capabilities are ",
+          "chars": 273
+        },
+        {
+          "id": "s46",
+          "title": "46 Determination of Target Level and fiscal year projection is based on the DoD Baseline \u201cCOA 1\u201d des",
+          "chars": 168
+        },
+        {
+          "id": "s18",
+          "title": "18",
+          "chars": 1505
+        },
+        {
+          "id": "s19",
+          "title": "19",
+          "chars": 2423
+        },
+        {
+          "id": "s47",
+          "title": "47 Fact Sheet: National Defense Strategy, 28 March 2022.",
+          "chars": 59
+        },
+        {
+          "id": "s20",
+          "title": "20",
+          "chars": 3078
+        },
+        {
+          "id": "s21",
+          "title": "21",
+          "chars": 2258
+        },
+        {
+          "id": "s48",
+          "title": "48 The DoD Cyber Council is a \u201cSupporting Tier Forum\u201d as part of the DoD Supporting Tier Governance ",
+          "chars": 209
+        },
+        {
+          "id": "s49",
+          "title": "49 The DoD ZT PfMO capabilities and services are derived from existing DoD CIO authorities. 40 U.S. ",
+          "chars": 531
+        },
+        {
+          "id": "s22",
+          "title": "22",
+          "chars": 802
+        },
+        {
+          "id": "s23",
+          "title": "23",
+          "chars": 812
+        },
+        {
+          "id": "s24",
+          "title": "24",
+          "chars": 731
+        },
+        {
+          "id": "s25",
+          "title": "25",
+          "chars": 593
+        },
+        {
+          "id": "s26",
+          "title": "26",
+          "chars": 2204
+        },
+        {
+          "id": "s27",
+          "title": "27",
+          "chars": 1779
+        },
+        {
+          "id": "s28",
+          "title": "28",
+          "chars": 1610
+        },
+        {
+          "id": "s29",
+          "title": "29",
+          "chars": 3125
+        }
+      ]
+    },
+    {
+      "file": "NCSC_ZT_Principles_on_Google_Cloud.txt",
+      "category": "standards",
+      "total_chars": 51590,
+      "source_type": "numbered-sections",
+      "note_count": 32,
+      "sections": [
+        {
+          "id": "s4",
+          "title": "4",
+          "chars": 123
+        },
+        {
+          "id": "s6",
+          "title": "6",
+          "chars": 46
+        },
+        {
+          "id": "s6",
+          "title": "6",
+          "chars": 17
+        },
+        {
+          "id": "s7",
+          "title": "7",
+          "chars": 90
+        },
+        {
+          "id": "s7",
+          "title": "7",
+          "chars": 78
+        },
+        {
+          "id": "s14",
+          "title": "14",
+          "chars": 11
+        },
+        {
+          "id": "s14",
+          "title": "14",
+          "chars": 12
+        },
+        {
+          "id": "s15",
+          "title": "15",
+          "chars": 9
+        },
+        {
+          "id": "s15",
+          "title": "15",
+          "chars": 103
+        },
+        {
+          "id": "s20",
+          "title": "20",
+          "chars": 16
+        },
+        {
+          "id": "s20",
+          "title": "20",
+          "chars": 13
+        },
+        {
+          "id": "s21",
+          "title": "21",
+          "chars": 82
+        },
+        {
+          "id": "s23",
+          "title": "23",
+          "chars": 25
+        },
+        {
+          "id": "s23",
+          "title": "23",
+          "chars": 26
+        },
+        {
+          "id": "s23",
+          "title": "23",
+          "chars": 73
+        },
+        {
+          "id": "s25",
+          "title": "25",
+          "chars": 80
+        },
+        {
+          "id": "s26",
+          "title": "26",
+          "chars": 19
+        },
+        {
+          "id": "s27",
+          "title": "27",
+          "chars": 22
+        },
+        {
+          "id": "s27",
+          "title": "27",
+          "chars": 33
+        },
+        {
+          "id": "s27",
+          "title": "27",
+          "chars": 68
+        },
+        {
+          "id": "s28",
+          "title": "28",
+          "chars": 14
+        },
+        {
+          "id": "s29",
+          "title": "29",
+          "chars": 23860
+        },
+        {
+          "id": "s1",
+          "title": "1",
+          "chars": 407
+        },
+        {
+          "id": "s1",
+          "title": "1 In addition to the video content from Google Cloud Next, the Shared Responsibility Matrix for PCI-",
+          "chars": 2342
+        },
+        {
+          "id": "s01",
+          "title": "01",
+          "chars": 172
+        },
+        {
+          "id": "s02",
+          "title": "02",
+          "chars": 103
+        },
+        {
+          "id": "s03",
+          "title": "03",
+          "chars": 87
+        },
+        {
+          "id": "s04",
+          "title": "04",
+          "chars": 22105
+        },
+        {
+          "id": "s01",
+          "title": "01",
+          "chars": 60
+        },
+        {
+          "id": "s02",
+          "title": "02",
+          "chars": 100
+        },
+        {
+          "id": "s03",
+          "title": "03",
+          "chars": 113
+        },
+        {
+          "id": "s04",
+          "title": "04",
+          "chars": 1158
+        }
+      ]
+    },
+    {
+      "file": "NIST_SP_800-207A_Cloud-Native_Access_Control.txt",
+      "category": "standards",
+      "total_chars": 69318,
+      "source_type": "numbered-sections",
+      "note_count": 15,
+      "sections": [
+        {
+          "id": "s100",
+          "title": "100 Bureau Drive (Mail Stop 8930) Gaithersburg, MD 20899-8930",
+          "chars": 8018
+        },
+        {
+          "id": "s1",
+          "title": "1",
+          "chars": 3064
+        },
+        {
+          "id": "s2",
+          "title": "2",
+          "chars": 3398
+        },
+        {
+          "id": "s3",
+          "title": "3",
+          "chars": 2957
+        },
+        {
+          "id": "s4",
+          "title": "4",
+          "chars": 1968
+        },
+        {
+          "id": "s5",
+          "title": "5",
+          "chars": 5994
+        },
+        {
+          "id": "s7",
+          "title": "7",
+          "chars": 11375
+        },
+        {
+          "id": "s12",
+          "title": "12",
+          "chars": 2347
+        },
+        {
+          "id": "s13",
+          "title": "13",
+          "chars": 2000
+        },
+        {
+          "id": "s14",
+          "title": "14",
+          "chars": 4848
+        },
+        {
+          "id": "s16",
+          "title": "16",
+          "chars": 2401
+        },
+        {
+          "id": "s17",
+          "title": "17",
+          "chars": 10362
+        },
+        {
+          "id": "s20",
+          "title": "20",
+          "chars": 3340
+        },
+        {
+          "id": "s22",
+          "title": "22",
+          "chars": 1316
+        },
+        {
+          "id": "s23",
+          "title": "23",
+          "chars": 1452
+        }
+      ]
+    },
+    {
+      "file": "NIST_SP_800-207_Zero_Trust_Architecture.txt",
+      "category": "standards",
+      "total_chars": 157154,
+      "source_type": "numbered-sections",
+      "note_count": 127,
+      "sections": [
+        {
+          "id": "s100",
+          "title": "100 Bureau Drive (Mail Stop 8920) Gaithersburg, MD 20899-8920",
+          "chars": 5953
+        },
+        {
+          "id": "s1",
+          "title": "1",
+          "chars": 128
+        },
+        {
+          "id": "s1.1",
+          "title": "1.1 History of Zero Trust Efforts Related to Federal Agencies .............................. 2",
+          "chars": 96
+        },
+        {
+          "id": "s1.2",
+          "title": "1.2 Structure of This Document .....................................................................",
+          "chars": 111
+        },
+        {
+          "id": "s2",
+          "title": "2",
+          "chars": 124
+        },
+        {
+          "id": "s2.1",
+          "title": "2.1 Tenets of Zero Trust ...........................................................................",
+          "chars": 225
+        },
+        {
+          "id": "s3",
+          "title": "3",
+          "chars": 102
+        },
+        {
+          "id": "s3.1",
+          "title": "3.1 Variations of Zero Trust Architecture Approaches ........................................ 11",
+          "chars": 362
+        },
+        {
+          "id": "s3.2",
+          "title": "3.2 Deployed Variations of the Abstract Architecture .......................................... 13",
+          "chars": 481
+        },
+        {
+          "id": "s3.3",
+          "title": "3.3 Trust Algorithm.................................................................................",
+          "chars": 222
+        },
+        {
+          "id": "s3.4",
+          "title": "3.4 Network/Environment Components .............................................................. 21",
+          "chars": 195
+        },
+        {
+          "id": "s4",
+          "title": "4",
+          "chars": 108
+        },
+        {
+          "id": "s4.1",
+          "title": "4.1 Enterprise with Satellite Facilities............................................................",
+          "chars": 111
+        },
+        {
+          "id": "s4.2",
+          "title": "4.2 Multi-cloud/Cloud-to-Cloud Enterprise ..........................................................",
+          "chars": 105
+        },
+        {
+          "id": "s4.3",
+          "title": "4.3 Enterprise with Contracted Services and/or Nonemployee Access .............. 25",
+          "chars": 85
+        },
+        {
+          "id": "s4.4",
+          "title": "4.4 Collaboration Across Enterprise Boundaries ................................................ 26",
+          "chars": 100
+        },
+        {
+          "id": "s4.5",
+          "title": "4.5 Enterprise with Public- or Customer-Facing Services ................................... 27",
+          "chars": 96
+        },
+        {
+          "id": "s5",
+          "title": "5",
+          "chars": 101
+        },
+        {
+          "id": "s5.1",
+          "title": "5.1 Subversion of ZTA Decision Process ............................................................ ",
+          "chars": 104
+        },
+        {
+          "id": "s5.2",
+          "title": "5.2 Denial-of-Service or Network Disruption ....................................................... ",
+          "chars": 104
+        },
+        {
+          "id": "s5.3",
+          "title": "5.3 Stolen Credentials/Insider Threat ..............................................................",
+          "chars": 108
+        },
+        {
+          "id": "s5.4",
+          "title": "5.4 Visibility on the Network ......................................................................",
+          "chars": 262
+        },
+        {
+          "id": "s5.5",
+          "title": "5.5 Storage of System and Network Information ................................................ 30",
+          "chars": 99
+        },
+        {
+          "id": "s5.6",
+          "title": "5.6 Reliance on Proprietary Data Formats or Solutions ...................................... 30",
+          "chars": 97
+        },
+        {
+          "id": "s5.7",
+          "title": "5.7 Use of Non-person Entities (NPE) in ZTA Administration ............................. 30",
+          "chars": 93
+        },
+        {
+          "id": "s6",
+          "title": "6",
+          "chars": 208
+        },
+        {
+          "id": "s6.1",
+          "title": "6.1 ZTA and NIST Risk Management Framework .............................................. 32",
+          "chars": 94
+        },
+        {
+          "id": "s6.2",
+          "title": "6.2 Zero Trust and NIST Privacy Framework ...................................................... 32",
+          "chars": 101
+        },
+        {
+          "id": "s6.3",
+          "title": "6.3 ZTA and Federal Identity, Credential, and Access Management Architecture",
+          "chars": 83
+        },
+        {
+          "id": "s6.4",
+          "title": "6.4 ZTA and Trusted Internet Connections 3.0 ................................................... 33",
+          "chars": 101
+        },
+        {
+          "id": "s6.5",
+          "title": "6.5 ZTA and EINSTEIN (NCPS \u2013 National Cybersecurity Protection System) ... 34",
+          "chars": 79
+        },
+        {
+          "id": "s6.6",
+          "title": "6.6 ZTA and DHS Continuous Diagnostics and Mitigations (CDM) Program ...... 34",
+          "chars": 80
+        },
+        {
+          "id": "s6.7",
+          "title": "6.7 ZTA, Cloud Smart, and the Federal Data Strategy ....................................... 35",
+          "chars": 96
+        },
+        {
+          "id": "s7",
+          "title": "7",
+          "chars": 110
+        },
+        {
+          "id": "s7.1",
+          "title": "7.1 Pure Zero Trust Architecture ...................................................................",
+          "chars": 111
+        },
+        {
+          "id": "s7.2",
+          "title": "7.2 Hybrid ZTA and Perimeter-Based Architecture ............................................. 36",
+          "chars": 98
+        },
+        {
+          "id": "s7.3",
+          "title": "7.3 Steps to Introducing ZTA to a Perimeter-Based Architected Network ........... 37",
+          "chars": 4215
+        },
+        {
+          "id": "s1",
+          "title": "1",
+          "chars": 95
+        },
+        {
+          "id": "s1",
+          "title": "1",
+          "chars": 3633
+        },
+        {
+          "id": "s2",
+          "title": "2",
+          "chars": 201
+        },
+        {
+          "id": "s1.1",
+          "title": "1.1",
+          "chars": 2286
+        },
+        {
+          "id": "s1.2",
+          "title": "1.2",
+          "chars": 518
+        },
+        {
+          "id": "s2",
+          "title": "2 Any mention of commercial products or services within NIST documents is for information only; it d",
+          "chars": 210
+        },
+        {
+          "id": "s3",
+          "title": "3",
+          "chars": 922
+        },
+        {
+          "id": "s4",
+          "title": "4",
+          "chars": 95
+        },
+        {
+          "id": "s2",
+          "title": "2",
+          "chars": 3387
+        },
+        {
+          "id": "s5",
+          "title": "5",
+          "chars": 2491
+        },
+        {
+          "id": "s3",
+          "title": "3 Part of the concepts defined in OASIS XACML 2.0 https://docs.oasis-open.org/xacml/2.0/access_contr",
+          "chars": 183
+        },
+        {
+          "id": "s6",
+          "title": "6",
+          "chars": 95
+        },
+        {
+          "id": "s2.1",
+          "title": "2.1",
+          "chars": 3596
+        },
+        {
+          "id": "s7",
+          "title": "7",
+          "chars": 3556
+        },
+        {
+          "id": "s8",
+          "title": "8",
+          "chars": 3322
+        },
+        {
+          "id": "s9",
+          "title": "9",
+          "chars": 95
+        },
+        {
+          "id": "s3",
+          "title": "3",
+          "chars": 2205
+        },
+        {
+          "id": "s10",
+          "title": "10",
+          "chars": 3515
+        },
+        {
+          "id": "s11",
+          "title": "11",
+          "chars": 1358
+        },
+        {
+          "id": "s3.1",
+          "title": "3.1",
+          "chars": 1935
+        },
+        {
+          "id": "s12",
+          "title": "12",
+          "chars": 3600
+        },
+        {
+          "id": "s13",
+          "title": "13",
+          "chars": 1022
+        },
+        {
+          "id": "s3.2",
+          "title": "3.2",
+          "chars": 1867
+        },
+        {
+          "id": "s14",
+          "title": "14",
+          "chars": 2650
+        },
+        {
+          "id": "s15",
+          "title": "15",
+          "chars": 1370
+        },
+        {
+          "id": "s16",
+          "title": "16",
+          "chars": 1909
+        },
+        {
+          "id": "s17",
+          "title": "17",
+          "chars": 1040
+        },
+        {
+          "id": "s3.3",
+          "title": "3.3",
+          "chars": 684
+        },
+        {
+          "id": "s18",
+          "title": "18",
+          "chars": 2090
+        },
+        {
+          "id": "s19",
+          "title": "19",
+          "chars": 3494
+        },
+        {
+          "id": "s20",
+          "title": "20",
+          "chars": 3962
+        },
+        {
+          "id": "s21",
+          "title": "21",
+          "chars": 205
+        },
+        {
+          "id": "s3.4",
+          "title": "3.4",
+          "chars": 3116
+        },
+        {
+          "id": "s22",
+          "title": "22",
+          "chars": 2341
+        },
+        {
+          "id": "s23",
+          "title": "23",
+          "chars": 96
+        },
+        {
+          "id": "s4",
+          "title": "4",
+          "chars": 932
+        },
+        {
+          "id": "s4.1",
+          "title": "4.1",
+          "chars": 1614
+        },
+        {
+          "id": "s24",
+          "title": "24",
+          "chars": 142
+        },
+        {
+          "id": "s4.2",
+          "title": "4.2",
+          "chars": 1323
+        },
+        {
+          "id": "s25",
+          "title": "25",
+          "chars": 670
+        },
+        {
+          "id": "s4.3",
+          "title": "4.3",
+          "chars": 1294
+        },
+        {
+          "id": "s26",
+          "title": "26",
+          "chars": 662
+        },
+        {
+          "id": "s4.4",
+          "title": "4.4",
+          "chars": 1868
+        },
+        {
+          "id": "s27",
+          "title": "27",
+          "chars": 96
+        },
+        {
+          "id": "s4.5",
+          "title": "4.5",
+          "chars": 2145
+        },
+        {
+          "id": "s28",
+          "title": "28",
+          "chars": 96
+        },
+        {
+          "id": "s5",
+          "title": "5",
+          "chars": 426
+        },
+        {
+          "id": "s5.1",
+          "title": "5.1",
+          "chars": 831
+        },
+        {
+          "id": "s5.2",
+          "title": "5.2",
+          "chars": 1762
+        },
+        {
+          "id": "s29",
+          "title": "29",
+          "chars": 554
+        },
+        {
+          "id": "s5.3",
+          "title": "5.3",
+          "chars": 2147
+        },
+        {
+          "id": "s5.4",
+          "title": "5.4",
+          "chars": 979
+        },
+        {
+          "id": "s30",
+          "title": "30",
+          "chars": 472
+        },
+        {
+          "id": "s5.5",
+          "title": "5.5",
+          "chars": 1331
+        },
+        {
+          "id": "s5.6",
+          "title": "5.6",
+          "chars": 1323
+        },
+        {
+          "id": "s5.7",
+          "title": "5.7",
+          "chars": 479
+        },
+        {
+          "id": "s31",
+          "title": "31",
+          "chars": 1351
+        },
+        {
+          "id": "s32",
+          "title": "32",
+          "chars": 96
+        },
+        {
+          "id": "s6",
+          "title": "6",
+          "chars": 588
+        },
+        {
+          "id": "s6.1",
+          "title": "6.1",
+          "chars": 1036
+        },
+        {
+          "id": "s6.2",
+          "title": "6.2",
+          "chars": 1653
+        },
+        {
+          "id": "s33",
+          "title": "33",
+          "chars": 96
+        },
+        {
+          "id": "s6.3",
+          "title": "6.3",
+          "chars": 1215
+        },
+        {
+          "id": "s6.4",
+          "title": "6.4",
+          "chars": 2389
+        },
+        {
+          "id": "s34",
+          "title": "34",
+          "chars": 96
+        },
+        {
+          "id": "s6.5",
+          "title": "6.5",
+          "chars": 1934
+        },
+        {
+          "id": "s6.6",
+          "title": "6.6",
+          "chars": 1482
+        },
+        {
+          "id": "s35",
+          "title": "35",
+          "chars": 500
+        },
+        {
+          "id": "s6.7",
+          "title": "6.7",
+          "chars": 1207
+        },
+        {
+          "id": "s8",
+          "title": "8 Federal Cloud Computing Strategy: https://cloud.cio.gov/strategy/",
+          "chars": 70
+        },
+        {
+          "id": "s9",
+          "title": "9 Federal Data Strategy: https://strategy.data.gov/",
+          "chars": 105
+        },
+        {
+          "id": "s36",
+          "title": "36",
+          "chars": 96
+        },
+        {
+          "id": "s7",
+          "title": "7",
+          "chars": 1208
+        },
+        {
+          "id": "s7.1",
+          "title": "7.1",
+          "chars": 1551
+        },
+        {
+          "id": "s7.2",
+          "title": "7.2",
+          "chars": 746
+        },
+        {
+          "id": "s37",
+          "title": "37",
+          "chars": 336
+        },
+        {
+          "id": "s7.3",
+          "title": "7.3",
+          "chars": 1370
+        },
+        {
+          "id": "s38",
+          "title": "38",
+          "chars": 3598
+        },
+        {
+          "id": "s39",
+          "title": "39",
+          "chars": 3646
+        },
+        {
+          "id": "s40",
+          "title": "40",
+          "chars": 3248
+        },
+        {
+          "id": "s41",
+          "title": "41",
+          "chars": 1978
+        },
+        {
+          "id": "s42",
+          "title": "42",
+          "chars": 2413
+        },
+        {
+          "id": "s43",
+          "title": "43",
+          "chars": 2488
+        },
+        {
+          "id": "s44",
+          "title": "44",
+          "chars": 2050
+        },
+        {
+          "id": "s45",
+          "title": "45",
+          "chars": 902
+        },
+        {
+          "id": "s46",
+          "title": "46",
+          "chars": 2366
+        },
+        {
+          "id": "s47",
+          "title": "47",
+          "chars": 3111
+        },
+        {
+          "id": "s48",
+          "title": "48",
+          "chars": 3534
+        },
+        {
+          "id": "s49",
+          "title": "49",
+          "chars": 3478
+        },
+        {
+          "id": "s50",
+          "title": "50",
+          "chars": 2149
+        }
+      ]
+    },
+    {
+      "file": "NSA_Embracing_Zero_Trust.txt",
+      "category": "standards",
+      "total_chars": 23002,
+      "source_type": "single",
+      "note_count": 1,
+      "sections": [
+        {
+          "id": "full",
+          "title": "NSA Embracing Zero Trust",
+          "chars": 23002
+        }
+      ]
+    },
+    {
+      "file": "NSA_ZT_Device_Pillar.txt",
+      "category": "standards",
+      "total_chars": 43098,
+      "source_type": "single",
+      "note_count": 1,
+      "sections": [
+        {
+          "id": "full",
+          "title": "NSA ZT Device Pillar",
+          "chars": 43098
+        }
+      ]
+    },
+    {
+      "file": "NSA_ZT_Network_Environment_Pillar.txt",
+      "category": "standards",
+      "total_chars": 24709,
+      "source_type": "single",
+      "note_count": 1,
+      "sections": [
+        {
+          "id": "full",
+          "title": "NSA ZT Network Environment Pillar",
+          "chars": 24709
+        }
+      ]
+    },
+    {
+      "file": "NSA_ZT_User_Pillar.txt",
+      "category": "standards",
+      "total_chars": 47131,
+      "source_type": "single",
+      "note_count": 1,
+      "sections": [
+        {
+          "id": "full",
+          "title": "NSA ZT User Pillar",
+          "chars": 47131
+        }
+      ]
+    },
+    {
+      "file": "NSTAC_Report_ZT_Trusted_Identity_Management.txt",
+      "category": "standards",
+      "total_chars": 152277,
+      "source_type": "numbered-sections",
+      "note_count": 101,
+      "sections": [
+        {
+          "id": "s1",
+          "title": "1 Executive Order (EO) 14028: Improving the Nation\u2019s Cybersecurity, The White House, May 12, 2021,",
+          "chars": 231
+        },
+        {
+          "id": "s2",
+          "title": "2 Office of Management and Budget, M-22-09: Moving the U.S. Government Toward Zero Trust Cybersecuri",
+          "chars": 3032
+        },
+        {
+          "id": "s3",
+          "title": "3 OMB, M-22-09: Moving the U.S. Government Toward Zero Trust Cybersecurity Principles, The White Hou",
+          "chars": 666
+        },
+        {
+          "id": "s3.1",
+          "title": "3.1 Address Oversight and",
+          "chars": 363
+        },
+        {
+          "id": "s3.2",
+          "title": "3.2 Address Governance",
+          "chars": 4271
+        },
+        {
+          "id": "s4",
+          "title": "4  OMB, M-22-09: Moving the U.S. Government Toward Zero Trust Cybersecurity Principles, The White Ho",
+          "chars": 338
+        },
+        {
+          "id": "s6",
+          "title": "6 National Institute of Standards and Technology (NIST), Special Publication (SP) 800-53 Rev. 5: Sec",
+          "chars": 253
+        },
+        {
+          "id": "s7",
+          "title": "7 Ibid.",
+          "chars": 3114
+        },
+        {
+          "id": "s8",
+          "title": "8 OMB, M-22-09: Moving the U.S. Government Toward Zero Trust Cybersecurity Principles, The White Hou",
+          "chars": 192
+        },
+        {
+          "id": "s9",
+          "title": "9 NIST, Cybersecurity Framework, Accessed January 25, 2022,  https://www.nist.gov/cyberframework.",
+          "chars": 3673
+        },
+        {
+          "id": "s13",
+          "title": "13 John Kindervag, No More Chewy Centers: Introducing the Zero Trust Model of Information Security, ",
+          "chars": 315
+        },
+        {
+          "id": "s2",
+          "title": "2",
+          "chars": 2289
+        },
+        {
+          "id": "s14",
+          "title": "14 Sylvia Burns, Federal Deposit Insurance Corporation, \u201cNSTAC ZT-IdM Subcommittee Briefing,\u201d Briefi",
+          "chars": 217
+        },
+        {
+          "id": "s15",
+          "title": "15 NIST, SP 800-207: Zero Trust Architecture, August 2020, https://csrc.nist.gov/publications/detail",
+          "chars": 121
+        },
+        {
+          "id": "s16",
+          "title": "16 Department of Defense (DoD), Zero Trust Reference Architecture, February 2021,",
+          "chars": 167
+        },
+        {
+          "id": "s17",
+          "title": "17 EO 14028: Improving the Nation\u2019s Cybersecurity, The White House, May 12, 2021, https://www.whiteh",
+          "chars": 214
+        },
+        {
+          "id": "s18",
+          "title": "18 National Security Memorandum 8 (NSM-8): Improving the Cybersecurity of National Security, Departm",
+          "chars": 381
+        },
+        {
+          "id": "s19",
+          "title": "19 OMB, M-22-09: Moving the U.S. Government Toward Zero Trust Cybersecurity Principles, The White Ho",
+          "chars": 193
+        },
+        {
+          "id": "s20",
+          "title": "20 Cybersecurity and Infrastructure Security Agency (CISA), Zero Trust Maturity Model (draft), June ",
+          "chars": 296
+        },
+        {
+          "id": "s3",
+          "title": "3",
+          "chars": 2348
+        },
+        {
+          "id": "s21",
+          "title": "21 NIST, SP 800-207: Zero Trust Architecture, August 2020, https://csrc.nist.gov/publications/detail",
+          "chars": 120
+        },
+        {
+          "id": "s22",
+          "title": "22 DoD, Zero Trust Reference Architecture, February 2021,",
+          "chars": 143
+        },
+        {
+          "id": "s23",
+          "title": "23 NIST, SP 800-207: Zero Trust Architecture, August 2020, https://csrc.nist.gov/publications/detail",
+          "chars": 120
+        },
+        {
+          "id": "s24",
+          "title": "24 National Security Agency (NSA), Embracing a Zero Trust Security Model, February 2021,",
+          "chars": 281
+        },
+        {
+          "id": "s4",
+          "title": "4",
+          "chars": 2921
+        },
+        {
+          "id": "s25",
+          "title": "25 CISA, Zero Trust Maturity Model (draft), June 2021,",
+          "chars": 162
+        },
+        {
+          "id": "s26",
+          "title": "26 NIST, SP 800-207: Zero Trust Architecture, August 2020, https://csrc.nist.gov/publications/detail",
+          "chars": 120
+        },
+        {
+          "id": "s27",
+          "title": "27 OMB, M-22-09: Moving the U.S. Government Toward Zero Trust Cybersecurity Principles, The White Ho",
+          "chars": 2873
+        },
+        {
+          "id": "s28",
+          "title": "28 John Kindervag, ON2IT BV, \u201cNSTAC ZT Briefing,\u201d Briefing to the NSTAC (ZT-IdM) Subcommittee. Arlin",
+          "chars": 213
+        },
+        {
+          "id": "s6",
+          "title": "6",
+          "chars": 4634
+        },
+        {
+          "id": "s29",
+          "title": "29 John Kindervag, ON2IT BV, \u201cNSTAC ZT Briefing,\u201d Briefing to the NSTAC (ZT-IdM) Subcommittee. Arlin",
+          "chars": 130
+        },
+        {
+          "id": "s30",
+          "title": "30 Ibid.",
+          "chars": 10
+        },
+        {
+          "id": "s31",
+          "title": "31 Ibid.",
+          "chars": 93
+        },
+        {
+          "id": "s8",
+          "title": "8",
+          "chars": 2334
+        },
+        {
+          "id": "s32",
+          "title": "32 CISA, Zero Trust Maturity Model (draft), June 2021,",
+          "chars": 162
+        },
+        {
+          "id": "s33",
+          "title": "33 John Kindervag, ON2IT BV, \u201cNSTAC ZT Briefing,\u201d Briefing to the NSTAC Zero Trust \u2013 Identity Manage",
+          "chars": 2906
+        },
+        {
+          "id": "s34",
+          "title": "34 CISA, Zero Trust Maturity Model (draft), June 2021,",
+          "chars": 161
+        },
+        {
+          "id": "s35",
+          "title": "35 NIST, SP 800-207: Zero Trust Architecture, August 2020, https://csrc.nist.gov/publications/detail",
+          "chars": 121
+        },
+        {
+          "id": "s36",
+          "title": "36 OMB, M-22-09: Moving the U.S. Government Toward Zero Trust Cybersecurity Principles, The White Ho",
+          "chars": 2961
+        },
+        {
+          "id": "s37",
+          "title": "37 OMB, M-22-09: Moving the U.S. Government Toward Zero Trust Cybersecurity Principles, The White Ho",
+          "chars": 194
+        },
+        {
+          "id": "s38",
+          "title": "38 CISA, Zero Trust Maturity Model (draft), June 2021,",
+          "chars": 161
+        },
+        {
+          "id": "s39",
+          "title": "39 OMB, M-22-09: Moving the U.S. Government Toward Zero Trust Cybersecurity Principles, The White Ho",
+          "chars": 193
+        },
+        {
+          "id": "s40",
+          "title": "40 Ibid.",
+          "chars": 2656
+        },
+        {
+          "id": "s41",
+          "title": "41 OMB, M-22-09: Moving the U.S. Government Toward Zero Trust Cybersecurity Principles, The White Ho",
+          "chars": 192
+        },
+        {
+          "id": "s42",
+          "title": "42 Ibid.",
+          "chars": 10
+        },
+        {
+          "id": "s43",
+          "title": "43 John Kindervag, ON2IT BV, \u201cNSTAC ZT Briefing,\u201d Briefing to the NSTAC Zero Trust \u2013 Identity Manage",
+          "chars": 238
+        },
+        {
+          "id": "s12",
+          "title": "12",
+          "chars": 5792
+        },
+        {
+          "id": "s44",
+          "title": "44 EO 14028: Improving the Nation\u2019s Cybersecurity, The White House, May 12, 2021, https://www.whiteh",
+          "chars": 214
+        },
+        {
+          "id": "s45",
+          "title": "45 OMB, M-22-09: Moving the U.S. Government Toward Zero Trust Cybersecurity Principles, The White Ho",
+          "chars": 2475
+        },
+        {
+          "id": "s47",
+          "title": "47 NIST, SP 800-53 Rev. 5: Security and Privacy Controls for Information Systems and Organizations, ",
+          "chars": 285
+        },
+        {
+          "id": "s49",
+          "title": "49 OMB, M-22-09: Moving the U.S. Government Toward Zero Trust Cybersecurity Principles, The White Ho",
+          "chars": 193
+        },
+        {
+          "id": "s50",
+          "title": "50 NIST, SP 800-53 Rev. 5: Security and Privacy Controls for Information Systems and Organizations, ",
+          "chars": 183
+        },
+        {
+          "id": "s51",
+          "title": "51 OMB, M-22-09: Moving the U.S. Government Toward Zero Trust Cybersecurity Principles, The White Ho",
+          "chars": 293
+        },
+        {
+          "id": "s53",
+          "title": "53 NIST, SP 800-53 Rev. 5: Security and Privacy Controls for Information Systems and Organizations, ",
+          "chars": 3239
+        },
+        {
+          "id": "s56",
+          "title": "56 CISA, Continuous Diagnostics and Mitigation, Accessed January 25, 2022, https://www.cisa.gov/cdm.",
+          "chars": 102
+        },
+        {
+          "id": "s57",
+          "title": "57 NIST, SP 800-137: Information Security Continuous Monitoring (ISCM) for Federal Information Syste",
+          "chars": 220
+        },
+        {
+          "id": "s58",
+          "title": "58 Lawrence Hale and Justin Morgan, General Services Administration (GSA), \u201cHow GSA Can Help Agencie",
+          "chars": 3127
+        },
+        {
+          "id": "s59",
+          "title": "59 CISA, Trusted Internet Connections, January 2022, https://www.cisa.gov/tic.",
+          "chars": 80
+        },
+        {
+          "id": "s60",
+          "title": "60 OMB, M-22-09: Moving the U.S. Government Toward Zero Trust Cybersecurity Principles, The White Ho",
+          "chars": 277
+        },
+        {
+          "id": "s17",
+          "title": "17",
+          "chars": 2647
+        },
+        {
+          "id": "s61",
+          "title": "61 EO 14028: Improving the Nation\u2019s Cybersecurity, The White House, May 12, 2021, https://www.whiteh",
+          "chars": 3281
+        },
+        {
+          "id": "s63",
+          "title": "63 Ibid.",
+          "chars": 10
+        },
+        {
+          "id": "s64",
+          "title": "64 The TMF, Awarded Projects page: \u201cZero Trust Architecture,\u201d https://tmf.cio.gov/projects/#zero-tru",
+          "chars": 119
+        },
+        {
+          "id": "s65",
+          "title": "65 The TMF, Awarded Projects page: \u201cAdvancing Zero Trust,\u201d https://tmf.cio.gov/projects\"/#advancing-",
+          "chars": 113
+        },
+        {
+          "id": "s66",
+          "title": "66 The TMF, Awarded Projects page: \u201cZero Trust Networking,\u201d https://tmf.cio.gov/projects/#zero-trust",
+          "chars": 198
+        },
+        {
+          "id": "s19",
+          "title": "19",
+          "chars": 3317
+        },
+        {
+          "id": "s67",
+          "title": "67 State of California, Cal-Secure: State of California Executive Branch Multi-Year Information Secu",
+          "chars": 3372
+        },
+        {
+          "id": "s68",
+          "title": "68 NIST, SP 800-207: Zero Trust Architecture, August 2020, https://csrc.nist.gov/publications/detail",
+          "chars": 121
+        },
+        {
+          "id": "s69",
+          "title": "69 Alper Kerman, and Scott Rose, National Institute of Standards and Technology, \u201cZTA; Implementing ",
+          "chars": 2696
+        },
+        {
+          "id": "s70",
+          "title": "70 EO 14028: Improving the Nation\u2019s Cybersecurity, The White House, May 12, 2021, https://www.whiteh",
+          "chars": 214
+        },
+        {
+          "id": "s71",
+          "title": "71 OMB, M-22-09: Moving the U.S. Government Toward Zero Trust Cybersecurity Principles, The White Ho",
+          "chars": 2846
+        },
+        {
+          "id": "s72",
+          "title": "72 NIST, \u201cRoadmap: NIST SP 800-63-3: Digital Identity Guidelines,\u201d June 2017, https://www.nist.gov/i",
+          "chars": 200
+        },
+        {
+          "id": "s73",
+          "title": "73 Ibid.",
+          "chars": 2597
+        },
+        {
+          "id": "s74",
+          "title": "74 EO 14028: Improving the Nation\u2019s Cybersecurity, The White House, May 12, 2021, https://www.whiteh",
+          "chars": 214
+        },
+        {
+          "id": "s75",
+          "title": "75 OMB, M-22-09: Moving the U.S. Government Toward Zero Trust Cybersecurity Principles, The White Ho",
+          "chars": 193
+        },
+        {
+          "id": "s76",
+          "title": "76 NIST, SP 800-207: Zero Trust Architecture, August 2020, https://csrc.nist.gov/publications/detail",
+          "chars": 121
+        },
+        {
+          "id": "s77",
+          "title": "77 Department of Defense (DoD), Zero Trust Reference Architecture, February 2021,",
+          "chars": 169
+        },
+        {
+          "id": "s78",
+          "title": "78 NSA, Embracing a Zero Trust Security Model, February 2021, https://media.defense.gov/2021/Feb/25/",
+          "chars": 172
+        },
+        {
+          "id": "s79",
+          "title": "79 CISA, Zero Trust Maturity Model (draft), June 2021,",
+          "chars": 244
+        },
+        {
+          "id": "s24",
+          "title": "24",
+          "chars": 2021
+        },
+        {
+          "id": "s80",
+          "title": "80 ISO and IEC Joint Technical Committee (JTC 1) for Information Technology, ISO/IEC 27001: Informat",
+          "chars": 202
+        },
+        {
+          "id": "s81",
+          "title": "81 NIST, Cybersecurity Framework, https://www.nist.gov/cyberframework.",
+          "chars": 267
+        },
+        {
+          "id": "s2021",
+          "title": "2021 American Rescue Plan Act,83 and the 2021 Infrastructure Investment and Jobs Act (IIJA).84",
+          "chars": 2904
+        },
+        {
+          "id": "s85",
+          "title": "85 NIST, SP 800-207: Zero Trust Architecture, August 2020, https://csrc.nist.gov/publications/detail",
+          "chars": 121
+        },
+        {
+          "id": "s86",
+          "title": "86 CISA, Zero Trust Maturity Model (draft), June 2021,",
+          "chars": 435
+        },
+        {
+          "id": "s89",
+          "title": "89 Ibid.",
+          "chars": 2537
+        },
+        {
+          "id": "s90",
+          "title": "90 EO 14028: Improving the Nation\u2019s Cybersecurity, The White House, May 12, 2021, https://www.whiteh",
+          "chars": 214
+        },
+        {
+          "id": "s91",
+          "title": "91 Ibid.",
+          "chars": 266
+        },
+        {
+          "id": "s93",
+          "title": "93 Brian Ceseratto, Patricia Wagner, and Alaap Shah, Epstein Becker Green, \u201cHITECH Act Amendment Inc",
+          "chars": 570
+        },
+        {
+          "id": "s27",
+          "title": "27",
+          "chars": 2140
+        },
+        {
+          "id": "s94",
+          "title": "94 President\u2019s National Security Telecommunications Advisory Committee (NSTAC), NSTAC Report to the ",
+          "chars": 217
+        },
+        {
+          "id": "s95",
+          "title": "95 EO 14028: Improving the Nation\u2019s Cybersecurity, The White House, May 12, 2021, https://www.whiteh",
+          "chars": 214
+        },
+        {
+          "id": "s96",
+          "title": "96 Ibid.",
+          "chars": 10
+        },
+        {
+          "id": "s97",
+          "title": "97 NSTAC, NSTAC Report to the President on a Cybersecurity Moonshot, November 2018, https://www.cisa",
+          "chars": 147
+        },
+        {
+          "id": "s98",
+          "title": "98 OMB, M-22-09: Moving the U.S. Government Toward Zero Trust Cybersecurity Principles, The White Ho",
+          "chars": 2499
+        },
+        {
+          "id": "s99",
+          "title": "99 CISA, Zero Trust Maturity Model (draft), June 2021,",
+          "chars": 14318
+        },
+        {
+          "id": "s5153",
+          "title": "5153",
+          "chars": 12502
+        },
+        {
+          "id": "s44",
+          "title": "44 Version 2",
+          "chars": 1533
+        },
+        {
+          "id": "s37",
+          "title": "37 Rev. 1",
+          "chars": 1139
+        },
+        {
+          "id": "s34",
+          "title": "34 Rev. 1",
+          "chars": 2677
+        },
+        {
+          "id": "s207",
+          "title": "207",
+          "chars": 8389
+        }
+      ]
+    },
+    {
+      "file": "BeyondCorp_1_A_New_Approach.txt",
+      "category": "papers",
+      "total_chars": 23496,
+      "source_type": "single",
+      "note_count": 1,
+      "sections": [
+        {
+          "id": "full",
+          "title": "BeyondCorp 1 A New Approach",
+          "chars": 23496
+        }
+      ]
+    },
+    {
+      "file": "BeyondCorp_2_Design_to_Deployment.txt",
+      "category": "papers",
+      "total_chars": 34492,
+      "source_type": "single",
+      "note_count": 1,
+      "sections": [
+        {
+          "id": "full",
+          "title": "BeyondCorp 2 Design to Deployment",
+          "chars": 34492
+        }
+      ]
+    },
+    {
+      "file": "BeyondCorp_4_Migrating.txt",
+      "category": "papers",
+      "total_chars": 32576,
+      "source_type": "single",
+      "note_count": 1,
+      "sections": [
+        {
+          "id": "full",
+          "title": "BeyondCorp 4 Migrating",
+          "chars": 32576
+        }
+      ]
+    },
+    {
+      "file": "BeyondCorp_6_Building_a_Healthy_Fleet.txt",
+      "category": "papers",
+      "total_chars": 31183,
+      "source_type": "single",
+      "note_count": 1,
+      "sections": [
+        {
+          "id": "full",
+          "title": "BeyondCorp 6 Building a Healthy Fleet",
+          "chars": 31183
+        }
+      ]
+    },
+    {
+      "file": "Google_BeyondProd.txt",
+      "category": "papers",
+      "total_chars": 28330,
+      "source_type": "single",
+      "note_count": 1,
+      "sections": [
+        {
+          "id": "full",
+          "title": "Google BeyondProd",
+          "chars": 28330
+        }
+      ]
+    },
+    {
+      "file": "NIST_SP_1800-35_FINAL_v2.txt",
+      "category": "papers",
+      "total_chars": 143091,
+      "source_type": "single-large",
+      "note_count": 1,
+      "sections": [
+        {
+          "id": "full",
+          "title": "NIST SP 1800-35 FINAL v2",
+          "chars": 143091
+        }
+      ]
+    },
+    {
+      "file": "NIST_SP_1800-35_Implementing_ZTA.txt",
+      "category": "papers",
+      "total_chars": 155592,
+      "source_type": "single-large",
+      "note_count": 1,
+      "sections": [
+        {
+          "id": "full",
+          "title": "NIST SP 1800-35 Implementing ZTA",
+          "chars": 155592
+        }
+      ]
+    },
+    {
+      "file": "ZT_Automation_Orchestration_Springer_2023.txt",
+      "category": "papers",
+      "total_chars": 123183,
+      "source_type": "single-large",
+      "note_count": 1,
+      "sections": [
+        {
+          "id": "full",
+          "title": "ZT Automation Orchestration Springer 2023",
+          "chars": 123183
+        }
+      ]
+    },
+    {
+      "file": "ZT_Dissecting_Research_Landscape_IoT_2024.txt",
+      "category": "papers",
+      "total_chars": 132939,
+      "source_type": "single-large",
+      "note_count": 1,
+      "sections": [
+        {
+          "id": "full",
+          "title": "ZT Dissecting Research Landscape IoT 2024",
+          "chars": 132939
+        }
+      ]
+    },
+    {
+      "file": "ZT_Enterprise_Implementation_IJCA_2025.txt",
+      "category": "papers",
+      "total_chars": 115401,
+      "source_type": "single-large",
+      "note_count": 1,
+      "sections": [
+        {
+          "id": "full",
+          "title": "ZT Enterprise Implementation IJCA 2025",
+          "chars": 115401
+        }
+      ]
+    },
+    {
+      "file": "login_summer17_full_issue.txt",
+      "category": "papers",
+      "total_chars": 394954,
+      "source_type": "single-large",
+      "note_count": 1,
+      "sections": [
+        {
+          "id": "full",
+          "title": "login summer17 full issue",
+          "chars": 394954
+        }
+      ]
+    },
+    {
+      "file": "login_winter16_full_issue.txt",
+      "category": "papers",
+      "total_chars": 381902,
+      "source_type": "single-large",
+      "note_count": 1,
+      "sections": [
+        {
+          "id": "full",
+          "title": "login winter16 full issue",
+          "chars": 381902
+        }
+      ]
+    }
+  ],
+  "total_notes": 1410
+}
