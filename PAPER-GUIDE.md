@@ -274,25 +274,20 @@ This is the bridge between NIST SP 800-207 (what Zero Trust is) and actual deplo
 
 | # | Paper | Status | Format |
 |---|-------|--------|--------|
-| 1 | BeyondCorp: A New Approach | To acquire | PDF (free) |
-| 2 | BeyondCorp: Design to Deployment | To acquire | PDF (free) |
-| 3 | BeyondCorp: The Access Proxy | To acquire | PDF (free) |
-| 4 | Migrating to BeyondCorp | To acquire | PDF (free) |
-| 5 | BeyondCorp: User Experience | To acquire | PDF (free) |
-| 6 | BeyondCorp: Long Tail | To acquire | PDF (free) |
-| 7 | BeyondProd | To acquire | PDF (free) |
-| 8 | Kindervag 2010 (ZT DNA) | Forrester paywall | PDF (circulated) |
-| 9 | Kindervag 2012 (Chewy Centers) | Forrester paywall | PDF (circulated) |
-| 10 | Cunningham 2018 (ZTX) | Forrester paywall | — |
-| 11 | ZT Critical Success Factors (2023) | Elsevier paywall | — |
-| 12 | Multivocal ZT Review (2024) | Elsevier paywall | — |
-| 13 | ZTA Enterprise Implementation (2025) | Free | PDF |
-| 14 | Systematic Review ZTA (2025) | Free | PDF |
-| 15 | ZTA Automation & Orchestration (2023) | Springer paywall | — |
-| 16 | ZT in IoT (2024) | Free | PDF |
-| 17 | NIST SP 1800-35 | Free | PDF |
-| 18 | CSA SDP and Zero Trust | Free | PDF |
-| 19 | CSA SDP Architecture Guide V3 | Free | PDF |
+| 1 | BeyondCorp: A New Approach | **Acquired** | PDF (745KB) |
+| 2 | BeyondCorp: Design to Deployment | **Acquired** | PDF (836KB) |
+| 3 | BeyondCorp: The Access Proxy | **Acquired** | Inside winter16 full issue (8.5MB) |
+| 4 | Migrating to BeyondCorp | **Acquired** | PDF (569KB) |
+| 5 | BeyondCorp: User Experience | **Acquired** | Inside summer17 full issue (11MB) |
+| 6 | BeyondCorp: Building a Healthy Fleet | **Acquired** | PDF (394KB) |
+| 7 | BeyondCorp: Long Tail / Migration | HTML-only | No PDF — Usenix loginonline article |
+| 8 | Kindervag 2010 (ZT DNA) | Not attempted | Forrester paywall |
+| 9 | Kindervag 2012 (Chewy Centers) | Not attempted | Forrester paywall |
+| 10 | Cunningham 2018 (ZTX) | Not attempted | Forrester paywall |
+| 11-16 | Academic papers | Mixed | Some free, some paywalled |
+| 17 | NIST SP 1800-35 | **Acquired** | PDF (1.3MB) |
+| 18 | CSA SDP and Zero Trust | **Blocked** | CSA requires account |
+| 19 | CSA SDP Architecture Guide V3 | **Blocked** | CSA requires account |
 
 ---
 

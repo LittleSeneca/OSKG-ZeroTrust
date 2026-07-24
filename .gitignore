@@ -24,3 +24,6 @@ sources/books/_fulltext/
 
 # Downloaded standards PDFs (large binaries, publicly available — keep local)
 sources/standards/_pdfs/
+
+# Downloaded paper PDFs (large binaries — keep local)
+sources/papers/_pdfs/
