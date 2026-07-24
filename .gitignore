@@ -21,3 +21,6 @@ Thumbs.db
 
 # Full-text book extracts (copyrighted material — local only, never commit)
 sources/books/_fulltext/
+
+# Downloaded standards PDFs (large binaries, publicly available — keep local)
+sources/standards/_pdfs/
