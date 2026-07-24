@@ -27,3 +27,8 @@ sources/standards/_pdfs/
 
 # Downloaded paper PDFs (large binaries — keep local)
 sources/papers/_pdfs/
+
+# Generated plaintext extracts (large, derived from source PDFs — keep local)
+sources/books/_txt/
+sources/standards/_txt/
+sources/papers/_txt/
