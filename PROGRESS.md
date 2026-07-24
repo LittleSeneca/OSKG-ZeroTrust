@@ -50,7 +50,7 @@ Target: 2-3 sessions, ~40 notes
 - [ ] Zero Trust Networks — Gilman & Barth (11 chapters)
 - [ ] Zero Trust Security: An Enterprise Guide — Garbis & Chapman (12 chapters)
 - [ ] Project Zero Trust — Finney (14 chapters)
-- [ ] Zero Trust Architecture — Green-Ortiz et al. (12 chapters)
+- [~] Zero Trust Architecture — Green-Ortiz et al. (1/3 combined notes: Ch3-5)
 
 ### Tier 3 — Supplementary Standards & Papers
 Target: 1-2 sessions, ~20 notes
