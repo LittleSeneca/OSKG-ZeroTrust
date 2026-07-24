@@ -43,6 +43,8 @@ This chapter translates the abstract ZT tenets and PDP/PEP architecture (Ch 2–
 
 ---
 
+### Claim 2: For satellite facilities and remote workers, the PE/PA must be hosted as a cloud service to avoid hairpinning traffic through HQ — the MPLS link to HQ becomes a commodity transport, not a security boundary. (Scenario 4.1)
+
 ## Scenario 4.1: Enterprise with Satellite Facilities
 
 **NIST's description:** An enterprise with a headquarters and geographically dispersed locations not joined by an enterprise-owned physical network. Remote employees may use enterprise-owned or personally-owned devices. The enterprise wants to grant access to some resources (email, calendar) while denying or restricting access to more sensitive resources (HR database). This is the most common scenario and the one closest to ZTA's historical roots.
@@ -61,9 +63,13 @@ This chapter translates the abstract ZT tenets and PDP/PEP architecture (Ch 2–
 | **DoD ZT Reference Architecture v2** | The DoD RA addresses this through the User Pillar and Device Pillar — Continuous Multi-Factor Authentication (CMFA) and Comply-to-Connect for endpoints. But DoD frames it through technology pillars rather than deployment topology. |
 | **Green-Ortiz (Cisco Press)** | Green-Ortiz covers branch/campus ZT deployment in Ch 3–4. Their "SBC Inc." case study (Appendix A) mirrors satellite facility challenges: 175 campuses and branches with contractor access, simplified through identity-based policy rather than per-firewall IP rules. |
 
+**Confidence:** VERY HIGH. This is the canonical ZT use case and the strongest architectural argument against VPNs.
+
 **Operational implication:** The satellite facility scenario is where the "death of the VPN" argument is strongest. If PE/PA is cloud-hosted and resources are accessed through agents/portals, the MPLS link to HQ becomes a commodity transport, not a security boundary.
 
 ---
+
+### Claim 3: Multi-cloud environments require the SDP server-to-server model — a PEP at each cloud-hosted service, no enterprise network hairpinning, and the enterprise perimeter is irrelevant to the security model. (Scenario 4.2)
 
 ## Scenario 4.2: Multi-cloud/Cloud-to-Cloud Enterprise
 
@@ -85,9 +91,13 @@ This chapter translates the abstract ZT tenets and PDP/PEP architecture (Ch 2–
 | **DoD ZT Reference Architecture v2** | The DoD RA addresses cloud deployment through the Network/Environment Pillar — microsegmentation, SDP, and cloud access points aligned to DoD Cloud Computing SRG. The DoD's "Target-Level ZT" includes cloud-native workload identity. |
 | **Green-Ortiz (Cisco Press)** | Ch 4 covers "cloud enclave design" — applying ZT policy at cloud ingress/egress points. Green-Ortiz's five ZT capabilities (Policy & Governance, Identity, Vulnerability Management, Enforcement, Analytics) apply identically across on-prem and cloud environments, which maps directly to NIST's point that "there should be no difference between enterprise-owned and -operated network infrastructure and infrastructure owned and operated by any other service provider." |
 
+**Confidence:** VERY HIGH. This scenario is the theoretical death blow to perimeter-centric architectures.
+
 **Operational implication:** The multi-cloud scenario is the strongest argument against perimeter-based security. When applications and data live in clouds the enterprise doesn't own, the enterprise perimeter is not just irrelevant — it's an architectural obstacle. ZT enforces access at the workload level, not the network level.
 
 ---
+
+### Claim 4: Contracted services and nonemployee access should use the SDP "dark network" model — enterprise resources are obscured from network discovery, preventing lateral movement, with the PA ensuring nonenterprise assets can access the internet but cannot discover or reach enterprise resources. (Scenario 4.3)
 
 ## Scenario 4.3: Enterprise with Contracted Services and/or Nonemployee Access
 
@@ -107,9 +117,13 @@ This chapter translates the abstract ZT tenets and PDP/PEP architecture (Ch 2–
 | **DoD ZT Reference Architecture v2** | Addressed through the Device Pillar (Comply-to-Connect — devices must prove compliance before network access) and the User Pillar (identity-based, not IP-based, access). The DoD's "least privilege" principle maps directly to this scenario: contractors get exactly the access their role requires, nothing more. |
 | **Green-Ortiz (Cisco Press)** | Appendix A (SBC Inc. case study) has extensive contractor access patterns: 350,000 firewall rules reduced to identity-based policy for contractors accessing Smart Building Central. Green-Ortiz shows the practical process: audit, identity-link, reduce, and replace IP-based rules with contextual identity policies (who, what, where, when, how). This is the operationalization of NIST's architectural prescription. |
 
+**Confidence:** HIGH. The SDP dark network model is architecturally sound but deployment complexity can undermine the "invisible resources" property.
+
 **Operational implication:** The contracted services scenario exposes the fragility of perimeter-based NAC solutions. If a contractor's laptop is on the LAN, NAC grants network access — but NIST's ZTA says *no* network access, only *resource-specific* access through a PEP. The contractor's device may have internet access on the same physical network without ever discovering enterprise resources.
 
 ---
+
+### Claim 5: Cross-enterprise collaboration should use federated identity plus resource-specific PEPs — this scales linearly with partners, while the alternative (bilateral VPNs, shared AD domains, per-partner firewall rules) creates O(n²) complexity. (Scenario 4.4)
 
 ## Scenario 4.4: Collaboration Across Enterprise Boundaries
 
@@ -130,9 +144,13 @@ This chapter translates the abstract ZT tenets and PDP/PEP architecture (Ch 2–
 | **DoD ZT Reference Architecture v2** | The DoD RA emphasizes "joint all-domain" operations requiring cross-agency and cross-classification data sharing. The User Pillar explicitly addresses federated identity and attribute-based access control (ABAC) — the mechanism for granting Enterprise B members access to specific Enterprise A resources without full network integration. |
 | **Green-Ortiz (Cisco Press)** | Ch 5 ("Enclave Exploration and Consideration") covers cross-organization considerations. Green-Ortiz emphasizes that different organizations may have different ZT maturity levels, and the collaboration boundary must accommodate the least mature partner — a practical constraint NIST doesn't address. |
 
+**Confidence:** HIGH. The federated identity pattern is well-established and the scaling argument is mathematically sound.
+
 **Operational implication:** Cross-enterprise collaboration is the scenario where ZT pays for itself fastest. The alternative — bilateral VPNs, shared AD domains, per-partner firewall rules — creates an O(n²) complexity problem. Federated identity + resource-specific PEPs scales linearly with the number of partners. This is the pattern that enables secure government-to-contractor collaboration without network-level trust.
 
 ---
+
+### Claim 6: Public-facing services expose ZTA's boundary — ZT tenets do not directly apply to anonymous public resources, and for registered users the enterprise is constrained in what cybersecurity policies can be enforced on nonenterprise-owned devices, limiting ZTA to behavioral monitoring and graduated enforcement. (Scenario 4.5)
 
 ## Scenario 4.5: Enterprise with Public- or Customer-Facing Services
 
@@ -152,6 +170,8 @@ This chapter translates the abstract ZT tenets and PDP/PEP architecture (Ch 2–
 | **BeyondCorp** (Google) | Google's public-facing services (Gmail, G Suite) use the same access proxy infrastructure as internal services. Registered users (customers) authenticate and the proxy evaluates device/browser signals. Anonymous services (google.com) don't route through the proxy. This mirrors NIST's split: registered = ZT applies, anonymous = ZT doesn't apply. |
 | **DoD ZT Reference Architecture v2** | The DoD RA's Data Pillar addresses public-facing data access through encryption, DRM, and DLP. For registered users accessing DoD data portals (e.g., veteran benefits), attribute-based access control and continuous monitoring apply — but DoD can mandate CAC/PIV for military users, while public users can't be required to use government-issued hardware. |
 | **Green-Ortiz (Cisco Press)** | Ch 9 ("Zero Trust Enforcement") addresses graduated enforcement: different policy strictness for managed vs. unmanaged devices. For registered public users with unmanaged devices, Green-Ortiz would apply baseline policies (MFA, geolocation checks, behavioral analytics) without requiring device agents. This is the practical implementation of NIST's "limited to what can be enforced." |
+
+**Confidence:** VERY HIGH. NIST's honesty about ZTA's limits here is as important as its prescriptions — this is the boundary condition that prevents ZT overreach claims.
 
 **Operational implication:** Scenario 4.5 is NIST's admission that ZT has a boundary. You can't enforce device trust on a customer's personal laptop. The best you can do is behavioral analytics at the application layer. This is the scenario where ZTA blurs into traditional application security — WAF, bot detection, rate limiting — which NIST doesn't dwell on. The chapter's honesty about this limitation is as important as its prescriptions for the other four scenarios.
 
