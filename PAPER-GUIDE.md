@@ -284,8 +284,13 @@ This is the bridge between NIST SP 800-207 (what Zero Trust is) and actual deplo
 | 8 | Kindervag 2010 (ZT DNA) | Not attempted | Forrester paywall |
 | 9 | Kindervag 2012 (Chewy Centers) | Not attempted | Forrester paywall |
 | 10 | Cunningham 2018 (ZTX) | Not attempted | Forrester paywall |
-| 11-16 | Academic papers | Mixed | Some free, some paywalled |
-| 17 | NIST SP 1800-35 | **Acquired** | PDF (1.3MB) |
+| 11 | ZT Critical Success Factors (2023) | Elsevier paywall | — |
+| 12 | Multivocal ZT Review (2024) | Elsevier paywall | — |
+| 13 | ZTA Enterprise Implementation (2025) | **Acquired** | PDF (678KB) |
+| 14 | Systematic Review ZTA (2025) | MDPI, blocked | PDF (403) |
+| 15 | ZTA Automation & Orchestration (2023) | **Acquired** | PDF (866KB) |
+| 16 | ZT in IoT (2024) | **Acquired** | PDF (3.2MB) |
+| 17 | NIST SP 1800-35 (final) | **Acquired** | PDF (1.5MB) |
 | 18 | CSA SDP and Zero Trust | **Blocked** | CSA requires account |
 | 19 | CSA SDP Architecture Guide V3 | **Blocked** | CSA requires account |
 
