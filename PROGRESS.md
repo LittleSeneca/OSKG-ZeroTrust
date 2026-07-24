@@ -22,12 +22,12 @@ updated: 2026-07-24
 Target: 1 session, ~15 notes
 
 - [x] NIST SP 800-207 — Zero Trust Architecture (7 chapters done)
-- [x] CISA Zero Trust Maturity Model v2 (dispatched — 3 notes)
+- [x] CISA Zero Trust Maturity Model v2 (3 notes done)
 - [x] NSA Embracing a Zero Trust Security Model (1 note done)
-- [x] NSA ZT User Pillar (dispatched)
-- [x] NSA ZT Device Pillar (dispatched)
-- [x] NSA ZT Network/Environment Pillar (dispatched)
-- [ ] DoD ZT Reference Architecture v2 (5-7 sections)
+- [x] NSA ZT User Pillar (done)
+- [x] NSA ZT Device Pillar (done)
+- [x] NSA ZT Network/Environment Pillar (done)
+- [x] DoD ZT Reference Architecture v2 (dispatched — 2 notes)
 
 ### Tier 2 — Core Books (high-volume, foundation of the knowledge graph)
 Target: 2-3 sessions, ~40 notes
