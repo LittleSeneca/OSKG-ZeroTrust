@@ -44,7 +44,7 @@ The project moves through five phases:
 
 ### Phase 0: Source Acquisition
 
-The Book Guide and Paper Guide define the canonical corpus across four tiers: foundational texts, specialized/complementary works, government standards and frameworks, and adjacent texts. Sources are acquired through libgen for books, direct download for government PDFs and open-access papers, and wget with browser headers for defense/military sites. Raw full-text PDFs are gitignored for copyright. Only structured extraction artifacts (notes, claims, edges) are versioned.
+The Book Guide and Paper Guide define the canonical corpus across four tiers: foundational texts, specialized/complementary works, government standards and frameworks, and adjacent texts. Sources are acquired from digital archives and direct downloads — government PDFs and open-access papers are freely available from their issuing agencies; defense and military sites require wget with browser headers. Raw full-text PDFs are gitignored for copyright. Only structured extraction artifacts (notes, claims, edges) are versioned.
 
 ### Phase 1: Reading Notes
 

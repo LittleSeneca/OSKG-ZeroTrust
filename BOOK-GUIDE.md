@@ -231,9 +231,9 @@ Beyond the books, these are the people whose work defines the Zero Trust landsca
 | 2 | Zero Trust Security (Garbis & Chapman) | **Acquired** | PDF (4.5MB) |
 | 3 | Project Zero Trust (Finney) | **Acquired** | PDF (6.7MB) |
 | 4 | Zero Trust Architecture (Green-Ortiz et al.) | **Acquired** | PDF (5.5MB) |
-| 5 | In Zero Trust We Trust (Naduvath) | Not on libgen | — |
+| 5 | In Zero Trust We Trust (Naduvath) | Not yet acquired | — |
 | 6 | Zero Trust in Resilient Cloud (Halley et al.) | **Acquired** | EPUB (44MB) |
-| 7 | Zero Trust Privacy (Jolly & Garbis) | Not on libgen | — |
+| 7 | Zero Trust Privacy (Jolly & Garbis) | Not yet acquired | — |
 | 8 | NIST SP 800-207 | **Acquired** | PDF (945KB) |
 | 9 | NIST SP 800-207A | **Acquired** | PDF (1.4MB) |
 | 10 | CISA ZT Maturity Model v2 | **Acquired** | PDF (1.4MB) |
