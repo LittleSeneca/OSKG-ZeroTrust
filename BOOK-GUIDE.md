@@ -227,19 +227,19 @@ Beyond the books, these are the people whose work defines the Zero Trust landsca
 
 | # | Book | Status | Format |
 |---|------|--------|--------|
-| 1 | Zero Trust Networks (Gilman & Barth) | To acquire | Print + digital |
-| 2 | Zero Trust Security (Garbis & Chapman) | To acquire | Print + digital |
-| 3 | Project Zero Trust (Finney) | To acquire | Print + digital |
-| 4 | Zero Trust Architecture (Green-Ortiz et al.) | To acquire | Print |
-| 5 | In Zero Trust We Trust (Naduvath) | To acquire | Print + digital |
-| 6 | Zero Trust in Resilient Cloud (Halley et al.) | To acquire | Print |
-| 7 | Zero Trust Privacy (Jolly & Garbis) | To acquire | Digital |
-| 8 | NIST SP 800-207 | To acquire | PDF (free) |
-| 9 | NIST SP 800-207A | To acquire | PDF (free) |
-| 10 | CISA ZT Maturity Model | To acquire | PDF (free) |
-| 11 | DoD ZT Reference Architecture | To acquire | PDF (free) |
-| 12 | NSA Embracing Zero Trust | To acquire | PDF (free) |
-| 13 | Cyber Defense Matrix (Yu) | To acquire | Print |
+| 1 | Zero Trust Networks (Gilman & Barth) | **Acquired** | PDF (9MB) |
+| 2 | Zero Trust Security (Garbis & Chapman) | **Acquired** | PDF (4.5MB) |
+| 3 | Project Zero Trust (Finney) | **Acquired** | PDF (6.7MB) |
+| 4 | Zero Trust Architecture (Green-Ortiz et al.) | **Acquired** | PDF (5.5MB) |
+| 5 | In Zero Trust We Trust (Naduvath) | Not on libgen | — |
+| 6 | Zero Trust in Resilient Cloud (Halley et al.) | **Acquired** | EPUB (44MB) |
+| 7 | Zero Trust Privacy (Jolly & Garbis) | Not on libgen | — |
+| 8 | NIST SP 800-207 | Free PDF | To download |
+| 9 | NIST SP 800-207A | Free PDF | To download |
+| 10 | CISA ZT Maturity Model | Free PDF | To download |
+| 11 | DoD ZT Reference Architecture | Free PDF | To download |
+| 12 | NSA Embracing Zero Trust | Free PDF | To download |
+| 13 | Cyber Defense Matrix (Yu) | **Acquired** | PDF (29MB) |
 
 ---
 
