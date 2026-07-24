@@ -42,9 +42,12 @@ Core Zero Trust concepts, definitions, and principles. These notes define the vo
 | **Application** | Application-level access, API security, workload identity |
 | **Data** | Data classification, encryption, DLP, data-centric security |
 
-## Reading Notes (to be created)
+## Reading Notes
 
 Chapter-by-chapter conceptual analysis of each book in the Book Guide. These notes capture definitions, principles, and conceptual frameworks from each source before they are decomposed into claims.
+
+- [[NIST 800-207 — Ch3 — Logical Components]] — The canonical ZTA component model: PE, PA, PEP; three approach variations; four deployment models; trust algorithm; control plane / data plane separation. **Load-bearing chapter for the entire ZT standards ecosystem.**
+- [[NIST 800-207 — Ch7 — Migration]] — Migration to ZTA: pure vs. hybrid brownfield, the 7-step deployment cycle (actors → assets → processes → policies → solutions → deploy/monitor → expand).
 
 ---
 
