@@ -32,8 +32,20 @@ Government and industry standards that define the Zero Trust architectural lands
 
 | Document | Organization | Year | Status |
 |----------|-------------|------|--------|
-| Zero Trust Architecture Design Principles | UK NCSC | Ongoing | To acquire |
-| CSA Certificate of Competence in Zero Trust (CCZT) | Cloud Security Alliance | 2023 | To acquire |
+| Zero Trust Architecture Design Principles | UK NCSC | Ongoing | Web collection |
+| NCSC ZT Principles on Google Cloud | Google/NCSC | 2024 | **Acquired** (7.2MB) |
+| ZT Approach to Security Architecture (ITSM.10.008) | CCCS (Canada) | 2023 | **Acquired** (626KB) |
+| Zero Trust Security Model (ITSAP.10.008) | CCCS (Canada) | 2022 | **Acquired** (294KB) |
+| Zero Trust Position Paper | BSI (Germany) | 2023 | **Acquired** (1.5MB, DE) |
+| Design Principles for LLM Systems with ZT | ANSSI/BSI (France/Germany) | 2025 | **Acquired** (663KB) |
+
+## Notable Gaps
+
+| Jurisdiction | Status |
+|-------------|--------|
+| Australia (ASD) | ASD is evolving Essential Eight into an "Essentials series" incorporating ZT (June 2026). No standalone ZT architecture document yet. |
+| New Zealand (NCSC-NZ) | References NIST and CISA frameworks; no indigenous ZT guidance published. |
+| EU (ENISA) | Technical implementation guidance mentions ZT but no dedicated ZT architecture publication. NIS2 references ZT as essential measure without defining it. |
 
 ## Industry Frameworks
 
