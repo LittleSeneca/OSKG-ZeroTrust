@@ -12,24 +12,22 @@ updated: 2026-07-24
 ## Status Summary
 
 - **Total planned notes:** ~85
-- **Notes written:** 16
-- **Remaining:** 69
-- **Last session:** 2026-07-24 — Tier 1 complete (16 notes in 1 session)
+- **Notes written:** 36
+- **Remaining:** 49
+- **Last session:** 2026-07-24 — Tiers 1-2 complete (36 notes in 1 session)
 
 ## Session Log
 
 ### 2026-07-24 — Session 1
-- **Items processed:** 16 (all Tier 1 government standards)
-  - NIST SP 800-207 (7 chapters): Introduction, Zero Trust Basics, Logical Components, Deployment Scenarios, Threats, Federal Guidance, Migration
-  - NSA Embracing a Zero Trust Security Model
-  - NSA User Pillar, Device Pillar, Network/Environment Pillar
-  - CISA ZTMM: Overview and Framework, Identity Pillar, Device/Network/App/Data Pillars
-  - DoD ZT RA: Overview and Strategy, Capabilities and Use Cases
-- **Artifacts created:** 16 notes
-- **Commits:** 8
+- **Items processed:** 36 (Tier 1 government standards + Tier 2 core books)
+  - **Tier 1 — Government Standards (16):** NIST SP 800-207 (7), NSA (4), CISA ZTMM (3), DoD ZT RA (2)
+  - **Tier 2 — Core Books (20):** Gilman & Barth (7), Garbis & Chapman (6), Finney (3), Green-Ortiz (4)
+- **Artifacts created:** 36 notes + 1 index
+- **Vault size:** 972KB
+- **Commits:** 10+
 - **Model:** DeepSeek V4 Pro
-- **Method:** 1 note written directly (NIST Ch2 — format baseline), 15 dispatched via delegate_task in 5 parallel batches
-- **Items remaining:** 69 (Tiers 2-4)
+- **Method:** 2 notes written directly (NIST Ch2, Gilman & Barth Ch1 — format baselines), 34 dispatched via delegate_task in ~8 parallel batches
+- **Items remaining:** 49 (Tiers 3-4)
 
 ## By Priority
 
@@ -44,13 +42,13 @@ Target: 1 session, ~15 notes
 - [x] NSA ZT Network/Environment Pillar (done)
 - [x] DoD ZT Reference Architecture v2 (2 notes done)
 
-### Tier 2 — Core Books (high-volume, foundation of the knowledge graph)
-Target: 2-3 sessions, ~40 notes
+### Tier 2 — Core Books (complete)
+Target: 1 session, 20 notes
 
-- [ ] Zero Trust Networks — Gilman & Barth (11 chapters)
-- [ ] Zero Trust Security: An Enterprise Guide — Garbis & Chapman (12 chapters)
-- [ ] Project Zero Trust — Finney (14 chapters)
-- [~] Zero Trust Architecture — Green-Ortiz et al. (1/3 combined notes: Ch3-5)
+- [x] Zero Trust Networks — Gilman & Barth (7 notes)
+- [x] Zero Trust Security: An Enterprise Guide — Garbis & Chapman (6 notes)
+- [x] Project Zero Trust — Finney (3 notes)
+- [x] Zero Trust Architecture — Green-Ortiz et al. (4 notes)
 
 ### Tier 3 — Supplementary Standards & Papers
 Target: 1-2 sessions, ~20 notes
