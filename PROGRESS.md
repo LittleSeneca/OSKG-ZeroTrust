@@ -21,12 +21,12 @@ updated: 2026-07-24
 ### Tier 1 — Foundation (government standards, short, high cross-reference value)
 Target: 1 session, ~15 notes
 
-- [ ] NIST SP 800-207 — Zero Trust Architecture (5-7 sections)
-- [ ] CISA Zero Trust Maturity Model v2 (5 pillars + overview = 6 notes)
-- [ ] NSA Embracing a Zero Trust Security Model (1 note)
-- [ ] NSA ZT User Pillar (1 note)
-- [ ] NSA ZT Device Pillar (1 note)
-- [ ] NSA ZT Network/Environment Pillar (1 note)
+- [x] NIST SP 800-207 — Zero Trust Architecture (7 chapters done)
+- [x] CISA Zero Trust Maturity Model v2 (dispatched — 3 notes)
+- [x] NSA Embracing a Zero Trust Security Model (1 note done)
+- [x] NSA ZT User Pillar (dispatched)
+- [x] NSA ZT Device Pillar (dispatched)
+- [x] NSA ZT Network/Environment Pillar (dispatched)
 - [ ] DoD ZT Reference Architecture v2 (5-7 sections)
 
 ### Tier 2 — Core Books (high-volume, foundation of the knowledge graph)
