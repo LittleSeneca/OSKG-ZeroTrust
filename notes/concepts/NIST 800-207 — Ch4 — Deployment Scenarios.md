@@ -29,7 +29,7 @@ related:
 
 This chapter translates the abstract ZT tenets and PDP/PEP architecture (Ch 2–3) into five concrete deployment scenarios. Unlike vendor marketing that treats "Zero Trust" as a single product or deployment model, NIST shows that ZTA adapts to the specific flows of subjects, resources, and trust boundaries in each scenario. The unifying principle across all five is that the PEP should sit as close to the resource as possible, and the PA/PE should make per-request, context-aware decisions regardless of where the subject is coming from.
 
-## Claim 1: The five scenarios are not mutually exclusive — real enterprises combine them
+### Claim 1: The five scenarios are not mutually exclusive — real enterprises combine them
 
 **NIST's claim:** "Any enterprise environment can be designed with zero trust tenets in mind... ZTA is not explicitly indicated since the enterprise likely has both perimeter-based and possibly ZTA infrastructures" (4.0). NIST acknowledges that most enterprises will operate in a hybrid state (see Ch 7.2) where ZTA and perimeter-based security coexist.
 

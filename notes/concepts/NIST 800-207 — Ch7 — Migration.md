@@ -84,7 +84,7 @@ Chapter 7 shifts from *what* a Zero Trust Architecture is to *how* to get there.
 
 ---
 
-### Claim 5 (Step 1): All enterprise subjects — human users and Non-Person Entities (service accounts, automated processes) — must be identified, with special-privilege users requiring additional scrutiny and stricter confidence levels under ZTA rather than blanket trust.
+### Claim 5: All enterprise subjects — human users and Non-Person Entities (service accounts, automated processes) — must be identified, with special-privilege users requiring additional scrutiny and stricter confidence levels under ZTA rather than blanket trust. (Step 1 of the deployment cycle)
 
 **Author's claim:** The Policy Engine must have knowledge of **all enterprise subjects** — both human users and Non-Person Entities (NPEs). Special-privilege users (developers, system administrators) require **additional scrutiny**. (§7.3.1)
 
@@ -100,7 +100,7 @@ Chapter 7 shifts from *what* a Zero Trust Architecture is to *how* to get there.
 
 ---
 
-### Claim 6 (Step 2): The enterprise must identify, catalog, and continuously monitor all assets — hardware, digital artifacts, virtual infrastructure, and shadow IT — because device posture assessment is integral to access decisions and incomplete inventory causes access denials.
+### Claim 6: The enterprise must identify, catalog, and continuously monitor all assets — hardware, digital artifacts, virtual infrastructure, and shadow IT — because device posture assessment is integral to access decisions and incomplete inventory causes access denials. (Step 2 of the deployment cycle)
 
 **Author's claim:** ZTA requires the ability to **identify and manage devices** — both enterprise-owned and non-enterprise-owned (BYOD, collaborator assets) that access enterprise resources. (§7.3.2)
 
@@ -123,7 +123,7 @@ Chapter 7 shifts from *what* a Zero Trust Architecture is to *how* to get there.
 
 ---
 
-### Claim 7 (Step 3): Business process selection for ZTA migration should start with low-risk processes and cloud-based/remote-worker workflows, using the NIST RMF to evaluate tradeoffs in performance, user experience, and workflow fragility.
+### Claim 7: Business process selection for ZTA migration should start with low-risk processes and cloud-based/remote-worker workflows, using the NIST RMF to evaluate tradeoffs in performance, user experience, and workflow fragility. (Step 3 of the deployment cycle)
 
 **Author's claim:** The enterprise must **identify and rank business processes, data flows, and their relation to agency missions**. (§7.3.3)
 
@@ -140,7 +140,7 @@ Chapter 7 shifts from *what* a Zero Trust Architecture is to *how* to get there.
 
 ---
 
-### Claim 8 (Step 4): Policy formulation for the ZTA candidate requires evaluating asset value/risk via RMF, identifying all upstream/downstream resources, and choosing between criteria-based (binary) and score-based (confidence-weighted) trust evaluation — a choice with cascading effects on tooling and operational complexity.
+### Claim 8: Policy formulation for the ZTA candidate requires evaluating asset value/risk via RMF, identifying all upstream/downstream resources, and choosing between criteria-based (binary) and score-based (confidence-weighted) trust evaluation — a choice with cascading effects on tooling and operational complexity. (Step 4 of the deployment cycle)
 
 **Author's claim:** After identifying a candidate workflow, the enterprise must evaluate value/risk, identify all upstream/downstream resources, and determine access criteria. (§7.3.4)
 
@@ -157,7 +157,7 @@ Chapter 7 shifts from *what* a Zero Trust Architecture is to *how* to get there.
 
 ---
 
-### Claim 9 (Step 5): Candidate solution selection must evaluate client footprint, traffic patterns, logging/analysis capabilities, protocol support, and subject behavior changes — with a recommended pilot approach that serves as a proving ground before full transition.
+### Claim 9: Candidate solution selection must evaluate client footprint, traffic patterns, logging/analysis capabilities, protocol support, and subject behavior changes — with a recommended pilot approach that serves as a proving ground before full transition. (Step 5 of the deployment cycle)
 
 **Author's claim:** Enterprise architects compose a list of candidate solutions, evaluating them against five factors. (§7.3.5)
 
@@ -179,7 +179,7 @@ Chapter 7 shifts from *what* a Zero Trust Architecture is to *how* to get there.
 
 ---
 
-### Claim 10 (Step 6): Initial ZTA deployment should operate in reporting-only (observation) mode — not immediate enforcement — because few policy sets are complete on the first iteration, and the monitoring phase collects real access pattern data to establish a baseline against which anomalous behavior can be identified.
+### Claim 10: Initial ZTA deployment should operate in reporting-only (observation) mode — not immediate enforcement — because few policy sets are complete on the first iteration, and the monitoring phase collects real access pattern data to establish a baseline against which anomalous behavior can be identified. (Step 6 of the deployment cycle)
 
 **Author's claim:** Initial deployment begins with an **observation and monitoring mode** — NOT immediate enforcement. "Few enterprise policy sets are complete in their first iterations." (§7.3.6)
 
@@ -195,7 +195,7 @@ Chapter 7 shifts from *what* a Zero Trust Architecture is to *how* to get there.
 
 ---
 
-### Claim 11 (Step 7): ZTA expansion follows the same iterative cycle — each new business process repeats steps 1–7 — and significant workflow changes trigger reevaluation of existing ZTA deployments, making the cycle both iterative and reactive.
+### Claim 11: ZTA expansion follows the same iterative cycle — each new business process repeats steps 1–7 — and significant workflow changes trigger reevaluation of existing ZTA deployments, making the cycle both iterative and reactive. (Step 7 of the deployment cycle)
 
 **Author's claim:** When enough confidence is gained, the enterprise enters the **steady operational phase** and begins planning the **next phase** of ZT deployment. (§7.3.7)
 
