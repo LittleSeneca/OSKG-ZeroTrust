@@ -15,165 +15,80 @@ The final three chapters of Green-Ortiz move from design and principles into the
 
 ## Chapter 9: Zero Trust Enforcement
 
-### The Monitor-Mode Imperative
+### Claim 1: The biggest mistake in ZT implementation is rushing past monitor mode — organizations must inventory and understand endpoints in production before enforcing any restrictions, and monitor mode never truly ends.
 
-The authors argue that **the biggest mistake in ZT implementation is rushing past monitor mode**. Organizations must inventory and understand endpoints *in production* — not just in a lab — because lab sampling misses the real traffic patterns and external interactions that define business-relevant behavior.
+**Author's claim:** Green-Ortiz et al. argue that monitor mode (also called visibility mode or unenforced discovery) is the critical data-gathering phase where endpoints are detected, profiled, and classified via DHCP, DNS, AD logins, CDP/LLDP, and NMAP scans — but no restrictions are enforced. An authorization result is allocated to the session for later use in traffic analysis and policy building, but not enforced.
 
-- **Monitor mode** (also called visibility mode or unenforced discovery): endpoints are detected, profiled, and classified via DHCP, DNS, AD logins, CDP/LLDP, NMAP scans, but no restrictions are enforced.
-- An authorization result is still *allocated* to the session (for later use in traffic analysis and policy building), but it is not enforced.
-- The SBC Manufacturing case study: 1,600 devices took **4 months with a 3-person team** to map. For larger organizations, 12–18 months is not unreasonable.
-- Key tasks during monitor mode:
-  1. Identify the suspected device type (the **"what"** of contextual identity)
-  2. Determine business functionality, owner, support team
-  3. Traffic analysis to create a baseline
-  4. Document everything into an asset management database (AMDB)
-- **Monitor mode never truly ends** — it should continue for new devices even after enforcement is live. A remediation/quarantine policy as the default on the NAC system helps manage "hard denials."
+**Evidence presented:** The SBC Manufacturing case study: 1,600 devices took 4 months with a 3-person team to map. For larger organizations, 12–18 months is not unreasonable. Key tasks during monitor mode: (1) identify suspected device type (the "what" of contextual identity), (2) determine business functionality/owner/support team, (3) traffic analysis to create baseline, (4) document into asset management database. The authors explicitly state: "Monitor mode never truly ends" — it should continue for new devices even after enforcement is live. A remediation/quarantine policy as default on the NAC system helps manage "hard denials."
 
-### Phased Rollout: Site Selection Criteria
+**Confidence:** HIGH — Consistently reinforced across the BeyondCorp papers (log-before-enforce), Garbis & Chapman (PAM integration patterns), and NIST 800-207 migration guidance. This is one of the most convergent claims across the entire ZT literature.
 
-SBC Financial used a matrix to order sites:
-1. **Business criticality** — if 10% of devices at a site went offline, what's the impact?
-2. **Variety of endpoints/business units** — heterogeneous sites yield more profiling lessons that transfer to other sites.
+### Claim 2: Distributed enforcement — applying policies as close to the endpoint as possible across four layers (intra-VLAN, inter-VLAN, inter-VRF, host-level) — yields substantial firewall rule reduction and enables firewall consolidation.
 
-The authors recommend starting where both conditions exist: a large variety of devices *and* an on-site presence ("sneaker net") that can physically validate identities, building standard profiles reusable across the network.
+**Author's claim:** The cardinal rule is: "apply policies as close to the endpoint as possible." The authors prescribe four enforcement layers: intra-VLAN (TrustSec tags on switch ports), inter-VLAN (downloadable ACLs on switches), inter-VRF (firewalls), and host-level (agents modifying local firewall).
 
-### Enforcement: Layered and Distributed
+**Evidence presented:** SBC Corporate's implementation yielded a 50% reduction in edge firewall rules (from 350,000+) and allowed firewall consolidation, reducing both CapEx and OpEx. The authors warn that enforcement is not a finite accomplishment — policies evolve continuously as new endpoints and use cases emerge. Never fall back to firewall-only segmentation; maintain layered identity-based enforcement.
 
-When transitioning to enforcement, the cardinal rule is: **apply policies as close to the endpoint as possible**.
+**Confidence:** HIGH — The 50% rule reduction is a specific, quantified outcome from a documented case study. The multi-layer model is Cisco's core enforcement architecture and is consistent with Green-Ortiz Ch6's layered segmentation framework.
 
-SBC Corporate's four enforcement layers:
-| Layer | Mechanism | Scope |
-|-------|-----------|-------|
-| Intra-VLAN | TrustSec tags on switch ports | Same-subnet restrictions |
-| Inter-VLAN | Downloadable ACLs on switches | Cross-subnet at L2/L3 boundary |
-| Inter-VRF | Firewalls | Cross-security-zone |
-| Host-level | Agents modifying local firewall (Secure Workload) | VM-to-VM on same chassis |
+### Claim 3: Brownfield environments require 3–4× the timeline of greenfield deployments because every newly profiled device forces recursive re-analysis of previously identified devices.
 
-This **distributed enforcement** approach yielded a **50% reduction in edge firewall rules** (from 350,000+) and allowed firewall consolidation, reducing both CapEx and OpEx.
+**Author's claim:** The authors contrast greenfield (new building, no existing endpoints, systematic and deterministic, 1× baseline) with brownfield (existing network, all devices expected to keep working, requires recursive analysis as each unique device is identified, 3–4× baseline).
 
-**Critical caution**: enforcement is not a finite accomplishment. Policies evolve continuously as new endpoints and use cases emerge. Never fall back to firewall-only segmentation; maintain layered identity-based enforcement.
+**Evidence presented:** SBC Emerging Tech (brownfield): 3 months of recursive identification where every newly profiled device required re-running the analysis against all observed devices. SBC Financial's site selection matrix prioritized both business criticality and variety of endpoints — heterogeneous sites yield more profiling lessons that transfer. The authors recommend starting where both conditions exist: large device variety AND on-site presence ("sneaker net") for physical identity validation.
 
-### NAC as the Identity Engine
+**Confidence:** HIGH — The 3–4× multiplier is a specific empirical finding from documented Cisco services engagements. This claim is directly actionable for project planning.
 
-The NAC system (e.g., Cisco ISE) is the **single source of truth** for access decisions across all connection mediums:
+### Claim 4: NAC (e.g., Cisco ISE) functions as the single source of truth for access decisions across all connection mediums, but each medium (wired, wireless, VPN) has distinct rollout characteristics.
 
-- **Wired**: Easiest starting point. Passive profiling via DHCP/DNS/HTTP/CDP without changing the user experience. Switch port configurations range from `authentication open` (monitor) to no `authentication open` (full enforcement).
-- **Wireless**: Harder — WLCs enforce authorization results immediately upon RADIUS completion. Workaround: stand up a new SSID for managed devices and use profiling on a per-SSID basis. Migration of unmanaged devices becomes a signal for contextual identity gaps.
-- **VPN**: Mid-difficulty. Tunnel group auth source migration is trivial (3 lines). A "permit any" authorization result provides a soft start. Often used as a bellwether for NAC rollout readiness.
+**Author's claim:** The NAC system is positioned as the identity engine for ZT enforcement, serving as the authoritative source for access decisions across wired, wireless, and VPN connections.
 
-### Greenfield vs Brownfield
+**Evidence presented:** Wired is the easiest starting point — passive profiling via DHCP/DNS/HTTP/CDP without changing user experience, with switch port configurations ranging from `authentication open` (monitor) to no `authentication open` (full enforcement). Wireless is harder because WLCs enforce authorization results immediately upon RADIUS completion; workaround is standing up a new SSID for managed devices. VPN is mid-difficulty — tunnel group auth source migration is trivial (3 lines), and a "permit any" authorization result provides a soft start. The authors explicitly warn against "workaround" policies that grant partial access to failed-authentication users: instead, force MAC Authentication Bypass → captive portal → verified registration → Internet-only ACL.
 
-| Environment | Characteristics | Timeline Multiplier |
-|-------------|-----------------|---------------------|
-| **Greenfield** | New building, no existing endpoints. Devices added in controlled groups. Systematic, deterministic. | 1× baseline |
-| **Brownfield** | Existing network, one-for-one swap or config overlay. All devices expected to keep working. Requires recursive analysis as each unique device is identified. | 3–4× baseline |
-
-SBC Emerging Tech (brownfield): 3 months of recursive identification, where every newly profiled device required re-running the analysis against all observed devices.
-
-### Practical Contextual Identity Considerations
-
-- **Authentication (AuthC)**: AD users/computers is the minimum. Certificates from an org CA (or cloud MDM) are preferred — they embed identity attributes (username, device type, email) into the credential itself. Different certificates on different device types allow differentiated access even without profiling.
-- **Authorization (AuthZ)**: The authors explicitly warn against "workaround" policies that grant partial access to failed-authentication users. Instead: force MAC Authentication Bypass → captive portal → verified registration (email/SMS) → Internet-only ACL. Failing users should never get internal access.
-- **Segmentation**: **Start with no more than 7 endpoint groups**. The authors provide a master list of ~20 candidate groups (Corporate, Contractor, Data Center, Medical, Security, Branch, Manufacturing, Media, Quarantined, Research, Demo, Remediation, Lab, Network Devices, Shared Services, Servers, Infrastructure, UC, IoT, Headless, Guest, Authenticated). Organizations that try to bypass the 7-group rule enter "analysis paralysis." The risk assessment question: "Do the access needs of two groups differ significantly enough to justify separate policies?"
-
-### Data Exchange
-
-PXGRID and STIX/TAXI protocols enable cross-tool identity and vulnerability data sharing. Even when not used in active policy decisions, they add massive context to a device's identity and should be part of the architecture.
+**Confidence:** HIGH — Detailed, medium-specific rollout guidance with concrete configuration examples. The caution against workaround policies is consistent with the broader ZT literature's emphasis on not creating exceptions.
 
 ---
 
 ## Chapter 10: Zero Trust Operations
 
-### The Organizational Problem
+### Claim 5: Siloed teams — where network, security, applications, and operations report to different executives with conflicting success metrics — are the #1 operational failure mode for ZT.
 
-The authors identify **siloed teams** as the #1 operational failure mode for ZT. The four essential teams — network, security, applications, and operations — must collaborate under unified sponsorship. The telltale signs of silos:
-- Team members don't know the names of counterparts in "partner" organizations.
-- One group copies another's idea and competes instead of collaborating.
-- Funding goes to one team's projects but not the other's.
+**Author's claim:** The authors identify organizational silos as the primary barrier to ZT success. The telltale signs: team members don't know counterparts' names, groups copy and compete instead of collaborating, funding goes to one team's projects but not another's.
 
-**Solution**: Gain sponsorship at a level above both network and security leadership. A single executive with authority over both functions removes the resource competition and establishes a shared mission.
+**Evidence presented:** The SBC case study's first blocker was organizational: Network (CTO org) and Network Security (CIO org) had conflicting success metrics (uptime vs. threat response). The solution was moving Network Security under CTO alongside Network Admin and Network Ops, with a separate Corporate Security team (audit, pentest, IR, policy) reporting to CIO as an independent advisory body. The authors recommend gaining sponsorship at a level above both network and security leadership — a single executive with authority over both functions removes resource competition and establishes shared mission.
 
-### Adoption Lifecycle (Moore's *Crossing the Chasm*)
+**Confidence:** HIGH — This is the most consistently reported non-technical barrier across the entire ZT literature. Dotse et al. (2025) found executive sponsorship was the #1 critical success factor (r = 0.78, β = 0.342, p < 0.001). The SBC reorg being the prerequisite for technical success provides a concrete case study.
 
-| Group | Characteristics | How to Engage |
-|-------|----------------|---------------|
-| **Innovators** | Sponsors, creators of the design. Internal "venture capitalists." | Must continually evangelize as leaders change. Build ZT into governance documents and policies. |
-| **Early Adopters** | Pilot/test teams. | Address questions early in the implementation cycle. Minor plan updates may suffice. |
-| **Early Majority** | Responsible for long-haul migration and ongoing maintenance. Program success lives or dies here. | Address deeper questions. They need to be part of the solution. |
-| **Late Majority** | Experienced with change, find obstacles at every turn. Want others to fail first. | Leadership must "take on all the risk" and de-risk sufficiently. |
-| **Laggards** | Analysis paralysis. Admire problems from every angle to avoid action. | Top-down mandates. May require leadership or core team changes to thaw. |
+### Claim 6: The Zero Trust journey is cyclical, not linear — five capabilities (Policy & Governance, Identity, Vulnerability Management, Enforcement, Analytics) form a continuous feedback loop with no final destination.
 
-### Team-Specific Engagement
+**Author's claim:** The book's capstone model presents five ongoing capabilities where analytics feeds identity, which feeds vulnerability management, which refines enforcement, which triggers policy updates, which loops back. "Zero Trust has no final destination — removing trust from a network is an ongoing, never-ending process."
 
-- **Application Owners**: Must be engaged *early*. Excluding them until the end almost guarantees resistance. They hold the intellectual property, data, and customer systems.
-- **Operations / Help Desk**: Need clear ownership, runbooks, operational guides, and consistent 24×7 governance documentation.
-- **Network and Security**: One or both may initiate the program, but long-term oversight often shifts to operations + governance. Identity and access management (IAM) teams are critical stakeholders.
+**Evidence presented:** The five capabilities: (1) Policy & Governance — executive buy-in codified into policy, the foundation; (2) Identity — authentication + authorization based on contextual identity, "the long pole in the tent"; (3) Vulnerability Management — behavioral baseline vs. expected behavior; (4) Enforcement — layered, distributed, applied at correct network location; (5) Analytics — feeds all other capabilities, aggregates logs/switch counters/syslog/identity accounting. The SBC case study validates this: firewall rule cleanup went from 350,000 → ~125,000 active → further reduced via identity-based policies; TrustSec tag strategy capped at 10 tags; the question isn't "When will the building be secured?" but "Which phase is the building at, and how far along?"
 
-### Policy Life Cycle
-
-The NIST 800-207 Policy Decision Point (PDP = Policy Engine + Policy Administrator) is rarely a single product — it's a **conglomeration of components** (NAC on campus, PAM in the data center, remote access solution elsewhere), each managed by different teams.
-
-Two trustworthiness criteria:
-1. **Attribution**: Criteria presented to PEPs and measured against PDPs at connection time (who, what, where, when, how).
-2. **State**: Criteria derived from external sources — threat intelligence, CVE reporting, vulnerability data.
-
-The authors recommend a **common attribution schema** (who, what, where, when, why, how) that standardizes trustworthiness measurement across all use cases and feeds into CMDBs for CAB/CCB governance processes.
-
-### Cisco Architecture Mapping
-
-Three primary domains where attribution evaluation and enforcement occur:
-- **LAN**: DNA Center + ISE → PA/PE; access layer interfaces → PEP; TrustSec tags for segmentation.
-- **WAN Edge**: vManage infrastructure; enforcement based on tag value, VXLAN headers, or application parameters.
-- **Data Center**: APIC + ACI → PA/PE; VRFs, tenants, EPGs, contracts; Secure Workload for host-based firewall.
-
-### Moves, Adds, and Changes
-
-Onboarding new device types must go through an **Architecture Review Board**. If the device aligns 95% to an existing template, minor tweaks are handled via a defined change process. Heavy processes breed shadow processes — keep onboarding lightweight enough that people actually use it.
+**Confidence:** HIGH — The cyclical model is a synthesis that aligns with NIST 800-207's emphasis on continuous monitoring and iterative improvement. The SBC case study provides empirical grounding for the framework's practical application.
 
 ---
 
-## Chapter 11: Conclusion & The SBC Applied Use Case
+## Appendix A: Smart Building Central — Full Applied Use Case
 
-### The Five Capabilities — Cyclical, Not Linear
+### Claim 7: The SBC case study demonstrates that practical ZT implementation must constrain scope aggressively — 10 TrustSec tags maximum, 5–7 endpoint groups, and a dedicated IoT tiger team — to avoid analysis paralysis and operational chaos.
 
-The book's capstone model presents five ongoing capabilities:
+**Author's claim:** The authors' empirical finding from Cisco services: "Customers who use dynamic application of enforcement policy have the best likelihood of success when they start with no more than five to seven groups or enclaves." The SBC implementation validated this with a 10-tag TrustSec strategy.
 
-1. **Policy & Governance**: Executive buy-in codified into policy, propagated to all contributors. The foundation.
-2. **Identity**: Authentication + authorization based on contextual identity. Must include an explicit onboarding process for new devices. The "long pole in the tent."
-3. **Vulnerability Management**: Behavioral baseline vs. expected behavior. Reliant on contextual identity. Risk analysis feeds enforcement policy.
-4. **Enforcement**: Layered, distributed, applied at the correct network location. Prevents single points of failure.
-5. **Analytics**: Feeds all other capabilities. Aggregates logs, switch counters, syslog, identity accounting. Validates functionality and improves application of controls. Must consider external threat feeds.
+**Evidence presented:** The SBC case study details: (1) TrustSec tag strategy capped at 10 tags (Corporate, Collaboration, IP Cameras, Printers, Print Servers, IoT, Guests, BMS, IT) with planned sub-tags deferred; (2) IP cameras received their own tag because of unique multicast discovery behavior — "carving them out was a conscious risk decision balancing security vs. operational continuity"; (3) "The Key Masters" — a dedicated tiger team for IoT device onboarding that documented ~10× more connections than manufacturers provided; (4) DNS enforcement via Cisco Umbrella with content filtering applied to corporate devices but not guests; (5) Analytics Triad: Secure Network Analytics + Secure Workload + Thousand Eyes; (6) Cultural resistance from staff bringing unauthorized devices — IT initially accommodated with dynamic quarantining but discontinued after Q1 to force proper onboarding.
 
-The journey is **cyclical** — analytics feeds identity, which feeds vulnerability management, which refines enforcement, which triggers policy updates, which loops back.
-
-### Key Takeaways from the Conclusion
-
-- Zero Trust starts with **singular steps**; a "big bang" is rarely correct.
-- Small groupings of assets reveal larger themes.
-- The question isn't "When will the building be secured?" but **"Which phase is the building at, and how far along?"**
-- Zero Trust has no final destination — removing trust from a network is an **ongoing, never-ending process**.
-
-### Appendix A: Smart Building Central — Full Applied Use Case
-
-The SBC case study is a 30+ page walkthrough of a real ZT implementation at a smart-building headquarters. Key highlights:
-
-- **The Reorg**: The first blocker was organizational. Network (CTO org) and Network Security (CIO org) had conflicting success metrics (uptime vs. threat response). Solution: moved Network Security under CTO alongside Network Admin and Network Ops, with a separate Corporate Security team (audit, pentest, IR, policy) reporting to CIO as an independent advisory body.
-- **Business Discovery Workshop**: Department heads were asked the standard who/what/where/when/how questions. Revealed widespread shadow IT: employees used personal laptops on guest Wi-Fi and transferred data via USB because corporate laptops were locked down. The guest Wi-Fi PSK was printed on plastic placards in IT cubicles.
-- **VRF Design**: Five VRFs — Corporate, Building Management Systems, Labs, Guests, IoT — each with 100 VLANs allocated predictably.
-- **"The Key Masters"**: A dedicated tiger team for IoT device onboarding. Every IoT device was tested in a hardened lab with its full system dependencies. Manufacturers rarely documented internal system interactions (developers lacked networking backgrounds). The Key Masters documented **~10× more connections than manufacturers provided**.
-- **Firewall Rule Cleanup**: 350,000 rules → ~125,000 active → further reduced to manageable numbers via identity-based policies on ISE. Rule identification used DHCP tracing, DNS lookups, SIEM log analysis (13-month retention), and incremental disabling on campus firewalls.
-- **TrustSec Tag Strategy**: Capped at **10 tags** (Corporate, Collaboration, IP Cameras, Printers, Print Servers, IoT, Guests, BMS, IT) with planned sub-tags deferred. IP cameras were given their own tag because of their unique multicast discovery behavior — carving them out was a conscious risk decision balancing security vs. operational continuity.
-- **DNS Enforcement**: Cisco Umbrella for external resolution, evaluating domain age, registration, certificate status, content, and business relevance. Content filtering applied to corporate devices but not guests/personal mobile.
-- **Analytics Triad**: Secure Network Analytics (NetFlow-based flow visibility) + Secure Workload (host-level IP tables enforcement and alerting) + Thousand Eyes (application response time and connectivity monitoring).
-- **Cultural Resistance**: Despite policies, staff continued bringing unauthorized devices. IT operations initially accommodated them with dynamic quarantining and analysis, but discontinued this after Q1 to force proper onboarding.
-- **Outcome**: SBC Inc. adopted the ZT model for all net-new and renovated buildings, creating a roadmap with phase-based progress measurement.
+**Confidence:** HIGH — This is a detailed, named, walkthrough-length case study with specific metrics and configuration details. The 10-tag cap and 5–7 enclave starting point are the most specific, empirically grounded implementation constraints in the ZT literature.
 
 ---
 
 ## Cross-Chapter Themes
 
 1. **Identity is everything.** Without knowing what every device is, enforcement is guesswork. Monitor mode is where the real work happens.
+
 2. **Distribution beats centralization.** Enforce at the access layer (TrustSec), across subnets (dACLs), across zones (firewalls), and on hosts (agents). No single chokepoint.
+
 3. **Organization before technology.** The SBC reorg was the prerequisite for every technical success that followed. Siloed teams with conflicting metrics will defeat any ZT implementation.
+
 4. **Start small, iterate.** Seven endpoint groups. One site with high variety + on-site presence. Gradual enforcement from permit/deny to port/protocol. The journey is infinite — measure progress in phases, not completion.
+
 5. **Exceptions are the enemy.** Every exception process tends to become the rule. The authors urge critical scrutiny of every exception: "as soon as an exception process can be filed and granted, the exception process is almost guaranteed to become the rule."
