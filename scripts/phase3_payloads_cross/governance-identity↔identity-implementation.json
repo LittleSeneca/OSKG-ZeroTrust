@@ -1,0 +1,88 @@
+{
+  "cross_pair": "governance-identity\u2194identity-implementation",
+  "cluster_a": "merged-54",
+  "cluster_b": "merged-25",
+  "size": 10,
+  "claims": [
+    {
+      "slug": "identity-foundational-zta-pillar",
+      "claim_id": "cisa-ztmm-id.1",
+      "statement": "Identity is the foundational pillar of ZTA \u2014 without mature identity capabilities, a ZTA cannot make access decisions, and ICAM serves as the substrate beneath the entire pillar, as established by both CISA's maturity model and NIST 800-207 Chapter 6.",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "- The pillar is organized around four operational functions (Authentication, Identity Stores, Risk Assessments, Access Management) plus three cross-cutting capabilities (Visibility & Analytics, Automation & Orchestration, Governance).\n- The maturity progression mirrors the NSA User Pillar's four-phase framework (Preparation \u2192 Basic \u2192 Intermediate \u2192 Advanced), though CISA uses different labels and "
+    },
+    {
+      "slug": "cdm-visibility-prerequisite-zta",
+      "claim_id": "nist207-ch6.8",
+      "statement": "CDM is the visibility prerequisite for ZTA \u2014 without CDM's four foundational questions answered (what is connected, who is on the network, what is happening, how is data protected), ZTA cannot evaluate device posture or make informed access decisions.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "| CDM Question | ZTA Dependency |\n|---|---|\n| **What is connected?** (devices, apps, services) | PEP needs complete asset inventory to evaluate device posture |\n| **Who is on the network?** (users, NPEs) | Policy Engine needs subject identity and role attributes |\n| **What is happening?** (traffic patterns, messages) | Continuous monitoring and anomaly detection feed dynamic policy |\n| **How is da"
+    },
+    {
+      "slug": "icam-non-negotiable-substrate",
+      "claim_id": "nsa-user.1",
+      "statement": "The user pillar operationalizes ICAM for Zero Trust \u2014 and ICAM is the non-negotiable substrate",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The document frames the entire user pillar around five FICAM capability areas: Identity Management, Credential Management, Access Management, Federation, and Governance. This is not an arbitrary structure \u2014 it mirrors the Federal ICAM Architecture directly (GSA, 2021). The NSA's contribution is adding the *threat-centric maturity model* on top: preparation \u2192 basic \u2192 intermediate \u2192 advanced for eac"
+    },
+    {
+      "slug": "zta-complementary-not-replacement",
+      "claim_id": "nist207-ch6.1",
+      "statement": "ZTA is complementary to existing federal frameworks, not a replacement \u2014 it changes the locus of enforcement (from perimeter to resource) and the granularity of policy (from network-segment to per-session), but every existing program remains in force.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "The chapter systematically maps seven programs (RMF, Privacy Framework, ICAM, TIC 3.0, EINSTEIN/NCPS, CDM, Cloud Smart) and shows how each adapts to ZTA rather than being replaced by it. The pattern is consistent across all seven: the program's mandate stays the same; ZTA changes where and how enforcement occurs."
+    },
+    {
+      "slug": "ztmm-operationalizes-nist-seven-tenets",
+      "claim_id": "cisa-ztmm-ov.9",
+      "statement": "The ZTMM operationalizes all seven NIST 800-207 tenets into measurable capabilities",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "The seven tenets are listed explicitly (lines 257-267):\n\n1. All data sources and computing services are considered resources.\n2. All communication is secured regardless of network location.\n3. Access to individual enterprise resources is granted on a per-session basis.\n4. Access to resources is determined by dynamic policy.\n5. The enterprise monitors and measures the integrity and security posture"
+    },
+    {
+      "slug": "continuous-authentication-common-all-pillars",
+      "claim_id": "dod-ra-cap.2",
+      "statement": "Continuous authentication and identity validation are common to all pillars \u2014 every access transaction requires it regardless of what pillar the capability falls under \u2014 and three enterprise-scale enablers (federated enterprise identity service, enterprise analytics, enterprise orchestration) are prerequisites, not optional.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "- Continuous authentication and identity validation are common to all pillars \u2014 every access transaction requires it.\n- Capabilities point to multiple pillars \u2014 white arrows in Figure 6 show which aggregated capability acts on which pillar.\n- Enterprise-scale enablers are required: a federated enterprise identity service, enterprise analytics, and enterprise orchestration are prerequisites.\n- Data"
+    },
+    {
+      "slug": "authentication-keystone-identity-function",
+      "claim_id": "cisa-ztmm-id.3",
+      "statement": "Authentication is the keystone function of the Identity pillar \u2014 the jump from Traditional (passwords) to Advanced/Optimal (phishing-resistant MFA + continuous validation) is the largest single capability gap and the one most directly tied to breach prevention.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "| Stage | Capability |\n|-------|-----------|\n| **Traditional** | Passwords or basic MFA; static, one-time access grant. |\n| **Initial** | MFA required; validates multiple entity attributes (e.g., locale, activity); passwords may still be one factor. |\n| **Advanced** | Phishing-resistant MFA deployed for all identities (FIDO2, PIV); password-less MFA implementation begins. |\n| **Optimal** | Continu"
+    },
+    {
+      "slug": "identity-mgmt-attribute-authority",
+      "claim_id": "nsa-user.2",
+      "statement": "Identity management maturity is about attribute authority, not just identity inventory",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The four-phase maturity progression for Identity Management:\n\n| Phase | Capability | Key Shift |\n|-------|-----------|-----------|\n| **Preparation** | Enterprise repositories for person-entities only; NPEs managed ad-hoc locally; in-person vetting per NIST FIPS 201. | *Get everyone registered.* |\n| **Basic** | Enterprise attribute standards defined; all local attributes documented; attribute claim"
+    },
+    {
+      "slug": "access-mgmt-abac-least-privilege",
+      "claim_id": "nsa-user.4",
+      "statement": "Access management is where least privilege becomes operational \u2014 through ABAC, JIT/JEA, PAM, and privileged access workstations",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The document identifies five core access management capabilities and maps them across maturity phases:\n\n### Core Capabilities\n\n1. **Least Privilege:** \"Implementing least privilege access policies minimizes the damage a malicious actor can cause.\" For highly privileged users: separate devices, credentials, and accounts isolated from high-risk activities (email, web browsing).\n\n2. **Just-in-Time (J"
+    },
+    {
+      "slug": "credential-mgmt-phishing-resistance",
+      "claim_id": "nsa-user.3",
+      "statement": "Credential management is defined by phishing resistance \u2014 MFA is the floor, AAL3 is the ceiling",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "**MFA and Authenticator Assurance Levels:**\n\nThe document maps authentication strength to NIST SP 800-63-3's AAL scale:\n- **AAL 1**: Single-factor or weak MFA (not recommended for critical resources).\n- **AAL 2**: Two-factor with cryptographic protection of the authentication secret.\n- **AAL 3**: Hardware-based cryptographic authenticators with phishing resistance. CAC/PIV cards and FIDO2 hardware"
+    }
+  ]
+}

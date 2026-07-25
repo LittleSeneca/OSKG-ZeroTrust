@@ -1,0 +1,88 @@
+{
+  "cross_pair": "network-segmentation\u2194architecture",
+  "cluster_a": "merged-57",
+  "cluster_b": "merged-50",
+  "size": 10,
+  "claims": [
+    {
+      "slug": "macro-segmentation-cross-function",
+      "claim_id": "nsa-network.3",
+      "statement": "Macro segmentation prevents lateral movement between business functions",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Four-phase maturity progression:\n\n| Phase | Capability |\n|-------|-----------|\n| **Preparation** | Define different security levels on the network. Map the logical distinctions in network structure. |\n| **Basic** | Segment networks based on business functions, locations, and asset criticality. Strengthen internal security controls within existing segments (e.g., VLANs). |\n| **Intermediate** | Acce"
+    },
+    {
+      "slug": "micro-segmentation-blast-radius",
+      "claim_id": "nsa-network.4",
+      "statement": "Micro segmentation limits blast radius within segments \u2014 it's the granular layer",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Four-phase maturity progression:\n\n| Phase | Capability |\n|-------|-----------|\n| **Preparation** | Define different security levels on the network based on identity and application access. |\n| **Basic** | Begin transitioning toward service-specific interconnections and isolation of critical data flows. |\n| **Intermediate** | Deploy endpoint and application isolation mechanisms to more of the netwo"
+    },
+    {
+      "slug": "lateral-movement-prevention-raison-detre",
+      "claim_id": "nsa-network.1",
+      "statement": "Lateral movement prevention is the pillar's *raison d'\u00eatre*",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The document opens with the 2013 Target breach as its central case study \u2014 HVAC vendor credentials used to pivot from an HVAC network segment to point-of-sale systems, compromising 40 million payment cards. The NSA uses this as a recurring anchor: macro segmentation appears as the preventive control ($5 of \"could have prevented this\"), and micro segmentation appears as the blast-radius limiter ($8"
+    },
+    {
+      "slug": "sequential-network-maturity-journey",
+      "claim_id": "nsa-network.6",
+      "statement": "The four capabilities form an integrated, sequential maturity journey",
+      "claim_type": "maturity",
+      "confidence": "high",
+      "evidence_excerpt": "The sequential structure of the document (data flow mapping \u2192 macro \u2192 micro \u2192 SDN) itself argues for sequential dependency. You cannot segment without understanding flows. You cannot micro-segment effectively without macro segmentation as a foundation. You cannot manage micro segmentation at scale without SDN or equivalent automation."
+    },
+    {
+      "slug": "east-west-segmentation-controlling-traffic-within-the-same-vlansubnet",
+      "claim_id": "go-ch6-8.2",
+      "statement": "East-west segmentation \u2014 controlling traffic within the same VLAN/subnet \u2014 is the harder problem that most distinguishes ZT from traditional perimeter security, requiring Layer 2 identity-based enforcement that doesn't depend on routing.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "TrustSec / Security Group Tags (SGT) is presented as the Cisco solution: a 16-bit SGT embedded in the Ethernet frame header (Cisco Meta Data field), assigned dynamically by ISE at authentication time, independent of VLAN/IP/MAC, traveling with every frame. Enforcement at egress by the network access device. Key capability: two adjacent devices in the same VLAN can be prevented from communicating; "
+    },
+    {
+      "slug": "zt-control-data-plane-split",
+      "claim_id": "gilmanbarth-ch1.2",
+      "statement": "The control plane / data plane split is ZT's fundamental architectural innovation",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The control plane is authoritative \u2014 it authenticates, authorizes, and coordinates access in real time. The data plane accepts configuration from the control plane and enforces it. This architecture is directly inspired by software-defined networking (SDN) and Google's BeyondCorp. It's validated by every major ZT implementation: Google Access Proxy, ZTNA products, service mesh."
+    },
+    {
+      "slug": "the-nist-pdppep-model-is-the-correct-foundation",
+      "claim_id": "gc-ch1-3.9",
+      "statement": "The NIST PDP/PEP model is the correct foundation, but needs enterprise-specific refinement and extension.",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The authors adopt NIST's PDP/PEP model but make three extensions: (1) CDM, PKI, and other systems are treated as logically part of the ZT system \u2014 \"producers and consumers of data and events, meshed together,\" (2) they introduce three distinct PEP types (user agent, network, application), (3) they define a formal policy structure (Subject Criteria + Action + Target + Condition)."
+    },
+    {
+      "slug": "preventing-lateral-movement-primary-goal-zt",
+      "claim_id": "cccs-arch.3",
+      "statement": "Preventing lateral movement is the *primary* goal of ZT",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The document anchors its threat model in the lateral movement attack pattern: \"We often hear of attacks that involve a compromised user account or device being used as an entry point... Once in, the attacker will then progress laterally in the network to gain access to credentials or other sensitive information.\""
+    },
+    {
+      "slug": "the-control-plane-is-the-trust-grantor-temporary",
+      "claim_id": "gb-ch2.5",
+      "statement": "The control plane is the trust grantor \u2014 temporary trust and leased tokens are its operational expression",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The chapter specifies leased access tokens and short-lifetime certificates as the implementation mechanism for temporary trust. These credentials must be validated both within the data plane (agent-to-resource) and between the data plane and control plane (agent-to-controller). The isolation requirement is structural \u2014 the data plane cannot be used to gain privilege in the control plane, preventin"
+    },
+    {
+      "slug": "there-are-three-distinct-types-of-peps-and",
+      "claim_id": "gc-ch1-3.10",
+      "statement": "There are three distinct types of PEPs, and understanding their differences is essential for architecture design.",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The distinction emerges from analyzing where enforcement can and must happen. Network PEPs are \"the most common starting point\" and align with NIST's orientation. Application PEPs enable just-in-time provisioning and role enforcement. User agent PEPs handle device posture and secure tunnel establishment."
+    }
+  ]
+}

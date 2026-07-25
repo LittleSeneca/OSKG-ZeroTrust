@@ -1,0 +1,134 @@
+[
+  {
+    "source": "nsa-network.4",
+    "target": "nsa-network.3",
+    "relationship": "extends",
+    "rationale": "Micro segmentation is the granular layer within macro segmentation's business-function boundaries"
+  },
+  {
+    "source": "nsa-network.1",
+    "target": "nsa-network.3",
+    "relationship": "supports",
+    "rationale": "Lateral movement prevention as the pillar's raison d'\u00eatre provides the rationale for macro segmentation"
+  },
+  {
+    "source": "nsa-network.1",
+    "target": "nsa-network.4",
+    "relationship": "supports",
+    "rationale": "Raison d'\u00eatre also justifies micro segmentation's blast radius limitation"
+  },
+  {
+    "source": "nsa-network.6",
+    "target": "nsa-network.3",
+    "relationship": "supports",
+    "rationale": "Maturity model positions macro segmentation as a foundational sequential phase"
+  },
+  {
+    "source": "nsa-network.6",
+    "target": "nsa-network.4",
+    "relationship": "supports",
+    "rationale": "Maturity model positions micro segmentation as the phase following macro"
+  },
+  {
+    "source": "go-ch6-8.2",
+    "target": "nsa-network.4",
+    "relationship": "extends",
+    "rationale": "East-west segmentation is the specific Layer 2 enforcement mechanism for achieving micro-segmentation's blast radius limitation"
+  },
+  {
+    "source": "go-ch6-8.2",
+    "target": "nsa-network.3",
+    "relationship": "extends",
+    "rationale": "East-west segmentation addresses within-VLAN/subnet traffic that macro segmentation leaves unresolved"
+  },
+  {
+    "source": "go-ch6-8.2",
+    "target": "nsa-network.1",
+    "relationship": "extends",
+    "rationale": "East-west segmentation represents the hardest form of the lateral movement problem that is the pillar's raison d'\u00eatre"
+  },
+  {
+    "source": "cccs-arch.3",
+    "target": "nsa-network.1",
+    "relationship": "extends",
+    "rationale": "Generalizes lateral movement prevention from a single pillar's raison d'\u00eatre to ZT's overarching primary goal"
+  },
+  {
+    "source": "cccs-arch.3",
+    "target": "nsa-network.3",
+    "relationship": "supports",
+    "rationale": "ZT's primary goal of preventing lateral movement validates macro segmentation as a key mechanism"
+  },
+  {
+    "source": "cccs-arch.3",
+    "target": "nsa-network.4",
+    "relationship": "supports",
+    "rationale": "Primary goal validates micro segmentation's blast radius limitation"
+  },
+  {
+    "source": "cccs-arch.3",
+    "target": "go-ch6-8.2",
+    "relationship": "supports",
+    "rationale": "Primary goal validates east-west segmentation as addressing the hardest lateral movement vector"
+  },
+  {
+    "source": "go-ch6-8.2",
+    "target": "gilmanbarth-ch1.2",
+    "relationship": "depends_on",
+    "rationale": "East-west Layer 2 identity-based enforcement depends on the control/data plane split for identity assignment and policy coordination"
+  },
+  {
+    "source": "nsa-network.4",
+    "target": "gilmanbarth-ch1.2",
+    "relationship": "depends_on",
+    "rationale": "Micro-segmentation enforcement at scale depends on the control/data plane architecture"
+  },
+  {
+    "source": "go-ch6-8.2",
+    "target": "gb-ch2.5",
+    "relationship": "depends_on",
+    "rationale": "East-west identity-based enforcement (SGTs) depends on the control plane's trust-granting function for identity assignment"
+  },
+  {
+    "source": "nsa-network.6",
+    "target": "gilmanbarth-ch1.2",
+    "relationship": "supports",
+    "rationale": "Maturity journey culminates in SDN, which embodies the control/data plane split as the architectural end-state"
+  },
+  {
+    "source": "gc-ch1-3.9",
+    "target": "gilmanbarth-ch1.2",
+    "relationship": "extends",
+    "rationale": "NIST PDP/PEP model is the formal architectural instantiation of the control/data plane split principle"
+  },
+  {
+    "source": "gb-ch2.5",
+    "target": "gilmanbarth-ch1.2",
+    "relationship": "extends",
+    "rationale": "Trust grantor role elaborates the control plane's specific function within the split"
+  },
+  {
+    "source": "gc-ch1-3.10",
+    "target": "gilmanbarth-ch1.2",
+    "relationship": "extends",
+    "rationale": "Three PEP types elaborate data plane diversity within the control/data plane split"
+  },
+  {
+    "source": "gb-ch2.5",
+    "target": "gc-ch1-3.9",
+    "relationship": "extends",
+    "rationale": "Control plane as trust grantor elaborates PDP's authorization function within PDP/PEP"
+  },
+  {
+    "source": "gc-ch1-3.10",
+    "target": "gc-ch1-3.9",
+    "relationship": "extends",
+    "rationale": "Three PEP types elaborate the PEP enforcement side of the PDP/PEP model"
+  },
+  {
+    "source": "gilmanbarth-ch1.2",
+    "target": "cccs-arch.3",
+    "relationship": "supports",
+    "rationale": "The control/data plane split as architectural innovation serves ZT's primary goal of preventing lateral movement"
+  }
+]

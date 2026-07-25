@@ -56,7 +56,6 @@ _None identified._
 **Supports:**
 
 **Contradicts:**
-- [[nac-eg-cisco-ise-functions-as-the-single|One claim positions NAC (Cisco ISE) as the single source of truth for ZT access decisions; the other declares 802.1x-bas]]
 
 **Challenged by:**
 

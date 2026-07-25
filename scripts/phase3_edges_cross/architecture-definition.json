@@ -1,0 +1,110 @@
+[
+  {
+    "source": "zt-control-data-plane-split",
+    "target": "the-control-plane-is-the-trust-grantor-temporary",
+    "type": "extends",
+    "rationale": "Claim 4 elaborates the control plane's operational role (trust granting, leased tokens) within the architectural split defined in Claim 1"
+  },
+  {
+    "source": "zt-control-data-plane-split",
+    "target": "there-are-three-distinct-types-of-peps-and",
+    "type": "extends",
+    "rationale": "Claim 5 elaborates the data plane side of the split by identifying three distinct PEP types"
+  },
+  {
+    "source": "zt-control-data-plane-split",
+    "target": "preventing-lateral-movement-primary-goal-zt",
+    "type": "supports",
+    "rationale": "The control/data plane split is the architectural mechanism that enables lateral movement prevention by centralizing auth decisions"
+  },
+  {
+    "source": "the-nist-pdppep-model-is-the-correct-foundation",
+    "target": "the-control-plane-is-the-trust-grantor-temporary",
+    "type": "supports",
+    "rationale": "The PDP/PEP model provides the framework where the PDP (control plane) naturally functions as the trust grantor"
+  },
+  {
+    "source": "the-nist-pdppep-model-is-the-correct-foundation",
+    "target": "there-are-three-distinct-types-of-peps-and",
+    "type": "extends",
+    "rationale": "Claim 5 extends the PDP/PEP model by identifying three concrete PEP types (user agent, network, application)"
+  },
+  {
+    "source": "the-control-plane-is-the-trust-grantor-temporary",
+    "target": "preventing-lateral-movement-primary-goal-zt",
+    "type": "supports",
+    "rationale": "Temporary trust and leased tokens directly prevent lateral movement by requiring fresh authorization for each access"
+  },
+  {
+    "source": "there-are-three-distinct-types-of-peps-and",
+    "target": "the-control-plane-is-the-trust-grantor-temporary",
+    "type": "depends_on",
+    "rationale": "All three PEP types depend on the control plane (trust grantor) for authorization decisions"
+  },
+  {
+    "source": "there-are-three-distinct-types-of-peps-and",
+    "target": "preventing-lateral-movement-primary-goal-zt",
+    "type": "supports",
+    "rationale": "Multiple PEP types at different layers (network, app, user agent) close enforcement gaps that enable lateral movement"
+  },
+  {
+    "source": "zt-assume-breach",
+    "target": "bsi-provides-formal-three",
+    "type": "extends",
+    "rationale": "BSI explicitly derives its definition from the 'Assume Breach' approach, tracing lineage through Marsh, Jericho Forum, and Kindervag"
+  },
+  {
+    "source": "bsi-provides-formal-three",
+    "target": "zt-positive-tenets",
+    "type": "extends",
+    "rationale": "BSI extends NIST's definition (including the positive tenets approach) with German regulatory emphasis on verifiable evidence (Nachweise)"
+  },
+  {
+    "source": "zt-positive-tenets",
+    "target": "zt-defined-cisa-five",
+    "type": "contradicts",
+    "rationale": "Competing definitional frameworks: Claim 7 says ZT is defined by NIST's positive tenets; Claim 8 says ZT is defined through CISA's five-pillar model instead"
+  },
+  {
+    "source": "zt-positive-tenets",
+    "target": "zt-assume-breach",
+    "type": "contradicts",
+    "rationale": "Claim 7 defines ZT by what it positively DOES (seven tenets); Claim 10 defines ZT by the threat model (assume breach). These are opposing definitional approaches"
+  },
+  {
+    "source": "nist-document-structure-framework",
+    "target": "zt-assume-breach",
+    "type": "contradicts",
+    "rationale": "NIST defines architecture first then threats (Ch 5); the NSA document does the opposite — opens with threat landscape before defining ZT. Claim 10 explicitly contrasts with NIST's approach"
+  },
+  {
+    "source": "zt-assume-breach",
+    "target": "preventing-lateral-movement-primary-goal-zt",
+    "type": "supports",
+    "rationale": "'Assume breach' provides the threat model that makes lateral movement prevention the primary architectural goal"
+  },
+  {
+    "source": "the-nist-pdppep-model-is-the-correct-foundation",
+    "target": "zt-positive-tenets",
+    "type": "supports",
+    "rationale": "The PDP/PEP model provides concrete enforcement architecture for NIST's technology-agnostic positive tenets"
+  },
+  {
+    "source": "nist-document-structure-framework",
+    "target": "the-nist-pdppep-model-is-the-correct-foundation",
+    "type": "supports",
+    "rationale": "NIST's document structure (definitions → components → use cases) provides the organizing framework within which PDP/PEP is presented as a core component"
+  },
+  {
+    "source": "the-control-plane-is-the-trust-grantor-temporary",
+    "target": "zt-positive-tenets",
+    "type": "supports",
+    "rationale": "The trust grantor model (temporary trust, leased tokens) is a concrete implementation supporting the positive tenets' technology-agnostic goals"
+  },
+  {
+    "source": "there-are-three-distinct-types-of-peps-and",
+    "target": "zt-positive-tenets",
+    "type": "supports",
+    "rationale": "Three PEP types provide layered enforcement supporting the positive tenets' mandate for continuous verification at every access point"
+  }
+]

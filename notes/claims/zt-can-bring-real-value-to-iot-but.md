@@ -59,14 +59,11 @@ _None identified._
 
 **Contradicts:**
 - [[firmware-level-patch-management|Unpatchable IoT firmware directly contradicts the requirement that patch management must cover firmware below the OS — t]]
-- [[centralized-device-management-enforcement-backbone|IoT's closed systems, weak authentication, and unpatchable firmware fundamentally prevent the universal centralized mana]]
 
 **Challenged by:**
 
 **Operationalizes:**
 
 **Extends:**
+- [[centralized-device-management-enforcement-backbone|IoT is the exception that proves the rule: closed systems, weak auth, and unpatchable firmware limit ZT to a reduced assurance tier.]]
 
-## Assessment
-
-_Not addressed separately in the source note._

@@ -1,0 +1,73 @@
+{
+  "qa1_contradictions": {
+    "pair_1_iaaspaas_vs_beyondcorp": {
+      "claim_a": "iaaspaas-security-hasnt-kept-pace-with-iaaspaas-adoption",
+      "claim_b": "beyondcorp-google-implementation-zt-model-provides-architectural",
+      "verdict": "KEEP \u2014 genuine tension, but narrow scope",
+      "rationale": "Claim A says general CSPs (AWS/Azure) can't enforce ZT policies. Claim B says Google BeyondCorp IS the most mature cloud ZT implementation. Real contradiction but scope-limited: it's 'most CSPs can't' vs 'one CSP can.'"
+    },
+    "pair_2_iot_vs_device_mgmt": {
+      "claim_a": "zt-can-bring-real-value-to-iot-but",
+      "claim_b": "centralized-device-management-enforcement-backbone",
+      "verdict": "WEAK \u2014 qualifies more than contradicts",
+      "rationale": "IoT devices can't be centrally managed (closed systems), but UEM/MDM IS the backbone for standard IT. This is IoT as exception-to-the-rule, not a genuine contradiction. Consider changing to 'extends' or 'qualifies.'"
+    },
+    "pair_3_iot_vs_firmware": {
+      "claim_a": "zt-can-bring-real-value-to-iot-but",
+      "claim_b": "firmware-level-patch-management",
+      "verdict": "KEEP \u2014 direct contradiction",
+      "rationale": "Claim A says IoT has unpatchable firmware. Claim B says patch management MUST cover firmware below OS. Direct logical incompatibility."
+    },
+    "pair_4_nac_vs_ise": {
+      "claim_a": "8021x-based-nac-is-fundamentally-incompatible-with-zero-trusts",
+      "claim_b": "nac-eg-cisco-ise-functions-as-the-single",
+      "verdict": "REVIEW \u2014 possible misreading",
+      "rationale": "Claim A says 802.1x NAC is incompatible with ZT. Claim B says NAC (Cisco ISE) functions as single source of truth. But B describes a migration reality ('each medium has distinct rollout characteristics') \u2014 it may be describing the starting point to migrate FROM, not endorsing NAC as ZT-native. Graham needs to read B's full context."
+    }
+  },
+  "qa2_orphans": {
+    "genuine_standalone": [
+      "data-availability-dynamic-optimization",
+      "data-cross-cutting-capabilities-summary",
+      "data-encryption-comprehensive",
+      "network-resilience-holistic"
+    ],
+    "genuine_standalone_rationale": "CISA ZTMM maturity-level progression descriptors \u2014 describe WHAT changes at each level, inherently standalone",
+    "likely_clustering_failures": [
+      "zt-five-fundamental-assertions",
+      "zt-three-guiding-principles",
+      "ciscos-five-pillar-model-policy-governance-identity-vulnerability-management"
+    ],
+    "clustering_failure_rationale": "Foundational claims that were in tiny clusters (5-6 claims) with weak internal coherence. Should connect to definitional and architectural claims in other clusters.",
+    "borderline": [
+      "proprietary-lock-in-amplified-zta",
+      "government-incentivize-non",
+      "incident-response-must-follow-zt-principles-and-the",
+      "sasezte-converges-networking-and-security-but-ztna-ingress",
+      "zt-can-serve-as-a-catalyst-to-improve",
+      "zero-trust-enhances-legacy-applications-without-modification-its",
+      "dns-is-both-a-critical-infrastructure-component-and",
+      "enforcement-must-be-layered-and-applied-as-close",
+      "external-access-for-iotendpoints-requires-baseline-creation-through"
+    ]
+  },
+  "qa3_densest_claim": {
+    "claim": "zt-control-data-plane-split",
+    "edges": 12,
+    "direction_issue": {
+      "edge": "depends_on: sso-should-not-remove-the-control-plane-from",
+      "problem": "DIRECTION LIKELY INVERTED. The control plane/data plane split is a foundational architectural concept. It should not logically depend on a specific SSO recommendation. The SSO claim should depend on the architectural split. Subagent likely inverted depends_on direction.",
+      "recommendation": "Review all 53 depends_on edges for direction correctness \u2014 this is the easiest edge type to invert."
+    },
+    "other_edges_ok": "extends and operationalizes edges look directionally correct"
+  },
+  "qa4_cross_cluster": {
+    "scale": "Tens of thousands of unevaluated pairs across top 8 topic tags",
+    "highest_value_targets": [
+      "Claims about PDP/PEP model split across architecture vs definition clusters (zt-pdp-pep-model vs the-nist-pdppep-model-is-the-correct-foundation)",
+      "Claims about identity governance split across identity/implementation vs governance/governance clusters",
+      "Claims about network segmentation split across network/implementation vs network/architectural clusters"
+    ],
+    "recommendation": "Run a targeted Pass 2.5: take the top 5 densest claims from each cluster and cross-evaluate them against the top 5 from the most topically similar cluster. ~50-100 high-value pairs, manageable in 1-2 delegate_task batches."
+  }
+}

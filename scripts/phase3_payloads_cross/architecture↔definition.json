@@ -1,0 +1,88 @@
+{
+  "cross_pair": "architecture\u2194definition",
+  "cluster_a": "merged-50",
+  "cluster_b": "merged-17",
+  "size": 10,
+  "claims": [
+    {
+      "slug": "zt-control-data-plane-split",
+      "claim_id": "gilmanbarth-ch1.2",
+      "statement": "The control plane / data plane split is ZT's fundamental architectural innovation",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The control plane is authoritative \u2014 it authenticates, authorizes, and coordinates access in real time. The data plane accepts configuration from the control plane and enforces it. This architecture is directly inspired by software-defined networking (SDN) and Google's BeyondCorp. It's validated by every major ZT implementation: Google Access Proxy, ZTNA products, service mesh."
+    },
+    {
+      "slug": "the-nist-pdppep-model-is-the-correct-foundation",
+      "claim_id": "gc-ch1-3.9",
+      "statement": "The NIST PDP/PEP model is the correct foundation, but needs enterprise-specific refinement and extension.",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The authors adopt NIST's PDP/PEP model but make three extensions: (1) CDM, PKI, and other systems are treated as logically part of the ZT system \u2014 \"producers and consumers of data and events, meshed together,\" (2) they introduce three distinct PEP types (user agent, network, application), (3) they define a formal policy structure (Subject Criteria + Action + Target + Condition)."
+    },
+    {
+      "slug": "preventing-lateral-movement-primary-goal-zt",
+      "claim_id": "cccs-arch.3",
+      "statement": "Preventing lateral movement is the *primary* goal of ZT",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The document anchors its threat model in the lateral movement attack pattern: \"We often hear of attacks that involve a compromised user account or device being used as an entry point... Once in, the attacker will then progress laterally in the network to gain access to credentials or other sensitive information.\""
+    },
+    {
+      "slug": "the-control-plane-is-the-trust-grantor-temporary",
+      "claim_id": "gb-ch2.5",
+      "statement": "The control plane is the trust grantor \u2014 temporary trust and leased tokens are its operational expression",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The chapter specifies leased access tokens and short-lifetime certificates as the implementation mechanism for temporary trust. These credentials must be validated both within the data plane (agent-to-resource) and between the data plane and control plane (agent-to-controller). The isolation requirement is structural \u2014 the data plane cannot be used to gain privilege in the control plane, preventin"
+    },
+    {
+      "slug": "there-are-three-distinct-types-of-peps-and",
+      "claim_id": "gc-ch1-3.10",
+      "statement": "There are three distinct types of PEPs, and understanding their differences is essential for architecture design.",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The distinction emerges from analyzing where enforcement can and must happen. Network PEPs are \"the most common starting point\" and align with NIST's orientation. Application PEPs enable just-in-time provisioning and role enforcement. User agent PEPs handle device posture and secure tunnel establishment."
+    },
+    {
+      "slug": "bsi-provides-formal-three",
+      "claim_id": "bsi-zt.2",
+      "statement": "BSI provides a formal three-part definition that extends NIST with German regulatory context",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The definition explicitly derives from the \"Assume Breach\" approach, tracing its lineage through Marsh (1994), Jericho Forum (2003), Kindervag/Forrester (2010), Google BeyondCorp (2014), and NIST SP 800-207 (2019). The BSI positions its definition as synthesizing this lineage while adding German-specific emphasis on *Nachweise* (verifiable evidence/proofs) for trust establishment."
+    },
+    {
+      "slug": "zt-positive-tenets",
+      "claim_id": "nist207-ch2.1",
+      "statement": "Zero Trust is defined by its positive tenets, not by what it excludes",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The seven tenets are technology-agnostic and stated positively \u2014 what ZTA DOES, not what it eliminates. The authors explicitly note that perimeter-based defenses (like micro-segmentation) are still part of ZTA, just not the organizing principle."
+    },
+    {
+      "slug": "zt-defined-cisa-five",
+      "claim_id": "cccs-model.1",
+      "statement": "ZT is defined through the CISA five-pillar model rather than NIST tenets",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "Unlike ITSM.10.008 (which uses NIST's seven tenets), ITSAP.10.008 organizes ZT understanding around CISA's five pillars \u2014 Identity, Device, Network/Environment, Application Workload, and Data \u2014 plus three cross-cutting capabilities (Visibility & Analytics, Automation & Orchestration, Governance). Each pillar is given a single-paragraph description at the Traditional-to-Optimal maturity spectrum."
+    },
+    {
+      "slug": "nist-document-structure-framework",
+      "claim_id": "nist207-ch1.8",
+      "statement": "The document's organization \u2014 definitions \u2192 components \u2192 use cases \u2192 threats \u2192 federal guidance \u2192 migration roadmap \u2014 represents the essential framework for understanding and implementing ZTA.",
+      "claim_type": "definitional",
+      "confidence": "low",
+      "evidence_excerpt": "The structure itself is the evidence \u2014 NIST is asserting, by organizational choice, that these are the essential elements of ZTA understanding. No meta-level justification is offered for why this particular sequence is correct."
+    },
+    {
+      "slug": "zt-assume-breach",
+      "claim_id": "nsa-embrace.1",
+      "statement": "Zero Trust is defined by \"assume breach,\" not architecture",
+      "claim_type": "threat",
+      "confidence": "high",
+      "evidence_excerpt": "The document opens with the threat landscape \u2014 sophisticated adversaries, perimeter defense failure, insider threats \u2014 before defining what Zero Trust IS. This is a rhetorical choice: define the problem first, then present Zero Trust as the solution. NIST 800-207 does the opposite: defines the architecture, then discusses threats in Ch 5."
+    }
+  ]
+}

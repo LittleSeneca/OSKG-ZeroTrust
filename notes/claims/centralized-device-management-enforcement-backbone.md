@@ -69,7 +69,6 @@ _None identified._
   - "[[device-policy-enforcement-compliance-monitoring]]"
 
 **Contradicts:**
-- [[zt-can-bring-real-value-to-iot-but|IoT's closed systems, weak authentication, and unpatchable firmware fundamentally prevent the universal centralized mana]]
 
 **Challenged by:**
 
