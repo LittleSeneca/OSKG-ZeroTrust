@@ -4,115 +4,24 @@
   "total_unique_edges": 470,
   "duplicates_removed": 0,
   "contradicts_count": 4,
-  "orphan_claims_count": 107,
+  "orphan_claims_count": 16,
   "orphan_claims": [
-    "19-builds-demonstrate-zta-implemented-diverse-vendor",
-    "ai-zt-intersection-least",
-    "analytics-ai-unified-pipeline-zt",
-    "autonomous-agentic-operation-without-human-oversight-inadvisable",
-    "casb-sasesdp-api-security-form-the-cloud-visibility",
-    "certificate-signing-is-a-trust-injection-point-that",
-    "cisa-nsa-identity-complementary",
     "ciscos-five-pillar-model-policy-governance-identity-vulnerability-management",
-    "cross-cutting-capabilities-convergence",
-    "cross-cutting-capabilities-prevent-silos",
-    "cross-pillar-maturity-trajectory",
-    "culture-change-requires-rituals-not-just-policies-the",
     "data-availability-dynamic-optimization",
     "data-cross-cutting-capabilities-summary",
     "data-encryption-comprehensive",
     "dns-is-both-a-critical-infrastructure-component-and",
-    "dod-five-tenets-threat-operational",
-    "dod-seven-pillars-identical-cisa",
-    "dynamic-tag-based-targets-are-the-policy-models-most",
-    "eig-crawl-phase-proved-legacy-icam-solutions",
     "enforcement-must-be-layered-and-applied-as-close",
-    "executive-sponsorship-and-crisis-create-the-window-for",
     "external-access-for-iotendpoints-requires-baseline-creation-through",
-    "federal-government-current",
-    "federal-government-needs-two-dedicated-zt-program",
-    "federal-program-interactions-synthesis",
-    "ficam-identity-substrate-zta",
-    "firewalls-persist-under-zero-trust-but-their-role",
-    "five-business-value-drivers-not-security-alone-justify",
-    "five-pillar-comprehensive-decomposition",
-    "four-maturity-levels-progressive-capability",
-    "governance-critical-gap",
     "government-incentivize-non",
-    "group-authorization-is-the-highest-trust-mechanism-for-extremely",
-    "identity-cross-cutting-capabilities",
-    "identity-governance-needs-a-cross-functional-stakeholder-group-and",
     "incident-response-must-follow-zt-principles-and-the",
-    "industry-best-practices",
-    "input-output-validation-gateway",
-    "internet",
-    "invalidation-is-a-hard-problem-in-computer-science",
-    "least-privilege-in-zt-is-dynamic-multi-attribute-and",
-    "llm-systems-require-their-own-dedicated-zero",
-    "nation-state-incidents-perimeter-obsolete",
     "network-resilience-holistic",
-    "ngfws-are-neither-sufficient-as-a-zt-platform",
-    "nist-control-data-plane-separation",
-    "nist-sp-800-207-provides-the-architectural-tenets-but",
-    "npe-person-identities-independent-confidence",
-    "nsa-cisa-identity-frameworks-complementary",
-    "orchestration-policy-four-layer-hierarchy",
-    "physical-security-is-the-perfect-analogy-for-zero",
-    "policy-creation-is-data-driven-discovery-before-enforcement-log",
-    "policy-should-be-defined-in-terms-of-logical",
     "proprietary-lock-in-amplified-zta",
-    "revoke-authorization-first-credentials-second",
-    "rmf-zta-changes-authorization-boundaries",
     "sasezte-converges-networking-and-security-but-ztna-ingress",
-    "sdn-enables-scalable-micro-segmentation",
-    "security-awareness-training-is-a-protect-surface-apply",
-    "server-to-server-zt-is-a-fundamentally-different-problem-than",
-    "service-meshes-are-self-contained-zero-trust-microsegmentation-systems",
-    "session",
-    "seven-zt-scenarios-provide-a-practical-non-exhaustive-framework",
-    "siem-and-soar-integration-with-zt-is-a",
-    "soc-integration-should-be-pursued-early-in-the",
-    "technology-interoperability-hidden-risk",
-    "ten-network-requirements-zta",
-    "the-14-platform-requirements-operationalize-the-principles-into",
-    "the-firewall-is-enough-belief-is-mathematically-disproven-a-network",
-    "the-first-protect-surface-must-be-what-the",
-    "the-four-component-policy-model-subject-action-target-condition",
-    "the-four-design-principles-and-five-step-methodology-make",
-    "the-kipling-method-replaces-network-centric-policy-with-business-context",
-    "the-network-agent-is-the-marriage-of-user",
-    "the-policy-decision-matrix-mapping-source-entities-to",
-    "the-policy-structure-of-subject-criteria-action-target",
-    "the-protect-surface-shifts-controls-from-the-perimeter",
-    "the-soc-is-itself-a-protect-surface-and",
-    "the-socs-value-is-measured-by-false-positive",
-    "the-software-defined-perimeter-architecture-delivers-zt-principles-through",
-    "the-three-core-principles-secure-all-resources-regardless",
-    "the-three-layer-authorization-model-reveals-why-zt-is",
-    "the-two-case-studies-demonstrate-zt-is-cross-domain",
-    "the-working-definition-centers-zt-as-an-integrated",
-    "three-expanded-principles-api-integration-automation-and-business",
-    "top-down-business-aligned-and-bottom-up-traffic-aligned-design-approaches-are",
-    "traditional-enterprise-security-is-structurally-broken-not-merely",
-    "zero-trust-amplifies-existing-security-concepts-least-privilege",
     "zero-trust-enhances-legacy-applications-without-modification-its",
-    "zero-trust-is-a-misnomer-the-real-concept",
-    "zero-trust-is-a-strategy-not-a-product",
-    "zero-trust-never-ends-the-maturity-model-turns",
-    "zero-trust-originated-from-the-morris-worm-and",
     "zt-can-serve-as-a-catalyst-to-improve",
     "zt-five-fundamental-assertions",
-    "zt-is-a-journey-not-a-destination-success",
-    "zt-maturity-incremental",
-    "zt-network-assumptions",
-    "zt-no-implicit-trust-continuous-eval",
-    "zt-not-a-product-hybrid-journey",
-    "zt-tenets-aspirational",
-    "zt-three-guiding-principles",
-    "zt-uncertainty-minimization",
-    "zta-implementation-single-architecture-spectrum-deployment-approaches",
-    "zta-prerequisites-icam-cdm",
-    "zta-prevent-breach-limit-lateral-movement"
+    "zt-three-guiding-principles"
   ],
   "edge_type_breakdown": {
     "supports": 239,
@@ -204,29 +113,29 @@
   ],
   "edges": [
     {
-      "claim_a": "gb-ch4-6.6",
-      "claim_b": "gb-ch4-6.14",
+      "claim_a": "certificate-signing-is-a-trust-injection-point-that",
+      "claim_b": "group-authorization-is-the-highest-trust-mechanism-for-extremely",
       "edge_type": "supports",
       "rationale": "Multi-party authorization for certificate signing is a concrete, high-stakes application of group authorization as the highest-trust mechanism for sensitive operations.",
       "source_file": "c0.json"
     },
     {
-      "claim_a": "gb-ch3.3",
-      "claim_b": "gb-ch10.6",
+      "claim_a": "revoke-authorization-first-credentials-second",
+      "claim_b": "invalidation-is-a-hard-problem-in-computer-science",
       "edge_type": "supports",
       "rationale": "The operational rule 'revoke authorization first, credentials second' directly reinforces the architectural principle that ZT addresses invalidation through granular authorization rather than push-based credential revocation.",
       "source_file": "c0.json"
     },
     {
-      "claim_a": "gb-ch2.4",
-      "claim_b": "gb-ch10.6",
+      "claim_a": "least-privilege-in-zt-is-dynamic-multi-attribute-and",
+      "claim_b": "invalidation-is-a-hard-problem-in-computer-science",
       "edge_type": "depends_on",
       "rationale": "Dynamic, multi-attribute least privilege requires granular per-request authorization decisions as its enabling mechanism \u2014 the same granular authorization that Claim gb-ch10.6 identifies as ZT's approach to invalidation.",
       "source_file": "c0.json"
     },
     {
-      "claim_a": "gc-iam-policy.3",
-      "claim_b": "gb-ch2.4",
+      "claim_a": "the-software-defined-perimeter-architecture-delivers-zt-principles-through",
+      "claim_b": "least-privilege-in-zt-is-dynamic-multi-attribute-and",
       "edge_type": "supports",
       "rationale": "SDP delivers the architectural foundation for dynamic, device-bound least privilege: mTLS provides the device-binding dimension, and SPA enables dynamic per-request access control.",
       "source_file": "c0.json"
@@ -428,400 +337,400 @@
       "source_file": "c23.json"
     },
     {
-      "claim_a": "anssi-bsi.5",
-      "claim_b": "anssi-bsi.1",
+      "claim_a": "ai-zt-intersection-least",
+      "claim_b": "llm-systems-require-their-own-dedicated-zero",
       "edge_type": "supports",
       "rationale": "anssi-bsi.5 establishes that AI+ZT is the least-developed area with no existing standards coverage, which directly supports anssi-bsi.1's claim that LLM systems require dedicated ZT design principles.",
       "source_file": "c28.json"
     },
     {
-      "claim_a": "anssi-bsi.2",
-      "claim_b": "anssi-bsi.1",
+      "claim_a": "input-output-validation-gateway",
+      "claim_b": "llm-systems-require-their-own-dedicated-zero",
       "edge_type": "extends",
       "rationale": "anssi-bsi.2 details the input/output validation gateway principle, which is one of the six dedicated ZT principles asserted by anssi-bsi.1.",
       "source_file": "c28.json"
     },
     {
-      "claim_a": "anssi-bsi.3",
-      "claim_b": "anssi-bsi.1",
+      "claim_a": "session",
+      "claim_b": "llm-systems-require-their-own-dedicated-zero",
       "edge_type": "extends",
       "rationale": "anssi-bsi.3 details session-level memory isolation, which is one of the six dedicated ZT principles for LLM systems asserted by anssi-bsi.1.",
       "source_file": "c28.json"
     },
     {
-      "claim_a": "anssi-bsi.4",
-      "claim_b": "anssi-bsi.1",
+      "claim_a": "autonomous-agentic-operation-without-human-oversight-inadvisable",
+      "claim_b": "llm-systems-require-their-own-dedicated-zero",
       "edge_type": "extends",
       "rationale": "anssi-bsi.4 details the human-oversight requirement (Principle 2), which is one of the six dedicated ZT principles for LLM systems asserted by anssi-bsi.1.",
       "source_file": "c28.json"
     },
     {
-      "claim_a": "anssi-bsi.3",
-      "claim_b": "anssi-bsi.2",
+      "claim_a": "session",
+      "claim_b": "input-output-validation-gateway",
       "edge_type": "supports",
       "rationale": "anssi-bsi.3's session isolation requirement directly supports anssi-bsi.2's input/output validation gateway: proper session isolation prevents cross-session persistent Prompt Injection vectors, which is a prerequisite for effective prompt trustworthiness evaluation.",
       "source_file": "c28.json"
     },
     {
-      "claim_a": "finney-ch8-11.5",
-      "claim_b": "finney-ch8-11.7",
+      "claim_a": "security-awareness-training-is-a-protect-surface-apply",
+      "claim_b": "culture-change-requires-rituals-not-just-policies-the",
       "edge_type": "extends",
       "rationale": "Claim 11.5 takes the 'security minute' ritual concept from 11.7 and frames it within the ZT protect-surface methodology applied to people, operationalizing the culture-change ritual into a structured ZT governance approach.",
       "source_file": "c45.json"
     },
     {
-      "claim_a": "gc-ch1-3.8",
-      "claim_b": "gc-ch1-3.6",
+      "claim_a": "the-14-platform-requirements-operationalize-the-principles-into",
+      "claim_b": "three-expanded-principles-api-integration-automation-and-business",
       "edge_type": "extends",
       "rationale": "The 14 platform requirements (3.8) operationalize the expanded principles of API integration, automation, and business value delivery (3.6) into specific verifiable criteria, turning abstract principles into concrete governance benchmarks.",
       "source_file": "c45.json"
     },
     {
-      "claim_a": "nist207-ch6.3",
-      "claim_b": "gc-ch1-3.6",
+      "claim_a": "rmf-zta-changes-authorization-boundaries",
+      "claim_b": "three-expanded-principles-api-integration-automation-and-business",
       "edge_type": "depends_on",
       "rationale": "The per-resource, per-session risk acceptance model encoded algorithmically in the Policy Engine (6.3) depends on API integration and automation (3.6) to function at enterprise scale; without these expanded principles, algorithmic risk acceptance is impractical.",
       "source_file": "c45.json"
     },
     {
-      "claim_a": "gc-ch1-3.8",
-      "claim_b": "nist207-ch6.3",
+      "claim_a": "the-14-platform-requirements-operationalize-the-principles-into",
+      "claim_b": "rmf-zta-changes-authorization-boundaries",
       "edge_type": "supports",
       "rationale": "The 14 platform requirements (3.8) provide the verifiable operational criteria \u2014 encryption, access controls, device posture, continuous authorization \u2014 that enable the per-resource, per-session risk acceptance model described in 6.3.",
       "source_file": "c45.json"
     },
     {
-      "claim_a": "dod-ra-cap.4",
-      "claim_b": "gb-ch3.1",
+      "claim_a": "npe-person-identities-independent-confidence",
+      "claim_b": "the-network-agent-is-the-marriage-of-user",
       "edge_type": "supports",
       "rationale": "Independent confidence development for user and device provides the evidentiary mechanism that underpins the network agent construct as the marriage of user, device, and application.",
       "source_file": "c52.json"
     },
     {
-      "claim_a": "gb-ch3.1",
-      "claim_b": "gc-iam-policy.6",
+      "claim_a": "the-network-agent-is-the-marriage-of-user",
+      "claim_b": "the-three-layer-authorization-model-reveals-why-zt-is",
       "edge_type": "supports",
       "rationale": "The network agent defines the atomic unit of authorization (user+device+app) that the three-layer model enforces across application, account, and network levels.",
       "source_file": "c52.json"
     },
     {
-      "claim_a": "cisa-ztmm-id.7",
-      "claim_b": "gc-iam-policy.6",
+      "claim_a": "identity-cross-cutting-capabilities",
+      "claim_b": "the-three-layer-authorization-model-reveals-why-zt-is",
       "edge_type": "supports",
       "rationale": "Cross-cutting capabilities (visibility & analytics, automation & orchestration, governance) operationalize enforcement across the three authorization layers.",
       "source_file": "c52.json"
     },
     {
-      "claim_a": "gc-iam-policy.2",
-      "claim_b": "gc-iam-policy.6",
+      "claim_a": "server-to-server-zt-is-a-fundamentally-different-problem-than",
+      "claim_b": "the-three-layer-authorization-model-reveals-why-zt-is",
       "edge_type": "extends",
       "rationale": "Extends the three-layer model by specifying that for server-to-server contexts, the identity foundation shifts from IAM to CMDB while still enforcing at the network layer.",
       "source_file": "c52.json"
     },
     {
-      "claim_a": "cisa-ztmm-id.7",
-      "claim_b": "dod-ra-cap.4",
+      "claim_a": "identity-cross-cutting-capabilities",
+      "claim_b": "npe-person-identities-independent-confidence",
       "edge_type": "supports",
       "rationale": "Visibility & analytics feeds the independent confidence tracking; automation & orchestration enables confidence aggregation at policy enforcement time.",
       "source_file": "c52.json"
     },
     {
-      "claim_a": "cisa-ztmm-id.8",
-      "claim_b": "nsa-user.6",
+      "claim_a": "cisa-nsa-identity-complementary",
+      "claim_b": "nsa-cisa-identity-frameworks-complementary",
       "edge_type": "extends",
       "rationale": "Both assert NSA/CISA frameworks are complementary (what-to-measure vs how-to-implement); the cisa claim adds the conclusion that together they form 'the most complete federal guidance for identity maturity in a ZTA context.'",
       "source_file": "c54.json"
     },
     {
-      "claim_a": "nstac.4",
-      "claim_b": "nstac.1",
+      "claim_a": "federal-government-needs-two-dedicated-zt-program",
+      "claim_b": "federal-government-current",
       "edge_type": "depends_on",
       "rationale": "nstac.1 establishes the problem (current 2\u00bd-year strategy is insufficient for long-term transformation without institutionalization); nstac.4 proposes the institutional remedy (two dedicated ZT Program Offices) whose rationale depends on that insufficiency premise.",
       "source_file": "c54.json"
     },
     {
-      "claim_a": "nstac.2",
-      "claim_b": "nstac.1",
+      "claim_a": "industry-best-practices",
+      "claim_b": "federal-government-current",
       "edge_type": "supports",
       "rationale": "nstac.1 argues the current strategy over-focuses on near-term tactical goals; nstac.2 proposes industry best-practice accountability metrics (Five-Step Process, Kipling Method) as a remedy for that tactical-only mindset.",
       "source_file": "c54.json"
     },
     {
-      "claim_a": "nstac.3",
-      "claim_b": "nstac.1",
+      "claim_a": "governance-critical-gap",
+      "claim_b": "federal-government-current",
       "edge_type": "supports",
       "rationale": "nstac.1 says ZT will fail without institutionalization; nstac.3 specifies governance integration (FISMA, CDM, NIST 800-53, procurement) as THE critical gap \u2014 i.e., the primary institutionalization failure mode behind nstac.1's warning.",
       "source_file": "c54.json"
     },
     {
-      "claim_a": "nstac.5",
-      "claim_b": "nstac.4",
+      "claim_a": "internet",
+      "claim_b": "federal-government-needs-two-dedicated-zt-program",
       "edge_type": "supports",
       "rationale": "nstac.4 proposes a CISA civilian ZT Program Office; nstac.5 identifies internet-accessible asset discovery as a foundational prerequisite that CISA should provide as a shared service \u2014 a concrete functional example of what the proposed office would deliver.",
       "source_file": "c54.json"
     },
     {
-      "claim_a": "nist207-ch6.5",
-      "claim_b": "nstac.3",
+      "claim_a": "ficam-identity-substrate-zta",
+      "claim_b": "governance-critical-gap",
       "edge_type": "supports",
       "rationale": "nist207-ch6.5 establishes that ICAM/identity governance is the substrate on which ZTA rests (dependency: ICAM maturity \u2192 policy engine \u2192 enforcement); nstac.3's claim that governance is the critical gap is strengthened by this foundational dependency.",
       "source_file": "c54.json"
     },
     {
-      "claim_a": "nstac.7",
-      "claim_b": "nstac.3",
+      "claim_a": "technology-interoperability-hidden-risk",
+      "claim_b": "governance-critical-gap",
       "edge_type": "supports",
       "rationale": "nstac.7 warns that absent component-level interface standards, ZT creates vendor lock-in and management complexity; this exemplifies a governance-integration failure \u2014 exactly the gap nstac.3 argues must be closed by embedding ZT into existing structures and standards.",
       "source_file": "c54.json"
     },
     {
-      "claim_a": "nist-1800-35.3",
-      "claim_b": "nist-1800-35.2",
+      "claim_a": "eig-crawl-phase-proved-legacy-icam-solutions",
+      "claim_b": "19-builds-demonstrate-zta-implemented-diverse-vendor",
       "edge_type": "supports",
       "rationale": "",
       "source_file": "c60.json"
     },
     {
-      "claim_a": "nist-1800-35.3",
-      "claim_b": "nist-1800-35.1",
+      "claim_a": "eig-crawl-phase-proved-legacy-icam-solutions",
+      "claim_b": "zta-implementation-single-architecture-spectrum-deployment-approaches",
       "edge_type": "supports",
       "rationale": "",
       "source_file": "c60.json"
     },
     {
-      "claim_a": "nist-1800-35.2",
-      "claim_b": "nist-1800-35.1",
+      "claim_a": "19-builds-demonstrate-zta-implemented-diverse-vendor",
+      "claim_b": "zta-implementation-single-architecture-spectrum-deployment-approaches",
       "edge_type": "extends",
       "rationale": "",
       "source_file": "c60.json"
     },
     {
-      "claim_a": "finney-ch4-7.1",
-      "claim_b": "gc-scenarios.1",
+      "claim_a": "the-first-protect-surface-must-be-what-the",
+      "claim_b": "seven-zt-scenarios-provide-a-practical-non-exhaustive-framework",
       "edge_type": "extends",
       "rationale": "",
       "source_file": "c60.json"
     },
     {
-      "claim_a": "gb-ch9.7",
-      "claim_b": "nist-1800-35.1",
+      "claim_a": "the-two-case-studies-demonstrate-zt-is-cross-domain",
+      "claim_b": "zta-implementation-single-architecture-spectrum-deployment-approaches",
       "edge_type": "supports",
       "rationale": "",
       "source_file": "c60.json"
     },
     {
-      "claim_a": "cisa-ztmm-ov.8",
-      "claim_b": "cisa-ztmm-ov.6",
+      "claim_a": "cross-cutting-capabilities-prevent-silos",
+      "claim_b": "five-pillar-comprehensive-decomposition",
       "edge_type": "supports",
       "rationale": "Cross-cutting capabilities are the mechanism that prevents the five-pillar decomposition from becoming siloed, directly supporting the claim that the pillar structure is comprehensive and independently-assessable.",
       "source_file": "c7.json"
     },
     {
-      "claim_a": "cisa-ztmm-dnad.24",
-      "claim_b": "cisa-ztmm-ov.8",
+      "claim_a": "cross-cutting-capabilities-convergence",
+      "claim_b": "cross-cutting-capabilities-prevent-silos",
       "edge_type": "extends",
       "rationale": "Takes the cross-cutting unification concept from ov.8 and adds the maturity dimension \u2014 specifying how integration deepens from Traditional to Optimal stages with centralized dynamic monitoring, infrastructure-as-code, and continuous enforcement.",
       "source_file": "c7.json"
     },
     {
-      "claim_a": "cisa-ztmm-dnad.24",
-      "claim_b": "cisa-ztmm-ov.6",
+      "claim_a": "cross-cutting-capabilities-convergence",
+      "claim_b": "five-pillar-comprehensive-decomposition",
       "edge_type": "depends_on",
       "rationale": "The cross-cutting capabilities described in dnad.24 operate 'across pillars' \u2014 the five-pillar decomposition established in ov.6 is a prerequisite foundation for this cross-pillar integration concept.",
       "source_file": "c7.json"
     },
     {
-      "claim_a": "dod-ra-ov.5",
-      "claim_b": "cisa-ztmm-ov.6",
+      "claim_a": "dod-seven-pillars-identical-cisa",
+      "claim_b": "five-pillar-comprehensive-decomposition",
       "edge_type": "supports",
       "rationale": "DoD independently converged on the identical pillar structure (seven pillars mapping to CISA's five), corroborating that the five-pillar decomposition is comprehensive and generalizable beyond its original CISA context.",
       "source_file": "c7.json"
     },
     {
-      "claim_a": "dod-ra-cap.6",
-      "claim_b": "gc-soc-data-iot.1",
+      "claim_a": "analytics-ai-unified-pipeline-zt",
+      "claim_b": "siem-and-soar-integration-with-zt-is-a",
       "edge_type": "extends",
       "rationale": "The unified pipeline architecture (Sensors\u2192SIEM\u2192SOAR+AI\u2192ZT Controller\u2192ML/AI) is the concrete technical realization of the 'SIEM and SOAR integration with ZT is a force multiplier' concept.",
       "source_file": "c72.json"
     },
     {
-      "claim_a": "gc-soc-data-iot.1",
-      "claim_b": "gc-soc-data-iot.2",
+      "claim_a": "siem-and-soar-integration-with-zt-is-a",
+      "claim_b": "soc-integration-should-be-pursued-early-in-the",
       "edge_type": "supports",
       "rationale": "The force-multiplier value proposition of SIEM/SOAR+ZT integration provides the primary rationale for why SOC integration should be pursued early rather than deferred.",
       "source_file": "c72.json"
     },
     {
-      "claim_a": "finney-ch4-7.9",
-      "claim_b": "gc-soc-data-iot.2",
+      "claim_a": "the-soc-is-itself-a-protect-surface-and",
+      "claim_b": "soc-integration-should-be-pursued-early-in-the",
       "edge_type": "supports",
       "rationale": "The insight that the SOC itself is a protect surface that most organizations neglect adds security urgency to the argument for early SOC integration.",
       "source_file": "c72.json"
     },
     {
-      "claim_a": "finney-ch4-7.10",
-      "claim_b": "gc-soc-data-iot.2",
+      "claim_a": "the-socs-value-is-measured-by-false-positive",
+      "claim_b": "soc-integration-should-be-pursued-early-in-the",
       "edge_type": "supports",
       "rationale": "Measuring SOC value by false positive reduction and dwell time (rather than ticket counts) provides concrete metrics to justify early investment in SOC integration.",
       "source_file": "c72.json"
     },
     {
-      "claim_a": "finney-ch8-11.3",
-      "claim_b": "dod-ra-cap.6",
+      "claim_a": "casb-sasesdp-api-security-form-the-cloud-visibility",
+      "claim_b": "analytics-ai-unified-pipeline-zt",
       "edge_type": "supports",
       "rationale": "The cloud visibility and control triad (CASB, SASE/SDP, API security) serves as the 'Sensors' input layer that feeds into the unified analytics pipeline.",
       "source_file": "c72.json"
     },
     {
-      "claim_a": "gc-soc-data-iot.1",
-      "claim_b": "finney-ch4-7.10",
+      "claim_a": "siem-and-soar-integration-with-zt-is-a",
+      "claim_b": "the-socs-value-is-measured-by-false-positive",
       "edge_type": "supports",
       "rationale": "ZT integration enriches SIEM/SOAR logs with identity context and enables bidirectional policy automation, directly enabling the false positive reduction that defines SOC value.",
       "source_file": "c72.json"
     },
     {
-      "claim_a": "finney-ch8-11.3",
-      "claim_b": "gc-soc-data-iot.1",
+      "claim_a": "casb-sasesdp-api-security-form-the-cloud-visibility",
+      "claim_b": "siem-and-soar-integration-with-zt-is-a",
       "edge_type": "supports",
       "rationale": "The CASB+SASE/SDP+API security triad provides the enriched cloud visibility data that SIEM/SOAR consume, making the force multiplier effect possible.",
       "source_file": "c72.json"
     },
     {
-      "claim_a": "go-ch6-8.5",
-      "claim_b": "gc-net-access.1",
+      "claim_a": "the-firewall-is-enough-belief-is-mathematically-disproven-a-network",
+      "claim_b": "firewalls-persist-under-zero-trust-but-their-role",
       "edge_type": "supports",
       "rationale": "",
       "source_file": "c73.json"
     },
     {
-      "claim_a": "go-ch6-8.5",
-      "claim_b": "gc-net-access.7",
+      "claim_a": "the-firewall-is-enough-belief-is-mathematically-disproven-a-network",
+      "claim_b": "ngfws-are-neither-sufficient-as-a-zt-platform",
       "edge_type": "supports",
       "rationale": "",
       "source_file": "c73.json"
     },
     {
-      "claim_a": "gc-net-access.7",
-      "claim_b": "gc-net-access.1",
+      "claim_a": "ngfws-are-neither-sufficient-as-a-zt-platform",
+      "claim_b": "firewalls-persist-under-zero-trust-but-their-role",
       "edge_type": "extends",
       "rationale": "",
       "source_file": "c73.json"
     },
     {
-      "claim_a": "nist207-ch3.8",
-      "claim_b": "nist207-ch3.7",
+      "claim_a": "ten-network-requirements-zta",
+      "claim_b": "nist-control-data-plane-separation",
       "edge_type": "depends_on",
       "rationale": "",
       "source_file": "c73.json"
     },
     {
-      "claim_a": "nist207-ch3.8",
-      "claim_b": "nist207-ch2.5",
+      "claim_a": "ten-network-requirements-zta",
+      "claim_b": "zt-network-assumptions",
       "edge_type": "depends_on",
       "rationale": "",
       "source_file": "c73.json"
     },
     {
-      "claim_a": "nist207-ch2.5",
-      "claim_b": "nist207-ch3.7",
+      "claim_a": "zt-network-assumptions",
+      "claim_b": "nist-control-data-plane-separation",
       "edge_type": "supports",
       "rationale": "",
       "source_file": "c73.json"
     },
     {
-      "claim_a": "nist207-ch2.5",
-      "claim_b": "gc-net-access.1",
+      "claim_a": "zt-network-assumptions",
+      "claim_b": "firewalls-persist-under-zero-trust-but-their-role",
       "edge_type": "supports",
       "rationale": "",
       "source_file": "c73.json"
     },
     {
-      "claim_a": "nsa-network.5",
-      "claim_b": "nist207-ch3.7",
+      "claim_a": "sdn-enables-scalable-micro-segmentation",
+      "claim_b": "nist-control-data-plane-separation",
       "edge_type": "extends",
       "rationale": "",
       "source_file": "c73.json"
     },
     {
-      "claim_a": "gc-cloud.3",
-      "claim_b": "nist207-ch3.7",
+      "claim_a": "service-meshes-are-self-contained-zero-trust-microsegmentation-systems",
+      "claim_b": "nist-control-data-plane-separation",
       "edge_type": "extends",
       "rationale": "",
       "source_file": "c73.json"
     },
     {
-      "claim_a": "gc-cloud.3",
-      "claim_b": "nsa-network.5",
+      "claim_a": "service-meshes-are-self-contained-zero-trust-microsegmentation-systems",
+      "claim_b": "sdn-enables-scalable-micro-segmentation",
       "edge_type": "extends",
       "rationale": "",
       "source_file": "c73.json"
     },
     {
-      "claim_a": "gc-ch1-3.14",
-      "claim_b": "gc-iam-policy.9",
+      "claim_a": "the-policy-structure-of-subject-criteria-action-target",
+      "claim_b": "the-four-component-policy-model-subject-action-target-condition",
       "edge_type": "supports",
       "rationale": "Both articulate the same Subject-Action-Target-Condition model; Claim gc-ch1-3.14 reinforces gc-iam-policy.9 with a concrete Billing department example, confirming the model as a universal template.",
       "source_file": "c79.json"
     },
     {
-      "claim_a": "gc-iam-policy.10",
-      "claim_b": "gc-iam-policy.9",
+      "claim_a": "dynamic-tag-based-targets-are-the-policy-models-most",
+      "claim_b": "the-four-component-policy-model-subject-action-target-condition",
       "edge_type": "extends",
       "rationale": "Tag-based targets are a dynamic, business-aligned implementation of the Target component in the four-component model, binding security enforcement to DevOps metadata rather than static identifiers.",
       "source_file": "c79.json"
     },
     {
-      "claim_a": "gc-iam-policy.10",
-      "claim_b": "gb-ch4-6.3",
+      "claim_a": "dynamic-tag-based-targets-are-the-policy-models-most",
+      "claim_b": "policy-should-be-defined-in-terms-of-logical",
       "edge_type": "extends",
       "rationale": "Tags (department=Marketing, stage=test) are a concrete form of logical components \u2014 they replace network addressing with business/DevOps metadata that follows workloads automatically.",
       "source_file": "c79.json"
     },
     {
-      "claim_a": "gb-ch4-6.3",
-      "claim_b": "gc-iam-policy.9",
+      "claim_a": "policy-should-be-defined-in-terms-of-logical",
+      "claim_b": "the-four-component-policy-model-subject-action-target-condition",
       "edge_type": "extends",
       "rationale": "Specifying that policy components must be logical (not IP-addressed) extends the abstract four-component model with a critical implementation constraint: Subjects and Targets should be logical identities, not network artifacts.",
       "source_file": "c79.json"
     },
     {
-      "claim_a": "gb-ch4-6.3",
-      "claim_b": "finney-ch1-3.8",
+      "claim_a": "policy-should-be-defined-in-terms-of-logical",
+      "claim_b": "the-kipling-method-replaces-network-centric-policy-with-business-context",
       "edge_type": "supports",
       "rationale": "Both reject network-centric policy; gb-ch4-6.3 provides the logical-components principle that finney-ch1-3.8's Kipling Method (Who instead of IP) operationalizes with business-context role groups.",
       "source_file": "c79.json"
     },
     {
-      "claim_a": "go-ch6-8.9",
-      "claim_b": "gc-iam-policy.9",
+      "claim_a": "the-policy-decision-matrix-mapping-source-entities-to",
+      "claim_b": "the-four-component-policy-model-subject-action-target-condition",
       "edge_type": "extends",
       "rationale": "The policy decision matrix is a concrete planning artifact that operationalizes the abstract four-component model into per-cell source\u2192destination decisions with permit/deny, port/protocol, and directionality.",
       "source_file": "c79.json"
     },
     {
-      "claim_a": "go-ch3-5.4",
-      "claim_b": "go-ch6-8.8",
+      "claim_a": "policy-creation-is-data-driven-discovery-before-enforcement-log",
+      "claim_b": "top-down-business-aligned-and-bottom-up-traffic-aligned-design-approaches-are",
       "edge_type": "supports",
       "rationale": "Discovery-before-enforcement and log-before-block are the bottom-up data collection practices that validate and inform the top-down business-aligned design, making the complementary approach actionable.",
       "source_file": "c79.json"
     },
     {
-      "claim_a": "go-ch3-5.4",
-      "claim_b": "dod-ra-cap.7",
+      "claim_a": "policy-creation-is-data-driven-discovery-before-enforcement-log",
+      "claim_b": "orchestration-policy-four-layer-hierarchy",
       "edge_type": "supports",
       "rationale": "Discovery-before-enforcement provides the traffic/identity data that feeds the dynamic adaptive policy feedback loop, enabling ZT policy to improve over time rather than remaining static.",
       "source_file": "c79.json"
     },
     {
-      "claim_a": "dod-ra-cap.7",
-      "claim_b": "go-ch6-8.9",
+      "claim_a": "orchestration-policy-four-layer-hierarchy",
+      "claim_b": "the-policy-decision-matrix-mapping-source-entities-to",
       "edge_type": "extends",
       "rationale": "The four-layer orchestration hierarchy (Global SDE \u2192 CDO \u2192 Policy Controller \u2192 PEPs) distributes and enforces the policy decision matrix across enforcement points, resolving siloed conflicts.",
       "source_file": "c79.json"
     },
     {
-      "claim_a": "dod-ra-cap.7",
-      "claim_b": "go-ch6-8.8",
+      "claim_a": "orchestration-policy-four-layer-hierarchy",
+      "claim_b": "top-down-business-aligned-and-bottom-up-traffic-aligned-design-approaches-are",
       "edge_type": "extends",
       "rationale": "Centralized orchestration through a four-layer hierarchy operationalizes the complementary top-down/bottom-up approach \u2014 the hierarchy resolves the siloed conflicts that the complementary design addresses.",
       "source_file": "c79.json"
@@ -2192,113 +2101,113 @@
       "source_file": "merged-45.json"
     },
     {
-      "claim_a": "finney-ch1-3.6",
-      "claim_b": "finney-ch4-7.3",
+      "claim_a": "the-four-design-principles-and-five-step-methodology-make",
+      "claim_b": "nist-sp-800-207-provides-the-architectural-tenets-but",
       "edge_type": "supports",
       "rationale": "Repeatability of the methodology is evidence that Kindervag provides actionable strategy.",
       "source_file": "merged-49.json"
     },
     {
-      "claim_a": "finney-ch1-3.10",
-      "claim_b": "nist207-ch1.2",
+      "claim_a": "the-protect-surface-shifts-controls-from-the-perimeter",
+      "claim_b": "zt-no-implicit-trust-continuous-eval",
       "edge_type": "supports",
       "rationale": "The protect surface (shifting controls from perimeter to asset) is the architectural mechanism that eliminates implicit trust.",
       "source_file": "merged-49.json"
     },
     {
-      "claim_a": "cisa-ztmm-ov.2",
-      "claim_b": "gc-ch1-3.1",
+      "claim_a": "nation-state-incidents-perimeter-obsolete",
+      "claim_b": "traditional-enterprise-security-is-structurally-broken-not-merely",
       "edge_type": "supports",
       "rationale": "Nation-state incidents (SolarWinds, Exchange) are the empirical evidence that perimeter-based security is structurally broken.",
       "source_file": "merged-49.json"
     },
     {
-      "claim_a": "go-intro.1",
-      "claim_b": "finney-ch1-3.3",
+      "claim_a": "zero-trust-originated-from-the-morris-worm-and",
+      "claim_b": "zero-trust-is-a-strategy-not-a-product",
       "edge_type": "supports",
       "rationale": "Historical origin in Morris Worm and academic thesis refutes the claim that ZT is vendor marketing.",
       "source_file": "merged-49.json"
     },
     {
-      "claim_a": "nist207-ch1.4",
-      "claim_b": "gc-scenarios.5",
+      "claim_a": "zt-not-a-product-hybrid-journey",
+      "claim_b": "zt-is-a-journey-not-a-destination-success",
       "edge_type": "supports",
       "rationale": "NIST's articulation that ZT adoption is an incremental journey supports the 'journey not destination' framing.",
       "source_file": "merged-49.json"
     },
     {
-      "claim_a": "nist207-ch1.4",
-      "claim_b": "finney-ch1-3.3",
+      "claim_a": "zt-not-a-product-hybrid-journey",
+      "claim_b": "zero-trust-is-a-strategy-not-a-product",
       "edge_type": "supports",
       "rationale": "NIST's definition of ZT as an architectural paradigm (not a product) independently supports the strategy-not-product claim.",
       "source_file": "merged-49.json"
     },
     {
-      "claim_a": "nist207-ch1.2",
-      "claim_b": "nist207-ch1.3",
+      "claim_a": "zt-no-implicit-trust-continuous-eval",
+      "claim_b": "zta-prevent-breach-limit-lateral-movement",
       "edge_type": "supports",
       "rationale": "The operational mechanism (assume breach, continuous auth) is what enables the design goal (prevent breaches, limit lateral movement).",
       "source_file": "merged-49.json"
     },
     {
-      "claim_a": "gc-ch1-3.2",
-      "claim_b": "nist207-ch1.2",
+      "claim_a": "zero-trust-is-a-misnomer-the-real-concept",
+      "claim_b": "zt-no-implicit-trust-continuous-eval",
       "edge_type": "supports",
       "rationale": "The semantic clarification that ZT means 'zero implicit trust' aligns directly with NIST's operational definition of eliminating implicit trust.",
       "source_file": "merged-49.json"
     },
     {
-      "claim_a": "gc-ch1-3.5",
-      "claim_b": "nist207-ch1.2",
+      "claim_a": "the-three-core-principles-secure-all-resources-regardless",
+      "claim_b": "zt-no-implicit-trust-continuous-eval",
       "edge_type": "supports",
       "rationale": "The three core principles (secure all resources, least privilege, inspect/log all traffic) are the universal operational instantiation of assume-breach/continuous-auth.",
       "source_file": "merged-49.json"
     },
     {
-      "claim_a": "finney-ch1-3.9",
-      "claim_b": "finney-ch1-3.10",
+      "claim_a": "physical-security-is-the-perfect-analogy-for-zero",
+      "claim_b": "the-protect-surface-shifts-controls-from-the-perimeter",
       "edge_type": "supports",
       "rationale": "The physical security analogy (layered zones, no implicit trust) directly illustrates the protect surface concept.",
       "source_file": "merged-49.json"
     },
     {
-      "claim_a": "nist207-ch2.2",
-      "claim_b": "nist207-ch1.2",
+      "claim_a": "zt-uncertainty-minimization",
+      "claim_b": "zt-no-implicit-trust-continuous-eval",
       "edge_type": "extends",
       "rationale": "Uncertainty minimization reframes assume-breach/continuous-auth in more precise, measurable terms.",
       "source_file": "merged-49.json"
     },
     {
-      "claim_a": "dod-ra-ov.4",
-      "claim_b": "finney-ch4-7.3",
+      "claim_a": "dod-five-tenets-threat-operational",
+      "claim_b": "nist-sp-800-207-provides-the-architectural-tenets-but",
       "edge_type": "extends",
       "rationale": "Adds the DoD-vs-NIST comparison dimension to the observation that NIST's tenets are architectural.",
       "source_file": "merged-49.json"
     },
     {
-      "claim_a": "nist207-ch2.3",
-      "claim_b": "dod-ra-ov.4",
+      "claim_a": "zt-tenets-aspirational",
+      "claim_b": "dod-five-tenets-threat-operational",
       "edge_type": "extends",
       "rationale": "Adds the nuance that NIST's architectural tenets are explicitly aspirational, not mandatory requirements.",
       "source_file": "merged-49.json"
     },
     {
-      "claim_a": "gc-ch1-3.7",
-      "claim_b": "finney-ch1-3.3",
+      "claim_a": "the-working-definition-centers-zt-as-an-integrated",
+      "claim_b": "zero-trust-is-a-strategy-not-a-product",
       "edge_type": "extends",
       "rationale": "'Integrated security platform' is a specific, elaborated articulation of the general claim that ZT is a strategy.",
       "source_file": "merged-49.json"
     },
     {
-      "claim_a": "gc-ch1-3.4",
-      "claim_b": "gc-ch1-3.7",
+      "claim_a": "zero-trust-amplifies-existing-security-concepts-least-privilege",
+      "claim_b": "the-working-definition-centers-zt-as-an-integrated",
       "edge_type": "extends",
       "rationale": "Explains the mechanism by which ZT becomes an integrated platform: amplifying and integrating existing concepts (least privilege, RBAC).",
       "source_file": "merged-49.json"
     },
     {
-      "claim_a": "gc-ch1-3.4",
-      "claim_b": "gc-ch1-3.5",
+      "claim_a": "zero-trust-amplifies-existing-security-concepts-least-privilege",
+      "claim_b": "the-three-core-principles-secure-all-resources-regardless",
       "edge_type": "extends",
       "rationale": "Clarifies what is transformative about the three core principles: they aren't just repackaging but amplification into a holistic automated platform.",
       "source_file": "merged-49.json"
@@ -3249,64 +3158,64 @@
       "source_file": "merged-55.json"
     },
     {
-      "claim_a": "nist207-ch6.2",
-      "claim_b": "nist207-ch6.10",
+      "claim_a": "zta-prerequisites-icam-cdm",
+      "claim_b": "federal-program-interactions-synthesis",
       "edge_type": "extends",
       "rationale": "nist207-ch6.2 drills into one of the seven program interactions from nist207-ch6.10 \u2014 that ICAM and CDM are hard prerequisites \u2014 and provides specific dependency chains (ICAM\u2192subject attributes\u2192Policy Engine\u2192ZTA; CDM\u2192asset visibility\u2192device posture\u2192PEP) not present in the synthesis claim.",
       "source_file": "merged-56.json"
     },
     {
-      "claim_a": "cisa-ztmm-dnad.23",
-      "claim_b": "cisa-ztmm-ov.7",
+      "claim_a": "cross-pillar-maturity-trajectory",
+      "claim_b": "four-maturity-levels-progressive-capability",
       "edge_type": "extends",
       "rationale": "cisa-ztmm-ov.7 defines the four maturity levels as progressive capability. cisa-ztmm-dnad.23 extends that by observing that all four pillars share this identical trajectory and characterizing the underlying shift from manual/static to automated/continuous across all functions.",
       "source_file": "merged-56.json"
     },
     {
-      "claim_a": "cisa-ztmm-ov.7",
-      "claim_b": "nsa-embrace.4",
+      "claim_a": "four-maturity-levels-progressive-capability",
+      "claim_b": "zt-maturity-incremental",
       "edge_type": "supports",
       "rationale": "nsa-embrace.4 claims ZT maturity is incremental, not binary. cisa-ztmm-ov.7 supports this by providing the concrete four-level maturity model (Traditional\u2192Initial\u2192Advanced\u2192Optimal) that instantiates incremental progression. The evidence in nsa-embrace.4 explicitly notes NSA's model was the template for CISA's.",
       "source_file": "merged-56.json"
     },
     {
-      "claim_a": "cisa-ztmm-dnad.23",
-      "claim_b": "nsa-embrace.4",
+      "claim_a": "cross-pillar-maturity-trajectory",
+      "claim_b": "zt-maturity-incremental",
       "edge_type": "supports",
       "rationale": "cisa-ztmm-dnad.23 provides the cross-pillar evidence that the same incremental trajectory (Traditional\u2192Initial\u2192Advanced\u2192Optimal) applies uniformly, further supporting the claim that maturity is incremental, not binary.",
       "source_file": "merged-56.json"
     },
     {
-      "claim_a": "nsa-embrace.4",
-      "claim_b": "finney-ch8-11.11",
+      "claim_a": "zt-maturity-incremental",
+      "claim_b": "zero-trust-never-ends-the-maturity-model-turns",
       "edge_type": "supports",
       "rationale": "finney-ch8-11.11 claims ZT never ends and becomes a multi-year strategic journey. nsa-embrace.4's claim that maturity is incremental (not binary) provides the foundational mechanism: because maturity progresses through stages rather than flipping a switch, the journey is inherently long-running.",
       "source_file": "merged-56.json"
     },
     {
-      "claim_a": "cisa-ztmm-ov.7",
-      "claim_b": "finney-ch8-11.11",
+      "claim_a": "four-maturity-levels-progressive-capability",
+      "claim_b": "zero-trust-never-ends-the-maturity-model-turns",
       "edge_type": "supports",
       "rationale": "The four progressive maturity levels (Traditional\u2192Initial\u2192Advanced\u2192Optimal) provide the scaffolding that turns a short-term project into a multi-year strategic journey, directly supporting the never-ending nature of ZT.",
       "source_file": "merged-56.json"
     },
     {
-      "claim_a": "cisa-ztmm-dnad.23",
-      "claim_b": "finney-ch8-11.11",
+      "claim_a": "cross-pillar-maturity-trajectory",
+      "claim_b": "zero-trust-never-ends-the-maturity-model-turns",
       "edge_type": "supports",
       "rationale": "The observation that all four pillars share the same multi-stage trajectory reinforces why ZT becomes a multi-year journey \u2014 every pillar must progress through each level, making the effort inherently long-term.",
       "source_file": "merged-56.json"
     },
     {
-      "claim_a": "gc-scenarios.3",
-      "claim_b": "finney-ch1-3.4",
+      "claim_a": "five-business-value-drivers-not-security-alone-justify",
+      "claim_b": "executive-sponsorship-and-crisis-create-the-window-for",
       "edge_type": "extends",
       "rationale": "finney-ch1-3.4 identifies executive sponsorship and crisis as the adoption trigger (the window). gc-scenarios.3 extends this by articulating five specific business value drivers \u2014 security, audit/compliance, customer integration, operational efficiency, revenue enablement \u2014 that provide durable justification for ZT investment beyond the initial crisis window.",
       "source_file": "merged-56.json"
     },
     {
-      "claim_a": "finney-ch4-7.6",
-      "claim_b": "nist207-ch6.2",
+      "claim_a": "identity-governance-needs-a-cross-functional-stakeholder-group-and",
+      "claim_b": "zta-prerequisites-icam-cdm",
       "edge_type": "supports",
       "rationale": "nist207-ch6.2 establishes that mature ICAM is a hard prerequisite for ZTA. finney-ch4-7.6 supports this by describing a concrete governance approach \u2014 cross-functional stakeholder groups (CISO, Legal, Compliance, HR, etc.) and leveraging existing GDPR/privacy assessments \u2014 that organizations can use to build the ICAM maturity ZTA requires.",
       "source_file": "merged-56.json"

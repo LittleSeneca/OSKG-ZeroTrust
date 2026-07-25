@@ -15,6 +15,7 @@ from collections import Counter
 
 EDGES_DIR = os.path.expanduser("~/Projects/Personal/OSKG-ZeroTrust/scripts/phase3_edges")
 OUT_PATH = os.path.expanduser("~/Projects/Personal/OSKG-ZeroTrust/scripts/phase3_edge_inventory.json")
+CLAIMS_DIR = os.path.expanduser("~/Projects/Personal/OSKG-ZeroTrust/notes/claims")
 
 
 def normalize_edge(edge):
@@ -59,7 +60,48 @@ def normalize_type(et):
     return mapping.get(et, et)
 
 
+def load_slug_map(claims_dir):
+    """Build claim_id → slug lookup from all claim files."""
+    import re
+    slug_map = {}
+    for fname in os.listdir(claims_dir):
+        if not fname.endswith('.md'):
+            continue
+        slug = fname[:-3]
+        text = open(os.path.join(claims_dir, fname)).read()
+        match = re.match(r'^---\s*\n(.*?)\n---', text, re.DOTALL)
+        if not match:
+            continue
+        fm = match.group(1)
+        for line in fm.split('\n'):
+            kv = re.match(r'^claim_id:\s*"?(.*?)"?\s*$', line)
+            if kv:
+                cid = kv.group(1).strip().strip('"')
+                slug_map[cid] = slug
+                break
+    return slug_map
+
+
+def resolve_slug(ref, slug_map, slug_lookup):
+    """Resolve a claim reference to a slug. Tries: exact slug match, claim_id→slug map, claim_id as prefix."""
+    if ref in slug_lookup:
+        return ref
+    if ref in slug_map:
+        return slug_map[ref]
+    # Try prefix match (e.g. 'gb-ch4-6' matching 'gb-ch4-6.14')
+    for cid, slug in slug_map.items():
+        if cid.startswith(ref) or ref.startswith(cid):
+            return slug
+    return ref  # Give up, keep original
+
 def main():
+    # Build slug lookup
+    slug_map = load_slug_map(CLAIMS_DIR)
+    all_slugs_on_disk = set()
+    for fname in os.listdir(CLAIMS_DIR):
+        if fname.endswith('.md'):
+            all_slugs_on_disk.add(fname[:-3])
+
     all_edges = []
     files_read = 0
     errors = []
@@ -109,6 +151,19 @@ def main():
         unique.append(e)
 
     print(f"After dedup: {len(unique)} unique edges ({dupes} duplicates removed)")
+
+    # Resolve claim_id references to slugs
+    unresolved = 0
+    for e in unique:
+        old_a, old_b = e['claim_a'], e['claim_b']
+        e['claim_a'] = resolve_slug(e['claim_a'], slug_map, all_slugs_on_disk)
+        e['claim_b'] = resolve_slug(e['claim_b'], slug_map, all_slugs_on_disk)
+        if e['claim_a'] == old_a and old_a not in all_slugs_on_disk:
+            unresolved += 1
+        if e['claim_b'] == old_b and old_b not in all_slugs_on_disk:
+            unresolved += 1
+    if unresolved:
+        print(f"  ({unresolved} edge endpoints still unresolved — may be claim_id references)")
 
     # Stats
     type_counts = Counter(e['edge_type'] for e in unique)
