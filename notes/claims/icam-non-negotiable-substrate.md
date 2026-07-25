@@ -74,6 +74,7 @@ The ICAM-first framing could be read as NSA's institutional preference — defen
 **Operationalizes:**
 
 **Extends:**
+- [[identity-foundational-zta-pillar|C1 asserts ICAM serves as substrate beneath the identity pillar; C3 specifies how the user pillar operationalizes ICAM t]]
 - [[true-contextual-identity-is-never-just-a-device|The ICAM substrate is operationalized through multi-dimensional contextual profiling that captures who, what device, and]]
 
 ## Assessment

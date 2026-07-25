@@ -53,6 +53,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[zt-positive-tenets|The PDP/PEP model provides concrete enforcement architecture for NIST's technology-agnostic positive tenets]]
+- [[the-control-plane-is-the-trust-grantor-temporary|The PDP/PEP model provides the framework where the PDP (control plane) naturally functions as the trust grantor]]
 
 **Contradicts:**
 
@@ -61,6 +63,8 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[zt-control-data-plane-split|NIST PDP/PEP model is the formal architectural instantiation of the control/data plane split principle]]
+- [[there-are-three-distinct-types-of-peps-and|Claim 5 extends the PDP/PEP model by identifying three concrete PEP types (user agent, network, application)]]
 
 ## Assessment
 

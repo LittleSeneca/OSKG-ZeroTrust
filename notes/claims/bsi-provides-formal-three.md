@@ -68,6 +68,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[zt-positive-tenets|BSI extends NIST's definition (including the positive tenets approach) with German regulatory emphasis on verifiable evi]]
 - [[bsi-integration-model-provides-german-maturity-framework|The German maturity framework with VS integration in bsi-zt.4 is a concrete implementation artifact of the formal defini]]
 - [[bsi-adopts-nist-pdp-pep-control-plane|BSI's adoption of the NIST PDP/PEP/Control Plane model is the architectural elaboration of the formal definition that bs]]
 

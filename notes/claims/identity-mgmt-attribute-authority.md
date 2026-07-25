@@ -64,6 +64,7 @@ _None identified._
 - [[access-mgmt-abac-least-privilege|ABAC fundamentally depends on authoritative identity attributes for policy decisions.]]
 
 **Supports:**
+- [[ztmm-operationalizes-nist-seven-tenets|C8 describes identity management maturity progression within ZTMM, providing another concrete example of ZTMM operationa]]
 - [[identity-must-be-contextual-who-what-device-where|Attribute authority is the prerequisite that enables contextual identity decisions across all dimensions (who, what, whe]]
 
 **Contradicts:**
@@ -74,6 +75,8 @@ _None identified._
   - "[[identity-stores-integrated-not-just-federated]]"
 
 **Extends:**
+- [[icam-non-negotiable-substrate|C8 provides operational detail on the Identity Management function within the FICAM framework C3 establishes, specifying]]
+- [[identity-foundational-zta-pillar|C1 claims identity maturity is essential; C8 specifies that identity management maturity means attribute authority, not]]
 
 ## Assessment
 

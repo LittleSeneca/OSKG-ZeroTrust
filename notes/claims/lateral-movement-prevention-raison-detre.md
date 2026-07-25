@@ -57,6 +57,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[micro-segmentation-blast-radius|Raison d'être also justifies micro segmentation's blast radius limitation]]
+- [[macro-segmentation-cross-function|Lateral movement prevention as the pillar's raison d'être provides the rationale for macro segmentation]]
   - "[[nation-state-incidents-perimeter-obsolete]]"
 
 **Contradicts:**

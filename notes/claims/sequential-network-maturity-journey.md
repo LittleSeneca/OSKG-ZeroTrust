@@ -54,6 +54,9 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[zt-control-data-plane-split|Maturity journey culminates in SDN, which embodies the control/data plane split as the architectural end-state]]
+- [[micro-segmentation-blast-radius|Maturity model positions micro segmentation as the phase following macro]]
+- [[macro-segmentation-cross-function|Maturity model positions macro segmentation as a foundational sequential phase]]
 
 **Contradicts:**
 

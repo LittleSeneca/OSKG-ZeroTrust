@@ -63,6 +63,8 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[lateral-movement-prevention-raison-detre|East-west segmentation represents the hardest form of the lateral movement problem that is the pillar's raison d'être]]
+- [[macro-segmentation-cross-function|East-west segmentation addresses within-VLAN/subnet traffic that macro segmentation leaves unresolved]]
 - [[micro-segmentation-blast-radius|East-west segmentation extends micro segmentation to its most granular level — controlling traffic between adjacent devi]]
 
 ## Assessment

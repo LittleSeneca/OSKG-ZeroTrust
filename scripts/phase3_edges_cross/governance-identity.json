@@ -1,0 +1,158 @@
+[
+  {
+    "source": "icam-non-negotiable-substrate",
+    "target": "identity-foundational-zta-pillar",
+    "relation": "extends",
+    "rationale": "C1 asserts ICAM serves as substrate beneath the identity pillar; C3 specifies how the user pillar operationalizes ICAM through five FICAM capability areas."
+  },
+  {
+    "source": "continuous-authentication-common-all-pillars",
+    "target": "identity-foundational-zta-pillar",
+    "relation": "supports",
+    "rationale": "C6 provides operational evidence: if identity is foundational to ZTA, continuous authentication should be required for every access transaction across all pillars, which C6 confirms."
+  },
+  {
+    "source": "authentication-keystone-identity-function",
+    "target": "identity-foundational-zta-pillar",
+    "relation": "extends",
+    "rationale": "C1 claims identity is foundational; C7 identifies authentication as the keystone function within the identity pillar, adding specificity about which identity capability is most critical."
+  },
+  {
+    "source": "identity-mgmt-attribute-authority",
+    "target": "identity-foundational-zta-pillar",
+    "relation": "extends",
+    "rationale": "C1 claims identity maturity is essential; C8 specifies that identity management maturity means attribute authority, not just inventory — giving operational definition."
+  },
+  {
+    "source": "access-mgmt-abac-least-privilege",
+    "target": "identity-foundational-zta-pillar",
+    "relation": "depends_on",
+    "rationale": "ABAC, JIT/JEA, and PAM access decisions all require identity to be established and mature; least-privilege enforcement cannot operate without the identity substrate C1 asserts."
+  },
+  {
+    "source": "credential-mgmt-phishing-resistance",
+    "target": "identity-foundational-zta-pillar",
+    "relation": "extends",
+    "rationale": "C10 specifies credential management as defined by phishing resistance (MFA floor, AAL3 ceiling), adding operational specificity to C1's claim that identity capabilities must be mature."
+  },
+  {
+    "source": "zta-complementary-not-replacement",
+    "target": "cdm-visibility-prerequisite-zta",
+    "relation": "extends",
+    "rationale": "C2 asserts CDM is the visibility prerequisite; C4 extends this by showing CDM adapts to ZTA alongside six other programs, demonstrating how CDM persists rather than being replaced."
+  },
+  {
+    "source": "zta-complementary-not-replacement",
+    "target": "icam-non-negotiable-substrate",
+    "relation": "extends",
+    "rationale": "C3 asserts ICAM is non-negotiable substrate; C4 extends by mapping how ICAM adapts to ZTA governance alongside other federal programs, showing it remains in force."
+  },
+  {
+    "source": "ztmm-operationalizes-nist-seven-tenets",
+    "target": "icam-non-negotiable-substrate",
+    "relation": "supports",
+    "rationale": "C5 provides the measurement mechanism: ZTMM's identity pillar maturity model is how organizations operationalize the ICAM substrate C3 declares non-negotiable."
+  },
+  {
+    "source": "continuous-authentication-common-all-pillars",
+    "target": "icam-non-negotiable-substrate",
+    "relation": "extends",
+    "rationale": "C6 identifies a concrete prerequisite capability (federated enterprise identity service) that depends on the ICAM substrate C3 asserts, showing a downstream dependency."
+  },
+  {
+    "source": "authentication-keystone-identity-function",
+    "target": "icam-non-negotiable-substrate",
+    "relation": "extends",
+    "rationale": "C7 names authentication as the keystone within the ICAM/FICAM framework C3 establishes as substrate, identifying the highest-priority capability area."
+  },
+  {
+    "source": "identity-mgmt-attribute-authority",
+    "target": "icam-non-negotiable-substrate",
+    "relation": "extends",
+    "rationale": "C8 provides operational detail on the Identity Management function within the FICAM framework C3 establishes, specifying attribute authority as the maturity goal."
+  },
+  {
+    "source": "access-mgmt-abac-least-privilege",
+    "target": "icam-non-negotiable-substrate",
+    "relation": "extends",
+    "rationale": "C9 details how the Access Management FICAM capability area (established by C3) operationalizes least privilege through ABAC, JIT/JEA, and PAM."
+  },
+  {
+    "source": "credential-mgmt-phishing-resistance",
+    "target": "icam-non-negotiable-substrate",
+    "relation": "extends",
+    "rationale": "C10 details how the Credential Management FICAM capability area (established by C3) is defined by phishing resistance with MFA as floor and AAL3 as ceiling."
+  },
+  {
+    "source": "ztmm-operationalizes-nist-seven-tenets",
+    "target": "zta-complementary-not-replacement",
+    "relation": "supports",
+    "rationale": "C5 provides a concrete example of C4's claim: ZTMM is one of the complementary frameworks that operationalizes ZTA without replacing existing programs."
+  },
+  {
+    "source": "authentication-keystone-identity-function",
+    "target": "ztmm-operationalizes-nist-seven-tenets",
+    "relation": "supports",
+    "rationale": "C7 describes the authentication maturity progression (Traditional→Optimal) within ZTMM, providing a concrete example of how C5's claim that ZTMM operationalizes NIST tenets works in practice."
+  },
+  {
+    "source": "identity-mgmt-attribute-authority",
+    "target": "ztmm-operationalizes-nist-seven-tenets",
+    "relation": "supports",
+    "rationale": "C8 describes identity management maturity progression within ZTMM, providing another concrete example of ZTMM operationalization."
+  },
+  {
+    "source": "access-mgmt-abac-least-privilege",
+    "target": "ztmm-operationalizes-nist-seven-tenets",
+    "relation": "supports",
+    "rationale": "C9 describes access management capabilities within the ZTMM framework, exemplifying C5's operationalization claim."
+  },
+  {
+    "source": "credential-mgmt-phishing-resistance",
+    "target": "ztmm-operationalizes-nist-seven-tenets",
+    "relation": "supports",
+    "rationale": "C10 describes credential management maturity within ZTMM, exemplifying C5's operationalization claim."
+  },
+  {
+    "source": "authentication-keystone-identity-function",
+    "target": "continuous-authentication-common-all-pillars",
+    "relation": "extends",
+    "rationale": "C6 broadly asserts continuous auth is common to all pillars; C7 identifies authentication as the keystone function with the largest capability gap, adding operational priority to C6's requirement."
+  },
+  {
+    "source": "access-mgmt-abac-least-privilege",
+    "target": "continuous-authentication-common-all-pillars",
+    "relation": "depends_on",
+    "rationale": "JIT/JEA/PAM access decisions in C9 depend on the continuous authentication and identity validation C6 establishes as prerequisite for every access transaction."
+  },
+  {
+    "source": "credential-mgmt-phishing-resistance",
+    "target": "continuous-authentication-common-all-pillars",
+    "relation": "supports",
+    "rationale": "C10 defines initial authentication strength (MFA floor, AAL3 ceiling, phishing resistance) which, together with C6's continuous authentication requirement, completes the full authentication lifecycle picture."
+  },
+  {
+    "source": "access-mgmt-abac-least-privilege",
+    "target": "authentication-keystone-identity-function",
+    "relation": "depends_on",
+    "rationale": "Access management decisions in C9 require authentication to establish subject identity first; C7's authentication keystone must be in place before C9's authorization can operate."
+  },
+  {
+    "source": "credential-mgmt-phishing-resistance",
+    "target": "authentication-keystone-identity-function",
+    "relation": "extends",
+    "rationale": "C10 specifies the credential management approach (phishing-resistant MFA, AAL levels) as the mechanism for achieving C7's authentication keystone function."
+  },
+  {
+    "source": "access-mgmt-abac-least-privilege",
+    "target": "identity-mgmt-attribute-authority",
+    "relation": "depends_on",
+    "rationale": "ABAC in C9 requires attribute-based policy evaluation; it depends on C8's attribute authority and identity claims infrastructure to make those decisions."
+  },
+  {
+    "source": "access-mgmt-abac-least-privilege",
+    "target": "credential-mgmt-phishing-resistance",
+    "relation": "depends_on",
+    "rationale": "Least-privilege access enforcement in C9 depends on C10's strong credential management; weak credentials undermine access decisions regardless of policy sophistication."
+  }
+]

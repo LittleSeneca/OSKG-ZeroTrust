@@ -57,8 +57,11 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[the-control-plane-is-the-trust-grantor-temporary|All three PEP types depend on the control plane (trust grantor) for authorization decisions]]
 
 **Supports:**
+- [[zt-positive-tenets|Three PEP types provide layered enforcement supporting the positive tenets' mandate for continuous verification at every]]
+- [[preventing-lateral-movement-primary-goal-zt|Multiple PEP types at different layers (network, app, user agent) close enforcement gaps that enable lateral movement]]
 
 **Contradicts:**
 
@@ -67,6 +70,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[zt-control-data-plane-split|Three PEP types elaborate data plane diversity within the control/data plane split]]
 - [[the-nist-pdppep-model-is-the-correct-foundation|The three PEP types—user agent, network, and application—refine the PDP/PEP model by specifying where enforcement occurs]]
 
 ## Assessment

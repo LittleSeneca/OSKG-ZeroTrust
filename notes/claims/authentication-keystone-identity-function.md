@@ -65,8 +65,10 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[access-mgmt-abac-least-privilege|Access management decisions in C9 require authentication to establish subject identity first; C7's authentication keysto]]
 
 **Supports:**
+- [[ztmm-operationalizes-nist-seven-tenets|C7 describes the authentication maturity progression (Traditional→Optimal) within ZTMM, providing a concrete example of]]
 
 **Contradicts:**
 
@@ -75,6 +77,9 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[continuous-authentication-common-all-pillars|C6 broadly asserts continuous auth is common to all pillars; C7 identifies authentication as the keystone function with]]
+- [[icam-non-negotiable-substrate|C7 names authentication as the keystone within the ICAM/FICAM framework C3 establishes as substrate, identifying the hig]]
+- [[identity-foundational-zta-pillar|C1 claims identity is foundational; C7 identifies authentication as the keystone function within the identity pillar, ad]]
 
 ## Assessment
 

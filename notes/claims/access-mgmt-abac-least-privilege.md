@@ -76,6 +76,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[ztmm-operationalizes-nist-seven-tenets|C9 describes access management capabilities within the ZTMM framework, exemplifying C5's operationalization claim.]]
 
 **Contradicts:**
 
@@ -85,6 +86,7 @@ _None identified._
   - "[[access-management-permanent-to-jit-jea]]"
 
 **Extends:**
+- [[icam-non-negotiable-substrate|C9 details how the Access Management FICAM capability area (established by C3) operationalizes least privilege through A]]
 
 ## Assessment
 

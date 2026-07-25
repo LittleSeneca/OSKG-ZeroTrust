@@ -64,6 +64,7 @@ The ZTMM's claim to reflect all seven tenets could be read as aspirational — i
 **Depends on:**
 
 **Supports:**
+- [[icam-non-negotiable-substrate|C5 provides the measurement mechanism: ZTMM's identity pillar maturity model is how organizations operationalize the ICA]]
 - [[identity-foundational-zta-pillar|The ZTMM operationalizing NIST 800-207 tenets reinforces identity as foundational, since identity-based per-session acce]]
 - [[zta-complementary-not-replacement|ZTMM operationalizing NIST 800-207 tenets into measurable capabilities demonstrates how frameworks complement rather tha]]
   - "[[ztmm-nist-800-207-definition-foundation]]"

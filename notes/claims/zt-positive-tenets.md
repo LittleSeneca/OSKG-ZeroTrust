@@ -63,6 +63,8 @@ The positive-tenet approach could be seen as political compromise — making ZTA
 **Contradicts:**
 <!-- Claims that cannot be true if this one is -->
 
+- [[zt-assume-breach|Claim 7 defines ZT by what it positively DOES (seven tenets); Claim 10 defines ZT by the threat model (assume breach). T]]
+- [[zt-defined-cisa-five|Competing definitional frameworks: Claim 7 says ZT is defined by NIST's positive tenets; Claim 8 says ZT is defined thro]]
 **Challenged by:**
 <!-- Evidence or arguments that weaken this claim -->
 

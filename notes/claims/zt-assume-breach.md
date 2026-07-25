@@ -56,6 +56,7 @@ The "assume breach" framing could be read as NSA's institutional bias — as a s
 <!-- Claims this one requires to be true -->
 
 **Supports:**
+- [[preventing-lateral-movement-primary-goal-zt|'Assume breach' provides the threat model that makes lateral movement prevention the primary architectural goal]]
 - [[zt-positive-tenets|The 'assume breach' mindset is the foundational threat posture that motivates and gives urgency to the positive-tenet ar]]
 - [[zero-trust-is-a-philosophy-principles-and-a|NSA's 'assume breach' framing exemplifies the philosophy-first approach that gc-ch1-3.3 advocates — both reject product-]]
 - [[zt-network-assumptions]]
@@ -63,6 +64,7 @@ The "assume breach" framing could be read as NSA's institutional bias — as a s
 **Contradicts:**
 <!-- Claims that cannot be true if this one is -->
 
+- [[zt-positive-tenets|Claim 7 defines ZT by what it positively DOES (seven tenets); Claim 10 defines ZT by the threat model (assume breach). T]]
 **Challenged by:**
 <!-- Evidence or arguments that weaken this claim -->
 
@@ -70,6 +72,7 @@ The "assume breach" framing could be read as NSA's institutional bias — as a s
 <!-- Standards/implementations that put this claim into practice -->
 
 **Extends:**
+- [[bsi-provides-formal-three|BSI explicitly derives its definition from the 'Assume Breach' approach, tracing lineage through Marsh, Jericho Forum, a]]
 - [[zt-positive-tenets]]
 
 ## Assessment

@@ -54,6 +54,9 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[east-west-segmentation-controlling-traffic-within-the-same-vlansubnet|Primary goal validates east-west segmentation as addressing the hardest lateral movement vector]]
+- [[micro-segmentation-blast-radius|Primary goal validates micro segmentation's blast radius limitation]]
+- [[macro-segmentation-cross-function|ZT's primary goal of preventing lateral movement validates macro segmentation as a key mechanism]]
 - [[zt-control-data-plane-split|The primary goal of preventing lateral movement motivates the control plane/data plane split, because real-time authoriz]]
 - [[three-types-of-filtering-form-a-defense-in-depth-network|The three types of filtering—host, bookended, and intermediary—form defense-in-depth that directly serves the primary ZT]]
 
@@ -64,6 +67,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[lateral-movement-prevention-raison-detre|Generalizes lateral movement prevention from a single pillar's raison d'être to ZT's overarching primary goal]]
 - [[enclave-design-is-trust-classification-what-criteria-justify|Enclave design as trust classification directly implements lateral movement prevention by grouping resources with simila]]
 
 ## Assessment

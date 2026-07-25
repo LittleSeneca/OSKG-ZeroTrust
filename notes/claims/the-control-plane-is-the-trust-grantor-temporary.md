@@ -53,8 +53,10 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[east-west-segmentation-controlling-traffic-within-the-same-vlansubnet|East-west identity-based enforcement (SGTs) depends on the control plane's trust-granting function for identity assignme]]
 
 **Supports:**
+- [[zt-positive-tenets|The trust grantor model (temporary trust, leased tokens) is a concrete implementation supporting the positive tenets' te]]
 - [[preventing-lateral-movement-primary-goal-zt|Temporary trust and leased tokens directly prevent lateral movement by ensuring that a compromised session cannot be reu]]
 
 **Contradicts:**
@@ -64,6 +66,8 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[the-nist-pdppep-model-is-the-correct-foundation|Control plane as trust grantor elaborates PDP's authorization function within PDP/PEP]]
+- [[zt-control-data-plane-split|Trust grantor role elaborates the control plane's specific function within the split]]
 - [[agent-data-is-sensitive-and-should-be-contained|The trust grantor role explains why agent data must be contained—the control plane needs authoritative access to sensiti]]
 
 ## Assessment

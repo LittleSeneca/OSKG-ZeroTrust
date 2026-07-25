@@ -54,11 +54,14 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[micro-segmentation-blast-radius|Micro-segmentation enforcement at scale depends on the control/data plane architecture]]
+- [[east-west-segmentation-controlling-traffic-within-the-same-vlansubnet|East-west Layer 2 identity-based enforcement depends on the control/data plane split for identity assignment and policy]]
 - [[sso-should-not-remove-the-control-plane-from|The recommendation that SSO should not bypass the control plane for ongoing authorization depends on the architectural s]]
 
 **Supports:**
 <!-- Claims this one provides evidence for -->
 
+- [[preventing-lateral-movement-primary-goal-zt|The control/data plane split is the architectural mechanism that enables lateral movement prevention by centralizing aut]]
 **Contradicts:**
 <!-- Claims that cannot be true if this one is -->
 

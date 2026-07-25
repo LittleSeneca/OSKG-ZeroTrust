@@ -63,8 +63,10 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[access-mgmt-abac-least-privilege|JIT/JEA/PAM access decisions in C9 depend on the continuous authentication and identity validation C6 establishes as pre]]
 
 **Supports:**
+- [[identity-foundational-zta-pillar|C6 provides operational evidence: if identity is foundational to ZTA, continuous authentication should be required for e]]
 
 **Contradicts:**
 
@@ -73,6 +75,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[icam-non-negotiable-substrate|C6 identifies a concrete prerequisite capability (federated enterprise identity service) that depends on the ICAM substr]]
 - [[authentication-keystone-identity-function|Extends the authentication keystone from an identity-pillar function to a cross-cutting requirement common to all ZT pil]]
 
 ## Assessment

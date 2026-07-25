@@ -61,6 +61,7 @@ The structure is driven by standards-document conventions (define, decompose, ap
 - [[bsi-provides-formal-three|BSI's definition extending NIST presupposes the NIST document framework that nist207-ch1.8 identifies as essential.]]
 
 **Supports:**
+- [[the-nist-pdppep-model-is-the-correct-foundation|NIST's document structure (definitions → components → use cases) provides the organizing framework within which PDP/PEP]]
 
 **Contradicts:**
 

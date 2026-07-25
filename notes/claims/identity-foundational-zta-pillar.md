@@ -54,6 +54,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[access-mgmt-abac-least-privilege|ABAC, JIT/JEA, and PAM access decisions all require identity to be established and mature; least-privilege enforcement c]]
 - [[cdm-visibility-prerequisite-zta|Identity-based access decisions depend on CDM providing answers to 'what is connected' and 'who is on the network' befor]]
 
 **Supports:**

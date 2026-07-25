@@ -72,8 +72,11 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[access-mgmt-abac-least-privilege|Least-privilege access enforcement in C9 depends on C10's strong credential management; weak credentials undermine acces]]
 
 **Supports:**
+- [[continuous-authentication-common-all-pillars|C10 defines initial authentication strength (MFA floor, AAL3 ceiling, phishing resistance) which, together with C6's con]]
+- [[ztmm-operationalizes-nist-seven-tenets|C10 describes credential management maturity within ZTMM, exemplifying C5's operationalization claim.]]
 - [[authentication-keystone-identity-function|Phishing-resistant credential management directly strengthens the authentication keystone against the largest capability]]
 
 **Contradicts:**
@@ -84,6 +87,9 @@ _None identified._
   - "[[authentication-keystone-identity-function]]"
 
 **Extends:**
+- [[authentication-keystone-identity-function|C10 specifies the credential management approach (phishing-resistant MFA, AAL levels) as the mechanism for achieving C7']]
+- [[icam-non-negotiable-substrate|C10 details how the Credential Management FICAM capability area (established by C3) is defined by phishing resistance wi]]
+- [[identity-foundational-zta-pillar|C10 specifies credential management as defined by phishing resistance (MFA floor, AAL3 ceiling), adding operational spec]]
 - [[the-strongest-user-authentication-binds-identity-to-hardware|Phishing resistance (MFA→AAL3 scale) extends hardware binding by defining the credential management progression that har]]
 
 ## Assessment
