@@ -25,10 +25,10 @@ updated: 2026-07-24
 
 - **Total chapter notes:** 50 (36 with claims + 14 without claims yet extracted)
 - **Total estimated claims:** ~405
-- **Claims extracted:** 67
-- **Remaining:** ~338
-- **Batches completed:** 2
-- **Last batch:** 2026-07-24 — Batch 2 (6 notes, 53 claims)
+- **Claims extracted:** 129
+- **Remaining:** ~276
+- **Batches completed:** 3
+- **Last batch:** 2026-07-24 — Batch 3 (6 notes, 62 claims)
 
 ### Batch Log
 
@@ -116,12 +116,12 @@ Target: future sessions, ~10 notes
 - [x] NIST 800-207 Ch6 — Federal Guidance
 - [x] NIST 800-207 Ch7 — Migration
 - [x] NSA — Embracing a Zero Trust Security Model (5 claims → Batch 1)
-- [ ] NSA — User Pillar
-- [ ] NSA — Device Pillar
-- [ ] NSA — Network Environment Pillar
-- [ ] CISA ZTMM — Overview and Framework
-- [ ] CISA ZTMM — Identity Pillar
-- [ ] CISA ZTMM — Device Network App Data Pillars
+- [x] NSA — User Pillar
+- [x] NSA — Device Pillar
+- [x] NSA — Network Environment Pillar
+- [x] CISA ZTMM — Overview and Framework
+- [x] CISA ZTMM — Identity Pillar
+- [x] CISA ZTMM — Device Network App Data Pillars
 - [ ] DoD ZT RA — Overview and Strategy
 - [ ] DoD ZT RA — Capabilities and Use Cases
 
@@ -195,6 +195,15 @@ Target: future sessions, ~10 notes
 - **Quality review:** PASS — 0 issues (all frontmatter, evidence sections, wikilinks verified)
 - **Model:** Claude Code (Opus 5 high effort — extraction script + chapter note update script)
 - **Method:** Claude Code wrote extract_batch2.py and update_chapter_notes.py; both run & verified
+
+### 2026-07-24 — Phase 2 Batch 3
+- **Notes processed:** 6 (NSA User, Device, Network + CISA ZTMM Overview, Identity, Device/Network/App/Data)
+- **Claims extracted:** 62
+- **Artifacts created:** 62 claim files + 6 chapter note updates + 3 extraction/update/edges scripts
+- **Intra-batch edges:** 33 wikilinks (via Python script)
+- **Quality review:** PASS — 0 issues (all frontmatter, evidence sections, tags verified)
+- **Model:** DeepSeek V4 Pro (extraction script authored manually, run via python3)
+- **Method:** Adapted extract_batch2.py pattern; added NSA/CISA claim markers; manual slug derivation for 56 claims
 
 ### 2026-07-24 — Phase 2 Batch 1
 - **Notes processed:** 3 (NIST 800-207 Ch2, NSA Embracing ZT, G&B Ch1)
