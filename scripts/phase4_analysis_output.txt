@@ -1,0 +1,417 @@
+================================================================================
+PHASE 4: ZERO TRUST KNOWLEDGE GRAPH — STRUCTURAL ANALYSIS
+================================================================================
+
+================================================================================
+1. HINGE INVENTORY — Top 15 Claims by Structural Impact
+   Score = edge_count × betweenness_centrality
+================================================================================
+
+--- Hinge #1: gilmanbarth-ch1.2 ---
+  Statement: The control plane / data plane split is ZT's fundamental architectural innovation
+  Score: 1072.0 | Degree: 12 | Betweenness: 89.33
+  Confidence: high | Source: [[Gilman and Barth — Ch1 — Zero Trust Fundamentals]]
+  Topics: zt-architecture, zt-network, zt-definition, zt-policy, zt-sdn
+  Direct dependents: 4 | Second-order: 5
+  Incoming support: 8 claims
+  Fragmentation: Removing this claim would disconnect 4 direct dependents and potentially fragment 5 second-order claims
+
+--- Hinge #2: cisa-ztmm-ov.9 ---
+  Statement: The ZTMM operationalizes all seven NIST 800-207 tenets into measurable capabilities
+  Score: 370.0 | Degree: 5 | Betweenness: 74.0
+  Confidence: high | Source: [[CISA ZTMM — Overview and Framework]]
+  Topics: zt-governance, zt-definition, zt-identity, zt-architecture
+  Direct dependents: 3 | Second-order: 5
+  Incoming support: 2 claims
+  Fragmentation: Removing this claim would disconnect 3 direct dependents and potentially fragment 5 second-order claims
+
+--- Hinge #3: nist-207a.2 ---
+  Statement: Cloud-native ZTA requires a dedicated infrastructure layer — the service mesh — that acts as a "cloud-native security kernel" providing non-bypassable
+  Score: 353.5 | Degree: 7 | Betweenness: 50.5
+  Confidence: medium | Source: [[NIST 800-207A — Cloud-Native Access Control]]
+  Topics: zt-cloud, zt-implementation, zt-architecture, zt-network
+  Direct dependents: 2 | Second-order: 3
+  Incoming support: 5 claims
+  Fragmentation: Removing this claim would disconnect 2 direct dependents and potentially fragment 3 second-order claims
+
+--- Hinge #4: nist207-ch7.7 ---
+  Statement: Business process selection for ZTA migration should start with low-risk processes and cloud-based/remote-worker workflows, using the NIST RMF to evalu
+  Score: 325.0 | Degree: 5 | Betweenness: 65.0
+  Confidence: high | Source: [[NIST 800-207 — Ch7 — Migration]]
+  Topics: zt-migration, zt-governance, zt-maturity
+  Direct dependents: 2 | Second-order: 3
+  Incoming support: 3 claims
+  Fragmentation: Removing this claim would disconnect 2 direct dependents and potentially fragment 3 second-order claims
+
+--- Hinge #5: nsa-device.3 ---
+  Statement: Authorization decisions must be continuous and risk-based, not one-time at connection
+  Score: 296.0 | Degree: 8 | Betweenness: 37.0
+  Confidence: high | Source: [[NSA — Device Pillar]]
+  Topics: zt-device, zt-trust, zt-identity, zt-access-mgmt
+  Direct dependents: 2 | Second-order: 1
+  Incoming support: 6 claims
+  Fragmentation: Removing this claim would disconnect 2 direct dependents and potentially fragment 1 second-order claims
+
+--- Hinge #6: gb-ch2.5 ---
+  Statement: The control plane is the trust grantor — temporary trust and leased tokens are its operational expression
+  Score: 270.0 | Degree: 5 | Betweenness: 54.0
+  Confidence: high | Source: [[Gilman and Barth — Ch2 — Managing Trust]]
+  Topics: zt-architecture, zt-authentication, zt-implementation, zt-definition, zt-sdn
+  Direct dependents: 4 | Second-order: 4
+  Incoming support: 1 claims
+  Fragmentation: Removing this claim would disconnect 4 direct dependents and potentially fragment 4 second-order claims
+
+--- Hinge #7: ncsc.4 ---
+  Statement: Service identity (service accounts) and device identity (Verified Access via TPM) are first-class identity types in Google's ZT model — going beyond u
+  Score: 247.5 | Degree: 5 | Betweenness: 49.5
+  Confidence: high | Source: [[NCSC — ZT Principles on Google Cloud]]
+  Topics: zt-cloud, zt-implementation, zt-architecture, zt-network
+  Direct dependents: 2 | Second-order: 3
+  Incoming support: 3 claims
+  Fragmentation: Removing this claim would disconnect 2 direct dependents and potentially fragment 3 second-order claims
+
+--- Hinge #8: cccs-arch.3 ---
+  Statement: Preventing lateral movement is the *primary* goal of ZT
+  Score: 240.0 | Degree: 6 | Betweenness: 40.0
+  Confidence: high | Source: [[CCCS — ZT Approach to Security Architecture]]
+  Topics: zt-architecture, zt-implementation, zt-cloud, zt-network
+  Direct dependents: 3 | Second-order: 5
+  Incoming support: 3 claims
+  Fragmentation: Removing this claim would disconnect 3 direct dependents and potentially fragment 5 second-order claims
+
+--- Hinge #9: nist207-ch6.8 ---
+  Statement: CDM is the visibility prerequisite for ZTA — without CDM's four foundational questions answered (what is connected, who is on the network, what is hap
+  Score: 228.0 | Degree: 6 | Betweenness: 38.0
+  Confidence: high | Source: [[NIST 800-207 — Ch6 — Federal Guidance]]
+  Topics: zt-governance, zt-device, zt-identity, zt-definition
+  Direct dependents: 3 | Second-order: 4
+  Incoming support: 3 claims
+  Fragmentation: Removing this claim would disconnect 3 direct dependents and potentially fragment 4 second-order claims
+
+--- Hinge #10: nist207-ch6.1 ---
+  Statement: ZTA is complementary to existing federal frameworks, not a replacement — it changes the locus of enforcement (from perimeter to resource) and the gran
+  Score: 210.0 | Degree: 5 | Betweenness: 42.0
+  Confidence: high | Source: [[NIST 800-207 — Ch6 — Federal Guidance]]
+  Topics: zt-governance, zt-architecture, zt-network
+  Direct dependents: 3 | Second-order: 3
+  Incoming support: 2 claims
+  Fragmentation: Removing this claim would disconnect 3 direct dependents and potentially fragment 3 second-order claims
+
+--- Hinge #11: nist207-ch7.8 ---
+  Statement: Policy formulation for the ZTA candidate requires evaluating asset value/risk via RMF, identifying all upstream/downstream resources, and choosing bet
+  Score: 208.0 | Degree: 4 | Betweenness: 52.0
+  Confidence: high | Source: [[NIST 800-207 — Ch7 — Migration]]
+  Topics: zt-migration, zt-policy, zt-implementation, zt-governance
+  Direct dependents: 1 | Second-order: 2
+  Incoming support: 3 claims
+  Fragmentation: Removing this claim would disconnect 1 direct dependents and potentially fragment 2 second-order claims
+
+--- Hinge #12: ncsc.2 ---
+  Statement: BeyondCorp is Google's implementation of the ZT model and provides the architectural foundation for all GCP ZT services — it is the most mature, battl
+  Score: 180.0 | Degree: 6 | Betweenness: 30.0
+  Confidence: high | Source: [[NCSC — ZT Principles on Google Cloud]]
+  Topics: zt-cloud, zt-implementation, zt-architecture, zt-network, zt-remote-access
+  Direct dependents: 1 | Second-order: 2
+  Incoming support: 4 claims
+  Fragmentation: Removing this claim would disconnect 1 direct dependents and potentially fragment 2 second-order claims
+
+--- Hinge #13: nist-207a.1 ---
+  Statement: Network-IP-based security controls are insufficient for cloud-native applications because microservices are ephemeral, geographically distributed, and
+  Score: 175.0 | Degree: 7 | Betweenness: 25.0
+  Confidence: high | Source: [[NIST 800-207A — Cloud-Native Access Control]]
+  Topics: zt-cloud, zt-implementation, zt-network, zt-governance
+  Direct dependents: 1 | Second-order: 0
+  Incoming support: 6 claims
+  Fragmentation: Removing this claim would disconnect 1 direct dependents and potentially fragment 0 second-order claims
+
+--- Hinge #14: beyondprod.2 ---
+  Statement: ALTS (Application Layer Transport Security) is the workhorse of BeyondProd — binding identities to services rather than hosts is the critical design d
+  Score: 137.5 | Degree: 5 | Betweenness: 27.5
+  Confidence: high | Source: [[BeyondProd — Cloud-Native Security]]
+  Topics: zt-cloud, zt-implementation, zt-architecture, zt-governance
+  Direct dependents: 2 | Second-order: 1
+  Incoming support: 3 claims
+  Fragmentation: Removing this claim would disconnect 2 direct dependents and potentially fragment 1 second-order claims
+
+--- Hinge #15: dod-strategy.1 ---
+  Statement: Zero Trust is not an IT solution or product — it requires cultural transformation across the entire Department, not just the cybersecurity workforce.
+  Score: 124.0 | Degree: 4 | Betweenness: 31.0
+  Confidence: high | Source: [[DoD — ZT Strategy and Roadmap]]
+  Topics: zt-governance, zt-migration, zt-definition, zt-maturity
+  Direct dependents: 2 | Second-order: 2
+  Incoming support: 2 claims
+  Fragmentation: Removing this claim would disconnect 2 direct dependents and potentially fragment 2 second-order claims
+
+================================================================================
+2. CASCADE TREES — Downstream Dependency Chains (depth 4)
+================================================================================
+
+## Cascade 1: gilmanbarth-ch1.2
+**The control plane / data plane split is ZT's fundamental architectural innovation**
+Confidence: high | Source: [[Gilman and Barth — Ch1 — Zero Trust Fundamentals]]
+
+├── gb-ch2.5 (ext): The control plane is the trust grantor — temporary trust and leased tokens are i
+│   ├── gb-ch4-6.13 (dep): SSO should not remove the control plane from ongoing authorization
+│   │   └── gb-ch10.7 (sup): Control plane compromise is the worst-case scenario — and it must be defended wi
+│   ├── gb-ch10.7 (dep): Control plane compromise is the worst-case scenario — and it must be defended wi
+│   ├── gb-ch3.4 (ext): Agent data is sensitive and should be contained to the control plane, with contr
+│   └── cccs-arch.3 (sup): Preventing lateral movement is the *primary* goal of ZT
+│       ├── gb-ch7-8.12 (sup): Three types of filtering form a defense-in-depth network security architecture
+│       └── go-ch3-5.2 (ext): Enclave design is trust classification — what criteria justify grouping and what
+│           └── go-ch3-5.1 (ext): Trust assessment is spatial — the architecture location determines trust data av
+│               └── ...
+├── gb-ch10.7 (dep): Control plane compromise is the worst-case scenario — and it must be defended wi
+├── gc-ch1-3.9 (ext): The NIST PDP/PEP model is the correct foundation, but needs enterprise-specific 
+└── gc-ch1-3.10 (ext): There are three distinct types of PEPs, and understanding their differences is e
+
+## Cascade 2: cisa-ztmm-ov.9
+**The ZTMM operationalizes all seven NIST 800-207 tenets into measurable capabilities**
+Confidence: high | Source: [[CISA ZTMM — Overview and Framework]]
+
+├── nist207-ch6.1 (sup): ZTA is complementary to existing federal frameworks, not a replacement — it chan
+│   ├── nist207-ch6.6 (ext): TIC 3.0 is converging with ZTA — TIC evolved from perimeter-based (1.0/2.0) to d
+│   ├── nist207-ch6.7 (ext): EINSTEIN/NCPS must evolve its perimeter-situational-awareness model to ingest cl
+│   └── nist207-ch6.8 (ext): CDM is the visibility prerequisite for ZTA — without CDM's four foundational que
+│       ├── cisa-ztmm-id.1 (dep): Identity is the foundational pillar of ZTA — without mature identity capabilitie
+│       │   ├── go-ch6-8.4 (sup): True contextual identity is never just a device type — a displayless hardware ph
+│       │   │   └── ...
+│       │   └── gb-ch4-6.9 (sup): User identity and device identity are separate trust domains — conflating them i
+│       │       └── ...
+│       ├── nsa-user.1 (dep): The user pillar operationalizes ICAM for Zero Trust — and ICAM is the non-negoti
+│       └── nist207-ch6.4 (dep): Privacy Framework — ZTA's \"inspect everything\" tenet creates an explicit tensi
+├── dod-ra-cap.11 (ext): The DoD's capability-driven approach distinguishes itself from other ZT framewor
+└── cisa-ztmm-id.1 (sup): Identity is the foundational pillar of ZTA — without mature identity capabilitie
+
+## Cascade 3: nist-207a.2
+**Cloud-native ZTA requires a dedicated infrastructure layer — the service mesh — that acts as a "cloud-native security ke**
+Confidence: medium | Source: [[NIST 800-207A — Cloud-Native Access Control]]
+
+├── nist-207a.1 (ext): Network-IP-based security controls are insufficient for cloud-native application
+│   └── nist-207a.4 (ext): Identity-tier policies provide five major advantages over network-tier: environm
+└── ncsc.4 (sup): Service identity (service accounts) and device identity (Verified Access via TPM
+    └── beyondprod.2 (sup): ALTS (Application Layer Transport Security) is the workhorse of BeyondProd — bin
+        ├── beyondprod.1 (sup): Perimeter security breaks down for microservices because services are mobile, ep
+        └── nist-207a.6 (sup): Deploying identity-tier policies requires a standardized infrastructure for crea
+
+## Cascade 4: nist207-ch7.7
+**Business process selection for ZTA migration should start with low-risk processes and cloud-based/remote-worker workflow**
+Confidence: high | Source: [[NIST 800-207 — Ch7 — Migration]]
+
+├── nist207-ch7.6 (dep): The enterprise must identify, catalog, and continuously monitor all assets — har
+│   ├── nist207-ch7.4 (ext): Before the 7-step cycle can begin, the enterprise must establish a foundational 
+│   │   └── nist207-ch7.12 (sup): The single biggest barrier to ZTA migration is incomplete knowledge of the enter
+│   └── nist207-ch7.5 (dep): All enterprise subjects — human users and Non-Person Entities (service accounts,
+└── nist207-ch7.3 (sup): The hybrid model — ZTA workflows coexisting with non-ZTA workflows — is the expe
+    └── nist207-ch7.1 (ext): ZTA migration is an incremental, recurring cycle — not a linear project — and mo
+
+## Cascade 5: nsa-device.3
+**Authorization decisions must be continuous and risk-based, not one-time at connection**
+Confidence: high | Source: [[NSA — Device Pillar]]
+
+├── nsa-device.2 (dep): Device Inventory progresses from manual lists to real-time, deny-by-default enro
+│   └── nsa-device.6 (dep): Centralized device management (UEM/MDM) is the enforcement backbone for all othe
+│       └── nsa-device.1 (sup): The device pillar has seven interdependent capabilities that collectively establ
+└── cisa-ztmm-dnad.1 (dep): Device Policy Enforcement & Compliance Monitoring — maturity progresses from lim
+
+## Cascade 6: gb-ch2.5
+**The control plane is the trust grantor — temporary trust and leased tokens are its operational expression**
+Confidence: high | Source: [[Gilman and Barth — Ch2 — Managing Trust]]
+
+├── gb-ch4-6.13 (dep): SSO should not remove the control plane from ongoing authorization
+│   ├── gb-ch10.7 (sup): Control plane compromise is the worst-case scenario — and it must be defended wi
+│   └── gilmanbarth-ch1.2 (dep): The control plane / data plane split is ZT's fundamental architectural innovatio
+│       ├── gc-ch1-3.9 (ext): The NIST PDP/PEP model is the correct foundation, but needs enterprise-specific 
+│       └── gc-ch1-3.10 (ext): There are three distinct types of PEPs, and understanding their differences is e
+├── gb-ch10.7 (dep): Control plane compromise is the worst-case scenario — and it must be defended wi
+├── gb-ch3.4 (ext): Agent data is sensitive and should be contained to the control plane, with contr
+└── cccs-arch.3 (sup): Preventing lateral movement is the *primary* goal of ZT
+    ├── gb-ch7-8.12 (sup): Three types of filtering form a defense-in-depth network security architecture
+    └── go-ch3-5.2 (ext): Enclave design is trust classification — what criteria justify grouping and what
+        └── go-ch3-5.1 (ext): Trust assessment is spatial — the architecture location determines trust data av
+
+## Cascade 7: ncsc.4
+**Service identity (service accounts) and device identity (Verified Access via TPM) are first-class identity types in Goog**
+Confidence: high | Source: [[NCSC — ZT Principles on Google Cloud]]
+
+├── beyondprod.2 (sup): ALTS (Application Layer Transport Security) is the workhorse of BeyondProd — bin
+│   ├── beyondprod.1 (sup): Perimeter security breaks down for microservices because services are mobile, ep
+│   │   └── nist-207a.1 (sup): Network-IP-based security controls are insufficient for cloud-native application
+│   │       └── nist-207a.4 (ext): Identity-tier policies provide five major advantages over network-tier: environm
+│   │           └── ...
+│   └── nist-207a.6 (sup): Deploying identity-tier policies requires a standardized infrastructure for crea
+└── nist-207a.1 (sup): Network-IP-based security controls are insufficient for cloud-native application
+
+## Cascade 8: cccs-arch.3
+**Preventing lateral movement is the *primary* goal of ZT**
+Confidence: high | Source: [[CCCS — ZT Approach to Security Architecture]]
+
+├── gb-ch7-8.12 (sup): Three types of filtering form a defense-in-depth network security architecture
+├── go-ch3-5.2 (ext): Enclave design is trust classification — what criteria justify grouping and what
+│   └── go-ch3-5.1 (ext): Trust assessment is spatial — the architecture location determines trust data av
+│       └── gilmanbarth-ch1.2 (ext): The control plane / data plane split is ZT's fundamental architectural innovatio
+│           ├── gb-ch2.5 (ext): The control plane is the trust grantor — temporary trust and leased tokens are i
+│           │   └── ...
+│           ├── gb-ch10.7 (dep): Control plane compromise is the worst-case scenario — and it must be defended wi
+│           │   └── ...
+│           ├── gc-ch1-3.9 (ext): The NIST PDP/PEP model is the correct foundation, but needs enterprise-specific 
+│           │   └── ...
+│           └── gc-ch1-3.10 (ext): There are three distinct types of PEPs, and understanding their differences is e
+│               └── ...
+└── gilmanbarth-ch1.2 (sup): The control plane / data plane split is ZT's fundamental architectural innovatio
+
+================================================================================
+3. CONVERGENCE POINTS — Where 5+ Different Sources Agree
+================================================================================
+
+Found 3 convergence points with 5+ unique source notes.
+
+--- Convergence #1: gilmanbarth-ch1.2 ---
+  Statement: The control plane / data plane split is ZT's fundamental architectural innovation
+  Confidence: high
+  Source diversity: 7 unique sources
+  Total supporters: 7
+  Contradictions: 0
+  Sources: CCCS — ZT Approach to Security Architecture, CISA ZTMM — Device Network App Data Pillars, Garbis and Chapman — Cloud IaaS SaaS, Gilman and Barth — Ch1 — Zero Trust Fundamentals, Gilman and Barth — Ch3 — Network Agents, Gilman and Barth — Ch4-6 — Authorization Devices Users, Green-Ortiz — Ch3-5 — Trust and Policy
+
+--- Convergence #2: gc-ch1-3.9 ---
+  Statement: The NIST PDP/PEP model is the correct foundation, but needs enterprise-specific refinement and extension.
+  Confidence: high
+  Source diversity: 6 unique sources
+  Total supporters: 7
+  Contradictions: 0
+  Sources: DoD ZT Reference Architecture — Capabilities and Use Cases, DoD ZT Reference Architecture — Overview and Strategy, Garbis and Chapman — Ch1-3 — Introduction and Architecture, Gilman and Barth — Ch1 — Zero Trust Fundamentals, Gilman and Barth — Ch3 — Network Agents, Gilman and Barth — Ch4-6 — Authorization Devices Users
+
+--- Convergence #3: nist-1800-35.4 ---
+  Statement: ZTA implementation is a continuous improvement journey, not a one-time project — seven sequential steps, with discovery and identity as the non-negoti
+  Confidence: high
+  Source diversity: 5 unique sources
+  Total supporters: 5
+  Contradictions: 0
+  Sources: BeyondCorp — Research Papers, Finney — Ch1-3 — The Zero Trust Story, Finney — Ch8-11 — Execution and Sustainability, Green-Ortiz — Ch9-11 — Advanced and Future, Green-Ortiz — Intro Ch1-2 — Foundations
+
+================================================================================
+4. CONTRADICTION CLUSTERS — Camps Around Known Tensions
+================================================================================
+
+CONTRADICTION: gc-soc-data-iot.5 ↔ nsa-device.5
+
+  SIDE A: ZT can bring real value to IoT, but IoT networks present fundamental limitations — closed systems, unencrypted protocols
+    Confidence: high | Camp size: 0 | Cross-fire: 0
+    Sources: none
+
+  SIDE B: Patch management must cover firmware and components below the OS layer
+    Confidence: high | Camp size: 3 | Cross-fire: 0
+    Sources: Gilman and Barth — Ch4-6 — Authorization Devices Users, Green-Ortiz — Intro Ch1-2 — Foundations, NSA — Device Pillar
+    Camp members: continuous-risk-based-device-authorization, trust-degrades-over-time-device-age-is-the, vulnerability-management-must-extend-beyond-cves-to-include
+
+  ASSESSMENT: Asymmetric — Side B has significantly more support (3 vs 0). Side A's position is the outlier.
+
+CONTRADICTION: gc-cloud.1 ↔ ncsc.2
+
+  SIDE A: IaaS/PaaS security hasn't kept pace with IaaS/PaaS adoption
+    Confidence: high | Camp size: 7 | Cross-fire: 0
+    Sources: BeyondProd — Cloud-Native Security, NCSC — ZT Principles on Google Cloud, NIST 800-207A — Cloud-Native Access Control
+    Camp members: cloud, deploying-identity, identity, network, perimeter-security-breaks-down-microservices-because-services, service-identity-service-accounts-device-identity-verified, successful-enterprise-zta-requires-multi
+
+  SIDE B: BeyondCorp is Google's implementation of the ZT model and provides the architectural foundation for all GCP ZT services 
+    Confidence: high | Camp size: 8 | Cross-fire: 0
+    Sources: BeyondProd — Cloud-Native Security, Halley — Zero Trust in Resilient Cloud, NCSC — ZT Principles on Google Cloud
+    Camp members: beyondcorp-beyondprod-together-form-complete-zt-model, google-zt-architecture-explicitly-supports-hybrid-environments, google-zt-architecture-maps-pdp-pep-model, ncsc, ncsc-principles-provide-practical-vendor, perimeter-security-breaks-down-microservices-because-services, service-identity-service-accounts-device-identity-verified, zt-operationalized-three-principles-apply-differently-per
+
+  ASSESSMENT: Genuine domain tension — both positions have multi-source support, with 2 shared source(s).
+
+================================================================================
+5. STRUCTURAL GAPS — Where the Graph Is Thin
+================================================================================
+
+Orphans (zero edges): 16
+  • go-intro.3: Cisco's five-pillar model (Policy & Governance, Identity, Vulnerability Management, Enforcement, Ana
+    Source: [[Green-Ortiz — Intro Ch1-2 — Foundations]]
+  • cisa-ztmm-dnad.19: Data Availability — maturity progresses from primarily on-premises data stores with some off-site ba
+    Source: [[CISA ZTMM — Device Network App Data Pillars]]
+  • cisa-ztmm-dnad.22: Data Cross-Cutting Capabilities — progress from limited visibility with manual analysis to visibilit
+    Source: [[CISA ZTMM — Device Network App Data Pillars]]
+  • cisa-ztmm-dnad.21: Data Encryption — maturity progresses from encrypting minimal agency data with ad hoc key management
+    Source: [[CISA ZTMM — Device Network App Data Pillars]]
+  • gc-net-access.2: DNS is both a critical infrastructure component and a security monitoring tool under ZT — private DN
+    Source: [[Garbis and Chapman — Network and Access Technologies]]
+  • go-intro.7: Enforcement must be layered and applied as close to the source as possible
+    Source: [[Green-Ortiz — Intro Ch1-2 — Foundations]]
+  • go-ch6-8.6: External access for IoT/endpoints requires baseline creation through multiple collection points — ed
+    Source: [[Green-Ortiz — Ch6-8 — Implementation]]
+  • nstac.6: The U.S. Government must incentivize non-federal ZT adoption through grants, procurement preferences
+    Source: [[NSTAC — ZT and Trusted Identity Management]]
+  • finney-ch4-7.11: Incident response must follow ZT principles, and the NIST Cybersecurity Framework provides a timelin
+    Source: [[Finney — Ch4-7 — Building the ZT Strategy]]
+  • cisa-ztmm-dnad.9: Network Resilience — maturity progresses from case-by-case network configuration matching individual
+    Source: [[CISA ZTMM — Device Network App Data Pillars]]
+  • nist207-ch5.6: Proprietary data formats and vendor-specific solutions create lock-in that is amplified under ZTA — 
+    Source: [[NIST 800-207 — Ch5 — Threats]]
+  • gc-cloud.5: SASE/ZTE converges networking and security, but ZTNA (ingress) is architecturally distinct
+    Source: [[Garbis and Chapman — Cloud IaaS SaaS]]
+  • gc-iam-policy.7: Zero Trust enhances legacy applications without modification — it's a security overlay, not a rip-an
+    Source: [[Garbis and Chapman — Practice IAM Policy]]
+  • gc-iam-policy.8: ZT can serve as a catalyst to improve IAM — not just consume it
+    Source: [[Garbis and Chapman — Practice IAM Policy]]
+  • gilmanbarth-ch1.1: The five fundamental assertions define ZT operationally, not abstractly
+    Source: [[Gilman and Barth — Ch1 — Zero Trust Fundamentals]]
+  • nsa-embrace.2: The three guiding principles operationalize ZT for defenders
+    Source: [[NSA — Embracing a Zero Trust Security Model]]
+
+Bridges (articulation points): 102
+  • nsa-device.3 (degree=8): Authorization decisions must be continuous and risk-based, not one-time at connection
+  • gc-ch1-3.9 (degree=7): The NIST PDP/PEP model is the correct foundation, but needs enterprise-specific refinement and exten
+  • bsi-zt.2 (degree=7): BSI provides a formal three-part definition that extends NIST with German regulatory context
+  • nist-207a.2 (degree=7): Cloud-native ZTA requires a dedicated infrastructure layer — the service mesh — that acts as a "clou
+  • ncsc.2 (degree=6): BeyondCorp is Google's implementation of the ZT model and provides the architectural foundation for 
+  • cccs-model.1 (degree=6): ZT is defined through the CISA five-pillar model rather than NIST tenets
+  • nist207-ch1.8 (degree=5): The document's organization — definitions → components → use cases → threats → federal guidance → mi
+  • finney-ch1-3.1 (degree=5): Trust is the root vulnerability that Zero Trust addresses
+  • cisa-ztmm-dnad.18 (degree=5): Data Categorization — maturity progresses from limited and ad hoc categorization to automated data c
+  • gb-ch7-8.1 (degree=5): The application pipeline is a cryptographic chain — break any link and trust is lost
+
+Connected components: 65
+Small isolated clusters:
+  Cluster (4 claims): 19-builds-demonstrate-zta-implemented-diverse-vendor, eig-crawl-phase-proved-legacy-icam-solutions, the-two-case-studies-demonstrate-zt-is-cross-domain, zta-implementation-single-architecture-spectrum-deployment-approaches
+  Cluster (2 claims): 8021x-based-nac-is-fundamentally-incompatible-with-zero-trusts, nac-eg-cisco-ise-functions-as-the-single
+  Cluster (2 claims): accessible-applications-public-networks, application-access-continuous-authorization
+  Cluster (2 claims): agents-are-ephemeral-request-scoped-and-purely-for-authorization, encryption-and-authentication-are-separate-concerns-zero-trust
+  Cluster (5 claims): ai-zt-intersection-least, autonomous-agentic-operation-without-human-oversight-inadvisable, input-output-validation-gateway, llm-systems-require-their-own-dedicated-zero, session
+  Cluster (3 claims): authentication-authorization-dynamic-continuous, mfa-is-necessary-but-insufficient-attackers-have-at, out-of-band-and-multi-channel-authentication-raise-the-attackers-cost
+  Cluster (2 claims): certificate-signing-is-a-trust-injection-point-that, group-authorization-is-the-highest-trust-mechanism-for-extremely
+  Cluster (3 claims): cipher-suite-negotiation-is-an-anti-pattern-newer-protocols, idps-capabilities-remain-essential-but-the-how-changes, traffic-encryption-cryptographic-agility
+  Cluster (2 claims): cisa-nsa-identity-complementary, nsa-cisa-identity-frameworks-complementary
+  Cluster (4 claims): cross-cutting-capabilities-convergence, cross-cutting-capabilities-prevent-silos, dod-seven-pillars-identical-cisa, five-pillar-comprehensive-decomposition
+  Cluster (3 claims): cross-enterprise-federated-identity-peps, identity-federation-hard-problem, identity-stores-integrated-not-just-federated
+  Cluster (4 claims): cross-pillar-maturity-trajectory, four-maturity-levels-progressive-capability, zero-trust-never-ends-the-maturity-model-turns, zt-maturity-incremental
+  Cluster (2 claims): culture-change-requires-rituals-not-just-policies-the, security-awareness-training-is-a-protect-surface-apply
+  Cluster (2 claims): ddos-is-still-a-problem-zt-doesnt-mitigate, dos-against-pa-pep-unique-pathology
+  Cluster (2 claims): deception-technologies-invert-zt-selectively-add-trust-back, red-herrings-and-the-fog-of-war-the
+  Cluster (4 claims): dependency-curves-reveal-zt-operational-limits, five-nist-csf-functions-form-strict-temporal, grid-most-parsimonious-complete-map-cybersecurity, zt-maps-specific-protect-cells
+  Cluster (4 claims): dod-five-tenets-threat-operational, nist-sp-800-207-provides-the-architectural-tenets-but, the-four-design-principles-and-five-step-methodology-make, zt-tenets-aspirational
+  Cluster (3 claims): dod-threat-model-different-from-civilian, zt-cannot-defend-against-a-malicious-computing-platform, zts-threat-model-is-the-internet-threat-model
+  Cluster (5 claims): eight-data-sources-feed-policy-engine, ffp-five-decision-points-chain, the-policy-evaluation-flow-pdp-grants-pep-renders, zt-pdp-pep-model, zta-three-core-components-pe-pa-pep
+  Cluster (3 claims): encrypted-traffic-visibility-gap, monitoring-data-reconnaissance-target, pe-pa-compromise-highest-impact-threat
+  Cluster (2 claims): executive-sponsorship-and-crisis-create-the-window-for, five-business-value-drivers-not-security-alone-justify
+  Cluster (3 claims): federal-program-interactions-synthesis, identity-governance-needs-a-cross-functional-stakeholder-group-and, zta-prerequisites-icam-cdm
+  Cluster (5 claims): identity-cross-cutting-capabilities, npe-person-identities-independent-confidence, server-to-server-zt-is-a-fundamentally-different-problem-than, the-network-agent-is-the-marriage-of-user, the-three-layer-authorization-model-reveals-why-zt-is
+  Cluster (3 claims): identity-is-simultaneously-the-most-important-protect-surface, identity-is-the-keystone-of-zero-trust-but, the-future-of-zt-saas-is-identity-providers
+  Cluster (4 claims): invalidation-is-a-hard-problem-in-computer-science, least-privilege-in-zt-is-dynamic-multi-attribute-and, revoke-authorization-first-credentials-second, the-software-defined-perimeter-architecture-delivers-zt-principles-through
+  Cluster (2 claims): nation-state-incidents-perimeter-obsolete, traditional-enterprise-security-is-structurally-broken-not-merely
+  Cluster (3 claims): npe-authentication-unresolved-risk, social-engineering-and-physical-coercion-are-the-threats, stolen-credentials-zta-constrains-blast-radius
+  Cluster (2 claims): project-eight-use-case-categories, project-mapped-zta-security-capabilities-nist-csf
+  Cluster (3 claims): rmf-zta-changes-authorization-boundaries, the-14-platform-requirements-operationalize-the-principles-into, three-expanded-principles-api-integration-automation-and-business
+  Cluster (2 claims): seven-zt-scenarios-provide-a-practical-non-exhaustive-framework, the-first-protect-surface-must-be-what-the
+  Cluster (2 claims): the-first-packet-problem-is-solved-by-single, zt-guarantees-confidentiality-but-not-privacy-endpoint-enumeration
+  Cluster (2 claims): three-threat-frameworks-progression, zt-threat-scenarios-illustrative
+
+Sparse topics (avg edges < 2.0, ≥3 claims):
+  • topic/zt-encryption: 11 claims, avg 1.4 edges
+  • topic/zt-data: 11 claims, avg 1.6 edges
+  • topic/zt-access-mgmt: 37 claims, avg 1.8 edges
+  • topic/zt-threats: 43 claims, avg 1.8 edges
+  • topic/zt-monitoring: 25 claims, avg 1.9 edges
+
+================================================================================
+END OF PHASE 4 ANALYSIS
+================================================================================

@@ -277,7 +277,20 @@ Target: 1 session, 20 notes
 | zt-positive-tenets | 7 |
 | the-nist-pdppep-model-is-the-correct-foundation | 7 |
 
+### 2026-07-24 — Phase 4
+- **Structural analysis:** Hinge inventory, cascade trees, convergence points, contradiction clusters, structural gaps
+- **Betweenness centrality:** Brandes algorithm on directed graph (405 nodes, 470 edges)
+- **Key outputs:** `phase4_analysis.py`, `phase4_analysis_output.txt`, `phase4_analysis.json`
+- **Top hinge:** gilmanbarth-ch1.2 (control plane / data plane split) — score 1072, 7 cross-source supporters, 0 contradictions
+- **Convergence points:** 3 (>=5 cross-source supports). Control plane split, PDP/PEP model refinement, continuous improvement journey
+- **Genuine tension:** IaaS/PaaS security gap vs BeyondCorp maturity (8 vs 7 camps, 2 shared sources — same evidence, different readings)
+- **Structurally weak:** IoT/patch-management contradiction (0 vs 3 camps)
+- **Orphans:** 16 claims with zero edges (mostly CISA maturity details and Garbis/Chapman practical guidance)
+- **Bridges:** 102 articulation points — graph is loosely connected web
+- **Sparse topics:** encryption (1.4 avg edges), data (1.6), access mgmt (1.8), threats (1.8), monitoring (1.9)
+
 ### Session Log
+
 
 ### 2026-07-24 — Phase 3 Pass 1
 - **Clustering:** 405 claims → 27 clusters via topic+claim_type grouping

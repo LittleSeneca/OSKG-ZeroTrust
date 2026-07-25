@@ -1,0 +1,786 @@
+{
+  "hinges": [
+    {
+      "slug": "zt-control-data-plane-split",
+      "claim_id": "gilmanbarth-ch1.2",
+      "statement": "The control plane / data plane split is ZT's fundamental architectural innovation",
+      "score": 1072.0,
+      "degree": 12,
+      "betweenness": 89.33,
+      "confidence": "high",
+      "source_note": "[[Gilman and Barth \u2014 Ch1 \u2014 Zero Trust Fundamentals]]",
+      "topics": [
+        "zt-architecture",
+        "zt-network",
+        "zt-definition",
+        "zt-policy",
+        "zt-sdn"
+      ],
+      "downstream_count": 4,
+      "hop2_count": 5,
+      "incoming_count": 8,
+      "fragmentation": "Removing this claim would disconnect 4 direct dependents and potentially fragment 5 second-order claims"
+    },
+    {
+      "slug": "ztmm-operationalizes-nist-seven-tenets",
+      "claim_id": "cisa-ztmm-ov.9",
+      "statement": "The ZTMM operationalizes all seven NIST 800-207 tenets into measurable capabilities",
+      "score": 370.0,
+      "degree": 5,
+      "betweenness": 74.0,
+      "confidence": "high",
+      "source_note": "[[CISA ZTMM \u2014 Overview and Framework]]",
+      "topics": [
+        "zt-governance",
+        "zt-definition",
+        "zt-identity",
+        "zt-architecture"
+      ],
+      "downstream_count": 3,
+      "hop2_count": 5,
+      "incoming_count": 2,
+      "fragmentation": "Removing this claim would disconnect 3 direct dependents and potentially fragment 5 second-order claims"
+    },
+    {
+      "slug": "cloud",
+      "claim_id": "nist-207a.2",
+      "statement": "Cloud-native ZTA requires a dedicated infrastructure layer \u2014 the service mesh \u2014 that acts as a \"cloud-native security kernel\" providing non-bypassable",
+      "score": 353.5,
+      "degree": 7,
+      "betweenness": 50.5,
+      "confidence": "medium",
+      "source_note": "[[NIST 800-207A \u2014 Cloud-Native Access Control]]",
+      "topics": [
+        "zt-cloud",
+        "zt-implementation",
+        "zt-architecture",
+        "zt-network"
+      ],
+      "downstream_count": 2,
+      "hop2_count": 3,
+      "incoming_count": 5,
+      "fragmentation": "Removing this claim would disconnect 2 direct dependents and potentially fragment 3 second-order claims"
+    },
+    {
+      "slug": "business-process-selection-step3-migration",
+      "claim_id": "nist207-ch7.7",
+      "statement": "Business process selection for ZTA migration should start with low-risk processes and cloud-based/remote-worker workflows, using the NIST RMF to evalu",
+      "score": 325.0,
+      "degree": 5,
+      "betweenness": 65.0,
+      "confidence": "high",
+      "source_note": "[[NIST 800-207 \u2014 Ch7 \u2014 Migration]]",
+      "topics": [
+        "zt-migration",
+        "zt-governance",
+        "zt-maturity"
+      ],
+      "downstream_count": 2,
+      "hop2_count": 3,
+      "incoming_count": 3,
+      "fragmentation": "Removing this claim would disconnect 2 direct dependents and potentially fragment 3 second-order claims"
+    },
+    {
+      "slug": "continuous-risk-based-device-authorization",
+      "claim_id": "nsa-device.3",
+      "statement": "Authorization decisions must be continuous and risk-based, not one-time at connection",
+      "score": 296.0,
+      "degree": 8,
+      "betweenness": 37.0,
+      "confidence": "high",
+      "source_note": "[[NSA \u2014 Device Pillar]]",
+      "topics": [
+        "zt-device",
+        "zt-trust",
+        "zt-identity",
+        "zt-access-mgmt"
+      ],
+      "downstream_count": 2,
+      "hop2_count": 1,
+      "incoming_count": 6,
+      "fragmentation": "Removing this claim would disconnect 2 direct dependents and potentially fragment 1 second-order claims"
+    },
+    {
+      "slug": "the-control-plane-is-the-trust-grantor-temporary",
+      "claim_id": "gb-ch2.5",
+      "statement": "The control plane is the trust grantor \u2014 temporary trust and leased tokens are its operational expression",
+      "score": 270.0,
+      "degree": 5,
+      "betweenness": 54.0,
+      "confidence": "high",
+      "source_note": "[[Gilman and Barth \u2014 Ch2 \u2014 Managing Trust]]",
+      "topics": [
+        "zt-architecture",
+        "zt-authentication",
+        "zt-implementation",
+        "zt-definition",
+        "zt-sdn"
+      ],
+      "downstream_count": 4,
+      "hop2_count": 4,
+      "incoming_count": 1,
+      "fragmentation": "Removing this claim would disconnect 4 direct dependents and potentially fragment 4 second-order claims"
+    },
+    {
+      "slug": "service-identity-service-accounts-device-identity-verified",
+      "claim_id": "ncsc.4",
+      "statement": "Service identity (service accounts) and device identity (Verified Access via TPM) are first-class identity types in Google's ZT model \u2014 going beyond u",
+      "score": 247.5,
+      "degree": 5,
+      "betweenness": 49.5,
+      "confidence": "high",
+      "source_note": "[[NCSC \u2014 ZT Principles on Google Cloud]]",
+      "topics": [
+        "zt-cloud",
+        "zt-implementation",
+        "zt-architecture",
+        "zt-network"
+      ],
+      "downstream_count": 2,
+      "hop2_count": 3,
+      "incoming_count": 3,
+      "fragmentation": "Removing this claim would disconnect 2 direct dependents and potentially fragment 3 second-order claims"
+    },
+    {
+      "slug": "preventing-lateral-movement-primary-goal-zt",
+      "claim_id": "cccs-arch.3",
+      "statement": "Preventing lateral movement is the *primary* goal of ZT",
+      "score": 240.0,
+      "degree": 6,
+      "betweenness": 40.0,
+      "confidence": "high",
+      "source_note": "[[CCCS \u2014 ZT Approach to Security Architecture]]",
+      "topics": [
+        "zt-architecture",
+        "zt-implementation",
+        "zt-cloud",
+        "zt-network"
+      ],
+      "downstream_count": 3,
+      "hop2_count": 5,
+      "incoming_count": 3,
+      "fragmentation": "Removing this claim would disconnect 3 direct dependents and potentially fragment 5 second-order claims"
+    },
+    {
+      "slug": "cdm-visibility-prerequisite-zta",
+      "claim_id": "nist207-ch6.8",
+      "statement": "CDM is the visibility prerequisite for ZTA \u2014 without CDM's four foundational questions answered (what is connected, who is on the network, what is hap",
+      "score": 228.0,
+      "degree": 6,
+      "betweenness": 38.0,
+      "confidence": "high",
+      "source_note": "[[NIST 800-207 \u2014 Ch6 \u2014 Federal Guidance]]",
+      "topics": [
+        "zt-governance",
+        "zt-device",
+        "zt-identity",
+        "zt-definition"
+      ],
+      "downstream_count": 3,
+      "hop2_count": 4,
+      "incoming_count": 3,
+      "fragmentation": "Removing this claim would disconnect 3 direct dependents and potentially fragment 4 second-order claims"
+    },
+    {
+      "slug": "zta-complementary-not-replacement",
+      "claim_id": "nist207-ch6.1",
+      "statement": "ZTA is complementary to existing federal frameworks, not a replacement \u2014 it changes the locus of enforcement (from perimeter to resource) and the gran",
+      "score": 210.0,
+      "degree": 5,
+      "betweenness": 42.0,
+      "confidence": "high",
+      "source_note": "[[NIST 800-207 \u2014 Ch6 \u2014 Federal Guidance]]",
+      "topics": [
+        "zt-governance",
+        "zt-architecture",
+        "zt-network"
+      ],
+      "downstream_count": 3,
+      "hop2_count": 3,
+      "incoming_count": 2,
+      "fragmentation": "Removing this claim would disconnect 3 direct dependents and potentially fragment 3 second-order claims"
+    },
+    {
+      "slug": "policy-formulation-step4-migration",
+      "claim_id": "nist207-ch7.8",
+      "statement": "Policy formulation for the ZTA candidate requires evaluating asset value/risk via RMF, identifying all upstream/downstream resources, and choosing bet",
+      "score": 208.0,
+      "degree": 4,
+      "betweenness": 52.0,
+      "confidence": "high",
+      "source_note": "[[NIST 800-207 \u2014 Ch7 \u2014 Migration]]",
+      "topics": [
+        "zt-migration",
+        "zt-policy",
+        "zt-implementation",
+        "zt-governance"
+      ],
+      "downstream_count": 1,
+      "hop2_count": 2,
+      "incoming_count": 3,
+      "fragmentation": "Removing this claim would disconnect 1 direct dependents and potentially fragment 2 second-order claims"
+    },
+    {
+      "slug": "beyondcorp-google-implementation-zt-model-provides-architectural",
+      "claim_id": "ncsc.2",
+      "statement": "BeyondCorp is Google's implementation of the ZT model and provides the architectural foundation for all GCP ZT services \u2014 it is the most mature, battl",
+      "score": 180.0,
+      "degree": 6,
+      "betweenness": 30.0,
+      "confidence": "high",
+      "source_note": "[[NCSC \u2014 ZT Principles on Google Cloud]]",
+      "topics": [
+        "zt-cloud",
+        "zt-implementation",
+        "zt-architecture",
+        "zt-network",
+        "zt-remote-access"
+      ],
+      "downstream_count": 1,
+      "hop2_count": 2,
+      "incoming_count": 4,
+      "fragmentation": "Removing this claim would disconnect 1 direct dependents and potentially fragment 2 second-order claims"
+    },
+    {
+      "slug": "network",
+      "claim_id": "nist-207a.1",
+      "statement": "Network-IP-based security controls are insufficient for cloud-native applications because microservices are ephemeral, geographically distributed, and",
+      "score": 175.0,
+      "degree": 7,
+      "betweenness": 25.0,
+      "confidence": "high",
+      "source_note": "[[NIST 800-207A \u2014 Cloud-Native Access Control]]",
+      "topics": [
+        "zt-cloud",
+        "zt-implementation",
+        "zt-network",
+        "zt-governance"
+      ],
+      "downstream_count": 1,
+      "hop2_count": 0,
+      "incoming_count": 6,
+      "fragmentation": "Removing this claim would disconnect 1 direct dependents and potentially fragment 0 second-order claims"
+    },
+    {
+      "slug": "alts-application-layer-transport-security-workhorse-beyondprod",
+      "claim_id": "beyondprod.2",
+      "statement": "ALTS (Application Layer Transport Security) is the workhorse of BeyondProd \u2014 binding identities to services rather than hosts is the critical design d",
+      "score": 137.5,
+      "degree": 5,
+      "betweenness": 27.5,
+      "confidence": "high",
+      "source_note": "[[BeyondProd \u2014 Cloud-Native Security]]",
+      "topics": [
+        "zt-cloud",
+        "zt-implementation",
+        "zt-architecture",
+        "zt-governance"
+      ],
+      "downstream_count": 2,
+      "hop2_count": 1,
+      "incoming_count": 3,
+      "fragmentation": "Removing this claim would disconnect 2 direct dependents and potentially fragment 1 second-order claims"
+    },
+    {
+      "slug": "zero-trust-solution-product",
+      "claim_id": "dod-strategy.1",
+      "statement": "Zero Trust is not an IT solution or product \u2014 it requires cultural transformation across the entire Department, not just the cybersecurity workforce.",
+      "score": 124.0,
+      "degree": 4,
+      "betweenness": 31.0,
+      "confidence": "high",
+      "source_note": "[[DoD \u2014 ZT Strategy and Roadmap]]",
+      "topics": [
+        "zt-governance",
+        "zt-migration",
+        "zt-definition",
+        "zt-maturity"
+      ],
+      "downstream_count": 2,
+      "hop2_count": 2,
+      "incoming_count": 2,
+      "fragmentation": "Removing this claim would disconnect 2 direct dependents and potentially fragment 2 second-order claims"
+    }
+  ],
+  "convergence": [
+    {
+      "slug": "zt-control-data-plane-split",
+      "claim_id": "gilmanbarth-ch1.2",
+      "statement": "The control plane / data plane split is ZT's fundamental architectural innovation",
+      "confidence": "high",
+      "source_notes": [
+        "CCCS \u2014 ZT Approach to Security Architecture",
+        "CISA ZTMM \u2014 Device Network App Data Pillars",
+        "Garbis and Chapman \u2014 Cloud IaaS SaaS",
+        "Gilman and Barth \u2014 Ch1 \u2014 Zero Trust Fundamentals",
+        "Gilman and Barth \u2014 Ch3 \u2014 Network Agents",
+        "Gilman and Barth \u2014 Ch4-6 \u2014 Authorization Devices Users",
+        "Green-Ortiz \u2014 Ch3-5 \u2014 Trust and Policy"
+      ],
+      "source_diversity": 7,
+      "total_supporters": 7,
+      "contradictions": 0
+    },
+    {
+      "slug": "the-nist-pdppep-model-is-the-correct-foundation",
+      "claim_id": "gc-ch1-3.9",
+      "statement": "The NIST PDP/PEP model is the correct foundation, but needs enterprise-specific refinement and extension.",
+      "confidence": "high",
+      "source_notes": [
+        "DoD ZT Reference Architecture \u2014 Capabilities and Use Cases",
+        "DoD ZT Reference Architecture \u2014 Overview and Strategy",
+        "Garbis and Chapman \u2014 Ch1-3 \u2014 Introduction and Architecture",
+        "Gilman and Barth \u2014 Ch1 \u2014 Zero Trust Fundamentals",
+        "Gilman and Barth \u2014 Ch3 \u2014 Network Agents",
+        "Gilman and Barth \u2014 Ch4-6 \u2014 Authorization Devices Users"
+      ],
+      "source_diversity": 6,
+      "total_supporters": 7,
+      "contradictions": 0
+    },
+    {
+      "slug": "zta-implementation-continuous-improvement-journey-one",
+      "claim_id": "nist-1800-35.4",
+      "statement": "ZTA implementation is a continuous improvement journey, not a one-time project \u2014 seven sequential steps, with discovery and identity as the non-negoti",
+      "confidence": "high",
+      "source_notes": [
+        "BeyondCorp \u2014 Research Papers",
+        "Finney \u2014 Ch1-3 \u2014 The Zero Trust Story",
+        "Finney \u2014 Ch8-11 \u2014 Execution and Sustainability",
+        "Green-Ortiz \u2014 Ch9-11 \u2014 Advanced and Future",
+        "Green-Ortiz \u2014 Intro Ch1-2 \u2014 Foundations"
+      ],
+      "source_diversity": 5,
+      "total_supporters": 5,
+      "contradictions": 0
+    }
+  ],
+  "contradiction_clusters": [
+    {
+      "slug_a": "zt-can-bring-real-value-to-iot-but",
+      "claim_id_a": "gc-soc-data-iot.5",
+      "statement_a": "ZT can bring real value to IoT, but IoT networks present fundamental limitations \u2014 closed systems, unencrypted protocols, weak authentication, and unp",
+      "confidence_a": "high",
+      "camp_a": [],
+      "camp_a_count": 0,
+      "cross_a_count": 0,
+      "sources_a": [],
+      "slug_b": "firmware-level-patch-management",
+      "claim_id_b": "nsa-device.5",
+      "statement_b": "Patch management must cover firmware and components below the OS layer",
+      "confidence_b": "high",
+      "camp_b": [
+        "continuous-risk-based-device-authorization",
+        "trust-degrades-over-time-device-age-is-the",
+        "vulnerability-management-must-extend-beyond-cves-to-include"
+      ],
+      "camp_b_count": 3,
+      "cross_b_count": 0,
+      "sources_b": [
+        "Gilman and Barth \u2014 Ch4-6 \u2014 Authorization Devices Users",
+        "Green-Ortiz \u2014 Intro Ch1-2 \u2014 Foundations",
+        "NSA \u2014 Device Pillar"
+      ]
+    },
+    {
+      "slug_a": "iaaspaas-security-hasnt-kept-pace-with-iaaspaas-adoption",
+      "claim_id_a": "gc-cloud.1",
+      "statement_a": "IaaS/PaaS security hasn't kept pace with IaaS/PaaS adoption",
+      "confidence_a": "high",
+      "camp_a": [
+        "cloud",
+        "deploying-identity",
+        "identity",
+        "network",
+        "perimeter-security-breaks-down-microservices-because-services",
+        "service-identity-service-accounts-device-identity-verified",
+        "successful-enterprise-zta-requires-multi"
+      ],
+      "camp_a_count": 7,
+      "cross_a_count": 0,
+      "sources_a": [
+        "BeyondProd \u2014 Cloud-Native Security",
+        "NCSC \u2014 ZT Principles on Google Cloud",
+        "NIST 800-207A \u2014 Cloud-Native Access Control"
+      ],
+      "slug_b": "beyondcorp-google-implementation-zt-model-provides-architectural",
+      "claim_id_b": "ncsc.2",
+      "statement_b": "BeyondCorp is Google's implementation of the ZT model and provides the architectural foundation for all GCP ZT services \u2014 it is the most mature, battl",
+      "confidence_b": "high",
+      "camp_b": [
+        "beyondcorp-beyondprod-together-form-complete-zt-model",
+        "google-zt-architecture-explicitly-supports-hybrid-environments",
+        "google-zt-architecture-maps-pdp-pep-model",
+        "ncsc",
+        "ncsc-principles-provide-practical-vendor",
+        "perimeter-security-breaks-down-microservices-because-services",
+        "service-identity-service-accounts-device-identity-verified",
+        "zt-operationalized-three-principles-apply-differently-per"
+      ],
+      "camp_b_count": 8,
+      "cross_b_count": 0,
+      "sources_b": [
+        "BeyondProd \u2014 Cloud-Native Security",
+        "Halley \u2014 Zero Trust in Resilient Cloud",
+        "NCSC \u2014 ZT Principles on Google Cloud"
+      ]
+    }
+  ],
+  "structural_gaps": {
+    "orphan_count": 16,
+    "bridge_count": 102,
+    "component_count": 65
+  },
+  "structural_gaps_detail": {
+    "orphan_count": 16,
+    "orphans": [
+      {
+        "slug": "ciscos-five-pillar-model-policy-governance-identity-vulnerability-management",
+        "claim_id": "go-intro.3",
+        "statement": "Cisco's five-pillar model (Policy & Governance, Identity, Vulnerability Management, Enforcement, Analytics) provides a c",
+        "source_note": "[[Green-Ortiz \u2014 Intro Ch1-2 \u2014 Foundations]]"
+      },
+      {
+        "slug": "data-availability-dynamic-optimization",
+        "claim_id": "cisa-ztmm-dnad.19",
+        "statement": "Data Availability \u2014 maturity progresses from primarily on-premises data stores with some off-site backups to dynamic met",
+        "source_note": "[[CISA ZTMM \u2014 Device Network App Data Pillars]]"
+      },
+      {
+        "slug": "data-cross-cutting-capabilities-summary",
+        "claim_id": "cisa-ztmm-dnad.22",
+        "statement": "Data Cross-Cutting Capabilities \u2014 progress from limited visibility with manual analysis to visibility across the full da",
+        "source_note": "[[CISA ZTMM \u2014 Device Network App Data Pillars]]"
+      },
+      {
+        "slug": "data-encryption-comprehensive",
+        "claim_id": "cisa-ztmm-dnad.21",
+        "statement": "Data Encryption \u2014 maturity progresses from encrypting minimal agency data with ad hoc key management to encrypting data ",
+        "source_note": "[[CISA ZTMM \u2014 Device Network App Data Pillars]]"
+      },
+      {
+        "slug": "dns-is-both-a-critical-infrastructure-component-and",
+        "claim_id": "gc-net-access.2",
+        "statement": "DNS is both a critical infrastructure component and a security monitoring tool under ZT \u2014 private DNS resolution must ad",
+        "source_note": "[[Garbis and Chapman \u2014 Network and Access Technologies]]"
+      },
+      {
+        "slug": "enforcement-must-be-layered-and-applied-as-close",
+        "claim_id": "go-intro.7",
+        "statement": "Enforcement must be layered and applied as close to the source as possible",
+        "source_note": "[[Green-Ortiz \u2014 Intro Ch1-2 \u2014 Foundations]]"
+      },
+      {
+        "slug": "external-access-for-iotendpoints-requires-baseline-creation-through",
+        "claim_id": "go-ch6-8.6",
+        "statement": "External access for IoT/endpoints requires baseline creation through multiple collection points \u2014 edge firewall logs, In",
+        "source_note": "[[Green-Ortiz \u2014 Ch6-8 \u2014 Implementation]]"
+      },
+      {
+        "slug": "government-incentivize-non",
+        "claim_id": "nstac.6",
+        "statement": "The U.S. Government must incentivize non-federal ZT adoption through grants, procurement preferences, international stan",
+        "source_note": "[[NSTAC \u2014 ZT and Trusted Identity Management]]"
+      },
+      {
+        "slug": "incident-response-must-follow-zt-principles-and-the",
+        "claim_id": "finney-ch4-7.11",
+        "statement": "Incident response must follow ZT principles, and the NIST Cybersecurity Framework provides a timeline-based structure th",
+        "source_note": "[[Finney \u2014 Ch4-7 \u2014 Building the ZT Strategy]]"
+      },
+      {
+        "slug": "network-resilience-holistic",
+        "claim_id": "cisa-ztmm-dnad.9",
+        "statement": "Network Resilience \u2014 maturity progresses from case-by-case network configuration matching individual application availab",
+        "source_note": "[[CISA ZTMM \u2014 Device Network App Data Pillars]]"
+      },
+      {
+        "slug": "proprietary-lock-in-amplified-zta",
+        "claim_id": "nist207-ch5.6",
+        "statement": "Proprietary data formats and vendor-specific solutions create lock-in that is amplified under ZTA \u2014 interoperability gap",
+        "source_note": "[[NIST 800-207 \u2014 Ch5 \u2014 Threats]]"
+      },
+      {
+        "slug": "sasezte-converges-networking-and-security-but-ztna-ingress",
+        "claim_id": "gc-cloud.5",
+        "statement": "SASE/ZTE converges networking and security, but ZTNA (ingress) is architecturally distinct",
+        "source_note": "[[Garbis and Chapman \u2014 Cloud IaaS SaaS]]"
+      },
+      {
+        "slug": "zero-trust-enhances-legacy-applications-without-modification-its",
+        "claim_id": "gc-iam-policy.7",
+        "statement": "Zero Trust enhances legacy applications without modification \u2014 it's a security overlay, not a rip-and-replace",
+        "source_note": "[[Garbis and Chapman \u2014 Practice IAM Policy]]"
+      },
+      {
+        "slug": "zt-can-serve-as-a-catalyst-to-improve",
+        "claim_id": "gc-iam-policy.8",
+        "statement": "ZT can serve as a catalyst to improve IAM \u2014 not just consume it",
+        "source_note": "[[Garbis and Chapman \u2014 Practice IAM Policy]]"
+      },
+      {
+        "slug": "zt-five-fundamental-assertions",
+        "claim_id": "gilmanbarth-ch1.1",
+        "statement": "The five fundamental assertions define ZT operationally, not abstractly",
+        "source_note": "[[Gilman and Barth \u2014 Ch1 \u2014 Zero Trust Fundamentals]]"
+      },
+      {
+        "slug": "zt-three-guiding-principles",
+        "claim_id": "nsa-embrace.2",
+        "statement": "The three guiding principles operationalize ZT for defenders",
+        "source_note": "[[NSA \u2014 Embracing a Zero Trust Security Model]]"
+      }
+    ],
+    "bridge_count": 102,
+    "bridges": [
+      {
+        "slug": "continuous-risk-based-device-authorization",
+        "claim_id": "nsa-device.3",
+        "statement": "Authorization decisions must be continuous and risk-based, not one-time at connection",
+        "degree": 8
+      },
+      {
+        "slug": "the-nist-pdppep-model-is-the-correct-foundation",
+        "claim_id": "gc-ch1-3.9",
+        "statement": "The NIST PDP/PEP model is the correct foundation, but needs enterprise-specific refinement and extension.",
+        "degree": 7
+      },
+      {
+        "slug": "bsi-provides-formal-three",
+        "claim_id": "bsi-zt.2",
+        "statement": "BSI provides a formal three-part definition that extends NIST with German regulatory context",
+        "degree": 7
+      },
+      {
+        "slug": "cloud",
+        "claim_id": "nist-207a.2",
+        "statement": "Cloud-native ZTA requires a dedicated infrastructure layer \u2014 the service mesh \u2014 that acts as a \"cloud-native security ke",
+        "degree": 7
+      },
+      {
+        "slug": "beyondcorp-google-implementation-zt-model-provides-architectural",
+        "claim_id": "ncsc.2",
+        "statement": "BeyondCorp is Google's implementation of the ZT model and provides the architectural foundation for all GCP ZT services ",
+        "degree": 6
+      },
+      {
+        "slug": "zt-defined-cisa-five",
+        "claim_id": "cccs-model.1",
+        "statement": "ZT is defined through the CISA five-pillar model rather than NIST tenets",
+        "degree": 6
+      },
+      {
+        "slug": "nist-document-structure-framework",
+        "claim_id": "nist207-ch1.8",
+        "statement": "The document's organization \u2014 definitions \u2192 components \u2192 use cases \u2192 threats \u2192 federal guidance \u2192 migration roadmap \u2014 re",
+        "degree": 5
+      },
+      {
+        "slug": "trust-is-the-root-vulnerability-that-zero-trust",
+        "claim_id": "finney-ch1-3.1",
+        "statement": "Trust is the root vulnerability that Zero Trust addresses",
+        "degree": 5
+      },
+      {
+        "slug": "data-categorization-automated-labeling",
+        "claim_id": "cisa-ztmm-dnad.18",
+        "statement": "Data Categorization \u2014 maturity progresses from limited and ad hoc categorization to automated data categorization and la",
+        "degree": 5
+      },
+      {
+        "slug": "the-application-pipeline-is-a-cryptographic-chain-break",
+        "claim_id": "gb-ch7-8.1",
+        "statement": "The application pipeline is a cryptographic chain \u2014 break any link and trust is lost",
+        "degree": 5
+      }
+    ],
+    "component_count": 65,
+    "isolated_components": [
+      [
+        "19-builds-demonstrate-zta-implemented-diverse-vendor",
+        "eig-crawl-phase-proved-legacy-icam-solutions",
+        "the-two-case-studies-demonstrate-zt-is-cross-domain",
+        "zta-implementation-single-architecture-spectrum-deployment-approaches"
+      ],
+      [
+        "8021x-based-nac-is-fundamentally-incompatible-with-zero-trusts",
+        "nac-eg-cisco-ise-functions-as-the-single"
+      ],
+      [
+        "accessible-applications-public-networks",
+        "application-access-continuous-authorization"
+      ],
+      [
+        "agents-are-ephemeral-request-scoped-and-purely-for-authorization",
+        "encryption-and-authentication-are-separate-concerns-zero-trust"
+      ],
+      [
+        "ai-zt-intersection-least",
+        "autonomous-agentic-operation-without-human-oversight-inadvisable",
+        "input-output-validation-gateway",
+        "llm-systems-require-their-own-dedicated-zero",
+        "session"
+      ],
+      [
+        "authentication-authorization-dynamic-continuous",
+        "mfa-is-necessary-but-insufficient-attackers-have-at",
+        "out-of-band-and-multi-channel-authentication-raise-the-attackers-cost"
+      ],
+      [
+        "certificate-signing-is-a-trust-injection-point-that",
+        "group-authorization-is-the-highest-trust-mechanism-for-extremely"
+      ],
+      [
+        "cipher-suite-negotiation-is-an-anti-pattern-newer-protocols",
+        "idps-capabilities-remain-essential-but-the-how-changes",
+        "traffic-encryption-cryptographic-agility"
+      ],
+      [
+        "cisa-nsa-identity-complementary",
+        "nsa-cisa-identity-frameworks-complementary"
+      ],
+      [
+        "cross-cutting-capabilities-convergence",
+        "cross-cutting-capabilities-prevent-silos",
+        "dod-seven-pillars-identical-cisa",
+        "five-pillar-comprehensive-decomposition"
+      ],
+      [
+        "cross-enterprise-federated-identity-peps",
+        "identity-federation-hard-problem",
+        "identity-stores-integrated-not-just-federated"
+      ],
+      [
+        "cross-pillar-maturity-trajectory",
+        "four-maturity-levels-progressive-capability",
+        "zero-trust-never-ends-the-maturity-model-turns",
+        "zt-maturity-incremental"
+      ],
+      [
+        "culture-change-requires-rituals-not-just-policies-the",
+        "security-awareness-training-is-a-protect-surface-apply"
+      ],
+      [
+        "ddos-is-still-a-problem-zt-doesnt-mitigate",
+        "dos-against-pa-pep-unique-pathology"
+      ],
+      [
+        "deception-technologies-invert-zt-selectively-add-trust-back",
+        "red-herrings-and-the-fog-of-war-the"
+      ],
+      [
+        "dependency-curves-reveal-zt-operational-limits",
+        "five-nist-csf-functions-form-strict-temporal",
+        "grid-most-parsimonious-complete-map-cybersecurity",
+        "zt-maps-specific-protect-cells"
+      ],
+      [
+        "dod-five-tenets-threat-operational",
+        "nist-sp-800-207-provides-the-architectural-tenets-but",
+        "the-four-design-principles-and-five-step-methodology-make",
+        "zt-tenets-aspirational"
+      ],
+      [
+        "dod-threat-model-different-from-civilian",
+        "zt-cannot-defend-against-a-malicious-computing-platform",
+        "zts-threat-model-is-the-internet-threat-model"
+      ],
+      [
+        "eight-data-sources-feed-policy-engine",
+        "ffp-five-decision-points-chain",
+        "the-policy-evaluation-flow-pdp-grants-pep-renders",
+        "zt-pdp-pep-model",
+        "zta-three-core-components-pe-pa-pep"
+      ],
+      [
+        "encrypted-traffic-visibility-gap",
+        "monitoring-data-reconnaissance-target",
+        "pe-pa-compromise-highest-impact-threat"
+      ],
+      [
+        "executive-sponsorship-and-crisis-create-the-window-for",
+        "five-business-value-drivers-not-security-alone-justify"
+      ],
+      [
+        "federal-program-interactions-synthesis",
+        "identity-governance-needs-a-cross-functional-stakeholder-group-and",
+        "zta-prerequisites-icam-cdm"
+      ],
+      [
+        "identity-cross-cutting-capabilities",
+        "npe-person-identities-independent-confidence",
+        "server-to-server-zt-is-a-fundamentally-different-problem-than",
+        "the-network-agent-is-the-marriage-of-user",
+        "the-three-layer-authorization-model-reveals-why-zt-is"
+      ],
+      [
+        "identity-is-simultaneously-the-most-important-protect-surface",
+        "identity-is-the-keystone-of-zero-trust-but",
+        "the-future-of-zt-saas-is-identity-providers"
+      ],
+      [
+        "invalidation-is-a-hard-problem-in-computer-science",
+        "least-privilege-in-zt-is-dynamic-multi-attribute-and",
+        "revoke-authorization-first-credentials-second",
+        "the-software-defined-perimeter-architecture-delivers-zt-principles-through"
+      ],
+      [
+        "nation-state-incidents-perimeter-obsolete",
+        "traditional-enterprise-security-is-structurally-broken-not-merely"
+      ],
+      [
+        "npe-authentication-unresolved-risk",
+        "social-engineering-and-physical-coercion-are-the-threats",
+        "stolen-credentials-zta-constrains-blast-radius"
+      ],
+      [
+        "project-eight-use-case-categories",
+        "project-mapped-zta-security-capabilities-nist-csf"
+      ],
+      [
+        "rmf-zta-changes-authorization-boundaries",
+        "the-14-platform-requirements-operationalize-the-principles-into",
+        "three-expanded-principles-api-integration-automation-and-business"
+      ],
+      [
+        "seven-zt-scenarios-provide-a-practical-non-exhaustive-framework",
+        "the-first-protect-surface-must-be-what-the"
+      ],
+      [
+        "the-first-packet-problem-is-solved-by-single",
+        "zt-guarantees-confidentiality-but-not-privacy-endpoint-enumeration"
+      ],
+      [
+        "three-threat-frameworks-progression",
+        "zt-threat-scenarios-illustrative"
+      ]
+    ],
+    "sparse_topics": [
+      {
+        "topic": "zt-encryption",
+        "claim_count": 11,
+        "avg_edges": 1.4
+      },
+      {
+        "topic": "zt-data",
+        "claim_count": 11,
+        "avg_edges": 1.6
+      },
+      {
+        "topic": "zt-access-mgmt",
+        "claim_count": 37,
+        "avg_edges": 1.8
+      },
+      {
+        "topic": "zt-threats",
+        "claim_count": 43,
+        "avg_edges": 1.8
+      },
+      {
+        "topic": "zt-monitoring",
+        "claim_count": 25,
+        "avg_edges": 1.9
+      }
+    ]
+  }
+}
