@@ -32,6 +32,9 @@ sources:
     local_file: "sources/papers/_txt/ZT_Automation_Orchestration_Springer_2023.txt"
 claims_status: extracted
 claims_extracted: 2026-07-24
+  - topic/zt-definition
+  - topic/zt-governance
+  - topic/zt-architecture
 ---
 
 # Academic — ZT Research Papers

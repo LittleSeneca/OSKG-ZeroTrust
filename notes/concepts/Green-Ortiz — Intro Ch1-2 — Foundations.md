@@ -25,6 +25,9 @@ related:
   - "[[Concepts Index]]"
 claims_status: extracted
 claims_extracted: 2026-07-24
+  - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-governance
 ---
 
 # Green-Ortiz et al. — Intro + Ch1–2: Foundations and Core Components

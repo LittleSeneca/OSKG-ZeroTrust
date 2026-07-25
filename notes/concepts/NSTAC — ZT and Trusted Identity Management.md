@@ -20,6 +20,9 @@ related:
   - "[[NIST 800-207 — Ch2 — Zero Trust Basics]]"
   - "[[DoD — ZT Strategy and Roadmap]]"
   - "[[Concepts Index]]"
+  - topic/zt-identity
+  - topic/zt-governance
+  - topic/zt-architecture
 ---
 
 # NSTAC — Zero Trust and Trusted Identity Management

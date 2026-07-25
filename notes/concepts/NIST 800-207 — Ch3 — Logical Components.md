@@ -39,6 +39,9 @@ claims_files:
   - "[[trust-algorithm-two-axes-criteria-contextual]]"
   - "[[nist-control-data-plane-separation]]"
   - "[[ten-network-requirements-zta]]"
+  - topic/zt-architecture
+  - topic/zt-network
+  - topic/zt-implementation
 ---
 
 # NIST SP 800-207 — Chapter 3: Logical Components

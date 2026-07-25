@@ -29,6 +29,9 @@ related:
   - "[[CISA ZTMM — Overview and Framework]]"
   - "[[DoD ZT Reference Architecture — Capabilities and Use Cases]]"
   - "[[Concepts Index]]"
+  - topic/zt-governance
+  - topic/zt-implementation
+  - topic/zt-architecture
 ---
 
 # Garbis & Chapman — Ch18–21: Scenarios, Success Factors, and Conclusion

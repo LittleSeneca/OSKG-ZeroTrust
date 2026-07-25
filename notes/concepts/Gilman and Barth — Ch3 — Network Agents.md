@@ -23,6 +23,9 @@ related:
   - "[[NIST 800-207 — Ch3 — Logical Components]]"
   - "[[Books Index]]"
   - "[[Concepts Index]]"
+  - topic/zt-definition
+  - topic/zt-network
+  - topic/zt-architecture
 ---
 
 # Gilman & Barth — Ch3: Network Agents

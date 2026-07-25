@@ -23,6 +23,9 @@ sources:
   - "BeyondCorp_6_Building_a_Healthy_Fleet.txt (King, Janosko, Beyer, Saltonstall, Fall 2018)"
 claims_status: extracted
 claims_extracted: 2026-07-24
+  - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-network
 ---
 
 # BeyondCorp — Research Papers

@@ -27,6 +27,9 @@ related:
   - "[[NSA ZT Network Pillar]]"
 claims_status: extracted
 claims_extracted: 2026-07-24
+  - topic/zt-network
+  - topic/zt-governance
+  - topic/zt-device
 ---
 
 # CISA ZTMM — Device, Network, App, and Data Pillars

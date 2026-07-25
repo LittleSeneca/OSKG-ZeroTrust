@@ -27,6 +27,9 @@ related:
   - "[[Gilman and Barth — Ch1 — Zero Trust Fundamentals]]"
   - "[[Books Index]]"
   - "[[Concepts Index]]"
+  - topic/zt-implementation
+  - topic/zt-migration
+  - topic/zt-architecture
 ---
 
 # Gilman & Barth — Ch9: Realizing a Zero Trust Network

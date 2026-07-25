@@ -33,6 +33,9 @@ claims_files:
   - "[[kindervag-coined-zero-trust]]"
   - "[[federal-programs-building-toward-zt]]"
   - "[[nist-document-structure-framework]]"
+  - topic/zt-governance
+  - topic/zt-definition
+  - topic/zt-architecture
 ---
 
 # NIST SP 800-207 — Ch 1: Introduction

@@ -14,17 +14,17 @@ updated: 2026-07-24
 
 ### Status Summary
 
-- **Total planned notes:** ~85
-- **Notes written:** 36 (Tiers 1-2 done; Tiers 3-4 pending)
-- **Remaining:** 49
-- **Last session:** 2026-07-24 — Tiers 1-2 complete (36 notes in 1 session)
+- **Total planned notes:** 50
+- **Notes written:** 50 (Tiers 1-4 all complete)
+- **Remaining:** 0
+- **Last session:** 2026-07-24 — Tiers 1-2 complete (36 notes), then Tiers 3-4 dispatched in parallel batch
 
 ## Phase 2 — Claims Extraction (COMPLETE)
 
 ### Status Summary
 
 - **Total chapter notes:** 50
-- **Total claims extracted:** 405
+- **Total claims extracted:** 406
 - **Remaining:** 0
 - **Batches completed:** 5
 - **Last batch:** 2026-07-24 — Batch 5 (16 notes, 106 claims)
@@ -144,22 +144,22 @@ Target: 1 session, 20 notes
 - [x] Green-Ortiz Ch9-11 — Advanced and Future (7 claims → Batch 4)
 
 ### Tier 3 — Supplementary (20 notes, ~120 claims)
-- [ ] NIST 800-207A — Cloud-Native Access Control
-- [ ] NIST 1800-35 — Implementing ZTA
-- [ ] CCCS — Zero Trust Security Model
-- [ ] CCCS — ZT Approach to Security Architecture
-- [ ] BSI — Zero Trust Position Paper
-- [ ] DoD — ZT Strategy and Roadmap
-- [ ] NSTAC — ZT and Trusted Identity Management
-- [ ] BeyondCorp — Research Papers
-- [ ] BeyondProd — Cloud-Native Security
+- [x] NIST 800-207A — Cloud-Native Access Control (7 claims → Batch 5)
+- [x] NIST 1800-35 — Implementing ZTA (6 claims → Batch 5)
+- [x] CCCS — Zero Trust Security Model (5 claims → Batch 5)
+- [x] CCCS — ZT Approach to Security Architecture (7 claims → Batch 5)
+- [x] BSI — Zero Trust Position Paper (9 claims → Batch 5)
+- [x] DoD — ZT Strategy and Roadmap (5 claims → Batch 5)
+- [x] NSTAC — ZT and Trusted Identity Management (7 claims → Batch 5)
+- [x] BeyondCorp — Research Papers (11 claims → Batch 5)
+- [x] BeyondProd — Cloud-Native Security (6 claims → Batch 5)
 
 ### Tier 4 — Nice-to-Have (10 notes, ~45 claims)
-- [ ] Yu — Cyber Defense Matrix
-- [ ] Halley — Zero Trust in Resilient Cloud
-- [ ] Academic — ZT Research Papers
-- [ ] ANSSI-BSI — LLM and Zero Trust
-- [ ] NCSC — ZT Principles on Google Cloud
+- [x] Yu — Cyber Defense Matrix (4 claims → Batch 5)
+- [x] Halley — Zero Trust in Resilient Cloud (4 claims → Batch 5)
+- [x] Academic — ZT Research Papers (6 claims → Batch 5)
+- [x] ANSSI-BSI — LLM and Zero Trust (5 claims → Batch 5)
+- [x] NCSC — ZT Principles on Google Cloud (7 claims → Batch 5)
 
 ---
 

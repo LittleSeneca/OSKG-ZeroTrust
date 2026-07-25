@@ -33,6 +33,9 @@ claims_files:
   - "[[zta-expansion-iterative-cycle-step7]]"
   - "[[incomplete-knowledge-chicken-egg-barrier]]"
   - "[[dual-mode-infrastructure-indefinite-hybrid]]"
+  - topic/zt-migration
+  - topic/zt-governance
+  - topic/zt-implementation
 ---
 
 # NIST 800-207 — Ch7 — Migrating to a Zero Trust Architecture

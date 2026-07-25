@@ -23,6 +23,9 @@ related:
   - "[[Concepts Index]]"
 claims_status: extracted
 claims_extracted: 2026-07-24
+  - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-identity
 ---
 
 # Green-Ortiz — Ch6–8: Implementation Patterns

@@ -30,6 +30,9 @@ claims_files:
   - "[[zt-tenets-aspirational]]"
   - "[[zt-pdp-pep-model]]"
   - "[[zt-network-assumptions]]"
+  - topic/zt-architecture
+  - topic/zt-definition
+  - topic/zt-governance
 ---
 
 # NIST SP 800-207 — Ch2: Zero Trust Basics

@@ -22,6 +22,9 @@ related:
   - "[[NIST 800-207 — Ch2 — Zero Trust Basics]]"
   - "[[Books Index]]"
   - "[[Concepts Index]]"
+  - topic/zt-implementation
+  - topic/zt-definition
+  - topic/zt-architecture
 ---
 
 # Gilman & Barth — Ch2: Managing Trust

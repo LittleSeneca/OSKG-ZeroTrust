@@ -23,6 +23,9 @@ combined_sections: "Ch1-3"
 justification: "Ch1-3 form a single narrative arc: Ch1 establishes the breach crisis and the organizational commitment to ZT as a strategic response; Ch2 introduces the ZT design principles, methodology, and implementation curve while demonstrating that reactive security (incident response) is distinct from strategic prevention; Ch3 uses physical security as an analogy to anchor the protect surface concept, trust-as-vulnerability thesis, and the distinction between incident management and problem management. Together they constitute Finney's complete business case for ZT — why it's needed (Ch1), what it is as a strategy (Ch2), and the mental model shift required (Ch3). Separating them would fracture the story-driven argument the book is built around."
 claims_status: extracted
 claims_extracted: 2026-07-24
+  - topic/zt-definition
+  - topic/zt-governance
+  - topic/zt-network
 ---
 
 # Finney — Ch1-3 — The Zero Trust Story

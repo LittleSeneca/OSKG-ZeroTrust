@@ -35,6 +35,9 @@ related:
   - "[[Concepts Index]]"
 claims_status: extracted
 claims_extracted: 2026-07-24
+  - topic/zt-identity
+  - topic/zt-device
+  - topic/zt-authentication
 ---
 
 # Gilman & Barth — Ch4–6 — Authorization Decisions, Device Trust, and User Trust

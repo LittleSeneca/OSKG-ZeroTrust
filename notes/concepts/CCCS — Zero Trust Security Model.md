@@ -25,6 +25,9 @@ standard_type: awareness-bulletin
 justification: "CCCS ITSAP.10.008 is a compact 2-page awareness bulletin that introduces Zero Trust to a Canadian government audience at the introductory level. At ~9KB it's the shortest formal ZT publication in the OSKG corpus. It distills ZT into: a one-sentence definition, the CISA five-pillar model (with full pillar descriptions), benefits, challenges, and four transition steps. Unlike ITSM.10.008 (management guidance) or NIST 800-207 (technical architecture), ITSAP.10.008 is the 'ZT in two pages' document — designed to be read by non-technical stakeholders in under ten minutes. Its value to the OSKG is as the most condensed authoritative ZT summary available from a national cyber agency."
 claims_status: extracted
 claims_extracted: 2026-07-24
+  - topic/zt-definition
+  - topic/zt-governance
+  - topic/zt-threats
 ---
 
 # CCCS — Zero Trust Security Model

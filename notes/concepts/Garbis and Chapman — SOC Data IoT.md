@@ -14,6 +14,9 @@ chapters:
 created: 2026-07-24
 claims_status: extracted
 claims_extracted: 2026-07-24
+  - topic/zt-implementation
+  - topic/zt-data
+  - topic/zt-governance
 ---
 
 # SOC, Data Protection, and IoT in Zero Trust — Garbis & Chapman

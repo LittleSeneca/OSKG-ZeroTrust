@@ -21,6 +21,9 @@ related:
   - "[[NIST 800-207 — Ch2 — Zero Trust Basics]]"
   - "[[NIST 800-207 — Ch3 — Logical Components]]"
   - "[[Concepts Index]]"
+  - topic/zt-cloud
+  - topic/zt-implementation
+  - topic/zt-architecture
 ---
 
 # NCSC — Zero Trust Principles on Google Cloud

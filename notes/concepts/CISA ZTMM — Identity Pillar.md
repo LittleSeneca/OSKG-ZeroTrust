@@ -22,6 +22,9 @@ cross_references:
   - "[[FICAM Architecture]]"
 claims_status: extracted
 claims_extracted: 2026-07-24
+  - topic/zt-identity
+  - topic/zt-governance
+  - topic/zt-access-mgmt
 ---
 
 # CISA ZTMM — Identity Pillar

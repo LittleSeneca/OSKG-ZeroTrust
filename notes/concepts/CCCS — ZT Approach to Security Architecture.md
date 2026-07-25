@@ -25,6 +25,9 @@ standard_type: management-guidance
 justification: "CCCS ITSM.10.008 is the Canadian government's management-level guidance on ZT security architecture. It synthesizes NIST, CISA, and NCSC frameworks for a Canadian federal audience and provides 13 actionable best practices for ZTA implementation. Unlike NIST 800-207 (technical architecture) or CISA ZTMM (maturity model), ITSM.10.008 is the bridge document: it explains what ZT is in plain language, why it matters to organizations, and which frameworks to adopt. It functions as the 'onboarding' document for Canadian agencies beginning their ZT journey."
 claims_status: extracted
 claims_extracted: 2026-07-24
+  - topic/zt-architecture
+  - topic/zt-implementation
+  - topic/zt-cloud
 ---
 
 # CCCS — ZT Approach to Security Architecture

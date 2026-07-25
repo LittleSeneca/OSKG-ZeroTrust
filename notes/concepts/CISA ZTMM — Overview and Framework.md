@@ -23,6 +23,9 @@ related:
 note_type: combined
 combined_sections: "§§1-5"
 justification: "§§1-5 (Introduction through ZTMM overview) form a single architectural overview: §1 sets the policy mandate, §2 frames the operational urgency, §3 anchors the NIST definition, §4 acknowledges adoption challenges, and §5 lays out the model's structure (pillars, maturity levels, cross-cutting capabilities). Together they constitute the framework layer that the pillar-specific tables (5.1-5.5) operationalize. The framework content across these sections is ~350 lines — too thin for 5 standalone notes but collectively the foundation for understanding the entire maturity model."
+  - topic/zt-architecture
+  - topic/zt-governance
+  - topic/zt-identity
 ---
 
 # CISA ZTMM — Overview and Framework

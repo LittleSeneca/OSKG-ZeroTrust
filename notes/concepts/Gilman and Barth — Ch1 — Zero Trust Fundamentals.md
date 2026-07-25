@@ -29,6 +29,9 @@ claims_files:
   - "[[zt-control-data-plane-split]]"
   - "[[zt-perimeter-historical-accident]]"
   - "[[zt-phone-home-fatal-flaw]]"
+  - topic/zt-network
+  - topic/zt-architecture
+  - topic/zt-definition
 ---
 
 # Gilman & Barth — Ch1: Zero Trust Fundamentals

@@ -34,6 +34,9 @@ claims_files:
   - "[[cdm-visibility-prerequisite-zta]]"
   - "[[cloud-smart-drives-zta-prioritization]]"
   - "[[federal-program-interactions-synthesis]]"
+  - topic/zt-governance
+  - topic/zt-architecture
+  - topic/zt-identity
 ---
 
 # NIST 800-207 — Chapter 6 — Federal Guidance Interactions

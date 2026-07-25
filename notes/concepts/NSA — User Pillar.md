@@ -27,6 +27,9 @@ related:
   - "[[NIST 800-207 — Ch2 — Zero Trust Basics]]"
   - "[[NIST 800-207 — Ch6 — Federal Guidance]]"
   - "[[Concepts Index]]"
+  - topic/zt-identity
+  - topic/zt-governance
+  - topic/zt-authentication
 ---
 
 # NSA — User Pillar: Advancing Zero Trust Maturity

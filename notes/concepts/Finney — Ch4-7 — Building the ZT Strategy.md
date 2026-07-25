@@ -30,6 +30,9 @@ related:
   - "[[NIST 800-207 — Ch2 — Zero Trust Basics]]"
   - "[[Garbis and Chapman — Ch1-3 — Introduction and Architecture]]"
   - "[[CISA ZTMM — Identity Pillar]]"
+  - topic/zt-implementation
+  - topic/zt-governance
+  - topic/zt-identity
 ---
 
 # Finney — Ch4–7: Building the Zero Trust Strategy

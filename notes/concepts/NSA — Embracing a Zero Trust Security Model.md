@@ -32,6 +32,9 @@ claims_files:
   - "[[zt-threat-scenarios-illustrative]]"
   - "[[zt-maturity-incremental]]"
   - "[[zt-organizational-commitment]]"
+  - topic/zt-implementation
+  - topic/zt-governance
+  - topic/zt-network
 ---
 
 # NSA — Embracing a Zero Trust Security Model

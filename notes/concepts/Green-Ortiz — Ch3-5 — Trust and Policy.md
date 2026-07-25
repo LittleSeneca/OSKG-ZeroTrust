@@ -25,6 +25,9 @@ related:
   - "[[Garbis and Chapman — Practice IAM Policy]]"
   - "[[Books Index]]"
   - "[[Concepts Index]]"
+  - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-definition
 ---
 
 # Green-Ortiz et al. — Ch3-5: Trust Assessment and Policy

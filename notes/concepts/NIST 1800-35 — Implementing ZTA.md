@@ -24,6 +24,9 @@ related:
   - "[[Concepts Index]]"
   - "[[Standards Index]]"
   - "[[Notes Index]]"
+  - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-cloud
 ---
 
 # NIST SP 1800-35 — Implementing a Zero Trust Architecture

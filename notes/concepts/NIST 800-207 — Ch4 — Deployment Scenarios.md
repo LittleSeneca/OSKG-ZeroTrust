@@ -33,6 +33,9 @@ claims_files:
   - "[[contracted-services-sdp-dark-network]]"
   - "[[cross-enterprise-federated-identity-peps]]"
   - "[[public-facing-services-zta-boundary]]"
+  - topic/zt-implementation
+  - topic/zt-network
+  - topic/zt-cloud
 ---
 
 # NIST SP 800-207 — Ch4: Deployment Scenarios

@@ -33,6 +33,9 @@ justification: >
   traffic carries app data. Combining highlights the provenance-to-packet trust chain:
   from signed source code through build pipelines to mutually authenticated TLS/IPsec
   flows carrying that same application's data in production.
+  - topic/zt-implementation
+  - topic/zt-network
+  - topic/zt-app
 ---
 
 # Gilman & Barth — Ch7–8: Trusting Applications and Trusting the Traffic

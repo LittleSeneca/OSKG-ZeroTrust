@@ -26,6 +26,9 @@ related:
   - "[[NIST 800-207 — Ch1 — Introduction]]"
   - "[[Concepts Index]]"
   - "[[Books Index]]"
+  - topic/zt-architecture
+  - topic/zt-definition
+  - topic/zt-network
 ---
 
 # Garbis & Chapman — Ch1–3: Introduction, ZT Definition, and Architecture

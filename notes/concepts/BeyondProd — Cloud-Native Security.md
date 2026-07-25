@@ -21,6 +21,9 @@ sources:
   - "Google_BeyondProd.txt (Google Cloud Docs, last updated May 2024)"
 claims_status: extracted
 claims_extracted: 2026-07-24
+  - topic/zt-cloud
+  - topic/zt-implementation
+  - topic/zt-governance
 ---
 
 # BeyondProd — Cloud-Native Security

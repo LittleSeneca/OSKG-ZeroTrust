@@ -5,6 +5,9 @@ tags: [source/books, green-ortiz, zt-advanced, zt-cloud, zt-future, oskg-zerotru
 source: "Green-Ortiz, *Zero Trust Architecture*, Chapters 9-11"
 claims_status: extracted
 claims_extracted: 2026-07-24
+  - topic/zt-architecture
+  - topic/zt-network
+  - topic/zt-implementation
 ---
 
 # Green-Ortiz Chapters 9-11: Enforcement, Operations & Conclusion

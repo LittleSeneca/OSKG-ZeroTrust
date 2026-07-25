@@ -25,6 +25,9 @@ related:
   - "[[Gilman and Barth — Ch5 — Trusting Devices]]"
   - "[[Books Index]]"
   - "[[Concepts Index]]"
+  - topic/zt-threats
+  - topic/zt-architecture
+  - topic/zt-implementation
 ---
 
 # Gilman & Barth — Ch10: The Adversarial View

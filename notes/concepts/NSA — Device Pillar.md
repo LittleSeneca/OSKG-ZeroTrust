@@ -23,6 +23,9 @@ related:
   - "[[CISA ZTMM — Device Pillar]]"
   - "[[NIST 800-207 — Ch3 — Logical Components]]"
   - "[[Concepts Index]]"
+  - topic/zt-device
+  - topic/zt-identity
+  - topic/zt-implementation
 ---
 
 # NSA — Device Pillar

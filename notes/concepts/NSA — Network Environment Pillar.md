@@ -30,6 +30,9 @@ related:
   - "[[CISA ZTMM — Identity Pillar]]"
   - "[[NSA ZT User Pillar]]"
   - "[[NSA ZT Device Pillar]]"
+  - topic/zt-network
+  - topic/zt-segmentation
+  - topic/zt-implementation
 ---
 
 # NSA — Network and Environment Pillar

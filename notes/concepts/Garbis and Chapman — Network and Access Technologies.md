@@ -23,6 +23,9 @@ related:
   - "[[CISA ZTMM — Device Network App Data Pillars]]"
 claims_status: extracted
 claims_extracted: 2026-07-24
+  - topic/zt-network
+  - topic/zt-architecture
+  - topic/zt-identity
 ---
 # Garbis & Chapman — Ch6–10, 12: Network and Access Technologies in Zero Trust
 

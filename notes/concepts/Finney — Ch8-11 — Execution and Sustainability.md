@@ -28,6 +28,9 @@ related:
   - "[[Concepts Index]]"
 claims_status: extracted
 claims_extracted: 2026-07-24
+  - topic/zt-implementation
+  - topic/zt-governance
+  - topic/zt-architecture
 ---
 
 # Finney — Ch8–11: Execution and Sustainability

@@ -22,6 +22,9 @@ sources:
     local_file: "sources/standards/_txt/ANSSI_BSI_LLM_Zero_Trust_2025.txt"
 claims_status: extracted
 claims_extracted: 2026-07-24
+  - topic/zt-definition
+  - topic/zt-implementation
+  - topic/zt-governance
 ---
 
 # ANSSI-BSI — LLM and Zero Trust

@@ -24,6 +24,9 @@ related:
   - "[[NSA — Embracing a Zero Trust Security Model]]"
 claims_status: extracted
 claims_extracted: 2026-07-24
+  - topic/zt-architecture
+  - topic/zt-governance
+  - topic/zt-implementation
 ---
 
 # DoD ZT Reference Architecture — Capabilities and Use Cases

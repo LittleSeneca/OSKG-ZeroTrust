@@ -25,6 +25,9 @@ related:
   - "[[Concepts Index]]"
 claims_status: extracted
 claims_extracted: 2026-07-24
+  - topic/zt-cloud
+  - topic/zt-implementation
+  - topic/zt-network
 ---
 
 # Halley — Zero Trust in Resilient Cloud

@@ -23,6 +23,9 @@ related:
   - "[[Concepts Index]]"
 claims_status: extracted
 claims_extracted: 2026-07-24
+  - topic/zt-cloud
+  - topic/zt-network
+  - topic/zt-implementation
 ---
 
 # Garbis & Chapman — Ch14–15: Cloud IaaS, PaaS, and SaaS

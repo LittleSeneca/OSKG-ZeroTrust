@@ -24,6 +24,9 @@ claims_files:
   - "[[proprietary-lock-in-amplified-zta]]"
   - "[[npe-authentication-unresolved-risk]]"
   - "[[three-threat-frameworks-progression]]"
+  - topic/zt-threats
+  - topic/zt-network
+  - topic/zt-architecture
 ---
 
 # NIST 800-207 — Chapter 5 — Threats Associated with Zero Trust Architecture

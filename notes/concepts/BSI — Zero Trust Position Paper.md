@@ -28,6 +28,9 @@ language_note: "This document was analyzed in its original German. While I have 
 justification: "The BSI Zero Trust Position Paper (2023) is Germany's first comprehensive federal position on Zero Trust. It holds unique OSKG value as: (1) the only major European national cyber agency ZT publication (complementing the US-dominant NIST/CISA/NSA and UK NCSC), (2) the only ZT framework that integrates classified information (VS/Verschlusssache) handling requirements into every architectural pillar, (3) the only framework with explicit multi-organizational ZT architecture scenarios, and (4) the most detailed treatment of real-time information source integration (Shared Signals Framework, CAEP) in any government ZT publication. The five-pillar integration model (Identität/Gerät/Netz/Anwendung/Daten) with Klassisch/Fortschrittlich/Ideal maturity levels provides a European alternative to CISA's Traditional/Advanced/Optimal model."
 claims_status: extracted
 claims_extracted: 2026-07-24
+  - topic/zt-definition
+  - topic/zt-governance
+  - topic/zt-identity
 ---
 
 # BSI — Zero Trust Position Paper (2023)
