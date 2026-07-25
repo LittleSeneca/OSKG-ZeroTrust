@@ -52,6 +52,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[device-inventory-service|The trust inference pipeline requires the Device Inventory Service to supply device trust data (OS patch level, security]]
 
 **Supports:**
 

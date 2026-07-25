@@ -56,7 +56,6 @@ _None identified._
 ## Edges
 
 **Depends on:**
-- [[the-build-system-is-the-most-dangerous-attack|The build system can only be identified as the dangerous unprotected gap in context of the cryptographic chain concept]]
 
 **Supports:**
 

@@ -56,6 +56,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[five-pillar-comprehensive-decomposition|The cross-cutting capabilities described in dnad.24 operate 'across pillars' — the five-pillar decomposition established]]
 
 **Supports:**
 

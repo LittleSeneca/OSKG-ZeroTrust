@@ -57,6 +57,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[continuous-risk-based-device-authorization|Resource access decisions that consider real-time device risk analytics require a continuous risk-based authorization en]]
 
 **Supports:**
 

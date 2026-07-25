@@ -64,7 +64,6 @@ _None identified._
 ## Edges
 
 **Depends on:**
-- [[identity-stores-integrated-not-just-federated|Integration across environments cannot happen without first solving the federation challenge.]]
 
 **Supports:**
 

@@ -61,7 +61,6 @@ _None identified._
 
 **Depends on:**
 - [[zta-expansion-iterative-cycle-step7|Expanding ZTA to additional business processes (Step 7) requires policy to be formulated for each new candidate, making]]
-- [[candidate-solution-selection-step5-migration|Choosing a ZT solution (Step 5) depends on the access criteria and trust-evaluation approach (criteria-based vs. score-b]]
 
 **Supports:**
 

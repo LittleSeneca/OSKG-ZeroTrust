@@ -1,0 +1,381 @@
+{
+  "total_depends_on": 53,
+  "flip_count": 24,
+  "keep_count": 29,
+  "flips": [
+    {
+      "claim_a": "sso-should-not-remove-the-control-plane-from",
+      "claim_b": "zt-control-data-plane-split",
+      "rationale": "The recommendation that SSO should not bypass the control plane for ongoing authorization depends on the architectural separation of planes being the ",
+      "score": 3,
+      "signals": [
+        "edge_count",
+        "type_rank",
+        "rationale"
+      ]
+    },
+    {
+      "claim_a": "cdm-visibility-prerequisite-zta",
+      "claim_b": "icam-non-negotiable-substrate",
+      "rationale": "The ICAM substrate depends on CDM's asset inventory and user identity data to populate the identity stores and credential management systems.",
+      "score": 3,
+      "signals": [
+        "stmt_len",
+        "type_rank",
+        "rationale"
+      ]
+    },
+    {
+      "claim_a": "the-build-system-is-the-most-dangerous-attack",
+      "claim_b": "the-application-pipeline-is-a-cryptographic-chain-break",
+      "rationale": "The build system can only be identified as the dangerous unprotected gap in context of the cryptographic chain concept",
+      "score": 2,
+      "signals": [
+        "stmt_len",
+        "type_rank"
+      ]
+    },
+    {
+      "claim_a": "data-protection-is-an-advanced-zt-use-case",
+      "claim_b": "data-categorization-automated-labeling",
+      "rationale": "The GC SOC claim explicitly states that 'classification maturity and platform capabilities are prerequisites' for data protection as an advanced ZT us",
+      "score": 2,
+      "signals": [
+        "edge_count",
+        "type_rank"
+      ]
+    },
+    {
+      "claim_a": "ztmm-nist-800-207-definition-foundation",
+      "claim_b": "zt-positive-tenets",
+      "rationale": "CISA's ZTMM explicitly builds on NIST SP 800-207, whose operative definition is grounded in the positive tenet framework of nist207-ch2.1.",
+      "score": 2,
+      "signals": [
+        "stmt_len",
+        "edge_count"
+      ]
+    },
+    {
+      "claim_a": "access-management-permanent-to-jit-jea",
+      "claim_b": "identity-mgmt-attribute-authority",
+      "rationale": "JIT/JEA requires rich identity attributes to make fine-grained, automated access decisions.",
+      "score": 2,
+      "signals": [
+        "stmt_len",
+        "rationale"
+      ]
+    },
+    {
+      "claim_a": "the-strongest-user-authentication-binds-identity-to-hardware",
+      "claim_b": "private-pki-is-the-non-negotiable-bedrock-of-zt",
+      "rationale": "Hardware-bound authentication at scale requires PKI as the underlying certificate infrastructure.",
+      "score": 2,
+      "signals": [
+        "stmt_len",
+        "rationale"
+      ]
+    },
+    {
+      "claim_a": "device-resource-access-context",
+      "claim_b": "continuous-risk-based-device-authorization",
+      "rationale": "Resource access decisions that consider real-time device risk analytics require a continuous risk-based authorization engine.",
+      "score": 2,
+      "signals": [
+        "stmt_len",
+        "edge_count"
+      ]
+    },
+    {
+      "claim_a": "the-control-plane-is-the-trust-grantor-temporary",
+      "claim_b": "sso-should-not-remove-the-control-plane-from",
+      "rationale": "The recommendation that SSO not bypass ongoing authorization logically requires the control plane to be the authoritative trust grantor.",
+      "score": 2,
+      "signals": [
+        "stmt_len",
+        "rationale"
+      ]
+    },
+    {
+      "claim_a": "per-instance-time-bound-secrets-are-the-mechanism-for-authorizing",
+      "claim_b": "secure-app-dev-immutable-workloads",
+      "rationale": "Per-instance time-bound secret provisioning depends on immutable workload patterns where instances are created via redeployment rather than mutated in",
+      "score": 1,
+      "signals": [
+        "rationale"
+      ]
+    },
+    {
+      "claim_a": "rmf-zta-changes-authorization-boundaries",
+      "claim_b": "three-expanded-principles-api-integration-automation-and-business",
+      "rationale": "The per-resource, per-session risk acceptance model encoded algorithmically in the Policy Engine (6.3) depends on API integration and automation (3.6)",
+      "score": 1,
+      "signals": [
+        "stmt_len"
+      ]
+    },
+    {
+      "claim_a": "cross-cutting-capabilities-convergence",
+      "claim_b": "five-pillar-comprehensive-decomposition",
+      "rationale": "The cross-cutting capabilities described in dnad.24 operate 'across pillars' \u2014 the five-pillar decomposition established in ov.6 is a prerequisite fou",
+      "score": 1,
+      "signals": [
+        "stmt_len"
+      ]
+    },
+    {
+      "claim_a": "devops-introduces-cloud-native-risks-kubernetes-containers-that-traditional",
+      "claim_b": "cloud",
+      "rationale": "Securing Kubernetes and containers via ZT depends on the service mesh as the enforcement kernel for identity-based workload isolation.",
+      "score": 1,
+      "signals": [
+        "edge_count"
+      ]
+    },
+    {
+      "claim_a": "identity-stores-integrated-not-just-federated",
+      "claim_b": "identity-federation-hard-problem",
+      "rationale": "Integration across environments cannot happen without first solving the federation challenge.",
+      "score": 1,
+      "signals": [
+        "stmt_len"
+      ]
+    },
+    {
+      "claim_a": "candidate-solution-selection-step5-migration",
+      "claim_b": "policy-formulation-step4-migration",
+      "rationale": "Choosing a ZT solution (Step 5) depends on the access criteria and trust-evaluation approach (criteria-based vs. score-based) decided during policy fo",
+      "score": 1,
+      "signals": [
+        "rationale"
+      ]
+    },
+    {
+      "claim_a": "device-inventory-deny-by-default",
+      "claim_b": "centralized-device-management-enforcement-backbone",
+      "rationale": "Real-time deny-by-default enrollment requires centralized management to enforce enrollment decisions and maintain the authoritative device registry.",
+      "score": 1,
+      "signals": [
+        "rationale"
+      ]
+    },
+    {
+      "claim_a": "device-policy-enforcement-compliance-monitoring",
+      "claim_b": "centralized-device-management-enforcement-backbone",
+      "rationale": "Policy enforcement and compliance monitoring require centralized management (UEM/MDM) to push policies, collect compliance data, and remediate across ",
+      "score": 1,
+      "signals": [
+        "stmt_len"
+      ]
+    },
+    {
+      "claim_a": "the-control-plane-is-the-trust-grantor-temporary",
+      "claim_b": "control-plane-compromise-is-the-worst-case-scenario-and",
+      "rationale": "The worst-case assessment of control plane compromise depends on the control plane being the authoritative trust grantor.",
+      "score": 1,
+      "signals": [
+        "rationale"
+      ]
+    },
+    {
+      "claim_a": "cdm-visibility-prerequisite-zta",
+      "claim_b": "identity-foundational-zta-pillar",
+      "rationale": "Identity-based access decisions depend on CDM providing answers to 'what is connected' and 'who is on the network' before device posture or user ident",
+      "score": 1,
+      "signals": [
+        "type_rank"
+      ]
+    },
+    {
+      "claim_a": "policy-governance-is-the-badge-and-shield-it",
+      "claim_b": "the-zero-trust-journey-is-cyclical-not-linear",
+      "rationale": "The cyclical five-capability journey depends on Policy & Governance as the foundational first capability that feeds all others in the feedback loop.",
+      "score": 1,
+      "signals": [
+        "rationale"
+      ]
+    },
+    {
+      "claim_a": "beyondcorp-access-flow-enforces-per",
+      "claim_b": "device-inventory-service",
+      "rationale": "The trust inference pipeline requires the Device Inventory Service to supply device trust data (OS patch level, security scan results, device model) f",
+      "score": 1,
+      "signals": [
+        "rationale"
+      ]
+    },
+    {
+      "claim_a": "sequential-network-maturity-journey",
+      "claim_b": "data-flow-mapping-foundational-capability",
+      "rationale": "The maturity journey explicitly builds on data flow mapping as its foundation: 'you cannot segment without understanding flows.'",
+      "score": 1,
+      "signals": [
+        "type_rank"
+      ]
+    },
+    {
+      "claim_a": "sequential-network-maturity-journey",
+      "claim_b": "macro-segmentation-cross-function",
+      "rationale": "The sequential maturity framework requires macro segmentation as the second phase after data flow mapping.",
+      "score": 1,
+      "signals": [
+        "type_rank"
+      ]
+    },
+    {
+      "claim_a": "sequential-network-maturity-journey",
+      "claim_b": "micro-segmentation-blast-radius",
+      "rationale": "Micro segmentation is the third phase in the integrated maturity progression.",
+      "score": 1,
+      "signals": [
+        "type_rank"
+      ]
+    }
+  ],
+  "keeps": [
+    {
+      "claim_a": "least-privilege-in-zt-is-dynamic-multi-attribute-and",
+      "claim_b": "invalidation-is-a-hard-problem-in-computer-science",
+      "score": 0
+    },
+    {
+      "claim_a": "data-centric-security-abac-protection",
+      "claim_b": "data-categorization-automated-labeling",
+      "score": 0
+    },
+    {
+      "claim_a": "federal-government-needs-two-dedicated-zt-program",
+      "claim_b": "federal-government-current",
+      "score": 0
+    },
+    {
+      "claim_a": "ten-network-requirements-zta",
+      "claim_b": "nist-control-data-plane-separation",
+      "score": 0
+    },
+    {
+      "claim_a": "ten-network-requirements-zta",
+      "claim_b": "zt-network-assumptions",
+      "score": 0
+    },
+    {
+      "claim_a": "host-integrity-rooted-titan-security-chip-creates",
+      "claim_b": "alts-application-layer-transport-security-workhorse-beyondprod",
+      "score": 0
+    },
+    {
+      "claim_a": "automation-orchestration-optional",
+      "claim_b": "deploying-identity",
+      "score": 0
+    },
+    {
+      "claim_a": "bsi-provides-formal-three",
+      "claim_b": "bsi-first-national-agency-provide-detailed-guidance",
+      "score": 0
+    },
+    {
+      "claim_a": "bsi-provides-formal-three",
+      "claim_b": "bsi-specifies-five-mandatory-prerequisites-before-zt",
+      "score": 0
+    },
+    {
+      "claim_a": "bsi-provides-formal-three",
+      "claim_b": "nist-document-structure-framework",
+      "score": 0
+    },
+    {
+      "claim_a": "bsi-provides-formal-three",
+      "claim_b": "zt-positive-tenets",
+      "score": 0
+    },
+    {
+      "claim_a": "ztmm-nist-800-207-definition-foundation",
+      "claim_b": "nist-document-structure-framework",
+      "score": 0
+    },
+    {
+      "claim_a": "access-mgmt-abac-least-privilege",
+      "claim_b": "identity-mgmt-attribute-authority",
+      "score": 0
+    },
+    {
+      "claim_a": "trust-assessment-is-multi-layered-identity-posture-and-behavior",
+      "claim_b": "identity-mgmt-attribute-authority",
+      "score": 0
+    },
+    {
+      "claim_a": "dual-mode-infrastructure-indefinite-hybrid",
+      "claim_b": "hybrid-model-indefinite-reality",
+      "score": 0
+    },
+    {
+      "claim_a": "identify-catalog-assets-step2-migration",
+      "claim_b": "identify-all-subjects-step1-migration",
+      "score": 0
+    },
+    {
+      "claim_a": "business-process-selection-step3-migration",
+      "claim_b": "identify-catalog-assets-step2-migration",
+      "score": 0
+    },
+    {
+      "claim_a": "policy-formulation-step4-migration",
+      "claim_b": "business-process-selection-step3-migration",
+      "score": 0
+    },
+    {
+      "claim_a": "reporting-only-mode-step6-migration",
+      "claim_b": "candidate-solution-selection-step5-migration",
+      "score": 0
+    },
+    {
+      "claim_a": "zta-expansion-iterative-cycle-step7",
+      "claim_b": "policy-formulation-step4-migration",
+      "score": 0
+    },
+    {
+      "claim_a": "continuous-risk-based-device-authorization",
+      "claim_b": "device-inventory-deny-by-default",
+      "score": 0
+    },
+    {
+      "claim_a": "continuous-risk-based-device-authorization",
+      "claim_b": "device-policy-enforcement-compliance-monitoring",
+      "score": 0
+    },
+    {
+      "claim_a": "zt-control-data-plane-split",
+      "claim_b": "control-plane-compromise-is-the-worst-case-scenario-and",
+      "score": 0
+    },
+    {
+      "claim_a": "seven-dod-zt-pillars-user-device-applications",
+      "claim_b": "dod-capability-driven-approach-distinction",
+      "score": 0
+    },
+    {
+      "claim_a": "cdm-visibility-prerequisite-zta",
+      "claim_b": "privacy-framework-inspect-everything-tension",
+      "score": 0
+    },
+    {
+      "claim_a": "four-strategic-goals-cultural-adoption-systems-secured",
+      "claim_b": "target-level-zt-achieved-end-fy2027-minimum",
+      "score": 0
+    },
+    {
+      "claim_a": "tiered-access",
+      "claim_b": "device-inventory-service",
+      "score": 0
+    },
+    {
+      "claim_a": "endpoint-new-perimeter",
+      "claim_b": "device-inventory-service",
+      "score": 0
+    },
+    {
+      "claim_a": "micro-segmentation-blast-radius",
+      "claim_b": "macro-segmentation-cross-function",
+      "score": 0
+    }
+  ]
+}

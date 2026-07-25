@@ -61,8 +61,6 @@ _None identified._
 ## Edges
 
 **Depends on:**
-- [[device-policy-enforcement-compliance-monitoring|Policy enforcement and compliance monitoring require centralized management (UEM/MDM) to push policies, collect complian]]
-- [[device-inventory-deny-by-default|Real-time deny-by-default enrollment requires centralized management to enforce enrollment decisions and maintain the au]]
 
 **Supports:**
 - [[seven-device-capabilities-interdependent|UEM/MDM is explicitly described as 'the enforcement backbone for all other capabilities' — it operationalizes the seven-]]

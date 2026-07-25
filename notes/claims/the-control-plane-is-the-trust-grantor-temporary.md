@@ -53,6 +53,8 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[control-plane-compromise-is-the-worst-case-scenario-and|The worst-case assessment of control plane compromise depends on the control plane being the authoritative trust grantor]]
+- [[sso-should-not-remove-the-control-plane-from|The recommendation that SSO not bypass ongoing authorization logically requires the control plane to be the authoritativ]]
 - [[east-west-segmentation-controlling-traffic-within-the-same-vlansubnet|East-west identity-based enforcement (SGTs) depends on the control plane's trust-granting function for identity assignme]]
 
 **Supports:**

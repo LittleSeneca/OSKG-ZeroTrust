@@ -62,6 +62,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[identity-federation-hard-problem|Integration across environments cannot happen without first solving the federation challenge.]]
 
 **Supports:**
 

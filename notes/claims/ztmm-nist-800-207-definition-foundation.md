@@ -52,6 +52,7 @@ The document could be read as cherry-picking from NIST — using the definition 
 ## Edges
 
 **Depends on:**
+- [[zt-positive-tenets|CISA's ZTMM explicitly builds on NIST SP 800-207, whose operative definition is grounded in the positive tenet framework]]
 
 **Supports:**
 - [[location-centric-to-identity-data-centric-shift|The NIST definition of minimizing uncertainty rather than trusting location provides the conceptual basis for the locati]]

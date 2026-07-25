@@ -56,7 +56,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
-- [[the-control-plane-is-the-trust-grantor-temporary|The recommendation that SSO not bypass ongoing authorization logically requires the control plane to be the authoritativ]]
+- [[zt-control-data-plane-split|The recommendation that SSO should not bypass the control plane for ongoing authorization depends on the architectural s]]
 
 **Supports:**
 - [[control-plane-compromise-is-the-worst-case-scenario-and|The danger of SSO bypassing the control plane is underscored by the fact that control plane compromise is the worst-case]]

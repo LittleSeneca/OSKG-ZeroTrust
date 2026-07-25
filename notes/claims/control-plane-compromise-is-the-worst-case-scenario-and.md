@@ -55,7 +55,6 @@ _None identified._
 
 **Depends on:**
 - [[zt-control-data-plane-split|The concept of control plane compromise as a distinct worst case requires the architectural separation of planes to be f]]
-- [[the-control-plane-is-the-trust-grantor-temporary|The worst-case assessment of control plane compromise depends on the control plane being the authoritative trust grantor]]
 
 **Supports:**
 

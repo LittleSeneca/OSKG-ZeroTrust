@@ -52,6 +52,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[data-categorization-automated-labeling|The GC SOC claim explicitly states that 'classification maturity and platform capabilities are prerequisites' for data p]]
 
 **Supports:**
 

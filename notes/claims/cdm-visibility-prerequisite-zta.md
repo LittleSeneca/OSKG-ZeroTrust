@@ -63,6 +63,8 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[identity-foundational-zta-pillar|Identity-based access decisions depend on CDM providing answers to 'what is connected' and 'who is on the network' befor]]
+- [[icam-non-negotiable-substrate|The ICAM substrate depends on CDM's asset inventory and user identity data to populate the identity stores and credentia]]
 
 **Supports:**
 

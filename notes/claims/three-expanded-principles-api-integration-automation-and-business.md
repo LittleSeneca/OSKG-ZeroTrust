@@ -56,7 +56,6 @@ _None identified._
 ## Edges
 
 **Depends on:**
-- [[rmf-zta-changes-authorization-boundaries|The per-resource, per-session risk acceptance model encoded algorithmically in the Policy Engine (6.3) depends on API in]]
 
 **Supports:**
 

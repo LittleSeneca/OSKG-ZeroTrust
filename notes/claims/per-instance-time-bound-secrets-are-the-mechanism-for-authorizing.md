@@ -52,6 +52,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[secure-app-dev-immutable-workloads|Per-instance time-bound secret provisioning depends on immutable workload patterns where instances are created via redep]]
 
 **Supports:**
 - [[runtime-security-completes-the-trust-lifecycle-isolation-secure|Per-instance time-bound secrets are a concrete mechanism for runtime authorization, which is part of the runtime securit]]

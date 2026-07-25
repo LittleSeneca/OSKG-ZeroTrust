@@ -56,6 +56,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[cloud|Securing Kubernetes and containers via ZT depends on the service mesh as the enforcement kernel for identity-based workl]]
 
 **Supports:**
 - [[perimeter-security-breaks-down-microservices-because-services|DevOps/Kubernetes risks are a concrete manifestation of the perimeter security breakdown that BeyondProd addresses.]]

@@ -63,7 +63,6 @@ _None identified._
 ## Edges
 
 **Depends on:**
-- [[sequential-network-maturity-journey|The maturity journey explicitly builds on data flow mapping as its foundation: 'you cannot segment without understanding]]
   - "[[network-segmentation-micro-perimeters]]"
 
 **Supports:**

@@ -52,6 +52,9 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[micro-segmentation-blast-radius|Micro segmentation is the third phase in the integrated maturity progression.]]
+- [[macro-segmentation-cross-function|The sequential maturity framework requires macro segmentation as the second phase after data flow mapping.]]
+- [[data-flow-mapping-foundational-capability|The maturity journey explicitly builds on data flow mapping as its foundation: 'you cannot segment without understanding]]
 
 **Supports:**
 - [[zt-control-data-plane-split|Maturity journey culminates in SDN, which embodies the control/data plane split as the architectural end-state]]

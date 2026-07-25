@@ -56,7 +56,6 @@ _None identified._
 **Depends on:**
 - [[micro-segmentation-blast-radius|Micro-segmentation enforcement at scale depends on the control/data plane architecture]]
 - [[east-west-segmentation-controlling-traffic-within-the-same-vlansubnet|East-west Layer 2 identity-based enforcement depends on the control/data plane split for identity assignment and policy]]
-- [[sso-should-not-remove-the-control-plane-from|The recommendation that SSO should not bypass the control plane for ongoing authorization depends on the architectural s]]
 
 **Supports:**
 <!-- Claims this one provides evidence for -->

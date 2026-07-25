@@ -64,7 +64,6 @@ _None identified._
 
 **Depends on:**
 - [[micro-segmentation-blast-radius|'You cannot micro-segment effectively without macro segmentation as a foundation.' Micro segmentation builds on macro.]]
-- [[sequential-network-maturity-journey|The sequential maturity framework requires macro segmentation as the second phase after data flow mapping.]]
 
 **Supports:**
 - [[lateral-movement-prevention-raison-detre|Macro segmentation between business functions is the primary mechanism for preventing lateral movement, which is the pil]]

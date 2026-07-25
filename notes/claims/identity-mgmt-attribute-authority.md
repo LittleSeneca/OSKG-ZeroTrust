@@ -60,7 +60,6 @@ _None identified._
 
 **Depends on:**
 - [[trust-assessment-is-multi-layered-identity-posture-and-behavior|Multi-layered trust assessment needs authoritative identity attributes to evaluate the identity layer.]]
-- [[access-management-permanent-to-jit-jea|JIT/JEA requires rich identity attributes to make fine-grained, automated access decisions.]]
 - [[access-mgmt-abac-least-privilege|ABAC fundamentally depends on authoritative identity attributes for policy decisions.]]
 
 **Supports:**

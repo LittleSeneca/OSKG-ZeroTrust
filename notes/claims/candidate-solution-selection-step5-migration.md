@@ -63,6 +63,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[policy-formulation-step4-migration|Choosing a ZT solution (Step 5) depends on the access criteria and trust-evaluation approach (criteria-based vs. score-b]]
 - [[reporting-only-mode-step6-migration|You cannot deploy in reporting-only mode (Step 6) until a candidate solution has been selected (Step 5).]]
 
 **Supports:**

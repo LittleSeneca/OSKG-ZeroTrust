@@ -61,6 +61,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[identity-mgmt-attribute-authority|JIT/JEA requires rich identity attributes to make fine-grained, automated access decisions.]]
 
 **Supports:**
 

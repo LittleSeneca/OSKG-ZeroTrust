@@ -57,6 +57,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[centralized-device-management-enforcement-backbone|Policy enforcement and compliance monitoring require centralized management (UEM/MDM) to push policies, collect complian]]
 - [[continuous-risk-based-device-authorization|Compliance status and policy enforcement data are essential inputs to the risk calculation engine for authorization deci]]
 
 **Supports:**

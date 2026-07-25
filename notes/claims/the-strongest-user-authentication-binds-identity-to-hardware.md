@@ -63,6 +63,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[private-pki-is-the-non-negotiable-bedrock-of-zt|Hardware-bound authentication at scale requires PKI as the underlying certificate infrastructure.]]
 
 **Supports:**
 

@@ -55,7 +55,6 @@ _None identified._
 
 **Depends on:**
 - [[access-mgmt-abac-least-privilege|ABAC, JIT/JEA, and PAM access decisions all require identity to be established and mature; least-privilege enforcement c]]
-- [[cdm-visibility-prerequisite-zta|Identity-based access decisions depend on CDM providing answers to 'what is connected' and 'who is on the network' befor]]
 
 **Supports:**
 - [[user-identity-and-device-identity-are-separate-trust|A foundational identity pillar must handle separate user and device trust domains with independent trust scores.]]

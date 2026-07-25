@@ -54,7 +54,6 @@ _None identified._
 **Depends on:**
 - [[endpoint-new-perimeter|Treating the endpoint as the new perimeter requires fleet health and device trustworthiness data that only the Device In]]
 - [[tiered-access|Tiered access levels depend on device trust evaluations computed by the Device Inventory Service from its 15+ data sourc]]
-- [[beyondcorp-access-flow-enforces-per|The trust inference pipeline requires the Device Inventory Service to supply device trust data (OS patch level, security]]
 
 **Supports:**
 

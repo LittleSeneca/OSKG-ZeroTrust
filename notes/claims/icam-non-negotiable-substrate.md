@@ -60,7 +60,6 @@ The ICAM-first framing could be read as NSA's institutional preference — defen
 ## Edges
 
 **Depends on:**
-- [[cdm-visibility-prerequisite-zta|The ICAM substrate depends on CDM's asset inventory and user identity data to populate the identity stores and credentia]]
 
 **Supports:**
 - [[ztmm-operationalizes-nist-seven-tenets|ICAM as the non-negotiable substrate provides the identity infrastructure that the ZTMM operationalizes into measurable]]

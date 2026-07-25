@@ -57,7 +57,6 @@ _None identified._
 ## Edges
 
 **Depends on:**
-- [[per-instance-time-bound-secrets-are-the-mechanism-for-authorizing|Per-instance time-bound secret provisioning depends on immutable workload patterns where instances are created via redep]]
 
 **Supports:**
 

@@ -65,6 +65,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[centralized-device-management-enforcement-backbone|Real-time deny-by-default enrollment requires centralized management to enforce enrollment decisions and maintain the au]]
 - [[continuous-risk-based-device-authorization|Risk-based authorization cannot function without knowing what devices exist — inventory is the foundational input.]]
 
 **Supports:**

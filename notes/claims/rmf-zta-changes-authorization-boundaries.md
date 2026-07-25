@@ -57,6 +57,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[three-expanded-principles-api-integration-automation-and-business|The per-resource, per-session risk acceptance model encoded algorithmically in the Policy Engine (6.3) depends on API in]]
 
 **Supports:**
 
