@@ -25,10 +25,10 @@ updated: 2026-07-24
 
 - **Total chapter notes:** 50 (36 with claims + 14 without claims yet extracted)
 - **Total estimated claims:** ~405
-- **Claims extracted:** 14
-- **Remaining:** ~391
-- **Batches completed:** 1
-- **Last batch:** 2026-07-24 — Batch 1 (3 notes, 14 claims)
+- **Claims extracted:** 67
+- **Remaining:** ~338
+- **Batches completed:** 2
+- **Last batch:** 2026-07-24 — Batch 2 (6 notes, 53 claims)
 
 ### Batch Log
 
@@ -109,12 +109,12 @@ Target: future sessions, ~10 notes
 
 ### Tier 1 — Government Standards (16 notes, ~60 claims)
 - [x] NIST 800-207 Ch2 — Zero Trust Basics (5 claims → Batch 1)
-- [ ] NIST 800-207 Ch1 — Introduction
-- [ ] NIST 800-207 Ch3 — Logical Components
-- [ ] NIST 800-207 Ch4 — Deployment Scenarios
-- [ ] NIST 800-207 Ch5 — Threats
-- [ ] NIST 800-207 Ch6 — Federal Guidance
-- [ ] NIST 800-207 Ch7 — Migration
+- [x] NIST 800-207 Ch1 — Introduction
+- [x] NIST 800-207 Ch3 — Logical Components
+- [x] NIST 800-207 Ch4 — Deployment Scenarios
+- [x] NIST 800-207 Ch5 — Threats
+- [x] NIST 800-207 Ch6 — Federal Guidance
+- [x] NIST 800-207 Ch7 — Migration
 - [x] NSA — Embracing a Zero Trust Security Model (5 claims → Batch 1)
 - [ ] NSA — User Pillar
 - [ ] NSA — Device Pillar
@@ -186,6 +186,15 @@ Target: future sessions, ~10 notes
 - **Items remaining:** 49 (Tiers 3-4)
 
 ### Phase 2 Sessions
+
+### 2026-07-24 — Phase 2 Batch 2
+- **Notes processed:** 6 (NIST 800-207 Ch1, Ch3, Ch4, Ch5, Ch6, Ch7)
+- **Claims extracted:** 53
+- **Artifacts created:** 53 claim files + 6 chapter note updates + 2 extraction scripts
+- **Intra-batch edges:** 38 wikilinks (25 via execute_code + 13 via patch)
+- **Quality review:** PASS — 0 issues (all frontmatter, evidence sections, wikilinks verified)
+- **Model:** Claude Code (Opus 5 high effort — extraction script + chapter note update script)
+- **Method:** Claude Code wrote extract_batch2.py and update_chapter_notes.py; both run & verified
 
 ### 2026-07-24 — Phase 2 Batch 1
 - **Notes processed:** 3 (NIST 800-207 Ch2, NSA Embracing ZT, G&B Ch1)

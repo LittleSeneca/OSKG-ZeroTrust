@@ -23,27 +23,27 @@ related:
   - "[[BeyondCorp — A New Approach]]"
   - "[[Green-Ortiz — ZT Implementation Patterns]]"
   - "[[Concepts Index]]"
+claims_status: extracted
+claims_extracted_date: 2026-07-24
+claims_count: 6
+claims_files:
+  - "[[five-deployment-scenarios-combine]]"
+  - "[[satellite-facilities-cloud-hosted-pe-pa]]"
+  - "[[multi-cloud-sdp-server-to-server]]"
+  - "[[contracted-services-sdp-dark-network]]"
+  - "[[cross-enterprise-federated-identity-peps]]"
+  - "[[public-facing-services-zta-boundary]]"
 ---
 
 # NIST SP 800-207 — Ch4: Deployment Scenarios
 
 This chapter translates the abstract ZT tenets and PDP/PEP architecture (Ch 2–3) into five concrete deployment scenarios. Unlike vendor marketing that treats "Zero Trust" as a single product or deployment model, NIST shows that ZTA adapts to the specific flows of subjects, resources, and trust boundaries in each scenario. The unifying principle across all five is that the PEP should sit as close to the resource as possible, and the PA/PE should make per-request, context-aware decisions regardless of where the subject is coming from.
 
-### Claim 1: The five scenarios are not mutually exclusive — real enterprises combine them
-
-**NIST's claim:** "Any enterprise environment can be designed with zero trust tenets in mind... ZTA is not explicitly indicated since the enterprise likely has both perimeter-based and possibly ZTA infrastructures" (4.0). NIST acknowledges that most enterprises will operate in a hybrid state (see Ch 7.2) where ZTA and perimeter-based security coexist.
-
-**Evidence presented:** The five scenarios are presented as lenses, not silos. An enterprise with satellite facilities (4.1) may also use multiple clouds (4.2), host contractors (4.3), collaborate with partners (4.4), and serve public-facing applications (4.5). The scenarios compound.
-
-**Confidence:** HIGH. The chapter opens with this disclaimer explicitly. Real federal agencies combine all five scenarios daily.
-
-**What's at stake:** Treating scenarios as silos leads to fragmented ZT deployment — a different architecture per scenario rather than a unified PDP/PA/PEP infrastructure. NIST's framing allows one policy engine to govern multiple scenarios simultaneously.
-
-**Who disagrees:** Vendor ZTNA products often address only scenarios 4.1 and 4.4 (remote access and cross-enterprise). The other scenarios are left to different product categories (CASB for cloud, NAC for contractors, WAF for public-facing). This is a product taxonomy problem, not an architectural one — NIST shows the same logical components apply everywhere.
+**Claim 1 —** The five scenarios are not mutually exclusive — real enterprises combine them → [[five-deployment-scenarios-combine]]
 
 ---
 
-### Claim 2: For satellite facilities and remote workers, the PE/PA must be hosted as a cloud service to avoid hairpinning traffic through HQ — the MPLS link to HQ becomes a commodity transport, not a security boundary. (Scenario 4.1)
+**Claim 2 —** For satellite facilities and remote workers, the PE/PA must be hosted as a cloud service to avoid hairpinning traffic through HQ — the MPLS link to HQ becomes a commodity transport, not a security boundary. (Scenario 4.1) → [[satellite-facilities-cloud-hosted-pe-pa]]
 
 ## Scenario 4.1: Enterprise with Satellite Facilities
 
@@ -69,7 +69,7 @@ This chapter translates the abstract ZT tenets and PDP/PEP architecture (Ch 2–
 
 ---
 
-### Claim 3: Multi-cloud environments require the SDP server-to-server model — a PEP at each cloud-hosted service, no enterprise network hairpinning, and the enterprise perimeter is irrelevant to the security model. (Scenario 4.2)
+**Claim 3 —** Multi-cloud environments require the SDP server-to-server model — a PEP at each cloud-hosted service, no enterprise network hairpinning, and the enterprise perimeter is irrelevant to the security model. (Scenario 4.2) → [[multi-cloud-sdp-server-to-server]]
 
 ## Scenario 4.2: Multi-cloud/Cloud-to-Cloud Enterprise
 
@@ -97,7 +97,7 @@ This chapter translates the abstract ZT tenets and PDP/PEP architecture (Ch 2–
 
 ---
 
-### Claim 4: Contracted services and nonemployee access should use the SDP "dark network" model — enterprise resources are obscured from network discovery, preventing lateral movement, with the PA ensuring nonenterprise assets can access the internet but cannot discover or reach enterprise resources. (Scenario 4.3)
+**Claim 4 —** Contracted services and nonemployee access should use the SDP "dark network" model — enterprise resources are obscured from network discovery, preventing lateral movement, with the PA ensuring nonenterprise assets can access the internet but cannot discover or reach enterprise resources. (Scenario 4.3) → [[contracted-services-sdp-dark-network]]
 
 ## Scenario 4.3: Enterprise with Contracted Services and/or Nonemployee Access
 
@@ -123,7 +123,7 @@ This chapter translates the abstract ZT tenets and PDP/PEP architecture (Ch 2–
 
 ---
 
-### Claim 5: Cross-enterprise collaboration should use federated identity plus resource-specific PEPs — this scales linearly with partners, while the alternative (bilateral VPNs, shared AD domains, per-partner firewall rules) creates O(n²) complexity. (Scenario 4.4)
+**Claim 5 —** Cross-enterprise collaboration should use federated identity plus resource-specific PEPs — this scales linearly with partners, while the alternative (bilateral VPNs, shared AD domains, per-partner firewall rules) creates O(n²) complexity. (Scenario 4.4) → [[cross-enterprise-federated-identity-peps]]
 
 ## Scenario 4.4: Collaboration Across Enterprise Boundaries
 
@@ -150,7 +150,7 @@ This chapter translates the abstract ZT tenets and PDP/PEP architecture (Ch 2–
 
 ---
 
-### Claim 6: Public-facing services expose ZTA's boundary — ZT tenets do not directly apply to anonymous public resources, and for registered users the enterprise is constrained in what cybersecurity policies can be enforced on nonenterprise-owned devices, limiting ZTA to behavioral monitoring and graduated enforcement. (Scenario 4.5)
+**Claim 6 —** Public-facing services expose ZTA's boundary — ZT tenets do not directly apply to anonymous public resources, and for registered users the enterprise is constrained in what cybersecurity policies can be enforced on nonenterprise-owned devices, limiting ZTA to behavioral monitoring and graduated enforcement. (Scenario 4.5) → [[public-facing-services-zta-boundary]]
 
 ## Scenario 4.5: Enterprise with Public- or Customer-Facing Services
 
