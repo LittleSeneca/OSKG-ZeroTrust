@@ -19,16 +19,15 @@ updated: 2026-07-24
 - **Remaining:** 49
 - **Last session:** 2026-07-24 — Tiers 1-2 complete (36 notes in 1 session)
 
-## Phase 2 — Claims Extraction (IN PROGRESS)
+## Phase 2 — Claims Extraction (COMPLETE)
 
 ### Status Summary
 
-- **Total chapter notes:** 50 (36 with claims + 14 without claims yet extracted)
-- **Total estimated claims:** ~405
-- **Claims extracted:** 299
-- **Remaining:** ~106
-- **Batches completed:** 4
-- **Last batch:** 2026-07-24 — Batch 4 (19 notes, 170 claims)
+- **Total chapter notes:** 50
+- **Total claims extracted:** 405
+- **Remaining:** 0
+- **Batches completed:** 5
+- **Last batch:** 2026-07-24 — Batch 5 (16 notes, 106 claims)
 
 ### Batch Log
 
@@ -82,26 +81,23 @@ Target: 1 session, 20 notes
 - [x] Project Zero Trust — Finney (3 notes)
 - [x] Zero Trust Architecture — Green-Ortiz et al. (4 notes)
 
-### Tier 3 — Supplementary Standards & Papers
-Target: 1-2 sessions, ~20 notes
+### Tier 3 — Supplementary (20 notes, ~120 claims)
+- [x] NIST 800-207A — Cloud-Native Access Control (7 claims → Batch 5)
+- [x] NIST 1800-35 — Implementing ZTA (6 claims → Batch 5)
+- [x] CCCS — Zero Trust Security Model (5 claims → Batch 5)
+- [x] CCCS — ZT Approach to Security Architecture (7 claims → Batch 5)
+- [x] BSI — Zero Trust Position Paper (9 claims → Batch 5)
+- [x] DoD — ZT Strategy and Roadmap (5 claims → Batch 5)
+- [x] NSTAC — ZT and Trusted Identity Management (7 claims → Batch 5)
+- [x] BeyondCorp — Research Papers (11 claims → Batch 5)
+- [x] BeyondProd — Cloud-Native Security (6 claims → Batch 5)
 
-- [ ] NIST SP 800-207A — Cloud-Native Access Control (3-4 sections)
-- [ ] NIST SP 1800-35 — Implementing ZTA (5-7 sections)
-- [ ] CCCS ZT Approach to Security Architecture — ITSM.10.008 (1 note)
-- [ ] CCCS Zero Trust Security Model — ITSAP.10.008 (1 note)
-- [ ] BSI Zero Trust Position Paper (1 note, German)
-- [ ] DoD ZT Strategy & Roadmap (3-5 sections)
-- [ ] NSTAC Report to the President (3-5 sections)
-- [ ] BeyondCorp papers (4 one-note papers)
-- [ ] BeyondProd (1 note)
-
-### Tier 4 — Nice-to-Have (lower priority, fill gaps later)
-Target: future sessions, ~10 notes
-
-- [ ] Cyber Defense Matrix — Yu (11 chapters)
-- [ ] Zero Trust in Resilient Cloud — Halley et al. (selected chapters)
-- [ ] Academic papers (3 papers, 1 note each)
-- [ ] International papers (ANSSI-BSI, NCSC-Google, BSI)
+### Tier 4 — Nice-to-Have (10 notes, ~45 claims)
+- [x] Yu — Cyber Defense Matrix (4 claims → Batch 5)
+- [x] Halley — Zero Trust in Resilient Cloud (4 claims → Batch 5)
+- [x] Academic — ZT Research Papers (6 claims → Batch 5)
+- [x] ANSSI-BSI — LLM and Zero Trust (5 claims → Batch 5)
+- [x] NCSC — ZT Principles on Google Cloud (7 claims → Batch 5)
 
 ---
 
@@ -122,8 +118,8 @@ Target: future sessions, ~10 notes
 - [x] CISA ZTMM — Overview and Framework
 - [x] CISA ZTMM — Identity Pillar
 - [x] CISA ZTMM — Device Network App Data Pillars
-- [ ] DoD ZT RA — Overview and Strategy
-- [ ] DoD ZT RA — Capabilities and Use Cases
+- [x] DoD ZT RA — Overview and Strategy (6 claims → Batch 5)
+- [x] DoD ZT RA — Capabilities and Use Cases (11 claims → Batch 5)
 
 ### Tier 2 — Core Books (20 notes, ~180 claims)
 - [x] Gilman & Barth Ch1 — Zero Trust Fundamentals (4 claims → Batch 1)
@@ -212,6 +208,15 @@ Target: future sessions, ~10 notes
 - **Quality review:** PASS — sampled 19 claims across all 4 books, all frontmatter/evidence/tags verified
 - **Model:** DeepSeek V4 Pro (manual script adaptation from batch3 pattern, META auto-generated + hand-reviewed)
 - **Method:** Adapted extract_batch3.py with 4 new claim markers (authors', finney's, green-ortiz's), 19 CHAPTERS, 170 META entries
+
+### 2026-07-24 — Phase 2 Batch 5
+- **Notes processed:** 16 (DoD ZT RA 2 + Tiers 3-4: 14 notes)
+- **Claims extracted:** 106 (17 DoD + 89 Tier 3/4)
+- **Artifacts created:** 106 claim files + 16 chapter note updates + 2 extraction scripts + 1 update script
+- **Quality review:** PASS — all claims extracted, zero misses except 2 ANSSI-BSI false positives (section headers, not claims)
+- **Model:** DeepSeek V4 Pro
+- **Method:** DoD: manual META dict with claim-title-derived slugs. Tier 3: auto-generated slugs via title_to_slug() function with stop-word filtering. One script per extraction pass.
+- **Phase 2 COMPLETE:** 405 claims across 50 chapter notes, 5 batches, all in one day.
 
 ### 2026-07-24 — Phase 2 Batch 1
 - **Notes processed:** 3 (NIST 800-207 Ch2, NSA Embracing ZT, G&B Ch1)
