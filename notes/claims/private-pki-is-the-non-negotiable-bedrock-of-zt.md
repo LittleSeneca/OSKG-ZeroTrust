@@ -52,8 +52,10 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[the-strongest-user-authentication-binds-identity-to-hardware|Hardware-bound authentication at scale requires PKI as the underlying certificate infrastructure.]]
 
 **Supports:**
+- [[the-strongest-user-authentication-binds-identity-to-hardware|Private PKI provides the certificate infrastructure that makes hardware-bound authentication viable at enterprise scale.]]
 
 **Contradicts:**
 

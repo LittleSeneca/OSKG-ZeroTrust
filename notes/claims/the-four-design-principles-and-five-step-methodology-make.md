@@ -69,6 +69,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[nist-sp-800-207-provides-the-architectural-tenets-but|Repeatability of the methodology is evidence that Kindervag provides actionable strategy.]]
 
 **Contradicts:**
 

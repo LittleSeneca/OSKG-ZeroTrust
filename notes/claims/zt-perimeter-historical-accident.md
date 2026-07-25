@@ -56,6 +56,7 @@ _None identified._
 <!-- Claims this one requires to be true -->
 
 **Supports:**
+- [[perimeter-security-obsolete|The historical narrative that perimeter security was an accident of NAT/IP isolation, not a designed property, explains]]
 - [[zt-phone-home-fatal-flaw]]
 
 **Contradicts:**

@@ -76,6 +76,7 @@ The seven principles could be seen as redundant with the five tenets and seven p
 **Operationalizes:**
 
 **Extends:**
+- [[the-nist-pdppep-model-is-the-correct-foundation|The DoD RA principles as architectural bridge add a layer above the PDP/PEP model, connecting high-level tenets to PDP/P]]
 
 ## Assessment
 

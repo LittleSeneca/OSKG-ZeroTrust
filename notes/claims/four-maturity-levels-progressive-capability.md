@@ -61,6 +61,8 @@ The maturity levels could be read as a procurement roadmap rather than a technic
 **Depends on:**
 
 **Supports:**
+- [[zero-trust-never-ends-the-maturity-model-turns|The four progressive maturity levels (Traditional→Initial→Advanced→Optimal) provide the scaffolding that turns a short-t]]
+- [[zt-maturity-incremental|nsa-embrace.4 claims ZT maturity is incremental, not binary. cisa-ztmm-ov.7 supports this by providing the concrete four]]
   - "[[cross-pillar-maturity-trajectory]]"
 
 **Contradicts:**

@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[beyondcorp-migration-followed-consistent-cadence|Partitioning devices into a new VLAN in final BeyondCorp configuration and incrementally moving them enabled the consist]]
 
 **Contradicts:**
 

@@ -56,6 +56,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[cloud|Monitoring telemetry feeds back into the service mesh's access decisions and step-up authentication, closing the policy]]
 
 **Contradicts:**
 

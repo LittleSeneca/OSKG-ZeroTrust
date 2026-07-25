@@ -58,6 +58,7 @@ BeyondCorp could be read as a cautionary tale about complexity: Google's team we
 **Depends on:**
 
 **Supports:**
+- [[seven-device-capabilities-interdependent|BeyondCorp at Google was the large-scale proof that the seven-capability model (inventory, certificates, SSO, access pro]]
 
 **Contradicts:**
 

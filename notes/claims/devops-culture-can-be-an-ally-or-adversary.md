@@ -61,6 +61,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[application-security-testing-sdlc|DevOps culture that integrates security into existing developer workflows enables SDLC-integrated security testing]]
+- [[secure-app-dev-immutable-workloads|DevOps culture that integrates security into existing developer workflows enables adoption of immutable workload practic]]
 
 **Contradicts:**
 

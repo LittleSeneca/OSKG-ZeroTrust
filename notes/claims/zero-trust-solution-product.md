@@ -54,6 +54,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[defense-in-depth-compliance-and-best-of-breed-are-not|Both reject simplistic security definitions — ZT is not a product, and defense-in-depth, compliance, and best-of-breed a]]
+- [[four-strategic-goals-cultural-adoption-systems-secured|ZT not being a product aligns with Cultural Adoption being the first strategic goal — transformation requires mindset ch]]
 
 **Contradicts:**
 

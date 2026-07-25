@@ -72,6 +72,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[identity-federation-hard-problem|Extends beyond federation to secure integration — the architectural undertaking that federation alone cannot achieve.]]
 
 ## Assessment
 

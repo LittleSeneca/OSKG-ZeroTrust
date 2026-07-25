@@ -62,6 +62,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[the-four-component-policy-model-subject-action-target-condition|The policy decision matrix is a concrete planning artifact that operationalizes the abstract four-component model into p]]
 
 ## Assessment
 

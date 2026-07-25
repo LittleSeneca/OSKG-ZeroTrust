@@ -64,6 +64,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[federal-government-current|nstac.1 argues the current strategy over-focuses on near-term tactical goals; nstac.2 proposes industry best-practice ac]]
 
 **Contradicts:**
 

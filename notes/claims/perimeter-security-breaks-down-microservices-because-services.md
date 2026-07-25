@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[network|Both argue network-location trust fails for cloud-native; perimeter's microservice-specific analysis provides the concre]]
 
 **Contradicts:**
 

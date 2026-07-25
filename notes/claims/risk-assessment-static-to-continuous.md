@@ -63,6 +63,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[continuous-authentication-common-all-pillars|Continuous risk assessment feeds real-time identity risk data into the continuous authentication pipeline across all pil]]
 
 **Contradicts:**
 
@@ -71,6 +72,8 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[access-mgmt-abac-least-privilege|Contrasts CISA's treatment of risk as a first-class function with NSA's treatment of risk as a property of access manage]]
+- [[trust-assessment-is-multi-layered-identity-posture-and-behavior|Adds the structural shift from static periodic assessment to real-time continuous feed, distinguishing CISA's approach f]]
   - "[[continuous-risk-based-device-authorization]]"
 
 ## Assessment

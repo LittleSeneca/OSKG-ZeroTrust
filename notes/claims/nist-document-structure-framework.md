@@ -57,6 +57,8 @@ The structure is driven by standards-document conventions (define, decompose, ap
 ## Edges
 
 **Depends on:**
+- [[ztmm-nist-800-207-definition-foundation|The ZTMM's foundation on NIST SP 800-207's definition presupposes the essential framework that nist207-ch1.8 identifies.]]
+- [[bsi-provides-formal-three|BSI's definition extending NIST presupposes the NIST document framework that nist207-ch1.8 identifies as essential.]]
 
 **Supports:**
 

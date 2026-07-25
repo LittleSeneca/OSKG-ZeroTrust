@@ -61,14 +61,17 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[trust-degrades-over-time-device-age-is-the|Unpatched firmware below the OS is a key vector by which device trust degrades over time — firmware neglect accelerates]]
 
 **Contradicts:**
+- [[zt-can-bring-real-value-to-iot-but|Unpatchable IoT firmware directly contradicts the requirement that patch management must cover firmware below the OS — t]]
 
 **Challenged by:**
 
 **Operationalizes:**
 
 **Extends:**
+- [[vulnerability-management-must-extend-beyond-cves-to-include|Both expand vulnerability management beyond traditional CVE scanning: firmware goes deeper below the OS layer, behaviora]]
   - "[[asset-supply-chain-risk-management]]"
 
 ## Assessment

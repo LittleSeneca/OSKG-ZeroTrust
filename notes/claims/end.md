@@ -62,6 +62,8 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[service-identity-service-accounts-device-identity-verified|End-User Context Tickets demonstrate how first-class service identity is composed with end-user identity for fine-graine]]
+- [[alts-application-layer-transport-security-workhorse-beyondprod|End-User Context Tickets compose end-user identity on top of ALTS service identity to prevent lateral movement by compro]]
 
 ## Assessment
 

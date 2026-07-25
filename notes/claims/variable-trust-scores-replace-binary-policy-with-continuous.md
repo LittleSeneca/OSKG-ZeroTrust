@@ -54,6 +54,7 @@ Variable trust can be read as an implementation detail rather than a fundamental
 **Depends on:**
 
 **Supports:**
+- [[trust-score-should-drive-authentication-requirements-not-static|Variable trust scores are the mechanism that enables score-driven authentication requirements.]]
 
 **Contradicts:**
 
@@ -62,6 +63,7 @@ Variable trust can be read as an implementation detail rather than a fundamental
 **Operationalizes:**
 
 **Extends:**
+- [[entities-should-be-scored-at-multiple-levels-network|Multi-level entity scoring is a specific dimension of how variable trust scores are implemented.]]
 
 ## Assessment
 

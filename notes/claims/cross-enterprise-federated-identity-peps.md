@@ -72,6 +72,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[identity-federation-hard-problem|The federated approach's linear scaling property (vs O(n²) alternatives) validates that federation is worth solving desp]]
 
 **Contradicts:**
 

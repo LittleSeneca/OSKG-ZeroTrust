@@ -101,6 +101,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[mfa-is-necessary-but-insufficient-attackers-have-at|Dynamic continuous authentication with UEBA confidence scoring evolves beyond point-in-time MFA — the exact insufficienc]]
 
 ## Assessment
 

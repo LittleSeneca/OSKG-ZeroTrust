@@ -74,6 +74,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[authentication-keystone-identity-function|Phishing-resistant credential management directly strengthens the authentication keystone against the largest capability]]
 
 **Contradicts:**
 
@@ -83,6 +84,7 @@ _None identified._
   - "[[authentication-keystone-identity-function]]"
 
 **Extends:**
+- [[the-strongest-user-authentication-binds-identity-to-hardware|Phishing resistance (MFA→AAL3 scale) extends hardware binding by defining the credential management progression that har]]
 
 ## Assessment
 

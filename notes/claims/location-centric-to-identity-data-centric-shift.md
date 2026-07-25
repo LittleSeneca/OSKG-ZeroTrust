@@ -53,6 +53,8 @@ The cultural change argument could be self-serving for CISA — it justifies the
 **Depends on:**
 
 **Supports:**
+- [[zt-defined-cisa-five|The location-to-identity shift is the conceptual transformation that the CISA five-pillar model is designed to operation]]
+- [[zt-assume-breach|Abandoning location-based trust is the architectural expression of the 'assume breach' mindset — if you assume breach, n]]
 
 **Contradicts:**
 
@@ -61,6 +63,7 @@ The cultural change argument could be self-serving for CISA — it justifies the
 **Operationalizes:**
 
 **Extends:**
+- [[zt-positive-tenets|The shift from location-centric to identity/data-centric security is the specific architectural transformation implied b]]
 
 ## Assessment
 

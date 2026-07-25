@@ -53,6 +53,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[prevention-is-possible-and-more-cost-effective-than-recovery|Problem management (investigating root causes) is the operational mechanism for prevention, making incident-without-prob]]
 
 **Contradicts:**
 

@@ -59,6 +59,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[hybrid-model-indefinite-reality|Since pure greenfield is rarely viable, the hybrid model is not a temporary concession but the expected and necessary mi]]
 
 **Contradicts:**
 

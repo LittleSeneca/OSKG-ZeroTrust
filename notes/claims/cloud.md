@@ -55,8 +55,10 @@ The service mesh is an *operational convenience* for ZTA policy enforcement, not
 ## Edges
 
 **Depends on:**
+- [[devops-introduces-cloud-native-risks-kubernetes-containers-that-traditional|Securing Kubernetes and containers via ZT depends on the service mesh as the enforcement kernel for identity-based workl]]
 
 **Supports:**
+- [[service-identity-service-accounts-device-identity-verified|The service mesh as enforcement kernel operationalizes first-class service identity as the security primitive for east-w]]
 
 **Contradicts:**
 
@@ -65,6 +67,7 @@ The service mesh is an *operational convenience* for ZTA policy enforcement, not
 **Operationalizes:**
 
 **Extends:**
+- [[network|The service mesh provides the architectural enforcement mechanism — a 'cloud-native security kernel' — for operationaliz]]
 
 ## Assessment
 

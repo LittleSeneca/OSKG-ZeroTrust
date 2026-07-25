@@ -59,6 +59,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[perimeter-security-breaks-down-microservices-because-services|Cloud-native architectures being 'inherently ZT-aligned' reinforces that perimeter security is the wrong model for these]]
 
 **Contradicts:**
 
@@ -67,6 +68,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[devops-introduces-cloud-native-risks-kubernetes-containers-that-traditional|cloud-3 highlights inherent ZT alignment of cloud-native while devops-risks focuses on the new attack surfaces — togethe]]
 
 ## Assessment
 

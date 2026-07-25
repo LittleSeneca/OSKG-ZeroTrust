@@ -65,6 +65,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[rmf-zta-changes-authorization-boundaries|The 14 platform requirements (3.8) provide the verifiable operational criteria — encryption, access controls, device pos]]
 
 **Contradicts:**
 
@@ -73,6 +74,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[three-expanded-principles-api-integration-automation-and-business|The 14 platform requirements (3.8) operationalize the expanded principles of API integration, automation, and business v]]
 
 ## Assessment
 

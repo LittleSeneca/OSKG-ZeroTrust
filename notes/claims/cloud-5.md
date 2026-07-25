@@ -58,6 +58,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[zta-monitoring-framework-cover-resource-categories-enterprise|Google's cloud-native monitoring services (SCC, Chronicle, Cloud Logging) fulfill the comprehensive monitoring framework]]
 
 **Contradicts:**
 

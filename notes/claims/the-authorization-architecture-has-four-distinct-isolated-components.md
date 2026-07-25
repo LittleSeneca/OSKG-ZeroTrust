@@ -62,6 +62,8 @@ The four-component model could be read as describing an ideal rather than a mini
 **Operationalizes:**
 
 **Extends:**
+- [[the-nist-pdppep-model-is-the-correct-foundation|The four-component authorization architecture elaborates the NIST PDP/PEP model by specifying the distinct, isolated com]]
+- [[zt-control-data-plane-split|The four-component authorization architecture refines the control plane/data plane split with a detailed decomposition i]]
 
 ## Assessment
 

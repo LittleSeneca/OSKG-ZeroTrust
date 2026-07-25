@@ -62,6 +62,7 @@ The threat emphasis could be read as institutional bias — DISA and NSA are def
 **Operationalizes:**
 
 **Extends:**
+- [[zts-threat-model-is-the-internet-threat-model|zts-threat-model-is-the-internet-threat-model]]
 
 ## Assessment
 

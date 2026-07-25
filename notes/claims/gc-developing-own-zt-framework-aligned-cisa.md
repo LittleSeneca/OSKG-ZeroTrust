@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[organizations-choose-among-nist-cisa-ncsc-frameworks|The GC developing its framework aligned with CISA and NIST pillars exemplifies the recommended approach of building on e]]
 
 **Contradicts:**
 

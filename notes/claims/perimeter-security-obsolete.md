@@ -56,6 +56,8 @@ The perimeter hasn't disappeared — it has multiplied and become dynamic. Rathe
 **Depends on:**
 
 **Supports:**
+- [[vpns-must-be-replaced-not-augmented-not-integrated|VPNs are a perimeter technology; the obsolescence of perimeter-based security directly undermines VPNs as a viable acces]]
+- [[lateral-movement-prevention-raison-detre|Perimeter failure — attackers who breach the perimeter face no further barriers — is exactly why lateral movement preven]]
 
 **Contradicts:**
 

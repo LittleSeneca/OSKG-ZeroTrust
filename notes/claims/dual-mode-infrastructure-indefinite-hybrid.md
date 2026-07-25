@@ -65,6 +65,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[hybrid-model-indefinite-reality|Dual-mode infrastructure (ID mgmt, device mgmt, logging) is the concrete set of requirements that the indefinite hybrid]]
 
 ## Assessment
 

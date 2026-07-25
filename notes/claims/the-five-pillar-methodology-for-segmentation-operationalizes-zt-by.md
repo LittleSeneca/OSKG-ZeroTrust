@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[configuration-management-is-a-legitimate-stepping-stone-to|Both advocate iterative refinement starting from existing infrastructure — segmentation starts with 5–7 broad enclaves,]]
 
 **Contradicts:**
 
@@ -62,6 +63,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[policy-formulation-step4-migration|The five-pillar segmentation methodology (VLAN→Firewall→dACLs→TrustSec) operationalizes the policy-formulation step by p]]
 
 ## Assessment
 

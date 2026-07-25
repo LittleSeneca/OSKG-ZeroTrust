@@ -76,6 +76,8 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[the-nist-pdppep-model-is-the-correct-foundation|The DoD's seven-pillar capability taxonomy complements the NIST PDP/PEP model by organizing functional capabilities that]]
+- [[dod-seven-ra-principles-bridge|The seven pillars taxonomy provides the functional capability domains that the seven RA principles bridge to implementat]]
 
 ## Assessment
 

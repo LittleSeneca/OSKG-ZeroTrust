@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[greenfield-zta-rarely-viable|Both claims converge on the same strategic conclusion: organizations should not expect or pursue greenfield, instead evo]]
 
 **Contradicts:**
 

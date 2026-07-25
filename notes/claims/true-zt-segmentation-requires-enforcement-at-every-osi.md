@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[east-west-segmentation-controlling-traffic-within-the-same-vlansubnet|Enforcement at every OSI layer — especially Layer 2 with SGTs — is how east-west segmentation within the same VLAN becom]]
 
 **Contradicts:**
 

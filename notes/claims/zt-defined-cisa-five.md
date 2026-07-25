@@ -61,6 +61,9 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[zt-positive-tenets|The CISA five-pillar model is an alternative operationalization of the core ZT concepts that nist207-ch2.1 defines throu]]
+- [[four-concrete-starting-points-actionable-abstract-principles|The four concrete starting points in cccs-model.5 are actionable implementation guidance that builds on the five-pillar]]
+- [[cisa-pillar-described-traditional-advanced-optimal-maturity|The Traditional/Advanced/Optimal maturity gradient in cccs-model.2 is the mechanism by which the CISA five-pillar model]]
 
 ## Assessment
 

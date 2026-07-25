@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[governance-critical-gap|nstac.7 warns that absent component-level interface standards, ZT creates vendor lock-in and management complexity; this]]
 
 **Contradicts:**
 

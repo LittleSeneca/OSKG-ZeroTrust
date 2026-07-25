@@ -69,6 +69,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[four-deployment-models-zta|The GC's four deployment models extend NIST's four by adding cloud-routed and microsegmentation models on top of NIST's]]
 
 ## Assessment
 

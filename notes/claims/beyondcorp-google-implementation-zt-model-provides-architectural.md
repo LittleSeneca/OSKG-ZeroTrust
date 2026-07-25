@@ -57,12 +57,14 @@ _None identified._
 **Supports:**
 
 **Contradicts:**
+- [[iaaspaas-security-hasnt-kept-pace-with-iaaspaas-adoption|iaaspaas claims CSP models are 'network/IP-centric' and 'definitely do not have the ability' to enforce ZT policies, whi]]
 
 **Challenged by:**
 
 **Operationalizes:**
 
 **Extends:**
+- [[beyondcorp-beyondprod-together-form-complete-zt-model|Positions BeyondCorp as the north-south half of Google's complete ZT model and the architectural foundation for all GCP]]
 
 ## Assessment
 

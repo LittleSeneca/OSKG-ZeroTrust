@@ -72,6 +72,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[bsi-provides-only-government-framework-multi|The VS (classified information) integration in bsi-zt.4 implies multi-organizational scope across government and contrac]]
 
 **Contradicts:**
 

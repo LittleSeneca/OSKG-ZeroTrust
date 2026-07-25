@@ -75,6 +75,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[continuous-risk-based-device-authorization|Heightened scrutiny for hostile remote environments is a specific intensification of continuous risk-based authorization]]
   - "[[accessible-applications-public-networks]]"
 
 ## Assessment

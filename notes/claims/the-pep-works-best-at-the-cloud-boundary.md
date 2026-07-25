@@ -66,6 +66,10 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[zt-control-data-plane-split|Placing the PEP at the cloud boundary is a specific architectural pattern for positioning the data plane enforcement poi]]
+- [[four-deployment-models-cover-the-zt-solution-space|The PEP at the cloud boundary is the enabling pattern for the cloud-routed deployment model, which is one of the four mo]]
+- [[a-component-is-only-a-pep-if-it|The cloud-boundary PEP configuration is a concrete example of a component meeting all PEP qualification criteria—identit]]
+- [[there-are-three-distinct-types-of-peps-and|The cloud-boundary PEP recommendation is a specific instantiation of the network PEP type, using source IP restrictions]]
 
 ## Assessment
 

@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[zt-guarantees-confidentiality-but-not-privacy-endpoint-enumeration|SPA mitigates the endpoint enumeration tradeoff by hiding services until a valid cryptographically-signed packet is rece]]
 
 **Contradicts:**
 

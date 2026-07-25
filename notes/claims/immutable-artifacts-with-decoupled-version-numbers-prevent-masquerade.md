@@ -56,6 +56,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[the-build-system-is-the-most-dangerous-attack|Immutable artifacts with decoupled version numbers protect the artifact side of the unprotected build system, securing t]]
+- [[the-application-pipeline-is-a-cryptographic-chain-break|Immutable artifacts with signed hashes provide the artifact-integrity link in the cryptographic chain]]
 
 **Contradicts:**
 

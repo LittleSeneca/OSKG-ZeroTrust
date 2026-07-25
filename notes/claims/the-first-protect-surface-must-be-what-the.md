@@ -61,6 +61,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[seven-zt-scenarios-provide-a-practical-non-exhaustive-framework|seven-zt-scenarios-provide-a-practical-non-exhaustive-framework]]
 
 ## Assessment
 

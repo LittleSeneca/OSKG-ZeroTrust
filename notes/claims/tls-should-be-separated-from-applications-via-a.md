@@ -64,6 +64,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[tls-and-ipsec-serve-different-roles-mtls-for|The local TLS daemon architecture extends the role-separation strategy by decoupling TLS from application libraries, ena]]
 
 ## Assessment
 

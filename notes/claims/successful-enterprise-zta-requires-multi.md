@@ -70,6 +70,8 @@ Multi-tier is a transition strategy, not an end state. As identity infrastructur
 **Operationalizes:**
 
 **Extends:**
+- [[network|Network-IP controls are insufficient alone but neither is identity alone — enterprise ZTA requires combining both tiers.]]
+- [[identity|Refines identity-tier advantages by arguing network-tier remains necessary for compliance (PCI/DSS) and location-based r]]
 
 ## Assessment
 

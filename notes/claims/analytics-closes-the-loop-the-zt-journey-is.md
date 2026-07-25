@@ -74,6 +74,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[reporting-only-mode-step6-migration|The monitoring data collected during reporting-only mode (traffic patterns, access baselines, behavioral norms) is the r]]
+- [[zta-expansion-iterative-cycle-step7|Analytics supplies the monitoring and behavioral-baseline data that enables the lower-tempo policy refinement called for]]
 
 **Contradicts:**
 
@@ -82,6 +84,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[zta-migration-incremental-recurring-cycle|Analytics provides the feedback data (telemetry, baselines, deviation alerts) that turns the cycle from a linear sequenc]]
 
 ## Assessment
 

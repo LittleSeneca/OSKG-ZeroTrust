@@ -61,6 +61,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[identity-must-be-contextual-who-what-device-where|Multi-layered trust assessment (identity + posture + behavior) operationalizes contextual identity decisions.]]
 
 **Contradicts:**
 

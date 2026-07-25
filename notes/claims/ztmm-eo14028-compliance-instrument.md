@@ -55,6 +55,7 @@ The ZTMM could be read as "one of many paths" (as CISA states) — a suggested a
   - "[[ztmm-nist-800-207-definition-foundation]]"
 
 **Supports:**
+- [[ztmm-operationalizes-nist-seven-tenets|The ZTMM's dual role as EO 14028 compliance instrument and operationalization of NIST tenets are complementary functions]]
 
 **Contradicts:**
 

@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[business-process-selection-step3-migration|Starting with VPN replacement for 1,000 users is a low-risk cloud/remote-worker workflow — exactly the starting point NI]]
 
 **Contradicts:**
 
@@ -62,6 +63,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[zta-migration-incremental-recurring-cycle|The 3-phase adoption path (VPN replacement → RBAC → branch removal) is a concrete, real-world case study that instantiat]]
 
 ## Assessment
 

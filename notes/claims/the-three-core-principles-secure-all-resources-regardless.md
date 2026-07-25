@@ -57,6 +57,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[zt-no-implicit-trust-continuous-eval|The three core principles (secure all resources, least privilege, inspect/log all traffic) are the universal operational]]
 
 **Contradicts:**
 

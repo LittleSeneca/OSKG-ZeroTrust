@@ -79,6 +79,8 @@ _None identified._
   - [[nist-control-data-plane-separation]]
 
 **Extends:**
+- [[endpoint-new-perimeter|The SDP dark network model extends the endpoint-as-perimeter concept to non-enterprise devices and contracted services,]]
+- [[perimeter-security-model-core-assumptions-no-longer|The SDP dark network model—obscuring enterprise resources from network discovery—is the ZT alternative to perimeter-base]]
 
 ## Assessment
 

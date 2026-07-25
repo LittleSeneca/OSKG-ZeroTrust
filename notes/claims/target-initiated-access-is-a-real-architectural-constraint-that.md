@@ -62,6 +62,8 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[four-deployment-models-zta|The target-initiated access constraint reveals that some NIST deployment models handle server-initiated traffic naturall]]
+- [[four-deployment-models-cover-the-zt-solution-space|The target-initiated access constraint specifies that the cloud-routed deployment model struggles with server-initiated]]
 
 ## Assessment
 

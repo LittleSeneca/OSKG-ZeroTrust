@@ -56,6 +56,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[true-zt-segmentation-requires-enforcement-at-every-osi|Assigning mTLS to client/server and IPsec to server/server demonstrates layered encryption at different OSI levels, supp]]
 
 **Contradicts:**
 

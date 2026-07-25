@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[agent-data-is-sensitive-and-should-be-contained|The lack of agent format standardization increases exposure risk if agent data is not contained, reinforcing the need to]]
 
 **Contradicts:**
 
@@ -62,6 +63,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[the-nist-pdppep-model-is-the-correct-foundation|The absence of agent format standards highlights a gap in the PDP/PEP model—the policy engine lacks a standardized way t]]
 
 ## Assessment
 

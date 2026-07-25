@@ -54,6 +54,7 @@ The SolarWinds reference could be seen as rhetorical — invoking a high-profile
 **Depends on:**
 
 **Supports:**
+- [[traditional-enterprise-security-is-structurally-broken-not-merely|Nation-state incidents (SolarWinds, Exchange) are the empirical evidence that perimeter-based security is structurally b]]
 
 **Contradicts:**
 

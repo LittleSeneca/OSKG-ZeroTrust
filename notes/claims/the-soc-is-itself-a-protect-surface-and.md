@@ -68,6 +68,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[soc-integration-should-be-pursued-early-in-the|The insight that the SOC itself is a protect surface that most organizations neglect adds security urgency to the argume]]
 
 **Contradicts:**
 

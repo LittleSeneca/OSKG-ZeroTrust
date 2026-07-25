@@ -71,6 +71,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[access-mgmt-abac-least-privilege|Adds CISA's detailed maturity progression (permanent → expiring → session-based → JIT/JEA) to NSA's mechanism list (ABAC]]
 
 ## Assessment
 

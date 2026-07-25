@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[device-inventory-service|The centralized onboarding process with structured checklist and full NetFlow collection populates the Device Inventory]]
 
 **Contradicts:**
 
@@ -62,6 +63,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[endpoint-new-perimeter|The centralized onboarding process (isolated segment, NAC policy, NetFlow collection) is the operational procedure that]]
 
 ## Assessment
 

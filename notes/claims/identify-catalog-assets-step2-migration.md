@@ -65,6 +65,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[business-process-selection-step3-migration|You cannot select which business process to migrate first (Step 3) until you have catalogued the assets and subjects inv]]
 
 **Supports:**
 
@@ -75,6 +76,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[foundational-inventory-before-migration|Step 2 (catalog all assets) operationalizes the asset-inventory portion of the foundational prerequisite.]]
   - [[cdm-visibility-prerequisite-zta]]
 
 ## Assessment

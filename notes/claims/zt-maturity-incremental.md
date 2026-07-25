@@ -55,6 +55,7 @@ _None identified._
 <!-- Claims this one requires to be true -->
 
 **Supports:**
+- [[zero-trust-never-ends-the-maturity-model-turns|finney-ch8-11.11 claims ZT never ends and becomes a multi-year strategic journey. nsa-embrace.4's claim that maturity is]]
 - [[zt-tenets-aspirational]]
 
 **Contradicts:**

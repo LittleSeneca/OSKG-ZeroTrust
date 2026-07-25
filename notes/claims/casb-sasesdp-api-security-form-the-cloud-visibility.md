@@ -56,6 +56,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[siem-and-soar-integration-with-zt-is-a|The CASB+SASE/SDP+API security triad provides the enriched cloud visibility data that SIEM/SOAR consume, making the forc]]
+- [[analytics-ai-unified-pipeline-zt|The cloud visibility and control triad (CASB, SASE/SDP, API security) serves as the 'Sensors' input layer that feeds int]]
 
 **Contradicts:**
 

@@ -61,6 +61,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[the-protect-surface-shifts-controls-from-the-perimeter|The physical security analogy (layered zones, no implicit trust) directly illustrates the protect surface concept.]]
 
 **Contradicts:**
 

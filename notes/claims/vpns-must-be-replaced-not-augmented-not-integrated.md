@@ -55,6 +55,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[network-transformation-vpn-removal-segmentation|The five fatal VPN flaws provide the architectural argument for why VPN removal is a necessary consequence of ZT princip]]
 
 **Contradicts:**
 

@@ -54,6 +54,8 @@ The operational framing could be read as political necessity — the DoD can't m
 **Depends on:**
 
 **Supports:**
+- [[zt-assume-breach|DoD's operational-not-architectural approach exemplifies the 'assume breach, not architecture' framing — both prioritize]]
+- [[zero-trust-is-a-philosophy-principles-and-a|DoD's operational focus is a concrete example of ZT as a journey rather than a single architecture, as claimed in gc-ch1]]
 
 **Contradicts:**
 

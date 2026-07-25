@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[zt-implementation-faces-significant-organizational-technical-challenges|Because ZT is a comprehensive strategy rather than a product, implementation inevitably faces organizational challenges]]
 
 **Contradicts:**
 

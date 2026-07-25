@@ -54,7 +54,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
-<!-- Claims this one requires to be true -->
+- [[sso-should-not-remove-the-control-plane-from|The recommendation that SSO should not bypass the control plane for ongoing authorization depends on the architectural s]]
 
 **Supports:**
 <!-- Claims this one provides evidence for -->
@@ -69,6 +69,9 @@ _None identified._
 - [[zt-pdp-pep-model]]
 
 **Extends:**
+- [[there-are-three-distinct-types-of-peps-and|The three PEP types elaborate where enforcement points sit within the control plane/data plane architecture, distinguish]]
+- [[the-nist-pdppep-model-is-the-correct-foundation|The NIST PDP/PEP model is a formalized operationalization of the control plane/data plane split, with PDP mapping to the]]
+- [[the-control-plane-is-the-trust-grantor-temporary|The trust grantor role with temporary trust and leased tokens elaborates the control plane's specific function within th]]
 - [[zt-pdp-pep-model]]
 
 ## Assessment

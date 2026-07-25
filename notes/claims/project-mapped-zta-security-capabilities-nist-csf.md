@@ -61,6 +61,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[project-eight-use-case-categories|Mapping ZTA security capabilities to NIST frameworks is one of the eight use case categories (A–H) that comprise the com]]
 
 ## Assessment
 

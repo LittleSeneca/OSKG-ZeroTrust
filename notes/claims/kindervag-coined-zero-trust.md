@@ -55,6 +55,7 @@ Kindervag didn't "coin" ZT so much as synthesize existing ideas (de-perimeteriza
 **Depends on:**
 
 **Supports:**
+- [[nist-document-structure-framework|Crediting Kindervag's coinage of the term is an element of the historical grounding that nist207-ch1.8 identifies as par]]
 
 **Contradicts:**
 

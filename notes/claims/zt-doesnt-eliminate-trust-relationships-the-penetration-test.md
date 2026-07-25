@@ -61,6 +61,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[pillar-ideals-vs-operational-realities|The penetration test finding that ZT does not eliminate all trust relationships (IoT and scanner vectors) provides concr]]
 
 **Contradicts:**
 

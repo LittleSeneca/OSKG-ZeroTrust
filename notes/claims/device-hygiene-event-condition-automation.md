@@ -69,6 +69,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[continuous-risk-based-device-authorization|Event-Condition-Action automation provides the continuous posture-checking mechanism that feeds real-time risk signals i]]
 
 **Contradicts:**
 

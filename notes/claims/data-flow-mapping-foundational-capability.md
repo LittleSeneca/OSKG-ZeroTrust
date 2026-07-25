@@ -63,9 +63,11 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[sequential-network-maturity-journey|The maturity journey explicitly builds on data flow mapping as its foundation: 'you cannot segment without understanding]]
   - "[[network-segmentation-micro-perimeters]]"
 
 **Supports:**
+- [[macro-segmentation-cross-function|'You can't segment what you don't understand' — data flow mapping is the prerequisite that enables effective macro segme]]
 
 **Contradicts:**
 

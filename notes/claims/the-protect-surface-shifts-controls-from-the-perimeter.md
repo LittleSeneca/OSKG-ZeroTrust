@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[zt-no-implicit-trust-continuous-eval|The protect surface (shifting controls from perimeter to asset) is the architectural mechanism that eliminates implicit]]
 
 **Contradicts:**
 

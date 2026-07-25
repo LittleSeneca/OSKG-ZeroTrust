@@ -65,6 +65,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[zta-implementation-single-architecture-spectrum-deployment-approaches|zta-implementation-single-architecture-spectrum-deployment-approaches]]
 
 **Contradicts:**
 

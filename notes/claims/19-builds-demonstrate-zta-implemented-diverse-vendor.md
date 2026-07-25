@@ -98,6 +98,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[zta-implementation-single-architecture-spectrum-deployment-approaches|zta-implementation-single-architecture-spectrum-deployment-approaches]]
 
 ## Assessment
 

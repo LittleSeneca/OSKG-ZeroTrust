@@ -75,6 +75,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[zta-three-core-components-pe-pa-pep|zta-three-core-components-pe-pa-pep]]
 
 ## Assessment
 

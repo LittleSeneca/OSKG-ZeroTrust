@@ -56,6 +56,7 @@ _None identified._
 <!-- Claims this one requires to be true -->
 
 **Supports:**
+- [[three-threat-frameworks-progression|three-threat-frameworks-progression]]
 - [[zt-phone-home-fatal-flaw]]
 
 **Contradicts:**

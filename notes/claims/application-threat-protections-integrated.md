@@ -67,6 +67,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[application-cross-cutting-capabilities-summary|Integrated application threat protections is a specific dimension of the broader cross-cutting capabilities]]
 
 ## Assessment
 

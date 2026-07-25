@@ -57,6 +57,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[zt-defined-cisa-five|Acknowledging that challenges are realistic but underdeveloped is a candid assessment of the five-pillar model's current]]
 
 **Contradicts:**
 

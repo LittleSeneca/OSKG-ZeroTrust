@@ -54,6 +54,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[zta-implementation-continuous-improvement-journey-one|BeyondCorp's documented Analyze→Log→Warn→Enforce→Default cadence serves as a canonical example of continuous improvement]]
+- [[strategic-pivot-prove-user-successful-before-migrating|The Analyze→Log→Warn→Enforce→Default cadence provided the operational framework that made the strategic opt-out pivot sa]]
 
 **Contradicts:**
 

@@ -76,6 +76,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[nsa-cisa-identity-frameworks-complementary|Both assert NSA/CISA frameworks are complementary (what-to-measure vs how-to-implement); the cisa claim adds the conclus]]
 
 ## Assessment
 

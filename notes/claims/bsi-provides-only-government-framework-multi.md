@@ -68,6 +68,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[bsi-plans-market-surveillance|The planned market surveillance and sector-specific guidance in bsi-zt.9 are concrete future extensions of the multi-org]]
 
 ## Assessment
 

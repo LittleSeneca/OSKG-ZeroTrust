@@ -86,6 +86,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[nist-control-data-plane-separation|nist-control-data-plane-separation]]
 
 ## Assessment
 

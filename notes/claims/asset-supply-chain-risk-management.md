@@ -67,6 +67,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[device-inventory-deny-by-default|Supply chain risk management extends device inventory to include vendor/service provider assets and their associated ris]]
 
 ## Assessment
 

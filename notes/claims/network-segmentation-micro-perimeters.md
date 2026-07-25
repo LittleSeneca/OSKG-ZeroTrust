@@ -59,6 +59,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[micro-segmentation-blast-radius|The CISA maturity model independently confirms that micro-segmentation with dynamic JIT connectivity is the optimal end-]]
 
 **Contradicts:**
 
@@ -67,6 +68,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[macro-segmentation-cross-function|The CISA maturity model extends the NSA macro segmentation concept by specifying fully distributed ingress/egress micro-]]
 
 ## Assessment
 

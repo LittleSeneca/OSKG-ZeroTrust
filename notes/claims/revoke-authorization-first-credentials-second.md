@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[invalidation-is-a-hard-problem-in-computer-science|The operational rule 'revoke authorization first, credentials second' directly reinforces the architectural principle th]]
 
 **Contradicts:**
 

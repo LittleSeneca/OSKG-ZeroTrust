@@ -65,6 +65,7 @@ Network-tier and identity-tier are not mutually exclusive — they're layers. NI
 **Operationalizes:**
 
 **Extends:**
+- [[identity|Identity-tier policies provide five concrete advantages (environment agnosticism, automated testing, PaC, visibility, re]]
 
 ## Assessment
 

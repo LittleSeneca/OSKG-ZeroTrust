@@ -54,6 +54,7 @@ The document could be read as cherry-picking from NIST — using the definition 
 **Depends on:**
 
 **Supports:**
+- [[location-centric-to-identity-data-centric-shift|The NIST definition of minimizing uncertainty rather than trusting location provides the conceptual basis for the locati]]
 
 **Contradicts:**
 

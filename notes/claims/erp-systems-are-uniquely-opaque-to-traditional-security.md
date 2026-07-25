@@ -61,6 +61,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[application-threat-protections-integrated|ERP systems' opacity to traditional security tools demonstrates the necessity of application-specific threat protections]]
 
 **Contradicts:**
 

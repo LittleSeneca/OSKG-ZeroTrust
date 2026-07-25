@@ -68,6 +68,7 @@ The spatial model could be read as a Cisco-specific framing — the emphasis on 
 **Operationalizes:**
 
 **Extends:**
+- [[zt-control-data-plane-split|Spatial trust assessment refines the control plane's function by showing that trust data availability and granularity va]]
 
 ## Assessment
 

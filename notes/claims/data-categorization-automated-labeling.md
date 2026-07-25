@@ -57,8 +57,11 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[data-protection-is-an-advanced-zt-use-case|The GC SOC claim explicitly states that 'classification maturity and platform capabilities are prerequisites' for data p]]
+- [[data-centric-security-abac-protection|Attribute-based access control requires attributes. Data Tagging (one of the four ABAC mechanisms) is explicitly about c]]
 
 **Supports:**
+- [[data-access-jit-jea-controls|The access control maturity model explicitly states access decisions consider 'data category'; automated labeling provid]]
 
 **Contradicts:**
 

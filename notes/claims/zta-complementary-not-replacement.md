@@ -61,6 +61,9 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[cdm-visibility-prerequisite-zta|CDM serving as the visibility prerequisite for ZTA is a concrete instance of complementarity — CDM's mandate stays but i]]
+- [[einstein-ncps-evolve-perimeter-model|EINSTEIN/NCPS evolving its sensor model to ingest cloud telemetry is a concrete instance of ZTA complementing rather tha]]
+- [[tic-3-converging-with-zta|TIC 3.0's evolution from perimeter-based to distributed enforcement is a concrete instance of ZTA complementing rather t]]
 
 ## Assessment
 

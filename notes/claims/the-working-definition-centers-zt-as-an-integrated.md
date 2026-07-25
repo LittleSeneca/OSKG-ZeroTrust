@@ -62,6 +62,7 @@ Network-centric ZT advocates might argue this definition over-extends ZT into ar
 **Operationalizes:**
 
 **Extends:**
+- [[zero-trust-is-a-strategy-not-a-product|'Integrated security platform' is a specific, elaborated articulation of the general claim that ZT is a strategy.]]
 
 ## Assessment
 

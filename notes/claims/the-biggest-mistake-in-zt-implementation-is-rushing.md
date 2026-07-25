@@ -62,6 +62,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[reporting-only-mode-step6-migration|Rushing past monitor mode is the specific mistake that undermines the reporting-only deployment step, skipping the essen]]
 
 ## Assessment
 

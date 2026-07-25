@@ -70,6 +70,8 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[the-zero-trust-discovery-workshop-is-the-critical|Flow enumeration is a core activity within the Zero Trust Discovery Workshop's data collection and analysis phase, makin]]
+- [[the-shouldmust-list-is-zt-implementations-operational-checklist|Flow enumeration is a specific, critical item on the SHOULD/MUST operational checklist, identified as both the hardest a]]
 
 ## Assessment
 

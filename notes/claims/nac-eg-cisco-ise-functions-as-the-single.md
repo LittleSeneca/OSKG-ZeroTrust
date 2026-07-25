@@ -56,6 +56,7 @@ _None identified._
 **Supports:**
 
 **Contradicts:**
+- [[8021x-based-nac-is-fundamentally-incompatible-with-zero-trusts|One claim positions NAC (Cisco ISE) as the single source of truth for ZT access decisions; the other declares 802.1x-bas]]
 
 **Challenged by:**
 

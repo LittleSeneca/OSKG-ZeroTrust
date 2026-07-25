@@ -71,6 +71,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[cloud|Multi-cluster deployments refine the single-cluster service mesh model by requiring a global control plane while avoidin]]
 
 ## Assessment
 

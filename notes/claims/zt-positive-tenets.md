@@ -53,9 +53,11 @@ The positive-tenet approach could be seen as political compromise — making ZTA
 ## Edges
 
 **Depends on:**
-<!-- Claims this one requires to be true -->
+- [[ztmm-nist-800-207-definition-foundation|CISA's ZTMM explicitly builds on NIST SP 800-207, whose operative definition is grounded in the positive tenet framework]]
+- [[bsi-provides-formal-three|BSI's three-part definition explicitly derives from and extends NIST's tenet-based framework, so it logically presuppose]]
 
 **Supports:**
+- [[nist-document-structure-framework|The seven positive tenets are the core content delivered by the document structure that nist207-ch1.8 claims is the esse]]
 - [[zt-five-fundamental-assertions]]
 
 **Contradicts:**

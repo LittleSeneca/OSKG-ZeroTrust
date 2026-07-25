@@ -1,0 +1,31 @@
+{
+  "results": {
+    "added": 473,
+    "skip": 1
+  },
+  "modified_files": 474,
+  "newly_added": 473,
+  "issues": [],
+  "contradictions": [
+    {
+      "claim_a": "iaaspaas-security-hasnt-kept-pace-with-iaaspaas-adoption",
+      "claim_b": "beyondcorp-google-implementation-zt-model-provides-architectural",
+      "rationale": "iaaspaas claims CSP models are 'network/IP-centric' and 'definitely do not have the ability' to enforce ZT policies, while beyondcorp-google claims Google's is the 'most mature, battle-tested ZT implementation.'"
+    },
+    {
+      "claim_a": "zt-can-bring-real-value-to-iot-but",
+      "claim_b": "centralized-device-management-enforcement-backbone",
+      "rationale": "IoT's closed systems, weak authentication, and unpatchable firmware fundamentally prevent the universal centralized management that UEM/MDM assumes."
+    },
+    {
+      "claim_a": "zt-can-bring-real-value-to-iot-but",
+      "claim_b": "firmware-level-patch-management",
+      "rationale": "Unpatchable IoT firmware directly contradicts the requirement that patch management must cover firmware below the OS \u2014 these devices are unmanageable by design."
+    },
+    {
+      "claim_a": "8021x-based-nac-is-fundamentally-incompatible-with-zero-trusts",
+      "claim_b": "nac-eg-cisco-ise-functions-as-the-single",
+      "rationale": "One claim positions NAC (Cisco ISE) as the single source of truth for ZT access decisions; the other declares 802.1x-based NAC fundamentally incompatible with ZT's universal scope due to local-only, coarse-grained, and static limitations."
+    }
+  ]
+}

@@ -60,6 +60,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[governance-critical-gap|nist207-ch6.5 establishes that ICAM/identity governance is the substrate on which ZTA rests (dependency: ICAM maturity →]]
 
 **Contradicts:**
 

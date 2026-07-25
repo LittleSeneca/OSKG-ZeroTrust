@@ -53,6 +53,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[stolen-credentials-zta-constrains-blast-radius|stolen-credentials-zta-constrains-blast-radius]]
 
 **Contradicts:**
 

@@ -53,6 +53,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[zta-cannot-scale-without-ai|Academic.4's finding that all IoT ZT solutions are at prototype stage reinforces academic.5's argument that AI-driven au]]
 
 **Contradicts:**
 

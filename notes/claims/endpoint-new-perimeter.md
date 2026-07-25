@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[beyondcorp-access-flow-enforces-per|The endpoint-as-perimeter concept provides the device trustworthiness foundation that enables the per-request authorizat]]
 
 **Contradicts:**
 
@@ -62,6 +63,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[perimeter-security-model-core-assumptions-no-longer|The endpoint replacing network location as the security boundary is the direct solution to the broken perimeter model's]]
 
 ## Assessment
 

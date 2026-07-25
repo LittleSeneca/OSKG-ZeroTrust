@@ -61,6 +61,7 @@ The PE/PA/PEP model could be seen as a restatement of the IETF AAA architecture 
 **Operationalizes:**
 
 **Extends:**
+- [[zt-pdp-pep-model|zt-pdp-pep-model]]
 
 ## Assessment
 

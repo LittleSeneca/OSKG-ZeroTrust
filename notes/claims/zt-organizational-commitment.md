@@ -55,6 +55,7 @@ _None identified._
 <!-- Claims this one requires to be true -->
 
 **Supports:**
+- [[common-roadblocks-iam-immaturity-political-resistance-regulatory-constraints|The NSA's identification of organizational commitment as the primary challenge explains why roadblocks like political re]]
 - [[zt-maturity-incremental]]
 
 **Contradicts:**

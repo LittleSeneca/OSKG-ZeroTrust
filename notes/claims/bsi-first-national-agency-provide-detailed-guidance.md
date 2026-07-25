@@ -56,6 +56,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[bsi-provides-formal-three|The detailed real-time signal guidance in bsi-zt.7 presupposes the formal definition in bsi-zt.2 as its conceptual found]]
 
 **Supports:**
 

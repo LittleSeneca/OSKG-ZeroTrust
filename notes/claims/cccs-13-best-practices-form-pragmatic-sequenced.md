@@ -68,6 +68,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[organizations-choose-among-nist-cisa-ncsc-frameworks|The CCCS 13 best practices serve as evidence that a pragmatic implementation guide can be built atop existing frameworks]]
+- [[zt-comprehensive-security-architecture-strategy-product-technology|The 13 best practices being a sequenced implementation guide with organizational steps demonstrates that ZT is a strateg]]
 
 **Contradicts:**
 

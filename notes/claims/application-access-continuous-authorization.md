@@ -59,6 +59,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[accessible-applications-public-networks|Continuous authorization incorporating real-time risk analytics enables safe exposure of applications on open public net]]
 
 **Contradicts:**
 

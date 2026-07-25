@@ -77,6 +77,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[data-protection-is-an-advanced-zt-use-case|The GC SOC claim establishes that data protection is an advanced ZT use case; the DoD RA claim specifies the concrete ar]]
 
 ## Assessment
 

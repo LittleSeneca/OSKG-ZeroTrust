@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[lateral-movement-prevention-raison-detre|East-west segmentation is the hardest lateral movement problem — controlling traffic within the same VLAN/subnet is what]]
 
 **Contradicts:**
 
@@ -62,6 +63,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[micro-segmentation-blast-radius|East-west segmentation extends micro segmentation to its most granular level — controlling traffic between adjacent devi]]
 
 ## Assessment
 

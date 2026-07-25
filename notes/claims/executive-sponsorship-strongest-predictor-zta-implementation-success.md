@@ -53,6 +53,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[bsi-specifies-five-mandatory-prerequisites-before-zt|The finding that executive sponsorship is the strongest predictor (β=0.342) supports the necessity of BSI's five mandato]]
 
 **Contradicts:**
 
@@ -61,6 +62,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[modeled-zta-effectiveness-shows-very-large-effect|Executive sponsorship and phased deployment are the specific success factors that drive the large effect sizes reported]]
 
 ## Assessment
 

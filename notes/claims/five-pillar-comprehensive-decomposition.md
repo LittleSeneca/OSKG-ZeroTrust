@@ -58,6 +58,7 @@ The five-pillar structure could be seen as artificially decomposing what is fund
 ## Edges
 
 **Depends on:**
+- [[cross-cutting-capabilities-convergence|The cross-cutting capabilities described in dnad.24 operate 'across pillars' — the five-pillar decomposition established]]
   - "[[ztmm-nist-800-207-definition-foundation]]"
 
 **Supports:**

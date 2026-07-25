@@ -54,6 +54,7 @@ The agent could be seen as nothing more than a structured claim bundle — simil
 **Depends on:**
 
 **Supports:**
+- [[the-three-layer-authorization-model-reveals-why-zt-is|The network agent defines the atomic unit of authorization (user+device+app) that the three-layer model enforces across]]
 
 **Contradicts:**
 

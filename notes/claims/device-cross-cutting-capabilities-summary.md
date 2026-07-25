@@ -64,6 +64,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[device-hygiene-event-condition-automation|Visibility & Analytics and Automation & Orchestration (the cross-cutting capabilities) are the enablers that make ECA au]]
 
 **Contradicts:**
 

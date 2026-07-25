@@ -72,6 +72,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[cccs-13-best-practices-form-pragmatic-sequenced|The 13 best practices elaborate on how ZT improves security across dimensions by providing a specific, sequenced impleme]]
 
 ## Assessment
 

@@ -61,6 +61,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[soc-integration-should-be-pursued-early-in-the|Measuring SOC value by false positive reduction and dwell time (rather than ticket counts) provides concrete metrics to]]
 
 **Contradicts:**
 

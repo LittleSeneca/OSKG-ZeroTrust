@@ -62,6 +62,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[access-mgmt-abac-least-privilege|Qualifies PAM's role in ZT: valuable functions persist but PAM is identity-aware rather than identity-centric, and passw]]
 
 ## Assessment
 

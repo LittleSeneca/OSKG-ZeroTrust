@@ -54,6 +54,10 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[zt-assume-breach|The risk-reduction framing is a direct operational consequence of the 'assume breach' mindset — if breach is assumed, th]]
+- [[zero-trust-is-a-philosophy-principles-and-a|The characterization of ZT as risk reduction rather than elimination reinforces gc-ch1-3.3's claim that ZT is a journey]]
+- [[modeled-zta-effectiveness-shows-very-large-effect|The risk-reduction framing contextualizes academic.1's 63-79% improvements — ZT reduces risk significantly but does not]]
+- [[bsi-provides-most-candid-government-assessment-zt|The risk-reduction framing provides the conceptual vocabulary for the candid government assessment of ZT limitations tha]]
 
 **Contradicts:**
 

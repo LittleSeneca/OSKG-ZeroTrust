@@ -62,6 +62,8 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[policy-should-be-defined-in-terms-of-logical|Tags (department=Marketing, stage=test) are a concrete form of logical components — they replace network addressing with]]
+- [[the-four-component-policy-model-subject-action-target-condition|Tag-based targets are a dynamic, business-aligned implementation of the Target component in the four-component model, bi]]
 
 ## Assessment
 

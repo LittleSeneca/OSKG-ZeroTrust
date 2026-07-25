@@ -225,3 +225,73 @@ Target: 1 session, 20 notes
 - **Model:** DeepSeek V4 Pro (extraction), V4 Pro (quality review dispatched)
 - **Method:** execute_code batch extraction from 3 source notes via terminal cat (bypasses read_file dedup)
 - **Pitfalls encountered:** read_file deduplicates within session — switched to terminal cat for scripted reads. NIST Ch2 lost "Seven Tenets" interstitial during claim-block replacement — restored from git
+
+---
+
+## Phase 3 — Cross-Source Edge Construction (COMPLETE)
+
+### Status Summary
+
+- **Total claims:** 405
+- **Total edges:** 470 (239 supports, 174 extends, 53 depends_on, 4 contradicts)
+- **Claims with edges:** 389 (96.0%)
+- **Orphan claims:** 16 (4.0%)
+- **Wikilinks resolved:** 547/547 (100%)
+- **Contradictions flagged:** 4 (pending human review)
+
+### Pass 1 — Topic Clustering
+
+- **Script:** `scripts/phase3_cluster.py`
+- **Strategy:** Group by primary topic → split >25 by claim_type → iterative merge of <5
+- **Result:** 27 clusters, 4,014 candidate pairs (95% reduction from 81,810 brute-force)
+- **Artifact:** `scripts/phase3_clusters.json`
+
+### Pass 2 — LLM Edge Detection
+
+- **Method:** 27 clusters dispatched to subagents in 9 parallel waves (3 concurrent)
+- **Model:** DeepSeek V4 Pro
+- **Result:** 470 edges, 0 cross-cluster duplicates
+- **Artifacts:** `scripts/phase3_edges/*.json`, `scripts/phase3_edge_inventory.json`
+
+### Pass 3 — Edge Application
+
+- **Script:** `scripts/phase3_apply_edges.py`
+- **Result:** 473 edge patches applied to 304 claim files (1 already present)
+- **Verification:** All 547 wikilinks resolve to existing claim files
+- **Artifacts:** `scripts/phase3_application_log.json`
+
+### Contradictions (Needs Review)
+
+1. IaaS/PaaS security gaps vs. BeyondCorp as architectural model
+2. IoT ZT value vs. centralized device management feasibility
+3. IoT ZT value vs. firmware-level patch management requirements
+4. 802.1x NAC incompatibility vs. Cisco ISE as ZT single source of truth
+
+### Densest Claims
+
+| Claim | Edges |
+|-------|-------|
+| zt-control-data-plane-split | 12 |
+| continuous-risk-based-device-authorization | 9 |
+| bsi-provides-formal-three | 7 |
+| zt-positive-tenets | 7 |
+| the-nist-pdppep-model-is-the-correct-foundation | 7 |
+
+### Session Log
+
+### 2026-07-24 — Phase 3 Pass 1
+- **Clustering:** 405 claims → 27 clusters via topic+claim_type grouping
+- **Candidate reduction:** 81,810 → 4,014 pairs (95%)
+- **Artifacts:** `phase3_cluster.py`, `phase3_clusters.json`
+
+### 2026-07-24 — Phase 3 Pass 2
+- **Edge detection:** 27 clusters → 470 edges via parallel subagent dispatch
+- **Edge types:** 239 supports, 174 extends, 53 depends_on, 4 contradicts
+- **Subagent format variance:** 4 different field name conventions (source/target/relation/relationship/type) — normalized in merge
+- **Artifacts:** `phase3_prep_payloads.py`, `phase3_merge_edges.py`, `phase3_edge_inventory.json`
+
+### 2026-07-24 — Phase 3 Pass 3
+- **Edge application:** 473 patches to 304 claim files
+- **Wikilink verification:** 547/547 resolve
+- **Orphan report:** 16 claims with zero edges
+- **Artifacts:** `phase3_apply_edges.py`, `phase3_application_log.json`

@@ -64,6 +64,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[the-application-pipeline-is-a-cryptographic-chain-break|Runtime security completes the trust lifecycle that the application pipeline establishes, adding post-deployment isolati]]
 
 ## Assessment
 

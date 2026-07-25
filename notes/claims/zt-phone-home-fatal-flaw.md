@@ -56,6 +56,8 @@ _None identified._
 <!-- Claims this one requires to be true -->
 
 **Supports:**
+- [[zt-control-data-plane-split|The phone-home pattern demonstrates why perimeter security alone fails and why the control plane/data plane split is nec]]
+- [[preventing-lateral-movement-primary-goal-zt|The phone-home attack pattern demonstrates why preventing lateral movement is the primary ZT goal, as it is the attack p]]
 - [[zt-perimeter-historical-accident]]
 
 **Contradicts:**

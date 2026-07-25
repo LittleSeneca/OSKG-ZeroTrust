@@ -62,6 +62,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[five-nist-csf-functions-form-strict-temporal|five-nist-csf-functions-form-strict-temporal]]
 
 ## Assessment
 

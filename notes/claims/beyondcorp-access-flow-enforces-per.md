@@ -62,6 +62,8 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[automation-bridges-the-gap-between-trust-assessment-and|BeyondCorp's continuously running trust inference pipeline is a specific, large-scale implementation of the general prin]]
+- [[perimeter-security-model-core-assumptions-no-longer|Per-request authorization through continuous trust inference is the access control alternative that replaces the perimet]]
 
 ## Assessment
 

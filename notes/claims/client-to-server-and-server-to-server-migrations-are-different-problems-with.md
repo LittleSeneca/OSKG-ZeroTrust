@@ -60,6 +60,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[candidate-solution-selection-step5-migration|Different migration starting points imply different solution criteria — a C2S migration evaluates client footprint and B]]
 
 **Contradicts:**
 
@@ -68,6 +69,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[business-process-selection-step3-migration|The C2S/S2S distinction refines Step 3 by clarifying that the 'low-risk' starting-point recommendation favors client-to-]]
 
 ## Assessment
 

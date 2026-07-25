@@ -70,6 +70,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[zt-evolution-existing-capabilities-incremental|Using existing Chef deployment to generate per-host iptables microsegmentation is a concrete example of ZT as an evoluti]]
 
 ## Assessment
 

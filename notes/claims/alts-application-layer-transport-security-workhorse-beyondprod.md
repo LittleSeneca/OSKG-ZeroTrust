@@ -52,8 +52,11 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[host-integrity-rooted-titan-security-chip-creates|ALTS machine credentials are only decryptable by hosts that pass host integrity's verified boot, creating a hardware-roo]]
 
 **Supports:**
+- [[deploying-identity|ALTS is a concrete, production-proven implementation of SPIFFE-style cryptographic service identity infrastructure.]]
+- [[perimeter-security-breaks-down-microservices-because-services|ALTS is the concrete implementation of replacing network-location trust with service identity, validating BeyondProd's c]]
 
 **Contradicts:**
 

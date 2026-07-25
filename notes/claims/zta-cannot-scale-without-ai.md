@@ -61,6 +61,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[modeled-zta-effectiveness-shows-very-large-effect|Academic.5's claim that AI is necessary for ZTA scaling is an implementation precondition for achieving the modeled effe]]
 
 ## Assessment
 

@@ -68,6 +68,7 @@ Vendor marketing routinely overpromises ("achieve Zero Trust"). NSA's guidance (
 <!-- Standards/implementations that put this claim into practice -->
 
 **Extends:**
+- [[zt-no-implicit-trust-continuous-eval|Uncertainty minimization reframes assume-breach/continuous-auth in more precise, measurable terms.]]
 - [[zt-assume-breach]]
 
 ## Assessment

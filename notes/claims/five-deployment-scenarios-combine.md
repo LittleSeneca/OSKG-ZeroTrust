@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[zt-implementation-faces-significant-organizational-technical-challenges|Because enterprises compound multiple deployment scenarios, ZT implementation faces compounded organizational and techni]]
 
 **Contradicts:**
 
@@ -62,6 +63,8 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[four-deployment-models-zta|Since enterprises combine multiple deployment scenarios, they need multiple NIST deployment models simultaneously rather]]
+- [[four-deployment-models-cover-the-zt-solution-space|Because the five NIST deployment scenarios compound in real enterprises, the four deployment models must cover the full]]
 
 ## Assessment
 

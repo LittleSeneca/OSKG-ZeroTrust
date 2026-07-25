@@ -66,6 +66,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[zero-trust-is-a-strategy-not-a-product|Historical origin in Morris Worm and academic thesis refutes the claim that ZT is vendor marketing.]]
 
 **Contradicts:**
 

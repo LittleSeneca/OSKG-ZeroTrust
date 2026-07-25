@@ -52,8 +52,10 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[four-strategic-goals-cultural-adoption-systems-secured|Achieving Target Level ZT by end of FY2027 depends on executing all four strategic goals across the full lifecycle from]]
 
 **Supports:**
+- [[ztmm-eo14028-compliance-instrument|DoD's FY2027 Target Level deadline and CISA's ZTMM as an EO 14028 compliance instrument both represent mandated ZT matur]]
 
 **Contradicts:**
 

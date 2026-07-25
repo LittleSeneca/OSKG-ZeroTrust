@@ -62,6 +62,8 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[the-three-core-principles-secure-all-resources-regardless|Clarifies what is transformative about the three core principles: they aren't just repackaging but amplification into a]]
+- [[the-working-definition-centers-zt-as-an-integrated|Explains the mechanism by which ZT becomes an integrated platform: amplifying and integrating existing concepts (least p]]
 
 ## Assessment
 

@@ -56,6 +56,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[incomplete-knowledge-chicken-egg-barrier|The foundational inventory prerequisite is presented as the solution to the chicken-and-egg barrier — you must build inv]]
 
 **Contradicts:**
 

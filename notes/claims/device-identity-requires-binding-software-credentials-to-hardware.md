@@ -54,6 +54,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[beyondcorp-proved-that-device-trust-can-replace-network-trust-at|BeyondCorp used TPM-stored corporate-issued certificates as the root of trust — a direct implementation of hardware-boun]]
+- [[continuous-risk-based-device-authorization|Hardware-bound identity (TPM/HSM) provides stronger, tamper-resistant signals for risk calculations than software-only c]]
 
 **Contradicts:**
 

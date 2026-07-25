@@ -58,6 +58,8 @@ _None identified._
 **Supports:**
 
 **Contradicts:**
+- [[firmware-level-patch-management|Unpatchable IoT firmware directly contradicts the requirement that patch management must cover firmware below the OS — t]]
+- [[centralized-device-management-enforcement-backbone|IoT's closed systems, weak authentication, and unpatchable firmware fundamentally prevent the universal centralized mana]]
 
 **Challenged by:**
 

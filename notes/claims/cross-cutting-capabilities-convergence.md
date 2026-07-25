@@ -66,6 +66,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[cross-cutting-capabilities-prevent-silos|Takes the cross-cutting unification concept from ov.8 and adds the maturity dimension — specifying how integration deepe]]
 
 ## Assessment
 

@@ -59,8 +59,10 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[cdm-visibility-prerequisite-zta|The privacy tension from ZTA's 'inspect everything' tenet depends on the visibility data that CDM provides — more visibi]]
 
 **Supports:**
+- [[true-contextual-identity-is-never-just-a-device|Multi-dimensional contextual profiling creates more data collection about users and devices, which directly validates th]]
 
 **Contradicts:**
 

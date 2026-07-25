@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[asset-supply-chain-risk-management|The systemic vulnerability created by integrator gaps is the specific threat that supply chain risk management must addr]]
 
 **Contradicts:**
 

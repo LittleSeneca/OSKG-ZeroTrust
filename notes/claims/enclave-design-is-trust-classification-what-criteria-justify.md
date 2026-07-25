@@ -72,6 +72,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[trust-assessment-is-spatial-the-architecture-location-determines|Enclave design as trust classification is a direct application of spatial trust assessment—the architecture location det]]
 
 ## Assessment
 

@@ -54,6 +54,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[dod-capability-driven-approach-distinction|The Strategy not being a solution architecture aligns with the DoD's capability-driven rather than technology-driven app]]
+- [[zero-trust-solution-product|Both emphasize what ZT is not — the Strategy is not a solution architecture, and ZT is not an IT product — reinforcing t]]
 
 **Contradicts:**
 

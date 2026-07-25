@@ -52,6 +52,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[traffic-encryption-cryptographic-agility|Eliminating cipher suite negotiation in favor of fixed strong suites is a concrete practice that advances the cryptograp]]
 
 **Contradicts:**
 

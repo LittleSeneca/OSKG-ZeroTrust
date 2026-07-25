@@ -54,6 +54,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[the-build-system-is-the-most-dangerous-attack|Signed commits protect the source side of the unprotected build system, securing one flank of the build gap]]
+- [[the-application-pipeline-is-a-cryptographic-chain-break|Git's content-addressable storage and signed commits provide the source-integrity link in the application pipeline crypt]]
 
 **Contradicts:**
 

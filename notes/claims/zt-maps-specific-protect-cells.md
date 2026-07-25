@@ -62,6 +62,7 @@ One could argue that continuous verification (a ZT hallmark) *is* a form of DETE
 **Operationalizes:**
 
 **Extends:**
+- [[grid-most-parsimonious-complete-map-cybersecurity|grid-most-parsimonious-complete-map-cybersecurity]]
 
 ## Assessment
 

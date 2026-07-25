@@ -67,6 +67,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[network-segmentation-micro-perimeters|Dynamic traffic management extends static micro-perimeter segmentation by adding continuously evolving rules that reprio]]
 
 ## Assessment
 

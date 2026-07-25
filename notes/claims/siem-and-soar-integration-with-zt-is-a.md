@@ -54,6 +54,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[the-socs-value-is-measured-by-false-positive|ZT integration enriches SIEM/SOAR logs with identity context and enables bidirectional policy automation, directly enabl]]
+- [[soc-integration-should-be-pursued-early-in-the|The force-multiplier value proposition of SIEM/SOAR+ZT integration provides the primary rationale for why SOC integratio]]
 
 **Contradicts:**
 

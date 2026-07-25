@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[multi|Multi-cluster global control planes across environments require automation to manage policies consistently at scale.]]
 
 **Contradicts:**
 

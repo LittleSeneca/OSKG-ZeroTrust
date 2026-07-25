@@ -62,6 +62,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[user-identity-and-device-identity-are-separate-trust|Multi-dimensional contextual profiling refines why user and device identities must be separate trust domains — device ty]]
 
 ## Assessment
 

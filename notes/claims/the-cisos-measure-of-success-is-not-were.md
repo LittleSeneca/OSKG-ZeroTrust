@@ -53,6 +53,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[people-are-the-weakest-link-is-a-self-fulfilling|Both challenge defeatist security narratives — measuring success by response rather than breach aligns with rejecting th]]
+- [[defense-in-depth-compliance-and-best-of-breed-are-not|Both challenge conventional security industry metrics — CISO success is about response quality, not hack prevention, and]]
 
 **Contradicts:**
 

@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[perimeter-security-breaks-down-microservices-because-services|Code provenance is one of the verifiable attributes BeyondProd uses to replace network-location trust in microservice en]]
 
 **Contradicts:**
 
@@ -62,6 +63,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[deploying-identity|Binary Authorization extends identity infrastructure to include build chain verification, not just runtime service ident]]
 
 ## Assessment
 

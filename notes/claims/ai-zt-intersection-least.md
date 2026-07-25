@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[llm-systems-require-their-own-dedicated-zero|anssi-bsi.5 establishes that AI+ZT is the least-developed area with no existing standards coverage, which directly suppo]]
 
 **Contradicts:**
 

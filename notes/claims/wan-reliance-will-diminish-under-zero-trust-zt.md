@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[vpns-must-be-replaced-not-augmented-not-integrated|ZT encrypted overlays replacing dedicated WAN links supports the broader argument that VPN-based connectivity is obsolet]]
 
 **Contradicts:**
 

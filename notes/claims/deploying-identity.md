@@ -62,6 +62,7 @@ The five ID-SEG requirements are the real standard — SPIFFE is one implementat
 ## Edges
 
 **Depends on:**
+- [[automation-orchestration-optional|Standardized identity infrastructure (SPIFFE) cannot be deployed at scale without automation and orchestration as ZT pre]]
 
 **Supports:**
 
@@ -72,6 +73,7 @@ The five ID-SEG requirements are the real standard — SPIFFE is one implementat
 **Operationalizes:**
 
 **Extends:**
+- [[network|SPIFFE-based cryptographic service identities are the standardized infrastructure for implementing the identity-over-net]]
 
 ## Assessment
 

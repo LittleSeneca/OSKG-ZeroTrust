@@ -52,6 +52,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[least-privilege-in-zt-is-dynamic-multi-attribute-and|Dynamic, multi-attribute least privilege requires granular per-request authorization decisions as its enabling mechanism]]
 
 **Supports:**
 

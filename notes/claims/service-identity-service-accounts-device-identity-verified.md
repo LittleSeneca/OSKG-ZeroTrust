@@ -56,6 +56,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[network|Demonstrates that identity primitives extend beyond user identity to services and devices, supporting the identity-over-]]
+- [[alts-application-layer-transport-security-workhorse-beyondprod|Service identity as a first-class identity type aligns with ALTS's approach of binding identities to services rather tha]]
 
 **Contradicts:**
 

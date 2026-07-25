@@ -54,6 +54,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[breakthrough-operational-insight-partitioning-parallel-progress|The MNP Simulator's client-level enforcement testing enabled the parallel-progress strategy by validating traffic compli]]
+- [[beyondcorp-migration-followed-consistent-cadence|The MNP Simulator's logging and enforcement modes operationalized the Log phase of the Analyze→Log→Warn→Enforce→Default]]
 
 **Contradicts:**
 

@@ -68,6 +68,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[the-network-agent-is-the-marriage-of-user|Independent confidence development for user and device provides the evidentiary mechanism that underpins the network age]]
 
 **Contradicts:**
 

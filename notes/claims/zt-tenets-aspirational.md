@@ -68,7 +68,7 @@ The hedging could be read as NIST acknowledging that ZTA is theoretically sound 
 <!-- Standards/implementations that put this claim into practice -->
 
 **Extends:**
-<!-- Claims this one builds upon or elaborates -->
+- [[dod-five-tenets-threat-operational|Adds the nuance that NIST's architectural tenets are explicitly aspirational, not mandatory requirements.]]
 
 ## Assessment
 

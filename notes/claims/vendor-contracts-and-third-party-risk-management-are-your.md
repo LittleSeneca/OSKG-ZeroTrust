@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[asset-supply-chain-risk-management|Contract provisions and third-party risk management are the primary operational mechanism for implementing supply chain]]
 
 **Contradicts:**
 

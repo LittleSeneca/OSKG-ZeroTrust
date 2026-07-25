@@ -65,6 +65,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[continuous-risk-based-device-authorization|Cross-pillar dependencies mean device authorization inherently requires identity and network inputs, reinforcing the nee]]
 
 **Contradicts:**
 

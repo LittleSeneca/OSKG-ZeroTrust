@@ -70,6 +70,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[culture-change-requires-rituals-not-just-policies-the|Claim 11.5 takes the 'security minute' ritual concept from 11.7 and frames it within the ZT protect-surface methodology]]
 
 ## Assessment
 

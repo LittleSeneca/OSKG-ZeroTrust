@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[zt-positive-tenets|The characterization of ZT as a philosophy and journey rather than a product aligns with NIST's technology-agnostic posi]]
 
 **Contradicts:**
 

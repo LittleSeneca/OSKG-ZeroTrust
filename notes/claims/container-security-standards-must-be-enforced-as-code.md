@@ -53,6 +53,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[secure-app-dev-immutable-workloads|Container security enforced as code with negative checks is a mechanism that enables and reinforces immutable workload d]]
 
 **Contradicts:**
 

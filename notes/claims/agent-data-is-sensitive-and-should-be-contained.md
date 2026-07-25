@@ -62,6 +62,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[zt-control-data-plane-split|Containing agent data strictly to the control plane is a concrete security application of the plane separation principle]]
 
 ## Assessment
 

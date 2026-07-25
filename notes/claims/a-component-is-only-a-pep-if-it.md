@@ -62,6 +62,8 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[the-nist-pdppep-model-is-the-correct-foundation|The refined PEP definition elaborates the PDP/PEP model by specifying that a traditional firewall alone does not satisfy]]
+- [[there-are-three-distinct-types-of-peps-and|The definition of what qualifies as a PEP—identity-centric, dynamic, automated control channel—provides the criteria for]]
 
 ## Assessment
 

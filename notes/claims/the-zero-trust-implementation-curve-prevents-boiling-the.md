@@ -59,6 +59,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[zta-implementation-continuous-improvement-journey-one|The Implementation Curve's principle of starting small with non-critical protect surfaces embodies the continuous-improv]]
 
 **Contradicts:**
 
@@ -67,6 +68,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[beyondcorp-migration-followed-consistent-cadence|The Zero Trust Implementation Curve generalizes the BeyondCorp migration cadence into a broader principle applicable to]]
 
 ## Assessment
 

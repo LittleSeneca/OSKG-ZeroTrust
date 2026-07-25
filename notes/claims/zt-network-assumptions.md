@@ -53,9 +53,11 @@ _None identified._
 ## Edges
 
 **Depends on:**
-<!-- Claims this one requires to be true -->
+- [[ten-network-requirements-zta|ten-network-requirements-zta]]
 
 **Supports:**
+- [[firewalls-persist-under-zero-trust-but-their-role|firewalls-persist-under-zero-trust-but-their-role]]
+- [[nist-control-data-plane-separation|nist-control-data-plane-separation]]
 - [[zt-phone-home-fatal-flaw]]
 - [[zt-perimeter-historical-accident]]
 

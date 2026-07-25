@@ -55,6 +55,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[ten-network-requirements-zta|ten-network-requirements-zta]]
 
 **Supports:**
 

@@ -67,6 +67,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[beyondcorp-google-implementation-zt-model-provides-architectural|Provides the specific PDP/PEP architectural mapping (IAP, Access Context Manager, Cloud IAM) underlying BeyondCorp's ZT]]
 
 ## Assessment
 

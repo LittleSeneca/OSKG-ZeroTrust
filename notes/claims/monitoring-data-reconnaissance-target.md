@@ -64,6 +64,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[pe-pa-compromise-highest-impact-threat|pe-pa-compromise-highest-impact-threat]]
 
 **Contradicts:**
 

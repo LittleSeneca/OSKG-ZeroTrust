@@ -64,6 +64,8 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[sdn-enables-scalable-micro-segmentation|sdn-enables-scalable-micro-segmentation]]
+- [[nist-control-data-plane-separation|nist-control-data-plane-separation]]
 
 ## Assessment
 

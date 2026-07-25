@@ -61,6 +61,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[identity-is-the-keystone-of-zero-trust-but|The dual-role argument (protect surface + enabler) reinforces identity's keystone position in ZT architecture.]]
 
 **Contradicts:**
 

@@ -67,6 +67,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[the-nist-pdppep-model-is-the-correct-foundation|The three PEP types—user agent, network, and application—refine the PDP/PEP model by specifying where enforcement occurs]]
 
 ## Assessment
 

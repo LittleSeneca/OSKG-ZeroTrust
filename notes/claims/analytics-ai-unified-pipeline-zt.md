@@ -79,6 +79,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[siem-and-soar-integration-with-zt-is-a|The unified pipeline architecture (Sensors→SIEM→SOAR+AI→ZT Controller→ML/AI) is the concrete technical realization of th]]
 
 ## Assessment
 

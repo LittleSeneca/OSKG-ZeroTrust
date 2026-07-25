@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[group-authorization-is-the-highest-trust-mechanism-for-extremely|Multi-party authorization for certificate signing is a concrete, high-stakes application of group authorization as the h]]
 
 **Contradicts:**
 

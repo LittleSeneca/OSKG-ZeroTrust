@@ -73,6 +73,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[authentication-keystone-identity-function|Extends the authentication keystone from an identity-pillar function to a cross-cutting requirement common to all ZT pil]]
 
 ## Assessment
 

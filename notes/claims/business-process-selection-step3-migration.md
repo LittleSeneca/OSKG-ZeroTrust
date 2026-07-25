@@ -59,8 +59,10 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[policy-formulation-step4-migration|Policy formulation (Step 4) requires a specific candidate business process to be selected first (Step 3) so that asset v]]
 
 **Supports:**
+- [[hybrid-model-indefinite-reality|Migrating one business process at a time (Step 3) is the mechanism that makes indefinite ZT/perimeter coexistence operat]]
 
 **Contradicts:**
 

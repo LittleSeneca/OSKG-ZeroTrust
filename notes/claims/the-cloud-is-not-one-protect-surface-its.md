@@ -61,6 +61,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[cloud-3|Refines 'new security surfaces' to the specific finding that the project management process — with shadow IT and SaaS sp]]
 
 ## Assessment
 

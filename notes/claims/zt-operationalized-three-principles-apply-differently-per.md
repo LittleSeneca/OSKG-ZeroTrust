@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[automation-orchestration-optional|Automation is the operational substrate that enables applying the three ZT principles consistently at scale across envir]]
 
 **Contradicts:**
 
@@ -62,6 +63,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[segmentation-zt-primary-architectural-primitive|Segmentation is one of the three ZT operational principles; this claim provides the overarching framework that contextua]]
 
 ## Assessment
 

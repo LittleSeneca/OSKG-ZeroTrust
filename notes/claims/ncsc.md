@@ -65,6 +65,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[beyondcorp-google-implementation-zt-model-provides-architectural|The NCSC-to-GCP mapping demonstrates that Google's ZT services comprehensively address a vendor-agnostic operational fra]]
 
 **Contradicts:**
 
@@ -73,6 +74,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[ncsc-principles-provide-practical-vendor|The NCSC-to-GCP service mapping demonstrates concretely how the 8 principles translate to available cloud-native managed]]
 
 ## Assessment
 

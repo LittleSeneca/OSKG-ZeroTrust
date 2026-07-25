@@ -54,8 +54,10 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[network|The lag in IaaS/PaaS security and their network/IP-centric models validates the argument that identity must replace netw]]
 
 **Contradicts:**
+- [[beyondcorp-google-implementation-zt-model-provides-architectural|iaaspaas claims CSP models are 'network/IP-centric' and 'definitely do not have the ability' to enforce ZT policies, whi]]
 
 **Challenged by:**
 

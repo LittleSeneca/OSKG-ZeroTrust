@@ -55,6 +55,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[successful-enterprise-zta-requires-multi|SaaS access controls combining source IP restrictions and federated identity exemplify the multi-tier approach of networ]]
 
 **Contradicts:**
 
@@ -63,6 +64,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[the-cloud-is-not-one-protect-surface-its|SaaS is one of the many protect surfaces identified; this claim details what ZT can practically achieve for SaaS applica]]
 
 ## Assessment
 

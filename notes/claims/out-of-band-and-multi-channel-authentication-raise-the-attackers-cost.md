@@ -54,6 +54,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[authentication-authorization-dynamic-continuous|Multi-channel and out-of-band techniques are building blocks for continuous authentication: independent channel verifica]]
+- [[mfa-is-necessary-but-insufficient-attackers-have-at|Out-of-band/multi-channel authentication directly addresses the MFA bypass strategies (SMS intercept, compromised device]]
 
 **Contradicts:**
 

@@ -71,6 +71,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[pillar-ideals-vs-operational-realities|Public-facing services expose a boundary where ZT tenets cannot be fully applied, directly illustrating the device-pilla]]
 
 **Contradicts:**
 

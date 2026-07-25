@@ -61,6 +61,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[bsi-provides-most-candid-government-assessment-zt|The characterization of ZT as long-term and resource-intensive in bsi-zt.1 is itself a candid acknowledgment of limitati]]
+- [[bsi-provides-formal-three|The seven core messages framing ZT as preventive, holistic, and resource-intensive are the operational framing that flow]]
 
 **Contradicts:**
 
@@ -69,6 +71,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[bsi-specifies-five-mandatory-prerequisites-before-zt|The five mandatory prerequisites operationalize bsi-zt.1's framing of ZT as resource-intensive and long-term by specifyi]]
 
 ## Assessment
 

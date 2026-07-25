@@ -61,6 +61,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[identity-is-the-keystone-of-zero-trust-but|Extends identity's keystone role into the SaaS future — IdPs evolving from authentication points to authorization center]]
 
 ## Assessment
 

@@ -74,6 +74,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[multi|The SDP server-to-server model provides the architectural foundation for the multi-cluster, multi-cloud deployment patte]]
+- [[cloud|The SDP server-to-server model validates the service mesh approach by placing a PEP at each cloud-hosted service, consis]]
 
 **Contradicts:**
 

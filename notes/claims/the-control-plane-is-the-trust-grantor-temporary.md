@@ -55,6 +55,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[preventing-lateral-movement-primary-goal-zt|Temporary trust and leased tokens directly prevent lateral movement by ensuring that a compromised session cannot be reu]]
 
 **Contradicts:**
 
@@ -63,6 +64,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[agent-data-is-sensitive-and-should-be-contained|The trust grantor role explains why agent data must be contained—the control plane needs authoritative access to sensiti]]
 
 ## Assessment
 

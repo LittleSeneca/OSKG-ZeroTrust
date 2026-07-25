@@ -70,6 +70,8 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[the-service-desk-ticket-condition-represents-a-paradigm|The ticket-condition JIT access model is a concrete mechanism for Policy & Governance acting as the badge and shield — p]]
+- [[policy-survives-organizational-change-through-the-policy-governance|The badge-and-shield function — authorizing enforcement and defining rules — is what enables policy to survive mergers,]]
 
 ## Assessment
 

@@ -56,6 +56,7 @@ Practitioners who argue that "assume breach" is a useful thought experiment but 
 **Depends on:**
 
 **Supports:**
+- [[zta-prevent-breach-limit-lateral-movement|The operational mechanism (assume breach, continuous auth) is what enables the design goal (prevent breaches, limit late]]
 
 **Contradicts:**
 

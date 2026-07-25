@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[service-identity-service-accounts-device-identity-verified|The BeyondCorp/BeyondProd model makes service identity (BeyondProd side) and device identity first-class alongside user]]
 
 **Contradicts:**
 
@@ -62,6 +63,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[perimeter-security-breaks-down-microservices-because-services|Clarifies that BeyondProd (east-west) and BeyondCorp (north-south) together form the complete ZT model, not just microse]]
 
 ## Assessment
 

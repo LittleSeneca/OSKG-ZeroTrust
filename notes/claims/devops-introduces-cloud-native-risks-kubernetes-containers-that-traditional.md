@@ -58,6 +58,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[perimeter-security-breaks-down-microservices-because-services|DevOps/Kubernetes risks are a concrete manifestation of the perimeter security breakdown that BeyondProd addresses.]]
 
 **Contradicts:**
 

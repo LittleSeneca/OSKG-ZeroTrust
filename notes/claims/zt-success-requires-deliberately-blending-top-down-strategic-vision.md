@@ -58,6 +58,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[phased-zt-adoption-vpn-replacement-role-based-access-branch|The 3-phase VPN→RBAC→branch-removal case study exemplifies blended execution: top-down vision (ZT architecture) paired w]]
 
 **Contradicts:**
 
@@ -66,6 +67,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[zt-organizational-commitment|Blending top-down strategic vision with bottom-up tactical execution is the practical method for building the enterprise]]
 
 ## Assessment
 

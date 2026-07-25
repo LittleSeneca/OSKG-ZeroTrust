@@ -58,6 +58,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[orchestration-policy-four-layer-hierarchy|Discovery-before-enforcement provides the traffic/identity data that feeds the dynamic adaptive policy feedback loop, en]]
+- [[top-down-business-aligned-and-bottom-up-traffic-aligned-design-approaches-are|Discovery-before-enforcement and log-before-block are the bottom-up data collection practices that validate and inform t]]
 
 **Contradicts:**
 

@@ -70,6 +70,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[incomplete-knowledge-chicken-egg-barrier|Incomplete enterprise knowledge is one of the documented, predictable roadblocks — specifically the resource-visibility-]]
 
 ## Assessment
 

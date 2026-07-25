@@ -54,6 +54,9 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[pillar-ideals-vs-operational-realities|BeyondCorp's flexible threshold-based policies demonstrate a practical approach to resolving the tension between ZT pill]]
+- [[beyondcorp-caused-30-fewer-support-issues-comparable|Flexible threshold-based policies prevent the draconian enforcement that drives users to seek workarounds, directly redu]]
+- [[tiered-access|Threshold-based trust policies (rather than binary absolutes) make tiered access practical by allowing devices to be dow]]
 
 **Contradicts:**
 

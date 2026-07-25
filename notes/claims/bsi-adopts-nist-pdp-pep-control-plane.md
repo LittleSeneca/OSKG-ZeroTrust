@@ -67,6 +67,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[bsi-first-national-agency-provide-detailed-guidance|The real-time signal integration guidance in bsi-zt.7 operationalizes the PDP/PEP architecture that bsi-zt.3 claims BSI]]
 
 ## Assessment
 

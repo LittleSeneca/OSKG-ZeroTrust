@@ -59,6 +59,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[einstein-ncps-evolve-perimeter-model|Cloud migration creates parallel pressure — it drives ZTA prioritization for access control and forces EINSTEIN/NCPS to]]
+- [[cdm-visibility-prerequisite-zta|Cloud migration makes ZTA attractive by moving resources outside the perimeter, while CDM visibility makes ZTA possible]]
 
 **Contradicts:**
 

@@ -59,6 +59,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[application-threat-protections-integrated|Security testing integrated throughout the SDLC enables threat protections to be integrated into application workflows]]
 
 **Contradicts:**
 
@@ -67,6 +68,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[application-cross-cutting-capabilities-summary|SDLC-integrated security testing is a specific dimension of the broader application cross-cutting capabilities (visibili]]
 
 ## Assessment
 

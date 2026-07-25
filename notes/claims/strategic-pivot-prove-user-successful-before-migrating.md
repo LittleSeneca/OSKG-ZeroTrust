@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[beyondcorp-caused-30-fewer-support-issues-comparable|The strategic pivot from opt-in to opt-out ensured full migration coverage, eliminating the long tail of noncompliant ap]]
 
 **Contradicts:**
 
@@ -62,6 +63,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[the-zero-trust-implementation-curve-prevents-boiling-the|The strategic pivot from opt-in to opt-out represents a later-phase refinement of the Implementation Curve, addressing t]]
 
 ## Assessment
 

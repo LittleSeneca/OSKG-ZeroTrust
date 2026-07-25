@@ -72,6 +72,8 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[zt-control-data-plane-split|The network cross-cutting capabilities describe how the control plane matures from static, perimeter-focused policies to]]
+- [[zt-implementation-faces-significant-organizational-technical-challenges|The network cross-cutting capabilities maturity model details the specific technical challenges—from manual boundary mon]]
   - "[[cross-cutting-capabilities-convergence]]"
 
 ## Assessment

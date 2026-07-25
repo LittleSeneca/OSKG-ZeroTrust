@@ -61,6 +61,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[zta-prerequisites-icam-cdm|nist207-ch6.2 establishes that mature ICAM is a hard prerequisite for ZTA. finney-ch4-7.6 supports this by describing a]]
 
 **Contradicts:**
 

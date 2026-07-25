@@ -62,6 +62,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[llm-systems-require-their-own-dedicated-zero|anssi-bsi.2 details the input/output validation gateway principle, which is one of the six dedicated ZT principles asser]]
 
 ## Assessment
 

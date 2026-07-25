@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[cloud|Segmentation as ZT's primary architectural primitive aligns with the service mesh acting as the enforcement point for id]]
 
 **Contradicts:**
 

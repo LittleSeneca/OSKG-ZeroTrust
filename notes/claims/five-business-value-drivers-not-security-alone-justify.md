@@ -67,6 +67,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[executive-sponsorship-and-crisis-create-the-window-for|finney-ch1-3.4 identifies executive sponsorship and crisis as the adoption trigger (the window). gc-scenarios.3 extends]]
 
 ## Assessment
 

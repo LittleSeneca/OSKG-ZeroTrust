@@ -64,6 +64,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[monitoring-data-reconnaissance-target|monitoring-data-reconnaissance-target]]
 
 **Contradicts:**
 

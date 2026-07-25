@@ -57,6 +57,7 @@ These programs weren't "building toward ZT" — they were separate, sometimes co
 **Depends on:**
 
 **Supports:**
+- [[zta-complementary-not-replacement|The decade-long federal investment in FISMA, RMF, FICAM, TIC, and CDM validates that ZTA complements rather than replace]]
 
 **Contradicts:**
 
@@ -65,6 +66,9 @@ These programs weren't "building toward ZT" — they were separate, sometimes co
 **Operationalizes:**
 
 **Extends:**
+- [[einstein-ncps-evolve-perimeter-model|EINSTEIN/NCPS evolving its sensor model refines the broader claim that federal programs were limited by technology but a]]
+- [[tic-3-converging-with-zta|TIC 3.0's convergence with ZTA refines the broader claim that federal programs were maturing from static perimeter enfor]]
+- [[cdm-visibility-prerequisite-zta|CDM being the visibility prerequisite for ZTA refines the broader claim that foundational federal programs were building]]
 
 ## Assessment
 

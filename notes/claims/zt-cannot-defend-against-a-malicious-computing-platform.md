@@ -62,6 +62,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[zts-threat-model-is-the-internet-threat-model|zts-threat-model-is-the-internet-threat-model]]
 
 ## Assessment
 

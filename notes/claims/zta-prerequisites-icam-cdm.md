@@ -66,6 +66,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[federal-program-interactions-synthesis|nist207-ch6.2 drills into one of the seven program interactions from nist207-ch6.10 — that ICAM and CDM are hard prerequ]]
   - [[ficam-identity-substrate-zta]]
   - [[cdm-visibility-prerequisite-zta]]
 

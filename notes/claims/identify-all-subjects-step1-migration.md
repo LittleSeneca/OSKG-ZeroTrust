@@ -59,6 +59,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[identify-catalog-assets-step2-migration|Step 2 follows Step 1 in the NIST 7-step cycle — asset cataloging builds on the subject identification that precedes it.]]
 
 **Supports:**
 
@@ -69,6 +70,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[foundational-inventory-before-migration|Step 1 (identify all subjects) operationalizes the actor-inventory portion of the foundational prerequisite.]]
 
 ## Assessment
 

@@ -69,6 +69,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[zt-operationalized-three-principles-apply-differently-per|Both provide practical operational frameworks for ZT: NCSC's 8 principles are vendor-agnostic guidance complementing the]]
+- [[beyondcorp-google-implementation-zt-model-provides-architectural|NCSC's vendor-agnostic framework validates and complements Google's ZT implementation, showing it satisfies an independe]]
 
 **Contradicts:**
 

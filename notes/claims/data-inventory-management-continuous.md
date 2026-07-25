@@ -59,6 +59,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[data-centric-security-abac-protection|DLP (Data Loss Prevention), one of the four ABAC protection mechanisms, monitors for data exfiltration. Continuous inven]]
+- [[data-categorization-automated-labeling|You must know what data exists before you can categorize it. Continuous data inventory is the foundational discovery lay]]
 
 **Contradicts:**
 

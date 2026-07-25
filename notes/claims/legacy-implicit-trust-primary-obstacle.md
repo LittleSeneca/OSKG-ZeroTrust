@@ -54,6 +54,8 @@ The focus on legacy systems could be a convenient excuse — the real challenge 
 **Depends on:**
 
 **Supports:**
+- [[zero-trust-proxies-are-the-bridge-between-zt|Legacy implicit-trust systems create the interoperability gap that ZT proxies (forward and reverse) are designed to brid]]
+- [[greenfield-zta-rarely-viable|The prevalence of legacy implicit-trust systems is the structural reason greenfield is rarely viable for existing organi]]
 
 **Contradicts:**
 

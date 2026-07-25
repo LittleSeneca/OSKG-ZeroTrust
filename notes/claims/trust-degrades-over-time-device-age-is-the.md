@@ -58,6 +58,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[continuous-risk-based-device-authorization|Trust degradation over time is a specific risk factor that continuous authorization must account for — device age is fra]]
 
 **Contradicts:**
 

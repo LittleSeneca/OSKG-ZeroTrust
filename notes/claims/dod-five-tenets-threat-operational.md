@@ -72,6 +72,7 @@ The DoD's five tenets could be seen as a *subset* of NIST's seven, repackaged fo
 **Operationalizes:**
 
 **Extends:**
+- [[nist-sp-800-207-provides-the-architectural-tenets-but|Adds the DoD-vs-NIST comparison dimension to the observation that NIST's tenets are architectural.]]
 
 ## Assessment
 

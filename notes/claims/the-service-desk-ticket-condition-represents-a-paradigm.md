@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[forwarding-and-routing-authorization-extends-policy-enforcement-into|Both extend policy enforcement into operational layers — business process compliance via ticket state and network fabric]]
 
 **Contradicts:**
 

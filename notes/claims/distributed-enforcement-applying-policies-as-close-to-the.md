@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[device-resource-access-context|Distributed enforcement across four layers (intra-VLAN through host-level) is a concrete implementation of device-aware]]
 
 **Contradicts:**
 

@@ -72,6 +72,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[the-biggest-mistake-in-zt-implementation-is-rushing|The log-then-enforce pattern, validated by two independent case studies, provides the empirical evidence for why rushing]]
 
 **Contradicts:**
 

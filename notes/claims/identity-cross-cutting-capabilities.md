@@ -79,6 +79,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[npe-person-identities-independent-confidence|Visibility & analytics feeds the independent confidence tracking; automation & orchestration enables confidence aggregat]]
+- [[the-three-layer-authorization-model-reveals-why-zt-is|Cross-cutting capabilities (visibility & analytics, automation & orchestration, governance) operationalize enforcement a]]
 
 **Contradicts:**
 

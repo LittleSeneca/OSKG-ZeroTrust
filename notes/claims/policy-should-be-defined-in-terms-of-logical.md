@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[the-kipling-method-replaces-network-centric-policy-with-business-context|Both reject network-centric policy; gb-ch4-6.3 provides the logical-components principle that finney-ch1-3.8's Kipling M]]
 
 **Contradicts:**
 
@@ -62,6 +63,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[the-four-component-policy-model-subject-action-target-condition|Specifying that policy components must be logical (not IP-addressed) extends the abstract four-component model with a cr]]
 
 ## Assessment
 

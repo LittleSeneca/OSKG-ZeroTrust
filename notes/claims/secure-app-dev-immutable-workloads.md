@@ -57,6 +57,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[per-instance-time-bound-secrets-are-the-mechanism-for-authorizing|Per-instance time-bound secret provisioning depends on immutable workload patterns where instances are created via redep]]
 
 **Supports:**
 
@@ -67,6 +68,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[the-application-pipeline-is-a-cryptographic-chain-break|Immutable workloads with redeployment-only changes are the practical deployment implementation of the cryptographic chai]]
 
 ## Assessment
 

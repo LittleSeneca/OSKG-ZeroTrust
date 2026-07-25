@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[identity-foundational-zta-pillar|The DoD pillar framework validates identity as foundational by placing User as the first pillar and organizing all capab]]
 
 **Contradicts:**
 

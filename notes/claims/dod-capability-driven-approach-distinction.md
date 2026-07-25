@@ -67,6 +67,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[seven-dod-zt-pillars-user-device-applications|The DoD's capability-driven approach is organized around the seven-pillar construct, which provides the organizing frame]]
 
 **Supports:**
 

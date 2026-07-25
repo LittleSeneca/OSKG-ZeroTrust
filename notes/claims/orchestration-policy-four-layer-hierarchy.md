@@ -82,6 +82,8 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[top-down-business-aligned-and-bottom-up-traffic-aligned-design-approaches-are|Centralized orchestration through a four-layer hierarchy operationalizes the complementary top-down/bottom-up approach —]]
+- [[the-policy-decision-matrix-mapping-source-entities-to|The four-layer orchestration hierarchy (Global SDE → CDO → Policy Controller → PEPs) distributes and enforces the policy]]
 
 ## Assessment
 

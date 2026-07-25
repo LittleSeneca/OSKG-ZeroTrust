@@ -61,6 +61,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[siloed-teams-where-network-security-applications-and-operations|The Cultural Adoption strategic goal directly addresses the siloed teams failure mode by aligning workforce mindset and]]
 
 **Contradicts:**
 

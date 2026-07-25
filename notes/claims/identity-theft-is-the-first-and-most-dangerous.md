@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[the-strongest-user-authentication-binds-identity-to-hardware|ZT requiring two stolen identities (user + device) justifies why hardware-bound authentication is essential — credential]]
 
 **Contradicts:**
 

@@ -54,6 +54,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[entities-should-be-scored-at-multiple-levels-network|The trust engine's risk scoring approach naturally requires multi-level scoring across network agent, device, and user.]]
+- [[variable-trust-scores-replace-binary-policy-with-continuous|The trust engine produces the variable trust scores that enable continuous, dynamic authorization.]]
 
 **Contradicts:**
 
@@ -62,6 +64,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[trust-algorithm-five-input-categories|The Trust Algorithm is the concrete specification of the trust engine's decision-making process.]]
 
 ## Assessment
 

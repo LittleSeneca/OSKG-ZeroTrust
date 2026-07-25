@@ -61,6 +61,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[prevention-is-possible-and-more-cost-effective-than-recovery|Tabletop exercises test prevention controls and organizational culture simultaneously, serving as a proactive validation]]
 
 **Contradicts:**
 
@@ -69,6 +70,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[zta-implementation-continuous-improvement-journey-one|Tabletop exercises operationalize the monitor and maintain phase of the continuous improvement journey by testing contro]]
 
 ## Assessment
 

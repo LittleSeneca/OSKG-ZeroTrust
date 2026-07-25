@@ -59,6 +59,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[authentication-keystone-identity-function|The four maturity stages (Traditional through Optimal) provide the framework for understanding the authentication capabi]]
   - "[[cross-pillar-maturity-trajectory]]"
 
 **Contradicts:**
@@ -68,6 +69,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[access-management-permanent-to-jit-jea|Provides the general four-stage maturity framework (Traditional→Optimal) that the access management progression specific]]
 
 ## Assessment
 

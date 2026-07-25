@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[zt-no-implicit-trust-continuous-eval|The semantic clarification that ZT means 'zero implicit trust' aligns directly with NIST's operational definition of eli]]
 
 **Contradicts:**
 

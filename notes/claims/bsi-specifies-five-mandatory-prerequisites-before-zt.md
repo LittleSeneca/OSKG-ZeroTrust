@@ -58,8 +58,10 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[bsi-provides-formal-three|The five mandatory prerequisites in bsi-zt.5 logically presuppose the formal definition that bsi-zt.2 provides — you can]]
 
 **Supports:**
+- [[bsi-integration-model-provides-german-maturity-framework|The five mandatory prerequisites form part of the implementation roadmap that the maturity framework in bsi-zt.4 governs]]
 
 **Contradicts:**
 

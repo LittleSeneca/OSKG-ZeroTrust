@@ -57,6 +57,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[continuous-risk-based-device-authorization|Compliance status and policy enforcement data are essential inputs to the risk calculation engine for authorization deci]]
 
 **Supports:**
 

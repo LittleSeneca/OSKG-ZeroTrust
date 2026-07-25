@@ -73,6 +73,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[stolen-credentials-zta-constrains-blast-radius|stolen-credentials-zta-constrains-blast-radius]]
 
 ## Assessment
 

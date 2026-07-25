@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[zta-implementation-continuous-improvement-journey-one|The SBC case study's aggressive scope constraint (10 tags, 5-7 endpoint groups) demonstrates a practical strategy for su]]
 
 **Contradicts:**
 
@@ -62,6 +63,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[the-zero-trust-implementation-curve-prevents-boiling-the|The SBC case study is a concrete, detailed example of the Implementation Curve in practice, showing how aggressive scope]]
 
 ## Assessment
 

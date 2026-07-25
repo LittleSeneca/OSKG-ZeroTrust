@@ -63,6 +63,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[reporting-only-mode-step6-migration|You cannot deploy in reporting-only mode (Step 6) until a candidate solution has been selected (Step 5).]]
 
 **Supports:**
 

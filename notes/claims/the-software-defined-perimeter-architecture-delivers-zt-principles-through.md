@@ -55,6 +55,7 @@ SPA could be read as a niche capability valuable for high-security environments 
 **Depends on:**
 
 **Supports:**
+- [[least-privilege-in-zt-is-dynamic-multi-attribute-and|SDP delivers the architectural foundation for dynamic, device-bound least privilege: mTLS provides the device-binding di]]
 
 **Contradicts:**
 

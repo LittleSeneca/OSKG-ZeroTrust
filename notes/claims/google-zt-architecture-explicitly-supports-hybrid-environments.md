@@ -62,6 +62,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[beyondcorp-google-implementation-zt-model-provides-architectural|Extends BeyondCorp's scope to on-premises applications via IAP connectors, showing ZT does not require cloud migration.]]
 
 ## Assessment
 

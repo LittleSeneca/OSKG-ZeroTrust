@@ -62,6 +62,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[data-categorization-automated-labeling|The CISA ZTMM claim describes the maturity progression of data categorization; the GC SOC claim adds depth by explaining]]
 
 ## Assessment
 

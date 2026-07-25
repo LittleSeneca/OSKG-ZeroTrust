@@ -66,6 +66,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[agents-are-ephemeral-request-scoped-and-purely-for-authorization|Both articulate separation-of-concerns in zero trust: Claim 1 separates authentication from authorization; Claim 3 exten]]
 
 ## Assessment
 

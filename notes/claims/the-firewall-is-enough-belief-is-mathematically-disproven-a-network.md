@@ -54,6 +54,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[ngfws-are-neither-sufficient-as-a-zt-platform|ngfws-are-neither-sufficient-as-a-zt-platform]]
+- [[firewalls-persist-under-zero-trust-but-their-role|firewalls-persist-under-zero-trust-but-their-role]]
 
 **Contradicts:**
 

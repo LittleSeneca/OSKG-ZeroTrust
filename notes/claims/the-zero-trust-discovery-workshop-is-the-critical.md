@@ -82,6 +82,8 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[zta-implementation-continuous-improvement-journey-one|The Discovery Workshop is the critical first step of the continuous improvement journey, providing the foundational anal]]
+- [[the-zero-trust-implementation-curve-prevents-boiling-the|The Zero Trust Discovery Workshop is the first step on the Implementation Curve, establishing business requirements and]]
 
 ## Assessment
 

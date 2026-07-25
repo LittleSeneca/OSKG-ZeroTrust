@@ -56,6 +56,8 @@ ZT *is* a set of principles, but mature product platforms can operationalize tho
 **Depends on:**
 
 **Supports:**
+- [[zero-trust-is-a-strategy-not-a-product|NIST's definition of ZT as an architectural paradigm (not a product) independently supports the strategy-not-product cla]]
+- [[zt-is-a-journey-not-a-destination-success|NIST's articulation that ZT adoption is an incremental journey supports the 'journey not destination' framing.]]
 
 **Contradicts:**
 

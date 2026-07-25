@@ -62,6 +62,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[trust-algorithm-two-axes-criteria-contextual|The two-axis classification (criteria/score vs singular/contextual) adds dimensionality to the Trust Algorithm descripti]]
 
 ## Assessment
 

@@ -59,6 +59,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[device-policy-enforcement-compliance-monitoring|Evidence states threat protection is 'integrated with policy enforcement and compliance monitoring' — centralized threat]]
   - "[[edr-xdr-device-network-bridge]]"
 
 **Contradicts:**

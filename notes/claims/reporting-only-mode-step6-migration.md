@@ -69,6 +69,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[log-then-enforce-is-the-migration-procedure-validated-by-two|Reporting-only mode is the NIST 7-step framing of the log phase in the log-then-enforce pattern independently validated]]
 
 ## Assessment
 

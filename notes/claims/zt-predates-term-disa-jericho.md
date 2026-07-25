@@ -55,6 +55,8 @@ The lineage is real but NIST may be retroactively claiming ancestors to build le
 **Depends on:**
 
 **Supports:**
+- [[nist-document-structure-framework|Including the intellectual lineage of ZT predecessors is part of the comprehensive framework that nist207-ch1.8 claims t]]
+- [[kindervag-coined-zero-trust|The DISA black core and Jericho Forum predecessors establish the intellectual lineage and conceptual need that Kindervag]]
 
 **Contradicts:**
 

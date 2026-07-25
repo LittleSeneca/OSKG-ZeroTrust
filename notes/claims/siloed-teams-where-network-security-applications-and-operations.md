@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[zero-trust-solution-product|Siloed teams being the #1 ZT failure mode reinforces that ZT requires cultural transformation, not just technology procu]]
 
 **Contradicts:**
 

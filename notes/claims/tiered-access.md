@@ -62,6 +62,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[beyondcorp-access-flow-enforces-per|Tiered access refines per-request authorization by organizing trust levels into sensitivity tiers, moving beyond binary]]
 
 ## Assessment
 

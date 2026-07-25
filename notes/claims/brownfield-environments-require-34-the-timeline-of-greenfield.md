@@ -54,6 +54,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[greenfield-zta-rarely-viable|The steep brownfield cost reinforces why greenfield would be preferable, but since greenfield is rarely viable, brownfie]]
+- [[the-biggest-mistake-in-zt-implementation-is-rushing|Brownfield's 3–4× timeline (due to recursive device re-profiling) provides the quantitative justification for not rushin]]
 
 **Contradicts:**
 

@@ -65,6 +65,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[continuous-risk-based-device-authorization|Risk-based authorization cannot function without knowing what devices exist — inventory is the foundational input.]]
 
 **Supports:**
 

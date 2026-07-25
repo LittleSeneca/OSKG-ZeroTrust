@@ -55,6 +55,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[tic-3-converging-with-zta|Both extend enforcement into the network — TIC 3.0 through distributed PEP security capabilities and forwarding/routing]]
 
 **Contradicts:**
 

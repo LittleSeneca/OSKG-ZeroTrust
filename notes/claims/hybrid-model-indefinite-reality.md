@@ -59,6 +59,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[dual-mode-infrastructure-indefinite-hybrid|Dual-mode requirements only exist because the hybrid model is indefinite — without indefinite coexistence, infrastructur]]
 
 **Supports:**
 
@@ -69,6 +70,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[zta-migration-incremental-recurring-cycle|The hybrid model is the reason the cycle is indefinite — you never finish because ZT and perimeter workflows coexist per]]
 
 ## Assessment
 

@@ -67,8 +67,10 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[sequential-network-maturity-journey|Micro segmentation is the third phase in the integrated maturity progression.]]
 
 **Supports:**
+- [[lateral-movement-prevention-raison-detre|Micro segmentation limits the blast radius when lateral movement occurs, directly serving the pillar's raison d'être.]]
 
 **Contradicts:**
 
@@ -77,6 +79,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[macro-segmentation-cross-function|Micro segmentation extends macro segmentation by adding granular, service-specific isolation within business function se]]
   - "[[network-segmentation-micro-perimeters]]"
 
 ## Assessment

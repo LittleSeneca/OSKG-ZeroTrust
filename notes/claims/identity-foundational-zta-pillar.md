@@ -54,8 +54,11 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[cdm-visibility-prerequisite-zta|Identity-based access decisions depend on CDM providing answers to 'what is connected' and 'who is on the network' befor]]
 
 **Supports:**
+- [[user-identity-and-device-identity-are-separate-trust|A foundational identity pillar must handle separate user and device trust domains with independent trust scores.]]
+- [[true-contextual-identity-is-never-just-a-device|Identity being the foundational pillar explains why multi-dimensional contextual profiling matters — without it, access]]
 
 **Contradicts:**
 

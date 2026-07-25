@@ -72,6 +72,8 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[the-policy-evaluation-flow-pdp-grants-pep-renders|the-policy-evaluation-flow-pdp-grants-pep-renders]]
+- [[zta-three-core-components-pe-pa-pep|zta-three-core-components-pe-pa-pep]]
 
 ## Assessment
 

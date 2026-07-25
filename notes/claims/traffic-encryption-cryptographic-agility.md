@@ -59,6 +59,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[idps-capabilities-remain-essential-but-the-how-changes|Widespread traffic encryption creates the challenge that forces IDPS to adapt — network-based IDPS is challenged by encr]]
 
 **Contradicts:**
 

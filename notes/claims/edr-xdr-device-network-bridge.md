@@ -72,6 +72,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[device-threat-protection-centralized|The EDR→XDR progression is the specific technical mechanism that enables centralized, unified threat protection across a]]
 
 **Contradicts:**
 

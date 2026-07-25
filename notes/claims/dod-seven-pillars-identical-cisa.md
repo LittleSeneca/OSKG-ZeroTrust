@@ -64,6 +64,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[five-pillar-comprehensive-decomposition|DoD independently converged on the identical pillar structure (seven pillars mapping to CISA's five), corroborating that]]
 
 **Contradicts:**
 

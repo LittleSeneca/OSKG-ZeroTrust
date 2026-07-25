@@ -64,6 +64,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[the-zero-trust-journey-is-cyclical-not-linear|The need for policy to survive organizational change explains why the ZT journey must be a continuous cyclical feedback]]
 
 ## Assessment
 

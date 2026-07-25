@@ -66,6 +66,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[the-three-layer-authorization-model-reveals-why-zt-is|Extends the three-layer model by specifying that for server-to-server contexts, the identity foundation shifts from IAM]]
 
 ## Assessment
 

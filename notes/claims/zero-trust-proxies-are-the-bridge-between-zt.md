@@ -75,6 +75,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[dual-mode-infrastructure-indefinite-hybrid|ZT proxies are one concrete mechanism that enables dual-mode infrastructure, allowing non-ZT-aware legacy components to]]
 
 ## Assessment
 

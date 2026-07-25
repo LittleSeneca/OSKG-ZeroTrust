@@ -83,6 +83,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[preventing-lateral-movement-primary-goal-zt|All three ZTA approaches—identity governance, micro-segmentation, and SDP—directly serve the primary goal of preventing]]
 
 **Contradicts:**
 
@@ -91,6 +92,8 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[three-types-of-filtering-form-a-defense-in-depth-network|The three types of filtering forming defense-in-depth are the network-level implementation of the micro-segmentation ZTA]]
+- [[four-deployment-models-zta|The three ZTA approaches—identity governance, micro-segmentation, and SDP—map to specific NIST deployment models, with S]]
 
 ## Assessment
 

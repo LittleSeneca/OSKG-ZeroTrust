@@ -61,6 +61,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[the-four-component-policy-model-subject-action-target-condition|Both articulate the same Subject-Action-Target-Condition model; Claim gc-ch1-3.14 reinforces gc-iam-policy.9 with a conc]]
 
 **Contradicts:**
 

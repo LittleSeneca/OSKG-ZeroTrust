@@ -52,6 +52,7 @@ _None identified._
 ## Edges
 
 **Depends on:**
+- [[policy-governance-is-the-badge-and-shield-it|The cyclical five-capability journey depends on Policy & Governance as the foundational first capability that feeds all]]
 
 **Supports:**
 

@@ -62,6 +62,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[llm-systems-require-their-own-dedicated-zero|anssi-bsi.4 details the human-oversight requirement (Principle 2), which is one of the six dedicated ZT principles for L]]
 
 ## Assessment
 

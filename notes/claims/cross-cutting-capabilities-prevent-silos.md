@@ -58,6 +58,7 @@ The cross-cutting capabilities could be read as CISA's way of saying "the pillar
 **Depends on:**
 
 **Supports:**
+- [[five-pillar-comprehensive-decomposition|Cross-cutting capabilities are the mechanism that prevents the five-pillar decomposition from becoming siloed, directly]]
   - "[[cross-cutting-capabilities-convergence]]"
 
 **Contradicts:**

@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[input-output-validation-gateway|anssi-bsi.3's session isolation requirement directly supports anssi-bsi.2's input/output validation gateway: proper sess]]
 
 **Contradicts:**
 
@@ -62,6 +63,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[llm-systems-require-their-own-dedicated-zero|anssi-bsi.3 details session-level memory isolation, which is one of the six dedicated ZT principles for LLM systems asse]]
 
 ## Assessment
 

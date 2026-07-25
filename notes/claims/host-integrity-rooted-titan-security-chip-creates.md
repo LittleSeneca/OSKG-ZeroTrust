@@ -54,6 +54,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[code-provenance-enforcement-binary-authorization-borg-closes|Both form complementary layers of BeyondProd's chain of trust: hardware-rooted integrity at the machine level and code p]]
 
 **Contradicts:**
 
@@ -62,6 +63,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[deploying-identity|Titan-anchored host integrity extends identity infrastructure to include hardware trust anchors beneath cryptographic se]]
 
 ## Assessment
 

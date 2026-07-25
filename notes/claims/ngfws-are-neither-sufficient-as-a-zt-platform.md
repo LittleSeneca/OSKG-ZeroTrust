@@ -62,6 +62,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[firewalls-persist-under-zero-trust-but-their-role|firewalls-persist-under-zero-trust-but-their-role]]
 
 ## Assessment
 

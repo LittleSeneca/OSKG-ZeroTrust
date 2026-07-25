@@ -53,6 +53,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[paper-provides-most-comprehensive-existing-mapping-iot|IoT being a dominant ZT research domain explains the significance and timeliness of the comprehensive IoT-to-ZT mapping]]
 
 **Contradicts:**
 

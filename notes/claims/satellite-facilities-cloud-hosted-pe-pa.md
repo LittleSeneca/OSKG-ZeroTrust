@@ -70,6 +70,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[network-transformation-vpn-removal-segmentation|Cloud-hosted PE/PA is the practical alternative to VPN hairpinning, demonstrating how ZT network transformation replaces]]
 
 **Contradicts:**
 

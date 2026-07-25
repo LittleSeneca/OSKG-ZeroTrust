@@ -55,6 +55,7 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[academic-quantitative-evidence-zt-effectiveness-entirely-synthetic|The 63-79% improvement figures from entirely synthetic models directly exemplify academic.6's claim that quantitative ZT]]
 
 **Contradicts:**
 

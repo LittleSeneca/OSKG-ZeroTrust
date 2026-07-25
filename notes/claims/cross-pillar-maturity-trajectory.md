@@ -57,6 +57,8 @@ _None identified._
 **Depends on:**
 
 **Supports:**
+- [[zero-trust-never-ends-the-maturity-model-turns|The observation that all four pillars share the same multi-stage trajectory reinforces why ZT becomes a multi-year journ]]
+- [[zt-maturity-incremental|cisa-ztmm-dnad.23 provides the cross-pillar evidence that the same incremental trajectory (Traditional→Initial→Advanced→]]
 
 **Contradicts:**
 
@@ -65,6 +67,7 @@ _None identified._
 **Operationalizes:**
 
 **Extends:**
+- [[four-maturity-levels-progressive-capability|cisa-ztmm-ov.7 defines the four maturity levels as progressive capability. cisa-ztmm-dnad.23 extends that by observing t]]
 
 ## Assessment
 

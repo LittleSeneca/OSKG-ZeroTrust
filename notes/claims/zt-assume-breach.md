@@ -56,6 +56,8 @@ The "assume breach" framing could be read as NSA's institutional bias — as a s
 <!-- Claims this one requires to be true -->
 
 **Supports:**
+- [[zt-positive-tenets|The 'assume breach' mindset is the foundational threat posture that motivates and gives urgency to the positive-tenet ar]]
+- [[zero-trust-is-a-philosophy-principles-and-a|NSA's 'assume breach' framing exemplifies the philosophy-first approach that gc-ch1-3.3 advocates — both reject product-]]
 - [[zt-network-assumptions]]
 
 **Contradicts:**
