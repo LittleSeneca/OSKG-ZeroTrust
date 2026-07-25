@@ -1,0 +1,56 @@
+[
+  {
+    "source": "nist207-ch6.2",
+    "target": "nist207-ch6.10",
+    "relationship": "extends",
+    "rationale": "nist207-ch6.2 drills into one of the seven program interactions from nist207-ch6.10 — that ICAM and CDM are hard prerequisites — and provides specific dependency chains (ICAM→subject attributes→Policy Engine→ZTA; CDM→asset visibility→device posture→PEP) not present in the synthesis claim."
+  },
+  {
+    "source": "cisa-ztmm-dnad.23",
+    "target": "cisa-ztmm-ov.7",
+    "relationship": "extends",
+    "rationale": "cisa-ztmm-ov.7 defines the four maturity levels as progressive capability. cisa-ztmm-dnad.23 extends that by observing that all four pillars share this identical trajectory and characterizing the underlying shift from manual/static to automated/continuous across all functions."
+  },
+  {
+    "source": "cisa-ztmm-ov.7",
+    "target": "nsa-embrace.4",
+    "relationship": "supports",
+    "rationale": "nsa-embrace.4 claims ZT maturity is incremental, not binary. cisa-ztmm-ov.7 supports this by providing the concrete four-level maturity model (Traditional→Initial→Advanced→Optimal) that instantiates incremental progression. The evidence in nsa-embrace.4 explicitly notes NSA's model was the template for CISA's."
+  },
+  {
+    "source": "cisa-ztmm-dnad.23",
+    "target": "nsa-embrace.4",
+    "relationship": "supports",
+    "rationale": "cisa-ztmm-dnad.23 provides the cross-pillar evidence that the same incremental trajectory (Traditional→Initial→Advanced→Optimal) applies uniformly, further supporting the claim that maturity is incremental, not binary."
+  },
+  {
+    "source": "nsa-embrace.4",
+    "target": "finney-ch8-11.11",
+    "relationship": "supports",
+    "rationale": "finney-ch8-11.11 claims ZT never ends and becomes a multi-year strategic journey. nsa-embrace.4's claim that maturity is incremental (not binary) provides the foundational mechanism: because maturity progresses through stages rather than flipping a switch, the journey is inherently long-running."
+  },
+  {
+    "source": "cisa-ztmm-ov.7",
+    "target": "finney-ch8-11.11",
+    "relationship": "supports",
+    "rationale": "The four progressive maturity levels (Traditional→Initial→Advanced→Optimal) provide the scaffolding that turns a short-term project into a multi-year strategic journey, directly supporting the never-ending nature of ZT."
+  },
+  {
+    "source": "cisa-ztmm-dnad.23",
+    "target": "finney-ch8-11.11",
+    "relationship": "supports",
+    "rationale": "The observation that all four pillars share the same multi-stage trajectory reinforces why ZT becomes a multi-year journey — every pillar must progress through each level, making the effort inherently long-term."
+  },
+  {
+    "source": "gc-scenarios.3",
+    "target": "finney-ch1-3.4",
+    "relationship": "extends",
+    "rationale": "finney-ch1-3.4 identifies executive sponsorship and crisis as the adoption trigger (the window). gc-scenarios.3 extends this by articulating five specific business value drivers — security, audit/compliance, customer integration, operational efficiency, revenue enablement — that provide durable justification for ZT investment beyond the initial crisis window."
+  },
+  {
+    "source": "finney-ch4-7.6",
+    "target": "nist207-ch6.2",
+    "relationship": "supports",
+    "rationale": "nist207-ch6.2 establishes that mature ICAM is a hard prerequisite for ZTA. finney-ch4-7.6 supports this by describing a concrete governance approach — cross-functional stakeholder groups (CISO, Legal, Compliance, HR, etc.) and leveraging existing GDPR/privacy assessments — that organizations can use to build the ICAM maturity ZTA requires."
+  }
+]

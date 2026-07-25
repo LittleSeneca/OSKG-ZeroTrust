@@ -1,0 +1,79 @@
+{
+  "cluster_id": "c23",
+  "cluster_label": "data (implementation)",
+  "size": 9,
+  "claims": [
+    {
+      "slug": "data-access-jit-jea-controls",
+      "claim_id": "cisa-ztmm-dnad.20",
+      "statement": "Data Access \u2014 maturity progresses from static access controls governing user/entity access to automated dynamic just-in-time and just-enough data access controls enterprise-wide with continuous review of permissions, considering identity, device risk, application, and data category.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "| Stage | Description |\n|-------|-------------|\n| **Traditional** | Governs user and entity access (read, write, copy, grant others access) through static access controls. |\n| **Initial** | Begins deploying automated data access controls incorporating elements of least privilege across the enterprise. |\n| **Advanced** | Automates data access controls considering identity, device risk, application,"
+    },
+    {
+      "slug": "data-availability-dynamic-optimization",
+      "claim_id": "cisa-ztmm-dnad.19",
+      "statement": "Data Availability \u2014 maturity progresses from primarily on-premises data stores with some off-site backups to dynamic methods optimizing data availability, including historical data, according to user and entity need.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "| Stage | Description |\n|-------|-------------|\n| **Traditional** | Primarily makes data available from on-premises data stores with some off-site backups. |\n| **Initial** | Makes some data available from redundant, highly available data stores (e.g., cloud); maintains off-site backups for on-premises data. |\n| **Advanced** | Primarily makes data available from redundant, highly available data sto"
+    },
+    {
+      "slug": "data-categorization-automated-labeling",
+      "claim_id": "cisa-ztmm-dnad.18",
+      "statement": "Data Categorization \u2014 maturity progresses from limited and ad hoc categorization to automated data categorization and labeling enterprise-wide with robust techniques, granular structured formats, and mechanisms to address all data types.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "| Stage | Description |\n|-------|-------------|\n| **Traditional** | Limited and ad hoc data categorization capabilities. |\n| **Initial** | Begins implementing a data categorization strategy with defined labels and manual enforcement mechanisms. |\n| **Advanced** | Automates some data categorization and labeling in a consistent, tiered, targeted manner with simple structured formats and regular revi"
+    },
+    {
+      "slug": "data-centric-security-abac-protection",
+      "claim_id": "dod-ra-cap.5",
+      "statement": "Data-Centric Security (Use Cases 1\u20134) \u2014 data protection must shift from network-centric RBAC to attribute-based ABAC with four coordinating protection mechanisms (Data Tagging, DRM, DLP, DDM) operating around the Data Store, and encryption decisions made by the ZT policy engine rather than as a separate concern.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "**Four protection mechanisms:**\n\n| Mechanism | Function |\n|---|---|\n| **Data Tagging** | On creation/import, categorize data with attributes for PII/sensitivity classification; feeds DRM and DLP |\n| **DRM (Data Rights Management)** | Allow/block access, editing, or copying of data based on tags and policy |\n| **DLP (Data Loss Prevention)** | Block access and transmission of data; monitor for exfil"
+    },
+    {
+      "slug": "data-classification-spans-a-structured-to-unstructured-continuum-structured-data",
+      "claim_id": "gc-soc-data-iot.4",
+      "statement": "Data classification spans a structured-to-unstructured continuum \u2014 structured data (databases) has implicit classification via schema, while unstructured data (documents, SaaS) lacks inherent metadata, making automatic classification the hardest problem.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Specific technologies are mapped to phases: DLP (Data Loss Prevention) for device/content control and enforced encryption; DAG (Data Access Governance) for defining who can access what and when; DRM (Digital Rights Management) for owner-imposed controls on proprietary data. Data-at-rest is protected by full-disk or database table encryption; data-in-motion by encrypted transport (HTTPS, TLS \u2014 \"sim"
+    },
+    {
+      "slug": "data-cross-cutting-capabilities-summary",
+      "claim_id": "cisa-ztmm-dnad.22",
+      "statement": "Data Cross-Cutting Capabilities \u2014 progress from limited visibility with manual analysis to visibility across the full data lifecycle with robust predictive analytics; from manual ad hoc data lifecycle processes to maximum automation of data lifecycles and security policies; from ad hoc governance with manual implementation to unified data lifecycle policies dynamically enforced across the enterprise.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "**Visibility & Analytics:**\n\nTraditional \u2192 limited visibility into data including location, access, and usage; analysis primarily manual. Optimal \u2192 visibility across full data lifecycle; robust analytics including predictive analytics; comprehensive views of agency data and continuous security posture assessment.\n\n**Automation & Orchestration:**\n\nTraditional \u2192 implements data lifecycle and securit"
+    },
+    {
+      "slug": "data-encryption-comprehensive",
+      "claim_id": "cisa-ztmm-dnad.21",
+      "statement": "Data Encryption \u2014 maturity progresses from encrypting minimal agency data with ad hoc key management to encrypting data in use where appropriate, enforcing least privilege for secure key management enterprise-wide, and applying encryption using up-to-date standards and cryptographic agility.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "| Stage | Description |\n|-------|-------------|\n| **Traditional** | Encrypts minimal agency data at rest and in transit; relies on manual or ad hoc processes to manage and secure encryption keys. |\n| **Initial** | Encrypts all data in transit; where feasible, encrypts data at rest (mission-critical data, data stored in external environments); begins formalizing key management policies and securing"
+    },
+    {
+      "slug": "data-inventory-management-continuous",
+      "claim_id": "cisa-ztmm-dnad.17",
+      "statement": "Data Inventory Management \u2014 maturity progresses from manual identification and inventory of some agency data to continuous inventory of all applicable agency data with robust data loss prevention strategies that dynamically block suspected data exfiltration.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "| Stage | Description |\n|-------|-------------|\n| **Traditional** | Manually identifies and inventories some agency data (e.g., mission-critical data). |\n| **Initial** | Begins automating data inventory processes for on-premises and cloud environments, covering most agency data; begins incorporating protections against data loss. |\n| **Advanced** | Automates data inventory and tracking enterprise-"
+    },
+    {
+      "slug": "data-protection-is-an-advanced-zt-use-case",
+      "claim_id": "gc-soc-data-iot.3",
+      "statement": "Data protection is an advanced ZT use case \u2014 classification maturity and platform capabilities are prerequisites, making it unsuitable for early ZT projects.",
+      "claim_type": "maturity",
+      "confidence": "high",
+      "evidence_excerpt": "The chapter describes data as a resource protected by PEPs, just like applications. Two integration models are defined: (1) Enclave model \u2014 data resources sit inside a resource enclave behind a PEP, with a Data Access Governance (DAG) solution feeding labels/tags into the PDP; policies like \"only Customer Care Team can access resources tagged 'Customer Records'\" are enforced at the PEP. (2) Local "
+    }
+  ]
+}

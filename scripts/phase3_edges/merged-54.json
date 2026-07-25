@@ -1,0 +1,254 @@
+[
+  {
+    "claim_a": "icam-non-negotiable-substrate",
+    "claim_b": "identity-foundational-zta-pillar",
+    "edge_type": "supports",
+    "rationale": "Both establish ICAM as the non-negotiable substrate for ZTA identity \u2014 CISA's maturity model explicitly names ICAM as the substrate beneath the identity pillar."
+  },
+  {
+    "claim_a": "true-contextual-identity-is-never-just-a-device",
+    "claim_b": "user-identity-and-device-identity-are-separate-trust",
+    "edge_type": "extends",
+    "rationale": "Multi-dimensional contextual profiling refines why user and device identities must be separate trust domains \u2014 device type alone is insufficient context."
+  },
+  {
+    "claim_a": "icam-non-negotiable-substrate",
+    "claim_b": "true-contextual-identity-is-never-just-a-device",
+    "edge_type": "extends",
+    "rationale": "The ICAM substrate is operationalized through multi-dimensional contextual profiling that captures who, what device, and under what circumstances."
+  },
+  {
+    "claim_a": "icam-non-negotiable-substrate",
+    "claim_b": "user-identity-and-device-identity-are-separate-trust",
+    "edge_type": "supports",
+    "rationale": "ICAM as the non-negotiable substrate must accommodate separate trust domains for users and devices with independent authentication and scoring."
+  },
+  {
+    "claim_a": "identity-foundational-zta-pillar",
+    "claim_b": "true-contextual-identity-is-never-just-a-device",
+    "edge_type": "supports",
+    "rationale": "Identity being the foundational pillar explains why multi-dimensional contextual profiling matters \u2014 without it, access decisions lack the necessary granularity."
+  },
+  {
+    "claim_a": "identity-foundational-zta-pillar",
+    "claim_b": "user-identity-and-device-identity-are-separate-trust",
+    "edge_type": "supports",
+    "rationale": "A foundational identity pillar must handle separate user and device trust domains with independent trust scores."
+  },
+  {
+    "claim_a": "cdm-visibility-prerequisite-zta",
+    "claim_b": "identity-foundational-zta-pillar",
+    "edge_type": "depends_on",
+    "rationale": "Identity-based access decisions depend on CDM providing answers to 'what is connected' and 'who is on the network' before device posture or user identity can be evaluated."
+  },
+  {
+    "claim_a": "cdm-visibility-prerequisite-zta",
+    "claim_b": "icam-non-negotiable-substrate",
+    "edge_type": "depends_on",
+    "rationale": "The ICAM substrate depends on CDM's asset inventory and user identity data to populate the identity stores and credential management systems."
+  },
+  {
+    "claim_a": "federal-programs-building-toward-zt",
+    "claim_b": "zta-complementary-not-replacement",
+    "edge_type": "supports",
+    "rationale": "The decade-long federal investment in FISMA, RMF, FICAM, TIC, and CDM validates that ZTA complements rather than replaces these existing programs."
+  },
+  {
+    "claim_a": "zta-complementary-not-replacement",
+    "claim_b": "tic-3-converging-with-zta",
+    "edge_type": "extends",
+    "rationale": "TIC 3.0's evolution from perimeter-based to distributed enforcement is a concrete instance of ZTA complementing rather than replacing an existing federal program."
+  },
+  {
+    "claim_a": "zta-complementary-not-replacement",
+    "claim_b": "einstein-ncps-evolve-perimeter-model",
+    "edge_type": "extends",
+    "rationale": "EINSTEIN/NCPS evolving its sensor model to ingest cloud telemetry is a concrete instance of ZTA complementing rather than replacing an existing federal program."
+  },
+  {
+    "claim_a": "zta-complementary-not-replacement",
+    "claim_b": "cdm-visibility-prerequisite-zta",
+    "edge_type": "extends",
+    "rationale": "CDM serving as the visibility prerequisite for ZTA is a concrete instance of complementarity \u2014 CDM's mandate stays but its data feeds ZTA policy decisions."
+  },
+  {
+    "claim_a": "ztmm-operationalizes-nist-seven-tenets",
+    "claim_b": "zta-complementary-not-replacement",
+    "edge_type": "supports",
+    "rationale": "ZTMM operationalizing NIST 800-207 tenets into measurable capabilities demonstrates how frameworks complement rather than replace each other."
+  },
+  {
+    "claim_a": "ztmm-eo14028-compliance-instrument",
+    "claim_b": "ztmm-operationalizes-nist-seven-tenets",
+    "edge_type": "supports",
+    "rationale": "The ZTMM's dual role as EO 14028 compliance instrument and operationalization of NIST tenets are complementary functions of the same maturity model."
+  },
+  {
+    "claim_a": "seven-dod-zt-pillars-user-device-applications",
+    "claim_b": "dod-capability-driven-approach-distinction",
+    "edge_type": "depends_on",
+    "rationale": "The DoD's capability-driven approach is organized around the seven-pillar construct, which provides the organizing framework for the exhaustive capability inventory."
+  },
+  {
+    "claim_a": "ztmm-operationalizes-nist-seven-tenets",
+    "claim_b": "dod-capability-driven-approach-distinction",
+    "edge_type": "extends",
+    "rationale": "While CISA's ZTMM operationalizes NIST tenets into maturity levels, the DoD extends this further with an exhaustive capability inventory and concrete enforcement architecture."
+  },
+  {
+    "claim_a": "strategy-explicitly-solution-architecture",
+    "claim_b": "zero-trust-solution-product",
+    "edge_type": "supports",
+    "rationale": "Both emphasize what ZT is not \u2014 the Strategy is not a solution architecture, and ZT is not an IT product \u2014 reinforcing the outcome-over-technology framing."
+  },
+  {
+    "claim_a": "zero-trust-solution-product",
+    "claim_b": "four-strategic-goals-cultural-adoption-systems-secured",
+    "edge_type": "supports",
+    "rationale": "ZT not being a product aligns with Cultural Adoption being the first strategic goal \u2014 transformation requires mindset change, not technology procurement."
+  },
+  {
+    "claim_a": "zero-trust-solution-product",
+    "claim_b": "defense-in-depth-compliance-and-best-of-breed-are-not",
+    "edge_type": "supports",
+    "rationale": "Both reject simplistic security definitions \u2014 ZT is not a product, and defense-in-depth, compliance, and best-of-breed are not genuine strategies."
+  },
+  {
+    "claim_a": "strategy-explicitly-solution-architecture",
+    "claim_b": "dod-capability-driven-approach-distinction",
+    "edge_type": "supports",
+    "rationale": "The Strategy not being a solution architecture aligns with the DoD's capability-driven rather than technology-driven approach to ZT."
+  },
+  {
+    "claim_a": "policy-governance-is-the-badge-and-shield-it",
+    "claim_b": "policy-survives-organizational-change-through-the-policy-governance",
+    "edge_type": "extends",
+    "rationale": "The badge-and-shield function \u2014 authorizing enforcement and defining rules \u2014 is what enables policy to survive mergers, acquisitions, and shadow IT disruptions."
+  },
+  {
+    "claim_a": "policy-governance-is-the-badge-and-shield-it",
+    "claim_b": "the-zero-trust-journey-is-cyclical-not-linear",
+    "edge_type": "depends_on",
+    "rationale": "The cyclical five-capability journey depends on Policy & Governance as the foundational first capability that feeds all others in the feedback loop."
+  },
+  {
+    "claim_a": "policy-survives-organizational-change-through-the-policy-governance",
+    "claim_b": "the-zero-trust-journey-is-cyclical-not-linear",
+    "edge_type": "extends",
+    "rationale": "The need for policy to survive organizational change explains why the ZT journey must be a continuous cyclical feedback loop rather than a linear project."
+  },
+  {
+    "claim_a": "siloed-teams-where-network-security-applications-and-operations",
+    "claim_b": "zero-trust-solution-product",
+    "edge_type": "supports",
+    "rationale": "Siloed teams being the #1 ZT failure mode reinforces that ZT requires cultural transformation, not just technology procurement."
+  },
+  {
+    "claim_a": "four-strategic-goals-cultural-adoption-systems-secured",
+    "claim_b": "siloed-teams-where-network-security-applications-and-operations",
+    "edge_type": "supports",
+    "rationale": "The Cultural Adoption strategic goal directly addresses the siloed teams failure mode by aligning workforce mindset and cross-functional collaboration."
+  },
+  {
+    "claim_a": "the-cisos-measure-of-success-is-not-were",
+    "claim_b": "defense-in-depth-compliance-and-best-of-breed-are-not",
+    "edge_type": "supports",
+    "rationale": "Both challenge conventional security industry metrics \u2014 CISO success is about response quality, not hack prevention, and traditional approaches are not measurable strategies."
+  },
+  {
+    "claim_a": "the-cisos-measure-of-success-is-not-were",
+    "claim_b": "people-are-the-weakest-link-is-a-self-fulfilling",
+    "edge_type": "supports",
+    "rationale": "Both challenge defeatist security narratives \u2014 measuring success by response rather than breach aligns with rejecting the self-fulfilling prophecy that people are the weakest link."
+  },
+  {
+    "claim_a": "cloud-smart-drives-zta-prioritization",
+    "claim_b": "cdm-visibility-prerequisite-zta",
+    "edge_type": "supports",
+    "rationale": "Cloud migration makes ZTA attractive by moving resources outside the perimeter, while CDM visibility makes ZTA possible \u2014 both are complementary drivers of ZTA adoption."
+  },
+  {
+    "claim_a": "cloud-smart-drives-zta-prioritization",
+    "claim_b": "einstein-ncps-evolve-perimeter-model",
+    "edge_type": "supports",
+    "rationale": "Cloud migration creates parallel pressure \u2014 it drives ZTA prioritization for access control and forces EINSTEIN/NCPS to evolve from perimeter-based to cloud-telemetry-based monitoring."
+  },
+  {
+    "claim_a": "cdm-visibility-prerequisite-zta",
+    "claim_b": "privacy-framework-inspect-everything-tension",
+    "edge_type": "depends_on",
+    "rationale": "The privacy tension from ZTA's 'inspect everything' tenet depends on the visibility data that CDM provides \u2014 more visibility creates more privacy risk to manage."
+  },
+  {
+    "claim_a": "the-service-desk-ticket-condition-represents-a-paradigm",
+    "claim_b": "forwarding-and-routing-authorization-extends-policy-enforcement-into",
+    "edge_type": "supports",
+    "rationale": "Both extend policy enforcement into operational layers \u2014 business process compliance via ticket state and network fabric enforcement via routing authorization."
+  },
+  {
+    "claim_a": "policy-governance-is-the-badge-and-shield-it",
+    "claim_b": "the-service-desk-ticket-condition-represents-a-paradigm",
+    "edge_type": "extends",
+    "rationale": "The ticket-condition JIT access model is a concrete mechanism for Policy & Governance acting as the badge and shield \u2014 policy authorizes enforcement based on ticket state."
+  },
+  {
+    "claim_a": "target-level-zt-achieved-end-fy2027-minimum",
+    "claim_b": "ztmm-eo14028-compliance-instrument",
+    "edge_type": "supports",
+    "rationale": "DoD's FY2027 Target Level deadline and CISA's ZTMM as an EO 14028 compliance instrument both represent mandated ZT maturity timelines from federal policy."
+  },
+  {
+    "claim_a": "four-strategic-goals-cultural-adoption-systems-secured",
+    "claim_b": "target-level-zt-achieved-end-fy2027-minimum",
+    "edge_type": "depends_on",
+    "rationale": "Achieving Target Level ZT by end of FY2027 depends on executing all four strategic goals across the full lifecycle from cultural adoption to sustainment."
+  },
+  {
+    "claim_a": "seven-dod-zt-pillars-user-device-applications",
+    "claim_b": "identity-foundational-zta-pillar",
+    "edge_type": "supports",
+    "rationale": "The DoD pillar framework validates identity as foundational by placing User as the first pillar and organizing all capability outcomes around identity-driven access."
+  },
+  {
+    "claim_a": "forwarding-and-routing-authorization-extends-policy-enforcement-into",
+    "claim_b": "tic-3-converging-with-zta",
+    "edge_type": "supports",
+    "rationale": "Both extend enforcement into the network \u2014 TIC 3.0 through distributed PEP security capabilities and forwarding/routing authorization through the network fabric itself."
+  },
+  {
+    "claim_a": "federal-programs-building-toward-zt",
+    "claim_b": "cdm-visibility-prerequisite-zta",
+    "edge_type": "extends",
+    "rationale": "CDM being the visibility prerequisite for ZTA refines the broader claim that foundational federal programs were building toward dynamic, granular access control."
+  },
+  {
+    "claim_a": "federal-programs-building-toward-zt",
+    "claim_b": "tic-3-converging-with-zta",
+    "edge_type": "extends",
+    "rationale": "TIC 3.0's convergence with ZTA refines the broader claim that federal programs were maturing from static perimeter enforcement toward distributed ZT enforcement."
+  },
+  {
+    "claim_a": "federal-programs-building-toward-zt",
+    "claim_b": "einstein-ncps-evolve-perimeter-model",
+    "edge_type": "extends",
+    "rationale": "EINSTEIN/NCPS evolving its sensor model refines the broader claim that federal programs were limited by technology but are now maturing toward ZT compatibility."
+  },
+  {
+    "claim_a": "privacy-framework-inspect-everything-tension",
+    "claim_b": "true-contextual-identity-is-never-just-a-device",
+    "edge_type": "supports",
+    "rationale": "Multi-dimensional contextual profiling creates more data collection about users and devices, which directly validates the privacy tension from 'inspect everything.'"
+  },
+  {
+    "claim_a": "ztmm-operationalizes-nist-seven-tenets",
+    "claim_b": "identity-foundational-zta-pillar",
+    "edge_type": "supports",
+    "rationale": "The ZTMM operationalizing NIST 800-207 tenets reinforces identity as foundational, since identity-based per-session access is one of the seven core tenets."
+  },
+  {
+    "claim_a": "icam-non-negotiable-substrate",
+    "claim_b": "ztmm-operationalizes-nist-seven-tenets",
+    "edge_type": "supports",
+    "rationale": "ICAM as the non-negotiable substrate provides the identity infrastructure that the ZTMM operationalizes into measurable maturity capabilities."
+  }
+]

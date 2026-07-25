@@ -1,0 +1,12 @@
+[
+  {"source": "go-ch6-8.5", "target": "gc-net-access.1", "relationship": "supports"},
+  {"source": "go-ch6-8.5", "target": "gc-net-access.7", "relationship": "supports"},
+  {"source": "gc-net-access.7", "target": "gc-net-access.1", "relationship": "extends"},
+  {"source": "nist207-ch3.8", "target": "nist207-ch3.7", "relationship": "depends_on"},
+  {"source": "nist207-ch3.8", "target": "nist207-ch2.5", "relationship": "depends_on"},
+  {"source": "nist207-ch2.5", "target": "nist207-ch3.7", "relationship": "supports"},
+  {"source": "nist207-ch2.5", "target": "gc-net-access.1", "relationship": "supports"},
+  {"source": "nsa-network.5", "target": "nist207-ch3.7", "relationship": "extends"},
+  {"source": "gc-cloud.3", "target": "nist207-ch3.7", "relationship": "extends"},
+  {"source": "gc-cloud.3", "target": "nsa-network.5", "relationship": "extends"}
+]

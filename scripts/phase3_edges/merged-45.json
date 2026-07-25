@@ -1,0 +1,146 @@
+[
+  {
+    "source": "centralized-device-management-enforcement-backbone",
+    "target": "seven-device-capabilities-interdependent",
+    "type": "supports",
+    "rationale": "UEM/MDM is explicitly described as 'the enforcement backbone for all other capabilities' — it operationalizes the seven-capability framework."
+  },
+  {
+    "source": "device-inventory-deny-by-default",
+    "target": "centralized-device-management-enforcement-backbone",
+    "type": "depends_on",
+    "rationale": "Real-time deny-by-default enrollment requires centralized management to enforce enrollment decisions and maintain the authoritative device registry."
+  },
+  {
+    "source": "continuous-risk-based-device-authorization",
+    "target": "device-inventory-deny-by-default",
+    "type": "depends_on",
+    "rationale": "Risk-based authorization cannot function without knowing what devices exist — inventory is the foundational input."
+  },
+  {
+    "source": "continuous-risk-based-device-authorization",
+    "target": "device-policy-enforcement-compliance-monitoring",
+    "type": "depends_on",
+    "rationale": "Compliance status and policy enforcement data are essential inputs to the risk calculation engine for authorization decisions."
+  },
+  {
+    "source": "device-hygiene-event-condition-automation",
+    "target": "continuous-risk-based-device-authorization",
+    "type": "supports",
+    "rationale": "Event-Condition-Action automation provides the continuous posture-checking mechanism that feeds real-time risk signals into authorization."
+  },
+  {
+    "source": "device-identity-requires-binding-software-credentials-to-hardware",
+    "target": "continuous-risk-based-device-authorization",
+    "type": "supports",
+    "rationale": "Hardware-bound identity (TPM/HSM) provides stronger, tamper-resistant signals for risk calculations than software-only credentials."
+  },
+  {
+    "source": "trust-degrades-over-time-device-age-is-the",
+    "target": "continuous-risk-based-device-authorization",
+    "type": "supports",
+    "rationale": "Trust degradation over time is a specific risk factor that continuous authorization must account for — device age is framed as the strongest negative signal."
+  },
+  {
+    "source": "device-cross-pillar-dependencies",
+    "target": "continuous-risk-based-device-authorization",
+    "type": "supports",
+    "rationale": "Cross-pillar dependencies mean device authorization inherently requires identity and network inputs, reinforcing the need for multi-signal risk assessment."
+  },
+  {
+    "source": "edr-xdr-device-network-bridge",
+    "target": "device-threat-protection-centralized",
+    "type": "supports",
+    "rationale": "The EDR→XDR progression is the specific technical mechanism that enables centralized, unified threat protection across all devices."
+  },
+  {
+    "source": "device-threat-protection-centralized",
+    "target": "device-policy-enforcement-compliance-monitoring",
+    "type": "supports",
+    "rationale": "Evidence states threat protection is 'integrated with policy enforcement and compliance monitoring' — centralized threat data feeds compliance visibility."
+  },
+  {
+    "source": "beyondcorp-proved-that-device-trust-can-replace-network-trust-at",
+    "target": "seven-device-capabilities-interdependent",
+    "type": "supports",
+    "rationale": "BeyondCorp at Google was the large-scale proof that the seven-capability model (inventory, certificates, SSO, access proxy) works in production."
+  },
+  {
+    "source": "device-identity-requires-binding-software-credentials-to-hardware",
+    "target": "beyondcorp-proved-that-device-trust-can-replace-network-trust-at",
+    "type": "supports",
+    "rationale": "BeyondCorp used TPM-stored corporate-issued certificates as the root of trust — a direct implementation of hardware-bound device identity."
+  },
+  {
+    "source": "distributed-enforcement-applying-policies-as-close-to-the",
+    "target": "device-resource-access-context",
+    "type": "supports",
+    "rationale": "Distributed enforcement across four layers (intra-VLAN through host-level) is a concrete implementation of device-aware resource access decisions."
+  },
+  {
+    "source": "device-resource-access-context",
+    "target": "continuous-risk-based-device-authorization",
+    "type": "depends_on",
+    "rationale": "Resource access decisions that consider real-time device risk analytics require a continuous risk-based authorization engine."
+  },
+  {
+    "source": "remote-access-hostile-environment-assumption",
+    "target": "continuous-risk-based-device-authorization",
+    "type": "extends",
+    "rationale": "Heightened scrutiny for hostile remote environments is a specific intensification of continuous risk-based authorization — same flow, stricter thresholds."
+  },
+  {
+    "source": "firmware-level-patch-management",
+    "target": "vulnerability-management-must-extend-beyond-cves-to-include",
+    "type": "extends",
+    "rationale": "Both expand vulnerability management beyond traditional CVE scanning: firmware goes deeper below the OS layer, behavioral baselines go broader across communication patterns."
+  },
+  {
+    "source": "asset-supply-chain-risk-management",
+    "target": "device-inventory-deny-by-default",
+    "type": "extends",
+    "rationale": "Supply chain risk management extends device inventory to include vendor/service provider assets and their associated risks — inventory is the foundation, supply chain adds the vendor dimension."
+  },
+  {
+    "source": "vendor-contracts-and-third-party-risk-management-are-your",
+    "target": "asset-supply-chain-risk-management",
+    "type": "supports",
+    "rationale": "Contract provisions and third-party risk management are the primary operational mechanism for implementing supply chain risk controls."
+  },
+  {
+    "source": "third-party-integrators-and-multi-vendor-responsibility-gaps-create-systemic",
+    "target": "asset-supply-chain-risk-management",
+    "type": "supports",
+    "rationale": "The systemic vulnerability created by integrator gaps is the specific threat that supply chain risk management must address — it provides the problem statement."
+  },
+  {
+    "source": "device-cross-cutting-capabilities-summary",
+    "target": "device-hygiene-event-condition-automation",
+    "type": "supports",
+    "rationale": "Visibility & Analytics and Automation & Orchestration (the cross-cutting capabilities) are the enablers that make ECA automation technically feasible."
+  },
+  {
+    "source": "firmware-level-patch-management",
+    "target": "trust-degrades-over-time-device-age-is-the",
+    "type": "supports",
+    "rationale": "Unpatched firmware below the OS is a key vector by which device trust degrades over time — firmware neglect accelerates trust decay."
+  },
+  {
+    "source": "device-policy-enforcement-compliance-monitoring",
+    "target": "centralized-device-management-enforcement-backbone",
+    "type": "depends_on",
+    "rationale": "Policy enforcement and compliance monitoring require centralized management (UEM/MDM) to push policies, collect compliance data, and remediate across the fleet."
+  },
+  {
+    "source": "zt-can-bring-real-value-to-iot-but",
+    "target": "centralized-device-management-enforcement-backbone",
+    "type": "contradicts",
+    "rationale": "IoT's closed systems, weak authentication, and unpatchable firmware fundamentally prevent the universal centralized management that UEM/MDM assumes."
+  },
+  {
+    "source": "zt-can-bring-real-value-to-iot-but",
+    "target": "firmware-level-patch-management",
+    "type": "contradicts",
+    "rationale": "Unpatchable IoT firmware directly contradicts the requirement that patch management must cover firmware below the OS — these devices are unmanageable by design."
+  }
+]

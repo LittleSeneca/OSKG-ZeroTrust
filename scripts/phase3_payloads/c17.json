@@ -1,0 +1,47 @@
+{
+  "cluster_id": "c17",
+  "cluster_label": "authentication (implementation)",
+  "size": 5,
+  "claims": [
+    {
+      "slug": "agents-are-ephemeral-request-scoped-and-purely-for-authorization",
+      "claim_id": "gb-ch3.2",
+      "statement": "Agents are ephemeral, request-scoped, and purely for authorization \u2014 authentication is a separate precursor",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The chapter draws a sharp line: authentication produces canonical identifiers (X.509 cert for device, MFA outcome for user), which are then used as lookup keys to populate agent fields (device type, user role, trust score). Authentication is session-oriented and cacheable; authorization is request-oriented and should not be cached because agent details \"can change rapidly based on a number of fact"
+    },
+    {
+      "slug": "authentication-authorization-dynamic-continuous",
+      "claim_id": "dod-ra-cap.10",
+      "statement": "Authentication and Authorization (Use Cases 14\u201317) \u2014 authentication must become dynamic and continuous, driven by UEBA-based confidence scoring that triggers real-time access changes (deny, challenge, re-authenticate, downgrade) throughout sessions; authorization is no longer binary (yes/no) but scalar \u2014 a confidence score compared against a threshold that varies by data sensitivity, with the same user potentially authorized for unclassified but denied for classified data in the same session.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "1. User/NPE requests access \u2192 provides attribute data (CAC, certificate, biometric) to identity agent\n2. Throughout the session, **behavior data** is collected at PDPs: time of day, resource/operation requested\n3. Behavior data is logged to SIEM \u2192 feeds **UEBA engine** for analysis\n4. UEBA develops a **confidence score** distributed to policy enforcement points\n5. If confidence drops \u2192 SOAR can de"
+    },
+    {
+      "slug": "encryption-and-authentication-are-separate-concerns-zero-trust",
+      "claim_id": "gb-ch7-8.7",
+      "statement": "Encryption and authentication are separate concerns \u2014 zero trust requires authenticity; encryption comes \"for free\"",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "Architecture diagrams showing encryption only at certain network boundaries (between sites but not within the datacenter) are characterized as a \"direct contradiction of the zero trust architecture\" because they create privileged zones. The authors argue systems that truly do not require confidentiality are rare."
+    },
+    {
+      "slug": "mfa-is-necessary-but-insufficient-attackers-have-at",
+      "claim_id": "finney-ch4-7.5",
+      "statement": "MFA is necessary but insufficient \u2014 attackers have at least three distinct bypass strategies that ZT must address.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "| Bypass Strategy | Specific Techniques |\n|---|---|\n| **Disable/Weaken** | Modify trusted IP configurations; weaken MFA enforcement policies |\n| **Directly Bypass** | SMS intercepts (SIM-jacking); compromise an already-authenticated device; stolen certificates (SolarWinds-style); golden ticket attacks (forged Kerberos tickets) |\n| **Exploit Exceptions** | Target service accounts without MFA; attac"
+    },
+    {
+      "slug": "out-of-band-and-multi-channel-authentication-raise-the-attackers-cost",
+      "claim_id": "gb-ch4-6.12",
+      "statement": "Out-of-band and multi-channel authentication raise the attacker's cost by requiring compromise of independent channels",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Separate communication channels (push notification to mobile device, confirmation call, email notification) verify that the requestor controls something independent of the primary authentication channel. The authors warn: \"be sure to use a different channel than the one you are trying to authenticate/authorize in the first place.\" They explicitly reject SMS as a channel (\"SMS system does not make "
+    }
+  ]
+}

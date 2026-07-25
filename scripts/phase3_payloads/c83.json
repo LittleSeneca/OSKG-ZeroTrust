@@ -1,0 +1,79 @@
+{
+  "cluster_id": "c83",
+  "cluster_label": "trust (architectural)",
+  "size": 9,
+  "claims": [
+    {
+      "slug": "entities-should-be-scored-at-multiple-levels-network",
+      "claim_id": "gb-ch4-6.4",
+      "statement": "Entities should be scored at multiple levels \u2014 network agent, device, and user",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Three scenarios: (1) brute-force attack on user credentials \u2192 score the attacker's network agent, not the user account (avoids denial-of-service via lockout); (2) compromised device \u2192 all network agents on that device should be penalized; (3) malicious human user moving across kiosk devices \u2192 the user's score should follow them. Each scenario demonstrates that scoring only the agent is insufficien"
+    },
+    {
+      "slug": "the-implicit-trust-zone-is-the-key-architectural",
+      "claim_id": "gc-ch1-3.13",
+      "statement": "The implicit trust zone is the key architectural trade-off in ZT deployment.",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The implicit trust zone concept appears in every deployment model. Resource-based has the smallest zone (single resource OS). Enclave-based has a larger zone (all resources in the enclave, which \"can and may communicate with one another outside the visibility and control of the PEP\"). Cloud-routed inherits enclave-based zone properties. Microsegmentation has small zones but for server-to-server tr"
+    },
+    {
+      "slug": "the-trust-engine-is-the-novel-contribution-of",
+      "claim_id": "gb-ch4-6.2",
+      "statement": "The trust engine is the novel contribution of ZT \u2014 using risk scoring to catch unknown attacks",
+      "claim_type": "architectural",
+      "confidence": "medium",
+      "evidence_excerpt": "The trust engine pulls from inventory systems (device, user) and historical data stores. The authors describe two approaches: (a) ad hoc static rules (e.g., \"a device missing latest patches has its score reduced\"), sufficient for early adoption; (b) machine learning on training data derived from activity labeled as trusted/untrusted. They argue mature systems use both \u2014 ML for predictive scoring, "
+    },
+    {
+      "slug": "trust-algorithm-five-input-categories",
+      "claim_id": "nist207-ch3.5",
+      "statement": "The Trust Algorithm is the PE's decision-making process with five input categories",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "Conceptual model (Figure 7) with categorized inputs. NIST notes that input weights may be proprietary or enterprise-configured."
+    },
+    {
+      "slug": "trust-algorithm-two-axes-criteria-contextual",
+      "claim_id": "nist207-ch3.6",
+      "statement": "Trust algorithms vary on two axes \u2014 criteria/score-based and singular/contextual",
+      "claim_type": "architectural",
+      "confidence": "medium",
+      "evidence_excerpt": "**Key examples from NIST:**\n\n- HR employee normally accesses 20\u201330 records/day \u2192 contextual TA alerts at 100+ in a day\n- After-hours access from unrecognized location \u2192 contextual TA triggers additional authentication\n- Accountant accessing financial system at midnight \u2192 contextual TA requires more stringent confidence level\n\n**Cross-reference to CISA:**\n\nCISA's \"Optimal\" maturity level describes "
+    },
+    {
+      "slug": "trust-delegation-via-trust-chains-is-what-makes",
+      "claim_id": "gb-ch2.6",
+      "statement": "Trust delegation via trust chains is what makes ZT scalable",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The auto-scaling example makes the case concretely: when a new server provisions itself, how do you know it's yours and not an attacker's? Because the provisioning system \u2014 which the operator explicitly trusted \u2014 created it and can cryptographically attest to that fact. This pattern of delegated, provable trust chains is the mechanism that allows ZT to operate at scale without human approval for e"
+    },
+    {
+      "slug": "trust-is-the-root-vulnerability-that-zero-trust",
+      "claim_id": "finney-ch1-3.1",
+      "statement": "Trust is the root vulnerability that Zero Trust addresses",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The MarchFit breach unfolds through the fictional ransomware attack by \"3nc0r3.\" The attack exploits exactly the trust assumptions Finney describes \u2014 once the malware is inside the trusted network, it spreads freely. The company's initial defenses (antivirus, perimeter firewall) are bypassed because they were built on the assumption that the internal network was safe. Noor Patel (CIO) notes they \""
+    },
+    {
+      "slug": "trust-score-should-drive-authentication-requirements-not-static",
+      "claim_id": "gb-ch4-6.10",
+      "statement": "Trust score should drive authentication requirements, not static sensitivity labels",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The traditional approach \u2014 designate sensitive actions and authenticate heavily for those \u2014 is \"likened to perimeter security, in which sensitive actions must pass a particular test, after which no further protections are present.\" Instead: if the user's trust score is already high (recent strong auth, normal patterns), don't re-prompt. If it's low (unusual location, new device), prompt for additi"
+    },
+    {
+      "slug": "variable-trust-scores-replace-binary-policy-with-continuous",
+      "claim_id": "gb-ch2.3",
+      "statement": "Variable trust scores replace binary policy with continuous, dynamic authorization",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The credit agency analogy is the central piece of evidence. The argument is that binary policies create perverse incentives \u2014 either the policy is too rigid (creating human toil to continually adjust) or too loose (resulting in weak security). A trust score captures \"a number of conditions without complicating the policy with edge cases\" and allows \"authorization systems to adjust to novel threats"
+    }
+  ]
+}

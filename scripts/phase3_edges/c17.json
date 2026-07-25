@@ -1,0 +1,26 @@
+[
+  {
+    "source": "out-of-band-and-multi-channel-authentication-raise-the-attackers-cost",
+    "target": "mfa-is-necessary-but-insufficient-attackers-have-at",
+    "relationship": "supports",
+    "rationale": "Out-of-band/multi-channel authentication directly addresses the MFA bypass strategies (SMS intercept, compromised devices, stolen certificates) by requiring compromise of independent channels."
+  },
+  {
+    "source": "authentication-authorization-dynamic-continuous",
+    "target": "mfa-is-necessary-but-insufficient-attackers-have-at",
+    "relationship": "extends",
+    "rationale": "Dynamic continuous authentication with UEBA confidence scoring evolves beyond point-in-time MFA — the exact insufficiency Claim 4 identifies — by making auth ongoing rather than a single checkpoint."
+  },
+  {
+    "source": "out-of-band-and-multi-channel-authentication-raise-the-attackers-cost",
+    "target": "authentication-authorization-dynamic-continuous",
+    "relationship": "supports",
+    "rationale": "Multi-channel and out-of-band techniques are building blocks for continuous authentication: independent channel verification feeds into the UEBA confidence scoring model that drives real-time access decisions."
+  },
+  {
+    "source": "encryption-and-authentication-are-separate-concerns-zero-trust",
+    "target": "agents-are-ephemeral-request-scoped-and-purely-for-authorization",
+    "relationship": "extends",
+    "rationale": "Both articulate separation-of-concerns in zero trust: Claim 1 separates authentication from authorization; Claim 3 extends the same architectural principle to separate encryption from authentication."
+  }
+]

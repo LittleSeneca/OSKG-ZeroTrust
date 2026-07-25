@@ -1,0 +1,175 @@
+{
+  "cluster_id": "merged-25",
+  "cluster_label": "identity (implementation)",
+  "size": 21,
+  "claims": [
+    {
+      "slug": "access-management-permanent-to-jit-jea",
+      "claim_id": "cisa-ztmm-id.6",
+      "statement": "Access management operationalizes least privilege through the progression from permanent access \u2192 expiring access \u2192 need-based/session-based \u2192 automated JIT/JEA, with NSA providing the tactical implementation layer (PAM tools, privileged access workstations, ABAC, risk-adaptive policies).",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "| Stage | Capability |\n|-------|-----------|\n| **Traditional** | Permanent access with periodic manual review (privileged and unprivileged). |\n| **Initial** | Access that expires; automated review; includes privileged access requests. |\n| **Advanced** | Need-based and session-based access; tailored to specific actions and resources; includes privileged access. |\n| **Optimal** | Automated just-in-t"
+    },
+    {
+      "slug": "access-mgmt-abac-least-privilege",
+      "claim_id": "nsa-user.4",
+      "statement": "Access management is where least privilege becomes operational \u2014 through ABAC, JIT/JEA, PAM, and privileged access workstations",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The document identifies five core access management capabilities and maps them across maturity phases:\n\n### Core Capabilities\n\n1. **Least Privilege:** \"Implementing least privilege access policies minimizes the damage a malicious actor can cause.\" For highly privileged users: separate devices, credentials, and accounts isolated from high-risk activities (email, web browsing).\n\n2. **Just-in-Time (J"
+    },
+    {
+      "slug": "authentication-keystone-identity-function",
+      "claim_id": "cisa-ztmm-id.3",
+      "statement": "Authentication is the keystone function of the Identity pillar \u2014 the jump from Traditional (passwords) to Advanced/Optimal (phishing-resistant MFA + continuous validation) is the largest single capability gap and the one most directly tied to breach prevention.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "| Stage | Capability |\n|-------|-----------|\n| **Traditional** | Passwords or basic MFA; static, one-time access grant. |\n| **Initial** | MFA required; validates multiple entity attributes (e.g., locale, activity); passwords may still be one factor. |\n| **Advanced** | Phishing-resistant MFA deployed for all identities (FIDO2, PIV); password-less MFA implementation begins. |\n| **Optimal** | Continu"
+    },
+    {
+      "slug": "continuous-authentication-common-all-pillars",
+      "claim_id": "dod-ra-cap.2",
+      "statement": "Continuous authentication and identity validation are common to all pillars \u2014 every access transaction requires it regardless of what pillar the capability falls under \u2014 and three enterprise-scale enablers (federated enterprise identity service, enterprise analytics, enterprise orchestration) are prerequisites, not optional.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "- Continuous authentication and identity validation are common to all pillars \u2014 every access transaction requires it.\n- Capabilities point to multiple pillars \u2014 white arrows in Figure 6 show which aggregated capability acts on which pillar.\n- Enterprise-scale enablers are required: a federated enterprise identity service, enterprise analytics, and enterprise orchestration are prerequisites.\n- Data"
+    },
+    {
+      "slug": "credential-mgmt-phishing-resistance",
+      "claim_id": "nsa-user.3",
+      "statement": "Credential management is defined by phishing resistance \u2014 MFA is the floor, AAL3 is the ceiling",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "**MFA and Authenticator Assurance Levels:**\n\nThe document maps authentication strength to NIST SP 800-63-3's AAL scale:\n- **AAL 1**: Single-factor or weak MFA (not recommended for critical resources).\n- **AAL 2**: Two-factor with cryptographic protection of the authentication secret.\n- **AAL 3**: Hardware-based cryptographic authenticators with phishing resistance. CAC/PIV cards and FIDO2 hardware"
+    },
+    {
+      "slug": "cross-enterprise-federated-identity-peps",
+      "claim_id": "nist207-ch4.5",
+      "statement": "Cross-enterprise collaboration should use federated identity plus resource-specific PEPs \u2014 this scales linearly with partners, while the alternative (bilateral VPNs, shared AD domains, per-partner firewall rules) creates O(n\u00b2) complexity.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "**How ZTA applies:**\n\n- **Federated ID management** \u2014 both organizations enrolled in a federated identity system. Enterprise B subjects authenticate through their own IdP, and Enterprise A's PEP trusts the federated assertion. No separate Enterprise A accounts needed.\n- **No complex firewall rules or ACLs** \u2014 \"there do not need to be complex firewall rules or enterprise-wide access control lists ("
+    },
+    {
+      "slug": "device-data-contextualizes-and-strengthens-user-authentication",
+      "claim_id": "gb-ch4-6.8",
+      "statement": "Device data contextualizes and strengthens user authentication",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Examples: (a) check whether the user is expected on that device type (engineer credentials from HR-issued device \u2192 suspicious); (b) user authentication frequency from a device \u2014 a device not seen in a year suddenly presenting credentials is suspicious; (c) lower trust score for anomalous pairings, allowing degraded access (read wiki but not financial systems). The authors call this \"one of the mor"
+    },
+    {
+      "slug": "identity-federation-hard-problem",
+      "claim_id": "nsa-user.5",
+      "statement": "Identity federation is the hard problem \u2014 maturity amplifies complexity, not reduces it",
+      "claim_type": "implementation",
+      "confidence": "medium",
+      "evidence_excerpt": "Unlike the other three ICAM sub-capabilities, the NSA does not provide detailed maturity phases for federation. Instead, it identifies the persistent challenges:\n\n- Partners have varying ICAM maturity levels and distinct implementations that \"complicate sharing.\"\n- FICAM requirements for federation apply at all maturity levels: confidence in partner identity/credential management, mapping authenti"
+    },
+    {
+      "slug": "identity-is-simultaneously-the-most-important-protect-surface",
+      "claim_id": "finney-ch4-7.4",
+      "statement": "Identity is simultaneously the most important protect surface AND the most important ZT enabler \u2014 it must be both protected and consumed.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The FBI agent reveals that the breach occurred because MarchFit mixed customer and employee identity data in a single domain. When Bob Paulson left the company, his account wasn't terminated because he remained an active customer \u2014 retaining all employee permissions. A phishing email weeks later gave the attacker those permissions. The narrative demonstrates that identity failures cascade: a provi"
+    },
+    {
+      "slug": "identity-is-the-keystone-of-zero-trust-but",
+      "claim_id": "gc-iam-policy.5",
+      "statement": "Identity is the keystone of Zero Trust \u2014 but perfection is not a prerequisite",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "ZT at its heart is an identity-centric approach to security. IAM systems serve as the authoritative source for identity information and context (roles, attributes) used by the PDP. Even organizations with multiple incompatible directories can start ZT \u2014 ZT as an \"overlay system\" can bridge gaps between disparate identity systems. ZT platforms must support standard protocols (LDAP, SAML) for authen"
+    },
+    {
+      "slug": "identity-mgmt-attribute-authority",
+      "claim_id": "nsa-user.2",
+      "statement": "Identity management maturity is about attribute authority, not just identity inventory",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The four-phase maturity progression for Identity Management:\n\n| Phase | Capability | Key Shift |\n|-------|-----------|-----------|\n| **Preparation** | Enterprise repositories for person-entities only; NPEs managed ad-hoc locally; in-person vetting per NIST FIPS 201. | *Get everyone registered.* |\n| **Basic** | Enterprise attribute standards defined; all local attributes documented; attribute claim"
+    },
+    {
+      "slug": "identity-must-be-contextual-who-what-device-where",
+      "claim_id": "go-intro.5",
+      "statement": "Identity must be contextual \u2014 WHO, WHAT device, WHERE, HOW, and WHEN all matter",
+      "claim_type": "implementation",
+      "confidence": "medium",
+      "evidence_excerpt": "Detailed treatment of AAA (Authentication, Authorization, Accounting), certificate authorities (EAP-TLS, chain of trust), NAC (integration with all pillars), provisioning (Device, User, People, Infrastructure, Services), privileged access (least privilege, audit requirements), MFA (knowledge + possession + biometric + challenge factors), asset identity (MAC OUI, passive profiling, CMDB), and IP sc"
+    },
+    {
+      "slug": "identity-stores-integrated-not-just-federated",
+      "claim_id": "cisa-ztmm-id.4",
+      "statement": "Identity stores must be integrated across environments, not just federated \u2014 the maturity progression from siloed on-premises to securely integrated across all partners and environments is a significant architectural undertaking, not achievable through SSO alone.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "| Stage | Capability |\n|-------|-----------|\n| **Traditional** | Self-managed, on-premises identity stores only. |\n| **Initial** | Mix of self-managed and hosted (cloud/other agency) identity stores; minimal integration (e.g., basic SSO). |\n| **Advanced** | Secure consolidation and integration of some self-managed and hosted identity stores. |\n| **Optimal** | Identity stores securely integrated ac"
+    },
+    {
+      "slug": "pam-provides-valuable-functions-secrets-management-session-recording",
+      "claim_id": "gc-net-access.8",
+      "statement": "PAM provides valuable functions (secrets management, session recording) that persist under ZT, but password vaulting is premised on the non-ZT model of a too-open network \u2014 and PAM is identity-aware rather than identity-centric.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Three core PAM functions: (1) password vaulting \u2014 secure storage and lifecycle management of privileged credentials, evolved from \"checking out\" passwords to automated ephemeral credential rotation; (2) secrets management \u2014 expanded beyond passwords to certificates, API keys, SSH keys, connection strings; (3) Privileged Session Management \u2014 intercepts/proxies admin access (RDP, SSH) for monitoring"
+    },
+    {
+      "slug": "private-pki-is-the-non-negotiable-bedrock-of-zt",
+      "claim_id": "gb-ch2.2",
+      "statement": "Private PKI is the non-negotiable bedrock of ZT identity",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The authors enumerate the entities authenticated by PKI (devices, users, applications) and argue that the sheer number of certificates demands automation \u2014 \"if humans are required in order to process certificate signing requests, the procedure will be applied sparingly, weakening the overall system.\" The private-vs-public analysis is practical: public PKI is \"strictly better than none\" but a stepp"
+    },
+    {
+      "slug": "risk-assessment-static-to-continuous",
+      "claim_id": "cisa-ztmm-id.5",
+      "statement": "Risk assessment evolves from a static, periodic checkbox activity to a real-time, continuous feed into every access decision \u2014 a structural shift that CISA treats as a first-class function with its own maturity track, whereas NSA treats it as a property of the access management system.",
+      "claim_type": "implementation",
+      "confidence": "medium",
+      "evidence_excerpt": "| Stage | Capability |\n|-------|-----------|\n| **Traditional** | Limited determinations for identity risk. |\n| **Initial** | Manual methods and static rules for risk determination; supports basic visibility. |\n| **Advanced** | Some automated analysis; dynamic rules inform access decisions and response activities. |\n| **Optimal** | Real-time identity risk determination based on continuous analysis "
+    },
+    {
+      "slug": "the-future-of-zt-saas-is-identity-providers",
+      "claim_id": "gc-cloud.6",
+      "statement": "The future of ZT + SaaS is identity providers as authorization centers, not just authentication points",
+      "claim_type": "implementation",
+      "confidence": "medium",
+      "evidence_excerpt": "The authors acknowledge this is forward-looking. Current IdP access portals provide only authentication + launchpad, not authorization. SCIM is the first step toward JIT provisioning. XACML failed to achieve adoption because \"applications will never fully externalize their authorization.\" The opportunity is narrower: a commonly accepted way to communicate *trusted identity context* (authentication"
+    },
+    {
+      "slug": "the-strongest-user-authentication-binds-identity-to-hardware",
+      "claim_id": "gb-ch4-6.11",
+      "statement": "The strongest user authentication binds identity to hardware tokens with additional factors",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The chapter surveys the authentication landscape systematically:\n\n| Method | Category | Strength | Weakness |\n|--------|----------|----------|----------|\n| Passwords | Something you know | Effective when long + unique + not reused | Users choose poor passwords; reuse across services |\n| TOTP | Something you have | Good second factor | Shared secret must be protected; SMS is explicitly not recommen"
+    },
+    {
+      "slug": "trust-assessment-is-multi-layered-identity-posture-and-behavior",
+      "claim_id": "go-ch3-5.3",
+      "statement": "Trust assessment is multi-layered \u2014 identity, posture, and behavior combine to produce an enforcement decision",
+      "claim_type": "implementation",
+      "confidence": "medium",
+      "evidence_excerpt": "Ch5's segmentation policy development procedure reveals the trust data pipeline:\n1. **NAC consumes identity data** from flow logs to attribute communications to specific identities.\n2. **DNS lookup** resolves external entities to names, adding context.\n3. **IPAM/asset management** fills gaps for devices without dynamic identity (static addresses, legacy devices).\n4. **Database of known endpoints**"
+    },
+    {
+      "slug": "cisa-four-maturity-stages",
+      "claim_id": "cisa-ztmm-id.2",
+      "statement": "CISA defines four maturity stages \u2014 Traditional (manual, static, perimeter-based), Initial (automation begins, some cloud integration, MFA required), Advanced (phishing-resistant MFA, dynamic risk assessments, session-based access), and Optimal (fully automated, continuous validation, JIT/JEA, behavior-based analytics) \u2014 that apply across all pillars.",
+      "claim_type": "maturity",
+      "confidence": "high",
+      "evidence_excerpt": "| Stage | Core Characteristic |\n|-------|-------------------|\n| **Traditional** | Manual processes, static policies, perimeter-based trust, legacy infrastructure. Passwords or basic MFA only. |\n| **Initial** | Automation begins. Attribute-based policies, some cloud identity integration, MFA required but not necessarily phishing-resistant. |\n| **Advanced** | Phishing-resistant MFA deployed; identit"
+    },
+    {
+      "slug": "identity-theft-is-the-first-and-most-dangerous",
+      "claim_id": "gb-ch10.1",
+      "statement": "Identity theft is the first and most dangerous threat \u2014 ZT requires stealing *two* identities",
+      "claim_type": "threat",
+      "confidence": "high",
+      "evidence_excerpt": "The argument is structural, not empirical. ZT's dual authentication requirement (device + user) means credential theft alone is insufficient \u2014 the attacker also needs a trusted device identity. Trust engine behavioral analysis provides additional mitigation. The authors are careful to note that identity theft is an \"industry-wide concern and is not specific to zero trust\" but that ZT \"naturally mi"
+    }
+  ]
+}

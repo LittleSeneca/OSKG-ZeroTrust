@@ -1,0 +1,230 @@
+[
+  {
+    "claim_a": "zta-expansion-iterative-cycle-step7",
+    "claim_b": "zta-migration-incremental-recurring-cycle",
+    "edge_type": "extends",
+    "rationale": "Step 7 is the specific mechanism that operationalizes the recurring cycle, making it concrete: iterate per business process and react to workflow changes."
+  },
+  {
+    "claim_a": "analytics-closes-the-loop-the-zt-journey-is",
+    "claim_b": "zta-migration-incremental-recurring-cycle",
+    "edge_type": "extends",
+    "rationale": "Analytics provides the feedback data (telemetry, baselines, deviation alerts) that turns the cycle from a linear sequence into a genuinely closed loop."
+  },
+  {
+    "claim_a": "analytics-closes-the-loop-the-zt-journey-is",
+    "claim_b": "zta-expansion-iterative-cycle-step7",
+    "edge_type": "supports",
+    "rationale": "Analytics supplies the monitoring and behavioral-baseline data that enables the lower-tempo policy refinement called for in Step 7."
+  },
+  {
+    "claim_a": "hybrid-model-indefinite-reality",
+    "claim_b": "zta-migration-incremental-recurring-cycle",
+    "edge_type": "extends",
+    "rationale": "The hybrid model is the reason the cycle is indefinite \u2014 you never finish because ZT and perimeter workflows coexist permanently."
+  },
+  {
+    "claim_a": "dual-mode-infrastructure-indefinite-hybrid",
+    "claim_b": "hybrid-model-indefinite-reality",
+    "edge_type": "extends",
+    "rationale": "Dual-mode infrastructure (ID mgmt, device mgmt, logging) is the concrete set of requirements that the indefinite hybrid imposes on common systems."
+  },
+  {
+    "claim_a": "dual-mode-infrastructure-indefinite-hybrid",
+    "claim_b": "hybrid-model-indefinite-reality",
+    "edge_type": "depends_on",
+    "rationale": "Dual-mode requirements only exist because the hybrid model is indefinite \u2014 without indefinite coexistence, infrastructure wouldn't need to serve both modes."
+  },
+  {
+    "claim_a": "greenfield-zta-rarely-viable",
+    "claim_b": "hybrid-model-indefinite-reality",
+    "edge_type": "supports",
+    "rationale": "Since pure greenfield is rarely viable, the hybrid model is not a temporary concession but the expected and necessary migration path."
+  },
+  {
+    "claim_a": "zt-evolution-existing-capabilities-incremental",
+    "claim_b": "greenfield-zta-rarely-viable",
+    "edge_type": "supports",
+    "rationale": "Both claims converge on the same strategic conclusion: organizations should not expect or pursue greenfield, instead evolving what they already have."
+  },
+  {
+    "claim_a": "legacy-implicit-trust-primary-obstacle",
+    "claim_b": "greenfield-zta-rarely-viable",
+    "edge_type": "supports",
+    "rationale": "The prevalence of legacy implicit-trust systems is the structural reason greenfield is rarely viable for existing organizations."
+  },
+  {
+    "claim_a": "brownfield-environments-require-34-the-timeline-of-greenfield",
+    "claim_b": "the-biggest-mistake-in-zt-implementation-is-rushing",
+    "edge_type": "supports",
+    "rationale": "Brownfield's 3\u20134\u00d7 timeline (due to recursive device re-profiling) provides the quantitative justification for not rushing past monitor mode."
+  },
+  {
+    "claim_a": "brownfield-environments-require-34-the-timeline-of-greenfield",
+    "claim_b": "greenfield-zta-rarely-viable",
+    "edge_type": "supports",
+    "rationale": "The steep brownfield cost reinforces why greenfield would be preferable, but since greenfield is rarely viable, brownfield reality must be planned for."
+  },
+  {
+    "claim_a": "foundational-inventory-before-migration",
+    "claim_b": "incomplete-knowledge-chicken-egg-barrier",
+    "edge_type": "supports",
+    "rationale": "The foundational inventory prerequisite is presented as the solution to the chicken-and-egg barrier \u2014 you must build inventories despite not yet having migrated."
+  },
+  {
+    "claim_a": "identify-all-subjects-step1-migration",
+    "claim_b": "foundational-inventory-before-migration",
+    "edge_type": "extends",
+    "rationale": "Step 1 (identify all subjects) operationalizes the actor-inventory portion of the foundational prerequisite."
+  },
+  {
+    "claim_a": "identify-catalog-assets-step2-migration",
+    "claim_b": "foundational-inventory-before-migration",
+    "edge_type": "extends",
+    "rationale": "Step 2 (catalog all assets) operationalizes the asset-inventory portion of the foundational prerequisite."
+  },
+  {
+    "claim_a": "identify-catalog-assets-step2-migration",
+    "claim_b": "identify-all-subjects-step1-migration",
+    "edge_type": "depends_on",
+    "rationale": "Step 2 follows Step 1 in the NIST 7-step cycle \u2014 asset cataloging builds on the subject identification that precedes it."
+  },
+  {
+    "claim_a": "business-process-selection-step3-migration",
+    "claim_b": "identify-catalog-assets-step2-migration",
+    "edge_type": "depends_on",
+    "rationale": "You cannot select which business process to migrate first (Step 3) until you have catalogued the assets and subjects involved (Steps 1\u20132)."
+  },
+  {
+    "claim_a": "policy-formulation-step4-migration",
+    "claim_b": "business-process-selection-step3-migration",
+    "edge_type": "depends_on",
+    "rationale": "Policy formulation (Step 4) requires a specific candidate business process to be selected first (Step 3) so that asset value, risk, and upstream/downstream resources can be evaluated."
+  },
+  {
+    "claim_a": "candidate-solution-selection-step5-migration",
+    "claim_b": "policy-formulation-step4-migration",
+    "edge_type": "depends_on",
+    "rationale": "Choosing a ZT solution (Step 5) depends on the access criteria and trust-evaluation approach (criteria-based vs. score-based) decided during policy formulation (Step 4)."
+  },
+  {
+    "claim_a": "reporting-only-mode-step6-migration",
+    "claim_b": "candidate-solution-selection-step5-migration",
+    "edge_type": "depends_on",
+    "rationale": "You cannot deploy in reporting-only mode (Step 6) until a candidate solution has been selected (Step 5)."
+  },
+  {
+    "claim_a": "reporting-only-mode-step6-migration",
+    "claim_b": "log-then-enforce-is-the-migration-procedure-validated-by-two",
+    "edge_type": "extends",
+    "rationale": "Reporting-only mode is the NIST 7-step framing of the log phase in the log-then-enforce pattern independently validated by Google and PagerDuty."
+  },
+  {
+    "claim_a": "the-biggest-mistake-in-zt-implementation-is-rushing",
+    "claim_b": "reporting-only-mode-step6-migration",
+    "edge_type": "extends",
+    "rationale": "Rushing past monitor mode is the specific mistake that undermines the reporting-only deployment step, skipping the essential data-collection baseline."
+  },
+  {
+    "claim_a": "log-then-enforce-is-the-migration-procedure-validated-by-two",
+    "claim_b": "the-biggest-mistake-in-zt-implementation-is-rushing",
+    "edge_type": "supports",
+    "rationale": "The log-then-enforce pattern, validated by two independent case studies, provides the empirical evidence for why rushing past monitor mode is the biggest mistake."
+  },
+  {
+    "claim_a": "legacy-implicit-trust-primary-obstacle",
+    "claim_b": "zero-trust-proxies-are-the-bridge-between-zt",
+    "edge_type": "supports",
+    "rationale": "Legacy implicit-trust systems create the interoperability gap that ZT proxies (forward and reverse) are designed to bridge."
+  },
+  {
+    "claim_a": "zero-trust-proxies-are-the-bridge-between-zt",
+    "claim_b": "dual-mode-infrastructure-indefinite-hybrid",
+    "edge_type": "extends",
+    "rationale": "ZT proxies are one concrete mechanism that enables dual-mode infrastructure, allowing non-ZT-aware legacy components to coexist with ZT services during the indefinite hybrid period."
+  },
+  {
+    "claim_a": "zt-organizational-commitment",
+    "claim_b": "common-roadblocks-iam-immaturity-political-resistance-regulatory-constraints",
+    "edge_type": "supports",
+    "rationale": "The NSA's identification of organizational commitment as the primary challenge explains why roadblocks like political resistance and IAM immaturity persist and are surmountable only with buy-in."
+  },
+  {
+    "claim_a": "zt-success-requires-deliberately-blending-top-down-strategic-vision",
+    "claim_b": "zt-organizational-commitment",
+    "edge_type": "extends",
+    "rationale": "Blending top-down strategic vision with bottom-up tactical execution is the practical method for building the enterprise-wide organizational commitment that the NSA identifies as critical."
+  },
+  {
+    "claim_a": "zt-success-requires-deliberately-blending-top-down-strategic-vision",
+    "claim_b": "phased-zt-adoption-vpn-replacement-role-based-access-branch",
+    "edge_type": "supports",
+    "rationale": "The 3-phase VPN\u2192RBAC\u2192branch-removal case study exemplifies blended execution: top-down vision (ZT architecture) paired with bottom-up tactical steps (VPN replacement for 1,000 users)."
+  },
+  {
+    "claim_a": "common-roadblocks-iam-immaturity-political-resistance-regulatory-constraints",
+    "claim_b": "incomplete-knowledge-chicken-egg-barrier",
+    "edge_type": "extends",
+    "rationale": "Incomplete enterprise knowledge is one of the documented, predictable roadblocks \u2014 specifically the resource-visibility-gap and analysis-paralysis categories."
+  },
+  {
+    "claim_a": "phased-zt-adoption-vpn-replacement-role-based-access-branch",
+    "claim_b": "zta-migration-incremental-recurring-cycle",
+    "edge_type": "extends",
+    "rationale": "The 3-phase adoption path (VPN replacement \u2192 RBAC \u2192 branch removal) is a concrete, real-world case study that instantiates the incremental recurring cycle."
+  },
+  {
+    "claim_a": "phased-zt-adoption-vpn-replacement-role-based-access-branch",
+    "claim_b": "business-process-selection-step3-migration",
+    "edge_type": "supports",
+    "rationale": "Starting with VPN replacement for 1,000 users is a low-risk cloud/remote-worker workflow \u2014 exactly the starting point NIST's Step 3 recommends."
+  },
+  {
+    "claim_a": "configuration-management-is-a-legitimate-stepping-stone-to",
+    "claim_b": "zt-evolution-existing-capabilities-incremental",
+    "edge_type": "extends",
+    "rationale": "Using existing Chef deployment to generate per-host iptables microsegmentation is a concrete example of ZT as an evolution of existing capabilities, not a greenfield rip-and-replace."
+  },
+  {
+    "claim_a": "the-five-pillar-methodology-for-segmentation-operationalizes-zt-by",
+    "claim_b": "policy-formulation-step4-migration",
+    "edge_type": "extends",
+    "rationale": "The five-pillar segmentation methodology (VLAN\u2192Firewall\u2192dACLs\u2192TrustSec) operationalizes the policy-formulation step by providing a concrete enforcement hierarchy for identity-driven access decisions."
+  },
+  {
+    "claim_a": "the-five-pillar-methodology-for-segmentation-operationalizes-zt-by",
+    "claim_b": "configuration-management-is-a-legitimate-stepping-stone-to",
+    "edge_type": "supports",
+    "rationale": "Both advocate iterative refinement starting from existing infrastructure \u2014 segmentation starts with 5\u20137 broad enclaves, just as config management leverages already-deployed tools."
+  },
+  {
+    "claim_a": "client-to-server-and-server-to-server-migrations-are-different-problems-with",
+    "claim_b": "business-process-selection-step3-migration",
+    "edge_type": "extends",
+    "rationale": "The C2S/S2S distinction refines Step 3 by clarifying that the 'low-risk' starting-point recommendation favors client-to-server for most organizations, while server-to-server requires DevOps maturity."
+  },
+  {
+    "claim_a": "client-to-server-and-server-to-server-migrations-are-different-problems-with",
+    "claim_b": "candidate-solution-selection-step5-migration",
+    "edge_type": "supports",
+    "rationale": "Different migration starting points imply different solution criteria \u2014 a C2S migration evaluates client footprint and BYOD, while S2S migration prioritizes east-west traffic patterns."
+  },
+  {
+    "claim_a": "analytics-closes-the-loop-the-zt-journey-is",
+    "claim_b": "reporting-only-mode-step6-migration",
+    "edge_type": "supports",
+    "rationale": "The monitoring data collected during reporting-only mode (traffic patterns, access baselines, behavioral norms) is the raw material that analytics consumes to close the loop."
+  },
+  {
+    "claim_a": "business-process-selection-step3-migration",
+    "claim_b": "hybrid-model-indefinite-reality",
+    "edge_type": "supports",
+    "rationale": "Migrating one business process at a time (Step 3) is the mechanism that makes indefinite ZT/perimeter coexistence operationally feasible."
+  },
+  {
+    "claim_a": "zta-expansion-iterative-cycle-step7",
+    "claim_b": "policy-formulation-step4-migration",
+    "edge_type": "depends_on",
+    "rationale": "Expanding ZTA to additional business processes (Step 7) requires policy to be formulated for each new candidate, making Step 4 a recurring dependency of Step 7."
+  }
+]

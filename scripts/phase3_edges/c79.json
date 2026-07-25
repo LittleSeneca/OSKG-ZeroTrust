@@ -1,0 +1,62 @@
+[
+  {
+    "source": "gc-ch1-3.14",
+    "target": "gc-iam-policy.9",
+    "relationship": "supports",
+    "rationale": "Both articulate the same Subject-Action-Target-Condition model; Claim gc-ch1-3.14 reinforces gc-iam-policy.9 with a concrete Billing department example, confirming the model as a universal template."
+  },
+  {
+    "source": "gc-iam-policy.10",
+    "target": "gc-iam-policy.9",
+    "relationship": "extends",
+    "rationale": "Tag-based targets are a dynamic, business-aligned implementation of the Target component in the four-component model, binding security enforcement to DevOps metadata rather than static identifiers."
+  },
+  {
+    "source": "gc-iam-policy.10",
+    "target": "gb-ch4-6.3",
+    "relationship": "extends",
+    "rationale": "Tags (department=Marketing, stage=test) are a concrete form of logical components — they replace network addressing with business/DevOps metadata that follows workloads automatically."
+  },
+  {
+    "source": "gb-ch4-6.3",
+    "target": "gc-iam-policy.9",
+    "relationship": "extends",
+    "rationale": "Specifying that policy components must be logical (not IP-addressed) extends the abstract four-component model with a critical implementation constraint: Subjects and Targets should be logical identities, not network artifacts."
+  },
+  {
+    "source": "gb-ch4-6.3",
+    "target": "finney-ch1-3.8",
+    "relationship": "supports",
+    "rationale": "Both reject network-centric policy; gb-ch4-6.3 provides the logical-components principle that finney-ch1-3.8's Kipling Method (Who instead of IP) operationalizes with business-context role groups."
+  },
+  {
+    "source": "go-ch6-8.9",
+    "target": "gc-iam-policy.9",
+    "relationship": "extends",
+    "rationale": "The policy decision matrix is a concrete planning artifact that operationalizes the abstract four-component model into per-cell source→destination decisions with permit/deny, port/protocol, and directionality."
+  },
+  {
+    "source": "go-ch3-5.4",
+    "target": "go-ch6-8.8",
+    "relationship": "supports",
+    "rationale": "Discovery-before-enforcement and log-before-block are the bottom-up data collection practices that validate and inform the top-down business-aligned design, making the complementary approach actionable."
+  },
+  {
+    "source": "go-ch3-5.4",
+    "target": "dod-ra-cap.7",
+    "relationship": "supports",
+    "rationale": "Discovery-before-enforcement provides the traffic/identity data that feeds the dynamic adaptive policy feedback loop, enabling ZT policy to improve over time rather than remaining static."
+  },
+  {
+    "source": "dod-ra-cap.7",
+    "target": "go-ch6-8.9",
+    "relationship": "extends",
+    "rationale": "The four-layer orchestration hierarchy (Global SDE → CDO → Policy Controller → PEPs) distributes and enforces the policy decision matrix across enforcement points, resolving siloed conflicts."
+  },
+  {
+    "source": "dod-ra-cap.7",
+    "target": "go-ch6-8.8",
+    "relationship": "extends",
+    "rationale": "Centralized orchestration through a four-layer hierarchy operationalizes the complementary top-down/bottom-up approach — the hierarchy resolves the siloed conflicts that the complementary design addresses."
+  }
+]

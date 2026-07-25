@@ -1,0 +1,231 @@
+{
+  "cluster_id": "merged-54",
+  "cluster_label": "governance+identity (governance)",
+  "size": 28,
+  "claims": [
+    {
+      "slug": "federal-programs-building-toward-zt",
+      "claim_id": "nist207-ch1.7",
+      "statement": "Federal agencies have been building toward ZT for over a decade through foundational programs (FISMA, RMF, FICAM, TIC, CDM) that were initially limited by technology but are now maturing toward dynamic, granular access control.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "- Enumeration of existing federal security programs (FISMA, RMF, FICAM, TIC, CDM) \u2014 their existence is publicly verifiable.\n- Characterization of these programs as \"building capabilities and policies\" toward ZT \u2014 this is NIST's interpretive framing.\n- The technology-limitation argument: earlier programs were \"static\" and enforced at \"choke points\" \u2014 this is asserted without historical evidence.\n- "
+    },
+    {
+      "slug": "four-strategic-goals-cultural-adoption-systems-secured",
+      "claim_id": "dod-strategy.4",
+      "statement": "The four strategic goals (Cultural Adoption, Systems Secured/Defended, Technology Acceleration, Zero Trust Enablement) address the full lifecycle of ZT transformation from mindset to sustainment.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "| Goal | Focus | Key Deadline |\n|------|-------|-------------|\n| **1: ZT Cultural Adoption** | Mindset, training, workforce development, outreach | FY2023\u2013FY2025 |\n| **2: DoD Information Systems Secured & Defended** | All seven pillar capabilities; Component execution plans | Execution plans by Sep 2023; Target Level by end FY2027 |\n| **3: Technology Acceleration** | Deploy at pace equal/exceeding"
+    },
+    {
+      "slug": "seven-dod-zt-pillars-user-device-applications",
+      "claim_id": "dod-strategy.2",
+      "statement": "The seven DoD ZT Pillars (User, Device, Applications/Workloads, Data, Network/Environment, Automation/Orchestration, Visibility/Analytics) provide the organizing construct for all ZT capabilities, with Data at the center.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "Each pillar has specific capability outcomes that Components must achieve. The pillars are directly inherited from the DoD ZT Reference Architecture v2.0 and map to the CISA ZT Maturity Model's five pillars plus cross-cutting enablers (Visibility & Analytics, Automation & Orchestration). The Strategy also identifies execution enablers \u2014 cross-cutting, non-technical capabilities addressing culture,"
+    },
+    {
+      "slug": "strategy-explicitly-solution-architecture",
+      "claim_id": "dod-strategy.5",
+      "statement": "The Strategy is explicitly NOT a solution architecture \u2014 Components retain freedom to choose technologies as long as they deliver specified capability outcomes.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "The Strategy is explicitly differentiated from the DoD ZT Reference Architecture v2.0 and the DoD Cybersecurity Reference Architecture v4.2. The Capability Roadmap defines outcomes, not technologies. Components must show proof of capability achievement to their Authorizing Official and/or the ZT PfMO."
+    },
+    {
+      "slug": "target-level-zt-achieved-end-fy2027-minimum",
+      "claim_id": "dod-strategy.3",
+      "statement": "Target Level ZT must be achieved by end of FY2027 as the minimum security baseline; Advanced ZT represents the next-generation adaptive security state.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "The Strategy defines two maturity tiers: Target Level (the mandatory minimum, achieved by FY2027) and Advanced ZT (adaptive responses, continuous refinement). Appendices A\u2013C map capabilities and activities to pillars by fiscal year. The Strategy acknowledges that \"reaching an 'advanced' state does not mean an end to maturing ZT; instead, protection of attack surfaces will continue to adapt and ref"
+    },
+    {
+      "slug": "zero-trust-solution-product",
+      "claim_id": "dod-strategy.1",
+      "statement": "Zero Trust is not an IT solution or product \u2014 it requires cultural transformation across the entire Department, not just the cybersecurity workforce.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "The Strategy structures itself around DOTmLPF-P \u2014 the full scope of military organizational change \u2014 not just technical capabilities. The first of four strategic goals is \"Zero Trust Cultural Adoption,\" prioritized alongside technical goals. The Foreword explicitly states: \"'never trust, always verify' mindset requires us to take responsibility for the security of our devices, applications, assets"
+    },
+    {
+      "slug": "the-service-desk-ticket-condition-represents-a-paradigm",
+      "claim_id": "gc-iam-policy.11",
+      "statement": "The service desk ticket condition represents a paradigm shift \u2014 ZT can make business process compliance a runtime network enforcement, not an audit afterthought",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "The sysadmin access policy (Table 17-3) uses a condition that requires \"a service desk ticket in an 'open' state, and which specifies the hostname or IP address being accessed.\" Once the ticket is closed, admin access is revoked. This is a Just-In-Time (JIT) access model enforced at the network layer."
+    },
+    {
+      "slug": "cloud-smart-drives-zta-prioritization",
+      "claim_id": "nist207-ch6.9",
+      "statement": "Cloud Smart and the Federal Data Strategy drive ZTA prioritization \u2014 cloud-hosted and remote-accessed resources are the best ZTA candidates because they already operate outside the perimeter model, making cloud migration and ZTA adoption mutually reinforcing.",
+      "claim_type": "governance",
+      "confidence": "medium",
+      "evidence_excerpt": "- **Best ZTA candidates:** cloud-based applications/services and resources primarily accessed by remote workers \u2014 because subjects and resources both sit outside the traditional network perimeter.\n- The **Federal Data Strategy** adds a cross-agency dimension: agencies must make data assets accessible to other agencies or the public, mapping to the ZTA \"cross-enterprise collaboration\" use case (Sec"
+    },
+    {
+      "slug": "cdm-visibility-prerequisite-zta",
+      "claim_id": "nist207-ch6.8",
+      "statement": "CDM is the visibility prerequisite for ZTA \u2014 without CDM's four foundational questions answered (what is connected, who is on the network, what is happening, how is data protected), ZTA cannot evaluate device posture or make informed access decisions.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "| CDM Question | ZTA Dependency |\n|---|---|\n| **What is connected?** (devices, apps, services) | PEP needs complete asset inventory to evaluate device posture |\n| **Who is on the network?** (users, NPEs) | Policy Engine needs subject identity and role attributes |\n| **What is happening?** (traffic patterns, messages) | Continuous monitoring and anomaly detection feed dynamic policy |\n| **How is da"
+    },
+    {
+      "slug": "the-zero-trust-journey-is-cyclical-not-linear",
+      "claim_id": "go-ch9-11.6",
+      "statement": "The Zero Trust journey is cyclical, not linear \u2014 five capabilities (Policy & Governance, Identity, Vulnerability Management, Enforcement, Analytics) form a continuous feedback loop with no final destination.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "The five capabilities: (1) Policy & Governance \u2014 executive buy-in codified into policy, the foundation; (2) Identity \u2014 authentication + authorization based on contextual identity, \"the long pole in the tent\"; (3) Vulnerability Management \u2014 behavioral baseline vs. expected behavior; (4) Enforcement \u2014 layered, distributed, applied at correct network location; (5) Analytics \u2014 feeds all other capabili"
+    },
+    {
+      "slug": "policy-survives-organizational-change-through-the-policy-governance",
+      "claim_id": "go-ch3-5.5",
+      "statement": "Policy survives organizational change through the Policy & Governance pillar \u2014 but mergers, acquisitions, and shadow IT constantly challenge it",
+      "claim_type": "governance",
+      "confidence": "medium",
+      "evidence_excerpt": "- **Mergers:** Organizational debt increases, technical debt accrues, skill gaps appear. The acquiring organization \"has the responsibility, by utilizing the analysis tools and capabilities found within the respective pillar, to evaluate how organizational debt will be affected by the merger.\" Feedback from all pillars is critical. Due diligence questions include: \"Does the organization have well-"
+    },
+    {
+      "slug": "siloed-teams-where-network-security-applications-and-operations",
+      "claim_id": "go-ch9-11.5",
+      "statement": "Siloed teams \u2014 where network, security, applications, and operations report to different executives with conflicting success metrics \u2014 are the #1 operational failure mode for ZT.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "The SBC case study's first blocker was organizational: Network (CTO org) and Network Security (CIO org) had conflicting success metrics (uptime vs. threat response). The solution was moving Network Security under CTO alongside Network Admin and Network Ops, with a separate Corporate Security team (audit, pentest, IR, policy) reporting to CIO as an independent advisory body. The authors recommend g"
+    },
+    {
+      "slug": "zta-complementary-not-replacement",
+      "claim_id": "nist207-ch6.1",
+      "statement": "ZTA is complementary to existing federal frameworks, not a replacement \u2014 it changes the locus of enforcement (from perimeter to resource) and the granularity of policy (from network-segment to per-session), but every existing program remains in force.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "The chapter systematically maps seven programs (RMF, Privacy Framework, ICAM, TIC 3.0, EINSTEIN/NCPS, CDM, Cloud Smart) and shows how each adapts to ZTA rather than being replaced by it. The pattern is consistent across all seven: the program's mandate stays the same; ZTA changes where and how enforcement occurs."
+    },
+    {
+      "slug": "einstein-ncps-evolve-perimeter-model",
+      "claim_id": "nist207-ch6.7",
+      "statement": "EINSTEIN/NCPS must evolve its perimeter-situational-awareness model to ingest cloud-based telemetry and ZTA-generated data \u2014 ZTA improves detection data quality but requires NCPS to adapt its sensor model from perimeter-based to resource-proximate.",
+      "claim_type": "governance",
+      "confidence": "medium",
+      "evidence_excerpt": "- NCPS must evolve to (a) ingest cloud-based traffic telemetry, (b) receive expanded situational awareness data from ZTA systems, and (c) inform policy enforcement at both legacy NCPS locations and new ZTA PEPs.\n- **Upside for incident response:** ZTA generates richer authentication, inspection, and logging data that can improve event impact quantification, feed ML-based detection, and support aft"
+    },
+    {
+      "slug": "privacy-framework-inspect-everything-tension",
+      "claim_id": "nist207-ch6.4",
+      "statement": "Privacy Framework \u2014 ZTA's \\\"inspect everything\\\" tenet creates an explicit tension with privacy obligations; traffic inspection and metadata logging may capture PII, requiring formal privacy risk management via the NIST Privacy Framework [NISTPRIV].",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "- Core tension: security visibility vs. privacy protection.\n- Mitigations include: user notification (login banners), consent mechanisms, and user education.\n- NISTIR 8062 is cited as a companion resource for privacy risk identification in network monitoring contexts.\n- Biometric attributes used in access evaluations are flagged as a specific privacy concern.\n\n**Implication for OSKG-ZeroTrust:**\n\n"
+    },
+    {
+      "slug": "forwarding-and-routing-authorization-extends-policy-enforcement-into",
+      "claim_id": "gb-ch7-8.13",
+      "statement": "Forwarding and routing authorization extends policy enforcement into the network fabric itself",
+      "claim_type": "governance",
+      "confidence": "medium",
+      "evidence_excerpt": "The observation that \"filtering at every point\" implies network devices themselves can be policy enforcement points, not just passive packet forwarders. The SDN controller model is presented as an ideal."
+    },
+    {
+      "slug": "tic-3-converging-with-zta",
+      "claim_id": "nist207-ch6.6",
+      "statement": "TIC 3.0 is converging with ZTA \u2014 TIC evolved from perimeter-based (1.0/2.0) to distributed enforcement (3.0) with PEP Security Capabilities applied at multiple enforcement points, making TIC 3.0 the network-security dimension of ZTA in federal environments.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "- **TIC 1.0/2.0:** Perimeter-based; assumed internal network is \"trusted.\" Contradicted ZTA's core premise.\n- **TIC 3.0:** Introduces Universal Security Capabilities (enterprise-level) and PEP Security Capabilities (applied at multiple distributed PEPs).\n- TIC 3.0 security capabilities directly support ZTA: encrypted traffic, strong authentication, microsegmentation, network/system inventory.\n- Th"
+    },
+    {
+      "slug": "defense-in-depth-compliance-and-best-of-breed-are-not",
+      "claim_id": "finney-ch1-3.5",
+      "statement": "Defense in depth, compliance, and best-of-breed are not strategies",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "Each alternative is rejected with a specific criterion: a strategy must be *measurable* (you know when you've succeeded). Defense in depth has no completion criterion. Compliance has a completion criterion (you're compliant or not) but the goal is wrong (compliance \u2260 security). Best of breed has no completion criterion and the wrong goal (best products \u2260 breach prevention)."
+    },
+    {
+      "slug": "people-are-the-weakest-link-is-a-self-fulfilling",
+      "claim_id": "finney-ch8-11.6",
+      "statement": "\"People are the weakest link\" is a self-fulfilling prophecy \u2014 we trust people, not packets",
+      "claim_type": "definitional",
+      "confidence": "medium",
+      "evidence_excerpt": "- Stephen Covey's *Speed of Trust*: high trust + analysis = good judgment. Skepticism without trust = indecision. Cynicism = shortcut to avoid critical thinking.\n- Pygmalion study: teachers told worst students were best \u2192 those students outperformed their peers by year's end.\n- Centola (UPenn): only 25% of a group needs to adopt new behaviors for collective behavior change.\n- 50% of human behavior"
+    },
+    {
+      "slug": "policy-governance-is-the-badge-and-shield-it",
+      "claim_id": "go-intro.4",
+      "statement": "Policy & Governance is the \"badge and shield\" \u2014 it authorizes enforcement and defines the rules",
+      "claim_type": "definitional",
+      "confidence": "medium",
+      "evidence_excerpt": "Detailed treatment of each sub-capability with operational guidance. The key insight is that Policy & Governance must be \"strict enough to act as the badge and shield allowing for enforcement actions to be taken\" while \"striking the right balance between allowing devices to perform their business purpose... while maintaining least privileged access.\"\n\n**Green-Ortiz's claim:**\n\nPolicy & Governance "
+    },
+    {
+      "slug": "dod-capability-driven-approach-distinction",
+      "claim_id": "dod-ra-cap.11",
+      "statement": "The DoD's capability-driven approach distinguishes itself from other ZT frameworks \u2014 where NIST 800-207 provides the abstract logical model and CISA provides the maturity ladder, the DoD provides an exhaustive capability inventory, a concrete five-decision-point enforcement architecture, and 17 use cases that operationalize every major ZT concept with defined resource flows.",
+      "claim_type": "governance",
+      "confidence": "medium",
+      "evidence_excerpt": "1. **An exhaustive capability inventory** \u2014 7 aggregated capabilities with dozens of sub-capabilities, each mapped to specific pillars and decision points\n2. **A concrete enforcement architecture** \u2014 not one PDP but a chain of five decision points, each with independent confidence evaluation\n3. **17 use cases that operationalize every major ZT concept** \u2014 each with defined resource flows\n\n**The co"
+    },
+    {
+      "slug": "the-cisos-measure-of-success-is-not-were",
+      "claim_id": "finney-ch8-11.13",
+      "statement": "The CISO's measure of success is not \\\"were we hacked?\\\" but \\\"how did we respond?\\",
+      "claim_type": "governance",
+      "confidence": "medium",
+      "evidence_excerpt": "This is thematic, not empirical. The entire book arc leads to this conclusion: MarchFit was hacked (ransomware), responded by building ZT, was targeted again (3nc0r3), responded by turning the attacker's bribe attempt into an FBI sting, and emerged with a stronger security posture and market position. The creed \"Every Step Matters\" is both MarchFit's corporate motto and Finney's thesis for ZT \u2014 ev"
+    },
+    {
+      "slug": "ztmm-eo14028-compliance-instrument",
+      "claim_id": "cisa-ztmm-ov.1",
+      "statement": "The ZTMM is a compliance instrument for EO 14028, not merely a best-practice guide",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "The ZTMM explicitly cites EO 14028 as the legal mandate. It references OMB M-22-09 (January 2022) which sets specific FY 2024 deadlines for agencies to meet cybersecurity objectives aligned with the ZTMM pillars. The document is published by CISA's Cybersecurity Division under TLP:CLEAR \u2014 it's a government operational document, not a vendor framework."
+    },
+    {
+      "slug": "ztmm-operationalizes-nist-seven-tenets",
+      "claim_id": "cisa-ztmm-ov.9",
+      "statement": "The ZTMM operationalizes all seven NIST 800-207 tenets into measurable capabilities",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "The seven tenets are listed explicitly (lines 257-267):\n\n1. All data sources and computing services are considered resources.\n2. All communication is secured regardless of network location.\n3. Access to individual enterprise resources is granted on a per-session basis.\n4. Access to resources is determined by dynamic policy.\n5. The enterprise monitors and measures the integrity and security posture"
+    },
+    {
+      "slug": "icam-non-negotiable-substrate",
+      "claim_id": "nsa-user.1",
+      "statement": "The user pillar operationalizes ICAM for Zero Trust \u2014 and ICAM is the non-negotiable substrate",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The document frames the entire user pillar around five FICAM capability areas: Identity Management, Credential Management, Access Management, Federation, and Governance. This is not an arbitrary structure \u2014 it mirrors the Federal ICAM Architecture directly (GSA, 2021). The NSA's contribution is adding the *threat-centric maturity model* on top: preparation \u2192 basic \u2192 intermediate \u2192 advanced for eac"
+    },
+    {
+      "slug": "identity-foundational-zta-pillar",
+      "claim_id": "cisa-ztmm-id.1",
+      "statement": "Identity is the foundational pillar of ZTA \u2014 without mature identity capabilities, a ZTA cannot make access decisions, and ICAM serves as the substrate beneath the entire pillar, as established by both CISA's maturity model and NIST 800-207 Chapter 6.",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "- The pillar is organized around four operational functions (Authentication, Identity Stores, Risk Assessments, Access Management) plus three cross-cutting capabilities (Visibility & Analytics, Automation & Orchestration, Governance).\n- The maturity progression mirrors the NSA User Pillar's four-phase framework (Preparation \u2192 Basic \u2192 Intermediate \u2192 Advanced), though CISA uses different labels and "
+    },
+    {
+      "slug": "true-contextual-identity-is-never-just-a-device",
+      "claim_id": "go-ch6-8.4",
+      "statement": "True contextual identity is never just a device type \u2014 a displayless hardware phone used after hours by Facilities has a fundamentally different identity than a director's hardware phone at home during business hours, and this multi-dimensional profiling is the foundation of all ZT enforcement.",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "Specific profiling techniques: Who \u2014 directory services for domain-joined devices, asset management databases for headless devices; What (Active) \u2014 NMAP scanning with caution for legacy devices, OS fingerprinting, SNMP, vulnerability scanner integration; What (Passive) \u2014 RADIUS probe data, DHCP options and hostname, HTTP User-Agent headers, CDP/LLDP, MUD URLs for IoT, with DHCP weighted higher tha"
+    },
+    {
+      "slug": "user-identity-and-device-identity-are-separate-trust",
+      "claim_id": "gb-ch4-6.9",
+      "statement": "User identity and device identity are separate trust domains \u2014 conflating them is dangerous",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The authors open Ch6 with the problem: \"How do we know that the intended user is actually at the keyboard? Perhaps they left their device unlocked and unattended?\" They also note: user credentials copied across multiple devices increase exposure; kiosk scenarios make device-user binding impossible. The solution is layered authentication \u2014 device first, user second, each with independent trust scor"
+    }
+  ]
+}

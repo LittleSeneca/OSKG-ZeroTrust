@@ -1,0 +1,44 @@
+[
+  {
+    "source": "dod-ra-cap.6",
+    "target": "gc-soc-data-iot.1",
+    "relationship": "extends",
+    "rationale": "The unified pipeline architecture (Sensors→SIEM→SOAR+AI→ZT Controller→ML/AI) is the concrete technical realization of the 'SIEM and SOAR integration with ZT is a force multiplier' concept."
+  },
+  {
+    "source": "gc-soc-data-iot.1",
+    "target": "gc-soc-data-iot.2",
+    "relationship": "supports",
+    "rationale": "The force-multiplier value proposition of SIEM/SOAR+ZT integration provides the primary rationale for why SOC integration should be pursued early rather than deferred."
+  },
+  {
+    "source": "finney-ch4-7.9",
+    "target": "gc-soc-data-iot.2",
+    "relationship": "supports",
+    "rationale": "The insight that the SOC itself is a protect surface that most organizations neglect adds security urgency to the argument for early SOC integration."
+  },
+  {
+    "source": "finney-ch4-7.10",
+    "target": "gc-soc-data-iot.2",
+    "relationship": "supports",
+    "rationale": "Measuring SOC value by false positive reduction and dwell time (rather than ticket counts) provides concrete metrics to justify early investment in SOC integration."
+  },
+  {
+    "source": "finney-ch8-11.3",
+    "target": "dod-ra-cap.6",
+    "relationship": "supports",
+    "rationale": "The cloud visibility and control triad (CASB, SASE/SDP, API security) serves as the 'Sensors' input layer that feeds into the unified analytics pipeline."
+  },
+  {
+    "source": "gc-soc-data-iot.1",
+    "target": "finney-ch4-7.10",
+    "relationship": "supports",
+    "rationale": "ZT integration enriches SIEM/SOAR logs with identity context and enables bidirectional policy automation, directly enabling the false positive reduction that defines SOC value."
+  },
+  {
+    "source": "finney-ch8-11.3",
+    "target": "gc-soc-data-iot.1",
+    "relationship": "supports",
+    "rationale": "The CASB+SASE/SDP+API security triad provides the enriched cloud visibility data that SIEM/SOAR consume, making the force multiplier effect possible."
+  }
+]

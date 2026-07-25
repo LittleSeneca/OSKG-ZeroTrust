@@ -1,0 +1,63 @@
+{
+  "cluster_id": "c60",
+  "cluster_label": "implementation (implementation)",
+  "size": 7,
+  "claims": [
+    {
+      "slug": "19-builds-demonstrate-zta-implemented-diverse-vendor",
+      "claim_id": "nist-1800-35.2",
+      "statement": "The 19 builds demonstrate that ZTA can be implemented with diverse vendor combinations, but integration gaps between PDPs, PEPs, and supporting components remain the primary practical challenge \u2014 not the ZTA concept itself.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "**The 19 builds organized by deployment approach:**\n\n| Build | PE/PDP | Approach | Key Pattern |\n|-------|--------|----------|-------------|\n| **EIG Crawl Phase** | | | |\n| E1B1 | Okta + Ivanti | EIG Crawl | Multi-vendor ICAM: Okta for identity federation, Ivanti for ZSO, SailPoint for IGA, Radiant Logic for identity data platform |\n| E2B1 | Ping Identity | EIG Crawl | Single-vendor ICAM: PingFede"
+    },
+    {
+      "slug": "eig-crawl-phase-proved-legacy-icam-solutions",
+      "claim_id": "nist-1800-35.3",
+      "statement": "The EIG crawl phase proved that legacy ICAM solutions can serve as PDPs for basic ZTA, but resource management (authenticating and verifying the health of the endpoint hosting the resource) is beyond current out-of-the-box integration capabilities.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "**EIG Crawl findings (lines 1381\u20131418):**\n\n- **What worked:** All three EIG crawl builds (E1B1, E2B1, E3B1) could authenticate/reauthenticate users and endpoints, verify endpoint health, and make access decisions based on those factors. Periodic reauthentication and session termination on failure was demonstrated.\n- **What didn't work:** None could authenticate the *resource-hosting* endpoint or v"
+    },
+    {
+      "slug": "enforcement-must-be-layered-and-applied-as-close",
+      "claim_id": "go-intro.7",
+      "statement": "Enforcement must be layered and applied as close to the source as possible",
+      "claim_type": "implementation",
+      "confidence": "medium",
+      "evidence_excerpt": "Detailed treatment of CASB (shadow IT visibility, cloud access governance), DDoS protection, DLP (data creation, movement, storage, backup, destruction), DNSSEC, email security, firewalls (packet filtering, NGFW with DPI, NAT, SMLI inspecting all seven OSI layers), IPS (signature/anomaly/policy-based; NIPS/HIPS/NBA/WIPS platforms), proxy (forward for outbound control, reverse for inbound services)"
+    },
+    {
+      "slug": "seven-zt-scenarios-provide-a-practical-non-exhaustive-framework",
+      "claim_id": "gc-scenarios.1",
+      "statement": "Seven ZT scenarios provide a practical, non-exhaustive framework for identifying and prioritizing projects",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Each scenario is analyzed through a consistent lens: Considerations (examining Resources, Users/User Experience, Identity Providers, and Networking/Architecture angles) followed by Recommendations. The analysis across all seven yields several recurring patterns:\n\n1. **VPN Replacement** (Ch 18, scenario 1): The most common first ZT project. VPNs perpetuate perimeter-based models, create identity si"
+    },
+    {
+      "slug": "the-first-protect-surface-must-be-what-the",
+      "claim_id": "finney-ch4-7.1",
+      "statement": "The first protect surface must be what the business depends on to make money \u2014 not what's easiest for security to fix.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Dylan's conversation with CFO Donna reveals the ERP system (\"Ides,\" a nod to the Ides of March \u2014 \"Beware\") as the central nervous system of MarchFit's finances: vendor creation, invoice processing, payment authorization, and financial reporting all flow through it. The ERP is where money both enters and leaves the business. Donna's observation captures the symmetry: \"I need Ides to understand how "
+    },
+    {
+      "slug": "the-two-case-studies-demonstrate-zt-is-cross-domain",
+      "claim_id": "gb-ch9.7",
+      "statement": "The two case studies demonstrate ZT is cross-domain applicable",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "**Cross-domain comparison:**\n\n| Dimension | BeyondCorp (Google) | PagerDuty |\n|-----------|-------------------|-----------|\n| **Focus** | Client-to-server | Server-to-server |\n| **Scale** | Tens of thousands of employees | Mid-size SaaS platform |\n| **Resources** | Custom infrastructure from scratch | Leveraged existing Chef + open source |\n| **Network** | Corporate LAN + remote | Multi-cloud publ"
+    },
+    {
+      "slug": "zta-implementation-single-architecture-spectrum-deployment-approaches",
+      "claim_id": "nist-1800-35.1",
+      "statement": "ZTA implementation is not a single architecture but a spectrum of deployment approaches \u2014 EIG, SDP, Microsegmentation, and SASE \u2014 each appropriate for different organizational contexts and maturity levels. The most complete ZTAs combine multiple approaches.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "**Author's structure:**\n\nThe project organized 19 builds across four simulated enterprises, each representing a different organizational starting point. Each enterprise could host multiple builds with different vendor combinations:\n\n**Four ZTA deployment approaches:**\n\n1. **Enhanced Identity Governance (EIG)** \u2014 Leverages ICAM solutions as Policy Decision Points. The identity-centric approach \u2014 au"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "source": "dod-ra-cap.4",
+    "target": "gb-ch3.1",
+    "relationship": "supports",
+    "rationale": "Independent confidence development for user and device provides the evidentiary mechanism that underpins the network agent construct as the marriage of user, device, and application."
+  },
+  {
+    "source": "gb-ch3.1",
+    "target": "gc-iam-policy.6",
+    "relationship": "supports",
+    "rationale": "The network agent defines the atomic unit of authorization (user+device+app) that the three-layer model enforces across application, account, and network levels."
+  },
+  {
+    "source": "cisa-ztmm-id.7",
+    "target": "gc-iam-policy.6",
+    "relationship": "supports",
+    "rationale": "Cross-cutting capabilities (visibility & analytics, automation & orchestration, governance) operationalize enforcement across the three authorization layers."
+  },
+  {
+    "source": "gc-iam-policy.2",
+    "target": "gc-iam-policy.6",
+    "relationship": "extends",
+    "rationale": "Extends the three-layer model by specifying that for server-to-server contexts, the identity foundation shifts from IAM to CMDB while still enforcing at the network layer."
+  },
+  {
+    "source": "cisa-ztmm-id.7",
+    "target": "dod-ra-cap.4",
+    "relationship": "supports",
+    "rationale": "Visibility & analytics feeds the independent confidence tracking; automation & orchestration enables confidence aggregation at policy enforcement time."
+  }
+]

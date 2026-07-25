@@ -1,0 +1,98 @@
+[
+  {
+    "source": "finney-ch1-3.6",
+    "target": "finney-ch4-7.3",
+    "type": "supports",
+    "rationale": "Repeatability of the methodology is evidence that Kindervag provides actionable strategy."
+  },
+  {
+    "source": "finney-ch1-3.10",
+    "target": "nist207-ch1.2",
+    "type": "supports",
+    "rationale": "The protect surface (shifting controls from perimeter to asset) is the architectural mechanism that eliminates implicit trust."
+  },
+  {
+    "source": "cisa-ztmm-ov.2",
+    "target": "gc-ch1-3.1",
+    "type": "supports",
+    "rationale": "Nation-state incidents (SolarWinds, Exchange) are the empirical evidence that perimeter-based security is structurally broken."
+  },
+  {
+    "source": "go-intro.1",
+    "target": "finney-ch1-3.3",
+    "type": "supports",
+    "rationale": "Historical origin in Morris Worm and academic thesis refutes the claim that ZT is vendor marketing."
+  },
+  {
+    "source": "nist207-ch1.4",
+    "target": "gc-scenarios.5",
+    "type": "supports",
+    "rationale": "NIST's articulation that ZT adoption is an incremental journey supports the 'journey not destination' framing."
+  },
+  {
+    "source": "nist207-ch1.4",
+    "target": "finney-ch1-3.3",
+    "type": "supports",
+    "rationale": "NIST's definition of ZT as an architectural paradigm (not a product) independently supports the strategy-not-product claim."
+  },
+  {
+    "source": "nist207-ch1.2",
+    "target": "nist207-ch1.3",
+    "type": "supports",
+    "rationale": "The operational mechanism (assume breach, continuous auth) is what enables the design goal (prevent breaches, limit lateral movement)."
+  },
+  {
+    "source": "gc-ch1-3.2",
+    "target": "nist207-ch1.2",
+    "type": "supports",
+    "rationale": "The semantic clarification that ZT means 'zero implicit trust' aligns directly with NIST's operational definition of eliminating implicit trust."
+  },
+  {
+    "source": "gc-ch1-3.5",
+    "target": "nist207-ch1.2",
+    "type": "supports",
+    "rationale": "The three core principles (secure all resources, least privilege, inspect/log all traffic) are the universal operational instantiation of assume-breach/continuous-auth."
+  },
+  {
+    "source": "finney-ch1-3.9",
+    "target": "finney-ch1-3.10",
+    "type": "supports",
+    "rationale": "The physical security analogy (layered zones, no implicit trust) directly illustrates the protect surface concept."
+  },
+  {
+    "source": "nist207-ch2.2",
+    "target": "nist207-ch1.2",
+    "type": "extends",
+    "rationale": "Uncertainty minimization reframes assume-breach/continuous-auth in more precise, measurable terms."
+  },
+  {
+    "source": "dod-ra-ov.4",
+    "target": "finney-ch4-7.3",
+    "type": "extends",
+    "rationale": "Adds the DoD-vs-NIST comparison dimension to the observation that NIST's tenets are architectural."
+  },
+  {
+    "source": "nist207-ch2.3",
+    "target": "dod-ra-ov.4",
+    "type": "extends",
+    "rationale": "Adds the nuance that NIST's architectural tenets are explicitly aspirational, not mandatory requirements."
+  },
+  {
+    "source": "gc-ch1-3.7",
+    "target": "finney-ch1-3.3",
+    "type": "extends",
+    "rationale": "'Integrated security platform' is a specific, elaborated articulation of the general claim that ZT is a strategy."
+  },
+  {
+    "source": "gc-ch1-3.4",
+    "target": "gc-ch1-3.7",
+    "type": "extends",
+    "rationale": "Explains the mechanism by which ZT becomes an integrated platform: amplifying and integrating existing concepts (least privilege, RBAC)."
+  },
+  {
+    "source": "gc-ch1-3.4",
+    "target": "gc-ch1-3.5",
+    "type": "extends",
+    "rationale": "Clarifies what is transformative about the three core principles: they aren't just repackaging but amplification into a holistic automated platform."
+  }
+]

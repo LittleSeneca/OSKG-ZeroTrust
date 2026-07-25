@@ -1,0 +1,47 @@
+{
+  "cluster_id": "c7",
+  "cluster_label": "architecture (architectural)",
+  "size": 5,
+  "claims": [
+    {
+      "slug": "ciscos-five-pillar-model-policy-governance-identity-vulnerability-management",
+      "claim_id": "go-intro.3",
+      "statement": "Cisco's five-pillar model (Policy & Governance, Identity, Vulnerability Management, Enforcement, Analytics) provides a comprehensive capability taxonomy for ZT assessment",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The five-pillar model is \"aligned to many different frameworks and methodologies\" and represents Cisco's accumulated assessment experience. Each pillar is operationalized in Chapter 2 as a detailed \"dictionary of capabilities\" with 45+ discrete components.\n\n**Green-Ortiz's claim:**\n\nEvery capability needed for a Zero Trust strategy falls into one of five pillars. Organizations that have these capa"
+    },
+    {
+      "slug": "cross-cutting-capabilities-convergence",
+      "claim_id": "cisa-ztmm-dnad.24",
+      "statement": "CISA's three cross-cutting capabilities \u2014 Visibility & Analytics, Automation & Orchestration, and Governance \u2014 become increasingly integrated across pillars as maturity increases, with the Optimal stage characterized by centralized dynamic monitoring, infrastructure-as-code, and fully automated enterprise-wide policies with continuous enforcement.",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "| Capability | Traditional | Optimal |\n|------------|-------------|---------|\n| Visibility & Analytics | Manual log collection, limited analysis | Comprehensive visibility via centralized dynamic monitoring, advanced analysis, predictive analytics |\n| Automation & Orchestration | Static, manual processes | Dynamic response to enterprise-wide changing requirements; infrastructure-as-code |\n| Govern"
+    },
+    {
+      "slug": "cross-cutting-capabilities-prevent-silos",
+      "claim_id": "cisa-ztmm-ov.8",
+      "statement": "The three cross-cutting capabilities unify the pillars and prevent siloed maturity",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "- **Visibility and Analytics:** \"The observable artifacts that result from the characteristics of and events within enterprise-wide environments. The focus on cyber-related data analysis can help inform policy decisions, facilitate response activities, and build a risk profile to develop proactive security measures before an incident occurs.\"\n- **Automation and Orchestration:** \"Zero trust makes f"
+    },
+    {
+      "slug": "dod-seven-pillars-identical-cisa",
+      "claim_id": "dod-ra-ov.5",
+      "statement": "DoD's seven pillars are identical to CISA's \u2014 the difference is implementation depth",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "These seven pillars are identical to CISA's five-pillar model (CISA groups Network, Applications & Workload, and Data under a broader \"Network/Environment\" category but organizes maturity assessments around the same seven areas). The DoD adds specific defense-relevant technologies: Comply-to-Connect (C2C), PKI/CAC, JRSS, and explicit DevSecOps integration for the Applications pillar."
+    },
+    {
+      "slug": "five-pillar-comprehensive-decomposition",
+      "claim_id": "cisa-ztmm-ov.6",
+      "statement": "The five-pillar structure provides a comprehensive, independently-assessable decomposition of ZTA",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "Each pillar gets its own detailed function table with maturity-level descriptions for each function (e.g., Identity has Authentication, Identity Stores, Risk Assessment, Access Management). The pillar definitions are:\n\n- **Identity** (5.1): \"An attribute or set of attributes that uniquely describes an agency user or entity, including non-person entities.\" Functions: authentication, identity stores"
+    }
+  ]
+}

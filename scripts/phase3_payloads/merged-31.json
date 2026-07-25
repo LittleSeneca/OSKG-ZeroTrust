@@ -1,0 +1,223 @@
+{
+  "cluster_id": "merged-31",
+  "cluster_label": "migration+implementation (migration)",
+  "size": 27,
+  "claims": [
+    {
+      "slug": "analytics-closes-the-loop-the-zt-journey-is",
+      "claim_id": "go-intro.8",
+      "statement": "Analytics closes the loop \u2014 the ZT journey is cyclical, not linear",
+      "claim_type": "migration",
+      "confidence": "medium",
+      "evidence_excerpt": "APM (synthetic tests, SLA tracking, user experience monitoring), auditing/logging/monitoring (AAA accounting data, syslog, behavioral baselines), change detection (what/how/who/where/when for all changes, integrated with file integrity monitoring and SIEM), network threat behavior analytics (east-west lateral movement detection, north-south exfiltration detection, baseline deviation alerting), SIE"
+    },
+    {
+      "slug": "brownfield-environments-require-34-the-timeline-of-greenfield",
+      "claim_id": "go-ch9-11.3",
+      "statement": "Brownfield environments require 3\u20134\u00d7 the timeline of greenfield deployments because every newly profiled device forces recursive re-analysis of previously identified devices.",
+      "claim_type": "migration",
+      "confidence": "high",
+      "evidence_excerpt": "SBC Emerging Tech (brownfield): 3 months of recursive identification where every newly profiled device required re-running the analysis against all observed devices. SBC Financial's site selection matrix prioritized both business criticality and variety of endpoints \u2014 heterogeneous sites yield more profiling lessons that transfer. The authors recommend starting where both conditions exist: large d"
+    },
+    {
+      "slug": "business-process-selection-step3-migration",
+      "claim_id": "nist207-ch7.7",
+      "statement": "Business process selection for ZTA migration should start with low-risk processes and cloud-based/remote-worker workflows, using the NIST RMF to evaluate tradeoffs in performance, user experience, and workflow fragility.",
+      "claim_type": "migration",
+      "confidence": "high",
+      "evidence_excerpt": "- **Start with a low-risk business process** for the first ZTA transition \u2014 disruptions will likely not negatively impact the entire organization.\n- Once enough experience is gained, **more critical business processes** become candidates.\n- **Cloud-based resources** and **remote worker workflows** are often good candidates \u2014 rather than projecting the enterprise perimeter into the cloud or using V"
+    },
+    {
+      "slug": "candidate-solution-selection-step5-migration",
+      "claim_id": "nist207-ch7.9",
+      "statement": "Candidate solution selection must evaluate client footprint, traffic patterns, logging/analysis capabilities, protocol support, and subject behavior changes \u2014 with a recommended pilot approach that serves as a proving ground before full transition.",
+      "claim_type": "migration",
+      "confidence": "high",
+      "evidence_excerpt": "| Factor | Question |\n|--------|----------|\n| **Client footprint** | Does the solution require components installed on the client asset? This may limit BYOD or cross-agency collaboration. |\n| **Traffic pattern** | Does the solution work where resources exist on enterprise premises (east-west traffic), or does it assume cloud-resident resources (north-south traffic)? |\n| **Logging and analysis** | "
+    },
+    {
+      "slug": "client-to-server-and-server-to-server-migrations-are-different-problems-with",
+      "claim_id": "gb-ch9.5",
+      "statement": "Client-to-server and server-to-server migrations are different problems with different starting points",
+      "claim_type": "migration",
+      "confidence": "high",
+      "evidence_excerpt": "**Cross-reference \u2014 NIST 800-207 Ch7:**\n\nNIST's Step 3 recommends starting with a \"low-risk business process\" \u2014 cloud-based resources and remote worker workflows are flagged as good candidates. This favors the client-to-server approach for most organizations. Green-Ortiz et al.'s maturity model adds the dimension of organizational readiness: do you have the DevOps maturity for server-to-server fir"
+    },
+    {
+      "slug": "common-roadblocks-iam-immaturity-political-resistance-regulatory-constraints",
+      "claim_id": "gc-scenarios.4",
+      "statement": "Common roadblocks \u2014 IAM immaturity, political resistance, regulatory constraints, resource visibility gaps, and analysis paralysis \u2014 are predictable, documented, and surmountable",
+      "claim_type": "migration",
+      "confidence": "high",
+      "evidence_excerpt": "- **IAM Immaturity**: The \"our directory is a mess\" problem. Counter: Zero Trust doesn't require perfect IAM \u2014 it can be a \"catalyst for improved maturity and data integrity in your IAM system, even if it's just for a narrow slice.\" ZT systems consume IAM attributes; you control how many attributes inform policy. Start narrow.\n\n- **Political Resistance**: \"People who impose barriers to change, des"
+    },
+    {
+      "slug": "configuration-management-is-a-legitimate-stepping-stone-to",
+      "claim_id": "gb-ch9.3",
+      "statement": "Configuration management is a legitimate stepping stone to the control plane",
+      "claim_type": "migration",
+      "confidence": "high",
+      "evidence_excerpt": "- Chef was already deployed on every VM; extending it to generate iptables rules required no new infrastructure\n- Role-based iptables chains enumerated expected IPs for each server role, providing per-host microsegmentation\n- Benefits: network compute power scales with instance count; failures are isolated (many small firewalls instead of \"the firewall\")\n- Downsides: eventual consistency means pol"
+    },
+    {
+      "slug": "dual-mode-infrastructure-indefinite-hybrid",
+      "claim_id": "nist207-ch7.13",
+      "statement": "The indefinite hybrid period imposes dual-mode requirements on common infrastructure \u2014 ID management, device management, and logging must serve both ZTA and perimeter-based workflows simultaneously, and ZTA solutions must interface with existing enterprise components without requiring ZTA-only infrastructure.",
+      "claim_type": "migration",
+      "confidence": "high",
+      "evidence_excerpt": "- ID management, device management, and logging must be dual-mode (ZTA + perimeter).\n- ZTA solutions should interface with existing enterprise components.\n- Common infrastructure must not be ZTA-only during transition.\n- Migration proceeds at the granularity of individual business processes."
+    },
+    {
+      "slug": "foundational-inventory-before-migration",
+      "claim_id": "nist207-ch7.4",
+      "statement": "Before the 7-step cycle can begin, the enterprise must establish a foundational inventory of all actors, assets, and business processes \u2014 without this, the Policy Engine will deny requests due to insufficient information and shadow IT deployments may break silently.",
+      "claim_type": "migration",
+      "confidence": "high",
+      "evidence_excerpt": "- Three parallel surveys form the prerequisite: actor inventory, asset inventory, process/data flow inventory.\n- Without this baseline, the Policy Engine will deny requests due to insufficient information \u2014 especially problematic for unknown \"shadow IT\" deployments.\n- The surveys map to the [[NIST SP 800-37]] Risk Management Framework (RMF) \u2014 ZTA adoption is fundamentally a risk reduction exercise"
+    },
+    {
+      "slug": "greenfield-zta-rarely-viable",
+      "claim_id": "nist207-ch7.2",
+      "statement": "Pure greenfield ZTA is rarely viable for existing organizations, but new infrastructure projects (new applications, services, databases) create opportunities to introduce ZT concepts to some degree.",
+      "claim_type": "migration",
+      "confidence": "high",
+      "evidence_excerpt": "- NIST acknowledges the greenfield ideal but immediately caveats: \"new responsibilities that require building new infrastructure (a new application, service, or database) create opportunities to introduce ZT concepts to some degree.\"\n- Success depends on how dependent the new infrastructure is on existing resources (e.g., identity management systems).\n- References [[NIST SP 800-160v1]] (Systems Se"
+    },
+    {
+      "slug": "hybrid-model-indefinite-reality",
+      "claim_id": "nist207-ch7.3",
+      "statement": "The hybrid model \u2014 ZTA workflows coexisting with non-ZTA workflows \u2014 is the expected indefinite reality, requiring common infrastructure (ID management, device management, logging) to operate in dual mode and migration to proceed one business process at a time.",
+      "claim_type": "migration",
+      "confidence": "high",
+      "evidence_excerpt": "- Migration proceeds **one business process at a time**\n- Common elements (identity management, device management, event logging) must be **flexible enough to operate in both ZTA and perimeter-based modes**\n- Enterprise architects should **restrict ZTA candidate solutions to those that can interface with existing components**\n- Migrating an existing workflow to ZTA likely requires at least a **par"
+    },
+    {
+      "slug": "identify-all-subjects-step1-migration",
+      "claim_id": "nist207-ch7.5",
+      "statement": "All enterprise subjects \u2014 human users and Non-Person Entities (service accounts, automated processes) \u2014 must be identified, with special-privilege users requiring additional scrutiny and stricter confidence levels under ZTA rather than blanket trust.",
+      "claim_type": "migration",
+      "confidence": "high",
+      "evidence_excerpt": "- In legacy architectures, privileged accounts often have **blanket permission** to access all enterprise resources.\n- ZTA should instead allow sufficient flexibility while using **logs and audit actions** to identify access behavior patterns.\n- Administrators may need to satisfy a more stringent confidence level, as outlined in [[NIST SP 800-63A]], Section 5.\n- Key shift: from *privileged account"
+    },
+    {
+      "slug": "identify-catalog-assets-step2-migration",
+      "claim_id": "nist207-ch7.6",
+      "statement": "The enterprise must identify, catalog, and continuously monitor all assets \u2014 hardware, digital artifacts, virtual infrastructure, and shadow IT \u2014 because device posture assessment is integral to access decisions and incomplete inventory causes access denials.",
+      "claim_type": "migration",
+      "confidence": "high",
+      "evidence_excerpt": "| Category | Examples |\n|----------|----------|\n| **Hardware** | Laptops, phones, IoT devices, servers |\n| **Digital artifacts** | User accounts, applications, digital certificates, virtual assets, containers |\n| **Physical location** | As best estimated |\n| **Network location** | Observed and tracked |\n\n- Beyond cataloging, the enterprise must have **configuration management and monitoring** \u2014 th"
+    },
+    {
+      "slug": "incomplete-knowledge-chicken-egg-barrier",
+      "claim_id": "nist207-ch7.12",
+      "statement": "The single biggest barrier to ZTA migration is incomplete knowledge of the enterprise \u2014 the three foundational inventories (actors, assets, processes) create a chicken-and-egg problem where you need complete inventories to migrate but need to migrate to justify building complete inventories.",
+      "claim_type": "migration",
+      "confidence": "medium",
+      "evidence_excerpt": "- Three parallel surveys form the prerequisite: actor inventory, asset inventory, process/data flow inventory.\n- Without these, the Policy Engine cannot make accurate access decisions, and shadow IT deployments may break silently when ZTA policies are applied.\n- The PE's ability to evaluate access requests depends directly on the quality of the three inventories. Incomplete inventories \u2192 denied ac"
+    },
+    {
+      "slug": "legacy-implicit-trust-primary-obstacle",
+      "claim_id": "cisa-ztmm-ov.5",
+      "statement": "Legacy implicit-trust systems are the primary obstacle to ZTA adoption",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The document identifies several concrete challenges: (1) legacy systems with implicit trust, (2) stove-piped and siloed IT services and staff, (3) need for \"agency-wide buy in for a common architecture and governance policies,\" (4) different starting points across agencies. The acknowledgment that \"agencies are beginning their journeys to zero trust from different starting points\" is strategically"
+    },
+    {
+      "slug": "log-then-enforce-is-the-migration-procedure-validated-by-two",
+      "claim_id": "gb-ch9.6",
+      "statement": "Log-then-enforce is THE migration procedure \u2014 validated by two independent case studies",
+      "claim_type": "migration",
+      "confidence": "high",
+      "evidence_excerpt": "Both Google and PagerDuty independently converged on this pattern:\n\n| Organization | Domain | Log-Then-Enforce Implementation |\n|-------------|--------|-------------------------------|\n| **Google BeyondCorp** | Client-to-server | Traffic analysis pipeline: sampled netflow from every switch \u2192 compare against canonical ACL between unprivileged and privileged networks \u2192 iteratively make non-passing t"
+    },
+    {
+      "slug": "phased-zt-adoption-vpn-replacement-role-based-access-branch",
+      "claim_id": "gc-iam-policy.4",
+      "statement": "Phased ZT adoption \u2014 VPN replacement \u2192 role-based access \u2192 branch office removal \u2014 delivers incremental value and pays for itself",
+      "claim_type": "migration",
+      "confidence": "high",
+      "evidence_excerpt": "A US-based multinational (14,000+ employees, 700+ retail locations, 2 data centers, 12 branch offices, IaaS cloud). Phase 1: tactical VPN replacement for 1,000 users (750 corporate + 250 developers). Phase 2: role-based access with a few basic groups (General Employee, IT, Finance, Network Admin, Database Admin). Phase 3: removed 2,000 branch office workers from the enterprise network, decommissio"
+    },
+    {
+      "slug": "policy-formulation-step4-migration",
+      "claim_id": "nist207-ch7.8",
+      "statement": "Policy formulation for the ZTA candidate requires evaluating asset value/risk via RMF, identifying all upstream/downstream resources, and choosing between criteria-based (binary) and score-based (confidence-weighted) trust evaluation \u2014 a choice with cascading effects on tooling and operational complexity.",
+      "claim_type": "migration",
+      "confidence": "high",
+      "evidence_excerpt": "1. **Evaluate the value/risk** of the asset or workflow using the NIST RMF ([[NIST SP 800-37]])\n2. **Identify all upstream resources** (ID management systems, databases, micro-services), **downstream resources** (logging, security monitoring), and **entities** (subjects, service accounts)\n3. **Determine the access criteria** \u2014 either criteria-based (TA using binary rules) or score-based (TA using "
+    },
+    {
+      "slug": "reporting-only-mode-step6-migration",
+      "claim_id": "nist207-ch7.10",
+      "statement": "Initial ZTA deployment should operate in reporting-only (observation) mode \u2014 not immediate enforcement \u2014 because few policy sets are complete on the first iteration, and the monitoring phase collects real access pattern data to establish a baseline against which anomalous behavior can be identified.",
+      "claim_type": "migration",
+      "confidence": "high",
+      "evidence_excerpt": "- Important accounts may be denied access they need, or may retain more privileges than required.\n- **Recommended approach: reporting-only mode** \u2014 grant access for most requests initially, log and trace all connections, compare actual access patterns against initial policy, enforce only the most basic policies (deny requests that fail MFA or appear from known attacker-controlled IPs).\n- **Why len"
+    },
+    {
+      "slug": "zero-trust-proxies-are-the-bridge-between-zt",
+      "claim_id": "gb-ch9.4",
+      "statement": "Zero Trust proxies are the bridge between ZT and legacy systems",
+      "claim_type": "migration",
+      "confidence": "high",
+      "evidence_excerpt": "**Two proxy modes:**\n\n| Mode | Use Case | How It Works |\n|------|----------|-------------|\n| **Reverse proxy** | ZT-enabled clients accessing services | Proxy receives connection, validates authorization, passes request to application |\n| **Forward proxy** | Non-ZT-aware legacy components accessing ZT services | Legacy component communicates through co-located proxy that handles authentication |\n\n"
+    },
+    {
+      "slug": "zt-evolution-existing-capabilities-incremental",
+      "claim_id": "dod-ra-ov.3",
+      "statement": "ZT is an evolution of existing capabilities, not a greenfield deployment",
+      "claim_type": "migration",
+      "confidence": "high",
+      "evidence_excerpt": "The document identifies existing DoD capabilities that serve as ZT baselines: JRSS (Joint Regional Security Stack), PKI/CAC for ICAM, Comply-to-Connect for device posture, SDN/SDE for network virtualization. The transition architecture (Ch 8) maps a maturity model with baseline \u2192 transition \u2192 target phases. This is not \"rip and replace\" \u2014 it's \"reconfigure what you have.\""
+    },
+    {
+      "slug": "zt-organizational-commitment",
+      "claim_id": "nsa-embrace.5",
+      "statement": "Organizational commitment is the primary implementation challenge",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "NSA identifies three challenges: (1) lack of enterprise-wide buy-in, (2) scalability of continuous access decisions, (3) persistent adherence to the ZT mindset over time (\"administrators and defenders may become fatigued\"). Notably, technology is not listed as a primary challenge."
+    },
+    {
+      "slug": "zta-expansion-iterative-cycle-step7",
+      "claim_id": "nist207-ch7.11",
+      "statement": "ZTA expansion follows the same iterative cycle \u2014 each new business process repeats steps 1\u20137 \u2014 and significant workflow changes trigger reevaluation of existing ZTA deployments, making the cycle both iterative and reactive.",
+      "claim_type": "migration",
+      "confidence": "high",
+      "evidence_excerpt": "- Network and assets are still monitored, traffic is logged.\n- Responses and policy modifications are done at a **lower tempo**.\n- Subjects and stakeholders provide **feedback** to improve operations.\n- **Change management:** If a significant change occurs to the workflow \u2014 new devices, major software updates, or shifts in organizational structure \u2014 the **entire process should be reconsidered**. H"
+    },
+    {
+      "slug": "zta-migration-incremental-recurring-cycle",
+      "claim_id": "nist207-ch7.1",
+      "statement": "ZTA migration is an incremental, recurring cycle \u2014 not a linear project \u2014 and most enterprises will operate in a hybrid zero-trust/perimeter-based mode indefinitely.",
+      "claim_type": "migration",
+      "confidence": "high",
+      "evidence_excerpt": "The chapter's structure \u2014 a 7-step recurring cycle \u2014 is itself the evidence. NIST frames the entire process as iterative: after step 7, return to step 1 for the next candidate business process."
+    },
+    {
+      "slug": "the-five-pillar-methodology-for-segmentation-operationalizes-zt-by",
+      "claim_id": "go-ch6-8.3",
+      "statement": "The five-pillar methodology for segmentation operationalizes ZT by making contextual identity the engine of policy \u2014 but organizations must start with 5\u20137 broad enclaves and refine iteratively, treating segmentation as \"eating an elephant \u2014 one small step at a time.\"",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The endpoint segmentation plan (Figure 6-6) maps device types \u2192 business units \u2192 required restrictions \u2192 enforcement mechanisms. The prescribed stacking order: VLAN (dynamic assignment) \u2192 Firewall (inter-VLAN traversal + advanced features) \u2192 Downloadable ACLs (distributed to access switches) \u2192 TrustSec SGTs (intra-VLAN peer-to-peer control). For data centers where virtual switches don't support Tr"
+    },
+    {
+      "slug": "zt-success-requires-deliberately-blending-top-down-strategic-vision",
+      "claim_id": "gc-scenarios.2",
+      "statement": "ZT success requires deliberately blending top-down strategic vision with bottom-up tactical execution",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "Two detailed sample deployments illustrate the blended approach:\n\n*Tactical Project (transportation services org):* Third-party financial analysts accessing on-prem systems via VPN. Audit findings (MFA requirement, zombie account cleanup) create the catalyst. The 7-step project timeline spans ~3 months: Define Problem \u2192 Research Solutions \u2192 Review Architecture \u2192 POC Two Platforms \u2192 Present Results"
+    },
+    {
+      "slug": "the-biggest-mistake-in-zt-implementation-is-rushing",
+      "claim_id": "go-ch9-11.1",
+      "statement": "The biggest mistake in ZT implementation is rushing past monitor mode \u2014 organizations must inventory and understand endpoints in production before enforcing any restrictions, and monitor mode never truly ends.",
+      "claim_type": "migration",
+      "confidence": "high",
+      "evidence_excerpt": "The SBC Manufacturing case study: 1,600 devices took 4 months with a 3-person team to map. For larger organizations, 12\u201318 months is not unreasonable. Key tasks during monitor mode: (1) identify suspected device type (the \"what\" of contextual identity), (2) determine business functionality/owner/support team, (3) traffic analysis to create baseline, (4) document into asset management database. The"
+    }
+  ]
+}

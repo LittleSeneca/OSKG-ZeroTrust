@@ -1,0 +1,26 @@
+[
+  {
+    "source": "cisa-ztmm-ov.8",
+    "target": "cisa-ztmm-ov.6",
+    "relationship": "supports",
+    "rationale": "Cross-cutting capabilities are the mechanism that prevents the five-pillar decomposition from becoming siloed, directly supporting the claim that the pillar structure is comprehensive and independently-assessable."
+  },
+  {
+    "source": "cisa-ztmm-dnad.24",
+    "target": "cisa-ztmm-ov.8",
+    "relationship": "extends",
+    "rationale": "Takes the cross-cutting unification concept from ov.8 and adds the maturity dimension — specifying how integration deepens from Traditional to Optimal stages with centralized dynamic monitoring, infrastructure-as-code, and continuous enforcement."
+  },
+  {
+    "source": "cisa-ztmm-dnad.24",
+    "target": "cisa-ztmm-ov.6",
+    "relationship": "depends_on",
+    "rationale": "The cross-cutting capabilities described in dnad.24 operate 'across pillars' — the five-pillar decomposition established in ov.6 is a prerequisite foundation for this cross-pillar integration concept."
+  },
+  {
+    "source": "dod-ra-ov.5",
+    "target": "cisa-ztmm-ov.6",
+    "relationship": "supports",
+    "rationale": "DoD independently converged on the identical pillar structure (seven pillars mapping to CISA's five), corroborating that the five-pillar decomposition is comprehensive and generalizable beyond its original CISA context."
+  }
+]

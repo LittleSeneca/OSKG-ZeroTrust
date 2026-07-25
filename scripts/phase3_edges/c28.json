@@ -1,0 +1,32 @@
+[
+  {
+    "source": "anssi-bsi.5",
+    "target": "anssi-bsi.1",
+    "relationship": "supports",
+    "rationale": "anssi-bsi.5 establishes that AI+ZT is the least-developed area with no existing standards coverage, which directly supports anssi-bsi.1's claim that LLM systems require dedicated ZT design principles."
+  },
+  {
+    "source": "anssi-bsi.2",
+    "target": "anssi-bsi.1",
+    "relationship": "extends",
+    "rationale": "anssi-bsi.2 details the input/output validation gateway principle, which is one of the six dedicated ZT principles asserted by anssi-bsi.1."
+  },
+  {
+    "source": "anssi-bsi.3",
+    "target": "anssi-bsi.1",
+    "relationship": "extends",
+    "rationale": "anssi-bsi.3 details session-level memory isolation, which is one of the six dedicated ZT principles for LLM systems asserted by anssi-bsi.1."
+  },
+  {
+    "source": "anssi-bsi.4",
+    "target": "anssi-bsi.1",
+    "relationship": "extends",
+    "rationale": "anssi-bsi.4 details the human-oversight requirement (Principle 2), which is one of the six dedicated ZT principles for LLM systems asserted by anssi-bsi.1."
+  },
+  {
+    "source": "anssi-bsi.3",
+    "target": "anssi-bsi.2",
+    "relationship": "supports",
+    "rationale": "anssi-bsi.3's session isolation requirement directly supports anssi-bsi.2's input/output validation gateway: proper session isolation prevents cross-session persistent Prompt Injection vectors, which is a prerequisite for effective prompt trustworthiness evaluation."
+  }
+]

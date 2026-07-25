@@ -1,0 +1,247 @@
+{
+  "cluster_id": "merged-17",
+  "cluster_label": "definition (definitional)",
+  "size": 30,
+  "claims": [
+    {
+      "slug": "academic-quantitative-evidence-zt-effectiveness-entirely-synthetic",
+      "claim_id": "academic.6",
+      "statement": "The academic quantitative evidence for ZT effectiveness is entirely synthetic (modeled, not measured) \u2014 the actual evidentiary status of practitioner claims rests on logical argument, self-reported industry case studies, and regulatory adoption, not independently verified large-scale empirical data.",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The practitioner claims rest on four foundations: (1) logical argument \u2014 the \"never trust, always verify\" principle is inherently sound; (2) industry case studies \u2014 Google BeyondCorp, Microsoft, PagerDuty (self-reported, no independent verification); (3) regulatory adoption \u2014 EO 14028, NIST SP 800-207 (normative, not empirical); (4) **no independently verified, large-scale empirical data showing Z"
+    },
+    {
+      "slug": "bsi-adopts-nist-pdp-pep-control-plane",
+      "claim_id": "bsi-zt.3",
+      "statement": "BSI adopts NIST's PDP/PEP/Control Plane/Data Plane model as its reference architecture",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "**Key architectural positions:**\n\n- **PDP can be locally hosted or a service from a third party** (*\"kann dabei ein lokaler Bestandteil des Unternehmens oder ein extern gehosteter Dienst sein\"*) \u2014 a more explicit acceptance of external/cloud PDP than NIST, which is more cautious about external trust engines\n- **The Control Plane (administration of IT systems) continues to rely primarily on perimet"
+    },
+    {
+      "slug": "bsi-first-national-agency-provide-detailed-guidance",
+      "claim_id": "bsi-zt.7",
+      "statement": "BSI is the first national agency to provide detailed guidance on integrating real-time signals into ZT access decisions",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "Detailed sequence diagrams (Figures 8 and 9 in the original) show the communication flow between identity provider, device management, application, and user sessions. Access scenario tables (Tables 1 and 2) show example conditions for network access and resource access decisions."
+    },
+    {
+      "slug": "bsi-integration-model-provides-german-maturity-framework",
+      "claim_id": "bsi-zt.4",
+      "statement": "BSI's integration model provides a German maturity framework with VS (classified information) integration",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "**Two cross-cutting functions:**\n\n*Detektion & Reaktion* (Detection & Response) spans Identity, Device, Network, and Application. *Anforderungen an VS* (Requirements for Classified Information) spans **all five pillars** \u2014 this is unique to the BSI model.\n\n**Three maturity levels:**\n\n| Level (German) | Level (English) | Description |\n|----------------|-----------------|-------------|\n| Klassisch ("
+    },
+    {
+      "slug": "bsi-plans-market-surveillance",
+      "claim_id": "bsi-zt.9",
+      "statement": "BSI plans market surveillance, IT-Grundschutz integration, and sector-specific guidance",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "_No evidence separable from the claim statement in the source note._"
+    },
+    {
+      "slug": "bsi-provides-formal-three",
+      "claim_id": "bsi-zt.2",
+      "statement": "BSI provides a formal three-part definition that extends NIST with German regulatory context",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The definition explicitly derives from the \"Assume Breach\" approach, tracing its lineage through Marsh (1994), Jericho Forum (2003), Kindervag/Forrester (2010), Google BeyondCorp (2014), and NIST SP 800-207 (2019). The BSI positions its definition as synthesizing this lineage while adding German-specific emphasis on *Nachweise* (verifiable evidence/proofs) for trust establishment."
+    },
+    {
+      "slug": "bsi-provides-most-candid-government-assessment-zt",
+      "claim_id": "bsi-zt.6",
+      "statement": "BSI provides the most candid government assessment of ZT's limitations",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "_No evidence separable from the claim statement in the source note._"
+    },
+    {
+      "slug": "bsi-provides-only-government-framework-multi",
+      "claim_id": "bsi-zt.8",
+      "statement": "BSI provides the only government framework for multi-organizational ZT architectures",
+      "claim_type": "definitional",
+      "confidence": "medium",
+      "evidence_excerpt": "_No evidence separable from the claim statement in the source note._"
+    },
+    {
+      "slug": "bsi-seven-core-messages-frame-zt-preventive",
+      "claim_id": "bsi-zt.1",
+      "statement": "BSI's seven core messages frame ZT as a preventive, holistic, long-term, resource-intensive, and confidentiality/integrity-focused paradigm",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "_No evidence separable from the claim statement in the source note._"
+    },
+    {
+      "slug": "bsi-specifies-five-mandatory-prerequisites-before-zt",
+      "claim_id": "bsi-zt.5",
+      "statement": "BSI specifies five mandatory prerequisites before ZT implementation can begin",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "_No evidence separable from the claim statement in the source note._"
+    },
+    {
+      "slug": "challenges-realistic-underdeveloped",
+      "claim_id": "cccs-model.4",
+      "statement": "The challenges are realistic but underdeveloped",
+      "claim_type": "definitional",
+      "confidence": "medium",
+      "evidence_excerpt": "_No evidence separable from the claim statement in the source note._"
+    },
+    {
+      "slug": "cisa-pillar-described-traditional-advanced-optimal-maturity",
+      "claim_id": "cccs-model.2",
+      "statement": "Each CISA pillar is described at the Traditional/Advanced/Optimal maturity gradient",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "_No evidence separable from the claim statement in the source note._"
+    },
+    {
+      "slug": "dod-zt-operational-not-architectural",
+      "claim_id": "dod-ra-ov.1",
+      "statement": "DoD's ZT strategy is operational, not architectural",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The RA uses DoDAF operational views (OV-1, OV-2, CV-1, CV-2) rather than technical specifications. Artifacts are intentionally informal \u2014 \"informal drawings are easier to understand by a wide audience.\" The document's organization prioritizes Strategy and Vision \u2192 Pillars and Principles \u2192 Conceptual Capability Architecture \u2192 Use Cases. The architecture is the *last* concern, not the first. This is"
+    },
+    {
+      "slug": "executive-sponsorship-strongest-predictor-zta-implementation-success",
+      "claim_id": "academic.2",
+      "statement": "Executive sponsorship is the strongest predictor of ZTA implementation success (\u03b2 = 0.342), and phased deployment significantly outperforms big-bang approaches \u2014 both findings converge with practitioner literature despite synthetic data limitations.",
+      "claim_type": "definitional",
+      "confidence": "medium",
+      "evidence_excerpt": "Medium enterprises (1,000\u20135,000 employees) showed optimal implementation efficiency \u2014 scale \u2260 advantage. Healthcare's 94% no-post-go-live-modifications rate is the standout finding, suggesting the sector's regulatory-driven, methodical approach produces more durable implementations. The 43% mid-deployment redesign rate in technology is a cautionary counterpoint to the books' linear implementation "
+    },
+    {
+      "slug": "four-concrete-starting-points-actionable-abstract-principles",
+      "claim_id": "cccs-model.5",
+      "statement": "Four concrete starting points are more actionable than abstract principles",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "_No evidence separable from the claim statement in the source note._"
+    },
+    {
+      "slug": "kindervag-coined-zero-trust",
+      "claim_id": "nist207-ch1.6",
+      "statement": "John Kindervag at Forrester coined the term \"zero trust,\" which then became the dominant term for security solutions that evaluate trust per-transaction rather than by network location.",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "- Kindervag at Forrester as the source of the term (footnote cites https://go.forrester.com/blogs/next-generation-access-and-zero-trust/).\n- NIST explicitly notes its non-endorsement of commercial products (footnote 2, lines 424\u2013425) \u2014 distancing itself from Forrester as a commercial entity while crediting the intellectual contribution.\n- The claim that \"both private industry and higher education\""
+    },
+    {
+      "slug": "modeled-zta-effectiveness-shows-very-large-effect",
+      "claim_id": "academic.1",
+      "statement": "Modeled ZTA effectiveness shows very large effect sizes across all metrics \u2014 63-79% improvements in breach reduction, financial loss, downtime, and recovery time \u2014 but all data is synthetic, not measured from real enterprise telemetry.",
+      "claim_type": "definitional",
+      "confidence": "low",
+      "evidence_excerpt": "Detection improvements by threat type: insider threats (67% improvement), lateral movement (58%), APTs (52%), data exfiltration (48%), malware containment (45%). Critical success factors (multiple regression, R\u00b2 = 0.847): executive sponsorship (r = 0.78, \u03b2 = 0.342, p < 0.001), dedicated implementation team (r = 0.71, \u03b2 = 0.251, p < 0.002), phased deployment (r = 0.68, \u03b2 = 0.187, p < 0.008). Sector"
+    },
+    {
+      "slug": "nist-document-structure-framework",
+      "claim_id": "nist207-ch1.8",
+      "statement": "The document's organization \u2014 definitions \u2192 components \u2192 use cases \u2192 threats \u2192 federal guidance \u2192 migration roadmap \u2014 represents the essential framework for understanding and implementing ZTA.",
+      "claim_type": "definitional",
+      "confidence": "low",
+      "evidence_excerpt": "The structure itself is the evidence \u2014 NIST is asserting, by organizational choice, that these are the essential elements of ZTA understanding. No meta-level justification is offered for why this particular sequence is correct."
+    },
+    {
+      "slug": "paper-provides-most-comprehensive-existing-mapping-iot",
+      "claim_id": "academic.4",
+      "statement": "The paper provides the most comprehensive existing mapping of IoT vulnerabilities \u2192 ZT solutions across the three IoT architecture layers, but all surveyed solutions are at proof-of-concept/prototype stage \u2014 none validated at production scale.",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "Implementation challenges: dynamic/granular policy for millions of devices in 5G+ is exponentially complex; MSG operational complexity requires per-area precise security policies with massive configuration work; latency and resource cost from continuous auth/monitoring burdens constrained IoT devices. Future research directions: AI-driven automated policy generation, digital twin for ZT identity/a"
+    },
+    {
+      "slug": "zero-trust-is-a-philosophy-principles-and-a",
+      "claim_id": "gc-ch1-3.3",
+      "statement": "Zero Trust is a philosophy, principles, and a journey \u2014 not a product, not a one-and-done project, and not a single architecture.",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The book deliberately avoids vendor evaluations. \"Our industry moves too quickly \u2014 the pace of innovation is high \u2014 and any such reviews would have a very short shelf life. Instead, we're focusing on exploring architectural principles from which you can draw requirements.\" The claim is presented as professional judgment from practitioner experience."
+    },
+    {
+      "slug": "zt-defined-cisa-five",
+      "claim_id": "cccs-model.1",
+      "statement": "ZT is defined through the CISA five-pillar model rather than NIST tenets",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "Unlike ITSM.10.008 (which uses NIST's seven tenets), ITSAP.10.008 organizes ZT understanding around CISA's five pillars \u2014 Identity, Device, Network/Environment, Application Workload, and Data \u2014 plus three cross-cutting capabilities (Visibility & Analytics, Automation & Orchestration, Governance). Each pillar is given a single-paragraph description at the Traditional-to-Optimal maturity spectrum."
+    },
+    {
+      "slug": "zt-predates-term-disa-jericho",
+      "claim_id": "nist207-ch1.5",
+      "statement": "The concept of zero trust predates the term \u2014 DISA \"black core\" and the Jericho Forum were conceptual predecessors focused on per-transaction security and de-perimeterization.",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "- DISA's \"black core\" [BCORE] \u2014 DoD strategy for per-transaction security (date not specified in this text; DISA black core work dates to early 2000s).\n- Jericho Forum (2004) \u2014 industry consortium that coined \"de-perimeterization\" [JERICHO].\n- NIST cites these as precursors, establishing intellectual lineage for the federal audience."
+    },
+    {
+      "slug": "zt-provides-six-benefits-organized-around-visibility",
+      "claim_id": "cccs-model.3",
+      "statement": "ZT provides six benefits organized around visibility, protection, and modernization",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "_No evidence separable from the claim statement in the source note._"
+    },
+    {
+      "slug": "zt-research-entered-rapid-growth-phase-145",
+      "claim_id": "academic.3",
+      "statement": "ZT research has entered a rapid growth phase (145\u2192249\u2192~340 publications/year from 2021\u20132023) with IoT and cloud computing as the two dominant application domains, and the research is geographically concentrated \u2014 US + China = 42.5% of publications, with the Asian cluster notably insular.",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "Country productivity: US (201 pubs, 24.69%, h-index 20, ICR 0.26), China (145, 17.81%, h-index 10, ICR 0.15), India (103, 12.65%, ICR 0.10), Germany (68, 8.35%, ICR 0.19), UK (51, 6.27%, ICR 0.51). Finland has highest ICR (0.63). China's and India's low ICR values indicate the Asian ZT research cluster is more insular. Four co-authorship clusters: European (Germany-centered, 13 countries), US cros"
+    },
+    {
+      "slug": "zta-cannot-scale-without-ai",
+      "claim_id": "academic.5",
+      "statement": "ZTA cannot scale without AI-driven automation \u2014 manual access credential management, trust evaluation, and policy updates become impossible at enterprise scale, and AI is the only viable approach, but no unified automation policy exists.",
+      "claim_type": "definitional",
+      "confidence": "medium",
+      "evidence_excerpt": "Four ZTA automation domains mapped to AI: (1) Control Plane \u2014 Trust Evaluation via supervised/unsupervised/semi-supervised/RL/transfer/federated/quantum learning; (2) Authentication \u2014 CNN/RNN for ECG continuous auth, SVM/DT for keystroke dynamics, LSTM for contextual behavioral auth, multimodal fusion (EEG + gait, face + voice); device auth via Radio Frequency Fingerprint Identification (RFFI) wit"
+    },
+    {
+      "slug": "ztmm-nist-800-207-definition-foundation",
+      "claim_id": "cisa-ztmm-ov.3",
+      "statement": "The ZTMM is built on NIST SP 800-207's operative definition \u2014 zero trust minimizes uncertainty, not risk",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The definition is quoted directly with the exact NIST SP 800-207 citation. The document synthesizes both NIST's formal definition and NSTAC's operational description, establishing a dual foundation: NIST provides the conceptual framework, NSTAC provides the operational framing (\"assume breach, continual verification\")."
+    },
+    {
+      "slug": "location-centric-to-identity-data-centric-shift",
+      "claim_id": "cisa-ztmm-ov.4",
+      "statement": "Zero trust represents a fundamental shift from location-centric to identity/data-centric security",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The document explicitly contrasts the \"old\" model (perimeter-based, location = trust) with the \"new\" model (identity + context + data-centric, continuous verification). It acknowledges that this is not a technology swap \u2014 it's a culture change. The cost discussion notes that initial implementation adds costs, but long-term enables \"more prudent allocation of security investments toward the most cr"
+    },
+    {
+      "slug": "the-adversarial-view-reveals-that-zt-is-a",
+      "claim_id": "gb-ch10.8",
+      "statement": "The adversarial view reveals that ZT is a risk reduction strategy, not a risk elimination strategy",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "This is the summary's thesis \u2014 the chapter catalogs attack vectors not to show ZT's invulnerability but to identify what ZT mitigates, what it detects, and what it can only contain. The honest acknowledgment that \"every system is susceptible to an attacker with sufficient resources\" is the chapter's meta-claim."
+    },
+    {
+      "slug": "zt-positive-tenets",
+      "claim_id": "nist207-ch2.1",
+      "statement": "Zero Trust is defined by its positive tenets, not by what it excludes",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The seven tenets are technology-agnostic and stated positively \u2014 what ZTA DOES, not what it eliminates. The authors explicitly note that perimeter-based defenses (like micro-segmentation) are still part of ZTA, just not the organizing principle."
+    },
+    {
+      "slug": "zt-assume-breach",
+      "claim_id": "nsa-embrace.1",
+      "statement": "Zero Trust is defined by \"assume breach,\" not architecture",
+      "claim_type": "threat",
+      "confidence": "high",
+      "evidence_excerpt": "The document opens with the threat landscape \u2014 sophisticated adversaries, perimeter defense failure, insider threats \u2014 before defining what Zero Trust IS. This is a rhetorical choice: define the problem first, then present Zero Trust as the solution. NIST 800-207 does the opposite: defines the architecture, then discusses threats in Ch 5."
+    }
+  ]
+}

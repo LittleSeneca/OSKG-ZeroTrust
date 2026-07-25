@@ -1,0 +1,26 @@
+[
+  {
+    "source": "finney-ch8-11.5",
+    "target": "finney-ch8-11.7",
+    "relation": "extends",
+    "rationale": "Claim 11.5 takes the 'security minute' ritual concept from 11.7 and frames it within the ZT protect-surface methodology applied to people, operationalizing the culture-change ritual into a structured ZT governance approach."
+  },
+  {
+    "source": "gc-ch1-3.8",
+    "target": "gc-ch1-3.6",
+    "relation": "extends",
+    "rationale": "The 14 platform requirements (3.8) operationalize the expanded principles of API integration, automation, and business value delivery (3.6) into specific verifiable criteria, turning abstract principles into concrete governance benchmarks."
+  },
+  {
+    "source": "nist207-ch6.3",
+    "target": "gc-ch1-3.6",
+    "relation": "depends_on",
+    "rationale": "The per-resource, per-session risk acceptance model encoded algorithmically in the Policy Engine (6.3) depends on API integration and automation (3.6) to function at enterprise scale; without these expanded principles, algorithmic risk acceptance is impractical."
+  },
+  {
+    "source": "gc-ch1-3.8",
+    "target": "nist207-ch6.3",
+    "relation": "supports",
+    "rationale": "The 14 platform requirements (3.8) provide the verifiable operational criteria — encryption, access controls, device posture, continuous authorization — that enable the per-resource, per-session risk acceptance model described in 6.3."
+  }
+]

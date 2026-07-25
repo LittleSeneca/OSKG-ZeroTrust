@@ -1,0 +1,218 @@
+[
+  {
+    "claim_a": "beyondcorp-access-flow-enforces-per",
+    "claim_b": "device-inventory-service",
+    "edge_type": "depends_on",
+    "rationale": "The trust inference pipeline requires the Device Inventory Service to supply device trust data (OS patch level, security scan results, device model) for per-request authorization decisions."
+  },
+  {
+    "claim_a": "tiered-access",
+    "claim_b": "device-inventory-service",
+    "edge_type": "depends_on",
+    "rationale": "Tiered access levels depend on device trust evaluations computed by the Device Inventory Service from its 15+ data sources."
+  },
+  {
+    "claim_a": "endpoint-new-perimeter",
+    "claim_b": "device-inventory-service",
+    "edge_type": "depends_on",
+    "rationale": "Treating the endpoint as the new perimeter requires fleet health and device trustworthiness data that only the Device Inventory Service can provide."
+  },
+  {
+    "claim_a": "mnp-simulator",
+    "claim_b": "beyondcorp-migration-followed-consistent-cadence",
+    "edge_type": "supports",
+    "rationale": "The MNP Simulator's logging and enforcement modes operationalized the Log phase of the Analyze\u2192Log\u2192Warn\u2192Enforce\u2192Default cadence by testing at the client level before network changes."
+  },
+  {
+    "claim_a": "breakthrough-operational-insight-partitioning-parallel-progress",
+    "claim_b": "beyondcorp-migration-followed-consistent-cadence",
+    "edge_type": "supports",
+    "rationale": "Partitioning devices into a new VLAN in final BeyondCorp configuration and incrementally moving them enabled the consistent migration cadence to proceed in parallel workstreams."
+  },
+  {
+    "claim_a": "mnp-simulator",
+    "claim_b": "breakthrough-operational-insight-partitioning-parallel-progress",
+    "edge_type": "supports",
+    "rationale": "The MNP Simulator's client-level enforcement testing enabled the parallel-progress strategy by validating traffic compliance before VLAN migration."
+  },
+  {
+    "claim_a": "flexible-policies-using-thresholds-rather-absolutes-combined",
+    "claim_b": "tiered-access",
+    "edge_type": "supports",
+    "rationale": "Threshold-based trust policies (rather than binary absolutes) make tiered access practical by allowing devices to be downgraded to intermediate tiers rather than fully denied."
+  },
+  {
+    "claim_a": "flexible-policies-using-thresholds-rather-absolutes-combined",
+    "claim_b": "beyondcorp-caused-30-fewer-support-issues-comparable",
+    "edge_type": "supports",
+    "rationale": "Flexible threshold-based policies prevent the draconian enforcement that drives users to seek workarounds, directly reducing the support ticket volume."
+  },
+  {
+    "claim_a": "strategic-pivot-prove-user-successful-before-migrating",
+    "claim_b": "beyondcorp-caused-30-fewer-support-issues-comparable",
+    "edge_type": "supports",
+    "rationale": "The strategic pivot from opt-in to opt-out ensured full migration coverage, eliminating the long tail of noncompliant applications that would otherwise generate ongoing support issues."
+  },
+  {
+    "claim_a": "beyondcorp-migration-followed-consistent-cadence",
+    "claim_b": "strategic-pivot-prove-user-successful-before-migrating",
+    "edge_type": "supports",
+    "rationale": "The Analyze\u2192Log\u2192Warn\u2192Enforce\u2192Default cadence provided the operational framework that made the strategic opt-out pivot safe and achievable."
+  },
+  {
+    "claim_a": "incident-management-without-problem-management-creates-a-firefighting",
+    "claim_b": "prevention-is-possible-and-more-cost-effective-than-recovery",
+    "edge_type": "supports",
+    "rationale": "Problem management (investigating root causes) is the operational mechanism for prevention, making incident-without-problem management the antithesis of cost-effective prevention."
+  },
+  {
+    "claim_a": "tabletop-exercises-are-the-monitor-and-maintain-phase",
+    "claim_b": "prevention-is-possible-and-more-cost-effective-than-recovery",
+    "edge_type": "supports",
+    "rationale": "Tabletop exercises test prevention controls and organizational culture simultaneously, serving as a proactive validation mechanism that is more cost-effective than reactive recovery."
+  },
+  {
+    "claim_a": "zt-doesnt-eliminate-trust-relationships-the-penetration-test",
+    "claim_b": "pillar-ideals-vs-operational-realities",
+    "edge_type": "supports",
+    "rationale": "The penetration test finding that ZT does not eliminate all trust relationships (IoT and scanner vectors) provides concrete evidence of the gap between pillar ideals and operational realities."
+  },
+  {
+    "claim_a": "public-facing-services-zta-boundary",
+    "claim_b": "pillar-ideals-vs-operational-realities",
+    "edge_type": "supports",
+    "rationale": "Public-facing services expose a boundary where ZT tenets cannot be fully applied, directly illustrating the device-pillar-vs-practical-constraints tension CISA identifies."
+  },
+  {
+    "claim_a": "endpoint-new-perimeter",
+    "claim_b": "beyondcorp-access-flow-enforces-per",
+    "edge_type": "supports",
+    "rationale": "The endpoint-as-perimeter concept provides the device trustworthiness foundation that enables the per-request authorization flow's trust inference pipeline."
+  },
+  {
+    "claim_a": "the-zero-trust-implementation-curve-prevents-boiling-the",
+    "claim_b": "zta-implementation-continuous-improvement-journey-one",
+    "edge_type": "supports",
+    "rationale": "The Implementation Curve's principle of starting small with non-critical protect surfaces embodies the continuous-improvement-over-big-bang philosophy."
+  },
+  {
+    "claim_a": "beyondcorp-migration-followed-consistent-cadence",
+    "claim_b": "zta-implementation-continuous-improvement-journey-one",
+    "edge_type": "supports",
+    "rationale": "BeyondCorp's documented Analyze\u2192Log\u2192Warn\u2192Enforce\u2192Default cadence serves as a canonical example of continuous improvement in ZT implementation."
+  },
+  {
+    "claim_a": "the-sbc-case-study-demonstrates-that-practical-zt",
+    "claim_b": "zta-implementation-continuous-improvement-journey-one",
+    "edge_type": "supports",
+    "rationale": "The SBC case study's aggressive scope constraint (10 tags, 5-7 endpoint groups) demonstrates a practical strategy for sustaining continuous improvement without analysis paralysis."
+  },
+  {
+    "claim_a": "new-endpoint-onboarding-day-2-operations-requires-a",
+    "claim_b": "device-inventory-service",
+    "edge_type": "supports",
+    "rationale": "The centralized onboarding process with structured checklist and full NetFlow collection populates the Device Inventory Service with the data it needs for accurate trust evaluations."
+  },
+  {
+    "claim_a": "flexible-policies-using-thresholds-rather-absolutes-combined",
+    "claim_b": "pillar-ideals-vs-operational-realities",
+    "edge_type": "supports",
+    "rationale": "BeyondCorp's flexible threshold-based policies demonstrate a practical approach to resolving the tension between ZT pillar ideals and operational realities that CISA identifies."
+  },
+  {
+    "claim_a": "endpoint-new-perimeter",
+    "claim_b": "perimeter-security-model-core-assumptions-no-longer",
+    "edge_type": "extends",
+    "rationale": "The endpoint replacing network location as the security boundary is the direct solution to the broken perimeter model's assumption that internal networks are trustworthy."
+  },
+  {
+    "claim_a": "beyondcorp-access-flow-enforces-per",
+    "claim_b": "perimeter-security-model-core-assumptions-no-longer",
+    "edge_type": "extends",
+    "rationale": "Per-request authorization through continuous trust inference is the access control alternative that replaces the perimeter model's implicit trust in network location."
+  },
+  {
+    "claim_a": "contracted-services-sdp-dark-network",
+    "claim_b": "perimeter-security-model-core-assumptions-no-longer",
+    "edge_type": "extends",
+    "rationale": "The SDP dark network model\u2014obscuring enterprise resources from network discovery\u2014is the ZT alternative to perimeter-based security for the specific use case of contracted services."
+  },
+  {
+    "claim_a": "tiered-access",
+    "claim_b": "beyondcorp-access-flow-enforces-per",
+    "edge_type": "extends",
+    "rationale": "Tiered access refines per-request authorization by organizing trust levels into sensitivity tiers, moving beyond binary allow/deny to graduated access decisions."
+  },
+  {
+    "claim_a": "tabletop-exercises-are-the-monitor-and-maintain-phase",
+    "claim_b": "zta-implementation-continuous-improvement-journey-one",
+    "edge_type": "extends",
+    "rationale": "Tabletop exercises operationalize the monitor and maintain phase of the continuous improvement journey by testing controls and culture simultaneously."
+  },
+  {
+    "claim_a": "the-zero-trust-implementation-curve-prevents-boiling-the",
+    "claim_b": "beyondcorp-migration-followed-consistent-cadence",
+    "edge_type": "extends",
+    "rationale": "The Zero Trust Implementation Curve generalizes the BeyondCorp migration cadence into a broader principle applicable to any ZT initiative."
+  },
+  {
+    "claim_a": "the-sbc-case-study-demonstrates-that-practical-zt",
+    "claim_b": "the-zero-trust-implementation-curve-prevents-boiling-the",
+    "edge_type": "extends",
+    "rationale": "The SBC case study is a concrete, detailed example of the Implementation Curve in practice, showing how aggressive scope constraint prevents boiling the ocean."
+  },
+  {
+    "claim_a": "the-zero-trust-discovery-workshop-is-the-critical",
+    "claim_b": "the-zero-trust-implementation-curve-prevents-boiling-the",
+    "edge_type": "extends",
+    "rationale": "The Zero Trust Discovery Workshop is the first step on the Implementation Curve, establishing business requirements and the protect surface before any technical work begins."
+  },
+  {
+    "claim_a": "the-zero-trust-discovery-workshop-is-the-critical",
+    "claim_b": "zta-implementation-continuous-improvement-journey-one",
+    "edge_type": "extends",
+    "rationale": "The Discovery Workshop is the critical first step of the continuous improvement journey, providing the foundational analysis that all subsequent phases depend on."
+  },
+  {
+    "claim_a": "project-mapped-zta-security-capabilities-nist-csf",
+    "claim_b": "project-eight-use-case-categories",
+    "edge_type": "extends",
+    "rationale": "Mapping ZTA security capabilities to NIST frameworks is one of the eight use case categories (A\u2013H) that comprise the comprehensive ZTA testing framework."
+  },
+  {
+    "claim_a": "flow-enumeration-is-the-hardest-requirement-and-the",
+    "claim_b": "the-shouldmust-list-is-zt-implementations-operational-checklist",
+    "edge_type": "extends",
+    "rationale": "Flow enumeration is a specific, critical item on the SHOULD/MUST operational checklist, identified as both the hardest and highest-value requirement."
+  },
+  {
+    "claim_a": "flow-enumeration-is-the-hardest-requirement-and-the",
+    "claim_b": "the-zero-trust-discovery-workshop-is-the-critical",
+    "edge_type": "extends",
+    "rationale": "Flow enumeration is a core activity within the Zero Trust Discovery Workshop's data collection and analysis phase, making it the hardest part of the critical first step."
+  },
+  {
+    "claim_a": "contracted-services-sdp-dark-network",
+    "claim_b": "endpoint-new-perimeter",
+    "edge_type": "extends",
+    "rationale": "The SDP dark network model extends the endpoint-as-perimeter concept to non-enterprise devices and contracted services, where full endpoint control is impossible."
+  },
+  {
+    "claim_a": "new-endpoint-onboarding-day-2-operations-requires-a",
+    "claim_b": "endpoint-new-perimeter",
+    "edge_type": "extends",
+    "rationale": "The centralized onboarding process (isolated segment, NAC policy, NetFlow collection) is the operational procedure that achieves the identified state required for endpoint-as-perimeter security."
+  },
+  {
+    "claim_a": "beyondcorp-access-flow-enforces-per",
+    "claim_b": "automation-bridges-the-gap-between-trust-assessment-and",
+    "edge_type": "extends",
+    "rationale": "BeyondCorp's continuously running trust inference pipeline is a specific, large-scale implementation of the general principle that automation bridges trust assessment and enforcement."
+  },
+  {
+    "claim_a": "strategic-pivot-prove-user-successful-before-migrating",
+    "claim_b": "the-zero-trust-implementation-curve-prevents-boiling-the",
+    "edge_type": "extends",
+    "rationale": "The strategic pivot from opt-in to opt-out represents a later-phase refinement of the Implementation Curve, addressing the coverage challenge after initial small-scale success."
+  }
+]

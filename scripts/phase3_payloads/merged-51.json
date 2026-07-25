@@ -1,0 +1,79 @@
+{
+  "cluster_id": "merged-51",
+  "cluster_label": "architecture (architectural)",
+  "size": 9,
+  "claims": [
+    {
+      "slug": "dependency-curves-reveal-zt-operational-limits",
+      "claim_id": "yu-cdm.3",
+      "statement": "The dependency curves reveal ZT's operational limits",
+      "claim_type": "architectural",
+      "confidence": "medium",
+      "evidence_excerpt": "Yu cites research on the \"ironies of automation\" \u2014 the more we automate, the more critical human operators become for handling edge cases. Left-of-boom activities (inventory, vulnerability management, access control) benefit heavily from technology. Right-of-boom activities (triage, investigation, containment) still depend on human judgment, especially for novel attack patterns that evade automate"
+    },
+    {
+      "slug": "five-nist-csf-functions-form-strict-temporal",
+      "claim_id": "yu-cdm.2",
+      "statement": "The five NIST CSF functions form a strict temporal sequence with clear semantics",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "Yu distinguishes between structural awareness (left-of-boom: knowing what assets exist, their configurations, their weaknesses) and situational awareness (right-of-boom: analyzing events, investigating state changes, gathering evidence of exploitation). A vulnerability is a structural weakness \u2014 discovering it is IDENTIFY regardless of whether it's been exploited yet. Patching a vulnerability is a"
+    },
+    {
+      "slug": "grid-most-parsimonious-complete-map-cybersecurity",
+      "claim_id": "yu-cdm.1",
+      "statement": "The 5\u00d75 grid is the most parsimonious complete map of cybersecurity",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The matrix emerged from Yu's practical need as Chief Security Scientist at Bank of America \u2014 evaluating hundreds of security startups against a complex enterprise portfolio with no common framework. The grid's simplicity is its strength: it forces practitioners to answer two questions about every capability \u2014 *what does it do?* (the function) and *to what?* (the asset class). The internal consiste"
+    },
+    {
+      "slug": "zt-maps-specific-protect-cells",
+      "claim_id": "yu-cdm.4",
+      "statement": "ZT maps to specific PROTECT cells \u2014 not the whole matrix",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "Yu maps the old perimeter-based model (single trust boundary at NETWORK G, implicit transitive trust to all internal assets) against the ZT model (each resource has its own trust boundary, identity assertions are verified by an access proxy before granting access to that specific resource). He shows how ZTNA (NETWORK-PROTECT), ZTAA (APPLICATION-PROTECT), and ZTDA (DEVICE-PROTECT) are distinct patt"
+    },
+    {
+      "slug": "zta-three-core-components-pe-pa-pep",
+      "claim_id": "nist207-ch3.1",
+      "statement": "ZTA has three core decision-making components (PE, PA, PEP)",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "Architectural model (Figure 2) with enumerated component definitions. This is an ideal logical model \u2014 not a deployment specification. NIST explicitly notes that implementations may combine PE and PA into a single service, but separates them for conceptual clarity."
+    },
+    {
+      "slug": "eight-data-sources-feed-policy-engine",
+      "claim_id": "nist207-ch3.2",
+      "statement": "Eight data sources feed the Policy Engine's access decisions",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "Enumerated descriptions of each data source with its role in access decisions. NIST distinguishes between local (enterprise-controlled) and external sources.\n\n**Cross-reference table:**\n\n| NIST Data Source | CISA Maturity Model Pillar | DoD ZT RA Mapping |\n|---|---|---|\n| CDM System | Device pillar | Device compliance / continuous monitoring |\n| Industry Compliance | Governance pillar | Policy adm"
+    },
+    {
+      "slug": "ffp-five-decision-points-chain",
+      "claim_id": "dod-ra-cap.3",
+      "statement": "The Fit-for-Purpose (FFP) mapping instantiates a chain of five decision points \u2014 not NIST's single PDP \u2014 extending from Authentication through Authorization, Resource, Application, to Data, with each building on the previous and independently evaluating confidence levels.",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "| Decision Point | What It Evaluates | Capability |\n|---|---|---|\n| **Authentication Decision Point** | Credential issuance, user/NPE identity, device managed/unmanaged state | Continuous Authentication, ICAM Service |\n| **Authorization Decision Point** | User and device confidence levels against policy | Conditional Authorization, C2C Service |\n| **Resource Authorization Decision Point** | Combin"
+    },
+    {
+      "slug": "the-policy-evaluation-flow-pdp-grants-pep-renders",
+      "claim_id": "gc-iam-policy.12",
+      "statement": "The policy evaluation flow \u2014 PDP grants, PEP renders and enforces \u2014 establishes a clear division of labor with specific attribute refresh implications",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "Figure 17-6 shows the complete flow: PDP evaluates Subject Criteria against identity/device/system attributes \u2192 transmits granted policies (actions, targets, conditions) to PEP \u2192 PEP finishes rendering dynamic targets (DNS resolution, tag matching) \u2192 PEP evaluates conditions at access time. Figure 17-7 identifies four trigger types: Authentication (~once/day), Access (many times/day \u2014 every packet"
+    },
+    {
+      "slug": "zt-pdp-pep-model",
+      "claim_id": "nist207-ch2.4",
+      "statement": "The PDP/PEP model is the abstract architecture underlying all ZTA deployments",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The airport security analogy \u2014 all passengers pass through the checkpoint (PDP/PEP), and the boarding area is the implicit trust zone. The PDP/PEP cannot apply additional policies beyond its location in the traffic flow. Moving PDP/PEPs closer to resources shrinks the implicit trust zone."
+    }
+  ]
+}

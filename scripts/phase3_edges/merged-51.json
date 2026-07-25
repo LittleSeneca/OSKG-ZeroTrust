@@ -1,0 +1,47 @@
+[
+  {
+    "source": "five-nist-csf-functions-form-strict-temporal",
+    "target": "grid-most-parsimonious-complete-map-cybersecurity",
+    "relationship": "supports"
+  },
+  {
+    "source": "dependency-curves-reveal-zt-operational-limits",
+    "target": "five-nist-csf-functions-form-strict-temporal",
+    "relationship": "extends"
+  },
+  {
+    "source": "zt-maps-specific-protect-cells",
+    "target": "grid-most-parsimonious-complete-map-cybersecurity",
+    "relationship": "extends"
+  },
+  {
+    "source": "zta-three-core-components-pe-pa-pep",
+    "target": "zt-pdp-pep-model",
+    "relationship": "extends"
+  },
+  {
+    "source": "eight-data-sources-feed-policy-engine",
+    "target": "zta-three-core-components-pe-pa-pep",
+    "relationship": "extends"
+  },
+  {
+    "source": "the-policy-evaluation-flow-pdp-grants-pep-renders",
+    "target": "zt-pdp-pep-model",
+    "relationship": "extends"
+  },
+  {
+    "source": "the-policy-evaluation-flow-pdp-grants-pep-renders",
+    "target": "zta-three-core-components-pe-pa-pep",
+    "relationship": "extends"
+  },
+  {
+    "source": "ffp-five-decision-points-chain",
+    "target": "zta-three-core-components-pe-pa-pep",
+    "relationship": "extends"
+  },
+  {
+    "source": "ffp-five-decision-points-chain",
+    "target": "the-policy-evaluation-flow-pdp-grants-pep-renders",
+    "relationship": "extends"
+  }
+]

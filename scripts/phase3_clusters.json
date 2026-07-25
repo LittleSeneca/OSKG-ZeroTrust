@@ -92,8 +92,8 @@
       "candidate_pairs": 210,
       "split_method": "merged",
       "topics": [
-        "topic/zt-definition",
-        "topic/zt-tenets"
+        "topic/zt-tenets",
+        "topic/zt-definition"
       ]
     },
     {
@@ -123,8 +123,8 @@
       "candidate_pairs": 231,
       "split_method": "merged",
       "topics": [
-        "topic/zt-supply-chain",
-        "topic/zt-device"
+        "topic/zt-device",
+        "topic/zt-supply-chain"
       ]
     },
     {
@@ -134,8 +134,8 @@
       "candidate_pairs": 36,
       "split_method": "merged",
       "topics": [
-        "topic/zt-maturity",
-        "topic/zt-governance"
+        "topic/zt-governance",
+        "topic/zt-maturity"
       ]
     },
     {
@@ -248,8 +248,8 @@
       "candidate_pairs": 325,
       "split_method": "merged",
       "topics": [
-        "topic/zt-encryption",
-        "topic/zt-network"
+        "topic/zt-network",
+        "topic/zt-encryption"
       ]
     },
     {

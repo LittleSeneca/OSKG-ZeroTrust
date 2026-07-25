@@ -1,0 +1,26 @@
+[
+  {
+    "source": "gb-ch4-6.6",
+    "target": "gb-ch4-6.14",
+    "relation": "supports",
+    "rationale": "Multi-party authorization for certificate signing is a concrete, high-stakes application of group authorization as the highest-trust mechanism for sensitive operations."
+  },
+  {
+    "source": "gb-ch3.3",
+    "target": "gb-ch10.6",
+    "relation": "supports",
+    "rationale": "The operational rule 'revoke authorization first, credentials second' directly reinforces the architectural principle that ZT addresses invalidation through granular authorization rather than push-based credential revocation."
+  },
+  {
+    "source": "gb-ch2.4",
+    "target": "gb-ch10.6",
+    "relation": "depends_on",
+    "rationale": "Dynamic, multi-attribute least privilege requires granular per-request authorization decisions as its enabling mechanism \u2014 the same granular authorization that Claim gb-ch10.6 identifies as ZT's approach to invalidation."
+  },
+  {
+    "source": "gc-iam-policy.3",
+    "target": "gb-ch2.4",
+    "relation": "supports",
+    "rationale": "SDP delivers the architectural foundation for dynamic, device-bound least privilege: mTLS provides the device-binding dimension, and SPA enables dynamic per-request access control."
+  }
+]

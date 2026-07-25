@@ -1,0 +1,239 @@
+{
+  "cluster_id": "merged-13",
+  "cluster_label": "cloud (implementation)",
+  "size": 29,
+  "claims": [
+    {
+      "slug": "alts-application-layer-transport-security-workhorse-beyondprod",
+      "claim_id": "beyondprod.2",
+      "statement": "ALTS (Application Layer Transport Security) is the workhorse of BeyondProd \u2014 binding identities to services rather than hosts is the critical design decision that enables seamless replication, load balancing, and rescheduling across machines.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Machine-level ALTS credentials are provisioned using the host integrity system and can only be decrypted if secure boot was verified. Borg Prime grants microservice-level ALTS credentials based on the microservice's identity, provisioned over the machine-level secure channel. This creates a chain: Titan chip \u2192 verified boot \u2192 host integrity \u2192 machine ALTS credentials \u2192 service ALTS credentials. Th"
+    },
+    {
+      "slug": "automation-orchestration-optional",
+      "claim_id": "halley.4",
+      "statement": "Automation and orchestration are not optional \u2014 they are ZT prerequisites at scale",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The book's Part 2 (Ch5-11) covers the automation substrate: DHCP security (snooping, Option 82 for device identity), zero-touch provisioning (assuring device integrity from first boot), API security (northbound/southbound/east-west APIs as attack surface), and Infrastructure as Code (Terraform, Ansible) for consistent security configuration. Part 6 (Ch22) covers third-party SDN integrations \u2014 ZT r"
+    },
+    {
+      "slug": "beyondcorp-beyondprod-together-form-complete-zt-model",
+      "claim_id": "beyondprod.6",
+      "statement": "BeyondCorp and BeyondProd together form a complete ZT model \u2014 BeyondCorp for the north-south axis (user-to-app) and BeyondProd for the east-west axis (service-to-service) \u2014 a distinction NIST 800-207 does not explicitly make.",
+      "claim_type": "implementation",
+      "confidence": "medium",
+      "evidence_excerpt": "The comparison table shows systematic mapping: BeyondCorp uses SSO + device certs for identity; BeyondProd uses ALTS + service identity. BeyondCorp authorizes via Access Control Engine + Trust Inferer; BeyondProd via Service Access Management + EUC tickets. BeyondCorp uses unprivileged VLANs + Access Proxy; BeyondProd uses all-RPC-over-ALTS + GFE edge. BeyondCorp verifies device state; BeyondProd "
+    },
+    {
+      "slug": "beyondcorp-google-implementation-zt-model-provides-architectural",
+      "claim_id": "ncsc.2",
+      "statement": "BeyondCorp is Google's implementation of the ZT model and provides the architectural foundation for all GCP ZT services \u2014 it is the most mature, battle-tested ZT implementation available as a cloud service.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "BeyondCorp began as an internal Google initiative in 2009 and is now \"used by most Googlers every day to provide user- and device-based authentication and authorization for Google's core infrastructure and corporate resources.\" The whitepaper describes BeyondCorp Enterprise as the commercial product that packages these capabilities. It also references BeyondProd \u2014 Google's complementary model for "
+    },
+    {
+      "slug": "cloud-3",
+      "claim_id": "halley.3",
+      "statement": "Cloud-native architectures are inherently ZT-aligned \u2014 but introduce new security surfaces",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The book's Part 4 (Ch15-18) provides a comprehensive security stack from infrastructure through application to end-user. Key ZT-aligned patterns include:\n- **Immutable infrastructure:** Containers are replaced, not patched \u2014 eliminating configuration drift and persistent compromise.\n- **Service mesh (Istio):** mTLS between services + fine-grained authorization policies \u2014 ZT for east-west traffic.\n"
+    },
+    {
+      "slug": "cloud-5",
+      "claim_id": "ncsc.5",
+      "statement": "Cloud-native monitoring (Security Command Center, Chronicle, Cloud Logging) enables ZT-appropriate monitoring focused on users/devices/services rather than network boundaries.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Google provides two primary monitoring locations:\n- **Cloud Identity Security Center:** Device and user configurations and behavior; login attempt reports; suspicious sign-in activity alerts; device security health events\n- **Security Command Center (SCC):** Asset discovery/inventory; threat prevention (web app vulnerabilities, misconfigurations); threat detection (container attacks, suspicious bi"
+    },
+    {
+      "slug": "cloud",
+      "claim_id": "nist-207a.2",
+      "statement": "Cloud-native ZTA requires a dedicated infrastructure layer \u2014 the service mesh \u2014 that acts as a \"cloud-native security kernel\" providing non-bypassable, always-invoked enforcement independent of application code.",
+      "claim_type": "implementation",
+      "confidence": "medium",
+      "evidence_excerpt": "- The service mesh data plane (sidecar proxies like Envoy) intercepts *all* traffic into and out of applications (lines 803\u2013806).\n- The mesh centrally manages a fleet of proxies, enabling policy definition, distribution, and enforcement from a single control plane (lines 794\u2013807).\n- The mesh provides the telemetry feedback loop needed for continuous policy improvement \u2014 \"authoring a change, observ"
+    },
+    {
+      "slug": "code-provenance-enforcement-binary-authorization-borg-closes",
+      "claim_id": "beyondprod.3",
+      "statement": "Code provenance enforcement (Binary Authorization for Borg) closes a critical gap that most ZT frameworks overlook \u2014 ensuring that only reviewed, trusted-built code reaches production.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The enforcement chain: developer submits change \u2192 central code repository enforces two-person review \u2192 approved change goes to central trusted build system \u2192 produces package with signed verifiable build manifest certificate \u2192 at deployment time, BAB validates the signed certificate confirming the entire review/build chain was followed. BAB rollout follows the same audit-first-then-enforce pattern"
+    },
+    {
+      "slug": "deploying-identity",
+      "claim_id": "nist-207a.6",
+      "statement": "Deploying identity-tier policies requires a standardized infrastructure for creating, issuing, and maintaining cryptographic service identities \u2014 SPIFFE is the recommended standard.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "- Pre-cloud, application requests were validated based on IP subnet/address \u2014 this is \"neither feasible nor scalable\" in multi-cloud environments (lines 1017\u20131023).\n- SPIFFE (Secure Production Identity Framework for Everyone) provides: a unique identity string (SPIFFE ID) encoded as a URI, carried in a cryptographically verifiable document (SVID, most commonly an X.509 certificate) (lines 1027\u2013103"
+    },
+    {
+      "slug": "end",
+      "claim_id": "beyondprod.5",
+      "statement": "End-User Context Tickets solve the problem of compromised services using their legitimate service identity for lateral movement \u2014 access decisions depend on both service identity AND the originating end user's identity.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The request flow demonstrates composition: User \u2192 GFE (TLS termination) \u2192 application frontend (authenticates user via EUA service, receives short-lived cryptographic end-user context ticket) \u2192 RPC over ALTS to storage backend, forwarding the ticket \u2192 backend service checks: frontend ALTS identity authorized to make requests AND present EUC ticket? Ticket valid? User in ticket authorized to access"
+    },
+    {
+      "slug": "google-zt-architecture-explicitly-supports-hybrid-environments",
+      "claim_id": "ncsc.6",
+      "statement": "Google's ZT architecture explicitly supports hybrid environments \u2014 on-premises applications can be secured through IAP connectors without requiring cloud migration.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The connector model allows organizations to apply ZT controls (identity-aware proxy, context-aware access, continuous evaluation) to on-premises applications without migrating them to GCP. Google's \"Open Cloud\" approach emphasizes partner ecosystem integration rather than lock-in."
+    },
+    {
+      "slug": "google-zt-architecture-maps-pdp-pep-model",
+      "claim_id": "ncsc.3",
+      "statement": "Google's ZT architecture maps to the PDP/PEP model with IAP as the Policy Enforcement Point, Access Context Manager as the Rules Engine, and Cloud IAM/Identity as the Policy Decision Point.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Access Context Manager uses multiple signals for access decisions \u2014 user and device posture, IP address, geolocation, session age, time of day, and credential strength (e.g., hardware second factor). Access levels can be tiered (e.g., \"High_Trust\" vs. \"Medium_Trust\") and applied to different resources."
+    },
+    {
+      "slug": "host-integrity-rooted-titan-security-chip-creates",
+      "claim_id": "beyondprod.4",
+      "statement": "Host Integrity, rooted in the Titan security chip, creates a hardware-anchored chain of trust from firmware to user mode \u2014 ALTS machine credentials are only decryptable by hosts that pass verified boot.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Host Integrity ensures each host runs the intended version of these components \u2014 not just that signatures are valid. The critical integration is with ALTS: machine credentials are only decryptable by hosts that pass host integrity's verified boot. This creates a hardware-rooted chain of trust: Titan chip \u2192 verified boot chain \u2192 machine ALTS credentials \u2192 service ALTS credentials. Without passing h"
+    },
+    {
+      "slug": "identity",
+      "claim_id": "nist-207a.4",
+      "statement": "Identity-tier policies provide five major advantages over network-tier: environment agnosticism, automated testing, policy-as-code, fine-grained visibility, and human readability.",
+      "claim_type": "implementation",
+      "confidence": "medium",
+      "evidence_excerpt": "1. **Environment agnosticism** \u2014 \"policy follows the application rather than the network\" \u2014 a policy written once works across AWS, Azure, GCP, and on-premises.\n2. **Automated testing** \u2014 policies can be tested by \"merely exercising the application and observing the outcomes\" rather than configuring test infrastructure.\n3. **Policy as Code (PaC)** \u2014 identity-tier policies can be \"defined and imple"
+    },
+    {
+      "slug": "multi-cloud-sdp-server-to-server",
+      "claim_id": "nist207-ch4.3",
+      "statement": "Multi-cloud environments require the SDP server-to-server model \u2014 a PEP at each cloud-hosted service, no enterprise network hairpinning, and the enterprise perimeter is irrelevant to the security model.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "**How ZTA applies:**\n\n- **PEP at each application/data access point** \u2014 each cloud-hosted service gets its own PEP. The PE and PA can be services in either cloud, or even a third cloud provider. This is the Software-Defined Perimeter (SDP) model applied to cloud workloads.\n- **No enterprise network hairpinning** \u2014 traffic flows directly between cloud providers. The enterprise perimeter is irreleva"
+    },
+    {
+      "slug": "multi",
+      "claim_id": "nist-207a.5",
+      "statement": "For multi-cluster, multi-cloud deployments, a global control plane is required to define uniform policies across service mesh instances, but a single service mesh control plane should NOT be used across clusters \u2014 it creates a single failure domain.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "- Multiple clusters spread across on-premises sites and cloud availability zones create multiple service mesh instances (lines 482\u2013484).\n- \"A uniform set of policies is also needed to govern access between any pair of microservices or services in the enterprise irrespective of their location\" \u2014 this requires a global control plane that disseminates policies to individual mesh control planes (lines"
+    },
+    {
+      "slug": "ncsc-principles-provide-practical-vendor",
+      "claim_id": "ncsc.1",
+      "statement": "The NCSC's 8 principles provide a practical, vendor-agnostic framework for ZT architecture that is complementary to NIST SP 800-207 but more operationally prescriptive.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "**Context:**\n\nThe NCSC Zero Trust Architecture Design Principles are the UK government's equivalent of NIST SP 800-207. The 8 principles are:\n\n1. **Know your architecture** \u2014 including users, devices, services, and data\n2. **Know your User, Service and Device identities** \u2014 each uniquely identifiable\n3. **Assess your user behaviour, devices and services health** \u2014 continuous health evaluation as s"
+    },
+    {
+      "slug": "ncsc",
+      "claim_id": "ncsc.7",
+      "statement": "The NCSC-to-GCP mapping demonstrates that ZT is achievable through cloud-native managed services with significantly reduced operational burden compared to self-built ZT infrastructure.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The whitepaper maps every NCSC principle to specific, available Google Cloud services. Key managed services include:\n\n| NCSC Principle | Google Managed Service | Customer Responsibility |\n|---------------|----------------------|------------------------|\n| Know your architecture | Cloud Asset Inventory, Data Catalog | Define scope, maintain inventory |\n| Know identities | Cloud Identity, IAM, Servi"
+    },
+    {
+      "slug": "network",
+      "claim_id": "nist-207a.1",
+      "statement": "Network-IP-based security controls are insufficient for cloud-native applications because microservices are ephemeral, geographically distributed, and proxy-mediated \u2014 identity must become the primary security primitive instead of network location.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "- Microservices can be hosted on different VMs, geographically distributed across headquarters, branch offices, and multiple cloud providers (lines 275\u2013278).\n- Inter-service calls span network boundaries; a single transaction may involve multiple hops across environments (lines 279\u2013280).\n- Proxies, NAT, load balancers, and dynamic infrastructure (VM migration, pod rescheduling) make it impossible "
+    },
+    {
+      "slug": "perimeter-security-breaks-down-microservices-because-services",
+      "claim_id": "beyondprod.1",
+      "statement": "Perimeter security breaks down for microservices because services are mobile, ephemeral, share infrastructure, and change at extreme velocity \u2014 BeyondProd replaces network-location trust with verifiable attributes (identity, code provenance, hardware integrity).",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Four failure modes of perimeter security in microservice environments are enumerated. The solution is six integrated security services that together form the BeyondProd trust stack: GFE (network edge), ALTS (service-to-service auth), BAB (code provenance), Host Integrity (hardware-rooted machine trust), Service Access Management + End-User Context Tickets (policy enforcement), and gVisor (workload"
+    },
+    {
+      "slug": "segmentation-zt-primary-architectural-primitive",
+      "claim_id": "halley.2",
+      "statement": "Segmentation is ZT's primary architectural primitive \u2014 macro for trust zones, micro for workload isolation",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The book traces the evolution from physical segmentation (separate switches) \u2192 VLANs \u2192 VRFs \u2192 SDN-based segmentation (ACI, SD-Access) \u2192 cloud-native segmentation (security groups, Kubernetes policies, service mesh). TrustSec's Scalable Group Tags (SGTs) are presented as the on-premises implementation of identity-based microsegmentation \u2014 a packet carries the source group tag, and enforcement point"
+    },
+    {
+      "slug": "service-identity-service-accounts-device-identity-verified",
+      "claim_id": "ncsc.4",
+      "statement": "Service identity (service accounts) and device identity (Verified Access via TPM) are first-class identity types in Google's ZT model \u2014 going beyond user identity.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "- **Service identity:** Service accounts are \"a special kind of account used by an application or a virtual machine (VM) instance, not a person.\" They use private/public RSA key-pairs (no passwords), can be impersonated by other users/service accounts, and are identified by unique email addresses. Anthos Service Mesh provides \"a layer of service context-aware and request context-aware network secu"
+    },
+    {
+      "slug": "successful-enterprise-zta-requires-multi",
+      "claim_id": "nist-207a.3",
+      "statement": "A successful enterprise ZTA requires multi-tier policies combining network-tier (coarse + fine-grained) and identity-tier policies \u2014 neither tier alone is sufficient.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "- Network-tier alone can't handle the dynamism of cloud-native workloads \u2014 firewall rules \"have to be continuously changed\" as containers migrate and scale (lines 708\u2013709).\n- Identity-tier alone can't satisfy compliance requirements (PCI/DSS) that mandate network-level segmentation (lines 673\u2013675).\n- Identity-tier alone can't capture location-based risk \u2014 \"purely identity-based enforcement should "
+    },
+    {
+      "slug": "zt-operationalized-three-principles-apply-differently-per",
+      "claim_id": "halley.1",
+      "statement": "ZT is operationalized through three principles that apply differently per environment",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The book dedicates substantial comparative analysis to each principle across deployment models (see Table 1-2 in Ch1). For Explicit Verification: on-premises uses Active Directory/LDAP + RADIUS + MFA; cloud uses AWS IAM / Azure Entra ID / Google Identity + OAuth + OIDC. For Least-Privilege Access: on-premises uses VLAN segmentation + ACLs + 802.1x dynamic VLAN assignment; cloud uses IAM roles + se"
+    },
+    {
+      "slug": "zta-monitoring-framework-cover-resource-categories-enterprise",
+      "claim_id": "nist-207a.7",
+      "statement": "A ZTA monitoring framework must cover all resource categories (enterprise, non-enterprise, personal), application infrastructure elements, user access requests with full service-call chains, and directory changes \u2014 with telemetry feeding back into access decisions and step-up authentication.",
+      "claim_type": "implementation",
+      "confidence": "medium",
+      "evidence_excerpt": "- Four monitoring requirements (MON-CNA-REQ-1 through 4, lines 1120\u20131131): resource coverage, infrastructure element coverage, full call-chain coverage, directory change coverage.\n- Two telemetry use cases (MON-DATA-USE-1 and 2, lines 1133\u20131160): behavioral context for access decisions, fine-tuning access rights via observe-and-adjust.\n- Step-up authentication triggered by monitoring signals: \"ask"
+    },
+    {
+      "slug": "iaaspaas-security-hasnt-kept-pace-with-iaaspaas-adoption",
+      "claim_id": "gc-cloud.1",
+      "statement": "IaaS/PaaS security hasn't kept pace with IaaS/PaaS adoption",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "Google pioneered ZT internally and now offers Identity-Aware Proxy, but it's GCP-scoped. AWS and Azure have sophisticated IAM and network security groups, but they're cloud-native, not enterprise-wide. The CSPs' access control models are powerful but network/IP-centric rather than identity-centric \u2014 they \"definitely do not have the ability to define and enforce the types of Zero Trust policies tha"
+    },
+    {
+      "slug": "devops-introduces-cloud-native-risks-kubernetes-containers-that-traditional",
+      "claim_id": "finney-ch4-7.8",
+      "statement": "DevOps introduces cloud-native risks (Kubernetes, containers) that traditional perimeter security cannot address \u2014 ZT provides the model for securing them.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Boris enumerates Kubernetes security controls: network segmentation between clusters and workloads, isolation of control plane from data plane traffic, firewalls between control and data planes. Dylan adds: RBAC enabled and integrated with the (now-separated) identity system. They also discuss:\n- **Runtime security**: detecting privileged containers, monitoring file access, audit trails of all com"
+    },
+    {
+      "slug": "the-cloud-is-not-one-protect-surface-its",
+      "claim_id": "finney-ch8-11.1",
+      "statement": "The cloud is not one protect surface \u2014 it's many, and the real protect surface is the project management process",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The Post-it note wall exercise revealed three categories of cloud services (AWS/Amazon, Azure, SaaS) spanning dozens of vendors. The purchasing department found even more via P-card spend. Shadow IT (Dropbox alongside sanctioned OneDrive, free PDF converters, Vimeo/YouTube/Twitch) proved that simply blocking unknown services breaks business processes. The project process as a protect surface means"
+    },
+    {
+      "slug": "zero-trust-does-fewer-things-for-saas-but",
+      "claim_id": "gc-cloud.4",
+      "statement": "Zero Trust does fewer things for SaaS \u2014 but what it does is still valuable",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Two native SaaS access control mechanisms exist: (1) source IP address restrictions \u2014 the SaaS platform permits access only from a designated IP (the PEP's egress IP), applied per-customer tenancy; (2) federated identity management via SAML/OIDC \u2014 the SaaS app delegates authentication to the enterprise IdP. These can be combined: \"federated identity system for authentication combined with a Zero T"
+    }
+  ]
+}

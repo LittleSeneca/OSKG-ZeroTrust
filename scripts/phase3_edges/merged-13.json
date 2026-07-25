@@ -1,0 +1,278 @@
+[
+  {
+    "claim_a": "host-integrity-rooted-titan-security-chip-creates",
+    "claim_b": "alts-application-layer-transport-security-workhorse-beyondprod",
+    "edge_type": "depends_on",
+    "rationale": "ALTS machine credentials are only decryptable by hosts that pass host integrity's verified boot, creating a hardware-rooted chain of trust."
+  },
+  {
+    "claim_a": "alts-application-layer-transport-security-workhorse-beyondprod",
+    "claim_b": "perimeter-security-breaks-down-microservices-because-services",
+    "edge_type": "supports",
+    "rationale": "ALTS is the concrete implementation of replacing network-location trust with service identity, validating BeyondProd's core thesis."
+  },
+  {
+    "claim_a": "end",
+    "claim_b": "alts-application-layer-transport-security-workhorse-beyondprod",
+    "edge_type": "extends",
+    "rationale": "End-User Context Tickets compose end-user identity on top of ALTS service identity to prevent lateral movement by compromised services."
+  },
+  {
+    "claim_a": "code-provenance-enforcement-binary-authorization-borg-closes",
+    "claim_b": "perimeter-security-breaks-down-microservices-because-services",
+    "edge_type": "supports",
+    "rationale": "Code provenance is one of the verifiable attributes BeyondProd uses to replace network-location trust in microservice environments."
+  },
+  {
+    "claim_a": "host-integrity-rooted-titan-security-chip-creates",
+    "claim_b": "code-provenance-enforcement-binary-authorization-borg-closes",
+    "edge_type": "supports",
+    "rationale": "Both form complementary layers of BeyondProd's chain of trust: hardware-rooted integrity at the machine level and code provenance at the software build level."
+  },
+  {
+    "claim_a": "beyondcorp-beyondprod-together-form-complete-zt-model",
+    "claim_b": "perimeter-security-breaks-down-microservices-because-services",
+    "edge_type": "extends",
+    "rationale": "Clarifies that BeyondProd (east-west) and BeyondCorp (north-south) together form the complete ZT model, not just microservice perimeter replacement."
+  },
+  {
+    "claim_a": "beyondcorp-google-implementation-zt-model-provides-architectural",
+    "claim_b": "beyondcorp-beyondprod-together-form-complete-zt-model",
+    "edge_type": "extends",
+    "rationale": "Positions BeyondCorp as the north-south half of Google's complete ZT model and the architectural foundation for all GCP ZT services."
+  },
+  {
+    "claim_a": "google-zt-architecture-maps-pdp-pep-model",
+    "claim_b": "beyondcorp-google-implementation-zt-model-provides-architectural",
+    "edge_type": "extends",
+    "rationale": "Provides the specific PDP/PEP architectural mapping (IAP, Access Context Manager, Cloud IAM) underlying BeyondCorp's ZT implementation."
+  },
+  {
+    "claim_a": "network",
+    "claim_b": "identity",
+    "edge_type": "extends",
+    "rationale": "Identity-tier policies provide five concrete advantages (environment agnosticism, automated testing, PaC, visibility, readability) that operationalize the identity-first paradigm network demands."
+  },
+  {
+    "claim_a": "deploying-identity",
+    "claim_b": "network",
+    "edge_type": "extends",
+    "rationale": "SPIFFE-based cryptographic service identities are the standardized infrastructure for implementing the identity-over-network paradigm in practice."
+  },
+  {
+    "claim_a": "perimeter-security-breaks-down-microservices-because-services",
+    "claim_b": "network",
+    "edge_type": "supports",
+    "rationale": "Both argue network-location trust fails for cloud-native; perimeter's microservice-specific analysis provides the concrete failure modes for network's general thesis."
+  },
+  {
+    "claim_a": "cloud",
+    "claim_b": "network",
+    "edge_type": "extends",
+    "rationale": "The service mesh provides the architectural enforcement mechanism \u2014 a 'cloud-native security kernel' \u2014 for operationalizing identity-over-network in cloud-native environments."
+  },
+  {
+    "claim_a": "multi",
+    "claim_b": "cloud",
+    "edge_type": "extends",
+    "rationale": "Multi-cluster deployments refine the single-cluster service mesh model by requiring a global control plane while avoiding single failure domains across clusters."
+  },
+  {
+    "claim_a": "multi-cloud-sdp-server-to-server",
+    "claim_b": "cloud",
+    "edge_type": "supports",
+    "rationale": "The SDP server-to-server model validates the service mesh approach by placing a PEP at each cloud-hosted service, consistent with sidecar proxy architecture."
+  },
+  {
+    "claim_a": "multi-cloud-sdp-server-to-server",
+    "claim_b": "multi",
+    "edge_type": "supports",
+    "rationale": "The SDP server-to-server model provides the architectural foundation for the multi-cluster, multi-cloud deployment patterns multi describes."
+  },
+  {
+    "claim_a": "segmentation-zt-primary-architectural-primitive",
+    "claim_b": "cloud",
+    "edge_type": "supports",
+    "rationale": "Segmentation as ZT's primary architectural primitive aligns with the service mesh acting as the enforcement point for identity-based microsegmentation."
+  },
+  {
+    "claim_a": "cloud-3",
+    "claim_b": "perimeter-security-breaks-down-microservices-because-services",
+    "edge_type": "supports",
+    "rationale": "Cloud-native architectures being 'inherently ZT-aligned' reinforces that perimeter security is the wrong model for these environments."
+  },
+  {
+    "claim_a": "devops-introduces-cloud-native-risks-kubernetes-containers-that-traditional",
+    "claim_b": "perimeter-security-breaks-down-microservices-because-services",
+    "edge_type": "supports",
+    "rationale": "DevOps/Kubernetes risks are a concrete manifestation of the perimeter security breakdown that BeyondProd addresses."
+  },
+  {
+    "claim_a": "devops-introduces-cloud-native-risks-kubernetes-containers-that-traditional",
+    "claim_b": "cloud",
+    "edge_type": "depends_on",
+    "rationale": "Securing Kubernetes and containers via ZT depends on the service mesh as the enforcement kernel for identity-based workload isolation."
+  },
+  {
+    "claim_a": "successful-enterprise-zta-requires-multi",
+    "claim_b": "identity",
+    "edge_type": "extends",
+    "rationale": "Refines identity-tier advantages by arguing network-tier remains necessary for compliance (PCI/DSS) and location-based risk, so both tiers must coexist."
+  },
+  {
+    "claim_a": "successful-enterprise-zta-requires-multi",
+    "claim_b": "network",
+    "edge_type": "extends",
+    "rationale": "Network-IP controls are insufficient alone but neither is identity alone \u2014 enterprise ZTA requires combining both tiers."
+  },
+  {
+    "claim_a": "automation-orchestration-optional",
+    "claim_b": "deploying-identity",
+    "edge_type": "depends_on",
+    "rationale": "Standardized identity infrastructure (SPIFFE) cannot be deployed at scale without automation and orchestration as ZT prerequisites."
+  },
+  {
+    "claim_a": "automation-orchestration-optional",
+    "claim_b": "multi",
+    "edge_type": "supports",
+    "rationale": "Multi-cluster global control planes across environments require automation to manage policies consistently at scale."
+  },
+  {
+    "claim_a": "zt-operationalized-three-principles-apply-differently-per",
+    "claim_b": "segmentation-zt-primary-architectural-primitive",
+    "edge_type": "extends",
+    "rationale": "Segmentation is one of the three ZT operational principles; this claim provides the overarching framework that contextualizes segmentation's role."
+  },
+  {
+    "claim_a": "zt-operationalized-three-principles-apply-differently-per",
+    "claim_b": "automation-orchestration-optional",
+    "edge_type": "supports",
+    "rationale": "Automation is the operational substrate that enables applying the three ZT principles consistently at scale across environments."
+  },
+  {
+    "claim_a": "cloud-5",
+    "claim_b": "zta-monitoring-framework-cover-resource-categories-enterprise",
+    "edge_type": "supports",
+    "rationale": "Google's cloud-native monitoring services (SCC, Chronicle, Cloud Logging) fulfill the comprehensive monitoring framework's coverage requirements."
+  },
+  {
+    "claim_a": "zta-monitoring-framework-cover-resource-categories-enterprise",
+    "claim_b": "cloud",
+    "edge_type": "supports",
+    "rationale": "Monitoring telemetry feeds back into the service mesh's access decisions and step-up authentication, closing the policy improvement loop."
+  },
+  {
+    "claim_a": "ncsc-principles-provide-practical-vendor",
+    "claim_b": "beyondcorp-google-implementation-zt-model-provides-architectural",
+    "edge_type": "supports",
+    "rationale": "NCSC's vendor-agnostic framework validates and complements Google's ZT implementation, showing it satisfies an independent operational standard."
+  },
+  {
+    "claim_a": "ncsc",
+    "claim_b": "ncsc-principles-provide-practical-vendor",
+    "edge_type": "extends",
+    "rationale": "The NCSC-to-GCP service mapping demonstrates concretely how the 8 principles translate to available cloud-native managed services."
+  },
+  {
+    "claim_a": "ncsc",
+    "claim_b": "beyondcorp-google-implementation-zt-model-provides-architectural",
+    "edge_type": "supports",
+    "rationale": "The NCSC-to-GCP mapping demonstrates that Google's ZT services comprehensively address a vendor-agnostic operational framework."
+  },
+  {
+    "claim_a": "google-zt-architecture-explicitly-supports-hybrid-environments",
+    "claim_b": "beyondcorp-google-implementation-zt-model-provides-architectural",
+    "edge_type": "extends",
+    "rationale": "Extends BeyondCorp's scope to on-premises applications via IAP connectors, showing ZT does not require cloud migration."
+  },
+  {
+    "claim_a": "service-identity-service-accounts-device-identity-verified",
+    "claim_b": "alts-application-layer-transport-security-workhorse-beyondprod",
+    "edge_type": "supports",
+    "rationale": "Service identity as a first-class identity type aligns with ALTS's approach of binding identities to services rather than hosts."
+  },
+  {
+    "claim_a": "service-identity-service-accounts-device-identity-verified",
+    "claim_b": "network",
+    "edge_type": "supports",
+    "rationale": "Demonstrates that identity primitives extend beyond user identity to services and devices, supporting the identity-over-network paradigm."
+  },
+  {
+    "claim_a": "end",
+    "claim_b": "service-identity-service-accounts-device-identity-verified",
+    "edge_type": "extends",
+    "rationale": "End-User Context Tickets demonstrate how first-class service identity is composed with end-user identity for fine-grained authorization decisions."
+  },
+  {
+    "claim_a": "beyondcorp-beyondprod-together-form-complete-zt-model",
+    "claim_b": "service-identity-service-accounts-device-identity-verified",
+    "edge_type": "supports",
+    "rationale": "The BeyondCorp/BeyondProd model makes service identity (BeyondProd side) and device identity first-class alongside user identity (BeyondCorp side)."
+  },
+  {
+    "claim_a": "cloud",
+    "claim_b": "service-identity-service-accounts-device-identity-verified",
+    "edge_type": "supports",
+    "rationale": "The service mesh as enforcement kernel operationalizes first-class service identity as the security primitive for east-west traffic."
+  },
+  {
+    "claim_a": "alts-application-layer-transport-security-workhorse-beyondprod",
+    "claim_b": "deploying-identity",
+    "edge_type": "supports",
+    "rationale": "ALTS is a concrete, production-proven implementation of SPIFFE-style cryptographic service identity infrastructure."
+  },
+  {
+    "claim_a": "code-provenance-enforcement-binary-authorization-borg-closes",
+    "claim_b": "deploying-identity",
+    "edge_type": "extends",
+    "rationale": "Binary Authorization extends identity infrastructure to include build chain verification, not just runtime service identity."
+  },
+  {
+    "claim_a": "host-integrity-rooted-titan-security-chip-creates",
+    "claim_b": "deploying-identity",
+    "edge_type": "extends",
+    "rationale": "Titan-anchored host integrity extends identity infrastructure to include hardware trust anchors beneath cryptographic service identities."
+  },
+  {
+    "claim_a": "iaaspaas-security-hasnt-kept-pace-with-iaaspaas-adoption",
+    "claim_b": "network",
+    "edge_type": "supports",
+    "rationale": "The lag in IaaS/PaaS security and their network/IP-centric models validates the argument that identity must replace network as the primary security primitive."
+  },
+  {
+    "claim_a": "iaaspaas-security-hasnt-kept-pace-with-iaaspaas-adoption",
+    "claim_b": "beyondcorp-google-implementation-zt-model-provides-architectural",
+    "edge_type": "contradicts",
+    "rationale": "iaaspaas claims CSP models are 'network/IP-centric' and 'definitely do not have the ability' to enforce ZT policies, while beyondcorp-google claims Google's is the 'most mature, battle-tested ZT implementation.'"
+  },
+  {
+    "claim_a": "the-cloud-is-not-one-protect-surface-its",
+    "claim_b": "cloud-3",
+    "edge_type": "extends",
+    "rationale": "Refines 'new security surfaces' to the specific finding that the project management process \u2014 with shadow IT and SaaS sprawl \u2014 is the real protect surface."
+  },
+  {
+    "claim_a": "zero-trust-does-fewer-things-for-saas-but",
+    "claim_b": "the-cloud-is-not-one-protect-surface-its",
+    "edge_type": "extends",
+    "rationale": "SaaS is one of the many protect surfaces identified; this claim details what ZT can practically achieve for SaaS applications."
+  },
+  {
+    "claim_a": "zero-trust-does-fewer-things-for-saas-but",
+    "claim_b": "successful-enterprise-zta-requires-multi",
+    "edge_type": "supports",
+    "rationale": "SaaS access controls combining source IP restrictions and federated identity exemplify the multi-tier approach of network-tier plus identity-tier."
+  },
+  {
+    "claim_a": "cloud-3",
+    "claim_b": "devops-introduces-cloud-native-risks-kubernetes-containers-that-traditional",
+    "edge_type": "extends",
+    "rationale": "cloud-3 highlights inherent ZT alignment of cloud-native while devops-risks focuses on the new attack surfaces \u2014 together they cover both the opportunity and the risk."
+  },
+  {
+    "claim_a": "ncsc-principles-provide-practical-vendor",
+    "claim_b": "zt-operationalized-three-principles-apply-differently-per",
+    "edge_type": "supports",
+    "rationale": "Both provide practical operational frameworks for ZT: NCSC's 8 principles are vendor-agnostic guidance complementing the three-principle operational model."
+  }
+]

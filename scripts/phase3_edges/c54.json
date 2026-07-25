@@ -1,0 +1,44 @@
+[
+  {
+    "source": "cisa-ztmm-id.8",
+    "target": "nsa-user.6",
+    "relationship": "extends",
+    "rationale": "Both assert NSA/CISA frameworks are complementary (what-to-measure vs how-to-implement); the cisa claim adds the conclusion that together they form 'the most complete federal guidance for identity maturity in a ZTA context.'"
+  },
+  {
+    "source": "nstac.4",
+    "target": "nstac.1",
+    "relationship": "depends_on",
+    "rationale": "nstac.1 establishes the problem (current 2½-year strategy is insufficient for long-term transformation without institutionalization); nstac.4 proposes the institutional remedy (two dedicated ZT Program Offices) whose rationale depends on that insufficiency premise."
+  },
+  {
+    "source": "nstac.2",
+    "target": "nstac.1",
+    "relationship": "supports",
+    "rationale": "nstac.1 argues the current strategy over-focuses on near-term tactical goals; nstac.2 proposes industry best-practice accountability metrics (Five-Step Process, Kipling Method) as a remedy for that tactical-only mindset."
+  },
+  {
+    "source": "nstac.3",
+    "target": "nstac.1",
+    "relationship": "supports",
+    "rationale": "nstac.1 says ZT will fail without institutionalization; nstac.3 specifies governance integration (FISMA, CDM, NIST 800-53, procurement) as THE critical gap — i.e., the primary institutionalization failure mode behind nstac.1's warning."
+  },
+  {
+    "source": "nstac.5",
+    "target": "nstac.4",
+    "relationship": "supports",
+    "rationale": "nstac.4 proposes a CISA civilian ZT Program Office; nstac.5 identifies internet-accessible asset discovery as a foundational prerequisite that CISA should provide as a shared service — a concrete functional example of what the proposed office would deliver."
+  },
+  {
+    "source": "nist207-ch6.5",
+    "target": "nstac.3",
+    "relationship": "supports",
+    "rationale": "nist207-ch6.5 establishes that ICAM/identity governance is the substrate on which ZTA rests (dependency: ICAM maturity → policy engine → enforcement); nstac.3's claim that governance is the critical gap is strengthened by this foundational dependency."
+  },
+  {
+    "source": "nstac.7",
+    "target": "nstac.3",
+    "relationship": "supports",
+    "rationale": "nstac.7 warns that absent component-level interface standards, ZT creates vendor lock-in and management complexity; this exemplifies a governance-integration failure — exactly the gap nstac.3 argues must be closed by embedding ZT into existing structures and standards."
+  }
+]

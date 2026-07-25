@@ -1,0 +1,87 @@
+{
+  "cluster_id": "c54",
+  "cluster_label": "identity (governance)",
+  "size": 10,
+  "claims": [
+    {
+      "slug": "cisa-nsa-identity-complementary",
+      "claim_id": "cisa-ztmm-id.8",
+      "statement": "CISA and NSA identity frameworks are complementary, not redundant \u2014 CISA provides the maturity model framework (what to measure, what \"good\" looks like for FCEB agencies), while NSA provides the implementation roadmap (how to get there, tailored for national security systems but broadly applicable), and together they form the most complete federal guidance for identity maturity in a ZTA context.",
+      "claim_type": "governance",
+      "confidence": "medium",
+      "evidence_excerpt": "- CISA's four functions (Authentication, Identity Stores, Risk Assessments, Access Management) map to NSA's four ICAM sub-capabilities (Credential Management, Identity Management, Access Management, Federation) with tight alignment at each maturity level.\n- NSA provides much more tactical detail: PAM tools, privileged access workstations, ABAC models, fine-grained risk-adaptive access policies.\n- "
+    },
+    {
+      "slug": "federal-government-current",
+      "claim_id": "nstac.1",
+      "statement": "The Federal Government's current 2\u00bd-year ZT strategy is appropriately scoped for jump-starting action but insufficient for long-term transformation \u2014 absent additional institutionalization, ZT will fail.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "The report acknowledges that the Federal ZT Strategy's specific actions (e.g., \"identify at least one internal-facing FISMA Moderate application and make it fully operational and accessible over the public internet\") are necessary for momentum. But it argues that \"over-focusing on near-term tactical goals can distract from the big-picture cultural shift that zero trust requires for long-term, sust"
+    },
+    {
+      "slug": "federal-government-needs-two-dedicated-zt-program",
+      "claim_id": "nstac.4",
+      "statement": "The Federal Government needs two dedicated ZT Program Offices \u2014 a Civilian Office (at CISA) and coordination with the existing Defense Office (at DoD) \u2014 to provide sustained institutional capacity.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "The report notes that \"CISA's zero trust-relevant guidance and shared service offerings are not centrally located in a way that is conducive to civilian agency access.\" It also recommends the civilian office coordinate with the DoD ZT Program Office (already established in fall 2021) on: a single set of ZT pillars, a common lexicon, joint federal milestones, and a unified maturity measurement meth"
+    },
+    {
+      "slug": "ficam-identity-substrate-zta",
+      "claim_id": "nist207-ch6.5",
+      "statement": "ICAM (FICAM) is the identity substrate on which ZTA rests \u2014 an agency cannot \"bolt on\" ZTA without first achieving mature identity governance, including identity proofing, authentication, and federation per SP 800-63-3.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "- NIST SP 800-63-3 (Digital Identity Guidelines) provides the technical standards for identity proofing, authentication, and federation that ZTA policy engines consume.\n- Key dependency chain: **ICAM maturity \u2192 usable subject attributes \u2192 functional Policy Engine \u2192 ZTA enforcement.**\n\n**Implication for OSKG-ZeroTrust:**\n\nICAM is the identity substrate on which ZTA rests. This places identity at th"
+    },
+    {
+      "slug": "governance-critical-gap",
+      "claim_id": "nstac.3",
+      "statement": "Governance is the critical gap \u2014 the Federal Government must integrate ZT into existing structures (FISMA, CDM, NIST 800-53, procurement) rather than treating it as a standalone initiative.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "The report identifies several specific governance integration gaps:\n\n1. **FISMA/NIST 800-53 Mapping Gap:** Agencies may see ZT as conflicting with FISMA compliance \u2014 which carries penalty potential \u2014 if the alignment is not clarified. NSTAC recommends OMB issue a memo mapping ZT to NIST 800-53 controls and task NIST with a dedicated special publication.\n\n2. **CDM Program Alignment Gap:** The Conti"
+    },
+    {
+      "slug": "government-incentivize-non",
+      "claim_id": "nstac.6",
+      "statement": "The U.S. Government must incentivize non-federal ZT adoption through grants, procurement preferences, international standards, and regulatory relief \u2014 not just lead by example.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "Specific mechanisms recommended:\n\n1. **Grant funding:** CISA should prioritize ZT projects in the $1B State and Local Cybersecurity Improvement Act (IIJA) funding through 2026. Transportation, Commerce, and Energy secretaries should require \"sound cybersecurity practices\" (including ZT) as condition of infrastructure funding.\n\n2. **International standards:** NIST should lead a \"multi-year path to "
+    },
+    {
+      "slug": "industry-best-practices",
+      "claim_id": "nstac.2",
+      "statement": "Industry best practices \u2014 the Five-Step Process and the Kipling Method \u2014 should be the basis for federal ZT accountability metrics, not just technical checkbox completion.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "The report maps the Five-Step Process (Define Protect Surface \u2192 Map Transaction Flows \u2192 Build ZT Architecture \u2192 Create ZT Policy \u2192 Monitor and Maintain) to quantifiable progress metrics with reporting requirements at the agency CISO level or above:\n\n| Step | Quantifiable Metric |\n|------|-------------------|\n| 1. Define Protect Surface | Organizational inventory of total DAAS elements on the ZT ro"
+    },
+    {
+      "slug": "internet",
+      "claim_id": "nstac.5",
+      "statement": "Internet-accessible asset discovery is a foundational prerequisite for ZT that many agencies lack \u2014 CISA should provide it as a shared service.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "The report quotes the Federal ZT Strategy itself: \"To effectively implement a zero trust architecture, an organization must have a complete understanding of its internet-accessible assets.\" It recommends the shared service provide \"continuous and dynamic asset mapping as static data pulls will have limited utility in a constantly evolving threat environment.\""
+    },
+    {
+      "slug": "nsa-cisa-identity-frameworks-complementary",
+      "claim_id": "nsa-user.6",
+      "statement": "The NSA and CISA identity frameworks are complementary \u2014 NSA provides the \"how\" for the defense context, CISA provides the \"what to measure\"",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "The structural differences between the two frameworks:\n\n| Dimension | NSA User Pillar | CISA ZTMM Identity Pillar |\n|-----------|----------------|--------------------------|\n| **Structure** | 4 ICAM sub-capabilities (Identity Mgmt, Credential Mgmt, Access Mgmt, Federation) | 4 functions (Authentication, Identity Stores, Risk Assessments, Access Management) + 3 cross-cutting capabilities |\n| **Matu"
+    },
+    {
+      "slug": "technology-interoperability-hidden-risk",
+      "claim_id": "nstac.7",
+      "statement": "Technology interoperability is the hidden risk \u2014 without component-level interface standards, ZT creates vendor lock-in and \"a proliferation of multiple solutions [that] increases management complexity.\"",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "The report observes that the \"noisy\" private sector security market has many vendors \"re-branding technologies to narrowly apply to one discrete function of a comprehensive zero trust architecture.\" The burden of manual integration is \"too often placed on the end user,\" creating friction that disincentivizes progressive ZT adoption. The report recommends NIST's NCCoE produce a special publication "
+    }
+  ]
+}

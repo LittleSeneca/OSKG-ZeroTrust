@@ -1,0 +1,47 @@
+{
+  "cluster_id": "c45",
+  "cluster_label": "governance (governance)",
+  "size": 5,
+  "claims": [
+    {
+      "slug": "culture-change-requires-rituals-not-just-policies-the",
+      "claim_id": "finney-ch8-11.7",
+      "statement": "Culture change requires rituals, not just policies \u2014 the \"security minute\" as cultural signal",
+      "claim_type": "governance",
+      "confidence": "medium",
+      "evidence_excerpt": "Isabelle and Rose deliver this as a pilot during project management training. HR adopts it. The analogy to airline safety briefings is deliberate \u2014 repetitive, ritualized, brief, and universal."
+    },
+    {
+      "slug": "rmf-zta-changes-authorization-boundaries",
+      "claim_id": "nist207-ch6.3",
+      "statement": "RMF \u2014 ZTA changes authorization boundaries but not the RMF process itself; risk acceptance decisions become per-resource and per-session, encoded algorithmically in the Policy Engine rather than assessed per-network-zone.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "- New PEP deployments require updated Security Assessment Reports (SARs) and Plans of Action and Milestones (POA&Ms).\n- ZTA planning must integrate with the agency's existing RMF authorization lifecycle.\n- The key difference: risk acceptance decisions are now *per-resource* and *per-session*, not per-network-zone.\n\n**Implication for OSKG-ZeroTrust:**\n\nZTA doesn't eliminate risk management \u2014 it *au"
+    },
+    {
+      "slug": "security-awareness-training-is-a-protect-surface-apply",
+      "claim_id": "finney-ch8-11.5",
+      "statement": "Security awareness training is a protect surface \u2014 apply the ZT design methodology to people",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "- New hire orientation: security introduced at onboarding\n- Role-specific tracks: engineering gets different training than finance than content creators\n- Progressive: training grows with career advancement\n- Integration with IT/HR training: security woven into Excel training, management training, etc.\n- \"Security minute\": 60 seconds at the start of every meeting (like airline safety briefing) \u2014 t"
+    },
+    {
+      "slug": "the-14-platform-requirements-operationalize-the-principles-into",
+      "claim_id": "gc-ch1-3.8",
+      "statement": "The 14 platform requirements operationalize the principles into verifiable criteria.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "**Key requirements (selected):**\n\n- Data plane communications must be encrypted (Req 1)\n- Enforce access controls for all resource types, driven by identity-centric and contextual policies (Req 2)\n- Consistent policy for remote and on-premises users (Req 4)\n- Device posture inspection prior to access and periodically thereafter (Req 5)\n- Distinguish BYOD from corporate-managed devices (Req 6)\n- Ac"
+    },
+    {
+      "slug": "three-expanded-principles-api-integration-automation-and-business",
+      "claim_id": "gc-ch1-3.6",
+      "statement": "Three expanded principles \u2014 API integration, automation, and business value delivery \u2014 are equally necessary for enterprise-class ZT.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "4. **All components support APIs for event and data exchange.** \"Every security and IT component that's integrated into your Zero Trust platform adds to its value, effectiveness, and reach. Conversely, every siloed (un-integrated) component adds friction, diminishes your Zero Trust system effectiveness, and can impede security.\"\n\n5. **Automate actions across environments, driven by context and eve"
+    }
+  ]
+}

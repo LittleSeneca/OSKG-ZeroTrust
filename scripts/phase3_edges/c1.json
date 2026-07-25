@@ -1,0 +1,104 @@
+[
+  {
+    "source": "the-build-system-is-the-most-dangerous-attack",
+    "target": "the-application-pipeline-is-a-cryptographic-chain-break",
+    "type": "depends_on",
+    "rationale": "The build system can only be identified as the dangerous unprotected gap in context of the cryptographic chain concept"
+  },
+  {
+    "source": "gits-content-addressable-storage-provides-tamper-proof-history-but-not",
+    "target": "the-application-pipeline-is-a-cryptographic-chain-break",
+    "type": "supports",
+    "rationale": "Git's content-addressable storage and signed commits provide the source-integrity link in the application pipeline cryptographic chain"
+  },
+  {
+    "source": "immutable-artifacts-with-decoupled-version-numbers-prevent-masquerade",
+    "target": "the-application-pipeline-is-a-cryptographic-chain-break",
+    "type": "supports",
+    "rationale": "Immutable artifacts with signed hashes provide the artifact-integrity link in the cryptographic chain"
+  },
+  {
+    "source": "runtime-security-completes-the-trust-lifecycle-isolation-secure",
+    "target": "the-application-pipeline-is-a-cryptographic-chain-break",
+    "type": "extends",
+    "rationale": "Runtime security completes the trust lifecycle that the application pipeline establishes, adding post-deployment isolation and monitoring"
+  },
+  {
+    "source": "secure-app-dev-immutable-workloads",
+    "target": "the-application-pipeline-is-a-cryptographic-chain-break",
+    "type": "extends",
+    "rationale": "Immutable workloads with redeployment-only changes are the practical deployment implementation of the cryptographic chain concept"
+  },
+  {
+    "source": "gits-content-addressable-storage-provides-tamper-proof-history-but-not",
+    "target": "the-build-system-is-the-most-dangerous-attack",
+    "type": "supports",
+    "rationale": "Signed commits protect the source side of the unprotected build system, securing one flank of the build gap"
+  },
+  {
+    "source": "immutable-artifacts-with-decoupled-version-numbers-prevent-masquerade",
+    "target": "the-build-system-is-the-most-dangerous-attack",
+    "type": "supports",
+    "rationale": "Immutable artifacts with decoupled version numbers protect the artifact side of the unprotected build system, securing the other flank of the build gap"
+  },
+  {
+    "source": "per-instance-time-bound-secrets-are-the-mechanism-for-authorizing",
+    "target": "secure-app-dev-immutable-workloads",
+    "type": "depends_on",
+    "rationale": "Per-instance time-bound secret provisioning depends on immutable workload patterns where instances are created via redeployment rather than mutated in place"
+  },
+  {
+    "source": "container-security-standards-must-be-enforced-as-code",
+    "target": "secure-app-dev-immutable-workloads",
+    "type": "supports",
+    "rationale": "Container security enforced as code with negative checks is a mechanism that enables and reinforces immutable workload deployments"
+  },
+  {
+    "source": "devops-culture-can-be-an-ally-or-adversary",
+    "target": "secure-app-dev-immutable-workloads",
+    "type": "supports",
+    "rationale": "DevOps culture that integrates security into existing developer workflows enables adoption of immutable workload practices"
+  },
+  {
+    "source": "per-instance-time-bound-secrets-are-the-mechanism-for-authorizing",
+    "target": "runtime-security-completes-the-trust-lifecycle-isolation-secure",
+    "type": "supports",
+    "rationale": "Per-instance time-bound secrets are a concrete mechanism for runtime authorization, which is part of the runtime security trust lifecycle"
+  },
+  {
+    "source": "application-security-testing-sdlc",
+    "target": "application-cross-cutting-capabilities-summary",
+    "type": "extends",
+    "rationale": "SDLC-integrated security testing is a specific dimension of the broader application cross-cutting capabilities (visibility, automation, policy enforcement)"
+  },
+  {
+    "source": "application-threat-protections-integrated",
+    "target": "application-cross-cutting-capabilities-summary",
+    "type": "extends",
+    "rationale": "Integrated application threat protections is a specific dimension of the broader cross-cutting capabilities"
+  },
+  {
+    "source": "application-security-testing-sdlc",
+    "target": "application-threat-protections-integrated",
+    "type": "supports",
+    "rationale": "Security testing integrated throughout the SDLC enables threat protections to be integrated into application workflows"
+  },
+  {
+    "source": "erp-systems-are-uniquely-opaque-to-traditional-security",
+    "target": "application-threat-protections-integrated",
+    "type": "supports",
+    "rationale": "ERP systems' opacity to traditional security tools demonstrates the necessity of application-specific threat protections integrated into workflows"
+  },
+  {
+    "source": "application-access-continuous-authorization",
+    "target": "accessible-applications-public-networks",
+    "type": "supports",
+    "rationale": "Continuous authorization incorporating real-time risk analytics enables safe exposure of applications on open public networks"
+  },
+  {
+    "source": "devops-culture-can-be-an-ally-or-adversary",
+    "target": "application-security-testing-sdlc",
+    "type": "supports",
+    "rationale": "DevOps culture that integrates security into existing developer workflows enables SDLC-integrated security testing"
+  }
+]

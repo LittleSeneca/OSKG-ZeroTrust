@@ -1,0 +1,290 @@
+[
+  {
+    "claim_a": "zt-control-data-plane-split",
+    "claim_b": "the-control-plane-is-the-trust-grantor-temporary",
+    "edge_type": "extends",
+    "rationale": "The trust grantor role with temporary trust and leased tokens elaborates the control plane's specific function within the plane split architecture."
+  },
+  {
+    "claim_a": "the-control-plane-is-the-trust-grantor-temporary",
+    "claim_b": "sso-should-not-remove-the-control-plane-from",
+    "edge_type": "depends_on",
+    "rationale": "The recommendation that SSO not bypass ongoing authorization logically requires the control plane to be the authoritative trust grantor."
+  },
+  {
+    "claim_a": "the-control-plane-is-the-trust-grantor-temporary",
+    "claim_b": "control-plane-compromise-is-the-worst-case-scenario-and",
+    "edge_type": "depends_on",
+    "rationale": "The worst-case assessment of control plane compromise depends on the control plane being the authoritative trust grantor."
+  },
+  {
+    "claim_a": "zt-control-data-plane-split",
+    "claim_b": "control-plane-compromise-is-the-worst-case-scenario-and",
+    "edge_type": "depends_on",
+    "rationale": "The concept of control plane compromise as a distinct worst case requires the architectural separation of planes to be fundamental."
+  },
+  {
+    "claim_a": "the-authorization-architecture-has-four-distinct-isolated-components",
+    "claim_b": "zt-control-data-plane-split",
+    "edge_type": "extends",
+    "rationale": "The four-component authorization architecture refines the control plane/data plane split with a detailed decomposition into isolated enforcement and policy components."
+  },
+  {
+    "claim_a": "the-authorization-architecture-has-four-distinct-isolated-components",
+    "claim_b": "the-nist-pdppep-model-is-the-correct-foundation",
+    "edge_type": "extends",
+    "rationale": "The four-component authorization architecture elaborates the NIST PDP/PEP model by specifying the distinct, isolated components that compose it."
+  },
+  {
+    "claim_a": "agent-data-is-sensitive-and-should-be-contained",
+    "claim_b": "zt-control-data-plane-split",
+    "edge_type": "extends",
+    "rationale": "Containing agent data strictly to the control plane is a concrete security application of the plane separation principle."
+  },
+  {
+    "claim_a": "the-control-plane-is-the-trust-grantor-temporary",
+    "claim_b": "agent-data-is-sensitive-and-should-be-contained",
+    "edge_type": "extends",
+    "rationale": "The trust grantor role explains why agent data must be contained—the control plane needs authoritative access to sensitive agent data to make informed trust decisions."
+  },
+  {
+    "claim_a": "sso-should-not-remove-the-control-plane-from",
+    "claim_b": "control-plane-compromise-is-the-worst-case-scenario-and",
+    "edge_type": "supports",
+    "rationale": "The danger of SSO bypassing the control plane is underscored by the fact that control plane compromise is the worst-case scenario, so the control plane must remain in the authorization loop."
+  },
+  {
+    "claim_a": "zt-control-data-plane-split",
+    "claim_b": "the-nist-pdppep-model-is-the-correct-foundation",
+    "edge_type": "extends",
+    "rationale": "The NIST PDP/PEP model is a formalized operationalization of the control plane/data plane split, with PDP mapping to the control plane and PEP to the data plane."
+  },
+  {
+    "claim_a": "there-are-three-distinct-types-of-peps-and",
+    "claim_b": "the-nist-pdppep-model-is-the-correct-foundation",
+    "edge_type": "extends",
+    "rationale": "The three PEP types—user agent, network, and application—refine the PDP/PEP model by specifying where enforcement occurs across the architecture."
+  },
+  {
+    "claim_a": "a-component-is-only-a-pep-if-it",
+    "claim_b": "there-are-three-distinct-types-of-peps-and",
+    "edge_type": "extends",
+    "rationale": "The definition of what qualifies as a PEP—identity-centric, dynamic, automated control channel—provides the criteria for distinguishing between the three PEP types."
+  },
+  {
+    "claim_a": "a-component-is-only-a-pep-if-it",
+    "claim_b": "the-nist-pdppep-model-is-the-correct-foundation",
+    "edge_type": "extends",
+    "rationale": "The refined PEP definition elaborates the PDP/PEP model by specifying that a traditional firewall alone does not satisfy the PDP-controlled enforcement requirement."
+  },
+  {
+    "claim_a": "the-pep-works-best-at-the-cloud-boundary",
+    "claim_b": "there-are-three-distinct-types-of-peps-and",
+    "edge_type": "extends",
+    "rationale": "The cloud-boundary PEP recommendation is a specific instantiation of the network PEP type, using source IP restrictions as the enabling primitive."
+  },
+  {
+    "claim_a": "the-pep-works-best-at-the-cloud-boundary",
+    "claim_b": "a-component-is-only-a-pep-if-it",
+    "edge_type": "extends",
+    "rationale": "The cloud-boundary PEP configuration is a concrete example of a component meeting all PEP qualification criteria—identity-centric, dynamic policies via automated control channel."
+  },
+  {
+    "claim_a": "zt-control-data-plane-split",
+    "claim_b": "there-are-three-distinct-types-of-peps-and",
+    "edge_type": "extends",
+    "rationale": "The three PEP types elaborate where enforcement points sit within the control plane/data plane architecture, distinguishing user-agent, network, and application enforcement."
+  },
+  {
+    "claim_a": "four-deployment-models-cover-the-zt-solution-space",
+    "claim_b": "four-deployment-models-zta",
+    "edge_type": "extends",
+    "rationale": "The GC's four deployment models extend NIST's four by adding cloud-routed and microsegmentation models on top of NIST's resource-based and enclave-based models."
+  },
+  {
+    "claim_a": "target-initiated-access-is-a-real-architectural-constraint-that",
+    "claim_b": "four-deployment-models-cover-the-zt-solution-space",
+    "edge_type": "extends",
+    "rationale": "The target-initiated access constraint specifies that the cloud-routed deployment model struggles with server-initiated traffic, narrowing which models remain viable under this requirement."
+  },
+  {
+    "claim_a": "target-initiated-access-is-a-real-architectural-constraint-that",
+    "claim_b": "four-deployment-models-zta",
+    "edge_type": "extends",
+    "rationale": "The target-initiated access constraint reveals that some NIST deployment models handle server-initiated traffic naturally while others do not, refining model selection criteria."
+  },
+  {
+    "claim_a": "five-deployment-scenarios-combine",
+    "claim_b": "four-deployment-models-cover-the-zt-solution-space",
+    "edge_type": "extends",
+    "rationale": "Because the five NIST deployment scenarios compound in real enterprises, the four deployment models must cover the full solution space non-exclusively."
+  },
+  {
+    "claim_a": "five-deployment-scenarios-combine",
+    "claim_b": "four-deployment-models-zta",
+    "edge_type": "extends",
+    "rationale": "Since enterprises combine multiple deployment scenarios, they need multiple NIST deployment models simultaneously rather than picking one."
+  },
+  {
+    "claim_a": "the-pep-works-best-at-the-cloud-boundary",
+    "claim_b": "four-deployment-models-cover-the-zt-solution-space",
+    "edge_type": "extends",
+    "rationale": "The PEP at the cloud boundary is the enabling pattern for the cloud-routed deployment model, which is one of the four models covering the ZT solution space."
+  },
+  {
+    "claim_a": "three-zta-approaches-identity-microseg-sdp",
+    "claim_b": "four-deployment-models-zta",
+    "edge_type": "extends",
+    "rationale": "The three ZTA approaches—identity governance, micro-segmentation, and SDP—map to specific NIST deployment models, with SDP aligning to device agent/gateway and micro-segmentation to enclave gateway."
+  },
+  {
+    "claim_a": "zt-phone-home-fatal-flaw",
+    "claim_b": "preventing-lateral-movement-primary-goal-zt",
+    "edge_type": "supports",
+    "rationale": "The phone-home attack pattern demonstrates why preventing lateral movement is the primary ZT goal, as it is the attack phase that follows initial perimeter compromise."
+  },
+  {
+    "claim_a": "zt-phone-home-fatal-flaw",
+    "claim_b": "zt-control-data-plane-split",
+    "edge_type": "supports",
+    "rationale": "The phone-home pattern demonstrates why perimeter security alone fails and why the control plane/data plane split is necessary for real-time, identity-centric authorization."
+  },
+  {
+    "claim_a": "preventing-lateral-movement-primary-goal-zt",
+    "claim_b": "three-types-of-filtering-form-a-defense-in-depth-network",
+    "edge_type": "supports",
+    "rationale": "The three types of filtering—host, bookended, and intermediary—form defense-in-depth that directly serves the primary ZT goal of preventing lateral movement."
+  },
+  {
+    "claim_a": "preventing-lateral-movement-primary-goal-zt",
+    "claim_b": "enclave-design-is-trust-classification-what-criteria-justify",
+    "edge_type": "extends",
+    "rationale": "Enclave design as trust classification directly implements lateral movement prevention by grouping resources with similar trust requirements and controlling access between groups."
+  },
+  {
+    "claim_a": "three-zta-approaches-identity-microseg-sdp",
+    "claim_b": "three-types-of-filtering-form-a-defense-in-depth-network",
+    "edge_type": "extends",
+    "rationale": "The three types of filtering forming defense-in-depth are the network-level implementation of the micro-segmentation ZTA approach."
+  },
+  {
+    "claim_a": "three-zta-approaches-identity-microseg-sdp",
+    "claim_b": "preventing-lateral-movement-primary-goal-zt",
+    "edge_type": "supports",
+    "rationale": "All three ZTA approaches—identity governance, micro-segmentation, and SDP—directly serve the primary goal of preventing lateral movement through different enforcement mechanisms."
+  },
+  {
+    "claim_a": "dod-seven-aggregated-capabilities-taxonomy",
+    "claim_b": "dod-seven-ra-principles-bridge",
+    "edge_type": "extends",
+    "rationale": "The seven pillars taxonomy provides the functional capability domains that the seven RA principles bridge to implementation, forming the DoD's three-layer architecture."
+  },
+  {
+    "claim_a": "dod-seven-ra-principles-bridge",
+    "claim_b": "the-nist-pdppep-model-is-the-correct-foundation",
+    "edge_type": "extends",
+    "rationale": "The DoD RA principles as architectural bridge add a layer above the PDP/PEP model, connecting high-level tenets to PDP/PEP-based implementation."
+  },
+  {
+    "claim_a": "dod-seven-aggregated-capabilities-taxonomy",
+    "claim_b": "the-nist-pdppep-model-is-the-correct-foundation",
+    "edge_type": "extends",
+    "rationale": "The DoD's seven-pillar capability taxonomy complements the NIST PDP/PEP model by organizing functional capabilities that the policy engine must orchestrate."
+  },
+  {
+    "claim_a": "zt-comprehensive-security-architecture-strategy-product-technology",
+    "claim_b": "zt-implementation-faces-significant-organizational-technical-challenges",
+    "edge_type": "supports",
+    "rationale": "Because ZT is a comprehensive strategy rather than a product, implementation inevitably faces organizational challenges beyond purely technical ones."
+  },
+  {
+    "claim_a": "cccs-13-best-practices-form-pragmatic-sequenced",
+    "claim_b": "zt-comprehensive-security-architecture-strategy-product-technology",
+    "edge_type": "supports",
+    "rationale": "The 13 best practices being a sequenced implementation guide with organizational steps demonstrates that ZT is a strategy with methodology, not merely a product."
+  },
+  {
+    "claim_a": "zt-improves-security-across-seven-dimensions",
+    "claim_b": "cccs-13-best-practices-form-pragmatic-sequenced",
+    "edge_type": "extends",
+    "rationale": "The 13 best practices elaborate on how ZT improves security across dimensions by providing a specific, sequenced implementation path for each dimension."
+  },
+  {
+    "claim_a": "network-cross-cutting-capabilities-summary",
+    "claim_b": "zt-implementation-faces-significant-organizational-technical-challenges",
+    "edge_type": "extends",
+    "rationale": "The network cross-cutting capabilities maturity model details the specific technical challenges—from manual boundary monitoring to enterprise-wide automation—that ZT implementation must overcome."
+  },
+  {
+    "claim_a": "cccs-13-best-practices-form-pragmatic-sequenced",
+    "claim_b": "organizations-choose-among-nist-cisa-ncsc-frameworks",
+    "edge_type": "supports",
+    "rationale": "The CCCS 13 best practices serve as evidence that a pragmatic implementation guide can be built atop existing frameworks, supporting the recommendation to adopt rather than invent frameworks."
+  },
+  {
+    "claim_a": "enclave-design-is-trust-classification-what-criteria-justify",
+    "claim_b": "trust-assessment-is-spatial-the-architecture-location-determines",
+    "edge_type": "extends",
+    "rationale": "Enclave design as trust classification is a direct application of spatial trust assessment—the architecture location determines what trust data is available for enclave grouping decisions."
+  },
+  {
+    "claim_a": "trust-assessment-is-spatial-the-architecture-location-determines",
+    "claim_b": "zt-control-data-plane-split",
+    "edge_type": "extends",
+    "rationale": "Spatial trust assessment refines the control plane's function by showing that trust data availability and granularity vary by architectural location—branch, campus, data center, cloud."
+  },
+  {
+    "claim_a": "no-standard-exists-for-the-agent-format-standardization",
+    "claim_b": "agent-data-is-sensitive-and-should-be-contained",
+    "edge_type": "supports",
+    "rationale": "The lack of agent format standardization increases exposure risk if agent data is not contained, reinforcing the need to keep it strictly within the control plane."
+  },
+  {
+    "claim_a": "no-standard-exists-for-the-agent-format-standardization",
+    "claim_b": "the-nist-pdppep-model-is-the-correct-foundation",
+    "edge_type": "extends",
+    "rationale": "The absence of agent format standards highlights a gap in the PDP/PEP model—the policy engine lacks a standardized way to consume agent data from diverse sources."
+  },
+  {
+    "claim_a": "network-cross-cutting-capabilities-summary",
+    "claim_b": "zt-control-data-plane-split",
+    "edge_type": "extends",
+    "rationale": "The network cross-cutting capabilities describe how the control plane matures from static, perimeter-focused policies to dynamic, enterprise-wide automated policy enforcement."
+  },
+  {
+    "claim_a": "sso-should-not-remove-the-control-plane-from",
+    "claim_b": "zt-control-data-plane-split",
+    "edge_type": "depends_on",
+    "rationale": "The recommendation that SSO should not bypass the control plane for ongoing authorization depends on the architectural separation of planes being the correct foundation."
+  },
+  {
+    "claim_a": "the-pep-works-best-at-the-cloud-boundary",
+    "claim_b": "zt-control-data-plane-split",
+    "edge_type": "extends",
+    "rationale": "Placing the PEP at the cloud boundary is a specific architectural pattern for positioning the data plane enforcement point relative to the control plane in cloud deployments."
+  },
+  {
+    "claim_a": "five-deployment-scenarios-combine",
+    "claim_b": "zt-implementation-faces-significant-organizational-technical-challenges",
+    "edge_type": "supports",
+    "rationale": "Because enterprises compound multiple deployment scenarios, ZT implementation faces compounded organizational and technical challenges across heterogeneous environments."
+  },
+  {
+    "claim_a": "gc-developing-own-zt-framework-aligned-cisa",
+    "claim_b": "organizations-choose-among-nist-cisa-ncsc-frameworks",
+    "edge_type": "supports",
+    "rationale": "The GC developing its framework aligned with CISA and NIST pillars exemplifies the recommended approach of building on existing frameworks rather than inventing from scratch."
+  },
+  {
+    "claim_a": "preventing-lateral-movement-primary-goal-zt",
+    "claim_b": "zt-control-data-plane-split",
+    "edge_type": "supports",
+    "rationale": "The primary goal of preventing lateral movement motivates the control plane/data plane split, because real-time authorization at every access attempt is the architectural mechanism that stops lateral movement."
+  },
+  {
+    "claim_a": "the-control-plane-is-the-trust-grantor-temporary",
+    "claim_b": "preventing-lateral-movement-primary-goal-zt",
+    "edge_type": "supports",
+    "rationale": "Temporary trust and leased tokens directly prevent lateral movement by ensuring that a compromised session cannot be reused to access additional resources."
+  }
+]

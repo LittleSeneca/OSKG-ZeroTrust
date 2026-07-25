@@ -1,0 +1,44 @@
+[
+  {
+    "source": "data-categorization-automated-labeling",
+    "target": "data-access-jit-jea-controls",
+    "relationship": "supports",
+    "rationale": "The access control maturity model explicitly states access decisions consider 'data category'; automated labeling provides the category attributes that JIT/JEA decisions evaluate."
+  },
+  {
+    "source": "data-centric-security-abac-protection",
+    "target": "data-categorization-automated-labeling",
+    "relationship": "depends_on",
+    "rationale": "Attribute-based access control requires attributes. Data Tagging (one of the four ABAC mechanisms) is explicitly about categorizing data with PII/sensitivity tags — without categorization, ABAC has no attributes to enforce against."
+  },
+  {
+    "source": "data-inventory-management-continuous",
+    "target": "data-categorization-automated-labeling",
+    "relationship": "supports",
+    "rationale": "You must know what data exists before you can categorize it. Continuous data inventory is the foundational discovery layer that enables comprehensive automated labeling."
+  },
+  {
+    "source": "data-protection-is-an-advanced-zt-use-case",
+    "target": "data-categorization-automated-labeling",
+    "relationship": "depends_on",
+    "rationale": "The GC SOC claim explicitly states that 'classification maturity and platform capabilities are prerequisites' for data protection as an advanced ZT use case."
+  },
+  {
+    "source": "data-centric-security-abac-protection",
+    "target": "data-protection-is-an-advanced-zt-use-case",
+    "relationship": "extends",
+    "rationale": "The GC SOC claim establishes that data protection is an advanced ZT use case; the DoD RA claim specifies the concrete architectural pattern (ABAC with Data Tagging, DRM, DLP, DDM) for implementing that use case."
+  },
+  {
+    "source": "data-classification-spans-a-structured-to-unstructured-continuum-structured-data",
+    "target": "data-categorization-automated-labeling",
+    "relationship": "extends",
+    "rationale": "The CISA ZTMM claim describes the maturity progression of data categorization; the GC SOC claim adds depth by explaining the fundamental challenge — structured data has implicit schema classification while unstructured data lacks inherent metadata, making automated labeling the hardest problem."
+  },
+  {
+    "source": "data-inventory-management-continuous",
+    "target": "data-centric-security-abac-protection",
+    "relationship": "supports",
+    "rationale": "DLP (Data Loss Prevention), one of the four ABAC protection mechanisms, monitors for data exfiltration. Continuous inventory provides knowledge of what data assets exist and where they reside, enabling DLP to effectively monitor and protect them."
+  }
+]

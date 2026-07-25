@@ -1,0 +1,158 @@
+[
+  {
+    "source": "sequential-network-maturity-journey",
+    "target": "data-flow-mapping-foundational-capability",
+    "type": "depends_on",
+    "rationale": "The maturity journey explicitly builds on data flow mapping as its foundation: 'you cannot segment without understanding flows.'"
+  },
+  {
+    "source": "sequential-network-maturity-journey",
+    "target": "macro-segmentation-cross-function",
+    "type": "depends_on",
+    "rationale": "The sequential maturity framework requires macro segmentation as the second phase after data flow mapping."
+  },
+  {
+    "source": "sequential-network-maturity-journey",
+    "target": "micro-segmentation-blast-radius",
+    "type": "depends_on",
+    "rationale": "Micro segmentation is the third phase in the integrated maturity progression."
+  },
+  {
+    "source": "micro-segmentation-blast-radius",
+    "target": "macro-segmentation-cross-function",
+    "type": "depends_on",
+    "rationale": "'You cannot micro-segment effectively without macro segmentation as a foundation.' Micro segmentation builds on macro."
+  },
+  {
+    "source": "data-flow-mapping-foundational-capability",
+    "target": "macro-segmentation-cross-function",
+    "type": "supports",
+    "rationale": "'You can't segment what you don't understand' — data flow mapping is the prerequisite that enables effective macro segmentation."
+  },
+  {
+    "source": "macro-segmentation-cross-function",
+    "target": "lateral-movement-prevention-raison-detre",
+    "type": "supports",
+    "rationale": "Macro segmentation between business functions is the primary mechanism for preventing lateral movement, which is the pillar's core purpose."
+  },
+  {
+    "source": "micro-segmentation-blast-radius",
+    "target": "lateral-movement-prevention-raison-detre",
+    "type": "supports",
+    "rationale": "Micro segmentation limits the blast radius when lateral movement occurs, directly serving the pillar's raison d'être."
+  },
+  {
+    "source": "east-west-segmentation-controlling-traffic-within-the-same-vlansubnet",
+    "target": "lateral-movement-prevention-raison-detre",
+    "type": "supports",
+    "rationale": "East-west segmentation is the hardest lateral movement problem — controlling traffic within the same VLAN/subnet is what most distinguishes ZT from perimeter security."
+  },
+  {
+    "source": "true-zt-segmentation-requires-enforcement-at-every-osi",
+    "target": "east-west-segmentation-controlling-traffic-within-the-same-vlansubnet",
+    "type": "supports",
+    "rationale": "Enforcement at every OSI layer — especially Layer 2 with SGTs — is how east-west segmentation within the same VLAN becomes technically feasible."
+  },
+  {
+    "source": "zt-perimeter-historical-accident",
+    "target": "perimeter-security-obsolete",
+    "type": "supports",
+    "rationale": "The historical narrative that perimeter security was an accident of NAT/IP isolation, not a designed property, explains and reinforces why it is now obsolete."
+  },
+  {
+    "source": "perimeter-security-obsolete",
+    "target": "lateral-movement-prevention-raison-detre",
+    "type": "supports",
+    "rationale": "Perimeter failure — attackers who breach the perimeter face no further barriers — is exactly why lateral movement prevention becomes the central ZT concern."
+  },
+  {
+    "source": "perimeter-security-obsolete",
+    "target": "vpns-must-be-replaced-not-augmented-not-integrated",
+    "type": "supports",
+    "rationale": "VPNs are a perimeter technology; the obsolescence of perimeter-based security directly undermines VPNs as a viable access model."
+  },
+  {
+    "source": "vpns-must-be-replaced-not-augmented-not-integrated",
+    "target": "network-transformation-vpn-removal-segmentation",
+    "type": "supports",
+    "rationale": "The five fatal VPN flaws provide the architectural argument for why VPN removal is a necessary consequence of ZT principles."
+  },
+  {
+    "source": "wan-reliance-will-diminish-under-zero-trust-zt",
+    "target": "vpns-must-be-replaced-not-augmented-not-integrated",
+    "type": "supports",
+    "rationale": "ZT encrypted overlays replacing dedicated WAN links supports the broader argument that VPN-based connectivity is obsolete."
+  },
+  {
+    "source": "satellite-facilities-cloud-hosted-pe-pa",
+    "target": "network-transformation-vpn-removal-segmentation",
+    "type": "supports",
+    "rationale": "Cloud-hosted PE/PA is the practical alternative to VPN hairpinning, demonstrating how ZT network transformation replaces VPNs for remote access."
+  },
+  {
+    "source": "cipher-suite-negotiation-is-an-anti-pattern-newer-protocols",
+    "target": "traffic-encryption-cryptographic-agility",
+    "type": "supports",
+    "rationale": "Eliminating cipher suite negotiation in favor of fixed strong suites is a concrete practice that advances the cryptographic agility maturity dimension."
+  },
+  {
+    "source": "tls-and-ipsec-serve-different-roles-mtls-for",
+    "target": "true-zt-segmentation-requires-enforcement-at-every-osi",
+    "type": "supports",
+    "rationale": "Assigning mTLS to client/server and IPsec to server/server demonstrates layered encryption at different OSI levels, supporting the multi-layer enforcement principle."
+  },
+  {
+    "source": "network-segmentation-micro-perimeters",
+    "target": "micro-segmentation-blast-radius",
+    "type": "supports",
+    "rationale": "The CISA maturity model independently confirms that micro-segmentation with dynamic JIT connectivity is the optimal end-state, supporting the NSA's blast-radius claim."
+  },
+  {
+    "source": "the-first-packet-problem-is-solved-by-single",
+    "target": "zt-guarantees-confidentiality-but-not-privacy-endpoint-enumeration",
+    "type": "supports",
+    "rationale": "SPA mitigates the endpoint enumeration tradeoff by hiding services until a valid cryptographically-signed packet is received, partially addressing ZT's privacy gap."
+  },
+  {
+    "source": "traffic-encryption-cryptographic-agility",
+    "target": "idps-capabilities-remain-essential-but-the-how-changes",
+    "type": "supports",
+    "rationale": "Widespread traffic encryption creates the challenge that forces IDPS to adapt — network-based IDPS is challenged by encrypted ZT tunnels, shifting advantage to host-based IDPS."
+  },
+  {
+    "source": "micro-segmentation-blast-radius",
+    "target": "macro-segmentation-cross-function",
+    "type": "extends",
+    "rationale": "Micro segmentation extends macro segmentation by adding granular, service-specific isolation within business function segments."
+  },
+  {
+    "source": "east-west-segmentation-controlling-traffic-within-the-same-vlansubnet",
+    "target": "micro-segmentation-blast-radius",
+    "type": "extends",
+    "rationale": "East-west segmentation extends micro segmentation to its most granular level — controlling traffic between adjacent devices in the same VLAN, which is the hardest case."
+  },
+  {
+    "source": "tls-should-be-separated-from-applications-via-a",
+    "target": "tls-and-ipsec-serve-different-roles-mtls-for",
+    "type": "extends",
+    "rationale": "The local TLS daemon architecture extends the role-separation strategy by decoupling TLS from application libraries, enabling centralized crypto policy management."
+  },
+  {
+    "source": "network-segmentation-micro-perimeters",
+    "target": "macro-segmentation-cross-function",
+    "type": "extends",
+    "rationale": "The CISA maturity model extends the NSA macro segmentation concept by specifying fully distributed ingress/egress micro-perimeters and dynamic JIT connectivity as the advanced end-state."
+  },
+  {
+    "source": "network-traffic-management-dynamic",
+    "target": "network-segmentation-micro-perimeters",
+    "type": "extends",
+    "rationale": "Dynamic traffic management extends static micro-perimeter segmentation by adding continuously evolving rules that reprioritize applications based on mission criticality and risk."
+  },
+  {
+    "source": "8021x-based-nac-is-fundamentally-incompatible-with-zero-trusts",
+    "target": "nac-eg-cisco-ise-functions-as-the-single",
+    "type": "contradicts",
+    "rationale": "One claim positions NAC (Cisco ISE) as the single source of truth for ZT access decisions; the other declares 802.1x-based NAC fundamentally incompatible with ZT's universal scope due to local-only, coarse-grained, and static limitations."
+  }
+]

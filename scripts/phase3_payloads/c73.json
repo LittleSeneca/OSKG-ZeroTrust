@@ -1,0 +1,79 @@
+{
+  "cluster_id": "c73",
+  "cluster_label": "network (architectural)",
+  "size": 9,
+  "claims": [
+    {
+      "slug": "firewalls-persist-under-zero-trust-but-their-role",
+      "claim_id": "gc-net-access.1",
+      "statement": "Firewalls persist under Zero Trust but their role bifurcates \u2014 rules simplify dramatically as enforcement shifts to ZT PEPs, and the access controls historically attempted with firewalls are achieved more effectively through identity-centric policy.",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The 5-tuple model (`src IP, src port, dest IP, dest port, protocol`) is explicitly critiqued: IP addresses are not identities and get remapped across subnets. The authors provide a figure (6-1) showing the three deployment scenarios and their policy complexity implications. The firewall's retained role is for advanced features that access switches cannot provide (IPS, malware detection, TCP normal"
+    },
+    {
+      "slug": "ngfws-are-neither-sufficient-as-a-zt-platform",
+      "claim_id": "gc-net-access.7",
+      "statement": "NGFWs are neither sufficient as a ZT platform nor irrelevant to one \u2014 they are a component whose role depends on architecture, but NGFW-based single-entry-point architectures can impose constraints that limit the ZT journey.",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The encryption problem (Figure 10-1): three deployment scenarios \u2014 (A) core firewall only, operates on network headers, works unchanged; (B) logical PEP with re-encryption, high processing load and latency; (C) logical PEP with expanded implicit trust zone \u2014 a ZT anti-pattern. Critical warning: policy misalignment risk when NGFW (as logical PEP) and second PEP enforce different policies from diffe"
+    },
+    {
+      "slug": "nist-control-data-plane-separation",
+      "claim_id": "nist207-ch3.7",
+      "statement": "Control plane and data plane must be logically separated",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "**Cross-reference:**\n\nGilman & Barth's (2017) \"Zero Trust Networks\" book provides the most thorough treatment of control plane / data plane architecture, including practical considerations like control plane availability, latency, and the single-point-of-failure risk that the PA/PE becomes. NIST 800-207 acknowledges scalability as a requirement (Requirement 9) but doesn't explore the failure modes"
+    },
+    {
+      "slug": "sasezte-converges-networking-and-security-but-ztna-ingress",
+      "claim_id": "gc-cloud.5",
+      "statement": "SASE/ZTE converges networking and security, but ZTNA (ingress) is architecturally distinct",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "Two reasons: (1) TCP/IP networks require a local node to terminate the encrypted tunnel and proxy connections to private resources on the private network; (2) the local PEP is needed to obtain and use local context/attributes as policy inputs. Gartner makes the same distinction between \"ingress SASE\" and \"egress SASE\" with different requirements.\n\nAdditionally, enterprises \"still have on-premises "
+    },
+    {
+      "slug": "sdn-enables-scalable-micro-segmentation",
+      "claim_id": "nsa-network.5",
+      "statement": "SDN is the enabling technology that makes micro segmentation manageable at scale",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "Four-phase maturity progression:\n\n| Phase | Capability |\n|-------|-----------|\n| **Preparation** | Map network segments within administrative purview. Identify a roadmap for SDN component integrations. |\n| **Basic** | Integrate SDN components and develop a central control plane, along with management policy, network configuration rules, and task schedule (such as updates). |\n| **Intermediate** | M"
+    },
+    {
+      "slug": "service-meshes-are-self-contained-zero-trust-microsegmentation-systems",
+      "claim_id": "gc-cloud.3",
+      "statement": "Service meshes are self-contained Zero Trust microsegmentation systems",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "Istio's architecture maps cleanly to ZT: istiod services = PDP (certificate authority, service identity, authorization policies), sidecar proxies = PEPs, mTLS for confidentiality + mutual authentication. Authorization is based on requestor attributes, target service attributes, and request metadata \u2014 services are addressed by identifiers, not IP addresses.\n\nThe mesh defines a clear boundary \u2014 its "
+    },
+    {
+      "slug": "ten-network-requirements-zta",
+      "claim_id": "nist207-ch3.8",
+      "statement": "Ten network requirements support ZTA",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "**Assessment of critical requirements:**\n\n| # | Requirement | Operational Significance | Implementation Difficulty |\n|---|---|---|---|\n| 4 | Resources unreachable without PEP | Defines the architectural \"cloaking\" of resources | HIGH \u2014 requires rearchitecting network access |\n| 5 | Separate control/data planes | Foundational to ZTA | MEDIUM \u2014 well-understood from SDN |\n| 8 | Remote access without "
+    },
+    {
+      "slug": "the-firewall-is-enough-belief-is-mathematically-disproven-a-network",
+      "claim_id": "go-ch6-8.5",
+      "statement": "The firewall-is-enough belief is mathematically disproven \u2014 a network with 2,046 VLANs passing through a firewall requires a minimum of 12,000 initial rules just for shared services, not counting business-specific rules.",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The authors propose a university/research network model where every endpoint is treated as a threat by default: (1) treat every endpoint as a threat to the network; (2) segment endpoints from everything except critical services; (3) require users to agree to policy stating explicit access requirements; (4) require the level of contextual identity the organization can facilitate; (5) apply enforcem"
+    },
+    {
+      "slug": "zt-network-assumptions",
+      "claim_id": "nist207-ch2.5",
+      "statement": "The network assumptions invert traditional perimeter thinking",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "These assumptions are derived directly from the seven tenets. They're operational consequences: if Tenet 2 says \"communication is secured regardless of location,\" the network assumption is \"the enterprise network is not a trust zone.\""
+    }
+  ]
+}

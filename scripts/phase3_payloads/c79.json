@@ -1,0 +1,79 @@
+{
+  "cluster_id": "c79",
+  "cluster_label": "policy (architectural)",
+  "size": 9,
+  "claims": [
+    {
+      "slug": "dynamic-tag-based-targets-are-the-policy-models-most",
+      "claim_id": "gc-iam-policy.10",
+      "statement": "Dynamic, tag-based targets are the policy model's most powerful feature \u2014 they bind security enforcement to business/DevOps processes",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "Two compelling examples: (1) \"Systems tagged as department=Marketing\" \u2014 the PEP resolves hosts by interrogating environment metadata, so new marketing servers automatically get the right access policies without manual intervention. (2) \"Systems tagged as stage=test\" coupled with DevOps CI/CD \u2014 \"as a workload or service's stage is changed, its access controls will automatically follow.\" The authors"
+    },
+    {
+      "slug": "orchestration-policy-four-layer-hierarchy",
+      "claim_id": "dod-ra-cap.7",
+      "statement": "Orchestration and Policy Management (Use Cases 7\u20139) \u2014 centralized orchestration through a four-layer hierarchy (Global SDE Orchestrator \u2192 Cybersecurity Domain Orchestrator \u2192 ZT Policy Controller \u2192 PEPs) resolves siloed policy conflicts, and the dynamic adaptive policy feedback loop enables ZT policy to improve over time rather than being static, evolving from out-of-band AI (human review) to in-band AI (automated within acceptable risk bounds).",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "| Layer | Component | Role |\n|---|---|---|\n| **Global** | SDE Global Orchestrator | Provides desired/target state of the environment |\n| **Domain** | Cybersecurity Domain Orchestrator (CDO) | Compares desired state to security policies, resolves conflicts, pushes policy to controllers |\n| **Controller** | ZT Policy Controller | Disseminates policy to enforcement points specific to each area of inf"
+    },
+    {
+      "slug": "policy-creation-is-data-driven-discovery-before-enforcement-log",
+      "claim_id": "go-ch3-5.4",
+      "statement": "Policy creation is data-driven \u2014 discovery before enforcement, log before block",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "- Ch3 branch analysis: \"combined with a traffic collection or analysis mechanism, such as NetFlow or traffic taps, both mechanisms are used to determine the impact of policy on a set number of devices.\"\n- Ch3 campus analysis: \"traffic monitoring and identity enforcement, for example, can be done on singular switches that still have a larger variety of connected endpoints\" \u2014 breaking the campus int"
+    },
+    {
+      "slug": "policy-should-be-defined-in-terms-of-logical",
+      "claim_id": "gb-ch4-6.3",
+      "statement": "Policy should be defined in terms of logical components, not network addressing",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "They cite Kubernetes network policies (workload labels computing IP rules at enforcement time) as an example. Policy stored in version control enables code review, change tracking, validation. They add: \"Most policy should include a trust score component.\" On who defines policy: distributed across teams with security review, layered with infrastructure policy that no user can override."
+    },
+    {
+      "slug": "the-four-component-policy-model-subject-action-target-condition",
+      "claim_id": "gc-iam-policy.9",
+      "statement": "The four-component policy model (Subject \u2192 Action \u2192 Target + Condition) is the universal grammar of Zero Trust access control",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The model is presented as a logical structure that \"actual Zero Trust implementations may well structure their policy model differently, but should contain these elements.\" Multiple concrete examples are provided: Subject Criteria ranging from broad (\"All employees\") to narrow (\"Users in group Marketing, assigned to project Bruin, using Windows devices\"), Actions spanning network (TCP 443, RDP, DN"
+    },
+    {
+      "slug": "the-kipling-method-replaces-network-centric-policy-with-business-context",
+      "claim_id": "finney-ch1-3.8",
+      "statement": "The Kipling Method replaces network-centric policy with business-context policy",
+      "claim_type": "governance",
+      "confidence": "medium",
+      "evidence_excerpt": "Aaron demonstrates this by having Brent identify the correct role group (Who) for the SharePoint site rather than using IP-based access control. \"A lot of organizations limit access to sensitive servers by IP address... But this isn't Zero Trust. It turns out in practice that attackers are very good at figuring out where those holes are.\""
+    },
+    {
+      "slug": "the-policy-decision-matrix-mapping-source-entities-to",
+      "claim_id": "go-ch6-8.9",
+      "statement": "The policy decision matrix \u2014 mapping source entities to destination entities with per-cell permit/deny, port/protocol, and directionality \u2014 is the output artifact of ZT planning, and multiple matrices will be needed across intra-data center, inter-site, and per-business-unit contexts.",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "Four business drivers define the segmentation charter: (1) Risk Assessments and Compliance \u2014 CMMC, PCI, ISO requirements mapped directly to the five ZT pillars, with specific CMMC assessment criteria quoted for each; (2) Threat Mapping \u2014 probability \u00d7 impact of threats on critical systems; (3) Data Protection \u2014 confidentiality, integrity, availability as the trifecta; (4) Reducing Attack Surfaces "
+    },
+    {
+      "slug": "the-policy-structure-of-subject-criteria-action-target",
+      "claim_id": "gc-ch1-3.14",
+      "statement": "The policy structure of Subject Criteria + Action + Target + Condition provides a universal template for ZT policy definition.",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "A sample policy makes it concrete: Billing department users accessing billing.internal.company.com on port 443/HTTPS, with conditions for MFA (remote users) and device posture (company-managed with endpoint security)."
+    },
+    {
+      "slug": "top-down-business-aligned-and-bottom-up-traffic-aligned-design-approaches-are",
+      "claim_id": "go-ch6-8.8",
+      "statement": "Top-down (business-aligned) and bottom-up (traffic-aligned) design approaches are complementary, not competing \u2014 use top-down for high-level architecture and bottom-up for validation and detailed policy creation.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "Top-down is best for regulated industries with clear business-unit boundaries where endpoints cleanly map to organizational units. Bottom-up is best for consulting firms (one person spans multiple BUs), shared physical servers hosting multiple BU VMs, and politically siloed organizations where cross-department communication is unknown. Three deployment templates: (1) By Site Type \u2014 classify sites,"
+    }
+  ]
+}

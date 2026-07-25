@@ -1,0 +1,27 @@
+[
+  {
+    "source": "nist-1800-35.3",
+    "target": "nist-1800-35.2",
+    "relationship": "supports"
+  },
+  {
+    "source": "nist-1800-35.3",
+    "target": "nist-1800-35.1",
+    "relationship": "supports"
+  },
+  {
+    "source": "nist-1800-35.2",
+    "target": "nist-1800-35.1",
+    "relationship": "extends"
+  },
+  {
+    "source": "finney-ch4-7.1",
+    "target": "gc-scenarios.1",
+    "relationship": "extends"
+  },
+  {
+    "source": "gb-ch9.7",
+    "target": "nist-1800-35.1",
+    "relationship": "supports"
+  }
+]

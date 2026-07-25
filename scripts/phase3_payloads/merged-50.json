@@ -1,0 +1,247 @@
+{
+  "cluster_id": "merged-50",
+  "cluster_label": "architecture+network (architectural)",
+  "size": 30,
+  "claims": [
+    {
+      "slug": "cccs-13-best-practices-form-pragmatic-sequenced",
+      "claim_id": "cccs-arch.5",
+      "statement": "CCCS's 13 best practices form a pragmatic, sequenced ZTA implementation guide",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "Each practice includes specific implementation guidance. For example: PAM should use just-in-time access with dual approval (a different user must approve the privileged session). SAWs must be dedicated machines not used for email or web browsing. MFA should adjust factors based on data sensitivity. The trust engine should incorporate device state (software versions, patch levels, location), behav"
+    },
+    {
+      "slug": "dod-seven-aggregated-capabilities-taxonomy",
+      "claim_id": "dod-ra-cap.1",
+      "statement": "The Seven Pillars serve as the organizing taxonomy for all ZT capabilities, with seven aggregated capabilities (Continuous Authentication, Conditional Authorization, Enabling Infrastructure, Securing Application & Workload, Securing Data, Analytics, Automation & Orchestration) each nesting into sub-capabilities that extend the entire taxonomy.",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "| Aggregate Capability | Description | Maps To |\n|---|---|---|\n| **Continuous Authentication** | Validating identity of entities during all access transactions, enhanced with behavioral metrics and additional identifying factors | User, Device |\n| **Conditional Authorization** | Granting access contingent on continued trustworthiness \u2014 influenced by device hygiene, user/NPE behavior, and other fac"
+    },
+    {
+      "slug": "dod-seven-ra-principles-bridge",
+      "claim_id": "dod-ra-ov.6",
+      "statement": "DoD's seven RA principles are the architectural bridge between tenets and implementation",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "These seven principles are distinct from both the five tenets and the seven pillars. The tenets are *operational philosophy*; the pillars are *functional domains*; the principles are *architectural constraints*. This three-layer structure (tenets \u2192 pillars \u2192 principles) is more sophisticated than NIST's single-layer tenet model."
+    },
+    {
+      "slug": "five-deployment-scenarios-combine",
+      "claim_id": "nist207-ch4.1",
+      "statement": "The five scenarios are not mutually exclusive \u2014 real enterprises combine them",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The five scenarios are presented as lenses, not silos. An enterprise with satellite facilities (4.1) may also use multiple clouds (4.2), host contractors (4.3), collaborate with partners (4.4), and serve public-facing applications (4.5). The scenarios compound."
+    },
+    {
+      "slug": "four-deployment-models-cover-the-zt-solution-space",
+      "claim_id": "gc-ch1-3.12",
+      "statement": "Four deployment models cover the ZT solution space, and each has distinct trade-offs that must be evaluated against enterprise requirements.",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "Each model is analyzed with explicit pros/cons, architectural diagrams, and operational considerations. The analysis draws on both NIST's models (resource-based and enclave-based) and adds two models (cloud-routed and microsegmentation) for completeness."
+    },
+    {
+      "slug": "four-deployment-models-zta",
+      "claim_id": "nist207-ch3.4",
+      "statement": "Four deployment models operationalize the logical architecture",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "Descriptions with architectural diagrams (Figures 3\u20136). Each model is evaluated for use cases, strengths, and limitations.\n\n#### 3.2.1 Device Agent/Gateway\n\n**Model:** Client-side agent forwards requests to PA; PA configures secure channel between agent and resource-side gateway. This is the CSA SDP client-server implementation.\n\n**Best for:** Enterprises with robust device management programs and"
+    },
+    {
+      "slug": "gc-developing-own-zt-framework-aligned-cisa",
+      "claim_id": "cccs-arch.2",
+      "statement": "The GC is developing its own ZT framework aligned with CISA and NIST pillars",
+      "claim_type": "architectural",
+      "confidence": "medium",
+      "evidence_excerpt": "The document lists the GC's seven goals for the ZT shift: resilient digital ecosystem, seamless user experience, secure platform for data/systems, end-to-end protection of information/applications/devices/networks, mature security processes/governance/standards, and CIA assurance for IT infrastructure and critical business data."
+    },
+    {
+      "slug": "organizations-choose-among-nist-cisa-ncsc-frameworks",
+      "claim_id": "cccs-arch.4",
+      "statement": "Organizations should choose among NIST, CISA, and NCSC frameworks \u2014 not invent their own",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The document provides detailed summaries of all three frameworks: the full seven NIST tenets, the five CISA pillars with maturity stage descriptions, and all eight NCSC principles. The level of detail for each is sufficient for a reader to make an informed choice without consulting the original documents."
+    },
+    {
+      "slug": "preventing-lateral-movement-primary-goal-zt",
+      "claim_id": "cccs-arch.3",
+      "statement": "Preventing lateral movement is the *primary* goal of ZT",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The document anchors its threat model in the lateral movement attack pattern: \"We often hear of attacks that involve a compromised user account or device being used as an entry point... Once in, the attacker will then progress laterally in the network to gain access to credentials or other sensitive information.\""
+    },
+    {
+      "slug": "target-initiated-access-is-a-real-architectural-constraint-that",
+      "claim_id": "gc-iam-policy.13",
+      "statement": "Target-initiated access is a real architectural constraint that eliminates some ZT deployment models",
+      "claim_type": "architectural",
+      "confidence": "medium",
+      "evidence_excerpt": "Two concrete examples: (1) VOIP softphones where calls are initiated from the VOIP server to the user's device, and (2) a patching server that must periodically connect to a remote BI server. The authors note that \"solutions based on the cloud-routed deployment model typically struggle to support this\" while enclave-based and resource-based models handle it naturally."
+    },
+    {
+      "slug": "zt-comprehensive-security-architecture-strategy-product-technology",
+      "claim_id": "cccs-arch.1",
+      "statement": "ZT is a comprehensive security architecture strategy, not a product or technology",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The document defines ZT through NIST's operative definition verbatim, frames it as an *enterprise cybersecurity plan* (not a product suite), and structures its entire guidance around organizational change (mindset shift, executive commitment, phased implementation) rather than technology procurement. The 13 best practices include only 4 that are directly technology-oriented (MFA, encryption, SDP, "
+    },
+    {
+      "slug": "zt-implementation-faces-significant-organizational-technical-challenges",
+      "claim_id": "cccs-arch.7",
+      "statement": "ZT implementation faces significant organizational and technical challenges",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "_No evidence separable from the claim statement in the source note._"
+    },
+    {
+      "slug": "zt-improves-security-across-seven-dimensions",
+      "claim_id": "cccs-arch.6",
+      "statement": "ZT improves security across seven dimensions",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "_No evidence separable from the claim statement in the source note._"
+    },
+    {
+      "slug": "the-authorization-architecture-has-four-distinct-isolated-components",
+      "claim_id": "gb-ch4-6.1",
+      "statement": "The authorization architecture has four distinct, isolated components",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The authors argue from engineering principles \u2014 isolation prevents cascading compromise. The enforcement component is \"in the user's data path, more exposed,\" so it must be process-level isolated from the policy engine. They reference Google's BeyondCorp as having \"pioneered\" the trust engine concept."
+    },
+    {
+      "slug": "the-control-plane-is-the-trust-grantor-temporary",
+      "claim_id": "gb-ch2.5",
+      "statement": "The control plane is the trust grantor \u2014 temporary trust and leased tokens are its operational expression",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The chapter specifies leased access tokens and short-lifetime certificates as the implementation mechanism for temporary trust. These credentials must be validated both within the data plane (agent-to-resource) and between the data plane and control plane (agent-to-controller). The isolation requirement is structural \u2014 the data plane cannot be used to gain privilege in the control plane, preventin"
+    },
+    {
+      "slug": "the-pep-works-best-at-the-cloud-boundary",
+      "claim_id": "gc-cloud.2",
+      "statement": "The PEP works best at the cloud boundary \u2014 source IP restrictions are the enabling primitive",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "Two topologies are presented:\n\n1. **Co-located PEP** (Figure 14-1): PEP runs inside the CSP. IaaS resources assigned private IPs, PaaS resources accessed via public URLs with private prefixes (e.g., `https://abc123def.execute-api.us-east-1.amazonaws.com`). The CSP access gateway is configured so only traffic originating from the PEP can reach the resources. The PEP can make local API calls to retr"
+    },
+    {
+      "slug": "agent-data-is-sensitive-and-should-be-contained",
+      "claim_id": "gb-ch3.4",
+      "statement": "Agent data is sensitive and should be contained to the control plane, with controlled, format-flexible exposure to the data plane",
+      "claim_type": "architectural",
+      "confidence": "medium",
+      "evidence_excerpt": "The chapter identifies two categories of sensitive agent data: (1) PII \u2014 user name, address, phone number \u2014 and (2) device details that an attacker could use for targeted attacks or physical theft patterns. The solution is a \"trusted communication channel\" from control plane to application, like a reverse proxy injecting agent-derived headers into requests. The proxy enforces its own authorization"
+    },
+    {
+      "slug": "enclave-design-is-trust-classification-what-criteria-justify",
+      "claim_id": "go-ch3-5.2",
+      "statement": "Enclave design is trust classification \u2014 what criteria justify grouping and what criteria justify access between groups",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "Ch4 enumerates enclave categories with detailed trust criteria for each:\n- **Corporate workstations:** Two identities combined \u2014 machine identity (device profile + attributes) + user identity. Posture checks: anti-malware running, recent definitions, patching status, NAC integration. Combined identity via 802.1X EAP-TEAP or service account + user interrogation.\n- **Guests:** Limited posture assess"
+    },
+    {
+      "slug": "trust-assessment-is-spatial-the-architecture-location-determines",
+      "claim_id": "go-ch3-5.1",
+      "statement": "Trust assessment is spatial \u2014 the architecture location determines trust data availability and granularity",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The chapter-by-location walkthrough in Ch3 provides specific trust assessment capabilities for each architectural area:\n- **Branch:** Identity via RADIUS to policy server, posture via installed/ephemeral agents, traffic analysis via NetFlow/taps. Classification by business priority and impact. Key limitation: consumer/prosumer-grade network access devices with limited security features.\n- **Campus"
+    },
+    {
+      "slug": "no-standard-exists-for-the-agent-format-standardization",
+      "claim_id": "gb-ch3.5",
+      "statement": "No standard exists for the agent format; standardization would unlock interoperability, and SNMP/MIB is a useful analogy",
+      "claim_type": "governance",
+      "confidence": "medium",
+      "evidence_excerpt": "The chapter uses SNMP and its Management Information Base (MIB) as an extended analogy. OIDs (object identifiers) provide globally unique, hierarchical \"coordinates\" for data fields \u2014 analogous to IP addresses for data. The IANA Private Enterprise Number system allows organizations to register their own OID prefix for internal use. The analogy is: just as SNMP standardized how network devices expo"
+    },
+    {
+      "slug": "sso-should-not-remove-the-control-plane-from",
+      "claim_id": "gb-ch4-6.13",
+      "statement": "SSO should not remove the control plane from ongoing authorization",
+      "claim_type": "implementation",
+      "confidence": "medium",
+      "evidence_excerpt": "SSO provides: single authentication point, centralized credential storage, reduced credential surface area. But the common pattern of \"validate token at session start, then let the application manage its own session\" is \"generally undesirable\" because \"trust variance and invalidation is a key aspect of a zero trust network.\" The control plane should revalidate on every request or as frequently as "
+    },
+    {
+      "slug": "control-plane-compromise-is-the-worst-case-scenario-and",
+      "claim_id": "gb-ch10.7",
+      "statement": "Control plane compromise is the worst-case scenario \u2014 and it must be defended with the highest rigor",
+      "claim_type": "threat",
+      "confidence": "high",
+      "evidence_excerpt": "The control plane comprises multiple services (policy engine, inventory tracking, data stores). Not all are equal: compromising historical access data \"is strictly less useful to an attacker than compromising the policy engine\" \u2014 the former allows falsifying access patterns to artificially raise trust scores, the latter leads to \"complete compromise of zero trust authorization.\" Mitigations: group"
+    },
+    {
+      "slug": "network-cross-cutting-capabilities-summary",
+      "claim_id": "cisa-ztmm-dnad.10",
+      "statement": "Network Cross-Cutting Capabilities \u2014 progress from boundary-focused manual monitoring to enterprise-wide situational awareness with advanced automated telemetry correlation; from manual configuration management to infrastructure-as-code with automated change management; from static perimeter-focused policies to enterprise-wide policies enabling tailored local controls with dynamic updates.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "**Visibility & Analytics:**\n\nTraditional \u2192 limited boundary-focused network monitoring. Optimal \u2192 visibility into communication across all agency networks and environments; enterprise-wide situational awareness; advanced monitoring automating telemetry correlation across all detection sources.\n\n**Automation & Orchestration:**\n\nTraditional \u2192 manual processes for configuration and resource lifecycle"
+    },
+    {
+      "slug": "zt-phone-home-fatal-flaw",
+      "claim_id": "gilmanbarth-ch1.4",
+      "statement": "The phone-home attack pattern is perimeter security's fatal flaw",
+      "claim_type": "threat",
+      "confidence": "high",
+      "evidence_excerpt": "The attack chain: exploit user's browser \u2192 dialer payload phones home \u2192 real malware downloads \u2192 attacker gets interactive session on internal host \u2192 lateral movement. This pattern \"very effectively undermines the perimeter security model\" because outbound traffic is generally allowed."
+    },
+    {
+      "slug": "a-component-is-only-a-pep-if-it",
+      "claim_id": "gc-ch1-3.11",
+      "statement": "A component is only a PEP if it enforces identity-centric, dynamic policies via an automated control channel \u2014 traditional firewalls alone don't qualify.",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "A thought experiment: a 5-year-old basic firewall with static IP-based rules is NOT a PEP because it fails three tests: (1) can't enforce identity-centric and context-sensitive policy, (2) can't automatically respond to PDP-driven policy changes, (3) lacks a control channel for PDP communication. BUT \u2014 the same firewall with a policy-driven automation layer on top *could* be considered a PEP, as l"
+    },
+    {
+      "slug": "three-zta-approaches-identity-microseg-sdp",
+      "claim_id": "nist207-ch3.3",
+      "statement": "Three ZTA approaches exist \u2014 identity governance, micro-segmentation, and SDP",
+      "claim_type": "architectural",
+      "confidence": "medium",
+      "evidence_excerpt": "Conceptual descriptions with use-case mapping. NIST explicitly states these are not mutually exclusive and that one approach may be more suitable than others depending on existing enterprise policies and workflows.\n\n#### 3.1.1 Enhanced Identity Governance\n\n**NIST's claim:** Identity-driven ZTA uses actor identity as the primary policy input. Resource access policies are based on identity and assig"
+    },
+    {
+      "slug": "the-nist-pdppep-model-is-the-correct-foundation",
+      "claim_id": "gc-ch1-3.9",
+      "statement": "The NIST PDP/PEP model is the correct foundation, but needs enterprise-specific refinement and extension.",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The authors adopt NIST's PDP/PEP model but make three extensions: (1) CDM, PKI, and other systems are treated as logically part of the ZT system \u2014 \"producers and consumers of data and events, meshed together,\" (2) they introduce three distinct PEP types (user agent, network, application), (3) they define a formal policy structure (Subject Criteria + Action + Target + Condition)."
+    },
+    {
+      "slug": "there-are-three-distinct-types-of-peps-and",
+      "claim_id": "gc-ch1-3.10",
+      "statement": "There are three distinct types of PEPs, and understanding their differences is essential for architecture design.",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The distinction emerges from analyzing where enforcement can and must happen. Network PEPs are \"the most common starting point\" and align with NIST's orientation. Application PEPs enable just-in-time provisioning and role enforcement. User agent PEPs handle device posture and secure tunnel establishment."
+    },
+    {
+      "slug": "three-types-of-filtering-form-a-defense-in-depth-network",
+      "claim_id": "gb-ch7-8.12",
+      "statement": "Three types of filtering form a defense-in-depth network security architecture",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "Host filtering: all modern OSes include firewalls (except iOS and Android, which the authors note as a gap). Bookended filtering example: a database server's ingress rules are accidentally loosened by an administrator. If application servers also have egress rules that only allow connections to the database, the misconfiguration is contained. Intermediary filtering: EC2 Security Groups implement f"
+    },
+    {
+      "slug": "zt-control-data-plane-split",
+      "claim_id": "gilmanbarth-ch1.2",
+      "statement": "The control plane / data plane split is ZT's fundamental architectural innovation",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The control plane is authoritative \u2014 it authenticates, authorizes, and coordinates access in real time. The data plane accepts configuration from the control plane and enforces it. This architecture is directly inspired by software-defined networking (SDN) and Google's BeyondCorp. It's validated by every major ZT implementation: Google Access Proxy, ZTNA products, service mesh."
+    }
+  ]
+}

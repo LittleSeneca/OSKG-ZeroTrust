@@ -1,0 +1,152 @@
+{
+  "cluster_id": "merged-25",
+  "cluster_label": "identity (implementation)",
+  "claims_count": 21,
+  "edges_count": 24,
+  "edges": [
+    {
+      "source": "access-mgmt-abac-least-privilege",
+      "target": "identity-mgmt-attribute-authority",
+      "type": "depends_on",
+      "rationale": "ABAC fundamentally depends on authoritative identity attributes for policy decisions."
+    },
+    {
+      "source": "access-management-permanent-to-jit-jea",
+      "target": "identity-mgmt-attribute-authority",
+      "type": "depends_on",
+      "rationale": "JIT/JEA requires rich identity attributes to make fine-grained, automated access decisions."
+    },
+    {
+      "source": "the-strongest-user-authentication-binds-identity-to-hardware",
+      "target": "private-pki-is-the-non-negotiable-bedrock-of-zt",
+      "type": "depends_on",
+      "rationale": "Hardware-bound authentication at scale requires PKI as the underlying certificate infrastructure."
+    },
+    {
+      "source": "identity-stores-integrated-not-just-federated",
+      "target": "identity-federation-hard-problem",
+      "type": "depends_on",
+      "rationale": "Integration across environments cannot happen without first solving the federation challenge."
+    },
+    {
+      "source": "trust-assessment-is-multi-layered-identity-posture-and-behavior",
+      "target": "identity-mgmt-attribute-authority",
+      "type": "depends_on",
+      "rationale": "Multi-layered trust assessment needs authoritative identity attributes to evaluate the identity layer."
+    },
+    {
+      "source": "credential-mgmt-phishing-resistance",
+      "target": "authentication-keystone-identity-function",
+      "type": "supports",
+      "rationale": "Phishing-resistant credential management directly strengthens the authentication keystone against the largest capability gap."
+    },
+    {
+      "source": "device-data-contextualizes-and-strengthens-user-authentication",
+      "target": "identity-must-be-contextual-who-what-device-where",
+      "type": "supports",
+      "rationale": "Device data is the 'WHAT device' dimension of contextual identity, and anomalous pairings lower trust scores."
+    },
+    {
+      "source": "trust-assessment-is-multi-layered-identity-posture-and-behavior",
+      "target": "identity-must-be-contextual-who-what-device-where",
+      "type": "supports",
+      "rationale": "Multi-layered trust assessment (identity + posture + behavior) operationalizes contextual identity decisions."
+    },
+    {
+      "source": "identity-theft-is-the-first-and-most-dangerous",
+      "target": "the-strongest-user-authentication-binds-identity-to-hardware",
+      "type": "supports",
+      "rationale": "ZT requiring two stolen identities (user + device) justifies why hardware-bound authentication is essential \u2014 credential theft alone is insufficient."
+    },
+    {
+      "source": "private-pki-is-the-non-negotiable-bedrock-of-zt",
+      "target": "the-strongest-user-authentication-binds-identity-to-hardware",
+      "type": "supports",
+      "rationale": "Private PKI provides the certificate infrastructure that makes hardware-bound authentication viable at enterprise scale."
+    },
+    {
+      "source": "identity-is-simultaneously-the-most-important-protect-surface",
+      "target": "identity-is-the-keystone-of-zero-trust-but",
+      "type": "supports",
+      "rationale": "The dual-role argument (protect surface + enabler) reinforces identity's keystone position in ZT architecture."
+    },
+    {
+      "source": "identity-mgmt-attribute-authority",
+      "target": "identity-must-be-contextual-who-what-device-where",
+      "type": "supports",
+      "rationale": "Attribute authority is the prerequisite that enables contextual identity decisions across all dimensions (who, what, where, how, when)."
+    },
+    {
+      "source": "cisa-four-maturity-stages",
+      "target": "authentication-keystone-identity-function",
+      "type": "supports",
+      "rationale": "The four maturity stages (Traditional through Optimal) provide the framework for understanding the authentication capability gap."
+    },
+    {
+      "source": "risk-assessment-static-to-continuous",
+      "target": "continuous-authentication-common-all-pillars",
+      "type": "supports",
+      "rationale": "Continuous risk assessment feeds real-time identity risk data into the continuous authentication pipeline across all pillars."
+    },
+    {
+      "source": "access-management-permanent-to-jit-jea",
+      "target": "access-mgmt-abac-least-privilege",
+      "type": "extends",
+      "rationale": "Adds CISA's detailed maturity progression (permanent \u2192 expiring \u2192 session-based \u2192 JIT/JEA) to NSA's mechanism list (ABAC, JIT/JEA, PAM)."
+    },
+    {
+      "source": "continuous-authentication-common-all-pillars",
+      "target": "authentication-keystone-identity-function",
+      "type": "extends",
+      "rationale": "Extends the authentication keystone from an identity-pillar function to a cross-cutting requirement common to all ZT pillars."
+    },
+    {
+      "source": "identity-stores-integrated-not-just-federated",
+      "target": "identity-federation-hard-problem",
+      "type": "extends",
+      "rationale": "Extends beyond federation to secure integration \u2014 the architectural undertaking that federation alone cannot achieve."
+    },
+    {
+      "source": "risk-assessment-static-to-continuous",
+      "target": "trust-assessment-is-multi-layered-identity-posture-and-behavior",
+      "type": "extends",
+      "rationale": "Adds the structural shift from static periodic assessment to real-time continuous feed, distinguishing CISA's approach from NSA's."
+    },
+    {
+      "source": "cisa-four-maturity-stages",
+      "target": "access-management-permanent-to-jit-jea",
+      "type": "extends",
+      "rationale": "Provides the general four-stage maturity framework (Traditional\u2192Optimal) that the access management progression specifically instantiates."
+    },
+    {
+      "source": "pam-provides-valuable-functions-secrets-management-session-recording",
+      "target": "access-mgmt-abac-least-privilege",
+      "type": "extends",
+      "rationale": "Qualifies PAM's role in ZT: valuable functions persist but PAM is identity-aware rather than identity-centric, and password vaulting is premised on the non-ZT model."
+    },
+    {
+      "source": "credential-mgmt-phishing-resistance",
+      "target": "the-strongest-user-authentication-binds-identity-to-hardware",
+      "type": "extends",
+      "rationale": "Phishing resistance (MFA\u2192AAL3 scale) extends hardware binding by defining the credential management progression that hardware tokens anchor."
+    },
+    {
+      "source": "risk-assessment-static-to-continuous",
+      "target": "access-mgmt-abac-least-privilege",
+      "type": "extends",
+      "rationale": "Contrasts CISA's treatment of risk as a first-class function with NSA's treatment of risk as a property of access management (the framing of this claim)."
+    },
+    {
+      "source": "cross-enterprise-federated-identity-peps",
+      "target": "identity-federation-hard-problem",
+      "type": "supports",
+      "rationale": "The federated approach's linear scaling property (vs O(n\u00b2) alternatives) validates that federation is worth solving despite being a hard problem."
+    },
+    {
+      "source": "the-future-of-zt-saas-is-identity-providers",
+      "target": "identity-is-the-keystone-of-zero-trust-but",
+      "type": "extends",
+      "rationale": "Extends identity's keystone role into the SaaS future \u2014 IdPs evolving from authentication points to authorization centers."
+    }
+  ]
+}

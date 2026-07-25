@@ -1,0 +1,79 @@
+{
+  "cluster_id": "merged-56",
+  "cluster_label": "governance+maturity (governance)",
+  "size": 9,
+  "claims": [
+    {
+      "slug": "executive-sponsorship-and-crisis-create-the-window-for",
+      "claim_id": "finney-ch1-3.4",
+      "statement": "Executive sponsorship and crisis create the window for ZT adoption",
+      "claim_type": "governance",
+      "confidence": "medium",
+      "evidence_excerpt": "Olivia Reynolds is convinced by: (1) the Presidential executive order mandating ZT for government, (2) Aaron's argument that ZT is a *strategy* where security previously had only tools and tactics, and (3) the breach itself making \"business as usual\" untenable. The project team gets dedicated space (executive briefing center), cross-functional staffing (identity, networking, development, training)"
+    },
+    {
+      "slug": "federal-program-interactions-synthesis",
+      "claim_id": "nist207-ch6.10",
+      "statement": "The chapter's seven federal program interactions reveal that ZTA is a compliance *complement*, identity and asset visibility are hard prerequisites, TIC 3.0 and CDM are converging with ZTA, ZTA generates better data for existing programs, and privacy is an explicit unresolved tension.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "_No evidence separable from the claim statement in the source note._"
+    },
+    {
+      "slug": "five-business-value-drivers-not-security-alone-justify",
+      "claim_id": "gc-scenarios.3",
+      "statement": "Five business value drivers \u2014 not security alone \u2014 justify ZT investment",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "- **Security**: The obvious driver \u2014 \"as simple as incorporating MFA into the user experience or as complex as deploying an enterprise-wide Zero Trust network.\" But the authors note that security may not be the primary focus for every ZT project \u2014 a customer integration project on an already-deployed ZT platform may primarily serve the Customer/Partner Integration driver.\n- **Audit and Compliance*"
+    },
+    {
+      "slug": "identity-governance-needs-a-cross-functional-stakeholder-group-and",
+      "claim_id": "finney-ch4-7.6",
+      "statement": "Identity governance needs a cross-functional stakeholder group, and GDPR/privacy assessments can jump-start the data flow mapping that ZT requires.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "The Identity Governance group includes Noor (CISO), Kofi (Legal), Kim Self (Compliance), Vic (Sales, soon-to-be CEO), Mia (HR), and April (Marketing/Communications). Dylan presents the ZT identity strategy to this group and gets specific policy commitments:\n- MFA required for all applications by default before rollout\n- Daily reauthentication, with more frequent triggers for high-value transaction"
+    },
+    {
+      "slug": "zta-prerequisites-icam-cdm",
+      "claim_id": "nist207-ch6.2",
+      "statement": "ZTA exposes two hard prerequisites in existing programs \u2014 mature ICAM (identity) and CDM (asset inventory) \u2014 without which ZTA cannot function, because the Policy Engine cannot authorize access without sufficient subject/resource identity information and complete asset visibility.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "The chapter identifies two dependency chains:\n- **ICAM maturity \u2192 usable subject attributes \u2192 functional Policy Engine \u2192 ZTA enforcement** (\u00a76.3)\n- **CDM/HWAM \u2192 asset visibility \u2192 device posture assessment \u2192 PEP enforcement** (\u00a76.6)\n\nThis is not stated as a single claim by NIST but emerges across two sections \u2014 it's this note's analytical synthesis."
+    },
+    {
+      "slug": "cross-pillar-maturity-trajectory",
+      "claim_id": "cisa-ztmm-dnad.23",
+      "statement": "All four pillars share the same maturity trajectory \u2014 Traditional (manual, static, siloed) \u2192 Initial (automation begins) \u2192 Advanced (enterprise-wide, dynamic) \u2192 Optimal (fully automated, continuous, just-in-time, real-time risk analytics) \u2014 characterized by the same underlying shift from manual/static to automated/continuous across all functions.",
+      "claim_type": "maturity",
+      "confidence": "high",
+      "evidence_excerpt": "1. **Traditional:** Manual processes, static configurations, siloed visibility, ad hoc governance, limited automation.\n2. **Initial:** Automation begins (scripts, tools), basic integration across pillars, formalized policies, some contextual information in access decisions.\n3. **Advanced:** Enterprise-wide automated processes, cross-pillar coordination, centralized visibility, dynamic policy adapt"
+    },
+    {
+      "slug": "four-maturity-levels-progressive-capability",
+      "claim_id": "cisa-ztmm-ov.7",
+      "statement": "The four maturity levels define progressive capability from static/manual to dynamic/automated",
+      "claim_type": "maturity",
+      "confidence": "high",
+      "evidence_excerpt": "The document provides detailed criteria for each level:\n\n| Level | Key Characteristics |\n|-------|-------------------|\n| **Traditional** | Manually configured lifecycles; static security policies; pillar-siloed enforcement; least privilege only at provisioning; manual incident response; limited log correlation |\n| **Initial** | Starting automation of attribute assignment; initial cross-pillar solu"
+    },
+    {
+      "slug": "zero-trust-never-ends-the-maturity-model-turns",
+      "claim_id": "finney-ch8-11.11",
+      "statement": "Zero Trust never ends \u2014 the maturity model turns a six-month project into a multi-year strategic journey",
+      "claim_type": "maturity",
+      "confidence": "high",
+      "evidence_excerpt": "- Aaron: \"I recommend to all our clients that we focus our efforts into six-to-nine-month initiatives. The biggest reason is the corporate budget cycle.\"\n- The maturity model (Appendix B) provides a 5\u00d75 matrix: each methodology step (define protect surface, map transaction flows, architect environment, create policy, monitor/maintain) measured at five maturity levels.\n- The **transaction flow matr"
+    },
+    {
+      "slug": "zt-maturity-incremental",
+      "claim_id": "nsa-embrace.4",
+      "statement": "ZT maturity is incremental, not binary",
+      "claim_type": "migration",
+      "confidence": "high",
+      "evidence_excerpt": "Figure 2 shows a maturity curve that directly anticipates CISA's four-level model (Traditional \u2192 Initial \u2192 Advanced \u2192 Optimal). NSA published this in February 2021; CISA published v1 in August 2021 and v2 in April 2023. NSA's maturity model was the template."
+    }
+  ]
+}

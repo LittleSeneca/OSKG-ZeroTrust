@@ -1,0 +1,215 @@
+{
+  "cluster_id": "merged-57",
+  "cluster_label": "network+encryption (implementation)",
+  "size": 26,
+  "claims": [
+    {
+      "slug": "data-flow-mapping-foundational-capability",
+      "claim_id": "nsa-network.2",
+      "statement": "Data flow mapping is the foundational capability \u2014 you can't segment what you don't understand",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Four-phase maturity progression:\n\n| Phase | Capability |\n|-------|-----------|\n| **Preparation** | Identify locations where data is stored and processed, and in which state the data components are stored. |\n| **Basic** | Begin mapping physical and logical data flows. Mapping is primarily manual. Transition unencrypted flows to encrypted flows or within encrypted tunnels/protocols. |\n| **Intermedia"
+    },
+    {
+      "slug": "dns-is-both-a-critical-infrastructure-component-and",
+      "claim_id": "gc-net-access.2",
+      "statement": "DNS is both a critical infrastructure component and a security monitoring tool under ZT \u2014 private DNS resolution must adapt to distributed environments, and DNS monitoring for known-bad domains is \"high-value and low-risk.\"",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "On encrypted DNS: the IETF is standardizing DNS over TLS (DoT, RFC 8310) and DNS over HTTPS (DoH, RFC 8484). The authors recommend DoT (works within enterprise DNS setups) and \"strongly discourage\" DoH (bypasses enterprise DNS controls). Some ZT systems tunnel DNS requests through encrypted ZT tunnels, providing encryption and enterprise monitoring simultaneously. The authors note that ZT platform"
+    },
+    {
+      "slug": "east-west-segmentation-controlling-traffic-within-the-same-vlansubnet",
+      "claim_id": "go-ch6-8.2",
+      "statement": "East-west segmentation \u2014 controlling traffic within the same VLAN/subnet \u2014 is the harder problem that most distinguishes ZT from traditional perimeter security, requiring Layer 2 identity-based enforcement that doesn't depend on routing.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "TrustSec / Security Group Tags (SGT) is presented as the Cisco solution: a 16-bit SGT embedded in the Ethernet frame header (Cisco Meta Data field), assigned dynamically by ISE at authentication time, independent of VLAN/IP/MAC, traveling with every frame. Enforcement at egress by the network access device. Key capability: two adjacent devices in the same VLAN can be prevented from communicating; "
+    },
+    {
+      "slug": "idps-capabilities-remain-essential-but-the-how-changes",
+      "claim_id": "gc-net-access.5",
+      "statement": "IDPS capabilities remain essential but the *how* changes \u2014 network-based IDPS is challenged by encrypted ZT tunnels, host-based IDPS gains relative advantage, and IDPS will increasingly be \"baked in\" to the ZT platform.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Three solution paths: (1) make the NIDPS \"Zero Trust-aware\" \u2014 part of the ZT system with access to decryption keys; (2) deploy NIDPS within the implicit trust zone behind the PEP; (3) shift toward host-based IDPS operating below the encryption layer. Deployment across ZT models (Figure 8-1): resource-based requires ZT-aware NIDPS between PEPs; enclave-based allows standard NIDPS within the implici"
+    },
+    {
+      "slug": "macro-segmentation-cross-function",
+      "claim_id": "nsa-network.3",
+      "statement": "Macro segmentation prevents lateral movement between business functions",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Four-phase maturity progression:\n\n| Phase | Capability |\n|-------|-----------|\n| **Preparation** | Define different security levels on the network. Map the logical distinctions in network structure. |\n| **Basic** | Segment networks based on business functions, locations, and asset criticality. Strengthen internal security controls within existing segments (e.g., VLANs). |\n| **Intermediate** | Acce"
+    },
+    {
+      "slug": "micro-segmentation-blast-radius",
+      "claim_id": "nsa-network.4",
+      "statement": "Micro segmentation limits blast radius within segments \u2014 it's the granular layer",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Four-phase maturity progression:\n\n| Phase | Capability |\n|-------|-----------|\n| **Preparation** | Define different security levels on the network based on identity and application access. |\n| **Basic** | Begin transitioning toward service-specific interconnections and isolation of critical data flows. |\n| **Intermediate** | Deploy endpoint and application isolation mechanisms to more of the netwo"
+    },
+    {
+      "slug": "nac-eg-cisco-ise-functions-as-the-single",
+      "claim_id": "go-ch9-11.4",
+      "statement": "NAC (e.g., Cisco ISE) functions as the single source of truth for access decisions across all connection mediums, but each medium (wired, wireless, VPN) has distinct rollout characteristics.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Wired is the easiest starting point \u2014 passive profiling via DHCP/DNS/HTTP/CDP without changing user experience, with switch port configurations ranging from `authentication open` (monitor) to no `authentication open` (full enforcement). Wireless is harder because WLCs enforce authorization results immediately upon RADIUS completion; workaround is standing up a new SSID for managed devices. VPN is "
+    },
+    {
+      "slug": "network-resilience-holistic",
+      "claim_id": "cisa-ztmm-dnad.9",
+      "statement": "Network Resilience \u2014 maturity progresses from case-by-case network configuration matching individual application availability demands with limited resilience for non-mission-critical workloads to holistic delivery and awareness adapting to changes in availability demands for all workloads with proportionate resilience.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "| Stage | Description |\n|-------|-------------|\n| **Traditional** | Configures network capabilities case-by-case to match individual application availability demands; limited resilience mechanisms for non-mission-critical workloads. |\n| **Initial** | Begins configuring network capabilities to manage availability demands for additional applications; expands resilience mechanisms for non-mission-cri"
+    },
+    {
+      "slug": "network-segmentation-micro-perimeters",
+      "claim_id": "cisa-ztmm-dnad.6",
+      "statement": "Network Segmentation \u2014 maturity progresses from large perimeter/macro-segmentation with minimal intra-segment restrictions to fully distributed ingress/egress micro-perimeters with extensive micro-segmentation based on application profiles and dynamic JIT/JEA connectivity.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "| Stage | Description |\n|-------|-------------|\n| **Traditional** | Defines network architecture using large perimeter/macro-segmentation with minimal restrictions on reachability within segments. May rely on multi-service interconnections (bulk VPN tunnels). |\n| **Initial** | Begins deploying network architecture with isolation of critical workloads, constraining connectivity to least function pr"
+    },
+    {
+      "slug": "network-traffic-management-dynamic",
+      "claim_id": "cisa-ztmm-dnad.7",
+      "statement": "Network Traffic Management \u2014 maturity progresses from manually implemented static network rules with limited monitoring to dynamic rules and configurations that continuously evolve to meet application profile needs, reprioritizing applications based on mission criticality and risk.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "| Stage | Description |\n|-------|-------------|\n| **Traditional** | Manually implements static network rules and configurations at service provisioning; limited monitoring; manual audits of profile changes for mission-critical applications. |\n| **Initial** | Establishes application profiles with distinct traffic management features; begins mapping all applications to profiles; expands static rules"
+    },
+    {
+      "slug": "network-transformation-vpn-removal-segmentation",
+      "claim_id": "dod-ra-cap.8",
+      "statement": "Network Transformation (Use Cases 10\u201311) \u2014 VPN removal is an architectural consequence of ZT's \\\"no distinction between internal and external users\\\" principle, with all users passing through the same PEPs and gateways; east-west segmentation requires three levels (network-level micro-segmentation, process-level host-based inspection, API-level per-call auth) to prevent lateral movement.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "- Off-site users placed on \"internal\" network with on-site users after authentication\n- External resource access hairpins through enterprise perimeter \u2192 bandwidth and latency issues\n- VPNs create a path through the network perimeter \u2014 once authenticated, the user has broad network access\n- Cannot intelligently confirm identities or provide adaptive policy enforcement\n\n**ZT solution:**\n\n- All users"
+    },
+    {
+      "slug": "satellite-facilities-cloud-hosted-pe-pa",
+      "claim_id": "nist207-ch4.2",
+      "statement": "For satellite facilities and remote workers, the PE/PA must be hosted as a cloud service to avoid hairpinning traffic through HQ \u2014 the MPLS link to HQ becomes a commodity transport, not a security boundary.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "**How ZTA applies:**\n\n- **PE/PA hosted as a cloud service** \u2014 avoids forcing remote traffic to hairpin through the enterprise HQ network. \"It may not be most responsive to have the PE/PA(s) hosted on the enterprise local network as remote offices and workers must send all traffic back to the enterprise network to reach applications/services hosted by cloud services.\"\n- **Endpoint agent or resource"
+    },
+    {
+      "slug": "the-first-packet-problem-is-solved-by-single",
+      "claim_id": "gb-ch7-8.8",
+      "statement": "The first packet problem is solved by Single Packet Authorization (SPA)",
+      "claim_type": "implementation",
+      "confidence": "medium",
+      "evidence_excerpt": "fwknop is presented as the reference implementation. It supports AES (symmetric) and GnuPG (asymmetric) encryption, optionally adds HMAC to prevent ciphertext tampering, and creates firewall rules scoped to the sender's IP, destination port, and optionally source port \u2014 rules that expire after a configurable period (default 30 seconds). The seven mandatory fields in the SPA payload include random "
+    },
+    {
+      "slug": "traffic-encryption-cryptographic-agility",
+      "claim_id": "cisa-ztmm-dnad.8",
+      "statement": "Traffic Encryption \u2014 maturity progresses from encrypting minimal traffic with manual key management to encrypting all appropriate traffic, enforcing least privilege for secure key management enterprise-wide, and incorporating cryptographic agility as widely as possible.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "| Stage | Description |\n|-------|-------------|\n| **Traditional** | Encrypts minimal traffic; relies on manual or ad hoc processes to manage and secure encryption keys. |\n| **Initial** | Begins encrypting all traffic to internal applications; prefers encryption for external application traffic; formalizes key management policies; secures server/service encryption keys. |\n| **Advanced** | Ensures e"
+    },
+    {
+      "slug": "true-zt-segmentation-requires-enforcement-at-every-osi",
+      "claim_id": "go-ch6-8.1",
+      "statement": "True ZT segmentation requires enforcement at every OSI layer \u2014 layering is not optional but the ideal-world answer, pushing back against the firewall-centric mindset that considers one enforcement point sufficient.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "A comprehensive OSI-layer mapping: Layer 1 (Physical) \u2014 separate cabling, air-gapped networks for defense/manufacturing; Layer 2 (Data Link) \u2014 VLAN assignment, TrustSec SGT embedding in frame headers, private VLANs for east-west control; Layer 3 (Network) \u2014 IP-based ACLs, routing policies, VRF isolation; Layer 4 (Transport) \u2014 stateful firewalling, ACLs, cloud security groups, SGT-based policy; Lay"
+    },
+    {
+      "slug": "vpns-must-be-replaced-not-augmented-not-integrated",
+      "claim_id": "gc-net-access.6",
+      "statement": "VPNs must be replaced \u2014 not augmented, not integrated, but retired. This is the authors' strongest and most unequivocal verdict, grounded in five architectural flaws that Zero Trust inherently solves.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Five fatal VPN flaws: (1) static identity model \u2014 access identical regardless of device, location, or risk context; (2) static resource model \u2014 access granted to fixed subnets/IPs, cannot dynamically resolve targets in DevOps environments, leading to \"too-broad network access, in order to keep users productive\"; (3) single entry point \u2014 forces perimeter-based model, one ingress, all resources conn"
+    },
+    {
+      "slug": "wan-reliance-will-diminish-under-zero-trust-zt",
+      "claim_id": "gc-net-access.3",
+      "statement": "WAN reliance will diminish under Zero Trust \u2014 ZT encrypted overlays combined with ubiquitous, inexpensive Internet connectivity can often replace dedicated WAN links, creating a cost-saving opportunity.",
+      "claim_type": "implementation",
+      "confidence": "medium",
+      "evidence_excerpt": "SD-WAN complication: SD-WANs rely on network traffic metadata (port, protocol) for QoS traffic shaping \u2014 ZT encrypted overlay tunnels are opaque to these intermediaries, so SD-WAN routing decisions may be impaired. Coordination between ZT and networking teams is required. WAFs retain a role even in ZT environments: \"If 10% of the user population uses an application, ZT eliminates the ability of th"
+    },
+    {
+      "slug": "sequential-network-maturity-journey",
+      "claim_id": "nsa-network.6",
+      "statement": "The four capabilities form an integrated, sequential maturity journey",
+      "claim_type": "maturity",
+      "confidence": "high",
+      "evidence_excerpt": "The sequential structure of the document (data flow mapping \u2192 macro \u2192 micro \u2192 SDN) itself argues for sequential dependency. You cannot segment without understanding flows. You cannot micro-segment effectively without macro segmentation as a foundation. You cannot manage micro segmentation at scale without SDN or equivalent automation."
+    },
+    {
+      "slug": "cipher-suite-negotiation-is-an-anti-pattern-newer-protocols",
+      "claim_id": "gb-ch7-8.10",
+      "statement": "Cipher suite negotiation is an anti-pattern \u2014 newer protocols eliminate it",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Historical attacks against cipher suite negotiation, particularly downgrade attacks. The recommendation: servers should support only the strongest reasonable cipher suites. In datacenter deployments with strict client control, this can be limited to a few approved suites. The key exchange preference ordering: ECDHE > DHE > RSA (RSA lacks perfect forward secrecy). For authentication: RSA remains re"
+    },
+    {
+      "slug": "tls-and-ipsec-serve-different-roles-mtls-for",
+      "claim_id": "gb-ch7-8.9",
+      "statement": "TLS and IPsec serve different roles \u2014 mTLS for client/server, IPsec for server/server datacenter",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "IPsec's advantages \u2014 kernel-level implementation, protocol-agnostic (handles TCP, UDP, ICMP, anything over IP), no application awareness needed. IPsec's disadvantages \u2014 complex configuration, network support issues (AWS blocks ESP/AH, public hotspots often block IPsec), device support variability, slow cipher suite progression. mTLS advantages \u2014 universal support, mature ecosystem, browser-native "
+    },
+    {
+      "slug": "tls-should-be-separated-from-applications-via-a",
+      "claim_id": "gb-ch7-8.11",
+      "statement": "TLS should be separated from applications via a local daemon \u2014 not embedded in application libraries",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The library-based approach seems more attractive initially (turnkey solution, built-in support), but in practice presents \"quite a bit of hidden complexity.\" Applications frequently support server TLS but neglect to expose client certificate configuration required for mutual authentication. System administrators need to adjust configuration in response to vulnerabilities, and finding application-s"
+    },
+    {
+      "slug": "zt-guarantees-confidentiality-but-not-privacy-endpoint-enumeration",
+      "claim_id": "gb-ch10.3",
+      "statement": "ZT guarantees confidentiality but not privacy \u2014 endpoint enumeration is a real tradeoff",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The distinction between confidentiality (contents protected) and privacy (conversation existence hidden) is well-drawn. VPN architectures obscure which specific hosts communicate by hiding them behind a gateway \u2014 this advantage is lost in ZT's peer-to-peer model. The authors note that site-to-site tunnels can provide limited privacy but warn that this \"undermines the zero trust model itself, as hi"
+    },
+    {
+      "slug": "8021x-based-nac-is-fundamentally-incompatible-with-zero-trusts",
+      "claim_id": "gc-net-access.4",
+      "statement": "802.1x-based NAC is fundamentally incompatible with Zero Trust's universal scope \u2014 it is local-only, coarse-grained (VLAN assignment), provides no encryption, has static posture, and is hardware-dependent.",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "NAC's legitimate residual roles: guest network access (managed or unmanaged Wi-Fi), device discovery (a byproduct of how NAC works \u2014 data can feed ZT policy model as in Google BeyondCorp), and device posture checks (though ZT platforms are better at dynamic policy enforcement based on these attributes). The authors provide a comparison table (Table 7-2): NAC can only serve on-premises users with c"
+    },
+    {
+      "slug": "lateral-movement-prevention-raison-detre",
+      "claim_id": "nsa-network.1",
+      "statement": "Lateral movement prevention is the pillar's *raison d'\u00eatre*",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The document opens with the 2013 Target breach as its central case study \u2014 HVAC vendor credentials used to pivot from an HVAC network segment to point-of-sale systems, compromising 40 million payment cards. The NSA uses this as a recurring anchor: macro segmentation appears as the preventive control ($5 of \"could have prevented this\"), and micro segmentation appears as the blast-radius limiter ($8"
+    },
+    {
+      "slug": "perimeter-security-obsolete",
+      "claim_id": "nist207-ch1.1",
+      "statement": "Perimeter-based network security has been rendered obsolete by enterprise complexity.",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "- Multiple internal networks, remote offices, mobile individuals, and cloud services all coexist in a single enterprise \u2014 no single boundary encloses them.\n- Attackers who breach the perimeter face no further barriers to lateral movement.\n- The evidence is observational/descriptive rather than empirical \u2014 NIST cites no breach statistics or studies."
+    },
+    {
+      "slug": "zt-perimeter-historical-accident",
+      "claim_id": "gilmanbarth-ch1.3",
+      "statement": "The perimeter model's history reveals why it failed \u2014 it was an accident, not a design",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "A detailed historical narrative from Joe Postel's IP registry (1982) through RFC 1597 (1994), RFC 1631 NAT (1994), to the modern perimeter firewall. The key insight: \"Private networks were more secure, because they were fundamentally incapable of joining other networks.\" Security was a side effect of isolation, not a designed property."
+    }
+  ]
+}

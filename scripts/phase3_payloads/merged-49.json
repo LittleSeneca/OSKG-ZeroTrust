@@ -1,0 +1,175 @@
+{
+  "cluster_id": "merged-49",
+  "cluster_label": "definition+tenets (definitional)",
+  "size": 21,
+  "claims": [
+    {
+      "slug": "nist-sp-800-207-provides-the-architectural-tenets-but",
+      "claim_id": "finney-ch4-7.3",
+      "statement": "NIST SP 800-207 provides the architectural tenets, but Kindervag's design principles and five-step methodology provide the actionable strategy.",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "Aaron displays the NIST Zero Trust Basic Tenets (all seven) and the NIST network assumptions (all six), but he's explicitly critical: \"I get frustrated with the NIST Zero Trust architecture because there's nothing in it about aligning with the business. Remember, Zero Trust is the strategy for preventing a security breach at your unique organization.\" He warns that NIST recommendations, if impleme"
+    },
+    {
+      "slug": "the-four-design-principles-and-five-step-methodology-make",
+      "claim_id": "finney-ch1-3.6",
+      "statement": "The Four Design Principles and Five-Step Methodology make ZT repeatable",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The team immediately applies the methodology to a \"learning protect surface\" \u2014 a non-critical SharePoint site for the training team. They discover: (a) firewall rules allowing ports that aren't running on the server (decommissioned server, IP reused, no one told firewall admins), (b) no outbound restrictions (the server can talk to anything on the Internet \u2014 the command-and-control vector that ena"
+    },
+    {
+      "slug": "the-protect-surface-shifts-controls-from-the-perimeter",
+      "claim_id": "finney-ch1-3.10",
+      "statement": "The protect surface shifts controls from the perimeter to the asset",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The team discovers that card readers, cameras, and HVAC systems are all on the same network as user workstations. Aaron points out that while the physical building has layered security zones (lobby \u2192 office areas \u2192 data center), the network treats everything as equally trusted once inside the perimeter. The ZT solution: microsegmentation, moving card readers and cameras to separate non-routed netw"
+    },
+    {
+      "slug": "the-working-definition-centers-zt-as-an-integrated",
+      "claim_id": "gc-ch1-3.7",
+      "statement": "The working definition centers ZT as an \"integrated security platform\" \u2014 broader than network architecture.",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The definition is derived from the six principles and the authors' practitioner experience. It explicitly names identity, security infrastructure, IT infrastructure, risk, and analytics as input sources. It positions ZT as a platform, not a product or a single architecture."
+    },
+    {
+      "slug": "zero-trust-is-a-strategy-not-a-product",
+      "claim_id": "finney-ch1-3.3",
+      "statement": "Zero Trust is a strategy, not a product or marketing term",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "When Dylan first hears about Zero Trust, he asks: \"Isn't that just a marketing term for security companies?\" Noor and Olivia's knowing glance suggests this is a common objection. The book's very structure \u2014 teaching ZT through principles and methodology rather than product recommendations \u2014 is the evidence. Aaron Rapaport (the ZT consultant) explicitly says \"you won't know what product to buy unti"
+    },
+    {
+      "slug": "zta-prevent-breach-limit-lateral-movement",
+      "claim_id": "nist207-ch1.3",
+      "statement": "ZTA is an enterprise cybersecurity architecture designed specifically to prevent data breaches and limit internal lateral movement.",
+      "claim_type": "definitional",
+      "confidence": "medium",
+      "evidence_excerpt": "- None \u2014 this is a design-intent statement, not an efficacy claim.\n- The document previews that it \"discusses ZTA, its logical components, possible deployment scenarios, and threats\" and \"presents a general road map for organizations wishing to migrate\" (lines 360\u2013363) \u2014 evidence is deferred to later sections."
+    },
+    {
+      "slug": "the-three-core-principles-secure-all-resources-regardless",
+      "claim_id": "gc-ch1-3.5",
+      "statement": "The three core principles \u2014 secure all resources regardless of location, enforce least privilege, inspect/log all traffic \u2014 are universally necessary for any ZT implementation.",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "1. **Ensure all resources are accessed securely, regardless of location.** Requires all resources (data, applications, servers) to be in scope, all identities (human and machine) covered, regardless of where either is located. \"This principle effectively mandates the dissolution of the traditional corporate perimeter.\"\n\n2. **Adopt a least privilege strategy and strictly enforce access control.** T"
+    },
+    {
+      "slug": "zero-trust-amplifies-existing-security-concepts-least-privilege",
+      "claim_id": "gc-ch1-3.4",
+      "statement": "Zero Trust amplifies existing security concepts (least privilege, RBAC) into a holistic, identity-centric, automated platform \u2014 this is what's new.",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The contrast between pre-ZT security (coarse-grained separation of dev/prod) and ZT (every identity and resource segmented). The integration of previously siloed security products into a single policy model."
+    },
+    {
+      "slug": "zt-is-a-journey-not-a-destination-success",
+      "claim_id": "gc-scenarios.5",
+      "statement": "ZT is a journey, not a destination \u2014 success comes from starting small, planning thoroughly, navigating politics, leveraging digital transformation, and aligning budget across stakeholders",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The conclusion emphasizes the book's definition (integrated security platform, contextual information, dynamic enforcement, resource/identity-centric model) as the organizing principle. The Afterword provides high-level synthesis from an industry analyst perspective (Steffen is Research Director at EMA) \u2014 less technical detail, more strategic framing.\n\n**Steffen's claim (Afterword, Ch 21):**\n\nZT i"
+    },
+    {
+      "slug": "zt-not-a-product-hybrid-journey",
+      "claim_id": "nist207-ch1.4",
+      "statement": "ZT is an architectural paradigm, not a product \u2014 adoption is a journey of risk evaluation, incremental, and most enterprises will operate in hybrid mode.",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "- Many organizations \"already have elements of a ZTA in their enterprise infrastructure today\" (lines 368\u2013369) \u2014 suggests ZT is a continuum, not a binary state.\n- Organizations should \"incrementally implement zero trust principles, process changes, and technology solutions... by use case.\" (lines 370\u2013371)\n- The hybrid-mode claim is presented as a descriptive forecast, not an empirical finding."
+    },
+    {
+      "slug": "physical-security-is-the-perfect-analogy-for-zero",
+      "claim_id": "finney-ch1-3.9",
+      "statement": "Physical security is the perfect analogy for Zero Trust",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "Dylan conducts an informal penetration test: he walks through the building unchallenged (tailgating through multiple doors), reaches the data center, and could have walked out with a server. Peter Liu demonstrates a paper airplane triggering a motion sensor to unlock a door. Harmony discovers the security desk computer runs Windows 7 with shared logins, default camera passwords (\"MarchFit\"), and t"
+    },
+    {
+      "slug": "zt-five-fundamental-assertions",
+      "claim_id": "gilmanbarth-ch1.1",
+      "statement": "The five fundamental assertions define ZT operationally, not abstractly",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "These five assertions are derived from engineering practice at Netflix and PagerDuty, not from theoretical analysis. The book is written by practitioners who built ZT systems. Each assertion maps to a specific engineering decision: assertion 1 \u2192 always encrypt, assertion 4 \u2192 no unauthenticated traffic anywhere, assertion 5 \u2192 policy engines fed by multiple data sources."
+    },
+    {
+      "slug": "nation-state-incidents-perimeter-obsolete",
+      "claim_id": "cisa-ztmm-ov.2",
+      "statement": "Recent nation-state cyber incidents made legacy perimeter-based security indefensible",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The document cites Emergency Directive 21-01 (SolarWinds Orion compromise) and Emergency Directive 21-02 (Microsoft Exchange vulnerabilities) in footnotes \u2014 both major nation-state supply chain attacks that exploited implicit trust between systems. The SolarWinds attack (2020) specifically compromised federal agency networks through a trusted software update mechanism."
+    },
+    {
+      "slug": "traditional-enterprise-security-is-structurally-broken-not-merely",
+      "claim_id": "gc-ch1-3.1",
+      "statement": "Traditional enterprise security is structurally broken \u2014 not merely insufficient, but actively perpetuating vulnerability.",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The authors observe that enterprise networks grant far too much access by default \u2014 internally (anyone can reach any server) and externally (VPNs expose entry points to the entire internet). This is asserted as self-evident to practitioners rather than proven through data. The book's later chapters provide architectural evidence."
+    },
+    {
+      "slug": "zero-trust-originated-from-the-morris-worm-and",
+      "claim_id": "go-intro.1",
+      "statement": "Zero Trust originated from the Morris Worm and Stephen Marsh's thesis, not from a vendor marketing campaign",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The FBI's public reporting on the Morris Worm, Marsh's thesis (University of Stirling, 1994), Jericho Forum's merger into The Open Group Security Forum (2014), and Google's published BeyondCorp papers. The historical timeline (Figure 1-1) shows a clear progression from reactive incident \u2192 academic formalization \u2192 industry forum \u2192 analyst articulation \u2192 implementation.\n\n**Green-Ortiz's claim:**\n\nTh"
+    },
+    {
+      "slug": "zero-trust-is-a-misnomer-the-real-concept",
+      "claim_id": "gc-ch1-3.2",
+      "statement": "\"Zero Trust\" is a misnomer \u2014 the real concept is \"zero implicit trust\" or \"earned trust.\"",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The authors note that Zero Trust is about \"carefully building a foundation of trust, and growing that trust to ultimately permit an appropriate level of access at the right time.\" The framing is definitional, not empirical."
+    },
+    {
+      "slug": "zt-no-implicit-trust-continuous-eval",
+      "claim_id": "nist207-ch1.2",
+      "statement": "Zero Trust assumes breach and eliminates implicit trust \u2014 every access request must be continuously authenticated, authorized, and risk-evaluated.",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "- Definitional \u2014 NIST is establishing the concept, not proving it with evidence.\n- The definition is operationalized: \"minimizing access to resources... to only those subjects and assets identified as needing access as well as continually authenticating and authorizing the identity and security posture of each access request.\" (lines 354\u2013357)\n- References FIPS 199 for classification/sensitivity le"
+    },
+    {
+      "slug": "zt-uncertainty-minimization",
+      "claim_id": "nist207-ch2.2",
+      "statement": "The operative definition establishes ZT as uncertainty minimization, not absolute security",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The definition is carefully worded: \"minimize uncertainty\" (not eliminate), \"least privilege per-request\" (granularity), \"network viewed as compromised\" (assume breach). ZTA is defined as the *plan* \u2014 the architecture document \u2014 not the deployed system. The zero trust *enterprise* is the deployed result."
+    },
+    {
+      "slug": "dod-five-tenets-threat-operational",
+      "claim_id": "dod-ra-ov.4",
+      "statement": "DoD's five tenets are threat-operational, NIST's seven tenets are architectural",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "Compare to NIST's seven tenets (see [[NIST 800-207 \u2014 Ch2 \u2014 Zero Trust Basics]]). NIST's tenets describe what a ZT architecture *does* \u2014 consider all data sources as resources, secure all communication, grant per-session access, use dynamic policy, monitor all assets, enforce strict authentication, collect telemetry. DoD's tenets describe what a ZT operator *assumes and does* \u2014 assume the environme"
+    },
+    {
+      "slug": "zt-tenets-aspirational",
+      "claim_id": "nist207-ch2.3",
+      "statement": "The seven tenets are aspirational, not mandatory",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "The authors explicitly hedge before listing the tenets. This is unusual for a NIST standard \u2014 most SP 800-series documents state requirements, not aspirations. The hedging signals that ZTA is a journey (a word used repeatedly in Ch 7) rather than a destination."
+    },
+    {
+      "slug": "zt-three-guiding-principles",
+      "claim_id": "nsa-embrace.2",
+      "statement": "The three guiding principles operationalize ZT for defenders",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "These principles echo Kindervag's original formulation but with NSA's operational emphasis. \"Assume breach\" is the NSA addition \u2014 it doesn't appear in NIST's seven tenets. \"Verify explicitly\" maps to NIST's Tenets 4 and 6 (dynamic policy, strict enforcement)."
+    }
+  ]
+}

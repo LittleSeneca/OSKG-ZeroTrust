@@ -1,0 +1,63 @@
+{
+  "cluster_id": "c0",
+  "cluster_label": "access-mgmt (implementation)",
+  "size": 7,
+  "claims": [
+    {
+      "slug": "certificate-signing-is-a-trust-injection-point-that",
+      "claim_id": "gb-ch4-6.6",
+      "statement": "Certificate signing is a trust injection point that must be secured with multi-party authorization",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The authors analyze three trust sources for certificate signing: (a) humans (with TOTP \u2014 secure but doesn't scale), (b) resource managers (can assert \"I turned this host on\"), (c) image/device credentials (baked into image or TPM-backed). Their recommended approach: combine resource manager + image/device credentials with multiple validation points (registered TPM key, correct IP, TOTP from resour"
+    },
+    {
+      "slug": "external-access-for-iotendpoints-requires-baseline-creation-through",
+      "claim_id": "go-ch6-8.6",
+      "statement": "External access for IoT/endpoints requires baseline creation through multiple collection points \u2014 edge firewall logs, Internet proxy logs, NetFlow, endpoint agents, and DNS analytics \u2014 because vendor documentation of network interactions is unreliable.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The solution uses multiple collection points: edge firewall logs + identity injection, Internet proxy logs, NetFlow (Cisco Secure Network Analytics), endpoint agents (Network Traffic Analysis module), and DNS analytics (Cisco Umbrella). Key insight: \"resources to run the business... will be longer lived and more commonly accessed than malware-infected resources, which will need to change servers, "
+    },
+    {
+      "slug": "group-authorization-is-the-highest-trust-mechanism-for-extremely",
+      "claim_id": "gb-ch4-6.14",
+      "statement": "Group authorization is the highest-trust mechanism for extremely sensitive operations",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Three mechanisms: (1) Shamir's Secret Sharing \u2014 split a secret into n parts, require k parts to reconstruct (cryptographically guaranteed); (2) Cloudflare's Red October \u2014 layered asymmetric encryption requiring n-of-m users; (3) DNS Root Zone Signing Ceremony \u2014 seven actors, HSMs, biometric scanners, air-gapped systems, quarterly ceremony achieving \"one-in-a-million chance\" of compromise (assuming"
+    },
+    {
+      "slug": "invalidation-is-a-hard-problem-in-computer-science",
+      "claim_id": "gb-ch10.6",
+      "statement": "Invalidation is a \"hard problem in computer science\" \u2014 ZT addresses it through granular authorization, not push-based revocation",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Three approaches are presented in increasing sophistication: (1) more granular authorizations on short-lived actions (application-level requests instead of TCP sessions), (2) periodic session resets enforcing maximum lifetimes, (3) the best approach \u2014 enforcement components track ongoing actions and periodically reauthorize by querying the policy engine, forcibly resetting sessions if authorizatio"
+    },
+    {
+      "slug": "least-privilege-in-zt-is-dynamic-multi-attribute-and",
+      "claim_id": "gb-ch2.4",
+      "statement": "Least privilege in ZT is dynamic, multi-attribute, and device-bound",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Three dimensions of dynamic privilege are described: (1) temporal \u2014 access outside normal working hours is more suspicious; (2) geographical \u2014 access from an unusual location triggers additional authentication; (3) behavioral \u2014 access to resources the user doesn't normally access raises the risk score. The chapter distinguishes between low-risk elevation (re-prompt for password, second factor) and"
+    },
+    {
+      "slug": "revoke-authorization-first-credentials-second",
+      "claim_id": "gb-ch3.3",
+      "statement": "Revoke authorization first, credentials second",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "This claim appears as an inset box \u2014 a standalone principle, not argued at length with multiple pieces of evidence. The logic is crisp: (1) authentication results are cached, so changing a password doesn't immediately terminate existing sessions; (2) session validation is an authorization check, not an authentication check; (3) therefore, the fastest way to cut off access is to update the authoriz"
+    },
+    {
+      "slug": "the-software-defined-perimeter-architecture-delivers-zt-principles-through",
+      "claim_id": "gc-iam-policy.3",
+      "statement": "The Software-Defined Perimeter architecture delivers ZT principles through two essential mechanisms \u2014 mTLS and Single-Packet Authorization",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "SDP specification (CSA, 2014) and Architecture Guide (CSA, 2019). The SDP Controller acts as the PDP, SDP Gateways act as PEPs \u2014 \"essentially identical to the enclave-based Zero Trust model.\" SPA uses UDP packets carrying a 64-bit HOTP; servers that don't validate drop the packet silently (no ACK, no RST). The computational cost to reject an unauthorized client is \"orders of magnitude fewer server"
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "cluster_id": "merged-55",
+  "cluster_label": "implementation (implementation)",
+  "size": 30,
+  "claims": [
+    {
+      "slug": "beyondcorp-access-flow-enforces-per",
+      "claim_id": "beyondcorp.2",
+      "statement": "The BeyondCorp access flow enforces per-request authorization through a continuously running trust inference pipeline that dynamically computes trust levels for both devices and users based on OS patch level, device model, security scan results, location, and behavioral heuristics.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Trust inference factors: device \u2014 OS patch level, specific device model/class, recent security scan results; user \u2014 access from new locations, role changes, behavioral heuristics. Both static rules and heuristics are used. A device missing recent OS patches might be relegated to reduced trust. A specific phone model might be assigned a particular trust level. The early migration strategy (2014, st"
+    },
+    {
+      "slug": "beyondcorp-caused-30-fewer-support-issues-comparable",
+      "claim_id": "beyondcorp.8",
+      "statement": "BeyondCorp caused 30% fewer support issues than comparable wide-scale IT changes, and was responsible for only 0.3% of tech support issues \u2014 the user experience emphasis (self-service, grace periods, VPN elimination as productivity win) made the migration a net positive for users.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Self-service infrastructure: automated emails with timeline, impact summary, links to FAQs/documentation/escalation; self-service web portal for users to delay migration (business-critical time constraints); internal discussion list for crowdsourced answers; dedicated web application for error messaging \u2014 clearly identified common problems, provided resolution steps, linked to knowledge base; user"
+    },
+    {
+      "slug": "beyondcorp-migration-followed-consistent-cadence",
+      "claim_id": "beyondcorp.11",
+      "statement": "The BeyondCorp migration followed a consistent cadence \u2014 Analyze \u2192 Log \u2192 Warn \u2192 Enforce \u2192 Default \u2014 where the Log phase (simulation, audit mode, monitor mode) was never skipped across any major change, and this pattern is the single most important operational lesson for ZT migration.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The cadence appears across all four papers: Paper 1's Unprivileged Network Simulator (logging mode \u2192 enforcement mode \u2192 VLAN migration triggers); Paper 2's deployment strategy (Phase 1: apply access policy that mirrored IP-based perimeter model to allow safe deployment of incomplete components; Phase 2: gradual policy replacement as meta-inventory matured); Paper 4's 802.1x foundation (auditing mo"
+    },
+    {
+      "slug": "breakthrough-operational-insight-partitioning-parallel-progress",
+      "claim_id": "beyondcorp.5",
+      "statement": "The breakthrough operational insight was partitioning for parallel progress \u2014 deploying a new VLAN in its final BeyondCorp configuration and incrementally moving devices to it, rather than incrementally restricting the privileged VLAN.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Parallel workstreams: Network \u2014 new VLANs, 802.1x, RADIUS policy server; Client platforms \u2014 certificate generation/installation, user authentication tools; Applications \u2014 service and workflow remediation; Processes \u2014 continuous refinement of procedures. 802.1x foundation: install certificates on every user device (required new CA with APIs, per-OS distribution tools, telemetry for monitoring), tra"
+    },
+    {
+      "slug": "device-inventory-service",
+      "claim_id": "beyondcorp.4",
+      "statement": "The Device Inventory Service \u2014 ingesting 3M deltas/day from 15+ sources, correlating disparate identifiers, and precomputing trust evaluations \u2014 is the single most important operational component of BeyondCorp, and its data quality directly determines access availability.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Data types: Observed (programmatically generated \u2014 security scan results, AD sync timestamps, OS version/patch level, installed software) and Prescribed (manually maintained by IT \u2014 assigned owner, allowed users/groups, DNS/DHCP assignments, explicit VLAN access). Correlation challenge: different data sources use different identifiers (asset ID, serial number, hard drive serial, certificate finger"
+    },
+    {
+      "slug": "endpoint-new-perimeter",
+      "claim_id": "beyondcorp.9",
+      "statement": "The endpoint is the new perimeter \u2014 fleet health and device trustworthiness replace network location as the foundation of access decisions, and the \"identified state\" solves the chicken-and-egg problem of transitioning untrusted devices into a trustworthy state.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Ten threat classes mapped to controls: unknown devices \u2192 fleet inventory; platform compromise via misconfigured OS \u2192 configuration management; security control bypass \u2192 policy management; privilege escalation \u2192 resilience against takeover; malware \u2192 software control + anti-malware; prolonged persistence \u2192 remotely verifiable platform state; authentication bypass \u2192 robust auth of platform and user;"
+    },
+    {
+      "slug": "flexible-policies-using-thresholds-rather-absolutes-combined",
+      "claim_id": "beyondcorp.10",
+      "statement": "Flexible policies using thresholds rather than absolutes, combined with platform-normalized security evaluations, prevent draconian enforcement that causes users to seek workarounds \u2014 \"100% uniform control deployment is a mythical state where unicorns frolic unconcerned about malware.\"",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Platform measurement and control parity: different platforms have fundamentally different capabilities \u2014 Chrome OS has robust software control via Secure Access; Linux has no out-of-the-box malware prevention. Google's approach: normalized security evaluations \u2014 analyze each platform against ideal control state, evaluate gaps, produce fleet health report (not a report card, a shared understanding "
+    },
+    {
+      "slug": "mnp-simulator",
+      "claim_id": "beyondcorp.6",
+      "statement": "The MNP Simulator \u2014 translating the network ACL into local iptables rules with logging and enforcement modes \u2014 was the operational linchpin that enabled high-velocity migration by testing enforcement at the client level before committing to network-level VLAN changes.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The simulator enabled: identifying devices with MNP-compliant traffic \u2192 automatic VLAN assignment; identifying devices/users/services relying on noncompliant traffic \u2192 initiate remediation projects; testing enforcement at client level (easy/fast to toggle) before committing to network-level VLAN migration. The Access Proxy handled most high-usage applications because Google's core philosophy favor"
+    },
+    {
+      "slug": "perimeter-security-model-core-assumptions-no-longer",
+      "claim_id": "beyondcorp.1",
+      "statement": "The perimeter security model's core assumptions no longer hold \u2014 the internal network is as dangerous as the public Internet, and trust in network location is fundamentally misplaced.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Google's operational experience demonstrated that trust in the internal network is misplaced. The alternative: assume the internal network is as dangerous as the public Internet and build applications accordingly. The paper lays out six foundational components that remain the backbone of BeyondCorp: (1) Device Inventory Database \u2014 tracks every managed device through procurement/changes/decommissio"
+    },
+    {
+      "slug": "prevention-is-possible-and-more-cost-effective-than-recovery",
+      "claim_id": "finney-ch1-3.2",
+      "statement": "Prevention is possible and more cost-effective than recovery",
+      "claim_type": "implementation",
+      "confidence": "medium",
+      "evidence_excerpt": "The MarchFit breach response is expensive: free month of credit to all subscribers, unknown recovery costs, customer \"melt\" concerns, potential lawsuits. The company has backups, a Business Continuity Plan, cyber risk insurance, and breach response contracts \u2014 all of which let them *recover* without paying ransom, but none of which *prevented* the breach. The cost of the reactive response is portr"
+    },
+    {
+      "slug": "project-eight-use-case-categories",
+      "claim_id": "nist-1800-35.5",
+      "statement": "The project's eight use case categories (A\u2013H) provide a comprehensive ZTA testing framework \u2014 from discovery through data-level security \u2014 that organizations can adapt for their own validation.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "_No evidence separable from the claim statement in the source note._"
+    },
+    {
+      "slug": "project-mapped-zta-security-capabilities-nist-csf",
+      "claim_id": "nist-1800-35.6",
+      "statement": "The project mapped ZTA security capabilities to NIST CSF 1.1/2.0, NIST SP 800-53r5, and NIST critical software security measures \u2014 demonstrating that ZTA implementations support, rather than replace, existing compliance frameworks.",
+      "claim_type": "implementation",
+      "confidence": "medium",
+      "evidence_excerpt": "_No evidence separable from the claim statement in the source note._"
+    },
+    {
+      "slug": "public-facing-services-zta-boundary",
+      "claim_id": "nist207-ch4.6",
+      "statement": "Public-facing services expose ZTA's boundary \u2014 ZT tenets do not directly apply to anonymous public resources, and for registered users the enterprise is constrained in what cybersecurity policies can be enforced on nonenterprise-owned devices, limiting ZTA to behavioral monitoring and graduated enforcement.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "**How ZTA applies:**\n\n- **Anonymous public resources**: ZT tenets \"do not directly apply.\" The enterprise cannot control the state of requesting assets, and anonymous resources don't require credentials. NIST is honest here: ZT has limits.\n- **Registered public users**: The enterprise can enforce password policies, MFA, and credential lifecycle management. But it \"is constrained as to what interna"
+    },
+    {
+      "slug": "strategic-pivot-prove-user-successful-before-migrating",
+      "claim_id": "beyondcorp.7",
+      "statement": "The strategic pivot from \"prove the user will be successful before migrating\" (opt-in) to \"assume the user will be successful and migrate\" (opt-out) was essential for reaching full coverage \u2014 without it, the long tail of noncompliant applications would have blocked migration indefinitely.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Difficult use cases (the long tail): NFS/CIFS file servers required major project to move home directories to local disk with secure cloud backup, replace NFS with Google Drive; CAD editors deeply dependent on NFS required special solutions; thick client applications with proprietary protocols; Java RMI and direct socket connections; license servers using non-HTTP sockets; some HTTP applications n"
+    },
+    {
+      "slug": "tiered-access",
+      "claim_id": "beyondcorp.3",
+      "statement": "Tiered access \u2014 organizing trust levels into tiers of increasing sensitivity with each resource requiring a minimum trust tier \u2014 was the critical architectural innovation between Papers 1 and 2, enabling minimally interrupted users by limiting devices to the minimum tier needed.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Example: centrally managed laptop missing noncritical OS patches \u2192 downgraded to intermediate tier \u2192 access to business apps but not sensitive ones. Missing critical security patch or AV reports infection \u2192 only remediation services. Known lost/stolen \u2192 denied all access. The evolved architecture components (Paper 1 \u2192 Paper 2): Trust Model \u2014 Binary \u2192 Tiered Access; Device Identity \u2014 Single certifi"
+    },
+    {
+      "slug": "zta-implementation-continuous-improvement-journey-one",
+      "claim_id": "nist-1800-35.4",
+      "statement": "ZTA implementation is a continuous improvement journey, not a one-time project \u2014 seven sequential steps, with discovery and identity as the non-negotiable foundations.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "_No evidence separable from the claim statement in the source note._"
+    },
+    {
+      "slug": "zt-can-serve-as-a-catalyst-to-improve",
+      "claim_id": "gc-iam-policy.8",
+      "statement": "ZT can serve as a catalyst to improve IAM \u2014 not just consume it",
+      "claim_type": "implementation",
+      "confidence": "medium",
+      "evidence_excerpt": "Organizations with multiple incompatible directories (from acquisitions, departmental initiatives, legacy) can use ZT to normalize across them without waiting for directory consolidation. ZT can also help \"simplify and streamline identity operations, and reduce complexity of the overall identity program, without requiring wholesale or disruptive changes.\""
+    },
+    {
+      "slug": "automation-bridges-the-gap-between-trust-assessment-and",
+      "claim_id": "go-ch3-5.6",
+      "statement": "Automation bridges the gap between trust assessment and enforcement at scale \u2014 continuous, not occasional, evaluation",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "- Ch5 retail example: attacks that bypass NAC \"often attempt to reside in a retail environment\" and \"have shown difficulty in both identifying the cause and scope of the attack. With a Zero Trust architecture focus on visibility, the time to identify and resolve these attacks is shortened.\"\n- Ch5 policy orchestration: \"It is recommended that an organization implement a solution that automates and "
+    },
+    {
+      "slug": "tabletop-exercises-are-the-monitor-and-maintain-phase",
+      "claim_id": "finney-ch8-11.8",
+      "statement": "Tabletop exercises are the \"monitor and maintain\" phase operationalized \u2014 they test controls and culture simultaneously",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "- The exercise followed NIST 800-84 methodology: defined objectives, developed MSEL, identified audience, conducted exercise, held hotwash debrief.\n- Three objectives: (1) Can the team keep the organization operational? (2) Can they distinguish real issues from false positives? (3) Identify gaps in controls, procedures, resources, or training.\n- The \"red herrings\" (protest, call center volume spik"
+    },
+    {
+      "slug": "zt-doesnt-eliminate-trust-relationships-the-penetration-test",
+      "claim_id": "finney-ch8-11.9",
+      "statement": "ZT doesn't eliminate trust relationships \u2014 the penetration test exposed two that remained",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "- **IoT vector:** The treadmill's firmware update mechanism allowed the attacker to pivot from an IoT device to an internal server. Peter recommended memory-safe languages (Rust) for IoT firmware and device-to-device isolation.\n- **Scanner vector:** The vulnerability scanner had broad network access because uncredentialed scans need open ports. Peter recommended: credentialed scans (fewer ports ne"
+    },
+    {
+      "slug": "new-endpoint-onboarding-day-2-operations-requires-a",
+      "claim_id": "go-ch6-8.7",
+      "statement": "New endpoint onboarding (\"Day 2 Operations\") requires a centralized receiving process \u2014 a secured, isolated network segment with lenient NAC policy, separate Internet access, and full NetFlow collection, followed by a structured onboarding checklist.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The onboarding process: centralized receiving segment with secured/isolated network, lenient NAC policy, separate Internet access, full NetFlow collection. Onboarding checklist: (1) create contextual identity (active + passive profiling); (2) collect traffic patterns (local switch NetFlow, upstream firewall logs); (3) document architecture and device capabilities; (4) evaluate authentication capab"
+    },
+    {
+      "slug": "the-sbc-case-study-demonstrates-that-practical-zt",
+      "claim_id": "go-ch9-11.7",
+      "statement": "The SBC case study demonstrates that practical ZT implementation must constrain scope aggressively \u2014 10 TrustSec tags maximum, 5\u20137 endpoint groups, and a dedicated IoT tiger team \u2014 to avoid analysis paralysis and operational chaos.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The SBC case study details: (1) TrustSec tag strategy capped at 10 tags (Corporate, Collaboration, IP Cameras, Printers, Print Servers, IoT, Guests, BMS, IT) with planned sub-tags deferred; (2) IP cameras received their own tag because of unique multicast discovery behavior \u2014 \"carving them out was a conscious risk decision balancing security vs. operational continuity\"; (3) \"The Key Masters\" \u2014 a d"
+    },
+    {
+      "slug": "the-zero-trust-implementation-curve-prevents-boiling-the",
+      "claim_id": "finney-ch1-3.7",
+      "statement": "The Zero Trust Implementation Curve prevents \"boiling the ocean\"",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The team starts with Rose's training SharePoint site \u2014 \"It won't be a big deal if we take it down for a bit. Nobody will notice.\" Aaron explicitly rejects starting with DNS (\"business-critical\") as a first protect surface. The narrative demonstrates the learning value: by starting simple, the team discovers common patterns (stale firewall rules, missing outbound restrictions, copy-paste architectu"
+    },
+    {
+      "slug": "zero-trust-enhances-legacy-applications-without-modification-its",
+      "claim_id": "gc-iam-policy.7",
+      "statement": "Zero Trust enhances legacy applications without modification \u2014 it's a security overlay, not a rip-and-replace",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Figure 5-5 shows a \"before\" state with unencrypted application traffic invisible to modern security tools, and an \"after\" state where the PEP intercepts access, calls the IDP for MFA, and tunnels all traffic encrypted \u2014 \"without making any modifications to the application server or client.\" The authors also show three scenarios (Figure 5-4): a standalone siloed app, an LDAP-integrated app, and a Z"
+    },
+    {
+      "slug": "contracted-services-sdp-dark-network",
+      "claim_id": "nist207-ch4.4",
+      "statement": "Contracted services and nonemployee access should use the SDP \"dark network\" model \u2014 enterprise resources are obscured from network discovery, preventing lateral movement, with the PA ensuring nonenterprise assets can access the internet but cannot discover or reach enterprise resources.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "**How ZTA applies:**\n\n- **PE/PA hosted as cloud service or on LAN** \u2014 depending on cloud usage. If the enterprise primarily uses on-prem resources, the PE/PA sits on the LAN. If cloud-hosted resources dominate, PE/PA is cloud-hosted.\n- **Agent or portal for enterprise assets** \u2014 enterprise-managed devices use agents; everything else can't access local resources at all. \"The PA(s) ensures that all "
+    },
+    {
+      "slug": "flow-enumeration-is-the-hardest-requirement-and-the",
+      "claim_id": "gb-ch9.2",
+      "statement": "Flow enumeration is the hardest requirement and the highest-value one",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "- Flow data should be the **source of truth** for access decisions \u2014 generate enforcement configuration from the flow database, not independently\n- Capture the **intended use** of a flow along with policy details (e.g., \"LB access \u2014 from LB hosts to web application\")\n- Prefer **narrowly defined flows** over broad access\n- For flow discovery: physical networks use SPAN/mirror ports or TAP devices; "
+    },
+    {
+      "slug": "incident-management-without-problem-management-creates-a-firefighting",
+      "claim_id": "finney-ch1-3.11",
+      "statement": "Incident management without problem management creates a firefighting culture",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The security guards know how to reboot frozen cameras (incident management) but never investigate *why* cameras keep freezing (problem management). \"A team can become desensitized to alarms and bad things can slip through. The reason that Zero Trust is successful is that it addresses the underlying source of incidents \u2014 trust.\""
+    },
+    {
+      "slug": "pillar-ideals-vs-operational-realities",
+      "claim_id": "cisa-ztmm-dnad.25",
+      "statement": "Key tensions exist between pillar ideals and operational realities \u2014 Device pillar vs. BYOD constraints, network vs. application-level controls (defense-in-depth tradeoff), encryption vs. visibility (monitoring tradeoff), and immutable workloads vs. legacy systems (modernization gap) \u2014 and CISA acknowledges these tensions without fully resolving them.",
+      "claim_type": "implementation",
+      "confidence": "medium",
+      "evidence_excerpt": "- **Device vs. BYOD:** CISA acknowledges that BYOD policies reduce visibility and control options, creating a tension between the Device pillar's ideal state and practical workforce realities.\n- **Network vs. Application-level controls:** Optimal ZTA pushes security controls *closer to applications and data*, reducing reliance on network-layer protections \u2014 but network segmentation remains critica"
+    },
+    {
+      "slug": "the-shouldmust-list-is-zt-implementations-operational-checklist",
+      "claim_id": "gb-ch9.1",
+      "statement": "The SHOULD/MUST list is ZT implementation's operational checklist",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "These are practitioner judgments from the authors' experience at Netflix and PagerDuty, not derived from formal threat models. The RFC 2119 framing is deliberate \u2014 it echoes the IETF convention of MUST/SHOULD/MAY to signal implementation weight."
+    },
+    {
+      "slug": "the-zero-trust-discovery-workshop-is-the-critical",
+      "claim_id": "go-intro.2",
+      "statement": "The Zero Trust Discovery Workshop is the critical first step \u2014 skip it at your peril",
+      "claim_type": "implementation",
+      "confidence": "medium",
+      "evidence_excerpt": "The authors' collective experience across \"tens of organizations, hundreds across their respective careers.\" The workshop framework (Figure 1-2: Planning \u2192 Collect Data \u2192 Analyze Data \u2192 Presentation) with artifacts including 90-day short-term and 360-day long-term improvement plans. The SBC Healthcare fictional use case provides a worked example showing how business requirements (prevent PHI data "
+    }
+  ]
+}

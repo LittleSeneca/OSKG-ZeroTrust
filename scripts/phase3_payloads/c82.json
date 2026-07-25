@@ -1,0 +1,135 @@
+{
+  "cluster_id": "c82",
+  "cluster_label": "threats (threat)",
+  "size": 16,
+  "claims": [
+    {
+      "slug": "ddos-is-still-a-problem-zt-doesnt-mitigate",
+      "claim_id": "gb-ch10.2",
+      "statement": "DDoS is still a problem \u2014 ZT doesn't mitigate it, it reframes how you respond",
+      "claim_type": "threat",
+      "confidence": "medium",
+      "evidence_excerpt": "The authors acknowledge that \"darkening\" internet-facing endpoints via pre-authentication protocols (deny-all rules, narrow exceptions based on signaling) helps obscure addresses but \"does not fundamentally mitigate DDoS attacks.\" Their key innovation: **policy-derived upstream filtering** \u2014 use ZT policy information about expected traffic patterns to calculate coarse, stateless enforcement rules "
+    },
+    {
+      "slug": "deception-technologies-invert-zt-selectively-add-trust-back",
+      "claim_id": "finney-ch8-11.12",
+      "statement": "Deception technologies invert ZT \u2014 selectively add trust back to detect and disrupt attackers",
+      "claim_type": "threat",
+      "confidence": "medium",
+      "evidence_excerpt": "- NSA study: Penetration testers told deception was in use began doubting their own tools and questioned whether vulnerable targets were decoys. This effect persisted even when deception was NOT actually deployed.\n- Analogy: \"Like when people put a home alarm monitoring company sign on their house but don't actually have an alarm.\"\n- The psychology: \"Deception brings the fight to the mind of the a"
+    },
+    {
+      "slug": "dod-threat-model-different-from-civilian",
+      "claim_id": "dod-ra-ov.2",
+      "statement": "The DoD threat model is fundamentally different from civilian ZT",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The threat discussion in \u00a71.4.1 is specific and adversarial \u2014 not generic \"cyber threats\" but named adversaries with known capabilities. The problem statement (\u00a71.5) emphasizes *insider threats* and *lateral movement* as primary concerns, reflecting the DoD's experience with APT-level adversaries. Compare NIST 800-207 Ch 1, which discusses threats in terms of \"network complexity\" and \"cloud adopti"
+    },
+    {
+      "slug": "dos-against-pa-pep-unique-pathology",
+      "claim_id": "nist207-ch5.2",
+      "statement": "DoS and network disruption against the PA/PEP are a unique ZTA pathology \u2014 even if access is authorized, the PA may be unable to configure the communication path, making resources unreachable despite valid authorization.",
+      "claim_type": "threat",
+      "confidence": "high",
+      "evidence_excerpt": "- DoS/DDoS or route hijacking against the PEP or PE/PA\n- Botnet attacks (Mirai-scale) against key infrastructure\n- Interception/blocking of traffic to a PEP or PA for a subset of users (branch office, remote employee) \u2014 not unique to ZTA; also possible with legacy VPNs\n- Accidental cloud provider outages (IaaS or SaaS) taking PE/PA offline\n- **Pathology unique to ZTA:** Even if access is granted, "
+    },
+    {
+      "slug": "encrypted-traffic-visibility-gap",
+      "claim_id": "nist207-ch5.4",
+      "statement": "Encrypted traffic under ZTA creates a visibility gap \u2014 all traffic is inspected but much of it is opaque to Layer 3 analysis, requiring alternative assessment methods like metadata analysis and ML-based traffic categorization.",
+      "claim_type": "threat",
+      "confidence": "medium",
+      "evidence_excerpt": "- Enterprises that cannot perform deep packet inspection on encrypted traffic must use alternative assessment methods\n- **Metadata analysis is still viable:** Source/destination addresses and other metadata from encrypted traffic can detect active attackers or malware\n- **Machine learning techniques** (citing Anderson) can categorize encrypted traffic as valid or possibly malicious without decrypt"
+    },
+    {
+      "slug": "monitoring-data-reconnaissance-target",
+      "claim_id": "nist207-ch5.5",
+      "statement": "The monitoring data and policy management tools that enable ZTA's contextual policies become high-value reconnaissance targets \u2014 compromising them reveals which accounts have access to which resources, enabling attackers to prioritize targets.",
+      "claim_type": "threat",
+      "confidence": "high",
+      "evidence_excerpt": "- Network traffic scans, metadata, and logs stored for forensics or analysis\n- Network diagrams, configuration files, and architecture documents\n- The **management tool used to encode access policies** \u2014 this reveals which accounts have access to which resources, effectively telling an attacker which accounts are most valuable to compromise\n\n- Most restrictive access policies for security data\n- A"
+    },
+    {
+      "slug": "npe-authentication-unresolved-risk",
+      "claim_id": "nist207-ch5.7",
+      "statement": "Non-Person Entities (NPEs) \u2014 AI agents and software-based automation managing ZTA security components \u2014 introduce unresolved authentication and decision-quality risks, and NIST flags NPE authentication as an \"open issue.\"",
+      "claim_type": "threat",
+      "confidence": "medium",
+      "evidence_excerpt": "- **Authentication gap:** NPEs typically authenticate via API keys rather than MFA \u2014 a lower bar than human users\n- **Decision quality:** False positives (innocuous actions mistaken for attacks) and false negatives (attacks mistaken for normal activity) impact security posture \u2014 mitigated by regular retuning\n- **Agent coercion:** An attacker could trick or coerce an NPE into performing privileged "
+    },
+    {
+      "slug": "pe-pa-compromise-highest-impact-threat",
+      "claim_id": "nist207-ch5.1",
+      "statement": "Subversion of the ZTA decision process (PE/PA compromise) is the highest-impact threat because the PE and PA are the linchpins of all resource access \u2014 their compromise collapses the entire access control fabric.",
+      "claim_type": "threat",
+      "confidence": "high",
+      "evidence_excerpt": "- Configuration abuse: An administrator with PE configuration access can make unapproved changes or errors that disrupt operations.\n- Compromised PA: A subverted PA could grant access to otherwise-denied resources (e.g., a personally-owned rogue device).\n- Mitigations: Proper configuration, continuous monitoring, logging of all configuration changes, and audit."
+    },
+    {
+      "slug": "proprietary-lock-in-amplified-zta",
+      "claim_id": "nist207-ch5.6",
+      "statement": "Proprietary data formats and vendor-specific solutions create lock-in that is amplified under ZTA \u2014 interoperability gaps can lock an enterprise into a subset of providers, and migration costs are extreme if a provider has a security issue because ZTA is heavily dependent on dynamic information access.",
+      "claim_type": "threat",
+      "confidence": "medium",
+      "evidence_excerpt": "- Interoperability issues can lock an enterprise into a subset of providers\n- If a provider has a security issue or disruption, migration costs may be extreme (replacing multiple assets, translating proprietary policy formats)\n- Not unique to ZTA, but **amplified** because ZTA is \"heavily dependent on the dynamic access of information\" \u2014 disruption affects core business functions\n\n- Evaluate servi"
+    },
+    {
+      "slug": "red-herrings-and-the-fog-of-war-the",
+      "claim_id": "finney-ch8-11.10",
+      "statement": "Red herrings and the fog of war \u2014 the tabletop must simulate confusion, not just attack",
+      "claim_type": "implementation",
+      "confidence": "medium",
+      "evidence_excerpt": "The protest (labor conditions, drone, media) was a red herring that consumed leadership attention and created a plausible cover story for the drone. The call center spike was a red herring that could have been a real indicator but was contextual (Tuesday before Thanksgiving). The MFA acceptance by a user's child was a false positive that initially looked like a compromise."
+    },
+    {
+      "slug": "social-engineering-and-physical-coercion-are-the-threats",
+      "claim_id": "gb-ch10.5",
+      "statement": "Social engineering and physical coercion are the threats ZT can't solve \u2014 only contain",
+      "claim_type": "threat",
+      "confidence": "high",
+      "evidence_excerpt": "The social engineering discussion covers phishing and face-to-face communication (customer service attacks). Mitigations: behavioral analysis for less-sensitive resources, group authentication/authorization (Shamir's Secret Sharing) for critical assets. The physical coercion section includes the famous XKCD #538 reference (\"someone with a blunt instrument can force even the most honest individuals"
+    },
+    {
+      "slug": "stolen-credentials-zta-constrains-blast-radius",
+      "claim_id": "nist207-ch5.3",
+      "statement": "Stolen credentials remain a threat under ZTA, but ZTA's \\\"no implicit trust\\\" principle constrains the blast radius \u2014 compromised accounts cannot move laterally to resources outside their authorized scope, and contextual trust algorithms detect anomalous access patterns faster.",
+      "claim_type": "threat",
+      "confidence": "high",
+      "evidence_excerpt": "- Attackers target accounts with access policies aligned to their objectives (admin accounts for control, financial accounts for monetary gain)\n- Phishing, social engineering, or combined attacks to obtain credentials\n- MFA reduces risk of information loss but does not eliminate it \u2014 a valid-credentialed attacker still accesses resources the account is authorized for\n- **ZTA advantage:** No latera"
+    },
+    {
+      "slug": "three-threat-frameworks-progression",
+      "claim_id": "nist207-ch5.8",
+      "statement": "The three major ZT threat frameworks \u2014 NIST 800-207, NSA Embracing ZT, and Gilman & Barth \u2014 form a progression from architectural taxonomy through operational threat model to engineering-level adversarial analysis, and together cover threats from implementation detail through architecture to operational philosophy.",
+      "claim_type": "threat",
+      "confidence": "medium",
+      "evidence_excerpt": "| Threat Category | NIST 800-207 (2020) | NSA Embracing ZT (2021) | Gilman & Barth (2017) |\n|---|---|---|---|\n| **Decision process subversion** | \u00a75.1 \u2014 PE/PA compromise | Implicit in \"assume breach\" | Control plane security (Ch10) |\n| **DoS / disruption** | \u00a75.2 \u2014 DoS against PEP/PA, cloud outages | Assume breach \u2192 recovery ops | DDoS still a problem; policy-driven upstream filtering |\n| **Stolen"
+    },
+    {
+      "slug": "zt-cannot-defend-against-a-malicious-computing-platform",
+      "claim_id": "gb-ch10.4",
+      "statement": "ZT cannot defend against a malicious computing platform \u2014 only against simpler platform attacks",
+      "claim_type": "threat",
+      "confidence": "high",
+      "evidence_excerpt": "The distinction between the \"computing platform\" (cloud hardware, hypervisor) and the \"device\" is carefully maintained \u2014 attacks against each differ because of privilege levels. The authors recommend encrypting data at rest and swapped memory as a mitigation against malicious peers on the platform, acknowledging it removes \"some small amount of trust in the platform's operators.\""
+    },
+    {
+      "slug": "zt-threat-scenarios-illustrative",
+      "claim_id": "nsa-embrace.3",
+      "statement": "The threat examples demonstrate ZT's value, not ZT's completeness",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Each scenario walks through the attack chain in a traditional vs. ZT environment. In every case, ZT either prevents the attack (compromised credentials \u2192 device authentication fails), limits the blast radius (insider threat \u2192 microsegmentation), or provides detection that perimeter security lacks (supply chain \u2192 deny-by-default blocks C2)."
+    },
+    {
+      "slug": "zts-threat-model-is-the-internet-threat-model",
+      "claim_id": "gb-ch2.1",
+      "statement": "ZT's threat model is the Internet Threat Model plus endpoint compromise",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The RFC 3552 excerpt is quoted directly \u2014 the standard model assumes end-systems themselves are uncompromised, but ZT drops that assumption. The attacker categorization (opportunistic \u2192 targeted \u2192 insider \u2192 trusted insider \u2192 state-level) provides a ladder of increasing capability, and ZT draws the line below state-level actors because \"an attacker with unlimited resources is essentially impossible"
+    }
+  ]
+}

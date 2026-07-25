@@ -1,0 +1,260 @@
+[
+  {
+    "claim_a": "bsi-adopts-nist-pdp-pep-control-plane",
+    "claim_b": "bsi-first-national-agency-provide-detailed-guidance",
+    "edge_type": "extends",
+    "rationale": "The real-time signal integration guidance in bsi-zt.7 operationalizes the PDP/PEP architecture that bsi-zt.3 claims BSI adopts from NIST."
+  },
+  {
+    "claim_a": "bsi-integration-model-provides-german-maturity-framework",
+    "claim_b": "bsi-provides-only-government-framework-multi",
+    "edge_type": "supports",
+    "rationale": "The VS (classified information) integration in bsi-zt.4 implies multi-organizational scope across government and contractors, supporting bsi-zt.8's claim of a multi-organizational framework."
+  },
+  {
+    "claim_a": "bsi-provides-formal-three",
+    "claim_b": "bsi-adopts-nist-pdp-pep-control-plane",
+    "edge_type": "extends",
+    "rationale": "BSI's adoption of the NIST PDP/PEP/Control Plane model is the architectural elaboration of the formal definition that bsi-zt.2 claims extends NIST."
+  },
+  {
+    "claim_a": "bsi-provides-formal-three",
+    "claim_b": "bsi-first-national-agency-provide-detailed-guidance",
+    "edge_type": "depends_on",
+    "rationale": "The detailed real-time signal guidance in bsi-zt.7 presupposes the formal definition in bsi-zt.2 as its conceptual foundation."
+  },
+  {
+    "claim_a": "bsi-provides-formal-three",
+    "claim_b": "bsi-integration-model-provides-german-maturity-framework",
+    "edge_type": "extends",
+    "rationale": "The German maturity framework with VS integration in bsi-zt.4 is a concrete implementation artifact of the formal definition that bsi-zt.2 claims extends NIST."
+  },
+  {
+    "claim_a": "bsi-provides-formal-three",
+    "claim_b": "bsi-specifies-five-mandatory-prerequisites-before-zt",
+    "edge_type": "depends_on",
+    "rationale": "The five mandatory prerequisites in bsi-zt.5 logically presuppose the formal definition that bsi-zt.2 provides \u2014 you cannot define prerequisites without first defining what they are prerequisites for."
+  },
+  {
+    "claim_a": "bsi-provides-formal-three",
+    "claim_b": "nist-document-structure-framework",
+    "edge_type": "depends_on",
+    "rationale": "BSI's definition extending NIST presupposes the NIST document framework that nist207-ch1.8 identifies as essential."
+  },
+  {
+    "claim_a": "bsi-provides-formal-three",
+    "claim_b": "zt-positive-tenets",
+    "edge_type": "depends_on",
+    "rationale": "BSI's three-part definition explicitly derives from and extends NIST's tenet-based framework, so it logically presupposes nist207-ch2.1's positive-tenet definition."
+  },
+  {
+    "claim_a": "bsi-provides-only-government-framework-multi",
+    "claim_b": "bsi-plans-market-surveillance",
+    "edge_type": "extends",
+    "rationale": "The planned market surveillance and sector-specific guidance in bsi-zt.9 are concrete future extensions of the multi-organizational framework claimed in bsi-zt.8."
+  },
+  {
+    "claim_a": "bsi-seven-core-messages-frame-zt-preventive",
+    "claim_b": "bsi-provides-formal-three",
+    "edge_type": "supports",
+    "rationale": "The seven core messages framing ZT as preventive, holistic, and resource-intensive are the operational framing that flows from the formal definition in bsi-zt.2."
+  },
+  {
+    "claim_a": "bsi-seven-core-messages-frame-zt-preventive",
+    "claim_b": "bsi-provides-most-candid-government-assessment-zt",
+    "edge_type": "supports",
+    "rationale": "The characterization of ZT as long-term and resource-intensive in bsi-zt.1 is itself a candid acknowledgment of limitations that supports bsi-zt.6's claim of candor."
+  },
+  {
+    "claim_a": "bsi-seven-core-messages-frame-zt-preventive",
+    "claim_b": "bsi-specifies-five-mandatory-prerequisites-before-zt",
+    "edge_type": "extends",
+    "rationale": "The five mandatory prerequisites operationalize bsi-zt.1's framing of ZT as resource-intensive and long-term by specifying concrete requirements before implementation can begin."
+  },
+  {
+    "claim_a": "bsi-specifies-five-mandatory-prerequisites-before-zt",
+    "claim_b": "bsi-integration-model-provides-german-maturity-framework",
+    "edge_type": "supports",
+    "rationale": "The five mandatory prerequisites form part of the implementation roadmap that the maturity framework in bsi-zt.4 governs."
+  },
+  {
+    "claim_a": "challenges-realistic-underdeveloped",
+    "claim_b": "zt-defined-cisa-five",
+    "edge_type": "supports",
+    "rationale": "Acknowledging that challenges are realistic but underdeveloped is a candid assessment of the five-pillar model's current limitations."
+  },
+  {
+    "claim_a": "dod-zt-operational-not-architectural",
+    "claim_b": "zero-trust-is-a-philosophy-principles-and-a",
+    "edge_type": "supports",
+    "rationale": "DoD's operational focus is a concrete example of ZT as a journey rather than a single architecture, as claimed in gc-ch1-3.3."
+  },
+  {
+    "claim_a": "dod-zt-operational-not-architectural",
+    "claim_b": "zt-assume-breach",
+    "edge_type": "supports",
+    "rationale": "DoD's operational-not-architectural approach exemplifies the 'assume breach, not architecture' framing \u2014 both prioritize mindset and operations over architectural specifications."
+  },
+  {
+    "claim_a": "executive-sponsorship-strongest-predictor-zta-implementation-success",
+    "claim_b": "bsi-specifies-five-mandatory-prerequisites-before-zt",
+    "edge_type": "supports",
+    "rationale": "The finding that executive sponsorship is the strongest predictor (\u03b2=0.342) supports the necessity of BSI's five mandatory prerequisites, which likely include organizational commitment."
+  },
+  {
+    "claim_a": "executive-sponsorship-strongest-predictor-zta-implementation-success",
+    "claim_b": "modeled-zta-effectiveness-shows-very-large-effect",
+    "edge_type": "extends",
+    "rationale": "Executive sponsorship and phased deployment are the specific success factors that drive the large effect sizes reported in academic.1, drawn from the same synthetic study."
+  },
+  {
+    "claim_a": "kindervag-coined-zero-trust",
+    "claim_b": "nist-document-structure-framework",
+    "edge_type": "supports",
+    "rationale": "Crediting Kindervag's coinage of the term is an element of the historical grounding that nist207-ch1.8 identifies as part of the essential ZT framework."
+  },
+  {
+    "claim_a": "location-centric-to-identity-data-centric-shift",
+    "claim_b": "zt-assume-breach",
+    "edge_type": "supports",
+    "rationale": "Abandoning location-based trust is the architectural expression of the 'assume breach' mindset \u2014 if you assume breach, network location becomes irrelevant to trust."
+  },
+  {
+    "claim_a": "location-centric-to-identity-data-centric-shift",
+    "claim_b": "zt-defined-cisa-five",
+    "edge_type": "supports",
+    "rationale": "The location-to-identity shift is the conceptual transformation that the CISA five-pillar model is designed to operationalize."
+  },
+  {
+    "claim_a": "location-centric-to-identity-data-centric-shift",
+    "claim_b": "zt-positive-tenets",
+    "edge_type": "extends",
+    "rationale": "The shift from location-centric to identity/data-centric security is the specific architectural transformation implied by nist207-ch2.1's positive-tenet approach."
+  },
+  {
+    "claim_a": "modeled-zta-effectiveness-shows-very-large-effect",
+    "claim_b": "academic-quantitative-evidence-zt-effectiveness-entirely-synthetic",
+    "edge_type": "supports",
+    "rationale": "The 63-79% improvement figures from entirely synthetic models directly exemplify academic.6's claim that quantitative ZT evidence is synthetic rather than empirically measured."
+  },
+  {
+    "claim_a": "paper-provides-most-comprehensive-existing-mapping-iot",
+    "claim_b": "zta-cannot-scale-without-ai",
+    "edge_type": "supports",
+    "rationale": "Academic.4's finding that all IoT ZT solutions are at prototype stage reinforces academic.5's argument that AI-driven automation is necessary for production-scale ZTA."
+  },
+  {
+    "claim_a": "the-adversarial-view-reveals-that-zt-is-a",
+    "claim_b": "bsi-provides-most-candid-government-assessment-zt",
+    "edge_type": "supports",
+    "rationale": "The risk-reduction framing provides the conceptual vocabulary for the candid government assessment of ZT limitations that bsi-zt.6 attributes to BSI."
+  },
+  {
+    "claim_a": "the-adversarial-view-reveals-that-zt-is-a",
+    "claim_b": "modeled-zta-effectiveness-shows-very-large-effect",
+    "edge_type": "supports",
+    "rationale": "The risk-reduction framing contextualizes academic.1's 63-79% improvements \u2014 ZT reduces risk significantly but does not eliminate it, consistent with both claims."
+  },
+  {
+    "claim_a": "the-adversarial-view-reveals-that-zt-is-a",
+    "claim_b": "zero-trust-is-a-philosophy-principles-and-a",
+    "edge_type": "supports",
+    "rationale": "The characterization of ZT as risk reduction rather than elimination reinforces gc-ch1-3.3's claim that ZT is a journey rather than a one-and-done project."
+  },
+  {
+    "claim_a": "the-adversarial-view-reveals-that-zt-is-a",
+    "claim_b": "zt-assume-breach",
+    "edge_type": "supports",
+    "rationale": "The risk-reduction framing is a direct operational consequence of the 'assume breach' mindset \u2014 if breach is assumed, the goal shifts to reducing its impact rather than preventing it entirely."
+  },
+  {
+    "claim_a": "zero-trust-is-a-philosophy-principles-and-a",
+    "claim_b": "zt-positive-tenets",
+    "edge_type": "supports",
+    "rationale": "The characterization of ZT as a philosophy and journey rather than a product aligns with NIST's technology-agnostic positive-tenet approach."
+  },
+  {
+    "claim_a": "zt-assume-breach",
+    "claim_b": "zero-trust-is-a-philosophy-principles-and-a",
+    "edge_type": "supports",
+    "rationale": "NSA's 'assume breach' framing exemplifies the philosophy-first approach that gc-ch1-3.3 advocates \u2014 both reject product-centric definitions in favor of principles."
+  },
+  {
+    "claim_a": "zt-assume-breach",
+    "claim_b": "zt-positive-tenets",
+    "edge_type": "supports",
+    "rationale": "The 'assume breach' mindset is the foundational threat posture that motivates and gives urgency to the positive-tenet architecture."
+  },
+  {
+    "claim_a": "zt-defined-cisa-five",
+    "claim_b": "cisa-pillar-described-traditional-advanced-optimal-maturity",
+    "edge_type": "extends",
+    "rationale": "The Traditional/Advanced/Optimal maturity gradient in cccs-model.2 is the mechanism by which the CISA five-pillar model in cccs-model.1 is operationalized."
+  },
+  {
+    "claim_a": "zt-defined-cisa-five",
+    "claim_b": "four-concrete-starting-points-actionable-abstract-principles",
+    "edge_type": "extends",
+    "rationale": "The four concrete starting points in cccs-model.5 are actionable implementation guidance that builds on the five-pillar framework defined in cccs-model.1."
+  },
+  {
+    "claim_a": "zt-defined-cisa-five",
+    "claim_b": "zt-positive-tenets",
+    "edge_type": "extends",
+    "rationale": "The CISA five-pillar model is an alternative operationalization of the core ZT concepts that nist207-ch2.1 defines through positive tenets."
+  },
+  {
+    "claim_a": "zt-positive-tenets",
+    "claim_b": "nist-document-structure-framework",
+    "edge_type": "supports",
+    "rationale": "The seven positive tenets are the core content delivered by the document structure that nist207-ch1.8 claims is the essential ZT framework."
+  },
+  {
+    "claim_a": "zt-predates-term-disa-jericho",
+    "claim_b": "kindervag-coined-zero-trust",
+    "edge_type": "supports",
+    "rationale": "The DISA black core and Jericho Forum predecessors establish the intellectual lineage and conceptual need that Kindervag's coinage of the term fulfilled."
+  },
+  {
+    "claim_a": "zt-predates-term-disa-jericho",
+    "claim_b": "nist-document-structure-framework",
+    "edge_type": "supports",
+    "rationale": "Including the intellectual lineage of ZT predecessors is part of the comprehensive framework that nist207-ch1.8 claims the document's structure represents."
+  },
+  {
+    "claim_a": "zt-provides-six-benefits-organized-around-visibility",
+    "claim_b": "zt-defined-cisa-five",
+    "edge_type": "supports",
+    "rationale": "The six benefits organized around visibility, protection, and modernization justify the adoption of the CISA five-pillar model as claimed in cccs-model.1."
+  },
+  {
+    "claim_a": "zt-research-entered-rapid-growth-phase-145",
+    "claim_b": "paper-provides-most-comprehensive-existing-mapping-iot",
+    "edge_type": "supports",
+    "rationale": "IoT being a dominant ZT research domain explains the significance and timeliness of the comprehensive IoT-to-ZT mapping claimed in academic.4."
+  },
+  {
+    "claim_a": "zta-cannot-scale-without-ai",
+    "claim_b": "modeled-zta-effectiveness-shows-very-large-effect",
+    "edge_type": "extends",
+    "rationale": "Academic.5's claim that AI is necessary for ZTA scaling is an implementation precondition for achieving the modeled effectiveness gains reported in academic.1."
+  },
+  {
+    "claim_a": "ztmm-nist-800-207-definition-foundation",
+    "claim_b": "location-centric-to-identity-data-centric-shift",
+    "edge_type": "supports",
+    "rationale": "The NIST definition of minimizing uncertainty rather than trusting location provides the conceptual basis for the location-to-identity shift described in cisa-ztmm-ov.4."
+  },
+  {
+    "claim_a": "ztmm-nist-800-207-definition-foundation",
+    "claim_b": "nist-document-structure-framework",
+    "edge_type": "depends_on",
+    "rationale": "The ZTMM's foundation on NIST SP 800-207's definition presupposes the essential framework that nist207-ch1.8 identifies."
+  },
+  {
+    "claim_a": "ztmm-nist-800-207-definition-foundation",
+    "claim_b": "zt-positive-tenets",
+    "edge_type": "depends_on",
+    "rationale": "CISA's ZTMM explicitly builds on NIST SP 800-207, whose operative definition is grounded in the positive tenet framework of nist207-ch2.1."
+  }
+]

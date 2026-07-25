@@ -1,0 +1,3497 @@
+{
+  "version": "1.0",
+  "total_raw_edges": 470,
+  "total_unique_edges": 470,
+  "duplicates_removed": 0,
+  "contradicts_count": 4,
+  "orphan_claims_count": 107,
+  "orphan_claims": [
+    "19-builds-demonstrate-zta-implemented-diverse-vendor",
+    "ai-zt-intersection-least",
+    "analytics-ai-unified-pipeline-zt",
+    "autonomous-agentic-operation-without-human-oversight-inadvisable",
+    "casb-sasesdp-api-security-form-the-cloud-visibility",
+    "certificate-signing-is-a-trust-injection-point-that",
+    "cisa-nsa-identity-complementary",
+    "ciscos-five-pillar-model-policy-governance-identity-vulnerability-management",
+    "cross-cutting-capabilities-convergence",
+    "cross-cutting-capabilities-prevent-silos",
+    "cross-pillar-maturity-trajectory",
+    "culture-change-requires-rituals-not-just-policies-the",
+    "data-availability-dynamic-optimization",
+    "data-cross-cutting-capabilities-summary",
+    "data-encryption-comprehensive",
+    "dns-is-both-a-critical-infrastructure-component-and",
+    "dod-five-tenets-threat-operational",
+    "dod-seven-pillars-identical-cisa",
+    "dynamic-tag-based-targets-are-the-policy-models-most",
+    "eig-crawl-phase-proved-legacy-icam-solutions",
+    "enforcement-must-be-layered-and-applied-as-close",
+    "executive-sponsorship-and-crisis-create-the-window-for",
+    "external-access-for-iotendpoints-requires-baseline-creation-through",
+    "federal-government-current",
+    "federal-government-needs-two-dedicated-zt-program",
+    "federal-program-interactions-synthesis",
+    "ficam-identity-substrate-zta",
+    "firewalls-persist-under-zero-trust-but-their-role",
+    "five-business-value-drivers-not-security-alone-justify",
+    "five-pillar-comprehensive-decomposition",
+    "four-maturity-levels-progressive-capability",
+    "governance-critical-gap",
+    "government-incentivize-non",
+    "group-authorization-is-the-highest-trust-mechanism-for-extremely",
+    "identity-cross-cutting-capabilities",
+    "identity-governance-needs-a-cross-functional-stakeholder-group-and",
+    "incident-response-must-follow-zt-principles-and-the",
+    "industry-best-practices",
+    "input-output-validation-gateway",
+    "internet",
+    "invalidation-is-a-hard-problem-in-computer-science",
+    "least-privilege-in-zt-is-dynamic-multi-attribute-and",
+    "llm-systems-require-their-own-dedicated-zero",
+    "nation-state-incidents-perimeter-obsolete",
+    "network-resilience-holistic",
+    "ngfws-are-neither-sufficient-as-a-zt-platform",
+    "nist-control-data-plane-separation",
+    "nist-sp-800-207-provides-the-architectural-tenets-but",
+    "npe-person-identities-independent-confidence",
+    "nsa-cisa-identity-frameworks-complementary",
+    "orchestration-policy-four-layer-hierarchy",
+    "physical-security-is-the-perfect-analogy-for-zero",
+    "policy-creation-is-data-driven-discovery-before-enforcement-log",
+    "policy-should-be-defined-in-terms-of-logical",
+    "proprietary-lock-in-amplified-zta",
+    "revoke-authorization-first-credentials-second",
+    "rmf-zta-changes-authorization-boundaries",
+    "sasezte-converges-networking-and-security-but-ztna-ingress",
+    "sdn-enables-scalable-micro-segmentation",
+    "security-awareness-training-is-a-protect-surface-apply",
+    "server-to-server-zt-is-a-fundamentally-different-problem-than",
+    "service-meshes-are-self-contained-zero-trust-microsegmentation-systems",
+    "session",
+    "seven-zt-scenarios-provide-a-practical-non-exhaustive-framework",
+    "siem-and-soar-integration-with-zt-is-a",
+    "soc-integration-should-be-pursued-early-in-the",
+    "technology-interoperability-hidden-risk",
+    "ten-network-requirements-zta",
+    "the-14-platform-requirements-operationalize-the-principles-into",
+    "the-firewall-is-enough-belief-is-mathematically-disproven-a-network",
+    "the-first-protect-surface-must-be-what-the",
+    "the-four-component-policy-model-subject-action-target-condition",
+    "the-four-design-principles-and-five-step-methodology-make",
+    "the-kipling-method-replaces-network-centric-policy-with-business-context",
+    "the-network-agent-is-the-marriage-of-user",
+    "the-policy-decision-matrix-mapping-source-entities-to",
+    "the-policy-structure-of-subject-criteria-action-target",
+    "the-protect-surface-shifts-controls-from-the-perimeter",
+    "the-soc-is-itself-a-protect-surface-and",
+    "the-socs-value-is-measured-by-false-positive",
+    "the-software-defined-perimeter-architecture-delivers-zt-principles-through",
+    "the-three-core-principles-secure-all-resources-regardless",
+    "the-three-layer-authorization-model-reveals-why-zt-is",
+    "the-two-case-studies-demonstrate-zt-is-cross-domain",
+    "the-working-definition-centers-zt-as-an-integrated",
+    "three-expanded-principles-api-integration-automation-and-business",
+    "top-down-business-aligned-and-bottom-up-traffic-aligned-design-approaches-are",
+    "traditional-enterprise-security-is-structurally-broken-not-merely",
+    "zero-trust-amplifies-existing-security-concepts-least-privilege",
+    "zero-trust-enhances-legacy-applications-without-modification-its",
+    "zero-trust-is-a-misnomer-the-real-concept",
+    "zero-trust-is-a-strategy-not-a-product",
+    "zero-trust-never-ends-the-maturity-model-turns",
+    "zero-trust-originated-from-the-morris-worm-and",
+    "zt-can-serve-as-a-catalyst-to-improve",
+    "zt-five-fundamental-assertions",
+    "zt-is-a-journey-not-a-destination-success",
+    "zt-maturity-incremental",
+    "zt-network-assumptions",
+    "zt-no-implicit-trust-continuous-eval",
+    "zt-not-a-product-hybrid-journey",
+    "zt-tenets-aspirational",
+    "zt-three-guiding-principles",
+    "zt-uncertainty-minimization",
+    "zta-implementation-single-architecture-spectrum-deployment-approaches",
+    "zta-prerequisites-icam-cdm",
+    "zta-prevent-breach-limit-lateral-movement"
+  ],
+  "edge_type_breakdown": {
+    "supports": 239,
+    "depends_on": 53,
+    "extends": 174,
+    "contradicts": 4
+  },
+  "top_dense_claims": [
+    [
+      "zt-control-data-plane-split",
+      12
+    ],
+    [
+      "continuous-risk-based-device-authorization",
+      8
+    ],
+    [
+      "network",
+      7
+    ],
+    [
+      "cloud",
+      7
+    ],
+    [
+      "bsi-provides-formal-three",
+      7
+    ],
+    [
+      "zt-positive-tenets",
+      7
+    ],
+    [
+      "the-nist-pdppep-model-is-the-correct-foundation",
+      7
+    ],
+    [
+      "perimeter-security-breaks-down-microservices-because-services",
+      6
+    ],
+    [
+      "beyondcorp-google-implementation-zt-model-provides-architectural",
+      6
+    ],
+    [
+      "zt-defined-cisa-five",
+      6
+    ],
+    [
+      "preventing-lateral-movement-primary-goal-zt",
+      6
+    ],
+    [
+      "identity-foundational-zta-pillar",
+      6
+    ],
+    [
+      "cdm-visibility-prerequisite-zta",
+      6
+    ],
+    [
+      "macro-segmentation-cross-function",
+      6
+    ],
+    [
+      "micro-segmentation-blast-radius",
+      6
+    ],
+    [
+      "the-application-pipeline-is-a-cryptographic-chain-break",
+      5
+    ],
+    [
+      "data-categorization-automated-labeling",
+      5
+    ],
+    [
+      "trust-is-the-root-vulnerability-that-zero-trust",
+      5
+    ],
+    [
+      "alts-application-layer-transport-security-workhorse-beyondprod",
+      5
+    ],
+    [
+      "deploying-identity",
+      5
+    ]
+  ],
+  "edges": [
+    {
+      "claim_a": "gb-ch4-6.6",
+      "claim_b": "gb-ch4-6.14",
+      "edge_type": "supports",
+      "rationale": "Multi-party authorization for certificate signing is a concrete, high-stakes application of group authorization as the highest-trust mechanism for sensitive operations.",
+      "source_file": "c0.json"
+    },
+    {
+      "claim_a": "gb-ch3.3",
+      "claim_b": "gb-ch10.6",
+      "edge_type": "supports",
+      "rationale": "The operational rule 'revoke authorization first, credentials second' directly reinforces the architectural principle that ZT addresses invalidation through granular authorization rather than push-based credential revocation.",
+      "source_file": "c0.json"
+    },
+    {
+      "claim_a": "gb-ch2.4",
+      "claim_b": "gb-ch10.6",
+      "edge_type": "depends_on",
+      "rationale": "Dynamic, multi-attribute least privilege requires granular per-request authorization decisions as its enabling mechanism \u2014 the same granular authorization that Claim gb-ch10.6 identifies as ZT's approach to invalidation.",
+      "source_file": "c0.json"
+    },
+    {
+      "claim_a": "gc-iam-policy.3",
+      "claim_b": "gb-ch2.4",
+      "edge_type": "supports",
+      "rationale": "SDP delivers the architectural foundation for dynamic, device-bound least privilege: mTLS provides the device-binding dimension, and SPA enables dynamic per-request access control.",
+      "source_file": "c0.json"
+    },
+    {
+      "claim_a": "the-build-system-is-the-most-dangerous-attack",
+      "claim_b": "the-application-pipeline-is-a-cryptographic-chain-break",
+      "edge_type": "depends_on",
+      "rationale": "The build system can only be identified as the dangerous unprotected gap in context of the cryptographic chain concept",
+      "source_file": "c1.json"
+    },
+    {
+      "claim_a": "gits-content-addressable-storage-provides-tamper-proof-history-but-not",
+      "claim_b": "the-application-pipeline-is-a-cryptographic-chain-break",
+      "edge_type": "supports",
+      "rationale": "Git's content-addressable storage and signed commits provide the source-integrity link in the application pipeline cryptographic chain",
+      "source_file": "c1.json"
+    },
+    {
+      "claim_a": "immutable-artifacts-with-decoupled-version-numbers-prevent-masquerade",
+      "claim_b": "the-application-pipeline-is-a-cryptographic-chain-break",
+      "edge_type": "supports",
+      "rationale": "Immutable artifacts with signed hashes provide the artifact-integrity link in the cryptographic chain",
+      "source_file": "c1.json"
+    },
+    {
+      "claim_a": "runtime-security-completes-the-trust-lifecycle-isolation-secure",
+      "claim_b": "the-application-pipeline-is-a-cryptographic-chain-break",
+      "edge_type": "extends",
+      "rationale": "Runtime security completes the trust lifecycle that the application pipeline establishes, adding post-deployment isolation and monitoring",
+      "source_file": "c1.json"
+    },
+    {
+      "claim_a": "secure-app-dev-immutable-workloads",
+      "claim_b": "the-application-pipeline-is-a-cryptographic-chain-break",
+      "edge_type": "extends",
+      "rationale": "Immutable workloads with redeployment-only changes are the practical deployment implementation of the cryptographic chain concept",
+      "source_file": "c1.json"
+    },
+    {
+      "claim_a": "gits-content-addressable-storage-provides-tamper-proof-history-but-not",
+      "claim_b": "the-build-system-is-the-most-dangerous-attack",
+      "edge_type": "supports",
+      "rationale": "Signed commits protect the source side of the unprotected build system, securing one flank of the build gap",
+      "source_file": "c1.json"
+    },
+    {
+      "claim_a": "immutable-artifacts-with-decoupled-version-numbers-prevent-masquerade",
+      "claim_b": "the-build-system-is-the-most-dangerous-attack",
+      "edge_type": "supports",
+      "rationale": "Immutable artifacts with decoupled version numbers protect the artifact side of the unprotected build system, securing the other flank of the build gap",
+      "source_file": "c1.json"
+    },
+    {
+      "claim_a": "per-instance-time-bound-secrets-are-the-mechanism-for-authorizing",
+      "claim_b": "secure-app-dev-immutable-workloads",
+      "edge_type": "depends_on",
+      "rationale": "Per-instance time-bound secret provisioning depends on immutable workload patterns where instances are created via redeployment rather than mutated in place",
+      "source_file": "c1.json"
+    },
+    {
+      "claim_a": "container-security-standards-must-be-enforced-as-code",
+      "claim_b": "secure-app-dev-immutable-workloads",
+      "edge_type": "supports",
+      "rationale": "Container security enforced as code with negative checks is a mechanism that enables and reinforces immutable workload deployments",
+      "source_file": "c1.json"
+    },
+    {
+      "claim_a": "devops-culture-can-be-an-ally-or-adversary",
+      "claim_b": "secure-app-dev-immutable-workloads",
+      "edge_type": "supports",
+      "rationale": "DevOps culture that integrates security into existing developer workflows enables adoption of immutable workload practices",
+      "source_file": "c1.json"
+    },
+    {
+      "claim_a": "per-instance-time-bound-secrets-are-the-mechanism-for-authorizing",
+      "claim_b": "runtime-security-completes-the-trust-lifecycle-isolation-secure",
+      "edge_type": "supports",
+      "rationale": "Per-instance time-bound secrets are a concrete mechanism for runtime authorization, which is part of the runtime security trust lifecycle",
+      "source_file": "c1.json"
+    },
+    {
+      "claim_a": "application-security-testing-sdlc",
+      "claim_b": "application-cross-cutting-capabilities-summary",
+      "edge_type": "extends",
+      "rationale": "SDLC-integrated security testing is a specific dimension of the broader application cross-cutting capabilities (visibility, automation, policy enforcement)",
+      "source_file": "c1.json"
+    },
+    {
+      "claim_a": "application-threat-protections-integrated",
+      "claim_b": "application-cross-cutting-capabilities-summary",
+      "edge_type": "extends",
+      "rationale": "Integrated application threat protections is a specific dimension of the broader cross-cutting capabilities",
+      "source_file": "c1.json"
+    },
+    {
+      "claim_a": "application-security-testing-sdlc",
+      "claim_b": "application-threat-protections-integrated",
+      "edge_type": "supports",
+      "rationale": "Security testing integrated throughout the SDLC enables threat protections to be integrated into application workflows",
+      "source_file": "c1.json"
+    },
+    {
+      "claim_a": "erp-systems-are-uniquely-opaque-to-traditional-security",
+      "claim_b": "application-threat-protections-integrated",
+      "edge_type": "supports",
+      "rationale": "ERP systems' opacity to traditional security tools demonstrates the necessity of application-specific threat protections integrated into workflows",
+      "source_file": "c1.json"
+    },
+    {
+      "claim_a": "application-access-continuous-authorization",
+      "claim_b": "accessible-applications-public-networks",
+      "edge_type": "supports",
+      "rationale": "Continuous authorization incorporating real-time risk analytics enables safe exposure of applications on open public networks",
+      "source_file": "c1.json"
+    },
+    {
+      "claim_a": "devops-culture-can-be-an-ally-or-adversary",
+      "claim_b": "application-security-testing-sdlc",
+      "edge_type": "supports",
+      "rationale": "DevOps culture that integrates security into existing developer workflows enables SDLC-integrated security testing",
+      "source_file": "c1.json"
+    },
+    {
+      "claim_a": "out-of-band-and-multi-channel-authentication-raise-the-attackers-cost",
+      "claim_b": "mfa-is-necessary-but-insufficient-attackers-have-at",
+      "edge_type": "supports",
+      "rationale": "Out-of-band/multi-channel authentication directly addresses the MFA bypass strategies (SMS intercept, compromised devices, stolen certificates) by requiring compromise of independent channels.",
+      "source_file": "c17.json"
+    },
+    {
+      "claim_a": "authentication-authorization-dynamic-continuous",
+      "claim_b": "mfa-is-necessary-but-insufficient-attackers-have-at",
+      "edge_type": "extends",
+      "rationale": "Dynamic continuous authentication with UEBA confidence scoring evolves beyond point-in-time MFA \u2014 the exact insufficiency Claim 4 identifies \u2014 by making auth ongoing rather than a single checkpoint.",
+      "source_file": "c17.json"
+    },
+    {
+      "claim_a": "out-of-band-and-multi-channel-authentication-raise-the-attackers-cost",
+      "claim_b": "authentication-authorization-dynamic-continuous",
+      "edge_type": "supports",
+      "rationale": "Multi-channel and out-of-band techniques are building blocks for continuous authentication: independent channel verification feeds into the UEBA confidence scoring model that drives real-time access decisions.",
+      "source_file": "c17.json"
+    },
+    {
+      "claim_a": "encryption-and-authentication-are-separate-concerns-zero-trust",
+      "claim_b": "agents-are-ephemeral-request-scoped-and-purely-for-authorization",
+      "edge_type": "extends",
+      "rationale": "Both articulate separation-of-concerns in zero trust: Claim 1 separates authentication from authorization; Claim 3 extends the same architectural principle to separate encryption from authentication.",
+      "source_file": "c17.json"
+    },
+    {
+      "claim_a": "data-categorization-automated-labeling",
+      "claim_b": "data-access-jit-jea-controls",
+      "edge_type": "supports",
+      "rationale": "The access control maturity model explicitly states access decisions consider 'data category'; automated labeling provides the category attributes that JIT/JEA decisions evaluate.",
+      "source_file": "c23.json"
+    },
+    {
+      "claim_a": "data-centric-security-abac-protection",
+      "claim_b": "data-categorization-automated-labeling",
+      "edge_type": "depends_on",
+      "rationale": "Attribute-based access control requires attributes. Data Tagging (one of the four ABAC mechanisms) is explicitly about categorizing data with PII/sensitivity tags \u2014 without categorization, ABAC has no attributes to enforce against.",
+      "source_file": "c23.json"
+    },
+    {
+      "claim_a": "data-inventory-management-continuous",
+      "claim_b": "data-categorization-automated-labeling",
+      "edge_type": "supports",
+      "rationale": "You must know what data exists before you can categorize it. Continuous data inventory is the foundational discovery layer that enables comprehensive automated labeling.",
+      "source_file": "c23.json"
+    },
+    {
+      "claim_a": "data-protection-is-an-advanced-zt-use-case",
+      "claim_b": "data-categorization-automated-labeling",
+      "edge_type": "depends_on",
+      "rationale": "The GC SOC claim explicitly states that 'classification maturity and platform capabilities are prerequisites' for data protection as an advanced ZT use case.",
+      "source_file": "c23.json"
+    },
+    {
+      "claim_a": "data-centric-security-abac-protection",
+      "claim_b": "data-protection-is-an-advanced-zt-use-case",
+      "edge_type": "extends",
+      "rationale": "The GC SOC claim establishes that data protection is an advanced ZT use case; the DoD RA claim specifies the concrete architectural pattern (ABAC with Data Tagging, DRM, DLP, DDM) for implementing that use case.",
+      "source_file": "c23.json"
+    },
+    {
+      "claim_a": "data-classification-spans-a-structured-to-unstructured-continuum-structured-data",
+      "claim_b": "data-categorization-automated-labeling",
+      "edge_type": "extends",
+      "rationale": "The CISA ZTMM claim describes the maturity progression of data categorization; the GC SOC claim adds depth by explaining the fundamental challenge \u2014 structured data has implicit schema classification while unstructured data lacks inherent metadata, making automated labeling the hardest problem.",
+      "source_file": "c23.json"
+    },
+    {
+      "claim_a": "data-inventory-management-continuous",
+      "claim_b": "data-centric-security-abac-protection",
+      "edge_type": "supports",
+      "rationale": "DLP (Data Loss Prevention), one of the four ABAC protection mechanisms, monitors for data exfiltration. Continuous inventory provides knowledge of what data assets exist and where they reside, enabling DLP to effectively monitor and protect them.",
+      "source_file": "c23.json"
+    },
+    {
+      "claim_a": "anssi-bsi.5",
+      "claim_b": "anssi-bsi.1",
+      "edge_type": "supports",
+      "rationale": "anssi-bsi.5 establishes that AI+ZT is the least-developed area with no existing standards coverage, which directly supports anssi-bsi.1's claim that LLM systems require dedicated ZT design principles.",
+      "source_file": "c28.json"
+    },
+    {
+      "claim_a": "anssi-bsi.2",
+      "claim_b": "anssi-bsi.1",
+      "edge_type": "extends",
+      "rationale": "anssi-bsi.2 details the input/output validation gateway principle, which is one of the six dedicated ZT principles asserted by anssi-bsi.1.",
+      "source_file": "c28.json"
+    },
+    {
+      "claim_a": "anssi-bsi.3",
+      "claim_b": "anssi-bsi.1",
+      "edge_type": "extends",
+      "rationale": "anssi-bsi.3 details session-level memory isolation, which is one of the six dedicated ZT principles for LLM systems asserted by anssi-bsi.1.",
+      "source_file": "c28.json"
+    },
+    {
+      "claim_a": "anssi-bsi.4",
+      "claim_b": "anssi-bsi.1",
+      "edge_type": "extends",
+      "rationale": "anssi-bsi.4 details the human-oversight requirement (Principle 2), which is one of the six dedicated ZT principles for LLM systems asserted by anssi-bsi.1.",
+      "source_file": "c28.json"
+    },
+    {
+      "claim_a": "anssi-bsi.3",
+      "claim_b": "anssi-bsi.2",
+      "edge_type": "supports",
+      "rationale": "anssi-bsi.3's session isolation requirement directly supports anssi-bsi.2's input/output validation gateway: proper session isolation prevents cross-session persistent Prompt Injection vectors, which is a prerequisite for effective prompt trustworthiness evaluation.",
+      "source_file": "c28.json"
+    },
+    {
+      "claim_a": "finney-ch8-11.5",
+      "claim_b": "finney-ch8-11.7",
+      "edge_type": "extends",
+      "rationale": "Claim 11.5 takes the 'security minute' ritual concept from 11.7 and frames it within the ZT protect-surface methodology applied to people, operationalizing the culture-change ritual into a structured ZT governance approach.",
+      "source_file": "c45.json"
+    },
+    {
+      "claim_a": "gc-ch1-3.8",
+      "claim_b": "gc-ch1-3.6",
+      "edge_type": "extends",
+      "rationale": "The 14 platform requirements (3.8) operationalize the expanded principles of API integration, automation, and business value delivery (3.6) into specific verifiable criteria, turning abstract principles into concrete governance benchmarks.",
+      "source_file": "c45.json"
+    },
+    {
+      "claim_a": "nist207-ch6.3",
+      "claim_b": "gc-ch1-3.6",
+      "edge_type": "depends_on",
+      "rationale": "The per-resource, per-session risk acceptance model encoded algorithmically in the Policy Engine (6.3) depends on API integration and automation (3.6) to function at enterprise scale; without these expanded principles, algorithmic risk acceptance is impractical.",
+      "source_file": "c45.json"
+    },
+    {
+      "claim_a": "gc-ch1-3.8",
+      "claim_b": "nist207-ch6.3",
+      "edge_type": "supports",
+      "rationale": "The 14 platform requirements (3.8) provide the verifiable operational criteria \u2014 encryption, access controls, device posture, continuous authorization \u2014 that enable the per-resource, per-session risk acceptance model described in 6.3.",
+      "source_file": "c45.json"
+    },
+    {
+      "claim_a": "dod-ra-cap.4",
+      "claim_b": "gb-ch3.1",
+      "edge_type": "supports",
+      "rationale": "Independent confidence development for user and device provides the evidentiary mechanism that underpins the network agent construct as the marriage of user, device, and application.",
+      "source_file": "c52.json"
+    },
+    {
+      "claim_a": "gb-ch3.1",
+      "claim_b": "gc-iam-policy.6",
+      "edge_type": "supports",
+      "rationale": "The network agent defines the atomic unit of authorization (user+device+app) that the three-layer model enforces across application, account, and network levels.",
+      "source_file": "c52.json"
+    },
+    {
+      "claim_a": "cisa-ztmm-id.7",
+      "claim_b": "gc-iam-policy.6",
+      "edge_type": "supports",
+      "rationale": "Cross-cutting capabilities (visibility & analytics, automation & orchestration, governance) operationalize enforcement across the three authorization layers.",
+      "source_file": "c52.json"
+    },
+    {
+      "claim_a": "gc-iam-policy.2",
+      "claim_b": "gc-iam-policy.6",
+      "edge_type": "extends",
+      "rationale": "Extends the three-layer model by specifying that for server-to-server contexts, the identity foundation shifts from IAM to CMDB while still enforcing at the network layer.",
+      "source_file": "c52.json"
+    },
+    {
+      "claim_a": "cisa-ztmm-id.7",
+      "claim_b": "dod-ra-cap.4",
+      "edge_type": "supports",
+      "rationale": "Visibility & analytics feeds the independent confidence tracking; automation & orchestration enables confidence aggregation at policy enforcement time.",
+      "source_file": "c52.json"
+    },
+    {
+      "claim_a": "cisa-ztmm-id.8",
+      "claim_b": "nsa-user.6",
+      "edge_type": "extends",
+      "rationale": "Both assert NSA/CISA frameworks are complementary (what-to-measure vs how-to-implement); the cisa claim adds the conclusion that together they form 'the most complete federal guidance for identity maturity in a ZTA context.'",
+      "source_file": "c54.json"
+    },
+    {
+      "claim_a": "nstac.4",
+      "claim_b": "nstac.1",
+      "edge_type": "depends_on",
+      "rationale": "nstac.1 establishes the problem (current 2\u00bd-year strategy is insufficient for long-term transformation without institutionalization); nstac.4 proposes the institutional remedy (two dedicated ZT Program Offices) whose rationale depends on that insufficiency premise.",
+      "source_file": "c54.json"
+    },
+    {
+      "claim_a": "nstac.2",
+      "claim_b": "nstac.1",
+      "edge_type": "supports",
+      "rationale": "nstac.1 argues the current strategy over-focuses on near-term tactical goals; nstac.2 proposes industry best-practice accountability metrics (Five-Step Process, Kipling Method) as a remedy for that tactical-only mindset.",
+      "source_file": "c54.json"
+    },
+    {
+      "claim_a": "nstac.3",
+      "claim_b": "nstac.1",
+      "edge_type": "supports",
+      "rationale": "nstac.1 says ZT will fail without institutionalization; nstac.3 specifies governance integration (FISMA, CDM, NIST 800-53, procurement) as THE critical gap \u2014 i.e., the primary institutionalization failure mode behind nstac.1's warning.",
+      "source_file": "c54.json"
+    },
+    {
+      "claim_a": "nstac.5",
+      "claim_b": "nstac.4",
+      "edge_type": "supports",
+      "rationale": "nstac.4 proposes a CISA civilian ZT Program Office; nstac.5 identifies internet-accessible asset discovery as a foundational prerequisite that CISA should provide as a shared service \u2014 a concrete functional example of what the proposed office would deliver.",
+      "source_file": "c54.json"
+    },
+    {
+      "claim_a": "nist207-ch6.5",
+      "claim_b": "nstac.3",
+      "edge_type": "supports",
+      "rationale": "nist207-ch6.5 establishes that ICAM/identity governance is the substrate on which ZTA rests (dependency: ICAM maturity \u2192 policy engine \u2192 enforcement); nstac.3's claim that governance is the critical gap is strengthened by this foundational dependency.",
+      "source_file": "c54.json"
+    },
+    {
+      "claim_a": "nstac.7",
+      "claim_b": "nstac.3",
+      "edge_type": "supports",
+      "rationale": "nstac.7 warns that absent component-level interface standards, ZT creates vendor lock-in and management complexity; this exemplifies a governance-integration failure \u2014 exactly the gap nstac.3 argues must be closed by embedding ZT into existing structures and standards.",
+      "source_file": "c54.json"
+    },
+    {
+      "claim_a": "nist-1800-35.3",
+      "claim_b": "nist-1800-35.2",
+      "edge_type": "supports",
+      "rationale": "",
+      "source_file": "c60.json"
+    },
+    {
+      "claim_a": "nist-1800-35.3",
+      "claim_b": "nist-1800-35.1",
+      "edge_type": "supports",
+      "rationale": "",
+      "source_file": "c60.json"
+    },
+    {
+      "claim_a": "nist-1800-35.2",
+      "claim_b": "nist-1800-35.1",
+      "edge_type": "extends",
+      "rationale": "",
+      "source_file": "c60.json"
+    },
+    {
+      "claim_a": "finney-ch4-7.1",
+      "claim_b": "gc-scenarios.1",
+      "edge_type": "extends",
+      "rationale": "",
+      "source_file": "c60.json"
+    },
+    {
+      "claim_a": "gb-ch9.7",
+      "claim_b": "nist-1800-35.1",
+      "edge_type": "supports",
+      "rationale": "",
+      "source_file": "c60.json"
+    },
+    {
+      "claim_a": "cisa-ztmm-ov.8",
+      "claim_b": "cisa-ztmm-ov.6",
+      "edge_type": "supports",
+      "rationale": "Cross-cutting capabilities are the mechanism that prevents the five-pillar decomposition from becoming siloed, directly supporting the claim that the pillar structure is comprehensive and independently-assessable.",
+      "source_file": "c7.json"
+    },
+    {
+      "claim_a": "cisa-ztmm-dnad.24",
+      "claim_b": "cisa-ztmm-ov.8",
+      "edge_type": "extends",
+      "rationale": "Takes the cross-cutting unification concept from ov.8 and adds the maturity dimension \u2014 specifying how integration deepens from Traditional to Optimal stages with centralized dynamic monitoring, infrastructure-as-code, and continuous enforcement.",
+      "source_file": "c7.json"
+    },
+    {
+      "claim_a": "cisa-ztmm-dnad.24",
+      "claim_b": "cisa-ztmm-ov.6",
+      "edge_type": "depends_on",
+      "rationale": "The cross-cutting capabilities described in dnad.24 operate 'across pillars' \u2014 the five-pillar decomposition established in ov.6 is a prerequisite foundation for this cross-pillar integration concept.",
+      "source_file": "c7.json"
+    },
+    {
+      "claim_a": "dod-ra-ov.5",
+      "claim_b": "cisa-ztmm-ov.6",
+      "edge_type": "supports",
+      "rationale": "DoD independently converged on the identical pillar structure (seven pillars mapping to CISA's five), corroborating that the five-pillar decomposition is comprehensive and generalizable beyond its original CISA context.",
+      "source_file": "c7.json"
+    },
+    {
+      "claim_a": "dod-ra-cap.6",
+      "claim_b": "gc-soc-data-iot.1",
+      "edge_type": "extends",
+      "rationale": "The unified pipeline architecture (Sensors\u2192SIEM\u2192SOAR+AI\u2192ZT Controller\u2192ML/AI) is the concrete technical realization of the 'SIEM and SOAR integration with ZT is a force multiplier' concept.",
+      "source_file": "c72.json"
+    },
+    {
+      "claim_a": "gc-soc-data-iot.1",
+      "claim_b": "gc-soc-data-iot.2",
+      "edge_type": "supports",
+      "rationale": "The force-multiplier value proposition of SIEM/SOAR+ZT integration provides the primary rationale for why SOC integration should be pursued early rather than deferred.",
+      "source_file": "c72.json"
+    },
+    {
+      "claim_a": "finney-ch4-7.9",
+      "claim_b": "gc-soc-data-iot.2",
+      "edge_type": "supports",
+      "rationale": "The insight that the SOC itself is a protect surface that most organizations neglect adds security urgency to the argument for early SOC integration.",
+      "source_file": "c72.json"
+    },
+    {
+      "claim_a": "finney-ch4-7.10",
+      "claim_b": "gc-soc-data-iot.2",
+      "edge_type": "supports",
+      "rationale": "Measuring SOC value by false positive reduction and dwell time (rather than ticket counts) provides concrete metrics to justify early investment in SOC integration.",
+      "source_file": "c72.json"
+    },
+    {
+      "claim_a": "finney-ch8-11.3",
+      "claim_b": "dod-ra-cap.6",
+      "edge_type": "supports",
+      "rationale": "The cloud visibility and control triad (CASB, SASE/SDP, API security) serves as the 'Sensors' input layer that feeds into the unified analytics pipeline.",
+      "source_file": "c72.json"
+    },
+    {
+      "claim_a": "gc-soc-data-iot.1",
+      "claim_b": "finney-ch4-7.10",
+      "edge_type": "supports",
+      "rationale": "ZT integration enriches SIEM/SOAR logs with identity context and enables bidirectional policy automation, directly enabling the false positive reduction that defines SOC value.",
+      "source_file": "c72.json"
+    },
+    {
+      "claim_a": "finney-ch8-11.3",
+      "claim_b": "gc-soc-data-iot.1",
+      "edge_type": "supports",
+      "rationale": "The CASB+SASE/SDP+API security triad provides the enriched cloud visibility data that SIEM/SOAR consume, making the force multiplier effect possible.",
+      "source_file": "c72.json"
+    },
+    {
+      "claim_a": "go-ch6-8.5",
+      "claim_b": "gc-net-access.1",
+      "edge_type": "supports",
+      "rationale": "",
+      "source_file": "c73.json"
+    },
+    {
+      "claim_a": "go-ch6-8.5",
+      "claim_b": "gc-net-access.7",
+      "edge_type": "supports",
+      "rationale": "",
+      "source_file": "c73.json"
+    },
+    {
+      "claim_a": "gc-net-access.7",
+      "claim_b": "gc-net-access.1",
+      "edge_type": "extends",
+      "rationale": "",
+      "source_file": "c73.json"
+    },
+    {
+      "claim_a": "nist207-ch3.8",
+      "claim_b": "nist207-ch3.7",
+      "edge_type": "depends_on",
+      "rationale": "",
+      "source_file": "c73.json"
+    },
+    {
+      "claim_a": "nist207-ch3.8",
+      "claim_b": "nist207-ch2.5",
+      "edge_type": "depends_on",
+      "rationale": "",
+      "source_file": "c73.json"
+    },
+    {
+      "claim_a": "nist207-ch2.5",
+      "claim_b": "nist207-ch3.7",
+      "edge_type": "supports",
+      "rationale": "",
+      "source_file": "c73.json"
+    },
+    {
+      "claim_a": "nist207-ch2.5",
+      "claim_b": "gc-net-access.1",
+      "edge_type": "supports",
+      "rationale": "",
+      "source_file": "c73.json"
+    },
+    {
+      "claim_a": "nsa-network.5",
+      "claim_b": "nist207-ch3.7",
+      "edge_type": "extends",
+      "rationale": "",
+      "source_file": "c73.json"
+    },
+    {
+      "claim_a": "gc-cloud.3",
+      "claim_b": "nist207-ch3.7",
+      "edge_type": "extends",
+      "rationale": "",
+      "source_file": "c73.json"
+    },
+    {
+      "claim_a": "gc-cloud.3",
+      "claim_b": "nsa-network.5",
+      "edge_type": "extends",
+      "rationale": "",
+      "source_file": "c73.json"
+    },
+    {
+      "claim_a": "gc-ch1-3.14",
+      "claim_b": "gc-iam-policy.9",
+      "edge_type": "supports",
+      "rationale": "Both articulate the same Subject-Action-Target-Condition model; Claim gc-ch1-3.14 reinforces gc-iam-policy.9 with a concrete Billing department example, confirming the model as a universal template.",
+      "source_file": "c79.json"
+    },
+    {
+      "claim_a": "gc-iam-policy.10",
+      "claim_b": "gc-iam-policy.9",
+      "edge_type": "extends",
+      "rationale": "Tag-based targets are a dynamic, business-aligned implementation of the Target component in the four-component model, binding security enforcement to DevOps metadata rather than static identifiers.",
+      "source_file": "c79.json"
+    },
+    {
+      "claim_a": "gc-iam-policy.10",
+      "claim_b": "gb-ch4-6.3",
+      "edge_type": "extends",
+      "rationale": "Tags (department=Marketing, stage=test) are a concrete form of logical components \u2014 they replace network addressing with business/DevOps metadata that follows workloads automatically.",
+      "source_file": "c79.json"
+    },
+    {
+      "claim_a": "gb-ch4-6.3",
+      "claim_b": "gc-iam-policy.9",
+      "edge_type": "extends",
+      "rationale": "Specifying that policy components must be logical (not IP-addressed) extends the abstract four-component model with a critical implementation constraint: Subjects and Targets should be logical identities, not network artifacts.",
+      "source_file": "c79.json"
+    },
+    {
+      "claim_a": "gb-ch4-6.3",
+      "claim_b": "finney-ch1-3.8",
+      "edge_type": "supports",
+      "rationale": "Both reject network-centric policy; gb-ch4-6.3 provides the logical-components principle that finney-ch1-3.8's Kipling Method (Who instead of IP) operationalizes with business-context role groups.",
+      "source_file": "c79.json"
+    },
+    {
+      "claim_a": "go-ch6-8.9",
+      "claim_b": "gc-iam-policy.9",
+      "edge_type": "extends",
+      "rationale": "The policy decision matrix is a concrete planning artifact that operationalizes the abstract four-component model into per-cell source\u2192destination decisions with permit/deny, port/protocol, and directionality.",
+      "source_file": "c79.json"
+    },
+    {
+      "claim_a": "go-ch3-5.4",
+      "claim_b": "go-ch6-8.8",
+      "edge_type": "supports",
+      "rationale": "Discovery-before-enforcement and log-before-block are the bottom-up data collection practices that validate and inform the top-down business-aligned design, making the complementary approach actionable.",
+      "source_file": "c79.json"
+    },
+    {
+      "claim_a": "go-ch3-5.4",
+      "claim_b": "dod-ra-cap.7",
+      "edge_type": "supports",
+      "rationale": "Discovery-before-enforcement provides the traffic/identity data that feeds the dynamic adaptive policy feedback loop, enabling ZT policy to improve over time rather than remaining static.",
+      "source_file": "c79.json"
+    },
+    {
+      "claim_a": "dod-ra-cap.7",
+      "claim_b": "go-ch6-8.9",
+      "edge_type": "extends",
+      "rationale": "The four-layer orchestration hierarchy (Global SDE \u2192 CDO \u2192 Policy Controller \u2192 PEPs) distributes and enforces the policy decision matrix across enforcement points, resolving siloed conflicts.",
+      "source_file": "c79.json"
+    },
+    {
+      "claim_a": "dod-ra-cap.7",
+      "claim_b": "go-ch6-8.8",
+      "edge_type": "extends",
+      "rationale": "Centralized orchestration through a four-layer hierarchy operationalizes the complementary top-down/bottom-up approach \u2014 the hierarchy resolves the siloed conflicts that the complementary design addresses.",
+      "source_file": "c79.json"
+    },
+    {
+      "claim_a": "dos-against-pa-pep-unique-pathology",
+      "claim_b": "ddos-is-still-a-problem-zt-doesnt-mitigate",
+      "edge_type": "extends",
+      "rationale": "",
+      "source_file": "c82.json"
+    },
+    {
+      "claim_a": "monitoring-data-reconnaissance-target",
+      "claim_b": "pe-pa-compromise-highest-impact-threat",
+      "edge_type": "supports",
+      "rationale": "",
+      "source_file": "c82.json"
+    },
+    {
+      "claim_a": "social-engineering-and-physical-coercion-are-the-threats",
+      "claim_b": "stolen-credentials-zta-constrains-blast-radius",
+      "edge_type": "supports",
+      "rationale": "",
+      "source_file": "c82.json"
+    },
+    {
+      "claim_a": "npe-authentication-unresolved-risk",
+      "claim_b": "stolen-credentials-zta-constrains-blast-radius",
+      "edge_type": "extends",
+      "rationale": "",
+      "source_file": "c82.json"
+    },
+    {
+      "claim_a": "zt-cannot-defend-against-a-malicious-computing-platform",
+      "claim_b": "zts-threat-model-is-the-internet-threat-model",
+      "edge_type": "extends",
+      "rationale": "",
+      "source_file": "c82.json"
+    },
+    {
+      "claim_a": "dod-threat-model-different-from-civilian",
+      "claim_b": "zts-threat-model-is-the-internet-threat-model",
+      "edge_type": "extends",
+      "rationale": "",
+      "source_file": "c82.json"
+    },
+    {
+      "claim_a": "zt-threat-scenarios-illustrative",
+      "claim_b": "three-threat-frameworks-progression",
+      "edge_type": "supports",
+      "rationale": "",
+      "source_file": "c82.json"
+    },
+    {
+      "claim_a": "red-herrings-and-the-fog-of-war-the",
+      "claim_b": "deception-technologies-invert-zt-selectively-add-trust-back",
+      "edge_type": "supports",
+      "rationale": "",
+      "source_file": "c82.json"
+    },
+    {
+      "claim_a": "encrypted-traffic-visibility-gap",
+      "claim_b": "monitoring-data-reconnaissance-target",
+      "edge_type": "supports",
+      "rationale": "",
+      "source_file": "c82.json"
+    },
+    {
+      "claim_a": "trust-is-the-root-vulnerability-that-zero-trust",
+      "claim_b": "the-trust-engine-is-the-novel-contribution-of",
+      "edge_type": "supports",
+      "rationale": "The trust engine's risk scoring is the direct architectural response to trust being the fundamental vulnerability.",
+      "source_file": "c83.json"
+    },
+    {
+      "claim_a": "trust-is-the-root-vulnerability-that-zero-trust",
+      "claim_b": "variable-trust-scores-replace-binary-policy-with-continuous",
+      "edge_type": "supports",
+      "rationale": "Continuous trust scoring addresses the root vulnerability by replacing static binary policies with dynamic authorization.",
+      "source_file": "c83.json"
+    },
+    {
+      "claim_a": "trust-is-the-root-vulnerability-that-zero-trust",
+      "claim_b": "the-implicit-trust-zone-is-the-key-architectural",
+      "edge_type": "supports",
+      "rationale": "The implicit trust zone is where the trust-as-vulnerability problem manifests architecturally across deployment models.",
+      "source_file": "c83.json"
+    },
+    {
+      "claim_a": "trust-is-the-root-vulnerability-that-zero-trust",
+      "claim_b": "trust-delegation-via-trust-chains-is-what-makes",
+      "edge_type": "supports",
+      "rationale": "Trust chains are the mechanism to safely delegate trust at scale without recreating the root vulnerability.",
+      "source_file": "c83.json"
+    },
+    {
+      "claim_a": "trust-is-the-root-vulnerability-that-zero-trust",
+      "claim_b": "trust-score-should-drive-authentication-requirements-not-static",
+      "edge_type": "supports",
+      "rationale": "Because trust is the vulnerability, authentication must be dynamic and risk-driven rather than based on static sensitivity labels.",
+      "source_file": "c83.json"
+    },
+    {
+      "claim_a": "variable-trust-scores-replace-binary-policy-with-continuous",
+      "claim_b": "trust-score-should-drive-authentication-requirements-not-static",
+      "edge_type": "supports",
+      "rationale": "Variable trust scores are the mechanism that enables score-driven authentication requirements.",
+      "source_file": "c83.json"
+    },
+    {
+      "claim_a": "the-trust-engine-is-the-novel-contribution-of",
+      "claim_b": "variable-trust-scores-replace-binary-policy-with-continuous",
+      "edge_type": "supports",
+      "rationale": "The trust engine produces the variable trust scores that enable continuous, dynamic authorization.",
+      "source_file": "c83.json"
+    },
+    {
+      "claim_a": "the-trust-engine-is-the-novel-contribution-of",
+      "claim_b": "entities-should-be-scored-at-multiple-levels-network",
+      "edge_type": "supports",
+      "rationale": "The trust engine's risk scoring approach naturally requires multi-level scoring across network agent, device, and user.",
+      "source_file": "c83.json"
+    },
+    {
+      "claim_a": "the-trust-engine-is-the-novel-contribution-of",
+      "claim_b": "trust-algorithm-five-input-categories",
+      "edge_type": "extends",
+      "rationale": "The Trust Algorithm is the concrete specification of the trust engine's decision-making process.",
+      "source_file": "c83.json"
+    },
+    {
+      "claim_a": "trust-algorithm-five-input-categories",
+      "claim_b": "trust-algorithm-two-axes-criteria-contextual",
+      "edge_type": "extends",
+      "rationale": "The two-axis classification (criteria/score vs singular/contextual) adds dimensionality to the Trust Algorithm description.",
+      "source_file": "c83.json"
+    },
+    {
+      "claim_a": "variable-trust-scores-replace-binary-policy-with-continuous",
+      "claim_b": "entities-should-be-scored-at-multiple-levels-network",
+      "edge_type": "extends",
+      "rationale": "Multi-level entity scoring is a specific dimension of how variable trust scores are implemented.",
+      "source_file": "c83.json"
+    },
+    {
+      "claim_a": "host-integrity-rooted-titan-security-chip-creates",
+      "claim_b": "alts-application-layer-transport-security-workhorse-beyondprod",
+      "edge_type": "depends_on",
+      "rationale": "ALTS machine credentials are only decryptable by hosts that pass host integrity's verified boot, creating a hardware-rooted chain of trust.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "alts-application-layer-transport-security-workhorse-beyondprod",
+      "claim_b": "perimeter-security-breaks-down-microservices-because-services",
+      "edge_type": "supports",
+      "rationale": "ALTS is the concrete implementation of replacing network-location trust with service identity, validating BeyondProd's core thesis.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "end",
+      "claim_b": "alts-application-layer-transport-security-workhorse-beyondprod",
+      "edge_type": "extends",
+      "rationale": "End-User Context Tickets compose end-user identity on top of ALTS service identity to prevent lateral movement by compromised services.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "code-provenance-enforcement-binary-authorization-borg-closes",
+      "claim_b": "perimeter-security-breaks-down-microservices-because-services",
+      "edge_type": "supports",
+      "rationale": "Code provenance is one of the verifiable attributes BeyondProd uses to replace network-location trust in microservice environments.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "host-integrity-rooted-titan-security-chip-creates",
+      "claim_b": "code-provenance-enforcement-binary-authorization-borg-closes",
+      "edge_type": "supports",
+      "rationale": "Both form complementary layers of BeyondProd's chain of trust: hardware-rooted integrity at the machine level and code provenance at the software build level.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "beyondcorp-beyondprod-together-form-complete-zt-model",
+      "claim_b": "perimeter-security-breaks-down-microservices-because-services",
+      "edge_type": "extends",
+      "rationale": "Clarifies that BeyondProd (east-west) and BeyondCorp (north-south) together form the complete ZT model, not just microservice perimeter replacement.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "beyondcorp-google-implementation-zt-model-provides-architectural",
+      "claim_b": "beyondcorp-beyondprod-together-form-complete-zt-model",
+      "edge_type": "extends",
+      "rationale": "Positions BeyondCorp as the north-south half of Google's complete ZT model and the architectural foundation for all GCP ZT services.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "google-zt-architecture-maps-pdp-pep-model",
+      "claim_b": "beyondcorp-google-implementation-zt-model-provides-architectural",
+      "edge_type": "extends",
+      "rationale": "Provides the specific PDP/PEP architectural mapping (IAP, Access Context Manager, Cloud IAM) underlying BeyondCorp's ZT implementation.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "network",
+      "claim_b": "identity",
+      "edge_type": "extends",
+      "rationale": "Identity-tier policies provide five concrete advantages (environment agnosticism, automated testing, PaC, visibility, readability) that operationalize the identity-first paradigm network demands.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "deploying-identity",
+      "claim_b": "network",
+      "edge_type": "extends",
+      "rationale": "SPIFFE-based cryptographic service identities are the standardized infrastructure for implementing the identity-over-network paradigm in practice.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "perimeter-security-breaks-down-microservices-because-services",
+      "claim_b": "network",
+      "edge_type": "supports",
+      "rationale": "Both argue network-location trust fails for cloud-native; perimeter's microservice-specific analysis provides the concrete failure modes for network's general thesis.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "cloud",
+      "claim_b": "network",
+      "edge_type": "extends",
+      "rationale": "The service mesh provides the architectural enforcement mechanism \u2014 a 'cloud-native security kernel' \u2014 for operationalizing identity-over-network in cloud-native environments.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "multi",
+      "claim_b": "cloud",
+      "edge_type": "extends",
+      "rationale": "Multi-cluster deployments refine the single-cluster service mesh model by requiring a global control plane while avoiding single failure domains across clusters.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "multi-cloud-sdp-server-to-server",
+      "claim_b": "cloud",
+      "edge_type": "supports",
+      "rationale": "The SDP server-to-server model validates the service mesh approach by placing a PEP at each cloud-hosted service, consistent with sidecar proxy architecture.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "multi-cloud-sdp-server-to-server",
+      "claim_b": "multi",
+      "edge_type": "supports",
+      "rationale": "The SDP server-to-server model provides the architectural foundation for the multi-cluster, multi-cloud deployment patterns multi describes.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "segmentation-zt-primary-architectural-primitive",
+      "claim_b": "cloud",
+      "edge_type": "supports",
+      "rationale": "Segmentation as ZT's primary architectural primitive aligns with the service mesh acting as the enforcement point for identity-based microsegmentation.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "cloud-3",
+      "claim_b": "perimeter-security-breaks-down-microservices-because-services",
+      "edge_type": "supports",
+      "rationale": "Cloud-native architectures being 'inherently ZT-aligned' reinforces that perimeter security is the wrong model for these environments.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "devops-introduces-cloud-native-risks-kubernetes-containers-that-traditional",
+      "claim_b": "perimeter-security-breaks-down-microservices-because-services",
+      "edge_type": "supports",
+      "rationale": "DevOps/Kubernetes risks are a concrete manifestation of the perimeter security breakdown that BeyondProd addresses.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "devops-introduces-cloud-native-risks-kubernetes-containers-that-traditional",
+      "claim_b": "cloud",
+      "edge_type": "depends_on",
+      "rationale": "Securing Kubernetes and containers via ZT depends on the service mesh as the enforcement kernel for identity-based workload isolation.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "successful-enterprise-zta-requires-multi",
+      "claim_b": "identity",
+      "edge_type": "extends",
+      "rationale": "Refines identity-tier advantages by arguing network-tier remains necessary for compliance (PCI/DSS) and location-based risk, so both tiers must coexist.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "successful-enterprise-zta-requires-multi",
+      "claim_b": "network",
+      "edge_type": "extends",
+      "rationale": "Network-IP controls are insufficient alone but neither is identity alone \u2014 enterprise ZTA requires combining both tiers.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "automation-orchestration-optional",
+      "claim_b": "deploying-identity",
+      "edge_type": "depends_on",
+      "rationale": "Standardized identity infrastructure (SPIFFE) cannot be deployed at scale without automation and orchestration as ZT prerequisites.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "automation-orchestration-optional",
+      "claim_b": "multi",
+      "edge_type": "supports",
+      "rationale": "Multi-cluster global control planes across environments require automation to manage policies consistently at scale.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "zt-operationalized-three-principles-apply-differently-per",
+      "claim_b": "segmentation-zt-primary-architectural-primitive",
+      "edge_type": "extends",
+      "rationale": "Segmentation is one of the three ZT operational principles; this claim provides the overarching framework that contextualizes segmentation's role.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "zt-operationalized-three-principles-apply-differently-per",
+      "claim_b": "automation-orchestration-optional",
+      "edge_type": "supports",
+      "rationale": "Automation is the operational substrate that enables applying the three ZT principles consistently at scale across environments.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "cloud-5",
+      "claim_b": "zta-monitoring-framework-cover-resource-categories-enterprise",
+      "edge_type": "supports",
+      "rationale": "Google's cloud-native monitoring services (SCC, Chronicle, Cloud Logging) fulfill the comprehensive monitoring framework's coverage requirements.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "zta-monitoring-framework-cover-resource-categories-enterprise",
+      "claim_b": "cloud",
+      "edge_type": "supports",
+      "rationale": "Monitoring telemetry feeds back into the service mesh's access decisions and step-up authentication, closing the policy improvement loop.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "ncsc-principles-provide-practical-vendor",
+      "claim_b": "beyondcorp-google-implementation-zt-model-provides-architectural",
+      "edge_type": "supports",
+      "rationale": "NCSC's vendor-agnostic framework validates and complements Google's ZT implementation, showing it satisfies an independent operational standard.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "ncsc",
+      "claim_b": "ncsc-principles-provide-practical-vendor",
+      "edge_type": "extends",
+      "rationale": "The NCSC-to-GCP service mapping demonstrates concretely how the 8 principles translate to available cloud-native managed services.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "ncsc",
+      "claim_b": "beyondcorp-google-implementation-zt-model-provides-architectural",
+      "edge_type": "supports",
+      "rationale": "The NCSC-to-GCP mapping demonstrates that Google's ZT services comprehensively address a vendor-agnostic operational framework.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "google-zt-architecture-explicitly-supports-hybrid-environments",
+      "claim_b": "beyondcorp-google-implementation-zt-model-provides-architectural",
+      "edge_type": "extends",
+      "rationale": "Extends BeyondCorp's scope to on-premises applications via IAP connectors, showing ZT does not require cloud migration.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "service-identity-service-accounts-device-identity-verified",
+      "claim_b": "alts-application-layer-transport-security-workhorse-beyondprod",
+      "edge_type": "supports",
+      "rationale": "Service identity as a first-class identity type aligns with ALTS's approach of binding identities to services rather than hosts.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "service-identity-service-accounts-device-identity-verified",
+      "claim_b": "network",
+      "edge_type": "supports",
+      "rationale": "Demonstrates that identity primitives extend beyond user identity to services and devices, supporting the identity-over-network paradigm.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "end",
+      "claim_b": "service-identity-service-accounts-device-identity-verified",
+      "edge_type": "extends",
+      "rationale": "End-User Context Tickets demonstrate how first-class service identity is composed with end-user identity for fine-grained authorization decisions.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "beyondcorp-beyondprod-together-form-complete-zt-model",
+      "claim_b": "service-identity-service-accounts-device-identity-verified",
+      "edge_type": "supports",
+      "rationale": "The BeyondCorp/BeyondProd model makes service identity (BeyondProd side) and device identity first-class alongside user identity (BeyondCorp side).",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "cloud",
+      "claim_b": "service-identity-service-accounts-device-identity-verified",
+      "edge_type": "supports",
+      "rationale": "The service mesh as enforcement kernel operationalizes first-class service identity as the security primitive for east-west traffic.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "alts-application-layer-transport-security-workhorse-beyondprod",
+      "claim_b": "deploying-identity",
+      "edge_type": "supports",
+      "rationale": "ALTS is a concrete, production-proven implementation of SPIFFE-style cryptographic service identity infrastructure.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "code-provenance-enforcement-binary-authorization-borg-closes",
+      "claim_b": "deploying-identity",
+      "edge_type": "extends",
+      "rationale": "Binary Authorization extends identity infrastructure to include build chain verification, not just runtime service identity.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "host-integrity-rooted-titan-security-chip-creates",
+      "claim_b": "deploying-identity",
+      "edge_type": "extends",
+      "rationale": "Titan-anchored host integrity extends identity infrastructure to include hardware trust anchors beneath cryptographic service identities.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "iaaspaas-security-hasnt-kept-pace-with-iaaspaas-adoption",
+      "claim_b": "network",
+      "edge_type": "supports",
+      "rationale": "The lag in IaaS/PaaS security and their network/IP-centric models validates the argument that identity must replace network as the primary security primitive.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "iaaspaas-security-hasnt-kept-pace-with-iaaspaas-adoption",
+      "claim_b": "beyondcorp-google-implementation-zt-model-provides-architectural",
+      "edge_type": "contradicts",
+      "rationale": "iaaspaas claims CSP models are 'network/IP-centric' and 'definitely do not have the ability' to enforce ZT policies, while beyondcorp-google claims Google's is the 'most mature, battle-tested ZT implementation.'",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "the-cloud-is-not-one-protect-surface-its",
+      "claim_b": "cloud-3",
+      "edge_type": "extends",
+      "rationale": "Refines 'new security surfaces' to the specific finding that the project management process \u2014 with shadow IT and SaaS sprawl \u2014 is the real protect surface.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "zero-trust-does-fewer-things-for-saas-but",
+      "claim_b": "the-cloud-is-not-one-protect-surface-its",
+      "edge_type": "extends",
+      "rationale": "SaaS is one of the many protect surfaces identified; this claim details what ZT can practically achieve for SaaS applications.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "zero-trust-does-fewer-things-for-saas-but",
+      "claim_b": "successful-enterprise-zta-requires-multi",
+      "edge_type": "supports",
+      "rationale": "SaaS access controls combining source IP restrictions and federated identity exemplify the multi-tier approach of network-tier plus identity-tier.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "cloud-3",
+      "claim_b": "devops-introduces-cloud-native-risks-kubernetes-containers-that-traditional",
+      "edge_type": "extends",
+      "rationale": "cloud-3 highlights inherent ZT alignment of cloud-native while devops-risks focuses on the new attack surfaces \u2014 together they cover both the opportunity and the risk.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "ncsc-principles-provide-practical-vendor",
+      "claim_b": "zt-operationalized-three-principles-apply-differently-per",
+      "edge_type": "supports",
+      "rationale": "Both provide practical operational frameworks for ZT: NCSC's 8 principles are vendor-agnostic guidance complementing the three-principle operational model.",
+      "source_file": "merged-13.json"
+    },
+    {
+      "claim_a": "bsi-adopts-nist-pdp-pep-control-plane",
+      "claim_b": "bsi-first-national-agency-provide-detailed-guidance",
+      "edge_type": "extends",
+      "rationale": "The real-time signal integration guidance in bsi-zt.7 operationalizes the PDP/PEP architecture that bsi-zt.3 claims BSI adopts from NIST.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "bsi-integration-model-provides-german-maturity-framework",
+      "claim_b": "bsi-provides-only-government-framework-multi",
+      "edge_type": "supports",
+      "rationale": "The VS (classified information) integration in bsi-zt.4 implies multi-organizational scope across government and contractors, supporting bsi-zt.8's claim of a multi-organizational framework.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "bsi-provides-formal-three",
+      "claim_b": "bsi-adopts-nist-pdp-pep-control-plane",
+      "edge_type": "extends",
+      "rationale": "BSI's adoption of the NIST PDP/PEP/Control Plane model is the architectural elaboration of the formal definition that bsi-zt.2 claims extends NIST.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "bsi-provides-formal-three",
+      "claim_b": "bsi-first-national-agency-provide-detailed-guidance",
+      "edge_type": "depends_on",
+      "rationale": "The detailed real-time signal guidance in bsi-zt.7 presupposes the formal definition in bsi-zt.2 as its conceptual foundation.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "bsi-provides-formal-three",
+      "claim_b": "bsi-integration-model-provides-german-maturity-framework",
+      "edge_type": "extends",
+      "rationale": "The German maturity framework with VS integration in bsi-zt.4 is a concrete implementation artifact of the formal definition that bsi-zt.2 claims extends NIST.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "bsi-provides-formal-three",
+      "claim_b": "bsi-specifies-five-mandatory-prerequisites-before-zt",
+      "edge_type": "depends_on",
+      "rationale": "The five mandatory prerequisites in bsi-zt.5 logically presuppose the formal definition that bsi-zt.2 provides \u2014 you cannot define prerequisites without first defining what they are prerequisites for.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "bsi-provides-formal-three",
+      "claim_b": "nist-document-structure-framework",
+      "edge_type": "depends_on",
+      "rationale": "BSI's definition extending NIST presupposes the NIST document framework that nist207-ch1.8 identifies as essential.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "bsi-provides-formal-three",
+      "claim_b": "zt-positive-tenets",
+      "edge_type": "depends_on",
+      "rationale": "BSI's three-part definition explicitly derives from and extends NIST's tenet-based framework, so it logically presupposes nist207-ch2.1's positive-tenet definition.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "bsi-provides-only-government-framework-multi",
+      "claim_b": "bsi-plans-market-surveillance",
+      "edge_type": "extends",
+      "rationale": "The planned market surveillance and sector-specific guidance in bsi-zt.9 are concrete future extensions of the multi-organizational framework claimed in bsi-zt.8.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "bsi-seven-core-messages-frame-zt-preventive",
+      "claim_b": "bsi-provides-formal-three",
+      "edge_type": "supports",
+      "rationale": "The seven core messages framing ZT as preventive, holistic, and resource-intensive are the operational framing that flows from the formal definition in bsi-zt.2.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "bsi-seven-core-messages-frame-zt-preventive",
+      "claim_b": "bsi-provides-most-candid-government-assessment-zt",
+      "edge_type": "supports",
+      "rationale": "The characterization of ZT as long-term and resource-intensive in bsi-zt.1 is itself a candid acknowledgment of limitations that supports bsi-zt.6's claim of candor.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "bsi-seven-core-messages-frame-zt-preventive",
+      "claim_b": "bsi-specifies-five-mandatory-prerequisites-before-zt",
+      "edge_type": "extends",
+      "rationale": "The five mandatory prerequisites operationalize bsi-zt.1's framing of ZT as resource-intensive and long-term by specifying concrete requirements before implementation can begin.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "bsi-specifies-five-mandatory-prerequisites-before-zt",
+      "claim_b": "bsi-integration-model-provides-german-maturity-framework",
+      "edge_type": "supports",
+      "rationale": "The five mandatory prerequisites form part of the implementation roadmap that the maturity framework in bsi-zt.4 governs.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "challenges-realistic-underdeveloped",
+      "claim_b": "zt-defined-cisa-five",
+      "edge_type": "supports",
+      "rationale": "Acknowledging that challenges are realistic but underdeveloped is a candid assessment of the five-pillar model's current limitations.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "dod-zt-operational-not-architectural",
+      "claim_b": "zero-trust-is-a-philosophy-principles-and-a",
+      "edge_type": "supports",
+      "rationale": "DoD's operational focus is a concrete example of ZT as a journey rather than a single architecture, as claimed in gc-ch1-3.3.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "dod-zt-operational-not-architectural",
+      "claim_b": "zt-assume-breach",
+      "edge_type": "supports",
+      "rationale": "DoD's operational-not-architectural approach exemplifies the 'assume breach, not architecture' framing \u2014 both prioritize mindset and operations over architectural specifications.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "executive-sponsorship-strongest-predictor-zta-implementation-success",
+      "claim_b": "bsi-specifies-five-mandatory-prerequisites-before-zt",
+      "edge_type": "supports",
+      "rationale": "The finding that executive sponsorship is the strongest predictor (\u03b2=0.342) supports the necessity of BSI's five mandatory prerequisites, which likely include organizational commitment.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "executive-sponsorship-strongest-predictor-zta-implementation-success",
+      "claim_b": "modeled-zta-effectiveness-shows-very-large-effect",
+      "edge_type": "extends",
+      "rationale": "Executive sponsorship and phased deployment are the specific success factors that drive the large effect sizes reported in academic.1, drawn from the same synthetic study.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "kindervag-coined-zero-trust",
+      "claim_b": "nist-document-structure-framework",
+      "edge_type": "supports",
+      "rationale": "Crediting Kindervag's coinage of the term is an element of the historical grounding that nist207-ch1.8 identifies as part of the essential ZT framework.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "location-centric-to-identity-data-centric-shift",
+      "claim_b": "zt-assume-breach",
+      "edge_type": "supports",
+      "rationale": "Abandoning location-based trust is the architectural expression of the 'assume breach' mindset \u2014 if you assume breach, network location becomes irrelevant to trust.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "location-centric-to-identity-data-centric-shift",
+      "claim_b": "zt-defined-cisa-five",
+      "edge_type": "supports",
+      "rationale": "The location-to-identity shift is the conceptual transformation that the CISA five-pillar model is designed to operationalize.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "location-centric-to-identity-data-centric-shift",
+      "claim_b": "zt-positive-tenets",
+      "edge_type": "extends",
+      "rationale": "The shift from location-centric to identity/data-centric security is the specific architectural transformation implied by nist207-ch2.1's positive-tenet approach.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "modeled-zta-effectiveness-shows-very-large-effect",
+      "claim_b": "academic-quantitative-evidence-zt-effectiveness-entirely-synthetic",
+      "edge_type": "supports",
+      "rationale": "The 63-79% improvement figures from entirely synthetic models directly exemplify academic.6's claim that quantitative ZT evidence is synthetic rather than empirically measured.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "paper-provides-most-comprehensive-existing-mapping-iot",
+      "claim_b": "zta-cannot-scale-without-ai",
+      "edge_type": "supports",
+      "rationale": "Academic.4's finding that all IoT ZT solutions are at prototype stage reinforces academic.5's argument that AI-driven automation is necessary for production-scale ZTA.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "the-adversarial-view-reveals-that-zt-is-a",
+      "claim_b": "bsi-provides-most-candid-government-assessment-zt",
+      "edge_type": "supports",
+      "rationale": "The risk-reduction framing provides the conceptual vocabulary for the candid government assessment of ZT limitations that bsi-zt.6 attributes to BSI.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "the-adversarial-view-reveals-that-zt-is-a",
+      "claim_b": "modeled-zta-effectiveness-shows-very-large-effect",
+      "edge_type": "supports",
+      "rationale": "The risk-reduction framing contextualizes academic.1's 63-79% improvements \u2014 ZT reduces risk significantly but does not eliminate it, consistent with both claims.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "the-adversarial-view-reveals-that-zt-is-a",
+      "claim_b": "zero-trust-is-a-philosophy-principles-and-a",
+      "edge_type": "supports",
+      "rationale": "The characterization of ZT as risk reduction rather than elimination reinforces gc-ch1-3.3's claim that ZT is a journey rather than a one-and-done project.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "the-adversarial-view-reveals-that-zt-is-a",
+      "claim_b": "zt-assume-breach",
+      "edge_type": "supports",
+      "rationale": "The risk-reduction framing is a direct operational consequence of the 'assume breach' mindset \u2014 if breach is assumed, the goal shifts to reducing its impact rather than preventing it entirely.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "zero-trust-is-a-philosophy-principles-and-a",
+      "claim_b": "zt-positive-tenets",
+      "edge_type": "supports",
+      "rationale": "The characterization of ZT as a philosophy and journey rather than a product aligns with NIST's technology-agnostic positive-tenet approach.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "zt-assume-breach",
+      "claim_b": "zero-trust-is-a-philosophy-principles-and-a",
+      "edge_type": "supports",
+      "rationale": "NSA's 'assume breach' framing exemplifies the philosophy-first approach that gc-ch1-3.3 advocates \u2014 both reject product-centric definitions in favor of principles.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "zt-assume-breach",
+      "claim_b": "zt-positive-tenets",
+      "edge_type": "supports",
+      "rationale": "The 'assume breach' mindset is the foundational threat posture that motivates and gives urgency to the positive-tenet architecture.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "zt-defined-cisa-five",
+      "claim_b": "cisa-pillar-described-traditional-advanced-optimal-maturity",
+      "edge_type": "extends",
+      "rationale": "The Traditional/Advanced/Optimal maturity gradient in cccs-model.2 is the mechanism by which the CISA five-pillar model in cccs-model.1 is operationalized.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "zt-defined-cisa-five",
+      "claim_b": "four-concrete-starting-points-actionable-abstract-principles",
+      "edge_type": "extends",
+      "rationale": "The four concrete starting points in cccs-model.5 are actionable implementation guidance that builds on the five-pillar framework defined in cccs-model.1.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "zt-defined-cisa-five",
+      "claim_b": "zt-positive-tenets",
+      "edge_type": "extends",
+      "rationale": "The CISA five-pillar model is an alternative operationalization of the core ZT concepts that nist207-ch2.1 defines through positive tenets.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "zt-positive-tenets",
+      "claim_b": "nist-document-structure-framework",
+      "edge_type": "supports",
+      "rationale": "The seven positive tenets are the core content delivered by the document structure that nist207-ch1.8 claims is the essential ZT framework.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "zt-predates-term-disa-jericho",
+      "claim_b": "kindervag-coined-zero-trust",
+      "edge_type": "supports",
+      "rationale": "The DISA black core and Jericho Forum predecessors establish the intellectual lineage and conceptual need that Kindervag's coinage of the term fulfilled.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "zt-predates-term-disa-jericho",
+      "claim_b": "nist-document-structure-framework",
+      "edge_type": "supports",
+      "rationale": "Including the intellectual lineage of ZT predecessors is part of the comprehensive framework that nist207-ch1.8 claims the document's structure represents.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "zt-provides-six-benefits-organized-around-visibility",
+      "claim_b": "zt-defined-cisa-five",
+      "edge_type": "supports",
+      "rationale": "The six benefits organized around visibility, protection, and modernization justify the adoption of the CISA five-pillar model as claimed in cccs-model.1.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "zt-research-entered-rapid-growth-phase-145",
+      "claim_b": "paper-provides-most-comprehensive-existing-mapping-iot",
+      "edge_type": "supports",
+      "rationale": "IoT being a dominant ZT research domain explains the significance and timeliness of the comprehensive IoT-to-ZT mapping claimed in academic.4.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "zta-cannot-scale-without-ai",
+      "claim_b": "modeled-zta-effectiveness-shows-very-large-effect",
+      "edge_type": "extends",
+      "rationale": "Academic.5's claim that AI is necessary for ZTA scaling is an implementation precondition for achieving the modeled effectiveness gains reported in academic.1.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "ztmm-nist-800-207-definition-foundation",
+      "claim_b": "location-centric-to-identity-data-centric-shift",
+      "edge_type": "supports",
+      "rationale": "The NIST definition of minimizing uncertainty rather than trusting location provides the conceptual basis for the location-to-identity shift described in cisa-ztmm-ov.4.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "ztmm-nist-800-207-definition-foundation",
+      "claim_b": "nist-document-structure-framework",
+      "edge_type": "depends_on",
+      "rationale": "The ZTMM's foundation on NIST SP 800-207's definition presupposes the essential framework that nist207-ch1.8 identifies.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "ztmm-nist-800-207-definition-foundation",
+      "claim_b": "zt-positive-tenets",
+      "edge_type": "depends_on",
+      "rationale": "CISA's ZTMM explicitly builds on NIST SP 800-207, whose operative definition is grounded in the positive tenet framework of nist207-ch2.1.",
+      "source_file": "merged-17.json"
+    },
+    {
+      "claim_a": "access-mgmt-abac-least-privilege",
+      "claim_b": "identity-mgmt-attribute-authority",
+      "edge_type": "depends_on",
+      "rationale": "ABAC fundamentally depends on authoritative identity attributes for policy decisions.",
+      "source_file": "merged-25.json"
+    },
+    {
+      "claim_a": "access-management-permanent-to-jit-jea",
+      "claim_b": "identity-mgmt-attribute-authority",
+      "edge_type": "depends_on",
+      "rationale": "JIT/JEA requires rich identity attributes to make fine-grained, automated access decisions.",
+      "source_file": "merged-25.json"
+    },
+    {
+      "claim_a": "the-strongest-user-authentication-binds-identity-to-hardware",
+      "claim_b": "private-pki-is-the-non-negotiable-bedrock-of-zt",
+      "edge_type": "depends_on",
+      "rationale": "Hardware-bound authentication at scale requires PKI as the underlying certificate infrastructure.",
+      "source_file": "merged-25.json"
+    },
+    {
+      "claim_a": "identity-stores-integrated-not-just-federated",
+      "claim_b": "identity-federation-hard-problem",
+      "edge_type": "depends_on",
+      "rationale": "Integration across environments cannot happen without first solving the federation challenge.",
+      "source_file": "merged-25.json"
+    },
+    {
+      "claim_a": "trust-assessment-is-multi-layered-identity-posture-and-behavior",
+      "claim_b": "identity-mgmt-attribute-authority",
+      "edge_type": "depends_on",
+      "rationale": "Multi-layered trust assessment needs authoritative identity attributes to evaluate the identity layer.",
+      "source_file": "merged-25.json"
+    },
+    {
+      "claim_a": "credential-mgmt-phishing-resistance",
+      "claim_b": "authentication-keystone-identity-function",
+      "edge_type": "supports",
+      "rationale": "Phishing-resistant credential management directly strengthens the authentication keystone against the largest capability gap.",
+      "source_file": "merged-25.json"
+    },
+    {
+      "claim_a": "device-data-contextualizes-and-strengthens-user-authentication",
+      "claim_b": "identity-must-be-contextual-who-what-device-where",
+      "edge_type": "supports",
+      "rationale": "Device data is the 'WHAT device' dimension of contextual identity, and anomalous pairings lower trust scores.",
+      "source_file": "merged-25.json"
+    },
+    {
+      "claim_a": "trust-assessment-is-multi-layered-identity-posture-and-behavior",
+      "claim_b": "identity-must-be-contextual-who-what-device-where",
+      "edge_type": "supports",
+      "rationale": "Multi-layered trust assessment (identity + posture + behavior) operationalizes contextual identity decisions.",
+      "source_file": "merged-25.json"
+    },
+    {
+      "claim_a": "identity-theft-is-the-first-and-most-dangerous",
+      "claim_b": "the-strongest-user-authentication-binds-identity-to-hardware",
+      "edge_type": "supports",
+      "rationale": "ZT requiring two stolen identities (user + device) justifies why hardware-bound authentication is essential \u2014 credential theft alone is insufficient.",
+      "source_file": "merged-25.json"
+    },
+    {
+      "claim_a": "private-pki-is-the-non-negotiable-bedrock-of-zt",
+      "claim_b": "the-strongest-user-authentication-binds-identity-to-hardware",
+      "edge_type": "supports",
+      "rationale": "Private PKI provides the certificate infrastructure that makes hardware-bound authentication viable at enterprise scale.",
+      "source_file": "merged-25.json"
+    },
+    {
+      "claim_a": "identity-is-simultaneously-the-most-important-protect-surface",
+      "claim_b": "identity-is-the-keystone-of-zero-trust-but",
+      "edge_type": "supports",
+      "rationale": "The dual-role argument (protect surface + enabler) reinforces identity's keystone position in ZT architecture.",
+      "source_file": "merged-25.json"
+    },
+    {
+      "claim_a": "identity-mgmt-attribute-authority",
+      "claim_b": "identity-must-be-contextual-who-what-device-where",
+      "edge_type": "supports",
+      "rationale": "Attribute authority is the prerequisite that enables contextual identity decisions across all dimensions (who, what, where, how, when).",
+      "source_file": "merged-25.json"
+    },
+    {
+      "claim_a": "cisa-four-maturity-stages",
+      "claim_b": "authentication-keystone-identity-function",
+      "edge_type": "supports",
+      "rationale": "The four maturity stages (Traditional through Optimal) provide the framework for understanding the authentication capability gap.",
+      "source_file": "merged-25.json"
+    },
+    {
+      "claim_a": "risk-assessment-static-to-continuous",
+      "claim_b": "continuous-authentication-common-all-pillars",
+      "edge_type": "supports",
+      "rationale": "Continuous risk assessment feeds real-time identity risk data into the continuous authentication pipeline across all pillars.",
+      "source_file": "merged-25.json"
+    },
+    {
+      "claim_a": "access-management-permanent-to-jit-jea",
+      "claim_b": "access-mgmt-abac-least-privilege",
+      "edge_type": "extends",
+      "rationale": "Adds CISA's detailed maturity progression (permanent \u2192 expiring \u2192 session-based \u2192 JIT/JEA) to NSA's mechanism list (ABAC, JIT/JEA, PAM).",
+      "source_file": "merged-25.json"
+    },
+    {
+      "claim_a": "continuous-authentication-common-all-pillars",
+      "claim_b": "authentication-keystone-identity-function",
+      "edge_type": "extends",
+      "rationale": "Extends the authentication keystone from an identity-pillar function to a cross-cutting requirement common to all ZT pillars.",
+      "source_file": "merged-25.json"
+    },
+    {
+      "claim_a": "identity-stores-integrated-not-just-federated",
+      "claim_b": "identity-federation-hard-problem",
+      "edge_type": "extends",
+      "rationale": "Extends beyond federation to secure integration \u2014 the architectural undertaking that federation alone cannot achieve.",
+      "source_file": "merged-25.json"
+    },
+    {
+      "claim_a": "risk-assessment-static-to-continuous",
+      "claim_b": "trust-assessment-is-multi-layered-identity-posture-and-behavior",
+      "edge_type": "extends",
+      "rationale": "Adds the structural shift from static periodic assessment to real-time continuous feed, distinguishing CISA's approach from NSA's.",
+      "source_file": "merged-25.json"
+    },
+    {
+      "claim_a": "cisa-four-maturity-stages",
+      "claim_b": "access-management-permanent-to-jit-jea",
+      "edge_type": "extends",
+      "rationale": "Provides the general four-stage maturity framework (Traditional\u2192Optimal) that the access management progression specifically instantiates.",
+      "source_file": "merged-25.json"
+    },
+    {
+      "claim_a": "pam-provides-valuable-functions-secrets-management-session-recording",
+      "claim_b": "access-mgmt-abac-least-privilege",
+      "edge_type": "extends",
+      "rationale": "Qualifies PAM's role in ZT: valuable functions persist but PAM is identity-aware rather than identity-centric, and password vaulting is premised on the non-ZT model.",
+      "source_file": "merged-25.json"
+    },
+    {
+      "claim_a": "credential-mgmt-phishing-resistance",
+      "claim_b": "the-strongest-user-authentication-binds-identity-to-hardware",
+      "edge_type": "extends",
+      "rationale": "Phishing resistance (MFA\u2192AAL3 scale) extends hardware binding by defining the credential management progression that hardware tokens anchor.",
+      "source_file": "merged-25.json"
+    },
+    {
+      "claim_a": "risk-assessment-static-to-continuous",
+      "claim_b": "access-mgmt-abac-least-privilege",
+      "edge_type": "extends",
+      "rationale": "Contrasts CISA's treatment of risk as a first-class function with NSA's treatment of risk as a property of access management (the framing of this claim).",
+      "source_file": "merged-25.json"
+    },
+    {
+      "claim_a": "cross-enterprise-federated-identity-peps",
+      "claim_b": "identity-federation-hard-problem",
+      "edge_type": "supports",
+      "rationale": "The federated approach's linear scaling property (vs O(n\u00b2) alternatives) validates that federation is worth solving despite being a hard problem.",
+      "source_file": "merged-25.json"
+    },
+    {
+      "claim_a": "the-future-of-zt-saas-is-identity-providers",
+      "claim_b": "identity-is-the-keystone-of-zero-trust-but",
+      "edge_type": "extends",
+      "rationale": "Extends identity's keystone role into the SaaS future \u2014 IdPs evolving from authentication points to authorization centers.",
+      "source_file": "merged-25.json"
+    },
+    {
+      "claim_a": "zta-expansion-iterative-cycle-step7",
+      "claim_b": "zta-migration-incremental-recurring-cycle",
+      "edge_type": "extends",
+      "rationale": "Step 7 is the specific mechanism that operationalizes the recurring cycle, making it concrete: iterate per business process and react to workflow changes.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "analytics-closes-the-loop-the-zt-journey-is",
+      "claim_b": "zta-migration-incremental-recurring-cycle",
+      "edge_type": "extends",
+      "rationale": "Analytics provides the feedback data (telemetry, baselines, deviation alerts) that turns the cycle from a linear sequence into a genuinely closed loop.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "analytics-closes-the-loop-the-zt-journey-is",
+      "claim_b": "zta-expansion-iterative-cycle-step7",
+      "edge_type": "supports",
+      "rationale": "Analytics supplies the monitoring and behavioral-baseline data that enables the lower-tempo policy refinement called for in Step 7.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "hybrid-model-indefinite-reality",
+      "claim_b": "zta-migration-incremental-recurring-cycle",
+      "edge_type": "extends",
+      "rationale": "The hybrid model is the reason the cycle is indefinite \u2014 you never finish because ZT and perimeter workflows coexist permanently.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "dual-mode-infrastructure-indefinite-hybrid",
+      "claim_b": "hybrid-model-indefinite-reality",
+      "edge_type": "extends",
+      "rationale": "Dual-mode infrastructure (ID mgmt, device mgmt, logging) is the concrete set of requirements that the indefinite hybrid imposes on common systems.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "dual-mode-infrastructure-indefinite-hybrid",
+      "claim_b": "hybrid-model-indefinite-reality",
+      "edge_type": "depends_on",
+      "rationale": "Dual-mode requirements only exist because the hybrid model is indefinite \u2014 without indefinite coexistence, infrastructure wouldn't need to serve both modes.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "greenfield-zta-rarely-viable",
+      "claim_b": "hybrid-model-indefinite-reality",
+      "edge_type": "supports",
+      "rationale": "Since pure greenfield is rarely viable, the hybrid model is not a temporary concession but the expected and necessary migration path.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "zt-evolution-existing-capabilities-incremental",
+      "claim_b": "greenfield-zta-rarely-viable",
+      "edge_type": "supports",
+      "rationale": "Both claims converge on the same strategic conclusion: organizations should not expect or pursue greenfield, instead evolving what they already have.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "legacy-implicit-trust-primary-obstacle",
+      "claim_b": "greenfield-zta-rarely-viable",
+      "edge_type": "supports",
+      "rationale": "The prevalence of legacy implicit-trust systems is the structural reason greenfield is rarely viable for existing organizations.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "brownfield-environments-require-34-the-timeline-of-greenfield",
+      "claim_b": "the-biggest-mistake-in-zt-implementation-is-rushing",
+      "edge_type": "supports",
+      "rationale": "Brownfield's 3\u20134\u00d7 timeline (due to recursive device re-profiling) provides the quantitative justification for not rushing past monitor mode.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "brownfield-environments-require-34-the-timeline-of-greenfield",
+      "claim_b": "greenfield-zta-rarely-viable",
+      "edge_type": "supports",
+      "rationale": "The steep brownfield cost reinforces why greenfield would be preferable, but since greenfield is rarely viable, brownfield reality must be planned for.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "foundational-inventory-before-migration",
+      "claim_b": "incomplete-knowledge-chicken-egg-barrier",
+      "edge_type": "supports",
+      "rationale": "The foundational inventory prerequisite is presented as the solution to the chicken-and-egg barrier \u2014 you must build inventories despite not yet having migrated.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "identify-all-subjects-step1-migration",
+      "claim_b": "foundational-inventory-before-migration",
+      "edge_type": "extends",
+      "rationale": "Step 1 (identify all subjects) operationalizes the actor-inventory portion of the foundational prerequisite.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "identify-catalog-assets-step2-migration",
+      "claim_b": "foundational-inventory-before-migration",
+      "edge_type": "extends",
+      "rationale": "Step 2 (catalog all assets) operationalizes the asset-inventory portion of the foundational prerequisite.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "identify-catalog-assets-step2-migration",
+      "claim_b": "identify-all-subjects-step1-migration",
+      "edge_type": "depends_on",
+      "rationale": "Step 2 follows Step 1 in the NIST 7-step cycle \u2014 asset cataloging builds on the subject identification that precedes it.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "business-process-selection-step3-migration",
+      "claim_b": "identify-catalog-assets-step2-migration",
+      "edge_type": "depends_on",
+      "rationale": "You cannot select which business process to migrate first (Step 3) until you have catalogued the assets and subjects involved (Steps 1\u20132).",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "policy-formulation-step4-migration",
+      "claim_b": "business-process-selection-step3-migration",
+      "edge_type": "depends_on",
+      "rationale": "Policy formulation (Step 4) requires a specific candidate business process to be selected first (Step 3) so that asset value, risk, and upstream/downstream resources can be evaluated.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "candidate-solution-selection-step5-migration",
+      "claim_b": "policy-formulation-step4-migration",
+      "edge_type": "depends_on",
+      "rationale": "Choosing a ZT solution (Step 5) depends on the access criteria and trust-evaluation approach (criteria-based vs. score-based) decided during policy formulation (Step 4).",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "reporting-only-mode-step6-migration",
+      "claim_b": "candidate-solution-selection-step5-migration",
+      "edge_type": "depends_on",
+      "rationale": "You cannot deploy in reporting-only mode (Step 6) until a candidate solution has been selected (Step 5).",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "reporting-only-mode-step6-migration",
+      "claim_b": "log-then-enforce-is-the-migration-procedure-validated-by-two",
+      "edge_type": "extends",
+      "rationale": "Reporting-only mode is the NIST 7-step framing of the log phase in the log-then-enforce pattern independently validated by Google and PagerDuty.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "the-biggest-mistake-in-zt-implementation-is-rushing",
+      "claim_b": "reporting-only-mode-step6-migration",
+      "edge_type": "extends",
+      "rationale": "Rushing past monitor mode is the specific mistake that undermines the reporting-only deployment step, skipping the essential data-collection baseline.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "log-then-enforce-is-the-migration-procedure-validated-by-two",
+      "claim_b": "the-biggest-mistake-in-zt-implementation-is-rushing",
+      "edge_type": "supports",
+      "rationale": "The log-then-enforce pattern, validated by two independent case studies, provides the empirical evidence for why rushing past monitor mode is the biggest mistake.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "legacy-implicit-trust-primary-obstacle",
+      "claim_b": "zero-trust-proxies-are-the-bridge-between-zt",
+      "edge_type": "supports",
+      "rationale": "Legacy implicit-trust systems create the interoperability gap that ZT proxies (forward and reverse) are designed to bridge.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "zero-trust-proxies-are-the-bridge-between-zt",
+      "claim_b": "dual-mode-infrastructure-indefinite-hybrid",
+      "edge_type": "extends",
+      "rationale": "ZT proxies are one concrete mechanism that enables dual-mode infrastructure, allowing non-ZT-aware legacy components to coexist with ZT services during the indefinite hybrid period.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "zt-organizational-commitment",
+      "claim_b": "common-roadblocks-iam-immaturity-political-resistance-regulatory-constraints",
+      "edge_type": "supports",
+      "rationale": "The NSA's identification of organizational commitment as the primary challenge explains why roadblocks like political resistance and IAM immaturity persist and are surmountable only with buy-in.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "zt-success-requires-deliberately-blending-top-down-strategic-vision",
+      "claim_b": "zt-organizational-commitment",
+      "edge_type": "extends",
+      "rationale": "Blending top-down strategic vision with bottom-up tactical execution is the practical method for building the enterprise-wide organizational commitment that the NSA identifies as critical.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "zt-success-requires-deliberately-blending-top-down-strategic-vision",
+      "claim_b": "phased-zt-adoption-vpn-replacement-role-based-access-branch",
+      "edge_type": "supports",
+      "rationale": "The 3-phase VPN\u2192RBAC\u2192branch-removal case study exemplifies blended execution: top-down vision (ZT architecture) paired with bottom-up tactical steps (VPN replacement for 1,000 users).",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "common-roadblocks-iam-immaturity-political-resistance-regulatory-constraints",
+      "claim_b": "incomplete-knowledge-chicken-egg-barrier",
+      "edge_type": "extends",
+      "rationale": "Incomplete enterprise knowledge is one of the documented, predictable roadblocks \u2014 specifically the resource-visibility-gap and analysis-paralysis categories.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "phased-zt-adoption-vpn-replacement-role-based-access-branch",
+      "claim_b": "zta-migration-incremental-recurring-cycle",
+      "edge_type": "extends",
+      "rationale": "The 3-phase adoption path (VPN replacement \u2192 RBAC \u2192 branch removal) is a concrete, real-world case study that instantiates the incremental recurring cycle.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "phased-zt-adoption-vpn-replacement-role-based-access-branch",
+      "claim_b": "business-process-selection-step3-migration",
+      "edge_type": "supports",
+      "rationale": "Starting with VPN replacement for 1,000 users is a low-risk cloud/remote-worker workflow \u2014 exactly the starting point NIST's Step 3 recommends.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "configuration-management-is-a-legitimate-stepping-stone-to",
+      "claim_b": "zt-evolution-existing-capabilities-incremental",
+      "edge_type": "extends",
+      "rationale": "Using existing Chef deployment to generate per-host iptables microsegmentation is a concrete example of ZT as an evolution of existing capabilities, not a greenfield rip-and-replace.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "the-five-pillar-methodology-for-segmentation-operationalizes-zt-by",
+      "claim_b": "policy-formulation-step4-migration",
+      "edge_type": "extends",
+      "rationale": "The five-pillar segmentation methodology (VLAN\u2192Firewall\u2192dACLs\u2192TrustSec) operationalizes the policy-formulation step by providing a concrete enforcement hierarchy for identity-driven access decisions.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "the-five-pillar-methodology-for-segmentation-operationalizes-zt-by",
+      "claim_b": "configuration-management-is-a-legitimate-stepping-stone-to",
+      "edge_type": "supports",
+      "rationale": "Both advocate iterative refinement starting from existing infrastructure \u2014 segmentation starts with 5\u20137 broad enclaves, just as config management leverages already-deployed tools.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "client-to-server-and-server-to-server-migrations-are-different-problems-with",
+      "claim_b": "business-process-selection-step3-migration",
+      "edge_type": "extends",
+      "rationale": "The C2S/S2S distinction refines Step 3 by clarifying that the 'low-risk' starting-point recommendation favors client-to-server for most organizations, while server-to-server requires DevOps maturity.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "client-to-server-and-server-to-server-migrations-are-different-problems-with",
+      "claim_b": "candidate-solution-selection-step5-migration",
+      "edge_type": "supports",
+      "rationale": "Different migration starting points imply different solution criteria \u2014 a C2S migration evaluates client footprint and BYOD, while S2S migration prioritizes east-west traffic patterns.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "analytics-closes-the-loop-the-zt-journey-is",
+      "claim_b": "reporting-only-mode-step6-migration",
+      "edge_type": "supports",
+      "rationale": "The monitoring data collected during reporting-only mode (traffic patterns, access baselines, behavioral norms) is the raw material that analytics consumes to close the loop.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "business-process-selection-step3-migration",
+      "claim_b": "hybrid-model-indefinite-reality",
+      "edge_type": "supports",
+      "rationale": "Migrating one business process at a time (Step 3) is the mechanism that makes indefinite ZT/perimeter coexistence operationally feasible.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "zta-expansion-iterative-cycle-step7",
+      "claim_b": "policy-formulation-step4-migration",
+      "edge_type": "depends_on",
+      "rationale": "Expanding ZTA to additional business processes (Step 7) requires policy to be formulated for each new candidate, making Step 4 a recurring dependency of Step 7.",
+      "source_file": "merged-31.json"
+    },
+    {
+      "claim_a": "centralized-device-management-enforcement-backbone",
+      "claim_b": "seven-device-capabilities-interdependent",
+      "edge_type": "supports",
+      "rationale": "UEM/MDM is explicitly described as 'the enforcement backbone for all other capabilities' \u2014 it operationalizes the seven-capability framework.",
+      "source_file": "merged-45.json"
+    },
+    {
+      "claim_a": "device-inventory-deny-by-default",
+      "claim_b": "centralized-device-management-enforcement-backbone",
+      "edge_type": "depends_on",
+      "rationale": "Real-time deny-by-default enrollment requires centralized management to enforce enrollment decisions and maintain the authoritative device registry.",
+      "source_file": "merged-45.json"
+    },
+    {
+      "claim_a": "continuous-risk-based-device-authorization",
+      "claim_b": "device-inventory-deny-by-default",
+      "edge_type": "depends_on",
+      "rationale": "Risk-based authorization cannot function without knowing what devices exist \u2014 inventory is the foundational input.",
+      "source_file": "merged-45.json"
+    },
+    {
+      "claim_a": "continuous-risk-based-device-authorization",
+      "claim_b": "device-policy-enforcement-compliance-monitoring",
+      "edge_type": "depends_on",
+      "rationale": "Compliance status and policy enforcement data are essential inputs to the risk calculation engine for authorization decisions.",
+      "source_file": "merged-45.json"
+    },
+    {
+      "claim_a": "device-hygiene-event-condition-automation",
+      "claim_b": "continuous-risk-based-device-authorization",
+      "edge_type": "supports",
+      "rationale": "Event-Condition-Action automation provides the continuous posture-checking mechanism that feeds real-time risk signals into authorization.",
+      "source_file": "merged-45.json"
+    },
+    {
+      "claim_a": "device-identity-requires-binding-software-credentials-to-hardware",
+      "claim_b": "continuous-risk-based-device-authorization",
+      "edge_type": "supports",
+      "rationale": "Hardware-bound identity (TPM/HSM) provides stronger, tamper-resistant signals for risk calculations than software-only credentials.",
+      "source_file": "merged-45.json"
+    },
+    {
+      "claim_a": "trust-degrades-over-time-device-age-is-the",
+      "claim_b": "continuous-risk-based-device-authorization",
+      "edge_type": "supports",
+      "rationale": "Trust degradation over time is a specific risk factor that continuous authorization must account for \u2014 device age is framed as the strongest negative signal.",
+      "source_file": "merged-45.json"
+    },
+    {
+      "claim_a": "device-cross-pillar-dependencies",
+      "claim_b": "continuous-risk-based-device-authorization",
+      "edge_type": "supports",
+      "rationale": "Cross-pillar dependencies mean device authorization inherently requires identity and network inputs, reinforcing the need for multi-signal risk assessment.",
+      "source_file": "merged-45.json"
+    },
+    {
+      "claim_a": "edr-xdr-device-network-bridge",
+      "claim_b": "device-threat-protection-centralized",
+      "edge_type": "supports",
+      "rationale": "The EDR\u2192XDR progression is the specific technical mechanism that enables centralized, unified threat protection across all devices.",
+      "source_file": "merged-45.json"
+    },
+    {
+      "claim_a": "device-threat-protection-centralized",
+      "claim_b": "device-policy-enforcement-compliance-monitoring",
+      "edge_type": "supports",
+      "rationale": "Evidence states threat protection is 'integrated with policy enforcement and compliance monitoring' \u2014 centralized threat data feeds compliance visibility.",
+      "source_file": "merged-45.json"
+    },
+    {
+      "claim_a": "beyondcorp-proved-that-device-trust-can-replace-network-trust-at",
+      "claim_b": "seven-device-capabilities-interdependent",
+      "edge_type": "supports",
+      "rationale": "BeyondCorp at Google was the large-scale proof that the seven-capability model (inventory, certificates, SSO, access proxy) works in production.",
+      "source_file": "merged-45.json"
+    },
+    {
+      "claim_a": "device-identity-requires-binding-software-credentials-to-hardware",
+      "claim_b": "beyondcorp-proved-that-device-trust-can-replace-network-trust-at",
+      "edge_type": "supports",
+      "rationale": "BeyondCorp used TPM-stored corporate-issued certificates as the root of trust \u2014 a direct implementation of hardware-bound device identity.",
+      "source_file": "merged-45.json"
+    },
+    {
+      "claim_a": "distributed-enforcement-applying-policies-as-close-to-the",
+      "claim_b": "device-resource-access-context",
+      "edge_type": "supports",
+      "rationale": "Distributed enforcement across four layers (intra-VLAN through host-level) is a concrete implementation of device-aware resource access decisions.",
+      "source_file": "merged-45.json"
+    },
+    {
+      "claim_a": "device-resource-access-context",
+      "claim_b": "continuous-risk-based-device-authorization",
+      "edge_type": "depends_on",
+      "rationale": "Resource access decisions that consider real-time device risk analytics require a continuous risk-based authorization engine.",
+      "source_file": "merged-45.json"
+    },
+    {
+      "claim_a": "remote-access-hostile-environment-assumption",
+      "claim_b": "continuous-risk-based-device-authorization",
+      "edge_type": "extends",
+      "rationale": "Heightened scrutiny for hostile remote environments is a specific intensification of continuous risk-based authorization \u2014 same flow, stricter thresholds.",
+      "source_file": "merged-45.json"
+    },
+    {
+      "claim_a": "firmware-level-patch-management",
+      "claim_b": "vulnerability-management-must-extend-beyond-cves-to-include",
+      "edge_type": "extends",
+      "rationale": "Both expand vulnerability management beyond traditional CVE scanning: firmware goes deeper below the OS layer, behavioral baselines go broader across communication patterns.",
+      "source_file": "merged-45.json"
+    },
+    {
+      "claim_a": "asset-supply-chain-risk-management",
+      "claim_b": "device-inventory-deny-by-default",
+      "edge_type": "extends",
+      "rationale": "Supply chain risk management extends device inventory to include vendor/service provider assets and their associated risks \u2014 inventory is the foundation, supply chain adds the vendor dimension.",
+      "source_file": "merged-45.json"
+    },
+    {
+      "claim_a": "vendor-contracts-and-third-party-risk-management-are-your",
+      "claim_b": "asset-supply-chain-risk-management",
+      "edge_type": "supports",
+      "rationale": "Contract provisions and third-party risk management are the primary operational mechanism for implementing supply chain risk controls.",
+      "source_file": "merged-45.json"
+    },
+    {
+      "claim_a": "third-party-integrators-and-multi-vendor-responsibility-gaps-create-systemic",
+      "claim_b": "asset-supply-chain-risk-management",
+      "edge_type": "supports",
+      "rationale": "The systemic vulnerability created by integrator gaps is the specific threat that supply chain risk management must address \u2014 it provides the problem statement.",
+      "source_file": "merged-45.json"
+    },
+    {
+      "claim_a": "device-cross-cutting-capabilities-summary",
+      "claim_b": "device-hygiene-event-condition-automation",
+      "edge_type": "supports",
+      "rationale": "Visibility & Analytics and Automation & Orchestration (the cross-cutting capabilities) are the enablers that make ECA automation technically feasible.",
+      "source_file": "merged-45.json"
+    },
+    {
+      "claim_a": "firmware-level-patch-management",
+      "claim_b": "trust-degrades-over-time-device-age-is-the",
+      "edge_type": "supports",
+      "rationale": "Unpatched firmware below the OS is a key vector by which device trust degrades over time \u2014 firmware neglect accelerates trust decay.",
+      "source_file": "merged-45.json"
+    },
+    {
+      "claim_a": "device-policy-enforcement-compliance-monitoring",
+      "claim_b": "centralized-device-management-enforcement-backbone",
+      "edge_type": "depends_on",
+      "rationale": "Policy enforcement and compliance monitoring require centralized management (UEM/MDM) to push policies, collect compliance data, and remediate across the fleet.",
+      "source_file": "merged-45.json"
+    },
+    {
+      "claim_a": "zt-can-bring-real-value-to-iot-but",
+      "claim_b": "centralized-device-management-enforcement-backbone",
+      "edge_type": "contradicts",
+      "rationale": "IoT's closed systems, weak authentication, and unpatchable firmware fundamentally prevent the universal centralized management that UEM/MDM assumes.",
+      "source_file": "merged-45.json"
+    },
+    {
+      "claim_a": "zt-can-bring-real-value-to-iot-but",
+      "claim_b": "firmware-level-patch-management",
+      "edge_type": "contradicts",
+      "rationale": "Unpatchable IoT firmware directly contradicts the requirement that patch management must cover firmware below the OS \u2014 these devices are unmanageable by design.",
+      "source_file": "merged-45.json"
+    },
+    {
+      "claim_a": "finney-ch1-3.6",
+      "claim_b": "finney-ch4-7.3",
+      "edge_type": "supports",
+      "rationale": "Repeatability of the methodology is evidence that Kindervag provides actionable strategy.",
+      "source_file": "merged-49.json"
+    },
+    {
+      "claim_a": "finney-ch1-3.10",
+      "claim_b": "nist207-ch1.2",
+      "edge_type": "supports",
+      "rationale": "The protect surface (shifting controls from perimeter to asset) is the architectural mechanism that eliminates implicit trust.",
+      "source_file": "merged-49.json"
+    },
+    {
+      "claim_a": "cisa-ztmm-ov.2",
+      "claim_b": "gc-ch1-3.1",
+      "edge_type": "supports",
+      "rationale": "Nation-state incidents (SolarWinds, Exchange) are the empirical evidence that perimeter-based security is structurally broken.",
+      "source_file": "merged-49.json"
+    },
+    {
+      "claim_a": "go-intro.1",
+      "claim_b": "finney-ch1-3.3",
+      "edge_type": "supports",
+      "rationale": "Historical origin in Morris Worm and academic thesis refutes the claim that ZT is vendor marketing.",
+      "source_file": "merged-49.json"
+    },
+    {
+      "claim_a": "nist207-ch1.4",
+      "claim_b": "gc-scenarios.5",
+      "edge_type": "supports",
+      "rationale": "NIST's articulation that ZT adoption is an incremental journey supports the 'journey not destination' framing.",
+      "source_file": "merged-49.json"
+    },
+    {
+      "claim_a": "nist207-ch1.4",
+      "claim_b": "finney-ch1-3.3",
+      "edge_type": "supports",
+      "rationale": "NIST's definition of ZT as an architectural paradigm (not a product) independently supports the strategy-not-product claim.",
+      "source_file": "merged-49.json"
+    },
+    {
+      "claim_a": "nist207-ch1.2",
+      "claim_b": "nist207-ch1.3",
+      "edge_type": "supports",
+      "rationale": "The operational mechanism (assume breach, continuous auth) is what enables the design goal (prevent breaches, limit lateral movement).",
+      "source_file": "merged-49.json"
+    },
+    {
+      "claim_a": "gc-ch1-3.2",
+      "claim_b": "nist207-ch1.2",
+      "edge_type": "supports",
+      "rationale": "The semantic clarification that ZT means 'zero implicit trust' aligns directly with NIST's operational definition of eliminating implicit trust.",
+      "source_file": "merged-49.json"
+    },
+    {
+      "claim_a": "gc-ch1-3.5",
+      "claim_b": "nist207-ch1.2",
+      "edge_type": "supports",
+      "rationale": "The three core principles (secure all resources, least privilege, inspect/log all traffic) are the universal operational instantiation of assume-breach/continuous-auth.",
+      "source_file": "merged-49.json"
+    },
+    {
+      "claim_a": "finney-ch1-3.9",
+      "claim_b": "finney-ch1-3.10",
+      "edge_type": "supports",
+      "rationale": "The physical security analogy (layered zones, no implicit trust) directly illustrates the protect surface concept.",
+      "source_file": "merged-49.json"
+    },
+    {
+      "claim_a": "nist207-ch2.2",
+      "claim_b": "nist207-ch1.2",
+      "edge_type": "extends",
+      "rationale": "Uncertainty minimization reframes assume-breach/continuous-auth in more precise, measurable terms.",
+      "source_file": "merged-49.json"
+    },
+    {
+      "claim_a": "dod-ra-ov.4",
+      "claim_b": "finney-ch4-7.3",
+      "edge_type": "extends",
+      "rationale": "Adds the DoD-vs-NIST comparison dimension to the observation that NIST's tenets are architectural.",
+      "source_file": "merged-49.json"
+    },
+    {
+      "claim_a": "nist207-ch2.3",
+      "claim_b": "dod-ra-ov.4",
+      "edge_type": "extends",
+      "rationale": "Adds the nuance that NIST's architectural tenets are explicitly aspirational, not mandatory requirements.",
+      "source_file": "merged-49.json"
+    },
+    {
+      "claim_a": "gc-ch1-3.7",
+      "claim_b": "finney-ch1-3.3",
+      "edge_type": "extends",
+      "rationale": "'Integrated security platform' is a specific, elaborated articulation of the general claim that ZT is a strategy.",
+      "source_file": "merged-49.json"
+    },
+    {
+      "claim_a": "gc-ch1-3.4",
+      "claim_b": "gc-ch1-3.7",
+      "edge_type": "extends",
+      "rationale": "Explains the mechanism by which ZT becomes an integrated platform: amplifying and integrating existing concepts (least privilege, RBAC).",
+      "source_file": "merged-49.json"
+    },
+    {
+      "claim_a": "gc-ch1-3.4",
+      "claim_b": "gc-ch1-3.5",
+      "edge_type": "extends",
+      "rationale": "Clarifies what is transformative about the three core principles: they aren't just repackaging but amplification into a holistic automated platform.",
+      "source_file": "merged-49.json"
+    },
+    {
+      "claim_a": "zt-control-data-plane-split",
+      "claim_b": "the-control-plane-is-the-trust-grantor-temporary",
+      "edge_type": "extends",
+      "rationale": "The trust grantor role with temporary trust and leased tokens elaborates the control plane's specific function within the plane split architecture.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "the-control-plane-is-the-trust-grantor-temporary",
+      "claim_b": "sso-should-not-remove-the-control-plane-from",
+      "edge_type": "depends_on",
+      "rationale": "The recommendation that SSO not bypass ongoing authorization logically requires the control plane to be the authoritative trust grantor.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "the-control-plane-is-the-trust-grantor-temporary",
+      "claim_b": "control-plane-compromise-is-the-worst-case-scenario-and",
+      "edge_type": "depends_on",
+      "rationale": "The worst-case assessment of control plane compromise depends on the control plane being the authoritative trust grantor.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "zt-control-data-plane-split",
+      "claim_b": "control-plane-compromise-is-the-worst-case-scenario-and",
+      "edge_type": "depends_on",
+      "rationale": "The concept of control plane compromise as a distinct worst case requires the architectural separation of planes to be fundamental.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "the-authorization-architecture-has-four-distinct-isolated-components",
+      "claim_b": "zt-control-data-plane-split",
+      "edge_type": "extends",
+      "rationale": "The four-component authorization architecture refines the control plane/data plane split with a detailed decomposition into isolated enforcement and policy components.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "the-authorization-architecture-has-four-distinct-isolated-components",
+      "claim_b": "the-nist-pdppep-model-is-the-correct-foundation",
+      "edge_type": "extends",
+      "rationale": "The four-component authorization architecture elaborates the NIST PDP/PEP model by specifying the distinct, isolated components that compose it.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "agent-data-is-sensitive-and-should-be-contained",
+      "claim_b": "zt-control-data-plane-split",
+      "edge_type": "extends",
+      "rationale": "Containing agent data strictly to the control plane is a concrete security application of the plane separation principle.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "the-control-plane-is-the-trust-grantor-temporary",
+      "claim_b": "agent-data-is-sensitive-and-should-be-contained",
+      "edge_type": "extends",
+      "rationale": "The trust grantor role explains why agent data must be contained\u2014the control plane needs authoritative access to sensitive agent data to make informed trust decisions.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "sso-should-not-remove-the-control-plane-from",
+      "claim_b": "control-plane-compromise-is-the-worst-case-scenario-and",
+      "edge_type": "supports",
+      "rationale": "The danger of SSO bypassing the control plane is underscored by the fact that control plane compromise is the worst-case scenario, so the control plane must remain in the authorization loop.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "zt-control-data-plane-split",
+      "claim_b": "the-nist-pdppep-model-is-the-correct-foundation",
+      "edge_type": "extends",
+      "rationale": "The NIST PDP/PEP model is a formalized operationalization of the control plane/data plane split, with PDP mapping to the control plane and PEP to the data plane.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "there-are-three-distinct-types-of-peps-and",
+      "claim_b": "the-nist-pdppep-model-is-the-correct-foundation",
+      "edge_type": "extends",
+      "rationale": "The three PEP types\u2014user agent, network, and application\u2014refine the PDP/PEP model by specifying where enforcement occurs across the architecture.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "a-component-is-only-a-pep-if-it",
+      "claim_b": "there-are-three-distinct-types-of-peps-and",
+      "edge_type": "extends",
+      "rationale": "The definition of what qualifies as a PEP\u2014identity-centric, dynamic, automated control channel\u2014provides the criteria for distinguishing between the three PEP types.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "a-component-is-only-a-pep-if-it",
+      "claim_b": "the-nist-pdppep-model-is-the-correct-foundation",
+      "edge_type": "extends",
+      "rationale": "The refined PEP definition elaborates the PDP/PEP model by specifying that a traditional firewall alone does not satisfy the PDP-controlled enforcement requirement.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "the-pep-works-best-at-the-cloud-boundary",
+      "claim_b": "there-are-three-distinct-types-of-peps-and",
+      "edge_type": "extends",
+      "rationale": "The cloud-boundary PEP recommendation is a specific instantiation of the network PEP type, using source IP restrictions as the enabling primitive.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "the-pep-works-best-at-the-cloud-boundary",
+      "claim_b": "a-component-is-only-a-pep-if-it",
+      "edge_type": "extends",
+      "rationale": "The cloud-boundary PEP configuration is a concrete example of a component meeting all PEP qualification criteria\u2014identity-centric, dynamic policies via automated control channel.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "zt-control-data-plane-split",
+      "claim_b": "there-are-three-distinct-types-of-peps-and",
+      "edge_type": "extends",
+      "rationale": "The three PEP types elaborate where enforcement points sit within the control plane/data plane architecture, distinguishing user-agent, network, and application enforcement.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "four-deployment-models-cover-the-zt-solution-space",
+      "claim_b": "four-deployment-models-zta",
+      "edge_type": "extends",
+      "rationale": "The GC's four deployment models extend NIST's four by adding cloud-routed and microsegmentation models on top of NIST's resource-based and enclave-based models.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "target-initiated-access-is-a-real-architectural-constraint-that",
+      "claim_b": "four-deployment-models-cover-the-zt-solution-space",
+      "edge_type": "extends",
+      "rationale": "The target-initiated access constraint specifies that the cloud-routed deployment model struggles with server-initiated traffic, narrowing which models remain viable under this requirement.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "target-initiated-access-is-a-real-architectural-constraint-that",
+      "claim_b": "four-deployment-models-zta",
+      "edge_type": "extends",
+      "rationale": "The target-initiated access constraint reveals that some NIST deployment models handle server-initiated traffic naturally while others do not, refining model selection criteria.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "five-deployment-scenarios-combine",
+      "claim_b": "four-deployment-models-cover-the-zt-solution-space",
+      "edge_type": "extends",
+      "rationale": "Because the five NIST deployment scenarios compound in real enterprises, the four deployment models must cover the full solution space non-exclusively.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "five-deployment-scenarios-combine",
+      "claim_b": "four-deployment-models-zta",
+      "edge_type": "extends",
+      "rationale": "Since enterprises combine multiple deployment scenarios, they need multiple NIST deployment models simultaneously rather than picking one.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "the-pep-works-best-at-the-cloud-boundary",
+      "claim_b": "four-deployment-models-cover-the-zt-solution-space",
+      "edge_type": "extends",
+      "rationale": "The PEP at the cloud boundary is the enabling pattern for the cloud-routed deployment model, which is one of the four models covering the ZT solution space.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "three-zta-approaches-identity-microseg-sdp",
+      "claim_b": "four-deployment-models-zta",
+      "edge_type": "extends",
+      "rationale": "The three ZTA approaches\u2014identity governance, micro-segmentation, and SDP\u2014map to specific NIST deployment models, with SDP aligning to device agent/gateway and micro-segmentation to enclave gateway.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "zt-phone-home-fatal-flaw",
+      "claim_b": "preventing-lateral-movement-primary-goal-zt",
+      "edge_type": "supports",
+      "rationale": "The phone-home attack pattern demonstrates why preventing lateral movement is the primary ZT goal, as it is the attack phase that follows initial perimeter compromise.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "zt-phone-home-fatal-flaw",
+      "claim_b": "zt-control-data-plane-split",
+      "edge_type": "supports",
+      "rationale": "The phone-home pattern demonstrates why perimeter security alone fails and why the control plane/data plane split is necessary for real-time, identity-centric authorization.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "preventing-lateral-movement-primary-goal-zt",
+      "claim_b": "three-types-of-filtering-form-a-defense-in-depth-network",
+      "edge_type": "supports",
+      "rationale": "The three types of filtering\u2014host, bookended, and intermediary\u2014form defense-in-depth that directly serves the primary ZT goal of preventing lateral movement.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "preventing-lateral-movement-primary-goal-zt",
+      "claim_b": "enclave-design-is-trust-classification-what-criteria-justify",
+      "edge_type": "extends",
+      "rationale": "Enclave design as trust classification directly implements lateral movement prevention by grouping resources with similar trust requirements and controlling access between groups.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "three-zta-approaches-identity-microseg-sdp",
+      "claim_b": "three-types-of-filtering-form-a-defense-in-depth-network",
+      "edge_type": "extends",
+      "rationale": "The three types of filtering forming defense-in-depth are the network-level implementation of the micro-segmentation ZTA approach.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "three-zta-approaches-identity-microseg-sdp",
+      "claim_b": "preventing-lateral-movement-primary-goal-zt",
+      "edge_type": "supports",
+      "rationale": "All three ZTA approaches\u2014identity governance, micro-segmentation, and SDP\u2014directly serve the primary goal of preventing lateral movement through different enforcement mechanisms.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "dod-seven-aggregated-capabilities-taxonomy",
+      "claim_b": "dod-seven-ra-principles-bridge",
+      "edge_type": "extends",
+      "rationale": "The seven pillars taxonomy provides the functional capability domains that the seven RA principles bridge to implementation, forming the DoD's three-layer architecture.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "dod-seven-ra-principles-bridge",
+      "claim_b": "the-nist-pdppep-model-is-the-correct-foundation",
+      "edge_type": "extends",
+      "rationale": "The DoD RA principles as architectural bridge add a layer above the PDP/PEP model, connecting high-level tenets to PDP/PEP-based implementation.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "dod-seven-aggregated-capabilities-taxonomy",
+      "claim_b": "the-nist-pdppep-model-is-the-correct-foundation",
+      "edge_type": "extends",
+      "rationale": "The DoD's seven-pillar capability taxonomy complements the NIST PDP/PEP model by organizing functional capabilities that the policy engine must orchestrate.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "zt-comprehensive-security-architecture-strategy-product-technology",
+      "claim_b": "zt-implementation-faces-significant-organizational-technical-challenges",
+      "edge_type": "supports",
+      "rationale": "Because ZT is a comprehensive strategy rather than a product, implementation inevitably faces organizational challenges beyond purely technical ones.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "cccs-13-best-practices-form-pragmatic-sequenced",
+      "claim_b": "zt-comprehensive-security-architecture-strategy-product-technology",
+      "edge_type": "supports",
+      "rationale": "The 13 best practices being a sequenced implementation guide with organizational steps demonstrates that ZT is a strategy with methodology, not merely a product.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "zt-improves-security-across-seven-dimensions",
+      "claim_b": "cccs-13-best-practices-form-pragmatic-sequenced",
+      "edge_type": "extends",
+      "rationale": "The 13 best practices elaborate on how ZT improves security across dimensions by providing a specific, sequenced implementation path for each dimension.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "network-cross-cutting-capabilities-summary",
+      "claim_b": "zt-implementation-faces-significant-organizational-technical-challenges",
+      "edge_type": "extends",
+      "rationale": "The network cross-cutting capabilities maturity model details the specific technical challenges\u2014from manual boundary monitoring to enterprise-wide automation\u2014that ZT implementation must overcome.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "cccs-13-best-practices-form-pragmatic-sequenced",
+      "claim_b": "organizations-choose-among-nist-cisa-ncsc-frameworks",
+      "edge_type": "supports",
+      "rationale": "The CCCS 13 best practices serve as evidence that a pragmatic implementation guide can be built atop existing frameworks, supporting the recommendation to adopt rather than invent frameworks.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "enclave-design-is-trust-classification-what-criteria-justify",
+      "claim_b": "trust-assessment-is-spatial-the-architecture-location-determines",
+      "edge_type": "extends",
+      "rationale": "Enclave design as trust classification is a direct application of spatial trust assessment\u2014the architecture location determines what trust data is available for enclave grouping decisions.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "trust-assessment-is-spatial-the-architecture-location-determines",
+      "claim_b": "zt-control-data-plane-split",
+      "edge_type": "extends",
+      "rationale": "Spatial trust assessment refines the control plane's function by showing that trust data availability and granularity vary by architectural location\u2014branch, campus, data center, cloud.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "no-standard-exists-for-the-agent-format-standardization",
+      "claim_b": "agent-data-is-sensitive-and-should-be-contained",
+      "edge_type": "supports",
+      "rationale": "The lack of agent format standardization increases exposure risk if agent data is not contained, reinforcing the need to keep it strictly within the control plane.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "no-standard-exists-for-the-agent-format-standardization",
+      "claim_b": "the-nist-pdppep-model-is-the-correct-foundation",
+      "edge_type": "extends",
+      "rationale": "The absence of agent format standards highlights a gap in the PDP/PEP model\u2014the policy engine lacks a standardized way to consume agent data from diverse sources.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "network-cross-cutting-capabilities-summary",
+      "claim_b": "zt-control-data-plane-split",
+      "edge_type": "extends",
+      "rationale": "The network cross-cutting capabilities describe how the control plane matures from static, perimeter-focused policies to dynamic, enterprise-wide automated policy enforcement.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "sso-should-not-remove-the-control-plane-from",
+      "claim_b": "zt-control-data-plane-split",
+      "edge_type": "depends_on",
+      "rationale": "The recommendation that SSO should not bypass the control plane for ongoing authorization depends on the architectural separation of planes being the correct foundation.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "the-pep-works-best-at-the-cloud-boundary",
+      "claim_b": "zt-control-data-plane-split",
+      "edge_type": "extends",
+      "rationale": "Placing the PEP at the cloud boundary is a specific architectural pattern for positioning the data plane enforcement point relative to the control plane in cloud deployments.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "five-deployment-scenarios-combine",
+      "claim_b": "zt-implementation-faces-significant-organizational-technical-challenges",
+      "edge_type": "supports",
+      "rationale": "Because enterprises compound multiple deployment scenarios, ZT implementation faces compounded organizational and technical challenges across heterogeneous environments.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "gc-developing-own-zt-framework-aligned-cisa",
+      "claim_b": "organizations-choose-among-nist-cisa-ncsc-frameworks",
+      "edge_type": "supports",
+      "rationale": "The GC developing its framework aligned with CISA and NIST pillars exemplifies the recommended approach of building on existing frameworks rather than inventing from scratch.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "preventing-lateral-movement-primary-goal-zt",
+      "claim_b": "zt-control-data-plane-split",
+      "edge_type": "supports",
+      "rationale": "The primary goal of preventing lateral movement motivates the control plane/data plane split, because real-time authorization at every access attempt is the architectural mechanism that stops lateral movement.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "the-control-plane-is-the-trust-grantor-temporary",
+      "claim_b": "preventing-lateral-movement-primary-goal-zt",
+      "edge_type": "supports",
+      "rationale": "Temporary trust and leased tokens directly prevent lateral movement by ensuring that a compromised session cannot be reused to access additional resources.",
+      "source_file": "merged-50.json"
+    },
+    {
+      "claim_a": "five-nist-csf-functions-form-strict-temporal",
+      "claim_b": "grid-most-parsimonious-complete-map-cybersecurity",
+      "edge_type": "supports",
+      "rationale": "",
+      "source_file": "merged-51.json"
+    },
+    {
+      "claim_a": "dependency-curves-reveal-zt-operational-limits",
+      "claim_b": "five-nist-csf-functions-form-strict-temporal",
+      "edge_type": "extends",
+      "rationale": "",
+      "source_file": "merged-51.json"
+    },
+    {
+      "claim_a": "zt-maps-specific-protect-cells",
+      "claim_b": "grid-most-parsimonious-complete-map-cybersecurity",
+      "edge_type": "extends",
+      "rationale": "",
+      "source_file": "merged-51.json"
+    },
+    {
+      "claim_a": "zta-three-core-components-pe-pa-pep",
+      "claim_b": "zt-pdp-pep-model",
+      "edge_type": "extends",
+      "rationale": "",
+      "source_file": "merged-51.json"
+    },
+    {
+      "claim_a": "eight-data-sources-feed-policy-engine",
+      "claim_b": "zta-three-core-components-pe-pa-pep",
+      "edge_type": "extends",
+      "rationale": "",
+      "source_file": "merged-51.json"
+    },
+    {
+      "claim_a": "the-policy-evaluation-flow-pdp-grants-pep-renders",
+      "claim_b": "zt-pdp-pep-model",
+      "edge_type": "extends",
+      "rationale": "",
+      "source_file": "merged-51.json"
+    },
+    {
+      "claim_a": "the-policy-evaluation-flow-pdp-grants-pep-renders",
+      "claim_b": "zta-three-core-components-pe-pa-pep",
+      "edge_type": "extends",
+      "rationale": "",
+      "source_file": "merged-51.json"
+    },
+    {
+      "claim_a": "ffp-five-decision-points-chain",
+      "claim_b": "zta-three-core-components-pe-pa-pep",
+      "edge_type": "extends",
+      "rationale": "",
+      "source_file": "merged-51.json"
+    },
+    {
+      "claim_a": "ffp-five-decision-points-chain",
+      "claim_b": "the-policy-evaluation-flow-pdp-grants-pep-renders",
+      "edge_type": "extends",
+      "rationale": "",
+      "source_file": "merged-51.json"
+    },
+    {
+      "claim_a": "icam-non-negotiable-substrate",
+      "claim_b": "identity-foundational-zta-pillar",
+      "edge_type": "supports",
+      "rationale": "Both establish ICAM as the non-negotiable substrate for ZTA identity \u2014 CISA's maturity model explicitly names ICAM as the substrate beneath the identity pillar.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "true-contextual-identity-is-never-just-a-device",
+      "claim_b": "user-identity-and-device-identity-are-separate-trust",
+      "edge_type": "extends",
+      "rationale": "Multi-dimensional contextual profiling refines why user and device identities must be separate trust domains \u2014 device type alone is insufficient context.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "icam-non-negotiable-substrate",
+      "claim_b": "true-contextual-identity-is-never-just-a-device",
+      "edge_type": "extends",
+      "rationale": "The ICAM substrate is operationalized through multi-dimensional contextual profiling that captures who, what device, and under what circumstances.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "icam-non-negotiable-substrate",
+      "claim_b": "user-identity-and-device-identity-are-separate-trust",
+      "edge_type": "supports",
+      "rationale": "ICAM as the non-negotiable substrate must accommodate separate trust domains for users and devices with independent authentication and scoring.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "identity-foundational-zta-pillar",
+      "claim_b": "true-contextual-identity-is-never-just-a-device",
+      "edge_type": "supports",
+      "rationale": "Identity being the foundational pillar explains why multi-dimensional contextual profiling matters \u2014 without it, access decisions lack the necessary granularity.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "identity-foundational-zta-pillar",
+      "claim_b": "user-identity-and-device-identity-are-separate-trust",
+      "edge_type": "supports",
+      "rationale": "A foundational identity pillar must handle separate user and device trust domains with independent trust scores.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "cdm-visibility-prerequisite-zta",
+      "claim_b": "identity-foundational-zta-pillar",
+      "edge_type": "depends_on",
+      "rationale": "Identity-based access decisions depend on CDM providing answers to 'what is connected' and 'who is on the network' before device posture or user identity can be evaluated.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "cdm-visibility-prerequisite-zta",
+      "claim_b": "icam-non-negotiable-substrate",
+      "edge_type": "depends_on",
+      "rationale": "The ICAM substrate depends on CDM's asset inventory and user identity data to populate the identity stores and credential management systems.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "federal-programs-building-toward-zt",
+      "claim_b": "zta-complementary-not-replacement",
+      "edge_type": "supports",
+      "rationale": "The decade-long federal investment in FISMA, RMF, FICAM, TIC, and CDM validates that ZTA complements rather than replaces these existing programs.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "zta-complementary-not-replacement",
+      "claim_b": "tic-3-converging-with-zta",
+      "edge_type": "extends",
+      "rationale": "TIC 3.0's evolution from perimeter-based to distributed enforcement is a concrete instance of ZTA complementing rather than replacing an existing federal program.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "zta-complementary-not-replacement",
+      "claim_b": "einstein-ncps-evolve-perimeter-model",
+      "edge_type": "extends",
+      "rationale": "EINSTEIN/NCPS evolving its sensor model to ingest cloud telemetry is a concrete instance of ZTA complementing rather than replacing an existing federal program.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "zta-complementary-not-replacement",
+      "claim_b": "cdm-visibility-prerequisite-zta",
+      "edge_type": "extends",
+      "rationale": "CDM serving as the visibility prerequisite for ZTA is a concrete instance of complementarity \u2014 CDM's mandate stays but its data feeds ZTA policy decisions.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "ztmm-operationalizes-nist-seven-tenets",
+      "claim_b": "zta-complementary-not-replacement",
+      "edge_type": "supports",
+      "rationale": "ZTMM operationalizing NIST 800-207 tenets into measurable capabilities demonstrates how frameworks complement rather than replace each other.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "ztmm-eo14028-compliance-instrument",
+      "claim_b": "ztmm-operationalizes-nist-seven-tenets",
+      "edge_type": "supports",
+      "rationale": "The ZTMM's dual role as EO 14028 compliance instrument and operationalization of NIST tenets are complementary functions of the same maturity model.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "seven-dod-zt-pillars-user-device-applications",
+      "claim_b": "dod-capability-driven-approach-distinction",
+      "edge_type": "depends_on",
+      "rationale": "The DoD's capability-driven approach is organized around the seven-pillar construct, which provides the organizing framework for the exhaustive capability inventory.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "ztmm-operationalizes-nist-seven-tenets",
+      "claim_b": "dod-capability-driven-approach-distinction",
+      "edge_type": "extends",
+      "rationale": "While CISA's ZTMM operationalizes NIST tenets into maturity levels, the DoD extends this further with an exhaustive capability inventory and concrete enforcement architecture.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "strategy-explicitly-solution-architecture",
+      "claim_b": "zero-trust-solution-product",
+      "edge_type": "supports",
+      "rationale": "Both emphasize what ZT is not \u2014 the Strategy is not a solution architecture, and ZT is not an IT product \u2014 reinforcing the outcome-over-technology framing.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "zero-trust-solution-product",
+      "claim_b": "four-strategic-goals-cultural-adoption-systems-secured",
+      "edge_type": "supports",
+      "rationale": "ZT not being a product aligns with Cultural Adoption being the first strategic goal \u2014 transformation requires mindset change, not technology procurement.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "zero-trust-solution-product",
+      "claim_b": "defense-in-depth-compliance-and-best-of-breed-are-not",
+      "edge_type": "supports",
+      "rationale": "Both reject simplistic security definitions \u2014 ZT is not a product, and defense-in-depth, compliance, and best-of-breed are not genuine strategies.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "strategy-explicitly-solution-architecture",
+      "claim_b": "dod-capability-driven-approach-distinction",
+      "edge_type": "supports",
+      "rationale": "The Strategy not being a solution architecture aligns with the DoD's capability-driven rather than technology-driven approach to ZT.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "policy-governance-is-the-badge-and-shield-it",
+      "claim_b": "policy-survives-organizational-change-through-the-policy-governance",
+      "edge_type": "extends",
+      "rationale": "The badge-and-shield function \u2014 authorizing enforcement and defining rules \u2014 is what enables policy to survive mergers, acquisitions, and shadow IT disruptions.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "policy-governance-is-the-badge-and-shield-it",
+      "claim_b": "the-zero-trust-journey-is-cyclical-not-linear",
+      "edge_type": "depends_on",
+      "rationale": "The cyclical five-capability journey depends on Policy & Governance as the foundational first capability that feeds all others in the feedback loop.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "policy-survives-organizational-change-through-the-policy-governance",
+      "claim_b": "the-zero-trust-journey-is-cyclical-not-linear",
+      "edge_type": "extends",
+      "rationale": "The need for policy to survive organizational change explains why the ZT journey must be a continuous cyclical feedback loop rather than a linear project.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "siloed-teams-where-network-security-applications-and-operations",
+      "claim_b": "zero-trust-solution-product",
+      "edge_type": "supports",
+      "rationale": "Siloed teams being the #1 ZT failure mode reinforces that ZT requires cultural transformation, not just technology procurement.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "four-strategic-goals-cultural-adoption-systems-secured",
+      "claim_b": "siloed-teams-where-network-security-applications-and-operations",
+      "edge_type": "supports",
+      "rationale": "The Cultural Adoption strategic goal directly addresses the siloed teams failure mode by aligning workforce mindset and cross-functional collaboration.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "the-cisos-measure-of-success-is-not-were",
+      "claim_b": "defense-in-depth-compliance-and-best-of-breed-are-not",
+      "edge_type": "supports",
+      "rationale": "Both challenge conventional security industry metrics \u2014 CISO success is about response quality, not hack prevention, and traditional approaches are not measurable strategies.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "the-cisos-measure-of-success-is-not-were",
+      "claim_b": "people-are-the-weakest-link-is-a-self-fulfilling",
+      "edge_type": "supports",
+      "rationale": "Both challenge defeatist security narratives \u2014 measuring success by response rather than breach aligns with rejecting the self-fulfilling prophecy that people are the weakest link.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "cloud-smart-drives-zta-prioritization",
+      "claim_b": "cdm-visibility-prerequisite-zta",
+      "edge_type": "supports",
+      "rationale": "Cloud migration makes ZTA attractive by moving resources outside the perimeter, while CDM visibility makes ZTA possible \u2014 both are complementary drivers of ZTA adoption.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "cloud-smart-drives-zta-prioritization",
+      "claim_b": "einstein-ncps-evolve-perimeter-model",
+      "edge_type": "supports",
+      "rationale": "Cloud migration creates parallel pressure \u2014 it drives ZTA prioritization for access control and forces EINSTEIN/NCPS to evolve from perimeter-based to cloud-telemetry-based monitoring.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "cdm-visibility-prerequisite-zta",
+      "claim_b": "privacy-framework-inspect-everything-tension",
+      "edge_type": "depends_on",
+      "rationale": "The privacy tension from ZTA's 'inspect everything' tenet depends on the visibility data that CDM provides \u2014 more visibility creates more privacy risk to manage.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "the-service-desk-ticket-condition-represents-a-paradigm",
+      "claim_b": "forwarding-and-routing-authorization-extends-policy-enforcement-into",
+      "edge_type": "supports",
+      "rationale": "Both extend policy enforcement into operational layers \u2014 business process compliance via ticket state and network fabric enforcement via routing authorization.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "policy-governance-is-the-badge-and-shield-it",
+      "claim_b": "the-service-desk-ticket-condition-represents-a-paradigm",
+      "edge_type": "extends",
+      "rationale": "The ticket-condition JIT access model is a concrete mechanism for Policy & Governance acting as the badge and shield \u2014 policy authorizes enforcement based on ticket state.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "target-level-zt-achieved-end-fy2027-minimum",
+      "claim_b": "ztmm-eo14028-compliance-instrument",
+      "edge_type": "supports",
+      "rationale": "DoD's FY2027 Target Level deadline and CISA's ZTMM as an EO 14028 compliance instrument both represent mandated ZT maturity timelines from federal policy.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "four-strategic-goals-cultural-adoption-systems-secured",
+      "claim_b": "target-level-zt-achieved-end-fy2027-minimum",
+      "edge_type": "depends_on",
+      "rationale": "Achieving Target Level ZT by end of FY2027 depends on executing all four strategic goals across the full lifecycle from cultural adoption to sustainment.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "seven-dod-zt-pillars-user-device-applications",
+      "claim_b": "identity-foundational-zta-pillar",
+      "edge_type": "supports",
+      "rationale": "The DoD pillar framework validates identity as foundational by placing User as the first pillar and organizing all capability outcomes around identity-driven access.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "forwarding-and-routing-authorization-extends-policy-enforcement-into",
+      "claim_b": "tic-3-converging-with-zta",
+      "edge_type": "supports",
+      "rationale": "Both extend enforcement into the network \u2014 TIC 3.0 through distributed PEP security capabilities and forwarding/routing authorization through the network fabric itself.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "federal-programs-building-toward-zt",
+      "claim_b": "cdm-visibility-prerequisite-zta",
+      "edge_type": "extends",
+      "rationale": "CDM being the visibility prerequisite for ZTA refines the broader claim that foundational federal programs were building toward dynamic, granular access control.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "federal-programs-building-toward-zt",
+      "claim_b": "tic-3-converging-with-zta",
+      "edge_type": "extends",
+      "rationale": "TIC 3.0's convergence with ZTA refines the broader claim that federal programs were maturing from static perimeter enforcement toward distributed ZT enforcement.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "federal-programs-building-toward-zt",
+      "claim_b": "einstein-ncps-evolve-perimeter-model",
+      "edge_type": "extends",
+      "rationale": "EINSTEIN/NCPS evolving its sensor model refines the broader claim that federal programs were limited by technology but are now maturing toward ZT compatibility.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "privacy-framework-inspect-everything-tension",
+      "claim_b": "true-contextual-identity-is-never-just-a-device",
+      "edge_type": "supports",
+      "rationale": "Multi-dimensional contextual profiling creates more data collection about users and devices, which directly validates the privacy tension from 'inspect everything.'",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "ztmm-operationalizes-nist-seven-tenets",
+      "claim_b": "identity-foundational-zta-pillar",
+      "edge_type": "supports",
+      "rationale": "The ZTMM operationalizing NIST 800-207 tenets reinforces identity as foundational, since identity-based per-session access is one of the seven core tenets.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "icam-non-negotiable-substrate",
+      "claim_b": "ztmm-operationalizes-nist-seven-tenets",
+      "edge_type": "supports",
+      "rationale": "ICAM as the non-negotiable substrate provides the identity infrastructure that the ZTMM operationalizes into measurable maturity capabilities.",
+      "source_file": "merged-54.json"
+    },
+    {
+      "claim_a": "beyondcorp-access-flow-enforces-per",
+      "claim_b": "device-inventory-service",
+      "edge_type": "depends_on",
+      "rationale": "The trust inference pipeline requires the Device Inventory Service to supply device trust data (OS patch level, security scan results, device model) for per-request authorization decisions.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "tiered-access",
+      "claim_b": "device-inventory-service",
+      "edge_type": "depends_on",
+      "rationale": "Tiered access levels depend on device trust evaluations computed by the Device Inventory Service from its 15+ data sources.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "endpoint-new-perimeter",
+      "claim_b": "device-inventory-service",
+      "edge_type": "depends_on",
+      "rationale": "Treating the endpoint as the new perimeter requires fleet health and device trustworthiness data that only the Device Inventory Service can provide.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "mnp-simulator",
+      "claim_b": "beyondcorp-migration-followed-consistent-cadence",
+      "edge_type": "supports",
+      "rationale": "The MNP Simulator's logging and enforcement modes operationalized the Log phase of the Analyze\u2192Log\u2192Warn\u2192Enforce\u2192Default cadence by testing at the client level before network changes.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "breakthrough-operational-insight-partitioning-parallel-progress",
+      "claim_b": "beyondcorp-migration-followed-consistent-cadence",
+      "edge_type": "supports",
+      "rationale": "Partitioning devices into a new VLAN in final BeyondCorp configuration and incrementally moving them enabled the consistent migration cadence to proceed in parallel workstreams.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "mnp-simulator",
+      "claim_b": "breakthrough-operational-insight-partitioning-parallel-progress",
+      "edge_type": "supports",
+      "rationale": "The MNP Simulator's client-level enforcement testing enabled the parallel-progress strategy by validating traffic compliance before VLAN migration.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "flexible-policies-using-thresholds-rather-absolutes-combined",
+      "claim_b": "tiered-access",
+      "edge_type": "supports",
+      "rationale": "Threshold-based trust policies (rather than binary absolutes) make tiered access practical by allowing devices to be downgraded to intermediate tiers rather than fully denied.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "flexible-policies-using-thresholds-rather-absolutes-combined",
+      "claim_b": "beyondcorp-caused-30-fewer-support-issues-comparable",
+      "edge_type": "supports",
+      "rationale": "Flexible threshold-based policies prevent the draconian enforcement that drives users to seek workarounds, directly reducing the support ticket volume.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "strategic-pivot-prove-user-successful-before-migrating",
+      "claim_b": "beyondcorp-caused-30-fewer-support-issues-comparable",
+      "edge_type": "supports",
+      "rationale": "The strategic pivot from opt-in to opt-out ensured full migration coverage, eliminating the long tail of noncompliant applications that would otherwise generate ongoing support issues.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "beyondcorp-migration-followed-consistent-cadence",
+      "claim_b": "strategic-pivot-prove-user-successful-before-migrating",
+      "edge_type": "supports",
+      "rationale": "The Analyze\u2192Log\u2192Warn\u2192Enforce\u2192Default cadence provided the operational framework that made the strategic opt-out pivot safe and achievable.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "incident-management-without-problem-management-creates-a-firefighting",
+      "claim_b": "prevention-is-possible-and-more-cost-effective-than-recovery",
+      "edge_type": "supports",
+      "rationale": "Problem management (investigating root causes) is the operational mechanism for prevention, making incident-without-problem management the antithesis of cost-effective prevention.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "tabletop-exercises-are-the-monitor-and-maintain-phase",
+      "claim_b": "prevention-is-possible-and-more-cost-effective-than-recovery",
+      "edge_type": "supports",
+      "rationale": "Tabletop exercises test prevention controls and organizational culture simultaneously, serving as a proactive validation mechanism that is more cost-effective than reactive recovery.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "zt-doesnt-eliminate-trust-relationships-the-penetration-test",
+      "claim_b": "pillar-ideals-vs-operational-realities",
+      "edge_type": "supports",
+      "rationale": "The penetration test finding that ZT does not eliminate all trust relationships (IoT and scanner vectors) provides concrete evidence of the gap between pillar ideals and operational realities.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "public-facing-services-zta-boundary",
+      "claim_b": "pillar-ideals-vs-operational-realities",
+      "edge_type": "supports",
+      "rationale": "Public-facing services expose a boundary where ZT tenets cannot be fully applied, directly illustrating the device-pillar-vs-practical-constraints tension CISA identifies.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "endpoint-new-perimeter",
+      "claim_b": "beyondcorp-access-flow-enforces-per",
+      "edge_type": "supports",
+      "rationale": "The endpoint-as-perimeter concept provides the device trustworthiness foundation that enables the per-request authorization flow's trust inference pipeline.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "the-zero-trust-implementation-curve-prevents-boiling-the",
+      "claim_b": "zta-implementation-continuous-improvement-journey-one",
+      "edge_type": "supports",
+      "rationale": "The Implementation Curve's principle of starting small with non-critical protect surfaces embodies the continuous-improvement-over-big-bang philosophy.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "beyondcorp-migration-followed-consistent-cadence",
+      "claim_b": "zta-implementation-continuous-improvement-journey-one",
+      "edge_type": "supports",
+      "rationale": "BeyondCorp's documented Analyze\u2192Log\u2192Warn\u2192Enforce\u2192Default cadence serves as a canonical example of continuous improvement in ZT implementation.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "the-sbc-case-study-demonstrates-that-practical-zt",
+      "claim_b": "zta-implementation-continuous-improvement-journey-one",
+      "edge_type": "supports",
+      "rationale": "The SBC case study's aggressive scope constraint (10 tags, 5-7 endpoint groups) demonstrates a practical strategy for sustaining continuous improvement without analysis paralysis.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "new-endpoint-onboarding-day-2-operations-requires-a",
+      "claim_b": "device-inventory-service",
+      "edge_type": "supports",
+      "rationale": "The centralized onboarding process with structured checklist and full NetFlow collection populates the Device Inventory Service with the data it needs for accurate trust evaluations.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "flexible-policies-using-thresholds-rather-absolutes-combined",
+      "claim_b": "pillar-ideals-vs-operational-realities",
+      "edge_type": "supports",
+      "rationale": "BeyondCorp's flexible threshold-based policies demonstrate a practical approach to resolving the tension between ZT pillar ideals and operational realities that CISA identifies.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "endpoint-new-perimeter",
+      "claim_b": "perimeter-security-model-core-assumptions-no-longer",
+      "edge_type": "extends",
+      "rationale": "The endpoint replacing network location as the security boundary is the direct solution to the broken perimeter model's assumption that internal networks are trustworthy.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "beyondcorp-access-flow-enforces-per",
+      "claim_b": "perimeter-security-model-core-assumptions-no-longer",
+      "edge_type": "extends",
+      "rationale": "Per-request authorization through continuous trust inference is the access control alternative that replaces the perimeter model's implicit trust in network location.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "contracted-services-sdp-dark-network",
+      "claim_b": "perimeter-security-model-core-assumptions-no-longer",
+      "edge_type": "extends",
+      "rationale": "The SDP dark network model\u2014obscuring enterprise resources from network discovery\u2014is the ZT alternative to perimeter-based security for the specific use case of contracted services.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "tiered-access",
+      "claim_b": "beyondcorp-access-flow-enforces-per",
+      "edge_type": "extends",
+      "rationale": "Tiered access refines per-request authorization by organizing trust levels into sensitivity tiers, moving beyond binary allow/deny to graduated access decisions.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "tabletop-exercises-are-the-monitor-and-maintain-phase",
+      "claim_b": "zta-implementation-continuous-improvement-journey-one",
+      "edge_type": "extends",
+      "rationale": "Tabletop exercises operationalize the monitor and maintain phase of the continuous improvement journey by testing controls and culture simultaneously.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "the-zero-trust-implementation-curve-prevents-boiling-the",
+      "claim_b": "beyondcorp-migration-followed-consistent-cadence",
+      "edge_type": "extends",
+      "rationale": "The Zero Trust Implementation Curve generalizes the BeyondCorp migration cadence into a broader principle applicable to any ZT initiative.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "the-sbc-case-study-demonstrates-that-practical-zt",
+      "claim_b": "the-zero-trust-implementation-curve-prevents-boiling-the",
+      "edge_type": "extends",
+      "rationale": "The SBC case study is a concrete, detailed example of the Implementation Curve in practice, showing how aggressive scope constraint prevents boiling the ocean.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "the-zero-trust-discovery-workshop-is-the-critical",
+      "claim_b": "the-zero-trust-implementation-curve-prevents-boiling-the",
+      "edge_type": "extends",
+      "rationale": "The Zero Trust Discovery Workshop is the first step on the Implementation Curve, establishing business requirements and the protect surface before any technical work begins.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "the-zero-trust-discovery-workshop-is-the-critical",
+      "claim_b": "zta-implementation-continuous-improvement-journey-one",
+      "edge_type": "extends",
+      "rationale": "The Discovery Workshop is the critical first step of the continuous improvement journey, providing the foundational analysis that all subsequent phases depend on.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "project-mapped-zta-security-capabilities-nist-csf",
+      "claim_b": "project-eight-use-case-categories",
+      "edge_type": "extends",
+      "rationale": "Mapping ZTA security capabilities to NIST frameworks is one of the eight use case categories (A\u2013H) that comprise the comprehensive ZTA testing framework.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "flow-enumeration-is-the-hardest-requirement-and-the",
+      "claim_b": "the-shouldmust-list-is-zt-implementations-operational-checklist",
+      "edge_type": "extends",
+      "rationale": "Flow enumeration is a specific, critical item on the SHOULD/MUST operational checklist, identified as both the hardest and highest-value requirement.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "flow-enumeration-is-the-hardest-requirement-and-the",
+      "claim_b": "the-zero-trust-discovery-workshop-is-the-critical",
+      "edge_type": "extends",
+      "rationale": "Flow enumeration is a core activity within the Zero Trust Discovery Workshop's data collection and analysis phase, making it the hardest part of the critical first step.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "contracted-services-sdp-dark-network",
+      "claim_b": "endpoint-new-perimeter",
+      "edge_type": "extends",
+      "rationale": "The SDP dark network model extends the endpoint-as-perimeter concept to non-enterprise devices and contracted services, where full endpoint control is impossible.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "new-endpoint-onboarding-day-2-operations-requires-a",
+      "claim_b": "endpoint-new-perimeter",
+      "edge_type": "extends",
+      "rationale": "The centralized onboarding process (isolated segment, NAC policy, NetFlow collection) is the operational procedure that achieves the identified state required for endpoint-as-perimeter security.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "beyondcorp-access-flow-enforces-per",
+      "claim_b": "automation-bridges-the-gap-between-trust-assessment-and",
+      "edge_type": "extends",
+      "rationale": "BeyondCorp's continuously running trust inference pipeline is a specific, large-scale implementation of the general principle that automation bridges trust assessment and enforcement.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "strategic-pivot-prove-user-successful-before-migrating",
+      "claim_b": "the-zero-trust-implementation-curve-prevents-boiling-the",
+      "edge_type": "extends",
+      "rationale": "The strategic pivot from opt-in to opt-out represents a later-phase refinement of the Implementation Curve, addressing the coverage challenge after initial small-scale success.",
+      "source_file": "merged-55.json"
+    },
+    {
+      "claim_a": "nist207-ch6.2",
+      "claim_b": "nist207-ch6.10",
+      "edge_type": "extends",
+      "rationale": "nist207-ch6.2 drills into one of the seven program interactions from nist207-ch6.10 \u2014 that ICAM and CDM are hard prerequisites \u2014 and provides specific dependency chains (ICAM\u2192subject attributes\u2192Policy Engine\u2192ZTA; CDM\u2192asset visibility\u2192device posture\u2192PEP) not present in the synthesis claim.",
+      "source_file": "merged-56.json"
+    },
+    {
+      "claim_a": "cisa-ztmm-dnad.23",
+      "claim_b": "cisa-ztmm-ov.7",
+      "edge_type": "extends",
+      "rationale": "cisa-ztmm-ov.7 defines the four maturity levels as progressive capability. cisa-ztmm-dnad.23 extends that by observing that all four pillars share this identical trajectory and characterizing the underlying shift from manual/static to automated/continuous across all functions.",
+      "source_file": "merged-56.json"
+    },
+    {
+      "claim_a": "cisa-ztmm-ov.7",
+      "claim_b": "nsa-embrace.4",
+      "edge_type": "supports",
+      "rationale": "nsa-embrace.4 claims ZT maturity is incremental, not binary. cisa-ztmm-ov.7 supports this by providing the concrete four-level maturity model (Traditional\u2192Initial\u2192Advanced\u2192Optimal) that instantiates incremental progression. The evidence in nsa-embrace.4 explicitly notes NSA's model was the template for CISA's.",
+      "source_file": "merged-56.json"
+    },
+    {
+      "claim_a": "cisa-ztmm-dnad.23",
+      "claim_b": "nsa-embrace.4",
+      "edge_type": "supports",
+      "rationale": "cisa-ztmm-dnad.23 provides the cross-pillar evidence that the same incremental trajectory (Traditional\u2192Initial\u2192Advanced\u2192Optimal) applies uniformly, further supporting the claim that maturity is incremental, not binary.",
+      "source_file": "merged-56.json"
+    },
+    {
+      "claim_a": "nsa-embrace.4",
+      "claim_b": "finney-ch8-11.11",
+      "edge_type": "supports",
+      "rationale": "finney-ch8-11.11 claims ZT never ends and becomes a multi-year strategic journey. nsa-embrace.4's claim that maturity is incremental (not binary) provides the foundational mechanism: because maturity progresses through stages rather than flipping a switch, the journey is inherently long-running.",
+      "source_file": "merged-56.json"
+    },
+    {
+      "claim_a": "cisa-ztmm-ov.7",
+      "claim_b": "finney-ch8-11.11",
+      "edge_type": "supports",
+      "rationale": "The four progressive maturity levels (Traditional\u2192Initial\u2192Advanced\u2192Optimal) provide the scaffolding that turns a short-term project into a multi-year strategic journey, directly supporting the never-ending nature of ZT.",
+      "source_file": "merged-56.json"
+    },
+    {
+      "claim_a": "cisa-ztmm-dnad.23",
+      "claim_b": "finney-ch8-11.11",
+      "edge_type": "supports",
+      "rationale": "The observation that all four pillars share the same multi-stage trajectory reinforces why ZT becomes a multi-year journey \u2014 every pillar must progress through each level, making the effort inherently long-term.",
+      "source_file": "merged-56.json"
+    },
+    {
+      "claim_a": "gc-scenarios.3",
+      "claim_b": "finney-ch1-3.4",
+      "edge_type": "extends",
+      "rationale": "finney-ch1-3.4 identifies executive sponsorship and crisis as the adoption trigger (the window). gc-scenarios.3 extends this by articulating five specific business value drivers \u2014 security, audit/compliance, customer integration, operational efficiency, revenue enablement \u2014 that provide durable justification for ZT investment beyond the initial crisis window.",
+      "source_file": "merged-56.json"
+    },
+    {
+      "claim_a": "finney-ch4-7.6",
+      "claim_b": "nist207-ch6.2",
+      "edge_type": "supports",
+      "rationale": "nist207-ch6.2 establishes that mature ICAM is a hard prerequisite for ZTA. finney-ch4-7.6 supports this by describing a concrete governance approach \u2014 cross-functional stakeholder groups (CISO, Legal, Compliance, HR, etc.) and leveraging existing GDPR/privacy assessments \u2014 that organizations can use to build the ICAM maturity ZTA requires.",
+      "source_file": "merged-56.json"
+    },
+    {
+      "claim_a": "sequential-network-maturity-journey",
+      "claim_b": "data-flow-mapping-foundational-capability",
+      "edge_type": "depends_on",
+      "rationale": "The maturity journey explicitly builds on data flow mapping as its foundation: 'you cannot segment without understanding flows.'",
+      "source_file": "merged-57.json"
+    },
+    {
+      "claim_a": "sequential-network-maturity-journey",
+      "claim_b": "macro-segmentation-cross-function",
+      "edge_type": "depends_on",
+      "rationale": "The sequential maturity framework requires macro segmentation as the second phase after data flow mapping.",
+      "source_file": "merged-57.json"
+    },
+    {
+      "claim_a": "sequential-network-maturity-journey",
+      "claim_b": "micro-segmentation-blast-radius",
+      "edge_type": "depends_on",
+      "rationale": "Micro segmentation is the third phase in the integrated maturity progression.",
+      "source_file": "merged-57.json"
+    },
+    {
+      "claim_a": "micro-segmentation-blast-radius",
+      "claim_b": "macro-segmentation-cross-function",
+      "edge_type": "depends_on",
+      "rationale": "'You cannot micro-segment effectively without macro segmentation as a foundation.' Micro segmentation builds on macro.",
+      "source_file": "merged-57.json"
+    },
+    {
+      "claim_a": "data-flow-mapping-foundational-capability",
+      "claim_b": "macro-segmentation-cross-function",
+      "edge_type": "supports",
+      "rationale": "'You can't segment what you don't understand' \u2014 data flow mapping is the prerequisite that enables effective macro segmentation.",
+      "source_file": "merged-57.json"
+    },
+    {
+      "claim_a": "macro-segmentation-cross-function",
+      "claim_b": "lateral-movement-prevention-raison-detre",
+      "edge_type": "supports",
+      "rationale": "Macro segmentation between business functions is the primary mechanism for preventing lateral movement, which is the pillar's core purpose.",
+      "source_file": "merged-57.json"
+    },
+    {
+      "claim_a": "micro-segmentation-blast-radius",
+      "claim_b": "lateral-movement-prevention-raison-detre",
+      "edge_type": "supports",
+      "rationale": "Micro segmentation limits the blast radius when lateral movement occurs, directly serving the pillar's raison d'\u00eatre.",
+      "source_file": "merged-57.json"
+    },
+    {
+      "claim_a": "east-west-segmentation-controlling-traffic-within-the-same-vlansubnet",
+      "claim_b": "lateral-movement-prevention-raison-detre",
+      "edge_type": "supports",
+      "rationale": "East-west segmentation is the hardest lateral movement problem \u2014 controlling traffic within the same VLAN/subnet is what most distinguishes ZT from perimeter security.",
+      "source_file": "merged-57.json"
+    },
+    {
+      "claim_a": "true-zt-segmentation-requires-enforcement-at-every-osi",
+      "claim_b": "east-west-segmentation-controlling-traffic-within-the-same-vlansubnet",
+      "edge_type": "supports",
+      "rationale": "Enforcement at every OSI layer \u2014 especially Layer 2 with SGTs \u2014 is how east-west segmentation within the same VLAN becomes technically feasible.",
+      "source_file": "merged-57.json"
+    },
+    {
+      "claim_a": "zt-perimeter-historical-accident",
+      "claim_b": "perimeter-security-obsolete",
+      "edge_type": "supports",
+      "rationale": "The historical narrative that perimeter security was an accident of NAT/IP isolation, not a designed property, explains and reinforces why it is now obsolete.",
+      "source_file": "merged-57.json"
+    },
+    {
+      "claim_a": "perimeter-security-obsolete",
+      "claim_b": "lateral-movement-prevention-raison-detre",
+      "edge_type": "supports",
+      "rationale": "Perimeter failure \u2014 attackers who breach the perimeter face no further barriers \u2014 is exactly why lateral movement prevention becomes the central ZT concern.",
+      "source_file": "merged-57.json"
+    },
+    {
+      "claim_a": "perimeter-security-obsolete",
+      "claim_b": "vpns-must-be-replaced-not-augmented-not-integrated",
+      "edge_type": "supports",
+      "rationale": "VPNs are a perimeter technology; the obsolescence of perimeter-based security directly undermines VPNs as a viable access model.",
+      "source_file": "merged-57.json"
+    },
+    {
+      "claim_a": "vpns-must-be-replaced-not-augmented-not-integrated",
+      "claim_b": "network-transformation-vpn-removal-segmentation",
+      "edge_type": "supports",
+      "rationale": "The five fatal VPN flaws provide the architectural argument for why VPN removal is a necessary consequence of ZT principles.",
+      "source_file": "merged-57.json"
+    },
+    {
+      "claim_a": "wan-reliance-will-diminish-under-zero-trust-zt",
+      "claim_b": "vpns-must-be-replaced-not-augmented-not-integrated",
+      "edge_type": "supports",
+      "rationale": "ZT encrypted overlays replacing dedicated WAN links supports the broader argument that VPN-based connectivity is obsolete.",
+      "source_file": "merged-57.json"
+    },
+    {
+      "claim_a": "satellite-facilities-cloud-hosted-pe-pa",
+      "claim_b": "network-transformation-vpn-removal-segmentation",
+      "edge_type": "supports",
+      "rationale": "Cloud-hosted PE/PA is the practical alternative to VPN hairpinning, demonstrating how ZT network transformation replaces VPNs for remote access.",
+      "source_file": "merged-57.json"
+    },
+    {
+      "claim_a": "cipher-suite-negotiation-is-an-anti-pattern-newer-protocols",
+      "claim_b": "traffic-encryption-cryptographic-agility",
+      "edge_type": "supports",
+      "rationale": "Eliminating cipher suite negotiation in favor of fixed strong suites is a concrete practice that advances the cryptographic agility maturity dimension.",
+      "source_file": "merged-57.json"
+    },
+    {
+      "claim_a": "tls-and-ipsec-serve-different-roles-mtls-for",
+      "claim_b": "true-zt-segmentation-requires-enforcement-at-every-osi",
+      "edge_type": "supports",
+      "rationale": "Assigning mTLS to client/server and IPsec to server/server demonstrates layered encryption at different OSI levels, supporting the multi-layer enforcement principle.",
+      "source_file": "merged-57.json"
+    },
+    {
+      "claim_a": "network-segmentation-micro-perimeters",
+      "claim_b": "micro-segmentation-blast-radius",
+      "edge_type": "supports",
+      "rationale": "The CISA maturity model independently confirms that micro-segmentation with dynamic JIT connectivity is the optimal end-state, supporting the NSA's blast-radius claim.",
+      "source_file": "merged-57.json"
+    },
+    {
+      "claim_a": "the-first-packet-problem-is-solved-by-single",
+      "claim_b": "zt-guarantees-confidentiality-but-not-privacy-endpoint-enumeration",
+      "edge_type": "supports",
+      "rationale": "SPA mitigates the endpoint enumeration tradeoff by hiding services until a valid cryptographically-signed packet is received, partially addressing ZT's privacy gap.",
+      "source_file": "merged-57.json"
+    },
+    {
+      "claim_a": "traffic-encryption-cryptographic-agility",
+      "claim_b": "idps-capabilities-remain-essential-but-the-how-changes",
+      "edge_type": "supports",
+      "rationale": "Widespread traffic encryption creates the challenge that forces IDPS to adapt \u2014 network-based IDPS is challenged by encrypted ZT tunnels, shifting advantage to host-based IDPS.",
+      "source_file": "merged-57.json"
+    },
+    {
+      "claim_a": "micro-segmentation-blast-radius",
+      "claim_b": "macro-segmentation-cross-function",
+      "edge_type": "extends",
+      "rationale": "Micro segmentation extends macro segmentation by adding granular, service-specific isolation within business function segments.",
+      "source_file": "merged-57.json"
+    },
+    {
+      "claim_a": "east-west-segmentation-controlling-traffic-within-the-same-vlansubnet",
+      "claim_b": "micro-segmentation-blast-radius",
+      "edge_type": "extends",
+      "rationale": "East-west segmentation extends micro segmentation to its most granular level \u2014 controlling traffic between adjacent devices in the same VLAN, which is the hardest case.",
+      "source_file": "merged-57.json"
+    },
+    {
+      "claim_a": "tls-should-be-separated-from-applications-via-a",
+      "claim_b": "tls-and-ipsec-serve-different-roles-mtls-for",
+      "edge_type": "extends",
+      "rationale": "The local TLS daemon architecture extends the role-separation strategy by decoupling TLS from application libraries, enabling centralized crypto policy management.",
+      "source_file": "merged-57.json"
+    },
+    {
+      "claim_a": "network-segmentation-micro-perimeters",
+      "claim_b": "macro-segmentation-cross-function",
+      "edge_type": "extends",
+      "rationale": "The CISA maturity model extends the NSA macro segmentation concept by specifying fully distributed ingress/egress micro-perimeters and dynamic JIT connectivity as the advanced end-state.",
+      "source_file": "merged-57.json"
+    },
+    {
+      "claim_a": "network-traffic-management-dynamic",
+      "claim_b": "network-segmentation-micro-perimeters",
+      "edge_type": "extends",
+      "rationale": "Dynamic traffic management extends static micro-perimeter segmentation by adding continuously evolving rules that reprioritize applications based on mission criticality and risk.",
+      "source_file": "merged-57.json"
+    },
+    {
+      "claim_a": "8021x-based-nac-is-fundamentally-incompatible-with-zero-trusts",
+      "claim_b": "nac-eg-cisco-ise-functions-as-the-single",
+      "edge_type": "contradicts",
+      "rationale": "One claim positions NAC (Cisco ISE) as the single source of truth for ZT access decisions; the other declares 802.1x-based NAC fundamentally incompatible with ZT's universal scope due to local-only, coarse-grained, and static limitations.",
+      "source_file": "merged-57.json"
+    }
+  ]
+}

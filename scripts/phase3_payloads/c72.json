@@ -1,0 +1,55 @@
+{
+  "cluster_id": "c72",
+  "cluster_label": "monitoring (implementation)",
+  "size": 6,
+  "claims": [
+    {
+      "slug": "analytics-ai-unified-pipeline-zt",
+      "claim_id": "dod-ra-cap.6",
+      "statement": "Analytics and AI (Use Cases 5\u20136) \u2014 ZT must unify siloed domain data through a pipeline (Sensors \u2192 SIEM \u2192 SOAR + AI \u2192 ZT Controller \u2192 ML/AI storage) to enable consistent policies, user/NPE confidence scoring, advanced threat detection, and automated threat mitigation, collecting far more data than traditional architectures to power automation.",
+      "claim_type": "implementation",
+      "confidence": "medium",
+      "evidence_excerpt": "```\nSensors \u2192 SIEM (initial processing, threat detection) \u2192 SOAR + AI (advanced analysis)\n                                                            \u2193\n                                                     ZT Controller (automated mitigation)\n                                                            \u2193\n                              ML/AI storage (confidence scoring, baselining, external intel)\n```"
+    },
+    {
+      "slug": "casb-sasesdp-api-security-form-the-cloud-visibility",
+      "claim_id": "finney-ch8-11.3",
+      "statement": "CASB + SASE/SDP + API security form the cloud visibility and control triad",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "- **CASB:** Dave describes proxy-mode (all traffic flows through, enables logging) and API-mode (native integrations for OneDrive, SharePoint, Box, Salesforce \u2014 easier to deploy but less coverage). Can detect sensitive data in cloud storage.\n- **SASE/SDP:** Aaron maps it to NIST 800-207's policy engine concept \u2014 agent on client connects to policy engine, allows/denies per role. Also provides devic"
+    },
+    {
+      "slug": "siem-and-soar-integration-with-zt-is-a",
+      "claim_id": "gc-soc-data-iot.1",
+      "statement": "SIEM and SOAR integration with ZT is a force multiplier \u2014 ZT adoption increases the value of SOC tooling by enriching logs with identity and enabling bidirectional policy automation.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "The authors identify four primary trigger types for ZT-SOC integration: Authentication (PDP queries SIEM/SOAR for user/environmental context at login), Resource Access (PEP queries for changed attributes like device risk), Periodic/Session Expiration (PDP pulls updated context), and External (SOAR pushes risk-level changes via inbound API). Two integration patterns are defined: direct/push (simple"
+    },
+    {
+      "slug": "soc-integration-should-be-pursued-early-in-the",
+      "claim_id": "gc-soc-data-iot.2",
+      "statement": "SOC integration should be pursued early in the ZT journey, not deferred to a later phase \u2014 having the SOC team on board accelerates adoption across the enterprise.",
+      "claim_type": "implementation",
+      "confidence": "medium",
+      "evidence_excerpt": "The book describes SOAR as consuming events/alerts from SIEM and providing automated or semi-automated response workflows. Beyond automation, SOAR captures the \"tribal knowledge that otherwise lives only in senior analysts' heads into repeatable, reliable playbooks.\" Its integration of people, process, and technology creates natural alignment with ZT's cross-domain scope."
+    },
+    {
+      "slug": "the-soc-is-itself-a-protect-surface-and",
+      "claim_id": "finney-ch4-7.9",
+      "statement": "The SOC is itself a protect surface \u2014 and most organizations don't treat it as one, creating a critical blind spot in their ZT strategy.",
+      "claim_type": "definitional",
+      "confidence": "high",
+      "evidence_excerpt": "The chapter opens with SOC analyst Jefferson discovering anomalous PSExec activity after hours \u2014 an attacker had been inside the network, testing hardware specs before installing a cryptominer. The SOC had detected the activity but:\n- Couldn't resolve multiple IP addresses to a single device (no CMDB integration)\n- Couldn't see which user owned which devices (no identity integration)\n- Couldn't ac"
+    },
+    {
+      "slug": "the-socs-value-is-measured-by-false-positive",
+      "claim_id": "finney-ch4-7.10",
+      "statement": "The SOC's value is measured by false positive reduction and dwell time containment, not by ticket counts or response SLAs.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The metrics Harmony wants:\n1. False positives reduced (month-over-month and year-over-year, accounting for seasonality)\n2. New rules added to runbook and applied in production\n3. Attacker progression through MITRE ATT&CK framework stages \u2014 are they being disrupted before command and control?\n4. Dwell time reduction (the duration an attacker is inside before detection/containment)\n\nChris connects t"
+    }
+  ]
+}

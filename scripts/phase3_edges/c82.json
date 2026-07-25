@@ -1,0 +1,47 @@
+[
+  {
+    "source": "dos-against-pa-pep-unique-pathology",
+    "target": "ddos-is-still-a-problem-zt-doesnt-mitigate",
+    "type": "extends"
+  },
+  {
+    "source": "monitoring-data-reconnaissance-target",
+    "target": "pe-pa-compromise-highest-impact-threat",
+    "type": "supports"
+  },
+  {
+    "source": "social-engineering-and-physical-coercion-are-the-threats",
+    "target": "stolen-credentials-zta-constrains-blast-radius",
+    "type": "supports"
+  },
+  {
+    "source": "npe-authentication-unresolved-risk",
+    "target": "stolen-credentials-zta-constrains-blast-radius",
+    "type": "extends"
+  },
+  {
+    "source": "zt-cannot-defend-against-a-malicious-computing-platform",
+    "target": "zts-threat-model-is-the-internet-threat-model",
+    "type": "extends"
+  },
+  {
+    "source": "dod-threat-model-different-from-civilian",
+    "target": "zts-threat-model-is-the-internet-threat-model",
+    "type": "extends"
+  },
+  {
+    "source": "zt-threat-scenarios-illustrative",
+    "target": "three-threat-frameworks-progression",
+    "type": "supports"
+  },
+  {
+    "source": "red-herrings-and-the-fog-of-war-the",
+    "target": "deception-technologies-invert-zt-selectively-add-trust-back",
+    "type": "supports"
+  },
+  {
+    "source": "encrypted-traffic-visibility-gap",
+    "target": "monitoring-data-reconnaissance-target",
+    "type": "supports"
+  }
+]

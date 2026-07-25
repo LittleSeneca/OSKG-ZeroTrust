@@ -1,0 +1,183 @@
+{
+  "cluster_id": "merged-45",
+  "cluster_label": "device+supply-chain (implementation)",
+  "size": 22,
+  "claims": [
+    {
+      "slug": "asset-supply-chain-risk-management",
+      "claim_id": "cisa-ztmm-dnad.2",
+      "statement": "Asset & Supply Chain Risk Management \u2014 maturity progresses from ad hoc, enterprise-blind tracking to comprehensive near-real-time visibility of all assets across vendors and service providers, with automated supply chain risk management and operations that tolerate supply chain failures.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "| Stage | Description |\n|-------|-------------|\n| **Traditional** | Does not track physical or virtual assets in an enterprise-wide, cross-vendor manner. Manages supply chain acquisition in ad hoc fashion with limited view of enterprise risks. |\n| **Initial** | Tracks all physical and some virtual assets. Manages supply chain risks by establishing policies and control baselines according to federa"
+    },
+    {
+      "slug": "beyondcorp-proved-that-device-trust-can-replace-network-trust-at",
+      "claim_id": "gc-iam-policy.1",
+      "statement": "BeyondCorp proved that device-trust can replace network-trust at scale \u2014 but it was a multi-year pioneer effort, not a turnkey platform",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Six USENIX ;login: articles (2014\u20132018) documenting the BeyondCorp journey. Key architectural elements: (1) a sophisticated device inventory database, (2) corporate-issued certificates in TPMs as root of trust, (3) centralized SSO issuing short-lived tokens, (4) an Identity-Aware Access Proxy acting as the PEP that is globally accessible to both remote and on-premises users, (5) dynamic VLAN assig"
+    },
+    {
+      "slug": "centralized-device-management-enforcement-backbone",
+      "claim_id": "nsa-device.6",
+      "statement": "Centralized device management (UEM/MDM) is the enforcement backbone for all other capabilities",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "NSA cites UEM (Unified Endpoint Management for traditional IT) and MDM (Mobile Device Management for mobile) as the two tooling categories. At Advanced maturity, device integrity verification includes TPM measurements compared against SBOM (Software Bill of Materials) and RIM (Reference Integrity Manifest) \u2014 linking centralized management to supply chain integrity.\n\n**Maturity progression:**\n\n| Ph"
+    },
+    {
+      "slug": "continuous-risk-based-device-authorization",
+      "claim_id": "nsa-device.3",
+      "statement": "Authorization decisions must be continuous and risk-based, not one-time at connection",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "NSA frames authorization as the integration point where inventory data, compliance status, and real-time inspection converge. This is the risk-calculation engine of the device pillar \u2014 the decision point that says \"based on everything we know about this device right now, should we grant access?\"\n\n**Maturity progression (Device Authorization with Real Time Inspection):**\n\n| Phase | State |\n|-------"
+    },
+    {
+      "slug": "device-cross-cutting-capabilities-summary",
+      "claim_id": "cisa-ztmm-dnad.5",
+      "statement": "Device Cross-Cutting Capabilities (Visibility & Analytics, Automation & Orchestration, Governance) \u2014 progress from manual, physically-labeled inventory to automated status collection of all network-connected devices correlated with identities, endpoint monitoring, and anomaly detection; from manual provisioning to fully automated lifecycle management; from ad hoc policies to automated enterprise-wide device lifecycle governance.",
+      "claim_type": "governance",
+      "confidence": "high",
+      "evidence_excerpt": "**Visibility & Analytics:**\n\nTraditional \u2192 physically labeled inventory, limited software monitoring, regular review with manual analysis. Optimal \u2192 automated status collection of all network-connected devices and virtual assets, correlated with identities, endpoint monitoring, and anomaly detection to inform resource access.\n\n**Automation & Orchestration:**\n\nTraditional \u2192 manual provisioning, con"
+    },
+    {
+      "slug": "device-cross-pillar-dependencies",
+      "claim_id": "nsa-device.8",
+      "statement": "Cross-pillar dependencies make the device pillar a team sport",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "NSA explicitly calls out that \"dynamic authentication and authorization decisions are strictly enforced before access is allowed\" \u2014 this requires the device pillar to consume identity from the User pillar and network policy from the Network & Environment pillar. EDR/XDR \"enable system administrators to identify, detect, and respond to threats that may be pervasive or present in the environment\" \u2014 "
+    },
+    {
+      "slug": "device-hygiene-event-condition-automation",
+      "claim_id": "dod-ra-cap.9",
+      "statement": "Device Hygiene (Use Cases 12\u201313) \u2014 device hygiene must shift from checklist-based (STIG benchmarks, version numbers) to Event-Condition-Action automation where device posture is continuously checked by multiple tools, confidence scoring for devices considers behavioral patterns beyond patch status, and severity determines response speed (gradual restriction to instant termination).",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "| Component | Description |\n|---|---|\n| **Event** | Signal or criteria that invokes the rule (e.g., vulnerability detected, anomalous behavior) |\n| **Condition** | Logical test that determines if action is needed (e.g., confidence score below threshold) |\n| **Action** | Policy update \u2014 from gradual restriction to instant session termination |\n\n**Key dynamics:**\n\n- **Baselining:** ZT baselines not "
+    },
+    {
+      "slug": "device-identity-requires-binding-software-credentials-to-hardware",
+      "claim_id": "gb-ch4-6.5",
+      "statement": "Device identity requires binding software credentials to hardware",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "The chapter systematically escalates through storage methods: (1) file permissions only (weakest \u2014 attacker with root can exfiltrate the key), (2) encrypted private key with passphrase (better but impractical for servers), (3) TPM/HSM storing private key in hardware that \"never leaves the security module.\" TPM endorsement keys (EK) provide unique hardware identity. Platform Configuration Registers"
+    },
+    {
+      "slug": "device-inventory-deny-by-default",
+      "claim_id": "nsa-device.2",
+      "statement": "Device Inventory progresses from manual lists to real-time, deny-by-default enrollment",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "NSA emphasizes that devices present cybersecurity risks differently \u2014 user devices leveraging session access protocols vs. resource devices hosting applications vs. embedded service devices. The inventory solution must distinguish device types and roles.\n\n**Maturity progression:**\n\n| Phase | State |\n|-------|-------|\n| **Preparation** | Manual inventory; may be based on multiple partial inventorie"
+    },
+    {
+      "slug": "device-policy-enforcement-compliance-monitoring",
+      "claim_id": "cisa-ztmm-dnad.1",
+      "statement": "Device Policy Enforcement & Compliance Monitoring \u2014 maturity progresses from limited visibility and manual enforcement to continuous verification of compliance throughout device/virtual asset lifetimes, with automated methods for managing software, vulnerabilities, and patches integrated across all environments.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "| Stage | Description |\n|-------|-------------|\n| **Traditional** | Limited, if any, visibility into device behavior; few methods of enforcing policies or managing software, configurations, or vulnerabilities. |\n| **Initial** | Agency receives self-reported device characteristics (keys, tokens, users on the device) but has limited enforcement mechanisms. Preliminary process to approve software and"
+    },
+    {
+      "slug": "device-resource-access-context",
+      "claim_id": "cisa-ztmm-dnad.3",
+      "statement": "Device Resource Access \u2014 maturity progresses from requiring no device visibility for access decisions to considering real-time risk analytics within devices and virtual assets, integrating device posture with identity and environmental context.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "| Stage | Description |\n|-------|-------------|\n| **Traditional** | Does not require visibility into devices or virtual assets used to access resources. |\n| **Initial** | Requires some devices or virtual assets to report characteristics, then uses this information to approve resource access. |\n| **Advanced** | Initial resource access considers verified device or virtual asset insights. |\n| **Optim"
+    },
+    {
+      "slug": "device-threat-protection-centralized",
+      "claim_id": "cisa-ztmm-dnad.4",
+      "statement": "Device Threat Protection \u2014 maturity progresses from manual deployment to some devices to centralized, unified threat protection with advanced capabilities for all devices and virtual assets, integrated with policy enforcement and compliance monitoring.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "| Stage | Description |\n|-------|-------------|\n| **Traditional** | Manually deploys threat protection capabilities to some devices. |\n| **Initial** | Some automated processes for deploying/updating threat protection to devices and virtual assets, with limited policy enforcement and compliance monitoring integration. |\n| **Advanced** | Consolidates threat protection to centralized solutions for de"
+    },
+    {
+      "slug": "distributed-enforcement-applying-policies-as-close-to-the",
+      "claim_id": "go-ch9-11.2",
+      "statement": "Distributed enforcement \u2014 applying policies as close to the endpoint as possible across four layers (intra-VLAN, inter-VLAN, inter-VRF, host-level) \u2014 yields substantial firewall rule reduction and enables firewall consolidation.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "SBC Corporate's implementation yielded a 50% reduction in edge firewall rules (from 350,000+) and allowed firewall consolidation, reducing both CapEx and OpEx. The authors warn that enforcement is not a finite accomplishment \u2014 policies evolve continuously as new endpoints and use cases emerge. Never fall back to firewall-only segmentation; maintain layered identity-based enforcement."
+    },
+    {
+      "slug": "edr-xdr-device-network-bridge",
+      "claim_id": "nsa-device.7",
+      "statement": "EDR/XDR is the bridge between device-local defense and network-wide ZT",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The progression from ESS \u2192 EDR \u2192 XDR mirrors the industry evolution and is the maturity backbone for endpoint security in ZT. At Intermediate, organizations begin Comply to Connect (C2C) preparation \u2014 a DoD-specific program that checks device and user posture before granting network access.\n\n**Maturity progression:**\n\n| Phase | State |\n|-------|-------|\n| **Preparation** | Anti-malware solutions a"
+    },
+    {
+      "slug": "firmware-level-patch-management",
+      "claim_id": "nsa-device.5",
+      "statement": "Patch management must cover firmware and components below the OS layer",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "NSA cites a 2023 Adaptiva study: large companies manage at least 2,900 applications across all devices, but more than half are not up to date. Threat actors \"constantly probe for known vulnerabilities \u2014 'low-hanging fruit' that provide an entry route.\" NSA also documents persistent low-level threats: LoJax boot rootkit, MosaicRegressor firmware implant, BootHole and BlackLotus UEFI Secure Boot byp"
+    },
+    {
+      "slug": "remote-access-hostile-environment-assumption",
+      "claim_id": "nsa-device.4",
+      "statement": "Remote access requires heightened scrutiny \u2014 assume the remote environment is hostile",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "NSA contrasts this with the conventional architecture flaw \u2014 \"the user's credentials alone were treated as adequate to grant access to network resources.\" In mature ZT, devices are continually authenticated regardless of location. Remote access is not a separate network path (the old VPN model); it's the same device authentication and authorization flow with heightened scrutiny.\n\n**Maturity progre"
+    },
+    {
+      "slug": "seven-device-capabilities-interdependent",
+      "claim_id": "nsa-device.1",
+      "statement": "The device pillar has seven interdependent capabilities that collectively establish device trust",
+      "claim_type": "architectural",
+      "confidence": "high",
+      "evidence_excerpt": "The document structures its entire body around these seven capabilities, each with a dedicated section containing a maturity table. NSA describes how each capability feeds into the others \u2014 e.g., inventory provides the list of known devices for compliance checking, compliance feeds risk scores for authorization, and centralized management automates the patch and configuration workflows. EDR/XDR in"
+    },
+    {
+      "slug": "trust-degrades-over-time-device-age-is-the",
+      "claim_id": "gb-ch4-6.7",
+      "statement": "Trust degrades over time \u2014 device age is the strongest negative signal",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Trust renewal mechanisms: reimaging (logically rotates device \u2014 removes \"majority of persistent threats\"), hardware rotation (tear down and rebuild cloud instances), TPM remote attestation (hardware-backed, \"highly reliable\" but limited to low-level software), software-based local measurement (agent reporting \u2014 \"generally futile\" against privileged attackers), remote vulnerability scanning (extern"
+    },
+    {
+      "slug": "vulnerability-management-must-extend-beyond-cves-to-include",
+      "claim_id": "go-intro.6",
+      "statement": "Vulnerability Management must extend beyond CVEs to include communication baselines and device behavior",
+      "claim_type": "implementation",
+      "confidence": "medium",
+      "evidence_excerpt": "Detailed treatment of endpoint protection (malware detection, file reputation, behavioral analysis, ML-based zero-day prevention), malware prevention and inspection (layered, network-level, integration with endpoint agents), vulnerability management systems (automation, AI, prioritization, residual risk tracking), authenticated vulnerability scanning (vs. unauthenticated; the case for bypassing au"
+    },
+    {
+      "slug": "zt-can-bring-real-value-to-iot-but",
+      "claim_id": "gc-soc-data-iot.5",
+      "statement": "ZT can bring real value to IoT, but IoT networks present fundamental limitations \u2014 closed systems, unencrypted protocols, weak authentication, and unpatchable firmware mean ZT cannot provide the same robustness as with standard enterprise devices.",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "IoT devices are characterized as IP-addressable but closed systems that cannot install arbitrary third-party software, with common vulnerabilities including unencrypted protocols, hardcoded/default passwords, open listening ports, unremovable backdoors, unpatchable firmware, and physical accessibility. The authors identify three ZT goals for IoT: least privilege (minimize upstream access from devi"
+    },
+    {
+      "slug": "third-party-integrators-and-multi-vendor-responsibility-gaps-create-systemic",
+      "claim_id": "finney-ch1-3.12",
+      "statement": "Third-party integrators and multi-vendor responsibility gaps create systemic vulnerability",
+      "claim_type": "threat",
+      "confidence": "high",
+      "evidence_excerpt": "The physical security system has: a card reader company that uses shared encryption keys, an installer who configured remote access \"to get everything working,\" a guard company that shares logins because \"that's way too complicated for the crew,\" and an internal IT team that didn't know the system existed (\"These computers probably aren't on the domain. They're supplied by the security installer\")"
+    },
+    {
+      "slug": "vendor-contracts-and-third-party-risk-management-are-your",
+      "claim_id": "finney-ch8-11.2",
+      "statement": "Vendor contracts and third-party risk management are your primary defense against cloud risk \u2014 because the cloud is outsourcing",
+      "claim_type": "implementation",
+      "confidence": "high",
+      "evidence_excerpt": "Kofi describes three contract processes (PO with standard terms, negotiated contracts, standard MarchFit contract) with escalating security rigor. The book cites that two-thirds of all breaches are caused by vendors. Contract provisions should include: no limitations of liability for direct damages (vendors often cap damages at fees paid), cyber insurance requirement, vendor-paid breach notificati"
+    }
+  ]
+}

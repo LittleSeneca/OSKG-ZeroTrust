@@ -1,0 +1,68 @@
+[
+  {
+    "source": "trust-is-the-root-vulnerability-that-zero-trust",
+    "target": "the-trust-engine-is-the-novel-contribution-of",
+    "relationship": "supports",
+    "rationale": "The trust engine's risk scoring is the direct architectural response to trust being the fundamental vulnerability."
+  },
+  {
+    "source": "trust-is-the-root-vulnerability-that-zero-trust",
+    "target": "variable-trust-scores-replace-binary-policy-with-continuous",
+    "relationship": "supports",
+    "rationale": "Continuous trust scoring addresses the root vulnerability by replacing static binary policies with dynamic authorization."
+  },
+  {
+    "source": "trust-is-the-root-vulnerability-that-zero-trust",
+    "target": "the-implicit-trust-zone-is-the-key-architectural",
+    "relationship": "supports",
+    "rationale": "The implicit trust zone is where the trust-as-vulnerability problem manifests architecturally across deployment models."
+  },
+  {
+    "source": "trust-is-the-root-vulnerability-that-zero-trust",
+    "target": "trust-delegation-via-trust-chains-is-what-makes",
+    "relationship": "supports",
+    "rationale": "Trust chains are the mechanism to safely delegate trust at scale without recreating the root vulnerability."
+  },
+  {
+    "source": "trust-is-the-root-vulnerability-that-zero-trust",
+    "target": "trust-score-should-drive-authentication-requirements-not-static",
+    "relationship": "supports",
+    "rationale": "Because trust is the vulnerability, authentication must be dynamic and risk-driven rather than based on static sensitivity labels."
+  },
+  {
+    "source": "variable-trust-scores-replace-binary-policy-with-continuous",
+    "target": "trust-score-should-drive-authentication-requirements-not-static",
+    "relationship": "supports",
+    "rationale": "Variable trust scores are the mechanism that enables score-driven authentication requirements."
+  },
+  {
+    "source": "the-trust-engine-is-the-novel-contribution-of",
+    "target": "variable-trust-scores-replace-binary-policy-with-continuous",
+    "relationship": "supports",
+    "rationale": "The trust engine produces the variable trust scores that enable continuous, dynamic authorization."
+  },
+  {
+    "source": "the-trust-engine-is-the-novel-contribution-of",
+    "target": "entities-should-be-scored-at-multiple-levels-network",
+    "relationship": "supports",
+    "rationale": "The trust engine's risk scoring approach naturally requires multi-level scoring across network agent, device, and user."
+  },
+  {
+    "source": "the-trust-engine-is-the-novel-contribution-of",
+    "target": "trust-algorithm-five-input-categories",
+    "relationship": "extends",
+    "rationale": "The Trust Algorithm is the concrete specification of the trust engine's decision-making process."
+  },
+  {
+    "source": "trust-algorithm-five-input-categories",
+    "target": "trust-algorithm-two-axes-criteria-contextual",
+    "relationship": "extends",
+    "rationale": "The two-axis classification (criteria/score vs singular/contextual) adds dimensionality to the Trust Algorithm description."
+  },
+  {
+    "source": "variable-trust-scores-replace-binary-policy-with-continuous",
+    "target": "entities-should-be-scored-at-multiple-levels-network",
+    "relationship": "extends",
+    "rationale": "Multi-level entity scoring is a specific dimension of how variable trust scores are implemented."
+  }
+]
