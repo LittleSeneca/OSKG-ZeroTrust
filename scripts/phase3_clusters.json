@@ -1,0 +1,882 @@
+{
+  "version": "1.0",
+  "total_claims": 405,
+  "total_clusters": 27,
+  "total_candidate_pairs": 4014,
+  "cluster_stats": [
+    {
+      "id": "c0",
+      "label": "access-mgmt (implementation)",
+      "size": 7,
+      "candidate_pairs": 21,
+      "split_method": "none",
+      "topics": [
+        "topic/zt-access-mgmt"
+      ]
+    },
+    {
+      "id": "c1",
+      "label": "app (implementation)",
+      "size": 15,
+      "candidate_pairs": 105,
+      "split_method": "none",
+      "topics": [
+        "topic/zt-app"
+      ]
+    },
+    {
+      "id": "merged-51",
+      "label": "architecture (architectural)",
+      "size": 9,
+      "candidate_pairs": 36,
+      "split_method": "merged",
+      "topics": [
+        "topic/zt-architecture"
+      ]
+    },
+    {
+      "id": "c7",
+      "label": "architecture (architectural)",
+      "size": 5,
+      "candidate_pairs": 10,
+      "split_method": "by secondary_topic",
+      "topics": [
+        "topic/zt-architecture"
+      ]
+    },
+    {
+      "id": "merged-50",
+      "label": "architecture+network (architectural)",
+      "size": 30,
+      "candidate_pairs": 435,
+      "split_method": "merged",
+      "topics": [
+        "topic/zt-network",
+        "topic/zt-architecture"
+      ]
+    },
+    {
+      "id": "c17",
+      "label": "authentication (implementation)",
+      "size": 5,
+      "candidate_pairs": 10,
+      "split_method": "none",
+      "topics": [
+        "topic/zt-authentication"
+      ]
+    },
+    {
+      "id": "merged-13",
+      "label": "cloud (implementation)",
+      "size": 29,
+      "candidate_pairs": 406,
+      "split_method": "merged",
+      "topics": [
+        "topic/zt-cloud"
+      ]
+    },
+    {
+      "id": "c23",
+      "label": "data (implementation)",
+      "size": 9,
+      "candidate_pairs": 36,
+      "split_method": "none",
+      "topics": [
+        "topic/zt-data"
+      ]
+    },
+    {
+      "id": "merged-49",
+      "label": "definition+tenets (definitional)",
+      "size": 21,
+      "candidate_pairs": 210,
+      "split_method": "merged",
+      "topics": [
+        "topic/zt-definition",
+        "topic/zt-tenets"
+      ]
+    },
+    {
+      "id": "merged-17",
+      "label": "definition (definitional)",
+      "size": 30,
+      "candidate_pairs": 435,
+      "split_method": "merged",
+      "topics": [
+        "topic/zt-definition"
+      ]
+    },
+    {
+      "id": "c28",
+      "label": "definition (definitional)",
+      "size": 6,
+      "candidate_pairs": 15,
+      "split_method": "by secondary_topic",
+      "topics": [
+        "topic/zt-definition"
+      ]
+    },
+    {
+      "id": "merged-45",
+      "label": "device+supply-chain (implementation)",
+      "size": 22,
+      "candidate_pairs": 231,
+      "split_method": "merged",
+      "topics": [
+        "topic/zt-supply-chain",
+        "topic/zt-device"
+      ]
+    },
+    {
+      "id": "merged-56",
+      "label": "governance+maturity (governance)",
+      "size": 9,
+      "candidate_pairs": 36,
+      "split_method": "merged",
+      "topics": [
+        "topic/zt-maturity",
+        "topic/zt-governance"
+      ]
+    },
+    {
+      "id": "c45",
+      "label": "governance (governance)",
+      "size": 5,
+      "candidate_pairs": 10,
+      "split_method": "by secondary_topic",
+      "topics": [
+        "topic/zt-governance"
+      ]
+    },
+    {
+      "id": "merged-54",
+      "label": "governance+identity (governance)",
+      "size": 28,
+      "candidate_pairs": 378,
+      "split_method": "merged",
+      "topics": [
+        "topic/zt-governance",
+        "topic/zt-identity"
+      ]
+    },
+    {
+      "id": "c52",
+      "label": "identity (architectural)",
+      "size": 5,
+      "candidate_pairs": 10,
+      "split_method": "by claim_type",
+      "topics": [
+        "topic/zt-identity"
+      ]
+    },
+    {
+      "id": "c54",
+      "label": "identity (governance)",
+      "size": 10,
+      "candidate_pairs": 45,
+      "split_method": "by claim_type",
+      "topics": [
+        "topic/zt-identity"
+      ]
+    },
+    {
+      "id": "merged-25",
+      "label": "identity (implementation)",
+      "size": 21,
+      "candidate_pairs": 210,
+      "split_method": "merged",
+      "topics": [
+        "topic/zt-identity"
+      ]
+    },
+    {
+      "id": "merged-55",
+      "label": "implementation (implementation)",
+      "size": 30,
+      "candidate_pairs": 435,
+      "split_method": "merged",
+      "topics": [
+        "topic/zt-implementation"
+      ]
+    },
+    {
+      "id": "c60",
+      "label": "implementation (implementation)",
+      "size": 7,
+      "candidate_pairs": 21,
+      "split_method": "by secondary_topic",
+      "topics": [
+        "topic/zt-implementation"
+      ]
+    },
+    {
+      "id": "merged-31",
+      "label": "migration+implementation (migration)",
+      "size": 27,
+      "candidate_pairs": 351,
+      "split_method": "merged",
+      "topics": [
+        "topic/zt-governance",
+        "topic/zt-implementation",
+        "topic/zt-migration"
+      ]
+    },
+    {
+      "id": "c72",
+      "label": "monitoring (implementation)",
+      "size": 6,
+      "candidate_pairs": 15,
+      "split_method": "none",
+      "topics": [
+        "topic/zt-monitoring"
+      ]
+    },
+    {
+      "id": "c73",
+      "label": "network (architectural)",
+      "size": 9,
+      "candidate_pairs": 36,
+      "split_method": "by claim_type",
+      "topics": [
+        "topic/zt-network"
+      ]
+    },
+    {
+      "id": "merged-57",
+      "label": "network+encryption (implementation)",
+      "size": 26,
+      "candidate_pairs": 325,
+      "split_method": "merged",
+      "topics": [
+        "topic/zt-encryption",
+        "topic/zt-network"
+      ]
+    },
+    {
+      "id": "c79",
+      "label": "policy (architectural)",
+      "size": 9,
+      "candidate_pairs": 36,
+      "split_method": "none",
+      "topics": [
+        "topic/zt-policy"
+      ]
+    },
+    {
+      "id": "c82",
+      "label": "threats (threat)",
+      "size": 16,
+      "candidate_pairs": 120,
+      "split_method": "none",
+      "topics": [
+        "topic/zt-threats"
+      ]
+    },
+    {
+      "id": "c83",
+      "label": "trust (architectural)",
+      "size": 9,
+      "candidate_pairs": 36,
+      "split_method": "none",
+      "topics": [
+        "topic/zt-trust"
+      ]
+    }
+  ],
+  "clusters": [
+    {
+      "id": "c0",
+      "label": "access-mgmt (implementation)",
+      "size": 7,
+      "claim_slugs": [
+        "certificate-signing-is-a-trust-injection-point-that",
+        "external-access-for-iotendpoints-requires-baseline-creation-through",
+        "group-authorization-is-the-highest-trust-mechanism-for-extremely",
+        "invalidation-is-a-hard-problem-in-computer-science",
+        "least-privilege-in-zt-is-dynamic-multi-attribute-and",
+        "revoke-authorization-first-credentials-second",
+        "the-software-defined-perimeter-architecture-delivers-zt-principles-through"
+      ]
+    },
+    {
+      "id": "c1",
+      "label": "app (implementation)",
+      "size": 15,
+      "claim_slugs": [
+        "accessible-applications-public-networks",
+        "application-access-continuous-authorization",
+        "application-cross-cutting-capabilities-summary",
+        "application-security-testing-sdlc",
+        "application-threat-protections-integrated",
+        "container-security-standards-must-be-enforced-as-code",
+        "devops-culture-can-be-an-ally-or-adversary",
+        "erp-systems-are-uniquely-opaque-to-traditional-security",
+        "gits-content-addressable-storage-provides-tamper-proof-history-but-not",
+        "immutable-artifacts-with-decoupled-version-numbers-prevent-masquerade",
+        "per-instance-time-bound-secrets-are-the-mechanism-for-authorizing",
+        "runtime-security-completes-the-trust-lifecycle-isolation-secure",
+        "secure-app-dev-immutable-workloads",
+        "the-application-pipeline-is-a-cryptographic-chain-break",
+        "the-build-system-is-the-most-dangerous-attack"
+      ]
+    },
+    {
+      "id": "merged-51",
+      "label": "architecture (architectural)",
+      "size": 9,
+      "claim_slugs": [
+        "dependency-curves-reveal-zt-operational-limits",
+        "five-nist-csf-functions-form-strict-temporal",
+        "grid-most-parsimonious-complete-map-cybersecurity",
+        "zt-maps-specific-protect-cells",
+        "zta-three-core-components-pe-pa-pep",
+        "eight-data-sources-feed-policy-engine",
+        "ffp-five-decision-points-chain",
+        "the-policy-evaluation-flow-pdp-grants-pep-renders",
+        "zt-pdp-pep-model"
+      ]
+    },
+    {
+      "id": "c7",
+      "label": "architecture (architectural)",
+      "size": 5,
+      "claim_slugs": [
+        "ciscos-five-pillar-model-policy-governance-identity-vulnerability-management",
+        "cross-cutting-capabilities-convergence",
+        "cross-cutting-capabilities-prevent-silos",
+        "dod-seven-pillars-identical-cisa",
+        "five-pillar-comprehensive-decomposition"
+      ]
+    },
+    {
+      "id": "merged-50",
+      "label": "architecture+network (architectural)",
+      "size": 30,
+      "claim_slugs": [
+        "cccs-13-best-practices-form-pragmatic-sequenced",
+        "dod-seven-aggregated-capabilities-taxonomy",
+        "dod-seven-ra-principles-bridge",
+        "five-deployment-scenarios-combine",
+        "four-deployment-models-cover-the-zt-solution-space",
+        "four-deployment-models-zta",
+        "gc-developing-own-zt-framework-aligned-cisa",
+        "organizations-choose-among-nist-cisa-ncsc-frameworks",
+        "preventing-lateral-movement-primary-goal-zt",
+        "target-initiated-access-is-a-real-architectural-constraint-that",
+        "zt-comprehensive-security-architecture-strategy-product-technology",
+        "zt-implementation-faces-significant-organizational-technical-challenges",
+        "zt-improves-security-across-seven-dimensions",
+        "the-authorization-architecture-has-four-distinct-isolated-components",
+        "the-control-plane-is-the-trust-grantor-temporary",
+        "the-pep-works-best-at-the-cloud-boundary",
+        "agent-data-is-sensitive-and-should-be-contained",
+        "enclave-design-is-trust-classification-what-criteria-justify",
+        "trust-assessment-is-spatial-the-architecture-location-determines",
+        "no-standard-exists-for-the-agent-format-standardization",
+        "sso-should-not-remove-the-control-plane-from",
+        "control-plane-compromise-is-the-worst-case-scenario-and",
+        "network-cross-cutting-capabilities-summary",
+        "zt-phone-home-fatal-flaw",
+        "a-component-is-only-a-pep-if-it",
+        "three-zta-approaches-identity-microseg-sdp",
+        "the-nist-pdppep-model-is-the-correct-foundation",
+        "there-are-three-distinct-types-of-peps-and",
+        "three-types-of-filtering-form-a-defense-in-depth-network",
+        "zt-control-data-plane-split"
+      ]
+    },
+    {
+      "id": "c17",
+      "label": "authentication (implementation)",
+      "size": 5,
+      "claim_slugs": [
+        "agents-are-ephemeral-request-scoped-and-purely-for-authorization",
+        "authentication-authorization-dynamic-continuous",
+        "encryption-and-authentication-are-separate-concerns-zero-trust",
+        "mfa-is-necessary-but-insufficient-attackers-have-at",
+        "out-of-band-and-multi-channel-authentication-raise-the-attackers-cost"
+      ]
+    },
+    {
+      "id": "merged-13",
+      "label": "cloud (implementation)",
+      "size": 29,
+      "claim_slugs": [
+        "alts-application-layer-transport-security-workhorse-beyondprod",
+        "automation-orchestration-optional",
+        "beyondcorp-beyondprod-together-form-complete-zt-model",
+        "beyondcorp-google-implementation-zt-model-provides-architectural",
+        "cloud-3",
+        "cloud-5",
+        "cloud",
+        "code-provenance-enforcement-binary-authorization-borg-closes",
+        "deploying-identity",
+        "end",
+        "google-zt-architecture-explicitly-supports-hybrid-environments",
+        "google-zt-architecture-maps-pdp-pep-model",
+        "host-integrity-rooted-titan-security-chip-creates",
+        "identity",
+        "multi-cloud-sdp-server-to-server",
+        "multi",
+        "ncsc-principles-provide-practical-vendor",
+        "ncsc",
+        "network",
+        "perimeter-security-breaks-down-microservices-because-services",
+        "segmentation-zt-primary-architectural-primitive",
+        "service-identity-service-accounts-device-identity-verified",
+        "successful-enterprise-zta-requires-multi",
+        "zt-operationalized-three-principles-apply-differently-per",
+        "zta-monitoring-framework-cover-resource-categories-enterprise",
+        "iaaspaas-security-hasnt-kept-pace-with-iaaspaas-adoption",
+        "devops-introduces-cloud-native-risks-kubernetes-containers-that-traditional",
+        "the-cloud-is-not-one-protect-surface-its",
+        "zero-trust-does-fewer-things-for-saas-but"
+      ]
+    },
+    {
+      "id": "c23",
+      "label": "data (implementation)",
+      "size": 9,
+      "claim_slugs": [
+        "data-access-jit-jea-controls",
+        "data-availability-dynamic-optimization",
+        "data-categorization-automated-labeling",
+        "data-centric-security-abac-protection",
+        "data-classification-spans-a-structured-to-unstructured-continuum-structured-data",
+        "data-cross-cutting-capabilities-summary",
+        "data-encryption-comprehensive",
+        "data-inventory-management-continuous",
+        "data-protection-is-an-advanced-zt-use-case"
+      ]
+    },
+    {
+      "id": "merged-49",
+      "label": "definition+tenets (definitional)",
+      "size": 21,
+      "claim_slugs": [
+        "nist-sp-800-207-provides-the-architectural-tenets-but",
+        "the-four-design-principles-and-five-step-methodology-make",
+        "the-protect-surface-shifts-controls-from-the-perimeter",
+        "the-working-definition-centers-zt-as-an-integrated",
+        "zero-trust-is-a-strategy-not-a-product",
+        "zta-prevent-breach-limit-lateral-movement",
+        "the-three-core-principles-secure-all-resources-regardless",
+        "zero-trust-amplifies-existing-security-concepts-least-privilege",
+        "zt-is-a-journey-not-a-destination-success",
+        "zt-not-a-product-hybrid-journey",
+        "physical-security-is-the-perfect-analogy-for-zero",
+        "zt-five-fundamental-assertions",
+        "nation-state-incidents-perimeter-obsolete",
+        "traditional-enterprise-security-is-structurally-broken-not-merely",
+        "zero-trust-originated-from-the-morris-worm-and",
+        "zero-trust-is-a-misnomer-the-real-concept",
+        "zt-no-implicit-trust-continuous-eval",
+        "zt-uncertainty-minimization",
+        "dod-five-tenets-threat-operational",
+        "zt-tenets-aspirational",
+        "zt-three-guiding-principles"
+      ]
+    },
+    {
+      "id": "merged-17",
+      "label": "definition (definitional)",
+      "size": 30,
+      "claim_slugs": [
+        "academic-quantitative-evidence-zt-effectiveness-entirely-synthetic",
+        "bsi-adopts-nist-pdp-pep-control-plane",
+        "bsi-first-national-agency-provide-detailed-guidance",
+        "bsi-integration-model-provides-german-maturity-framework",
+        "bsi-plans-market-surveillance",
+        "bsi-provides-formal-three",
+        "bsi-provides-most-candid-government-assessment-zt",
+        "bsi-provides-only-government-framework-multi",
+        "bsi-seven-core-messages-frame-zt-preventive",
+        "bsi-specifies-five-mandatory-prerequisites-before-zt",
+        "challenges-realistic-underdeveloped",
+        "cisa-pillar-described-traditional-advanced-optimal-maturity",
+        "dod-zt-operational-not-architectural",
+        "executive-sponsorship-strongest-predictor-zta-implementation-success",
+        "four-concrete-starting-points-actionable-abstract-principles",
+        "kindervag-coined-zero-trust",
+        "modeled-zta-effectiveness-shows-very-large-effect",
+        "nist-document-structure-framework",
+        "paper-provides-most-comprehensive-existing-mapping-iot",
+        "zero-trust-is-a-philosophy-principles-and-a",
+        "zt-defined-cisa-five",
+        "zt-predates-term-disa-jericho",
+        "zt-provides-six-benefits-organized-around-visibility",
+        "zt-research-entered-rapid-growth-phase-145",
+        "zta-cannot-scale-without-ai",
+        "ztmm-nist-800-207-definition-foundation",
+        "location-centric-to-identity-data-centric-shift",
+        "the-adversarial-view-reveals-that-zt-is-a",
+        "zt-positive-tenets",
+        "zt-assume-breach"
+      ]
+    },
+    {
+      "id": "c28",
+      "label": "definition (definitional)",
+      "size": 6,
+      "claim_slugs": [
+        "ai-zt-intersection-least",
+        "autonomous-agentic-operation-without-human-oversight-inadvisable",
+        "incident-response-must-follow-zt-principles-and-the",
+        "input-output-validation-gateway",
+        "llm-systems-require-their-own-dedicated-zero",
+        "session"
+      ]
+    },
+    {
+      "id": "merged-45",
+      "label": "device+supply-chain (implementation)",
+      "size": 22,
+      "claim_slugs": [
+        "asset-supply-chain-risk-management",
+        "beyondcorp-proved-that-device-trust-can-replace-network-trust-at",
+        "centralized-device-management-enforcement-backbone",
+        "continuous-risk-based-device-authorization",
+        "device-cross-cutting-capabilities-summary",
+        "device-cross-pillar-dependencies",
+        "device-hygiene-event-condition-automation",
+        "device-identity-requires-binding-software-credentials-to-hardware",
+        "device-inventory-deny-by-default",
+        "device-policy-enforcement-compliance-monitoring",
+        "device-resource-access-context",
+        "device-threat-protection-centralized",
+        "distributed-enforcement-applying-policies-as-close-to-the",
+        "edr-xdr-device-network-bridge",
+        "firmware-level-patch-management",
+        "remote-access-hostile-environment-assumption",
+        "seven-device-capabilities-interdependent",
+        "trust-degrades-over-time-device-age-is-the",
+        "vulnerability-management-must-extend-beyond-cves-to-include",
+        "zt-can-bring-real-value-to-iot-but",
+        "third-party-integrators-and-multi-vendor-responsibility-gaps-create-systemic",
+        "vendor-contracts-and-third-party-risk-management-are-your"
+      ]
+    },
+    {
+      "id": "merged-56",
+      "label": "governance+maturity (governance)",
+      "size": 9,
+      "claim_slugs": [
+        "executive-sponsorship-and-crisis-create-the-window-for",
+        "federal-program-interactions-synthesis",
+        "five-business-value-drivers-not-security-alone-justify",
+        "identity-governance-needs-a-cross-functional-stakeholder-group-and",
+        "zta-prerequisites-icam-cdm",
+        "cross-pillar-maturity-trajectory",
+        "four-maturity-levels-progressive-capability",
+        "zero-trust-never-ends-the-maturity-model-turns",
+        "zt-maturity-incremental"
+      ]
+    },
+    {
+      "id": "c45",
+      "label": "governance (governance)",
+      "size": 5,
+      "claim_slugs": [
+        "culture-change-requires-rituals-not-just-policies-the",
+        "rmf-zta-changes-authorization-boundaries",
+        "security-awareness-training-is-a-protect-surface-apply",
+        "the-14-platform-requirements-operationalize-the-principles-into",
+        "three-expanded-principles-api-integration-automation-and-business"
+      ]
+    },
+    {
+      "id": "merged-54",
+      "label": "governance+identity (governance)",
+      "size": 28,
+      "claim_slugs": [
+        "federal-programs-building-toward-zt",
+        "four-strategic-goals-cultural-adoption-systems-secured",
+        "seven-dod-zt-pillars-user-device-applications",
+        "strategy-explicitly-solution-architecture",
+        "target-level-zt-achieved-end-fy2027-minimum",
+        "zero-trust-solution-product",
+        "the-service-desk-ticket-condition-represents-a-paradigm",
+        "cloud-smart-drives-zta-prioritization",
+        "cdm-visibility-prerequisite-zta",
+        "the-zero-trust-journey-is-cyclical-not-linear",
+        "policy-survives-organizational-change-through-the-policy-governance",
+        "siloed-teams-where-network-security-applications-and-operations",
+        "zta-complementary-not-replacement",
+        "einstein-ncps-evolve-perimeter-model",
+        "privacy-framework-inspect-everything-tension",
+        "forwarding-and-routing-authorization-extends-policy-enforcement-into",
+        "tic-3-converging-with-zta",
+        "defense-in-depth-compliance-and-best-of-breed-are-not",
+        "people-are-the-weakest-link-is-a-self-fulfilling",
+        "policy-governance-is-the-badge-and-shield-it",
+        "dod-capability-driven-approach-distinction",
+        "the-cisos-measure-of-success-is-not-were",
+        "ztmm-eo14028-compliance-instrument",
+        "ztmm-operationalizes-nist-seven-tenets",
+        "icam-non-negotiable-substrate",
+        "identity-foundational-zta-pillar",
+        "true-contextual-identity-is-never-just-a-device",
+        "user-identity-and-device-identity-are-separate-trust"
+      ]
+    },
+    {
+      "id": "c52",
+      "label": "identity (architectural)",
+      "size": 5,
+      "claim_slugs": [
+        "identity-cross-cutting-capabilities",
+        "npe-person-identities-independent-confidence",
+        "server-to-server-zt-is-a-fundamentally-different-problem-than",
+        "the-network-agent-is-the-marriage-of-user",
+        "the-three-layer-authorization-model-reveals-why-zt-is"
+      ]
+    },
+    {
+      "id": "c54",
+      "label": "identity (governance)",
+      "size": 10,
+      "claim_slugs": [
+        "cisa-nsa-identity-complementary",
+        "federal-government-current",
+        "federal-government-needs-two-dedicated-zt-program",
+        "ficam-identity-substrate-zta",
+        "governance-critical-gap",
+        "government-incentivize-non",
+        "industry-best-practices",
+        "internet",
+        "nsa-cisa-identity-frameworks-complementary",
+        "technology-interoperability-hidden-risk"
+      ]
+    },
+    {
+      "id": "merged-25",
+      "label": "identity (implementation)",
+      "size": 21,
+      "claim_slugs": [
+        "access-management-permanent-to-jit-jea",
+        "access-mgmt-abac-least-privilege",
+        "authentication-keystone-identity-function",
+        "continuous-authentication-common-all-pillars",
+        "credential-mgmt-phishing-resistance",
+        "cross-enterprise-federated-identity-peps",
+        "device-data-contextualizes-and-strengthens-user-authentication",
+        "identity-federation-hard-problem",
+        "identity-is-simultaneously-the-most-important-protect-surface",
+        "identity-is-the-keystone-of-zero-trust-but",
+        "identity-mgmt-attribute-authority",
+        "identity-must-be-contextual-who-what-device-where",
+        "identity-stores-integrated-not-just-federated",
+        "pam-provides-valuable-functions-secrets-management-session-recording",
+        "private-pki-is-the-non-negotiable-bedrock-of-zt",
+        "risk-assessment-static-to-continuous",
+        "the-future-of-zt-saas-is-identity-providers",
+        "the-strongest-user-authentication-binds-identity-to-hardware",
+        "trust-assessment-is-multi-layered-identity-posture-and-behavior",
+        "cisa-four-maturity-stages",
+        "identity-theft-is-the-first-and-most-dangerous"
+      ]
+    },
+    {
+      "id": "merged-55",
+      "label": "implementation (implementation)",
+      "size": 30,
+      "claim_slugs": [
+        "beyondcorp-access-flow-enforces-per",
+        "beyondcorp-caused-30-fewer-support-issues-comparable",
+        "beyondcorp-migration-followed-consistent-cadence",
+        "breakthrough-operational-insight-partitioning-parallel-progress",
+        "device-inventory-service",
+        "endpoint-new-perimeter",
+        "flexible-policies-using-thresholds-rather-absolutes-combined",
+        "mnp-simulator",
+        "perimeter-security-model-core-assumptions-no-longer",
+        "prevention-is-possible-and-more-cost-effective-than-recovery",
+        "project-eight-use-case-categories",
+        "project-mapped-zta-security-capabilities-nist-csf",
+        "public-facing-services-zta-boundary",
+        "strategic-pivot-prove-user-successful-before-migrating",
+        "tiered-access",
+        "zta-implementation-continuous-improvement-journey-one",
+        "zt-can-serve-as-a-catalyst-to-improve",
+        "automation-bridges-the-gap-between-trust-assessment-and",
+        "tabletop-exercises-are-the-monitor-and-maintain-phase",
+        "zt-doesnt-eliminate-trust-relationships-the-penetration-test",
+        "new-endpoint-onboarding-day-2-operations-requires-a",
+        "the-sbc-case-study-demonstrates-that-practical-zt",
+        "the-zero-trust-implementation-curve-prevents-boiling-the",
+        "zero-trust-enhances-legacy-applications-without-modification-its",
+        "contracted-services-sdp-dark-network",
+        "flow-enumeration-is-the-hardest-requirement-and-the",
+        "incident-management-without-problem-management-creates-a-firefighting",
+        "pillar-ideals-vs-operational-realities",
+        "the-shouldmust-list-is-zt-implementations-operational-checklist",
+        "the-zero-trust-discovery-workshop-is-the-critical"
+      ]
+    },
+    {
+      "id": "c60",
+      "label": "implementation (implementation)",
+      "size": 7,
+      "claim_slugs": [
+        "19-builds-demonstrate-zta-implemented-diverse-vendor",
+        "eig-crawl-phase-proved-legacy-icam-solutions",
+        "enforcement-must-be-layered-and-applied-as-close",
+        "seven-zt-scenarios-provide-a-practical-non-exhaustive-framework",
+        "the-first-protect-surface-must-be-what-the",
+        "the-two-case-studies-demonstrate-zt-is-cross-domain",
+        "zta-implementation-single-architecture-spectrum-deployment-approaches"
+      ]
+    },
+    {
+      "id": "merged-31",
+      "label": "migration+implementation (migration)",
+      "size": 27,
+      "claim_slugs": [
+        "analytics-closes-the-loop-the-zt-journey-is",
+        "brownfield-environments-require-34-the-timeline-of-greenfield",
+        "business-process-selection-step3-migration",
+        "candidate-solution-selection-step5-migration",
+        "client-to-server-and-server-to-server-migrations-are-different-problems-with",
+        "common-roadblocks-iam-immaturity-political-resistance-regulatory-constraints",
+        "configuration-management-is-a-legitimate-stepping-stone-to",
+        "dual-mode-infrastructure-indefinite-hybrid",
+        "foundational-inventory-before-migration",
+        "greenfield-zta-rarely-viable",
+        "hybrid-model-indefinite-reality",
+        "identify-all-subjects-step1-migration",
+        "identify-catalog-assets-step2-migration",
+        "incomplete-knowledge-chicken-egg-barrier",
+        "legacy-implicit-trust-primary-obstacle",
+        "log-then-enforce-is-the-migration-procedure-validated-by-two",
+        "phased-zt-adoption-vpn-replacement-role-based-access-branch",
+        "policy-formulation-step4-migration",
+        "reporting-only-mode-step6-migration",
+        "zero-trust-proxies-are-the-bridge-between-zt",
+        "zt-evolution-existing-capabilities-incremental",
+        "zt-organizational-commitment",
+        "zta-expansion-iterative-cycle-step7",
+        "zta-migration-incremental-recurring-cycle",
+        "the-five-pillar-methodology-for-segmentation-operationalizes-zt-by",
+        "zt-success-requires-deliberately-blending-top-down-strategic-vision",
+        "the-biggest-mistake-in-zt-implementation-is-rushing"
+      ]
+    },
+    {
+      "id": "c72",
+      "label": "monitoring (implementation)",
+      "size": 6,
+      "claim_slugs": [
+        "analytics-ai-unified-pipeline-zt",
+        "casb-sasesdp-api-security-form-the-cloud-visibility",
+        "siem-and-soar-integration-with-zt-is-a",
+        "soc-integration-should-be-pursued-early-in-the",
+        "the-soc-is-itself-a-protect-surface-and",
+        "the-socs-value-is-measured-by-false-positive"
+      ]
+    },
+    {
+      "id": "c73",
+      "label": "network (architectural)",
+      "size": 9,
+      "claim_slugs": [
+        "firewalls-persist-under-zero-trust-but-their-role",
+        "ngfws-are-neither-sufficient-as-a-zt-platform",
+        "nist-control-data-plane-separation",
+        "sasezte-converges-networking-and-security-but-ztna-ingress",
+        "sdn-enables-scalable-micro-segmentation",
+        "service-meshes-are-self-contained-zero-trust-microsegmentation-systems",
+        "ten-network-requirements-zta",
+        "the-firewall-is-enough-belief-is-mathematically-disproven-a-network",
+        "zt-network-assumptions"
+      ]
+    },
+    {
+      "id": "merged-57",
+      "label": "network+encryption (implementation)",
+      "size": 26,
+      "claim_slugs": [
+        "data-flow-mapping-foundational-capability",
+        "dns-is-both-a-critical-infrastructure-component-and",
+        "east-west-segmentation-controlling-traffic-within-the-same-vlansubnet",
+        "idps-capabilities-remain-essential-but-the-how-changes",
+        "macro-segmentation-cross-function",
+        "micro-segmentation-blast-radius",
+        "nac-eg-cisco-ise-functions-as-the-single",
+        "network-resilience-holistic",
+        "network-segmentation-micro-perimeters",
+        "network-traffic-management-dynamic",
+        "network-transformation-vpn-removal-segmentation",
+        "satellite-facilities-cloud-hosted-pe-pa",
+        "the-first-packet-problem-is-solved-by-single",
+        "traffic-encryption-cryptographic-agility",
+        "true-zt-segmentation-requires-enforcement-at-every-osi",
+        "vpns-must-be-replaced-not-augmented-not-integrated",
+        "wan-reliance-will-diminish-under-zero-trust-zt",
+        "sequential-network-maturity-journey",
+        "cipher-suite-negotiation-is-an-anti-pattern-newer-protocols",
+        "tls-and-ipsec-serve-different-roles-mtls-for",
+        "tls-should-be-separated-from-applications-via-a",
+        "zt-guarantees-confidentiality-but-not-privacy-endpoint-enumeration",
+        "8021x-based-nac-is-fundamentally-incompatible-with-zero-trusts",
+        "lateral-movement-prevention-raison-detre",
+        "perimeter-security-obsolete",
+        "zt-perimeter-historical-accident"
+      ]
+    },
+    {
+      "id": "c79",
+      "label": "policy (architectural)",
+      "size": 9,
+      "claim_slugs": [
+        "dynamic-tag-based-targets-are-the-policy-models-most",
+        "orchestration-policy-four-layer-hierarchy",
+        "policy-creation-is-data-driven-discovery-before-enforcement-log",
+        "policy-should-be-defined-in-terms-of-logical",
+        "the-four-component-policy-model-subject-action-target-condition",
+        "the-kipling-method-replaces-network-centric-policy-with-business-context",
+        "the-policy-decision-matrix-mapping-source-entities-to",
+        "the-policy-structure-of-subject-criteria-action-target",
+        "top-down-business-aligned-and-bottom-up-traffic-aligned-design-approaches-are"
+      ]
+    },
+    {
+      "id": "c82",
+      "label": "threats (threat)",
+      "size": 16,
+      "claim_slugs": [
+        "ddos-is-still-a-problem-zt-doesnt-mitigate",
+        "deception-technologies-invert-zt-selectively-add-trust-back",
+        "dod-threat-model-different-from-civilian",
+        "dos-against-pa-pep-unique-pathology",
+        "encrypted-traffic-visibility-gap",
+        "monitoring-data-reconnaissance-target",
+        "npe-authentication-unresolved-risk",
+        "pe-pa-compromise-highest-impact-threat",
+        "proprietary-lock-in-amplified-zta",
+        "red-herrings-and-the-fog-of-war-the",
+        "social-engineering-and-physical-coercion-are-the-threats",
+        "stolen-credentials-zta-constrains-blast-radius",
+        "three-threat-frameworks-progression",
+        "zt-cannot-defend-against-a-malicious-computing-platform",
+        "zt-threat-scenarios-illustrative",
+        "zts-threat-model-is-the-internet-threat-model"
+      ]
+    },
+    {
+      "id": "c83",
+      "label": "trust (architectural)",
+      "size": 9,
+      "claim_slugs": [
+        "entities-should-be-scored-at-multiple-levels-network",
+        "the-implicit-trust-zone-is-the-key-architectural",
+        "the-trust-engine-is-the-novel-contribution-of",
+        "trust-algorithm-five-input-categories",
+        "trust-algorithm-two-axes-criteria-contextual",
+        "trust-delegation-via-trust-chains-is-what-makes",
+        "trust-is-the-root-vulnerability-that-zero-trust",
+        "trust-score-should-drive-authentication-requirements-not-static",
+        "variable-trust-scores-replace-binary-policy-with-continuous"
+      ]
+    }
+  ]
+}
