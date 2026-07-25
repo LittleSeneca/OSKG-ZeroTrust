@@ -55,7 +55,6 @@ _None identified._
 **Supports:**
 
 **Contradicts:**
-- [[zt-positive-tenets|Competing definitional frameworks: Claim 7 says ZT is defined by NIST's positive tenets; Claim 8 says ZT is defined thro]]
 
 **Challenged by:**
 

@@ -64,7 +64,6 @@ The "assume breach" framing could be read as NSA's institutional bias — as a s
 **Contradicts:**
 <!-- Claims that cannot be true if this one is -->
 
-- [[zt-positive-tenets|Claim 7 defines ZT by what it positively DOES (seven tenets); Claim 10 defines ZT by the threat model (assume breach). T]]
 **Challenged by:**
 <!-- Evidence or arguments that weaken this claim -->
 
