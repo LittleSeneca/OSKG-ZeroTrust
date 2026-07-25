@@ -4,7 +4,6 @@ tags:
   - oskg-zerotrust
   - evidence/primary-standard
   - source/nsa-embracing-zt
-  - topic/zt-organizational
   - topic/zt-migration
   - topic/zt-implementation
   - topic/zt-governance
@@ -77,7 +76,7 @@ _See source note._
 ## Zero Trust Taxonomy
 
 ### Topic tags
-`topic/zt-organizational` `topic/zt-migration`
+`topic/zt-governance` `topic/zt-migration`
 
 ### Evidence tags
 `evidence/primary-standard`

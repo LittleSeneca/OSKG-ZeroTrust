@@ -8,6 +8,7 @@ tags:
   - topic/zt-governance
   - topic/zt-architecture
   - topic/zt-definition
+  - topic/zt-federation
 claim_id: "nist207-ch6.5"
 statement: 'ICAM (FICAM) is the identity substrate on which ZTA rests — an agency cannot "bolt on" ZTA without first achieving mature identity governance, including identity proofing, authentication, and federation per SP 800-63-3.'
 confidence: "high"

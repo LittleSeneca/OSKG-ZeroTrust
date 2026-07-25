@@ -7,6 +7,7 @@ tags:
   - topic/zt-network
   - topic/zt-implementation
   - topic/zt-cloud
+  - topic/zt-remote-access
 claim_id: "nist207-ch4.2"
 statement: "For satellite facilities and remote workers, the PE/PA must be hosted as a cloud service to avoid hairpinning traffic through HQ — the MPLS link to HQ becomes a commodity transport, not a security boundary."
 confidence: "high"

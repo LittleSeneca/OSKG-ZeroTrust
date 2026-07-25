@@ -8,6 +8,7 @@ tags:
   - topic/zt-policy
   - topic/zt-definition
   - topic/zt-network
+  - topic/zt-sdn
 claim_id: "nist207-ch2.4"
 statement: "The PDP/PEP model is the abstract architecture underlying all ZTA deployments"
 confidence: "high"

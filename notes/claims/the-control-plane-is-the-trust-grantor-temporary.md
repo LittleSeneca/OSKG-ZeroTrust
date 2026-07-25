@@ -8,6 +8,7 @@ tags:
   - topic/zt-authentication
   - topic/zt-implementation
   - topic/zt-definition
+  - topic/zt-sdn
 claim_id: "gb-ch2.5"
 statement: "The control plane is the trust grantor — temporary trust and leased tokens are its operational expression"
 confidence: "high"

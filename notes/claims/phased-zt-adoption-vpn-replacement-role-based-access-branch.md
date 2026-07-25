@@ -7,6 +7,7 @@ tags:
   - topic/zt-migration
   - topic/zt-implementation
   - topic/zt-maturity
+  - topic/zt-remote-access
 claim_id: "gc-iam-policy.4"
 statement: "Phased ZT adoption — VPN replacement → role-based access → branch office removal — delivers incremental value and pays for itself"
 confidence: "high"

@@ -8,6 +8,7 @@ tags:
   - topic/zt-implementation
   - topic/zt-architecture
   - topic/zt-network
+  - topic/zt-remote-access
 claim_id: "ncsc.2"
 statement: "BeyondCorp is Google's implementation of the ZT model and provides the architectural foundation for all GCP ZT services — it is the most mature, battle-tested ZT implementation available as a cloud service."
 confidence: "high"

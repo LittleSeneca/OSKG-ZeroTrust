@@ -6,7 +6,7 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-architecture
   - topic/zt-identity
-  - topic/zt-microsegmentation
+  - topic/zt-segmentation
 claim_id: "nist207-ch3.3"
 statement: "Three ZTA approaches exist — identity governance, micro-segmentation, and SDP"
 confidence: "medium"

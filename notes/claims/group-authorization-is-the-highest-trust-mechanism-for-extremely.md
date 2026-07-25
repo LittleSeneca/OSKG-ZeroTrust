@@ -5,7 +5,6 @@ tags:
   - evidence/secondary-book
   - source/gilman-barth-zt-networks
   - topic/zt-access-mgmt
-  - topic/zt-security
   - topic/zt-definition
   - topic/zt-authentication
 claim_id: "gb-ch4-6.14"

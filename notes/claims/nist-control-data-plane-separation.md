@@ -8,6 +8,7 @@ tags:
   - topic/zt-architecture
   - topic/zt-implementation
   - topic/zt-definition
+  - topic/zt-sdn
 claim_id: "nist207-ch3.7"
 statement: "Control plane and data plane must be logically separated"
 confidence: "high"

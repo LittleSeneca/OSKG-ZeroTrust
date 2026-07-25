@@ -8,6 +8,7 @@ tags:
   - topic/zt-network
   - topic/zt-definition
   - topic/zt-policy
+  - topic/zt-sdn
 claim_id: "gilmanbarth-ch1.2"
 statement: "The control plane / data plane split is ZT's fundamental architectural innovation"
 confidence: "high"

@@ -8,6 +8,7 @@ tags:
   - topic/zt-network
   - topic/zt-implementation
   - topic/zt-definition
+  - topic/zt-sdn
 claim_id: "gb-ch7-8.13"
 statement: "Forwarding and routing authorization extends policy enforcement into the network fabric itself"
 confidence: "medium"

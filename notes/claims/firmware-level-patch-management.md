@@ -5,7 +5,6 @@ tags:
   - evidence/primary-standard
   - source/nsa-zt-device-pillar
   - topic/zt-device
-  - topic/zt-firmware
   - topic/zt-implementation
 claim_id: "nsa-device.5"
 statement: "Patch management must cover firmware and components below the OS layer"

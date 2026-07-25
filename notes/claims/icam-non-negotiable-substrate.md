@@ -8,6 +8,7 @@ tags:
   - topic/zt-definition
   - topic/zt-governance
   - topic/zt-authentication
+  - topic/zt-federation
 claim_id: "nsa-user.1"
 statement: "The user pillar operationalizes ICAM for Zero Trust — and ICAM is the non-negotiable substrate"
 confidence: "high"
