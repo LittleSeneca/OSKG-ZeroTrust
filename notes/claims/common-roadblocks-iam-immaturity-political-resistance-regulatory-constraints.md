@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-migration
   - topic/zt-governance
+  - topic/zt-definition
+  - topic/zt-implementation
 claim_id: "gc-scenarios.4"
 statement: "Common roadblocks — IAM immaturity, political resistance, regulatory constraints, resource visibility gaps, and analysis paralysis — are predictable, documented, and surmountable"
 confidence: "high"

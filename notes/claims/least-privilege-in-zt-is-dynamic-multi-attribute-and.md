@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-access-mgmt
   - topic/zt-device
+  - topic/zt-implementation
+  - topic/zt-identity
 claim_id: "gb-ch2.4"
 statement: "Least privilege in ZT is dynamic, multi-attribute, and device-bound"
 confidence: "high"

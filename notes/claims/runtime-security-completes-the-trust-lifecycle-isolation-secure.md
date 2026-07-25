@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-app
   - topic/zt-monitoring
+  - topic/zt-implementation
+  - topic/zt-network
 claim_id: "gb-ch7-8.6"
 statement: "Runtime security completes the trust lifecycle — isolation, secure coding, and active monitoring"
 confidence: "medium"

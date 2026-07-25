@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-app
   - topic/zt-network
+  - topic/zt-device
+  - topic/zt-governance
 claim_id: "cisa-ztmm-dnad.13"
 statement: "Accessible Applications — maturity progresses from making mission-critical applications available only over private networks and VPNs to making all applicable applications available over open public networks to authorized users and devices."
 confidence: "high"

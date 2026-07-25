@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-data
   - topic/zt-implementation
+  - topic/zt-governance
+  - topic/zt-device
 claim_id: "gc-soc-data-iot.4"
 statement: "Data classification spans a structured-to-unstructured continuum — structured data (databases) has implicit classification via schema, while unstructured data (documents, SaaS) lacks inherent metadata, making automatic classification the hardest problem."
 confidence: "high"

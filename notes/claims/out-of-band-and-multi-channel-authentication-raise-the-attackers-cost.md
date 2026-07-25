@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-authentication
   - topic/zt-threats
+  - topic/zt-identity
+  - topic/zt-device
 claim_id: "gb-ch4-6.12"
 statement: "Out-of-band and multi-channel authentication raise the attacker's cost by requiring compromise of independent channels"
 confidence: "high"

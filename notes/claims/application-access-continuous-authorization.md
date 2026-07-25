@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-app
   - topic/zt-access-mgmt
+  - topic/zt-network
+  - topic/zt-identity
 claim_id: "cisa-ztmm-dnad.11"
 statement: "Application Access — maturity progresses from authorization based primarily on local authorization and static attributes to continuous authorization incorporating real-time risk analytics and factors such as behavior or usage patterns."
 confidence: "high"

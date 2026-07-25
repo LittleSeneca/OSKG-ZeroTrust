@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-definition
   - topic/zt-migration
+  - topic/zt-implementation
+  - topic/zt-governance
 claim_id: "gc-scenarios.5"
 statement: "ZT is a journey, not a destination — success comes from starting small, planning thoroughly, navigating politics, leveraging digital transformation, and aligning budget across stakeholders"
 confidence: "high"

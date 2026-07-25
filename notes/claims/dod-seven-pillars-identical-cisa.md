@@ -6,6 +6,8 @@ tags:
   - source/dod-zt-ra
   - topic/zt-architecture
   - topic/zt-governance
+  - topic/zt-implementation
+  - topic/zt-network
 claim_id: "dod-ra-ov.5"
 statement: "DoD's seven pillars are identical to CISA's — the difference is implementation depth"
 confidence: "high"

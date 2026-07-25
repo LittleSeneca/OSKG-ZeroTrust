@@ -6,6 +6,8 @@ tags:
   - source/beyondcorp
   - topic/zt-implementation
   - topic/zt-architecture
+  - topic/zt-network
+  - topic/zt-governance
 claim_id: "beyondcorp.3"
 statement: "Tiered access — organizing trust levels into tiers of increasing sensitivity with each resource requiring a minimum trust tier — was the critical architectural innovation between Papers 1 and 2, enabling minimally interrupted users by limiting devices to the minimum tier needed."
 confidence: "high"

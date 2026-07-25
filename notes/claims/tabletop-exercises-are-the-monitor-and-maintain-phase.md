@@ -6,6 +6,8 @@ tags:
   - source/finney-project-zt
   - topic/zt-implementation
   - topic/zt-monitoring
+  - topic/zt-architecture
+  - topic/zt-governance
 claim_id: "finney-ch8-11.8"
 statement: 'Tabletop exercises are the "monitor and maintain" phase operationalized — they test controls and culture simultaneously'
 confidence: "high"

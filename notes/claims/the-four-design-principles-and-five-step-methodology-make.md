@@ -6,6 +6,8 @@ tags:
   - source/finney-project-zt
   - topic/zt-definition
   - topic/zt-architecture
+  - topic/zt-network
+  - topic/zt-governance
 claim_id: "finney-ch1-3.6"
 statement: "The Four Design Principles and Five-Step Methodology make ZT repeatable"
 confidence: "high"

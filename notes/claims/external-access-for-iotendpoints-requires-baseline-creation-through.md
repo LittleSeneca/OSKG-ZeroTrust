@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-access-mgmt
   - topic/zt-device
+  - topic/zt-implementation
+  - topic/zt-identity
 claim_id: "go-ch6-8.6"
 statement: "External access for IoT/endpoints requires baseline creation through multiple collection points — edge firewall logs, Internet proxy logs, NetFlow, endpoint agents, and DNS analytics — because vendor documentation of network interactions is unreliable."
 confidence: "high"

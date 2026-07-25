@@ -6,6 +6,8 @@ tags:
   - source/nsa-embracing-zt
   - topic/zt-threats
   - topic/zt-implementation
+  - topic/zt-network
+  - topic/zt-governance
 claim_id: "nsa-embrace.3"
 statement: "The threat examples demonstrate ZT's value, not ZT's completeness"
 confidence: "high"

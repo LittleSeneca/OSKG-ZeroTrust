@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-identity
   - topic/zt-device
+  - topic/zt-governance
+  - topic/zt-implementation
 claim_id: "go-ch3-5.3"
 statement: "Trust assessment is multi-layered — identity, posture, and behavior combine to produce an enforcement decision"
 confidence: "medium"

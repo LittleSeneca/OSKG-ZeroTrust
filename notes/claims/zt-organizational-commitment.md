@@ -6,6 +6,8 @@ tags:
   - source/nsa-embracing-zt
   - topic/zt-organizational
   - topic/zt-migration
+  - topic/zt-implementation
+  - topic/zt-governance
 claim_id: "nsa-embrace.5"
 statement: "Organizational commitment is the primary implementation challenge"
 confidence: "high"

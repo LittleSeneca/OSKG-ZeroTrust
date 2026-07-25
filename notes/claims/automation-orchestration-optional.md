@@ -6,6 +6,8 @@ tags:
   - source/halley-resilient-cloud
   - topic/zt-cloud
   - topic/zt-implementation
+  - topic/zt-migration
+  - topic/zt-governance
 claim_id: "halley.4"
 statement: "Automation and orchestration are not optional — they are ZT prerequisites at scale"
 confidence: "high"

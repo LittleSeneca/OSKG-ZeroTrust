@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-governance
   - topic/zt-implementation
+  - topic/zt-cloud
+  - topic/zt-architecture
 claim_id: "gc-ch1-3.8"
 statement: "The 14 platform requirements operationalize the principles into verifiable criteria."
 confidence: "high"

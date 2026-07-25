@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-identity
   - topic/zt-definition
+  - topic/zt-governance
+  - topic/zt-implementation
 claim_id: "cisa-ztmm-id.1"
 statement: "Identity is the foundational pillar of ZTA — without mature identity capabilities, a ZTA cannot make access decisions, and ICAM serves as the substrate beneath the entire pillar, as established by both CISA's maturity model and NIST 800-207 Chapter 6."
 confidence: "high"

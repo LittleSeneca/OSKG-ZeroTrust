@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-network
   - topic/zt-implementation
+  - topic/zt-identity
+  - topic/zt-access-mgmt
 claim_id: "gc-net-access.3"
 statement: "WAN reliance will diminish under Zero Trust — ZT encrypted overlays combined with ubiquitous, inexpensive Internet connectivity can often replace dedicated WAN links, creating a cost-saving opportunity."
 confidence: "medium"

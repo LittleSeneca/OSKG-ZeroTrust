@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-threats
   - topic/zt-identity
+  - topic/zt-governance
+  - topic/zt-device
 claim_id: "nist207-ch5.3"
 statement: "Stolen credentials remain a threat under ZTA, but ZTA's \"no implicit trust\" principle constrains the blast radius — compromised accounts cannot move laterally to resources outside their authorized scope, and contextual trust algorithms detect anomalous access patterns faster."
 confidence: "high"

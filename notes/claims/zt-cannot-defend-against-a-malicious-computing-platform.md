@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-threats
   - topic/zt-device
+  - topic/zt-identity
+  - topic/zt-architecture
 claim_id: "gb-ch10.4"
 statement: "ZT cannot defend against a malicious computing platform — only against simpler platform attacks"
 confidence: "high"

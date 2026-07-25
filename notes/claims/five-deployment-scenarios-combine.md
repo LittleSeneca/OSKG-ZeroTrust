@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-architecture
   - topic/zt-implementation
+  - topic/zt-cloud
+  - topic/zt-network
 claim_id: "nist207-ch4.1"
 statement: "The five scenarios are not mutually exclusive — real enterprises combine them"
 confidence: "high"

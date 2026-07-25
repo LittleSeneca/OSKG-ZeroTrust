@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-architecture
   - topic/zt-governance
+  - topic/zt-implementation
+  - topic/zt-identity
 claim_id: "cisa-ztmm-ov.8"
 statement: "The three cross-cutting capabilities unify the pillars and prevent siloed maturity"
 confidence: "high"

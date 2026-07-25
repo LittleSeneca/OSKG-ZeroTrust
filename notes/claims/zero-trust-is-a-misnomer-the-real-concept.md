@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-definition
   - topic/zt-trust
+  - topic/zt-architecture
+  - topic/zt-access-mgmt
 claim_id: "gc-ch1-3.2"
 statement: '"Zero Trust" is a misnomer — the real concept is "zero implicit trust" or "earned trust."'
 confidence: "high"

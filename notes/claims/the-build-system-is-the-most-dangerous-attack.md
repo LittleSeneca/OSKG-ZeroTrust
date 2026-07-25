@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-app
   - topic/zt-threats
+  - topic/zt-implementation
+  - topic/zt-network
 claim_id: "gb-ch7-8.3"
 statement: "The build system is the most dangerous attack vector — it sits between two cryptographically protected states with no protection of its own"
 confidence: "high"

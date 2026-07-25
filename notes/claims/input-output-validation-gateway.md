@@ -6,6 +6,8 @@ tags:
   - source/anssi-bsi
   - topic/zt-definition
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-network
 claim_id: "anssi-bsi.2"
 statement: 'Input and output validation through a gateway — analogous to the ZT PEP — is the most novel and critical of the six principles, introducing the concept of a "trust algorithm" for evaluating prompt trustworthiness.'
 confidence: "high"

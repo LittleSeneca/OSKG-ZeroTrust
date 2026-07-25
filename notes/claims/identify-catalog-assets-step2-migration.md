@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-migration
   - topic/zt-device
+  - topic/zt-identity
+  - topic/zt-network
 claim_id: "nist207-ch7.6"
 statement: "The enterprise must identify, catalog, and continuously monitor all assets — hardware, digital artifacts, virtual infrastructure, and shadow IT — because device posture assessment is integral to access decisions and incomplete inventory causes access denials."
 confidence: "high"

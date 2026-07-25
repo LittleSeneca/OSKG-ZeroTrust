@@ -6,6 +6,8 @@ tags:
   - source/beyondprod
   - topic/zt-cloud
   - topic/zt-implementation
+  - topic/zt-governance
+  - topic/zt-device
 claim_id: "beyondprod.4"
 statement: "Host Integrity, rooted in the Titan security chip, creates a hardware-anchored chain of trust from firmware to user mode — ALTS machine credentials are only decryptable by hosts that pass verified boot."
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-monitoring
   - topic/zt-migration
+  - topic/zt-maturity
+  - topic/zt-definition
 claim_id: "gc-soc-data-iot.2"
 statement: "SOC integration should be pursued early in the ZT journey, not deferred to a later phase — having the SOC team on board accelerates adoption across the enterprise."
 confidence: "medium"

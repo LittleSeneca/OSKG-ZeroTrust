@@ -6,6 +6,8 @@ tags:
   - source/dod-zt-strategy
   - topic/zt-governance
   - topic/zt-migration
+  - topic/zt-definition
+  - topic/zt-maturity
 claim_id: "dod-strategy.1"
 statement: "Zero Trust is not an IT solution or product — it requires cultural transformation across the entire Department, not just the cybersecurity workforce."
 confidence: "high"

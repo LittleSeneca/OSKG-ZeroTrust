@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-architecture
   - topic/zt-governance
+  - topic/zt-definition
+  - topic/zt-network
 claim_id: "gb-ch3.5"
 statement: "No standard exists for the agent format; standardization would unlock interoperability, and SNMP/MIB is a useful analogy"
 confidence: "medium"

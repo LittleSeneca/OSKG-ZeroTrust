@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207a
   - topic/zt-cloud
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-network
 claim_id: "nist-207a.3"
 statement: "A successful enterprise ZTA requires multi-tier policies combining network-tier (coarse + fine-grained) and identity-tier policies — neither tier alone is sufficient."
 confidence: "high"

@@ -5,6 +5,8 @@ tags:
   - evidence/secondary-book
   - source/green-ortiz-zt-architecture
   - topic/zt-implementation
+  - topic/zt-cloud
+  - topic/zt-architecture
 claim_id: "go-intro.7"
 statement: "Enforcement must be layered and applied as close to the source as possible"
 confidence: "medium"

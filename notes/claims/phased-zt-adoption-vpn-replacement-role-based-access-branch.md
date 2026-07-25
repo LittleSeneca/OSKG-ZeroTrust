@@ -5,6 +5,8 @@ tags:
   - evidence/secondary-book
   - source/garbis-chapman-zt-enterprise
   - topic/zt-migration
+  - topic/zt-implementation
+  - topic/zt-maturity
 claim_id: "gc-iam-policy.4"
 statement: "Phased ZT adoption — VPN replacement → role-based access → branch office removal — delivers incremental value and pays for itself"
 confidence: "high"

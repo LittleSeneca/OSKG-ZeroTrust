@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-implementation
   - topic/zt-architecture
+  - topic/zt-network
+  - topic/zt-governance
 claim_id: "nist207-ch4.6"
 statement: "Public-facing services expose ZTA's boundary — ZT tenets do not directly apply to anonymous public resources, and for registered users the enterprise is constrained in what cybersecurity policies can be enforced on nonenterprise-owned devices, limiting ZTA to behavioral monitoring and graduated enforcement."
 confidence: "high"

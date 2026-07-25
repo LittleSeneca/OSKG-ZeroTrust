@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/cccs
   - topic/zt-definition
+  - topic/zt-governance
+  - topic/zt-identity
 claim_id: "cccs-model.4"
 statement: "The challenges are realistic but underdeveloped"
 confidence: "medium"

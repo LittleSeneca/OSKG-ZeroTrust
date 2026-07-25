@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-data
   - topic/zt-encryption
+  - topic/zt-network
+  - topic/zt-access-mgmt
 claim_id: "cisa-ztmm-dnad.21"
 statement: "Data Encryption — maturity progresses from encrypting minimal agency data with ad hoc key management to encrypting data in use where appropriate, enforcing least privilege for secure key management enterprise-wide, and applying encryption using up-to-date standards and cryptographic agility."
 confidence: "high"

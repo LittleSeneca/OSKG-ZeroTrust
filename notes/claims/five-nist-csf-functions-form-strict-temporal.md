@@ -6,6 +6,8 @@ tags:
   - source/yu-cdm
   - topic/zt-architecture
   - topic/zt-definition
+  - topic/zt-network
+  - topic/zt-governance
 claim_id: "yu-cdm.2"
 statement: "The five NIST CSF functions form a strict temporal sequence with clear semantics"
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/finney-project-zt
   - topic/zt-governance
   - topic/zt-definition
+  - topic/zt-network
+  - topic/zt-threats
 claim_id: "finney-ch1-3.5"
 statement: "Defense in depth, compliance, and best-of-breed are not strategies"
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/finney-project-zt
   - topic/zt-monitoring
   - topic/zt-cloud
+  - topic/zt-implementation
+  - topic/zt-network
 claim_id: "finney-ch8-11.3"
 statement: "CASB + SASE/SDP + API security form the cloud visibility and control triad"
 confidence: "high"

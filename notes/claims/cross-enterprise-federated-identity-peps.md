@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-identity
   - topic/zt-implementation
+  - topic/zt-governance
+  - topic/zt-cloud
 claim_id: "nist207-ch4.5"
 statement: "Cross-enterprise collaboration should use federated identity plus resource-specific PEPs — this scales linearly with partners, while the alternative (bilateral VPNs, shared AD domains, per-partner firewall rules) creates O(n²) complexity."
 confidence: "high"

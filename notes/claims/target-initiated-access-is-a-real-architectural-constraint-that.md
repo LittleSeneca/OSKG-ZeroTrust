@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-architecture
   - topic/zt-implementation
+  - topic/zt-cloud
+  - topic/zt-network
 claim_id: "gc-iam-policy.13"
 statement: "Target-initiated access is a real architectural constraint that eliminates some ZT deployment models"
 confidence: "medium"

@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/academic-zt
   - topic/zt-definition
+  - topic/zt-governance
+  - topic/zt-architecture
 claim_id: "academic.6"
 statement: "The academic quantitative evidence for ZT effectiveness is entirely synthetic (modeled, not measured) — the actual evidentiary status of practitioner claims rests on logical argument, self-reported industry case studies, and regulatory adoption, not independently verified large-scale empirical data."
 confidence: "high"

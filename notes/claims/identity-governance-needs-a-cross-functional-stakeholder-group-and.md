@@ -6,6 +6,8 @@ tags:
   - source/finney-project-zt
   - topic/zt-governance
   - topic/zt-identity
+  - topic/zt-device
+  - topic/zt-architecture
 claim_id: "finney-ch4-7.6"
 statement: "Identity governance needs a cross-functional stakeholder group, and GDPR/privacy assessments can jump-start the data flow mapping that ZT requires."
 confidence: "high"

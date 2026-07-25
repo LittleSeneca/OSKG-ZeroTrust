@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-network
   - topic/zt-definition
+  - topic/zt-implementation
+  - topic/zt-segmentation
 claim_id: "nist207-ch1.1"
 statement: "Perimeter-based network security has been rendered obsolete by enterprise complexity."
 confidence: "high"

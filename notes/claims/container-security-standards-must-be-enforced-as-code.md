@@ -6,6 +6,7 @@ tags:
   - source/finney-project-zt
   - topic/zt-app
   - topic/zt-cloud
+  - topic/zt-access-mgmt
 claim_id: "finney-ch8-11.4"
 statement: "Container security standards must be enforced as code, with negative checks"
 confidence: "medium"

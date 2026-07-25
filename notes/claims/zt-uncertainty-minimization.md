@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-definition
   - topic/zt-trust
+  - topic/zt-governance
+  - topic/zt-architecture
 claim_id: "nist207-ch2.2"
 statement: "The operative definition establishes ZT as uncertainty minimization, not absolute security"
 confidence: "high"

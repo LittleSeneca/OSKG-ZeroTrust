@@ -5,6 +5,8 @@ tags:
   - evidence/secondary-book
   - source/finney-project-zt
   - topic/zt-monitoring
+  - topic/zt-network
+  - topic/zt-implementation
 claim_id: "finney-ch4-7.9"
 statement: "The SOC is itself a protect surface — and most organizations don't treat it as one, creating a critical blind spot in their ZT strategy."
 confidence: "high"

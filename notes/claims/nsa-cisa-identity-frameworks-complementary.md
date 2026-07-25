@@ -6,6 +6,8 @@ tags:
   - source/nsa-zt-user-pillar
   - topic/zt-identity
   - topic/zt-governance
+  - topic/zt-authentication
+  - topic/zt-device
 claim_id: "nsa-user.6"
 statement: 'The NSA and CISA identity frameworks are complementary — NSA provides the "how" for the defense context, CISA provides the "what to measure"'
 confidence: "high"

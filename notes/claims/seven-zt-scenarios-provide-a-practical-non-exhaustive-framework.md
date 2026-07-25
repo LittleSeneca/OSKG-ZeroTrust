@@ -5,6 +5,8 @@ tags:
   - evidence/secondary-book
   - source/garbis-chapman-zt-enterprise
   - topic/zt-implementation
+  - topic/zt-cloud
+  - topic/zt-architecture
 claim_id: "gc-scenarios.1"
 statement: "Seven ZT scenarios provide a practical, non-exhaustive framework for identifying and prioritizing projects"
 confidence: "high"

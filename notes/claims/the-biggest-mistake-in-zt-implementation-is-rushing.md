@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-implementation
   - topic/zt-migration
+  - topic/zt-architecture
+  - topic/zt-network
 claim_id: "go-ch9-11.1"
 statement: "The biggest mistake in ZT implementation is rushing past monitor mode — organizations must inventory and understand endpoints in production before enforcing any restrictions, and monitor mode never truly ends."
 confidence: "high"

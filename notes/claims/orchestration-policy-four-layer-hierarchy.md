@@ -6,6 +6,8 @@ tags:
   - source/dod-zt-ra
   - topic/zt-policy
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-governance
 claim_id: "dod-ra-cap.7"
 statement: "Orchestration and Policy Management (Use Cases 7–9) — centralized orchestration through a four-layer hierarchy (Global SDE Orchestrator → Cybersecurity Domain Orchestrator → ZT Policy Controller → PEPs) resolves siloed policy conflicts, and the dynamic adaptive policy feedback loop enables ZT policy to improve over time rather than being static, evolving from out-of-band AI (human review) to in-band AI (automated within acceptable risk bounds)."
 confidence: "high"

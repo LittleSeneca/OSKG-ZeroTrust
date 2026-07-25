@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-definition
   - topic/zt-threats
+  - topic/zt-network
+  - topic/zt-implementation
 claim_id: "gc-ch1-3.1"
 statement: "Traditional enterprise security is structurally broken — not merely insufficient, but actively perpetuating vulnerability."
 confidence: "high"

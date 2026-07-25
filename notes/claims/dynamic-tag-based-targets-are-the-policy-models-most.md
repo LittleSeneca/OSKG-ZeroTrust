@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-policy
   - topic/zt-app
+  - topic/zt-implementation
+  - topic/zt-cloud
 claim_id: "gc-iam-policy.10"
 statement: "Dynamic, tag-based targets are the policy model's most powerful feature — they bind security enforcement to business/DevOps processes"
 confidence: "high"

@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/nist-sp-800-207
   - topic/zt-threats
+  - topic/zt-network
+  - topic/zt-implementation
 claim_id: "nist207-ch5.8"
 statement: "The three major ZT threat frameworks — NIST 800-207, NSA Embracing ZT, and Gilman & Barth — form a progression from architectural taxonomy through operational threat model to engineering-level adversarial analysis, and together cover threats from implementation detail through architecture to operational philosophy."
 confidence: "medium"

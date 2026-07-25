@@ -6,6 +6,8 @@ tags:
   - source/dod-zt-ra
   - topic/zt-architecture
   - topic/zt-implementation
+  - topic/zt-cloud
+  - topic/zt-network
 claim_id: "dod-ra-cap.1"
 statement: "The Seven Pillars serve as the organizing taxonomy for all ZT capabilities, with seven aggregated capabilities (Continuous Authentication, Conditional Authorization, Enabling Infrastructure, Securing Application & Workload, Securing Data, Analytics, Automation & Orchestration) each nesting into sub-capabilities that extend the entire taxonomy."
 confidence: "high"

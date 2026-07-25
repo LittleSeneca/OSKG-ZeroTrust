@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-data
   - topic/zt-governance
+  - topic/zt-network
+  - topic/zt-device
 claim_id: "cisa-ztmm-dnad.22"
 statement: "Data Cross-Cutting Capabilities — progress from limited visibility with manual analysis to visibility across the full data lifecycle with robust predictive analytics; from manual ad hoc data lifecycle processes to maximum automation of data lifecycles and security policies; from ad hoc governance with manual implementation to unified data lifecycle policies dynamically enforced across the enterprise."
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-app
   - topic/zt-supply-chain
+  - topic/zt-implementation
+  - topic/zt-governance
 claim_id: "gb-ch7-8.1"
 statement: "The application pipeline is a cryptographic chain — break any link and trust is lost"
 confidence: "high"

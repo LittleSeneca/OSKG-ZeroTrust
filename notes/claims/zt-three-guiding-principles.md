@@ -6,6 +6,8 @@ tags:
   - source/nsa-embracing-zt
   - topic/zt-tenets
   - topic/zt-implementation
+  - topic/zt-network
+  - topic/zt-governance
 claim_id: "nsa-embrace.2"
 statement: "The three guiding principles operationalize ZT for defenders"
 confidence: "high"

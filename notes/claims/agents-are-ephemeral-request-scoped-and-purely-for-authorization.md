@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-authentication
   - topic/zt-access-mgmt
+  - topic/zt-network
+  - topic/zt-identity
 claim_id: "gb-ch3.2"
 statement: "Agents are ephemeral, request-scoped, and purely for authorization — authentication is a separate precursor"
 confidence: "high"

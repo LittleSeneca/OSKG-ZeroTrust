@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-definition
   - topic/zt-architecture
+  - topic/zt-implementation
+  - topic/zt-governance
 claim_id: "nist207-ch1.3"
 statement: "ZTA is an enterprise cybersecurity architecture designed specifically to prevent data breaches and limit internal lateral movement."
 confidence: "medium"

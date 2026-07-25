@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-implementation
   - topic/zt-governance
+  - topic/zt-cloud
+  - topic/zt-architecture
 claim_id: "gc-scenarios.2"
 statement: "ZT success requires deliberately blending top-down strategic vision with bottom-up tactical execution"
 confidence: "high"

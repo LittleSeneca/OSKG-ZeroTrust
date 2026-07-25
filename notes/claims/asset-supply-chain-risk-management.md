@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-device
   - topic/zt-supply-chain
+  - topic/zt-network
+  - topic/zt-trust
 claim_id: "cisa-ztmm-dnad.2"
 statement: "Asset & Supply Chain Risk Management — maturity progresses from ad hoc, enterprise-blind tracking to comprehensive near-real-time visibility of all assets across vendors and service providers, with automated supply chain risk management and operations that tolerate supply chain failures."
 confidence: "high"

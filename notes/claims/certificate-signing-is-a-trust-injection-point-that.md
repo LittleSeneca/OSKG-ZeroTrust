@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-access-mgmt
   - topic/zt-encryption
+  - topic/zt-identity
+  - topic/zt-implementation
 claim_id: "gb-ch4-6.6"
 statement: "Certificate signing is a trust injection point that must be secured with multi-party authorization"
 confidence: "high"

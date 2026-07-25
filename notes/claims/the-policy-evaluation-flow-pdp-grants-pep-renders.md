@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-architecture
   - topic/zt-policy
+  - topic/zt-implementation
+  - topic/zt-network
 claim_id: "gc-iam-policy.12"
 statement: "The policy evaluation flow — PDP grants, PEP renders and enforces — establishes a clear division of labor with specific attribute refresh implications"
 confidence: "high"

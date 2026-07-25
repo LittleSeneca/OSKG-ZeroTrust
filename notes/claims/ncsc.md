@@ -6,6 +6,8 @@ tags:
   - source/ncsc
   - topic/zt-cloud
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-network
 claim_id: "ncsc.7"
 statement: "The NCSC-to-GCP mapping demonstrates that ZT is achievable through cloud-native managed services with significantly reduced operational burden compared to self-built ZT infrastructure."
 confidence: "high"

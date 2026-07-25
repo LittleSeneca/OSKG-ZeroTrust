@@ -6,6 +6,8 @@ tags:
   - source/finney-project-zt
   - topic/zt-supply-chain
   - topic/zt-threats
+  - topic/zt-definition
+  - topic/zt-trust
 claim_id: "finney-ch1-3.12"
 statement: "Third-party integrators and multi-vendor responsibility gaps create systemic vulnerability"
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207a
   - topic/zt-cloud
   - topic/zt-implementation
+  - topic/zt-governance
+  - topic/zt-definition
 claim_id: "nist-207a.6"
 statement: "Deploying identity-tier policies requires a standardized infrastructure for creating, issuing, and maintaining cryptographic service identities — SPIFFE is the recommended standard."
 confidence: "high"

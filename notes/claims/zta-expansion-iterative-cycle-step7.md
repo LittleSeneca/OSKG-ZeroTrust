@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/nist-sp-800-207
   - topic/zt-migration
+  - topic/zt-implementation
+  - topic/zt-governance
 claim_id: "nist207-ch7.11"
 statement: "ZTA expansion follows the same iterative cycle — each new business process repeats steps 1–7 — and significant workflow changes trigger reevaluation of existing ZTA deployments, making the cycle both iterative and reactive."
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/ncsc
   - topic/zt-cloud
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-network
 claim_id: "ncsc.5"
 statement: "Cloud-native monitoring (Security Command Center, Chronicle, Cloud Logging) enables ZT-appropriate monitoring focused on users/devices/services rather than network boundaries."
 confidence: "high"

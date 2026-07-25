@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-network
   - topic/zt-implementation
+  - topic/zt-cloud
+  - topic/zt-architecture
 claim_id: "nist207-ch3.8"
 statement: "Ten network requirements support ZTA"
 confidence: "high"

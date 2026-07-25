@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-migration
   - topic/zt-architecture
+  - topic/zt-implementation
+  - topic/zt-network
 claim_id: "gb-ch9.4"
 statement: "Zero Trust proxies are the bridge between ZT and legacy systems"
 confidence: "high"

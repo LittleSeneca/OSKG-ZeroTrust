@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-threats
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-governance
 claim_id: "nist207-ch5.6"
 statement: "Proprietary data formats and vendor-specific solutions create lock-in that is amplified under ZTA — interoperability gaps can lock an enterprise into a subset of providers, and migration costs are extreme if a provider has a security issue because ZTA is heavily dependent on dynamic information access."
 confidence: "medium"

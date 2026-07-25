@@ -6,6 +6,8 @@ tags:
   - source/dod-zt-strategy
   - topic/zt-governance
   - topic/zt-migration
+  - topic/zt-implementation
+  - topic/zt-architecture
 claim_id: "dod-strategy.4"
 statement: "The four strategic goals (Cultural Adoption, Systems Secured/Defended, Technology Acceleration, Zero Trust Enablement) address the full lifecycle of ZT transformation from mindset to sustainment."
 confidence: "high"

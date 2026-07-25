@@ -6,6 +6,8 @@ tags:
   - source/finney-project-zt
   - topic/zt-definition
   - topic/zt-architecture
+  - topic/zt-implementation
+  - topic/zt-network
 claim_id: "finney-ch4-7.3"
 statement: "NIST SP 800-207 provides the architectural tenets, but Kindervag's design principles and five-step methodology provide the actionable strategy."
 confidence: "high"

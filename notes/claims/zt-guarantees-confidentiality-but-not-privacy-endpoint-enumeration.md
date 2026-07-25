@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-encryption
   - topic/zt-network
+  - topic/zt-implementation
+  - topic/zt-definition
 claim_id: "gb-ch10.3"
 statement: "ZT guarantees confidentiality but not privacy — endpoint enumeration is a real tradeoff"
 confidence: "high"

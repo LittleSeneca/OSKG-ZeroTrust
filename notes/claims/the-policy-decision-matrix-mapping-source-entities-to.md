@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-policy
   - topic/zt-architecture
+  - topic/zt-implementation
+  - topic/zt-governance
 claim_id: "go-ch6-8.9"
 statement: "The policy decision matrix — mapping source entities to destination entities with per-cell permit/deny, port/protocol, and directionality — is the output artifact of ZT planning, and multiple matrices will be needed across intra-data center, inter-site, and per-business-unit contexts."
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-definition
   - topic/zt-tenets
+  - topic/zt-governance
+  - topic/zt-architecture
 claim_id: "nist207-ch2.1"
 statement: "Zero Trust is defined by its positive tenets, not by what it excludes"
 confidence: "high"

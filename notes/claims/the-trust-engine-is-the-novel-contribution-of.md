@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-trust
   - topic/zt-architecture
+  - topic/zt-implementation
+  - topic/zt-governance
 claim_id: "gb-ch4-6.2"
 statement: "The trust engine is the novel contribution of ZT — using risk scoring to catch unknown attacks"
 confidence: "medium"

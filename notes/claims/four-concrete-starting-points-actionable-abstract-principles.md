@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/cccs
   - topic/zt-definition
+  - topic/zt-governance
+  - topic/zt-architecture
 claim_id: "cccs-model.5"
 statement: "Four concrete starting points are more actionable than abstract principles"
 confidence: "high"

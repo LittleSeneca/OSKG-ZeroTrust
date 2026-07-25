@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-threats
   - topic/zt-authentication
+  - topic/zt-identity
+  - topic/zt-architecture
 claim_id: "nist207-ch5.7"
 statement: 'Non-Person Entities (NPEs) — AI agents and software-based automation managing ZTA security components — introduce unresolved authentication and decision-quality risks, and NIST flags NPE authentication as an "open issue."'
 confidence: "medium"

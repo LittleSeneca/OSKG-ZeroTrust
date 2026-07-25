@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-migration
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-network
 claim_id: "go-ch9-11.3"
 statement: "Brownfield environments require 3–4× the timeline of greenfield deployments because every newly profiled device forces recursive re-analysis of previously identified devices."
 confidence: "high"

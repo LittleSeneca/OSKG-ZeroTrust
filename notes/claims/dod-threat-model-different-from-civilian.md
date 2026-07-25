@@ -6,6 +6,8 @@ tags:
   - source/dod-zt-ra
   - topic/zt-threats
   - topic/zt-definition
+  - topic/zt-network
+  - topic/zt-implementation
 claim_id: "dod-ra-ov.2"
 statement: "The DoD threat model is fundamentally different from civilian ZT"
 confidence: "high"

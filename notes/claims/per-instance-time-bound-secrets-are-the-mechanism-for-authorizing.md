@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-app
   - topic/zt-authentication
+  - topic/zt-cloud
+  - topic/zt-governance
 claim_id: "gb-ch7-8.5"
 statement: "Per-instance time-bound secrets are the mechanism for authorizing running applications"
 confidence: "high"

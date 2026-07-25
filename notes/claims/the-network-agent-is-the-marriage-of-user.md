@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-identity
   - topic/zt-architecture
+  - topic/zt-definition
+  - topic/zt-device
 claim_id: "gb-ch3.1"
 statement: "The network agent is the marriage of user, device, and application — the atomic unit of authorization"
 confidence: "high"

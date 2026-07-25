@@ -5,6 +5,8 @@ tags:
   - evidence/secondary-book
   - source/gilman-barth-zt-networks
   - topic/zt-migration
+  - topic/zt-maturity
+  - topic/zt-device
 claim_id: "gb-ch9.5"
 statement: "Client-to-server and server-to-server migrations are different problems with different starting points"
 confidence: "high"

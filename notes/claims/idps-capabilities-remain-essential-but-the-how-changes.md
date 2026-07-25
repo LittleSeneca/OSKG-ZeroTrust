@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-network
   - topic/zt-monitoring
+  - topic/zt-implementation
+  - topic/zt-segmentation
 claim_id: "gc-net-access.5"
 statement: 'IDPS capabilities remain essential but the *how* changes — network-based IDPS is challenged by encrypted ZT tunnels, host-based IDPS gains relative advantage, and IDPS will increasingly be "baked in" to the ZT platform.'
 confidence: "high"

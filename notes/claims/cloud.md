@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207a
   - topic/zt-cloud
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-network
 claim_id: "nist-207a.2"
 statement: 'Cloud-native ZTA requires a dedicated infrastructure layer — the service mesh — that acts as a "cloud-native security kernel" providing non-bypassable, always-invoked enforcement independent of application code.'
 confidence: "medium"

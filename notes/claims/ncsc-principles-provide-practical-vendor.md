@@ -6,6 +6,8 @@ tags:
   - source/ncsc
   - topic/zt-cloud
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-network
 claim_id: "ncsc.1"
 statement: "The NCSC's 8 principles provide a practical, vendor-agnostic framework for ZT architecture that is complementary to NIST SP 800-207 but more operationally prescriptive."
 confidence: "high"

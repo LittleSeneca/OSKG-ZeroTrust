@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-identity
   - topic/zt-risk
+  - topic/zt-governance
+  - topic/zt-device
 claim_id: "cisa-ztmm-id.5"
 statement: "Risk assessment evolves from a static, periodic checkbox activity to a real-time, continuous feed into every access decision — a structural shift that CISA treats as a first-class function with its own maturity track, whereas NSA treats it as a property of the access management system."
 confidence: "medium"

@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-governance
   - topic/zt-architecture
+  - topic/zt-implementation
+  - topic/zt-network
 claim_id: "go-ch9-11.5"
 statement: "Siloed teams — where network, security, applications, and operations report to different executives with conflicting success metrics — are the #1 operational failure mode for ZT."
 confidence: "high"

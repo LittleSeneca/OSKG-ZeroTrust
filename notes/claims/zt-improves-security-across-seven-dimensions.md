@@ -6,6 +6,8 @@ tags:
   - source/cccs
   - topic/zt-architecture
   - topic/zt-implementation
+  - topic/zt-cloud
+  - topic/zt-network
 claim_id: "cccs-arch.6"
 statement: "ZT improves security across seven dimensions"
 confidence: "high"

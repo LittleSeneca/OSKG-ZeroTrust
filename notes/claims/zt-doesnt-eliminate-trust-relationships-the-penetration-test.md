@@ -6,6 +6,8 @@ tags:
   - source/finney-project-zt
   - topic/zt-implementation
   - topic/zt-trust
+  - topic/zt-architecture
+  - topic/zt-network
 claim_id: "finney-ch8-11.9"
 statement: "ZT doesn't eliminate trust relationships — the penetration test exposed two that remained"
 confidence: "high"

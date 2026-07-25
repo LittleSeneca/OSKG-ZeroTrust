@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-identity
   - topic/zt-device
+  - topic/zt-governance
+  - topic/zt-implementation
 claim_id: "go-intro.5"
 statement: "Identity must be contextual — WHO, WHAT device, WHERE, HOW, and WHEN all matter"
 confidence: "medium"

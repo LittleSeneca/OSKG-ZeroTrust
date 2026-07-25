@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-architecture
   - topic/zt-trust
+  - topic/zt-implementation
+  - topic/zt-definition
 claim_id: "go-ch3-5.1"
 statement: "Trust assessment is spatial — the architecture location determines trust data availability and granularity"
 confidence: "high"

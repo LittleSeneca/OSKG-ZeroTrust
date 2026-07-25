@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-tenets
   - topic/zt-governance
+  - topic/zt-implementation
+  - topic/zt-architecture
 claim_id: "nist207-ch2.3"
 statement: "The seven tenets are aspirational, not mandatory"
 confidence: "high"

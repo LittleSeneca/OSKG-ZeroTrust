@@ -5,6 +5,8 @@ tags:
   - evidence/secondary-book
   - source/finney-project-zt
   - topic/zt-governance
+  - topic/zt-definition
+  - topic/zt-implementation
 claim_id: "finney-ch8-11.13"
 statement: "The CISO's measure of success is not \"were we hacked?\" but \"how did we respond?\""
 confidence: "medium"

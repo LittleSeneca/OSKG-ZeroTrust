@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-network
   - topic/zt-monitoring
+  - topic/zt-implementation
+  - topic/zt-architecture
 claim_id: "gc-net-access.2"
 statement: 'DNS is both a critical infrastructure component and a security monitoring tool under ZT — private DNS resolution must adapt to distributed environments, and DNS monitoring for known-bad domains is "high-value and low-risk."'
 confidence: "high"

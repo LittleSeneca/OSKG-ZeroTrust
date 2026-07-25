@@ -6,6 +6,8 @@ tags:
   - source/dod-zt-strategy
   - topic/zt-governance
   - topic/zt-migration
+  - topic/zt-monitoring
+  - topic/zt-maturity
 claim_id: "dod-strategy.3"
 statement: "Target Level ZT must be achieved by end of FY2027 as the minimum security baseline; Advanced ZT represents the next-generation adaptive security state."
 confidence: "high"

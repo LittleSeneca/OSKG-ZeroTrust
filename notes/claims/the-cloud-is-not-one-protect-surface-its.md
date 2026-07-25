@@ -5,6 +5,8 @@ tags:
   - evidence/secondary-book
   - source/finney-project-zt
   - topic/zt-cloud
+  - topic/zt-architecture
+  - topic/zt-supply-chain
 claim_id: "finney-ch8-11.1"
 statement: "The cloud is not one protect surface — it's many, and the real protect surface is the project management process"
 confidence: "high"

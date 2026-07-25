@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-architecture
   - topic/zt-implementation
+  - topic/zt-cloud
+  - topic/zt-network
 claim_id: "nist207-ch3.4"
 statement: "Four deployment models operationalize the logical architecture"
 confidence: "high"

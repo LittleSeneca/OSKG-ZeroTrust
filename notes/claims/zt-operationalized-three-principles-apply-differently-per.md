@@ -6,6 +6,8 @@ tags:
   - source/halley-resilient-cloud
   - topic/zt-cloud
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-network
 claim_id: "halley.1"
 statement: "ZT is operationalized through three principles that apply differently per environment"
 confidence: "high"

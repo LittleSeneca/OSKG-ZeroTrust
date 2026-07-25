@@ -6,6 +6,8 @@ tags:
   - source/yu-cdm
   - topic/zt-architecture
   - topic/zt-definition
+  - topic/zt-governance
+  - topic/zt-policy
 claim_id: "yu-cdm.1"
 statement: "The 5×5 grid is the most parsimonious complete map of cybersecurity"
 confidence: "high"

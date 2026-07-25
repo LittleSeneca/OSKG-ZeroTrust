@@ -6,6 +6,8 @@ tags:
   - source/nstac
   - topic/zt-identity
   - topic/zt-governance
+  - topic/zt-device
+  - topic/zt-architecture
 claim_id: "nstac.2"
 statement: "Industry best practices — the Five-Step Process and the Kipling Method — should be the basis for federal ZT accountability metrics, not just technical checkbox completion."
 confidence: "high"

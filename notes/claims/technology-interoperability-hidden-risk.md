@@ -6,6 +6,8 @@ tags:
   - source/nstac
   - topic/zt-identity
   - topic/zt-governance
+  - topic/zt-architecture
+  - topic/zt-maturity
 claim_id: "nstac.7"
 statement: 'Technology interoperability is the hidden risk — without component-level interface standards, ZT creates vendor lock-in and "a proliferation of multiple solutions [that] increases management complexity."'
 confidence: "high"

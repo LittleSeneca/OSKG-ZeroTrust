@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-architecture
   - topic/zt-access-mgmt
+  - topic/zt-implementation
+  - topic/zt-definition
 claim_id: "gb-ch4-6.1"
 statement: "The authorization architecture has four distinct, isolated components"
 confidence: "high"

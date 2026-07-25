@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-architecture
   - topic/zt-policy
+  - topic/zt-implementation
+  - topic/zt-network
 claim_id: "nist207-ch3.2"
 statement: "Eight data sources feed the Policy Engine's access decisions"
 confidence: "high"

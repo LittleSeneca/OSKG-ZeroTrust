@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-identity
   - topic/zt-authentication
+  - topic/zt-governance
+  - topic/zt-access-mgmt
 claim_id: "cisa-ztmm-id.3"
 statement: "Authentication is the keystone function of the Identity pillar — the jump from Traditional (passwords) to Advanced/Optimal (phishing-resistant MFA + continuous validation) is the largest single capability gap and the one most directly tied to breach prevention."
 confidence: "high"

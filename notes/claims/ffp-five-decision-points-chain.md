@@ -6,6 +6,8 @@ tags:
   - source/dod-zt-ra
   - topic/zt-architecture
   - topic/zt-policy
+  - topic/zt-implementation
+  - topic/zt-governance
 claim_id: "dod-ra-cap.3"
 statement: "The Fit-for-Purpose (FFP) mapping instantiates a chain of five decision points — not NIST's single PDP — extending from Authentication through Authorization, Resource, Application, to Data, with each building on the previous and independently evaluating confidence levels."
 confidence: "high"

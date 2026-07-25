@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-identity
   - topic/zt-maturity
+  - topic/zt-governance
+  - topic/zt-access-mgmt
 claim_id: "cisa-ztmm-id.2"
 statement: "CISA defines four maturity stages — Traditional (manual, static, perimeter-based), Initial (automation begins, some cloud integration, MFA required), Advanced (phishing-resistant MFA, dynamic risk assessments, session-based access), and Optimal (fully automated, continuous validation, JIT/JEA, behavior-based analytics) — that apply across all pillars."
 confidence: "high"

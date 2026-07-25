@@ -6,6 +6,8 @@ tags:
   - source/beyondcorp
   - topic/zt-implementation
   - topic/zt-architecture
+  - topic/zt-network
+  - topic/zt-governance
 claim_id: "beyondcorp.2"
 statement: "The BeyondCorp access flow enforces per-request authorization through a continuously running trust inference pipeline that dynamically computes trust levels for both devices and users based on OS patch level, device model, security scan results, location, and behavioral heuristics."
 confidence: "high"

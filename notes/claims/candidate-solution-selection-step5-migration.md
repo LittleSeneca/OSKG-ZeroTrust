@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/nist-sp-800-207
   - topic/zt-migration
+  - topic/zt-implementation
+  - topic/zt-governance
 claim_id: "nist207-ch7.9"
 statement: "Candidate solution selection must evaluate client footprint, traffic patterns, logging/analysis capabilities, protocol support, and subject behavior changes — with a recommended pilot approach that serves as a proving ground before full transition."
 confidence: "high"

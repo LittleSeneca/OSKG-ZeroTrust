@@ -6,6 +6,8 @@ tags:
   - source/cccs
   - topic/zt-architecture
   - topic/zt-implementation
+  - topic/zt-cloud
+  - topic/zt-network
 claim_id: "cccs-arch.4"
 statement: "Organizations should choose among NIST, CISA, and NCSC frameworks — not invent their own"
 confidence: "high"

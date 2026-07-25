@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-data
   - topic/zt-implementation
+  - topic/zt-network
+  - topic/zt-governance
 claim_id: "cisa-ztmm-dnad.18"
 statement: "Data Categorization — maturity progresses from limited and ad hoc categorization to automated data categorization and labeling enterprise-wide with robust techniques, granular structured formats, and mechanisms to address all data types."
 confidence: "high"

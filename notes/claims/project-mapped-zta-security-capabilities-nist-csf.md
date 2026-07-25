@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/nist-sp-1800-35
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-governance
 claim_id: "nist-1800-35.6"
 statement: "The project mapped ZTA security capabilities to NIST CSF 1.1/2.0, NIST SP 800-53r5, and NIST critical software security measures — demonstrating that ZTA implementations support, rather than replace, existing compliance frameworks."
 confidence: "medium"

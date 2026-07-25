@@ -6,6 +6,8 @@ tags:
   - source/nsa-zt-user-pillar
   - topic/zt-identity
   - topic/zt-authentication
+  - topic/zt-governance
+  - topic/zt-device
 claim_id: "nsa-user.3"
 statement: "Credential management is defined by phishing resistance — MFA is the floor, AAL3 is the ceiling"
 confidence: "high"

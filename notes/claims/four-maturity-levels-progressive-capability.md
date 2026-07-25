@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-maturity
   - topic/zt-governance
+  - topic/zt-identity
+  - topic/zt-migration
 claim_id: "cisa-ztmm-ov.7"
 statement: "The four maturity levels define progressive capability from static/manual to dynamic/automated"
 confidence: "high"

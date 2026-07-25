@@ -6,6 +6,8 @@ tags:
   - source/finney-project-zt
   - topic/zt-threats
   - topic/zt-monitoring
+  - topic/zt-network
+  - topic/zt-device
 claim_id: "finney-ch8-11.12"
 statement: "Deception technologies invert ZT — selectively add trust back to detect and disrupt attackers"
 confidence: "medium"

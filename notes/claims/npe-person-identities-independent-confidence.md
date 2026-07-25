@@ -6,6 +6,8 @@ tags:
   - source/dod-zt-ra
   - topic/zt-identity
   - topic/zt-architecture
+  - topic/zt-governance
+  - topic/zt-device
 claim_id: "dod-ra-cap.4"
 statement: "NPE and person identities are tracked independently, allowing separate paths for validating confidence levels — device and user confidence are independently developed and then aggregated at policy enforcement time, with access granted only if the combined confidence score exceeds a measured threshold that varies by data sensitivity."
 confidence: "high"

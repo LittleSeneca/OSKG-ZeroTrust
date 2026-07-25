@@ -6,6 +6,8 @@ tags:
   - source/finney-project-zt
   - topic/zt-governance
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-identity
 claim_id: "finney-ch8-11.5"
 statement: "Security awareness training is a protect surface — apply the ZT design methodology to people"
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-architecture
   - topic/zt-identity
+  - topic/zt-definition
+  - topic/zt-policy
 claim_id: "gc-ch1-3.11"
 statement: "A component is only a PEP if it enforces identity-centric, dynamic policies via an automated control channel — traditional firewalls alone don't qualify."
 confidence: "high"

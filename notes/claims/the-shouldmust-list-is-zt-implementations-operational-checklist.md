@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-implementation
   - topic/zt-governance
+  - topic/zt-architecture
+  - topic/zt-network
 claim_id: "gb-ch9.1"
 statement: "The SHOULD/MUST list is ZT implementation's operational checklist"
 confidence: "high"

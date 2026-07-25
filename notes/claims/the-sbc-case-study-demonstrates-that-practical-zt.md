@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-implementation
   - topic/zt-device
+  - topic/zt-cloud
+  - topic/zt-architecture
 claim_id: "go-ch9-11.7"
 statement: "The SBC case study demonstrates that practical ZT implementation must constrain scope aggressively — 10 TrustSec tags maximum, 5–7 endpoint groups, and a dedicated IoT tiger team — to avoid analysis paralysis and operational chaos."
 confidence: "high"

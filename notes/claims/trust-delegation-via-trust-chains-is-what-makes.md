@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-trust
   - topic/zt-architecture
+  - topic/zt-implementation
+  - topic/zt-definition
 claim_id: "gb-ch2.6"
 statement: "Trust delegation via trust chains is what makes ZT scalable"
 confidence: "high"

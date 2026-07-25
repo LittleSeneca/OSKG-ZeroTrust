@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-implementation
   - topic/zt-identity
+  - topic/zt-cloud
+  - topic/zt-migration
 claim_id: "gc-iam-policy.8"
 statement: "ZT can serve as a catalyst to improve IAM — not just consume it"
 confidence: "medium"

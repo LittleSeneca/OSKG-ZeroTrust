@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-governance
   - topic/zt-device
+  - topic/zt-identity
+  - topic/zt-definition
 claim_id: "nist207-ch6.8"
 statement: "CDM is the visibility prerequisite for ZTA — without CDM's four foundational questions answered (what is connected, who is on the network, what is happening, how is data protected), ZTA cannot evaluate device posture or make informed access decisions."
 confidence: "high"

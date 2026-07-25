@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-network
   - topic/zt-implementation
+  - topic/zt-governance
+  - topic/zt-device
 claim_id: "cisa-ztmm-dnad.9"
 statement: "Network Resilience — maturity progresses from case-by-case network configuration matching individual application availability demands with limited resilience for non-mission-critical workloads to holistic delivery and awareness adapting to changes in availability demands for all workloads with proportionate resilience."
 confidence: "high"

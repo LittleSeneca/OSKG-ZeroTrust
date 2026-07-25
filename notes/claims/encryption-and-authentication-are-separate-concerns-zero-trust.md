@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-authentication
   - topic/zt-encryption
+  - topic/zt-identity
+  - topic/zt-threats
 claim_id: "gb-ch7-8.7"
 statement: 'Encryption and authentication are separate concerns — zero trust requires authenticity; encryption comes "for free"'
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-trust
   - topic/zt-architecture
+  - topic/zt-implementation
+  - topic/zt-definition
 claim_id: "gb-ch2.3"
 statement: "Variable trust scores replace binary policy with continuous, dynamic authorization"
 confidence: "high"

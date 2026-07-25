@@ -6,6 +6,8 @@ tags:
   - source/nsa-zt-user-pillar
   - topic/zt-identity
   - topic/zt-federation
+  - topic/zt-governance
+  - topic/zt-device
 claim_id: "nsa-user.5"
 statement: "Identity federation is the hard problem — maturity amplifies complexity, not reduces it"
 confidence: "medium"

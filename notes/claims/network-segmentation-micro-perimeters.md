@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-network
   - topic/zt-segmentation
+  - topic/zt-architecture
+  - topic/zt-device
 claim_id: "cisa-ztmm-dnad.6"
 statement: "Network Segmentation — maturity progresses from large perimeter/macro-segmentation with minimal intra-segment restrictions to fully distributed ingress/egress micro-perimeters with extensive micro-segmentation based on application profiles and dynamic JIT/JEA connectivity."
 confidence: "high"

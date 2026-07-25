@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-cloud
   - topic/zt-threats
+  - topic/zt-network
+  - topic/zt-implementation
 claim_id: "gc-cloud.1"
 statement: "IaaS/PaaS security hasn't kept pace with IaaS/PaaS adoption"
 confidence: "high"

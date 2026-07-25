@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-data
   - topic/zt-maturity
+  - topic/zt-access-mgmt
+  - topic/zt-identity
 claim_id: "gc-soc-data-iot.3"
 statement: "Data protection is an advanced ZT use case — classification maturity and platform capabilities are prerequisites, making it unsuitable for early ZT projects."
 confidence: "high"

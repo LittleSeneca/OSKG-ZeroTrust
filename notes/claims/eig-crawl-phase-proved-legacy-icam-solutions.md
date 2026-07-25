@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/nist-sp-1800-35
   - topic/zt-implementation
+  - topic/zt-cloud
+  - topic/zt-architecture
 claim_id: "nist-1800-35.3"
 statement: "The EIG crawl phase proved that legacy ICAM solutions can serve as PDPs for basic ZTA, but resource management (authenticating and verifying the health of the endpoint hosting the resource) is beyond current out-of-the-box integration capabilities."
 confidence: "high"

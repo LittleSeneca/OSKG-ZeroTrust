@@ -6,6 +6,8 @@ tags:
   - source/bsi
   - topic/zt-definition
   - topic/zt-governance
+  - topic/zt-identity
+  - topic/zt-architecture
 claim_id: "bsi-zt.7"
 statement: "BSI is the first national agency to provide detailed guidance on integrating real-time signals into ZT access decisions"
 confidence: "high"

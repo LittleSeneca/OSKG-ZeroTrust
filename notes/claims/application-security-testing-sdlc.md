@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-app
   - topic/zt-implementation
+  - topic/zt-network
+  - topic/zt-governance
 claim_id: "cisa-ztmm-dnad.15"
 statement: "Application Security Testing — maturity progresses from primarily manual pre-deployment testing to integrated security testing throughout the SDLC with routine automated testing of deployed applications."
 confidence: "high"

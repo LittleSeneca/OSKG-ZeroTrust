@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-definition
   - topic/zt-access-mgmt
+  - topic/zt-identity
+  - topic/zt-architecture
 claim_id: "gc-ch1-3.4"
 statement: "Zero Trust amplifies existing security concepts (least privilege, RBAC) into a holistic, identity-centric, automated platform — this is what's new."
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/finney-project-zt
   - topic/zt-app
   - topic/zt-monitoring
+  - topic/zt-implementation
+  - topic/zt-access-mgmt
 claim_id: "finney-ch4-7.2"
 statement: "ERP systems are uniquely opaque to traditional security tools and require specialized solutions — but process changes matter more than technology purchases."
 confidence: "high"

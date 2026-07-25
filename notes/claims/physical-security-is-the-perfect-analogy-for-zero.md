@@ -5,6 +5,8 @@ tags:
   - evidence/secondary-book
   - source/finney-project-zt
   - topic/zt-definition
+  - topic/zt-network
+  - topic/zt-identity
 claim_id: "finney-ch1-3.9"
 statement: "Physical security is the perfect analogy for Zero Trust"
 confidence: "high"

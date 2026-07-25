@@ -6,6 +6,8 @@ tags:
   - source/nsa-zt-device-pillar
   - topic/zt-device
   - topic/zt-trust
+  - topic/zt-identity
+  - topic/zt-access-mgmt
 claim_id: "nsa-device.3"
 statement: "Authorization decisions must be continuous and risk-based, not one-time at connection"
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-migration
   - topic/zt-implementation
+  - topic/zt-cloud
+  - topic/zt-architecture
 claim_id: "nist207-ch7.13"
 statement: "The indefinite hybrid period imposes dual-mode requirements on common infrastructure — ID management, device management, and logging must serve both ZTA and perimeter-based workflows simultaneously, and ZTA solutions must interface with existing enterprise components without requiring ZTA-only infrastructure."
 confidence: "high"

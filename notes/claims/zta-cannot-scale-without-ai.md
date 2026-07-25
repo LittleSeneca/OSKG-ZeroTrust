@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/academic-zt
   - topic/zt-definition
+  - topic/zt-governance
+  - topic/zt-architecture
 claim_id: "academic.5"
 statement: "ZTA cannot scale without AI-driven automation — manual access credential management, trust evaluation, and policy updates become impossible at enterprise scale, and AI is the only viable approach, but no unified automation policy exists."
 confidence: "medium"

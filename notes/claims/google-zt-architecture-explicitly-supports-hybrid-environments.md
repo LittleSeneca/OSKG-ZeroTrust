@@ -6,6 +6,8 @@ tags:
   - source/ncsc
   - topic/zt-cloud
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-migration
 claim_id: "ncsc.6"
 statement: "Google's ZT architecture explicitly supports hybrid environments — on-premises applications can be secured through IAP connectors without requiring cloud migration."
 confidence: "high"

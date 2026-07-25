@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-network
   - topic/zt-cloud
+  - topic/zt-implementation
+  - topic/zt-definition
 claim_id: "gc-cloud.5"
 statement: "SASE/ZTE converges networking and security, but ZTNA (ingress) is architecturally distinct"
 confidence: "high"

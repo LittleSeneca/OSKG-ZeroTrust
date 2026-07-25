@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207a
   - topic/zt-cloud
   - topic/zt-implementation
+  - topic/zt-network
+  - topic/zt-governance
 claim_id: "nist-207a.4"
 statement: "Identity-tier policies provide five major advantages over network-tier: environment agnosticism, automated testing, policy-as-code, fine-grained visibility, and human readability."
 confidence: "medium"

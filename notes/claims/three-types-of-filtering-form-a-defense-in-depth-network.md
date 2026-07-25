@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-architecture
   - topic/zt-network
+  - topic/zt-implementation
+  - topic/zt-policy
 claim_id: "gb-ch7-8.12"
 statement: "Three types of filtering form a defense-in-depth network security architecture"
 confidence: "high"

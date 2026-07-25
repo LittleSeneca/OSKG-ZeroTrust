@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-device
   - topic/zt-governance
+  - topic/zt-network
+  - topic/zt-access-mgmt
 claim_id: "cisa-ztmm-dnad.5"
 statement: "Device Cross-Cutting Capabilities (Visibility & Analytics, Automation & Orchestration, Governance) — progress from manual, physically-labeled inventory to automated status collection of all network-connected devices correlated with identities, endpoint monitoring, and anomaly detection; from manual provisioning to fully automated lifecycle management; from ad hoc policies to automated enterprise-wide device lifecycle governance."
 confidence: "high"

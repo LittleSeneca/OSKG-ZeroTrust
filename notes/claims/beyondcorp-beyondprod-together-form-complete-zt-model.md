@@ -6,6 +6,8 @@ tags:
   - source/beyondprod
   - topic/zt-cloud
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-governance
 claim_id: "beyondprod.6"
 statement: "BeyondCorp and BeyondProd together form a complete ZT model — BeyondCorp for the north-south axis (user-to-app) and BeyondProd for the east-west axis (service-to-service) — a distinction NIST 800-207 does not explicitly make."
 confidence: "medium"

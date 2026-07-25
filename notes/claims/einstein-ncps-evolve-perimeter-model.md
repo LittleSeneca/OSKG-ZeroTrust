@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-governance
   - topic/zt-monitoring
+  - topic/zt-architecture
+  - topic/zt-migration
 claim_id: "nist207-ch6.7"
 statement: "EINSTEIN/NCPS must evolve its perimeter-situational-awareness model to ingest cloud-based telemetry and ZTA-generated data — ZTA improves detection data quality but requires NCPS to adapt its sensor model from perimeter-based to resource-proximate."
 confidence: "medium"

@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-definition
   - topic/zt-threats
+  - topic/zt-network
+  - topic/zt-architecture
 claim_id: "go-intro.1"
 statement: "Zero Trust originated from the Morris Worm and Stephen Marsh's thesis, not from a vendor marketing campaign"
 confidence: "high"

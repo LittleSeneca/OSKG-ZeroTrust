@@ -6,6 +6,7 @@ tags:
   - source/nsa-embracing-zt
   - topic/zt-maturity
   - topic/zt-migration
+  - topic/zt-governance
 claim_id: "nsa-embrace.4"
 statement: "ZT maturity is incremental, not binary"
 confidence: "high"

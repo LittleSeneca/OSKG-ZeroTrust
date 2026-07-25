@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-device
   - topic/zt-implementation
+  - topic/zt-network
+  - topic/zt-governance
 claim_id: "cisa-ztmm-dnad.1"
 statement: "Device Policy Enforcement & Compliance Monitoring — maturity progresses from limited visibility and manual enforcement to continuous verification of compliance throughout device/virtual asset lifetimes, with automated methods for managing software, vulnerabilities, and patches integrated across all environments."
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-data
   - topic/zt-access-mgmt
+  - topic/zt-network
+  - topic/zt-identity
 claim_id: "cisa-ztmm-dnad.20"
 statement: "Data Access — maturity progresses from static access controls governing user/entity access to automated dynamic just-in-time and just-enough data access controls enterprise-wide with continuous review of permissions, considering identity, device risk, application, and data category."
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-cloud
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-network
 claim_id: "nist207-ch4.3"
 statement: "Multi-cloud environments require the SDP server-to-server model — a PEP at each cloud-hosted service, no enterprise network hairpinning, and the enterprise perimeter is irrelevant to the security model."
 confidence: "high"

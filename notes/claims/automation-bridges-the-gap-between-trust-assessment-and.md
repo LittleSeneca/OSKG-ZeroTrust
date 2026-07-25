@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-implementation
   - topic/zt-maturity
+  - topic/zt-cloud
+  - topic/zt-architecture
 claim_id: "go-ch3-5.6"
 statement: "Automation bridges the gap between trust assessment and enforcement at scale — continuous, not occasional, evaluation"
 confidence: "high"

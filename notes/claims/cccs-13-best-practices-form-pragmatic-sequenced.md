@@ -6,6 +6,8 @@ tags:
   - source/cccs
   - topic/zt-architecture
   - topic/zt-implementation
+  - topic/zt-cloud
+  - topic/zt-definition
 claim_id: "cccs-arch.5"
 statement: "CCCS's 13 best practices form a pragmatic, sequenced ZTA implementation guide"
 confidence: "high"

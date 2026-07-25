@@ -6,6 +6,8 @@ tags:
   - source/bsi
   - topic/zt-definition
   - topic/zt-governance
+  - topic/zt-trust
+  - topic/zt-maturity
 claim_id: "bsi-zt.5"
 statement: "BSI specifies five mandatory prerequisites before ZT implementation can begin"
 confidence: "high"

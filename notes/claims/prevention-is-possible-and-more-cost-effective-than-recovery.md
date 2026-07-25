@@ -5,6 +5,8 @@ tags:
   - evidence/secondary-book
   - source/finney-project-zt
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-threats
 claim_id: "finney-ch1-3.2"
 statement: "Prevention is possible and more cost-effective than recovery"
 confidence: "medium"

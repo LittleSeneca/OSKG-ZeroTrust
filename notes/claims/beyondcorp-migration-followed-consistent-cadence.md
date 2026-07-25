@@ -6,6 +6,8 @@ tags:
   - source/beyondcorp
   - topic/zt-implementation
   - topic/zt-architecture
+  - topic/zt-network
+  - topic/zt-migration
 claim_id: "beyondcorp.11"
 statement: "The BeyondCorp migration followed a consistent cadence — Analyze → Log → Warn → Enforce → Default — where the Log phase (simulation, audit mode, monitor mode) was never skipped across any major change, and this pattern is the single most important operational lesson for ZT migration."
 confidence: "high"

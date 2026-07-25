@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/cccs
   - topic/zt-definition
+  - topic/zt-governance
+  - topic/zt-architecture
 claim_id: "cccs-model.1"
 statement: "ZT is defined through the CISA five-pillar model rather than NIST tenets"
 confidence: "high"

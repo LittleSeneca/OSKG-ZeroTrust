@@ -6,6 +6,8 @@ tags:
   - source/beyondprod
   - topic/zt-cloud
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-governance
 claim_id: "beyondprod.2"
 statement: "ALTS (Application Layer Transport Security) is the workhorse of BeyondProd — binding identities to services rather than hosts is the critical design decision that enables seamless replication, load balancing, and rescheduling across machines."
 confidence: "high"

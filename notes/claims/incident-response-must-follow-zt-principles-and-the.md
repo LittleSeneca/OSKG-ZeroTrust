@@ -6,6 +6,8 @@ tags:
   - source/finney-project-zt
   - topic/zt-definition
   - topic/zt-implementation
+  - topic/zt-governance
+  - topic/zt-access-mgmt
 claim_id: "finney-ch4-7.11"
 statement: "Incident response must follow ZT principles, and the NIST Cybersecurity Framework provides a timeline-based structure that maps cleanly to ZT protect surfaces."
 confidence: "high"

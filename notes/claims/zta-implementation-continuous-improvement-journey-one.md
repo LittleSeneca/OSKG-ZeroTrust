@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/nist-sp-1800-35
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-migration
 claim_id: "nist-1800-35.4"
 statement: "ZTA implementation is a continuous improvement journey, not a one-time project — seven sequential steps, with discovery and identity as the non-negotiable foundations."
 confidence: "high"

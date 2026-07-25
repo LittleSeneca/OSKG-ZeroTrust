@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-identity
   - topic/zt-device
+  - topic/zt-governance
+  - topic/zt-access-mgmt
 claim_id: "gb-ch4-6.9"
 statement: "User identity and device identity are separate trust domains — conflating them is dangerous"
 confidence: "high"

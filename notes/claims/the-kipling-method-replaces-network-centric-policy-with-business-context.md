@@ -6,6 +6,8 @@ tags:
   - source/finney-project-zt
   - topic/zt-policy
   - topic/zt-governance
+  - topic/zt-definition
+  - topic/zt-identity
 claim_id: "finney-ch1-3.8"
 statement: "The Kipling Method replaces network-centric policy with business-context policy"
 confidence: "medium"

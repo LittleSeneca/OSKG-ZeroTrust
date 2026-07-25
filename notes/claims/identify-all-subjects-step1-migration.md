@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-migration
   - topic/zt-identity
+  - topic/zt-governance
+  - topic/zt-architecture
 claim_id: "nist207-ch7.5"
 statement: "All enterprise subjects — human users and Non-Person Entities (service accounts, automated processes) — must be identified, with special-privilege users requiring additional scrutiny and stricter confidence levels under ZTA rather than blanket trust."
 confidence: "high"

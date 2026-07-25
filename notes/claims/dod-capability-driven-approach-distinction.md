@@ -6,6 +6,8 @@ tags:
   - source/dod-zt-ra
   - topic/zt-governance
   - topic/zt-definition
+  - topic/zt-identity
+  - topic/zt-implementation
 claim_id: "dod-ra-cap.11"
 statement: "The DoD's capability-driven approach distinguishes itself from other ZT frameworks — where NIST 800-207 provides the abstract logical model and CISA provides the maturity ladder, the DoD provides an exhaustive capability inventory, a concrete five-decision-point enforcement architecture, and 17 use cases that operationalize every major ZT concept with defined resource flows."
 confidence: "medium"

@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-network
   - topic/zt-access-mgmt
+  - topic/zt-definition
+  - topic/zt-threats
 claim_id: "gb-ch7-8.8"
 statement: "The first packet problem is solved by Single Packet Authorization (SPA)"
 confidence: "medium"

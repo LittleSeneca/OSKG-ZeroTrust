@@ -6,6 +6,8 @@ tags:
   - source/dod-zt-ra
   - topic/zt-tenets
   - topic/zt-threats
+  - topic/zt-definition
+  - topic/zt-implementation
 claim_id: "dod-ra-ov.4"
 statement: "DoD's five tenets are threat-operational, NIST's seven tenets are architectural"
 confidence: "high"

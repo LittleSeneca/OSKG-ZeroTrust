@@ -6,6 +6,8 @@ tags:
   - source/nsa-zt-network-pillar
   - topic/zt-network
   - topic/zt-segmentation
+  - topic/zt-architecture
+  - topic/zt-definition
 claim_id: "nsa-network.3"
 statement: "Macro segmentation prevents lateral movement between business functions"
 confidence: "high"

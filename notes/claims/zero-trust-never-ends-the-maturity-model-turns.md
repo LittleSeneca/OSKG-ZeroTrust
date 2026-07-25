@@ -6,6 +6,8 @@ tags:
   - source/finney-project-zt
   - topic/zt-maturity
   - topic/zt-migration
+  - topic/zt-implementation
+  - topic/zt-governance
 claim_id: "finney-ch8-11.11"
 statement: "Zero Trust never ends — the maturity model turns a six-month project into a multi-year strategic journey"
 confidence: "high"

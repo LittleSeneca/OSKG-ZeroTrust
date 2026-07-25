@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/nist-sp-800-207
   - topic/zt-definition
+  - topic/zt-governance
+  - topic/zt-architecture
 claim_id: "nist207-ch1.5"
 statement: 'The concept of zero trust predates the term — DISA "black core" and the Jericho Forum were conceptual predecessors focused on per-transaction security and de-perimeterization.'
 confidence: "high"

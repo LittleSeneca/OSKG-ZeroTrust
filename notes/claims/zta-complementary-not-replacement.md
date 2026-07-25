@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/nist-sp-800-207
   - topic/zt-governance
+  - topic/zt-architecture
+  - topic/zt-network
 claim_id: "nist207-ch6.1"
 statement: "ZTA is complementary to existing federal frameworks, not a replacement — it changes the locus of enforcement (from perimeter to resource) and the granularity of policy (from network-segment to per-session), but every existing program remains in force."
 confidence: "high"

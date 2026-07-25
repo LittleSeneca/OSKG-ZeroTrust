@@ -6,6 +6,8 @@ tags:
   - source/nstac
   - topic/zt-identity
   - topic/zt-governance
+  - topic/zt-architecture
+  - topic/zt-definition
 claim_id: "nstac.1"
 statement: "The Federal Government's current 2½-year ZT strategy is appropriately scoped for jump-starting action but insufficient for long-term transformation — absent additional institutionalization, ZT will fail."
 confidence: "high"

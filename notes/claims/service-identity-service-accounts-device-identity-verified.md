@@ -6,6 +6,8 @@ tags:
   - source/ncsc
   - topic/zt-cloud
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-network
 claim_id: "ncsc.4"
 statement: "Service identity (service accounts) and device identity (Verified Access via TPM) are first-class identity types in Google's ZT model — going beyond user identity."
 confidence: "high"

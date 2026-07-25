@@ -6,6 +6,8 @@ tags:
   - source/beyondcorp
   - topic/zt-implementation
   - topic/zt-architecture
+  - topic/zt-cloud
+  - topic/zt-definition
 claim_id: "beyondcorp.7"
 statement: 'The strategic pivot from "prove the user will be successful before migrating" (opt-in) to "assume the user will be successful and migrate" (opt-out) was essential for reaching full coverage — without it, the long tail of noncompliant applications would have blocked migration indefinitely.'
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-identity
   - topic/zt-encryption
+  - topic/zt-implementation
+  - topic/zt-definition
 claim_id: "gb-ch2.2"
 statement: "Private PKI is the non-negotiable bedrock of ZT identity"
 confidence: "high"

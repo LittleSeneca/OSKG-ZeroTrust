@@ -6,6 +6,8 @@ tags:
   - source/bsi
   - topic/zt-definition
   - topic/zt-governance
+  - topic/zt-identity
+  - topic/zt-threats
 claim_id: "bsi-zt.1"
 statement: "BSI's seven core messages frame ZT as a preventive, holistic, long-term, resource-intensive, and confidentiality/integrity-focused paradigm"
 confidence: "high"

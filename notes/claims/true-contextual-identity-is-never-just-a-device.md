@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-identity
   - topic/zt-device
+  - topic/zt-governance
+  - topic/zt-implementation
 claim_id: "go-ch6-8.4"
 statement: "True contextual identity is never just a device type — a displayless hardware phone used after hours by Facilities has a fundamentally different identity than a director's hardware phone at home during business hours, and this multi-dimensional profiling is the foundation of all ZT enforcement."
 confidence: "high"

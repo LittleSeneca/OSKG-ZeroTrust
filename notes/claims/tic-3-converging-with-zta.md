@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-governance
   - topic/zt-network
+  - topic/zt-implementation
+  - topic/zt-architecture
 claim_id: "nist207-ch6.6"
 statement: "TIC 3.0 is converging with ZTA — TIC evolved from perimeter-based (1.0/2.0) to distributed enforcement (3.0) with PEP Security Capabilities applied at multiple enforcement points, making TIC 3.0 the network-security dimension of ZTA in federal environments."
 confidence: "high"

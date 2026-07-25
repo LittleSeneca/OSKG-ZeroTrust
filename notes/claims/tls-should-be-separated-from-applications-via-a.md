@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-encryption
   - topic/zt-app
+  - topic/zt-implementation
+  - topic/zt-cloud
 claim_id: "gb-ch7-8.11"
 statement: "TLS should be separated from applications via a local daemon — not embedded in application libraries"
 confidence: "high"

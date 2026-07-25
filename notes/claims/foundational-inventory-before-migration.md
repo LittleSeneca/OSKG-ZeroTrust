@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-migration
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-governance
 claim_id: "nist207-ch7.4"
 statement: "Before the 7-step cycle can begin, the enterprise must establish a foundational inventory of all actors, assets, and business processes — without this, the Policy Engine will deny requests due to insufficient information and shadow IT deployments may break silently."
 confidence: "high"

@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/nist-sp-1800-35
   - topic/zt-implementation
+  - topic/zt-cloud
+  - topic/zt-architecture
 claim_id: "nist-1800-35.2"
 statement: "The 19 builds demonstrate that ZTA can be implemented with diverse vendor combinations, but integration gaps between PDPs, PEPs, and supporting components remain the primary practical challenge — not the ZTA concept itself."
 confidence: "high"

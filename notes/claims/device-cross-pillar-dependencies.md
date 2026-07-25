@@ -6,6 +6,8 @@ tags:
   - source/nsa-zt-device-pillar
   - topic/zt-device
   - topic/zt-architecture
+  - topic/zt-identity
+  - topic/zt-network
 claim_id: "nsa-device.8"
 statement: "Cross-pillar dependencies make the device pillar a team sport"
 confidence: "high"

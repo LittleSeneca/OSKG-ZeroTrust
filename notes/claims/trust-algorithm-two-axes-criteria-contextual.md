@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-trust
   - topic/zt-policy
+  - topic/zt-architecture
+  - topic/zt-governance
 claim_id: "nist207-ch3.6"
 statement: "Trust algorithms vary on two axes — criteria/score-based and singular/contextual"
 confidence: "medium"

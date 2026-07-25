@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-governance
   - topic/zt-definition
+  - topic/zt-implementation
+  - topic/zt-architecture
 claim_id: "cisa-ztmm-ov.1"
 statement: "The ZTMM is a compliance instrument for EO 14028, not merely a best-practice guide"
 confidence: "high"

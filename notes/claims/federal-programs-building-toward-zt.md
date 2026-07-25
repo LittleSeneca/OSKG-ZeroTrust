@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-governance
   - topic/zt-migration
+  - topic/zt-identity
+  - topic/zt-implementation
 claim_id: "nist207-ch1.7"
 statement: "Federal agencies have been building toward ZT for over a decade through foundational programs (FISMA, RMF, FICAM, TIC, CDM) that were initially limited by technology but are now maturing toward dynamic, granular access control."
 confidence: "high"

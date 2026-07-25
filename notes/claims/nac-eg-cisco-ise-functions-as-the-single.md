@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-network
   - topic/zt-device
+  - topic/zt-identity
+  - topic/zt-architecture
 claim_id: "go-ch9-11.4"
 statement: "NAC (e.g., Cisco ISE) functions as the single source of truth for access decisions across all connection mediums, but each medium (wired, wireless, VPN) has distinct rollout characteristics."
 confidence: "high"

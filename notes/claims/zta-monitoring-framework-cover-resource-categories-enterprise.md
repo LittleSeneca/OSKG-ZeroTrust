@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207a
   - topic/zt-cloud
   - topic/zt-implementation
+  - topic/zt-governance
+  - topic/zt-identity
 claim_id: "nist-207a.7"
 statement: "A ZTA monitoring framework must cover all resource categories (enterprise, non-enterprise, personal), application infrastructure elements, user access requests with full service-call chains, and directory changes — with telemetry feeding back into access decisions and step-up authentication."
 confidence: "medium"

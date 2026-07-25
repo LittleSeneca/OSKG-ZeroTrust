@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-threats
   - topic/zt-architecture
+  - topic/zt-network
+  - topic/zt-governance
 claim_id: "nist207-ch5.1"
 statement: "Subversion of the ZTA decision process (PE/PA compromise) is the highest-impact threat because the PE and PA are the linchpins of all resource access — their compromise collapses the entire access control fabric."
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/bsi
   - topic/zt-definition
   - topic/zt-governance
+  - topic/zt-trust
+  - topic/zt-risk
 claim_id: "bsi-zt.9"
 statement: "BSI plans market surveillance, IT-Grundschutz integration, and sector-specific guidance"
 confidence: "high"

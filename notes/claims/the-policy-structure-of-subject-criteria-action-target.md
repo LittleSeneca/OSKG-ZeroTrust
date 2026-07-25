@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-policy
   - topic/zt-identity
+  - topic/zt-device
+  - topic/zt-architecture
 claim_id: "gc-ch1-3.14"
 statement: "The policy structure of Subject Criteria + Action + Target + Condition provides a universal template for ZT policy definition."
 confidence: "high"

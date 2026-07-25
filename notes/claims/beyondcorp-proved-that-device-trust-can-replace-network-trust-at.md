@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-device
   - topic/zt-architecture
+  - topic/zt-implementation
+  - topic/zt-definition
 claim_id: "gc-iam-policy.1"
 statement: "BeyondCorp proved that device-trust can replace network-trust at scale — but it was a multi-year pioneer effort, not a turnkey platform"
 confidence: "high"

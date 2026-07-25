@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-policy
   - topic/zt-governance
+  - topic/zt-identity
+  - topic/zt-implementation
 claim_id: "go-ch6-8.8"
 statement: "Top-down (business-aligned) and bottom-up (traffic-aligned) design approaches are complementary, not competing — use top-down for high-level architecture and bottom-up for validation and detailed policy creation."
 confidence: "high"

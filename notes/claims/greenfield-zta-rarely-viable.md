@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/nist-sp-800-207
   - topic/zt-migration
+  - topic/zt-implementation
+  - topic/zt-governance
 claim_id: "nist207-ch7.2"
 statement: "Pure greenfield ZTA is rarely viable for existing organizations, but new infrastructure projects (new applications, services, databases) create opportunities to introduce ZT concepts to some degree."
 confidence: "high"

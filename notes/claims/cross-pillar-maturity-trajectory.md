@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-maturity
   - topic/zt-architecture
+  - topic/zt-network
+  - topic/zt-governance
 claim_id: "cisa-ztmm-dnad.23"
 statement: "All four pillars share the same maturity trajectory — Traditional (manual, static, siloed) → Initial (automation begins) → Advanced (enterprise-wide, dynamic) → Optimal (fully automated, continuous, just-in-time, real-time risk analytics) — characterized by the same underlying shift from manual/static to automated/continuous across all functions."
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-definition
   - topic/zt-trust
+  - topic/zt-governance
+  - topic/zt-architecture
 claim_id: "nist207-ch1.2"
 statement: "Zero Trust assumes breach and eliminates implicit trust — every access request must be continuously authenticated, authorized, and risk-evaluated."
 confidence: "high"

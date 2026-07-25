@@ -6,6 +6,8 @@ tags:
   - source/halley-resilient-cloud
   - topic/zt-cloud
   - topic/zt-implementation
+  - topic/zt-network
+  - topic/zt-migration
 claim_id: "halley.3"
 statement: "Cloud-native architectures are inherently ZT-aligned — but introduce new security surfaces"
 confidence: "high"

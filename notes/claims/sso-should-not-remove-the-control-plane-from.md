@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-architecture
   - topic/zt-authentication
+  - topic/zt-network
+  - topic/zt-policy
 claim_id: "gb-ch4-6.13"
 statement: "SSO should not remove the control plane from ongoing authorization"
 confidence: "medium"

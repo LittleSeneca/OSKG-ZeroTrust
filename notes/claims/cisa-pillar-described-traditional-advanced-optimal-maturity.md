@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/cccs
   - topic/zt-definition
+  - topic/zt-governance
+  - topic/zt-threats
 claim_id: "cccs-model.2"
 statement: "Each CISA pillar is described at the Traditional/Advanced/Optimal maturity gradient"
 confidence: "high"

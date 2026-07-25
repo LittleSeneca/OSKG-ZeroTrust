@@ -5,6 +5,8 @@ tags:
   - evidence/secondary-book
   - source/garbis-chapman-zt-enterprise
   - topic/zt-cloud
+  - topic/zt-network
+  - topic/zt-app
 claim_id: "gc-cloud.4"
 statement: "Zero Trust does fewer things for SaaS — but what it does is still valuable"
 confidence: "high"

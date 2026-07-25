@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-network
   - topic/zt-implementation
+  - topic/zt-governance
+  - topic/zt-device
 claim_id: "cisa-ztmm-dnad.7"
 statement: "Network Traffic Management — maturity progresses from manually implemented static network rules with limited monitoring to dynamic rules and configurations that continuously evolve to meet application profile needs, reprioritizing applications based on mission criticality and risk."
 confidence: "high"

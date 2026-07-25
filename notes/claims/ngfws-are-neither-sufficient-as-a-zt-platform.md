@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-network
   - topic/zt-architecture
+  - topic/zt-segmentation
+  - topic/zt-policy
 claim_id: "gc-net-access.7"
 statement: "NGFWs are neither sufficient as a ZT platform nor irrelevant to one — they are a component whose role depends on architecture, but NGFW-based single-entry-point architectures can impose constraints that limit the ZT journey."
 confidence: "high"

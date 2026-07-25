@@ -6,6 +6,8 @@ tags:
   - source/nsa-zt-device-pillar
   - topic/zt-device
   - topic/zt-implementation
+  - topic/zt-identity
+  - topic/zt-governance
 claim_id: "nsa-device.6"
 statement: "Centralized device management (UEM/MDM) is the enforcement backbone for all other capabilities"
 confidence: "high"

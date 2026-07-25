@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/academic-zt
   - topic/zt-definition
+  - topic/zt-governance
+  - topic/zt-architecture
 claim_id: "academic.2"
 statement: "Executive sponsorship is the strongest predictor of ZTA implementation success (β = 0.342), and phased deployment significantly outperforms big-bang approaches — both findings converge with practitioner literature despite synthetic data limitations."
 confidence: "medium"

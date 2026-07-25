@@ -6,6 +6,8 @@ tags:
   - source/nsa-zt-user-pillar
   - topic/zt-identity
   - topic/zt-implementation
+  - topic/zt-governance
+  - topic/zt-cloud
 claim_id: "nsa-user.2"
 statement: "Identity management maturity is about attribute authority, not just identity inventory"
 confidence: "high"

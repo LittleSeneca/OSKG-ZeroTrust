@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-identity
   - topic/zt-architecture
+  - topic/zt-governance
+  - topic/zt-implementation
 claim_id: "gc-iam-policy.2"
 statement: "Server-to-server ZT is a fundamentally different problem than user-to-server, requiring a CMDB as source of truth instead of IAM"
 confidence: "high"

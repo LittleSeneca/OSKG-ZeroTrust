@@ -6,6 +6,8 @@ tags:
   - source/yu-cdm
   - topic/zt-architecture
   - topic/zt-definition
+  - topic/zt-network
+  - topic/zt-governance
 claim_id: "yu-cdm.4"
 statement: "ZT maps to specific PROTECT cells — not the whole matrix"
 confidence: "high"

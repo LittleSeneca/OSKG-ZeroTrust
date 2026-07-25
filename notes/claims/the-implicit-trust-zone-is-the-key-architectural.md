@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-trust
   - topic/zt-architecture
+  - topic/zt-definition
+  - topic/zt-network
 claim_id: "gc-ch1-3.13"
 statement: "The implicit trust zone is the key architectural trade-off in ZT deployment."
 confidence: "high"

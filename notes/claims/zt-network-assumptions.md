@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-network
   - topic/zt-architecture
+  - topic/zt-implementation
+  - topic/zt-definition
 claim_id: "nist207-ch2.5"
 statement: "The network assumptions invert traditional perimeter thinking"
 confidence: "high"

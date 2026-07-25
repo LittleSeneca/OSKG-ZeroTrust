@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/nist-sp-800-207
   - topic/zt-migration
+  - topic/zt-governance
+  - topic/zt-definition
 claim_id: "nist207-ch7.1"
 statement: "ZTA migration is an incremental, recurring cycle — not a linear project — and most enterprises will operate in a hybrid zero-trust/perimeter-based mode indefinitely."
 confidence: "high"

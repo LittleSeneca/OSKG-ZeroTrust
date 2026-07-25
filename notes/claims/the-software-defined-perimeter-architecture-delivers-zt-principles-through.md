@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-access-mgmt
   - topic/zt-network
+  - topic/zt-implementation
+  - topic/zt-architecture
 claim_id: "gc-iam-policy.3"
 statement: "The Software-Defined Perimeter architecture delivers ZT principles through two essential mechanisms — mTLS and Single-Packet Authorization"
 confidence: "high"

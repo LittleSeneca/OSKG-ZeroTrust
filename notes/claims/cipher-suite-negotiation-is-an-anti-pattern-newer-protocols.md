@@ -5,6 +5,7 @@ tags:
   - evidence/secondary-book
   - source/gilman-barth-zt-networks
   - topic/zt-encryption
+  - topic/zt-network
 claim_id: "gb-ch7-8.10"
 statement: "Cipher suite negotiation is an anti-pattern — newer protocols eliminate it"
 confidence: "high"

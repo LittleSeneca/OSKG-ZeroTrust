@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-implementation
   - topic/zt-governance
+  - topic/zt-cloud
+  - topic/zt-network
 claim_id: "cisa-ztmm-dnad.25"
 statement: "Key tensions exist between pillar ideals and operational realities — Device pillar vs. BYOD constraints, network vs. application-level controls (defense-in-depth tradeoff), encryption vs. visibility (monitoring tradeoff), and immutable workloads vs. legacy systems (modernization gap) — and CISA acknowledges these tensions without fully resolving them."
 confidence: "medium"

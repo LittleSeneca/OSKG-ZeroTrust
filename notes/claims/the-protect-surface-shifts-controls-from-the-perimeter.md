@@ -6,6 +6,8 @@ tags:
   - source/finney-project-zt
   - topic/zt-definition
   - topic/zt-architecture
+  - topic/zt-implementation
+  - topic/zt-network
 claim_id: "finney-ch1-3.10"
 statement: "The protect surface shifts controls from the perimeter to the asset"
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-definition
   - topic/zt-threats
+  - topic/zt-network
+  - topic/zt-implementation
 claim_id: "cisa-ztmm-ov.2"
 statement: "Recent nation-state cyber incidents made legacy perimeter-based security indefensible"
 confidence: "high"

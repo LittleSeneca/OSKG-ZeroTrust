@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/academic-zt
   - topic/zt-definition
+  - topic/zt-governance
+  - topic/zt-architecture
 claim_id: "academic.4"
 statement: "The paper provides the most comprehensive existing mapping of IoT vulnerabilities → ZT solutions across the three IoT architecture layers, but all surveyed solutions are at proof-of-concept/prototype stage — none validated at production scale."
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-governance
   - topic/zt-policy
+  - topic/zt-identity
+  - topic/zt-implementation
 claim_id: "go-ch3-5.5"
 statement: "Policy survives organizational change through the Policy & Governance pillar — but mergers, acquisitions, and shadow IT constantly challenge it"
 confidence: "medium"

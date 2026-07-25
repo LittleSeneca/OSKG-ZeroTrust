@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/academic-zt
   - topic/zt-definition
+  - topic/zt-governance
+  - topic/zt-threats
 claim_id: "academic.1"
 statement: "Modeled ZTA effectiveness shows very large effect sizes across all metrics — 63-79% improvements in breach reduction, financial loss, downtime, and recovery time — but all data is synthetic, not measured from real enterprise telemetry."
 confidence: "low"

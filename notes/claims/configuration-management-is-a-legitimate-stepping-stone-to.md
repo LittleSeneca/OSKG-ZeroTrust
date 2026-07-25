@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-migration
   - topic/zt-implementation
+  - topic/zt-cloud
+  - topic/zt-architecture
 claim_id: "gb-ch9.3"
 statement: "Configuration management is a legitimate stepping stone to the control plane"
 confidence: "high"

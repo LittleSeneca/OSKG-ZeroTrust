@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/academic-zt
   - topic/zt-definition
+  - topic/zt-governance
+  - topic/zt-architecture
 claim_id: "academic.3"
 statement: "ZT research has entered a rapid growth phase (145→249→~340 publications/year from 2021–2023) with IoT and cloud computing as the two dominant application domains, and the research is geographically concentrated — US + China = 42.5% of publications, with the Asian cluster notably insular."
 confidence: "high"

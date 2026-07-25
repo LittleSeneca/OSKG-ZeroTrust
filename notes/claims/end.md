@@ -6,6 +6,8 @@ tags:
   - source/beyondprod
   - topic/zt-cloud
   - topic/zt-implementation
+  - topic/zt-governance
+  - topic/zt-identity
 claim_id: "beyondprod.5"
 statement: "End-User Context Tickets solve the problem of compromised services using their legitimate service identity for lateral movement — access decisions depend on both service identity AND the originating end user's identity."
 confidence: "high"

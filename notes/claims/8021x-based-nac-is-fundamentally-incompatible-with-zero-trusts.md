@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-network
   - topic/zt-device
+  - topic/zt-identity
+  - topic/zt-architecture
 claim_id: "gc-net-access.4"
 statement: "802.1x-based NAC is fundamentally incompatible with Zero Trust's universal scope — it is local-only, coarse-grained (VLAN assignment), provides no encryption, has static posture, and is hardware-dependent."
 confidence: "high"

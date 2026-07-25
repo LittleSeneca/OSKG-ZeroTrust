@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-access-mgmt
   - topic/zt-security
+  - topic/zt-definition
+  - topic/zt-authentication
 claim_id: "gb-ch4-6.14"
 statement: "Group authorization is the highest-trust mechanism for extremely sensitive operations"
 confidence: "high"

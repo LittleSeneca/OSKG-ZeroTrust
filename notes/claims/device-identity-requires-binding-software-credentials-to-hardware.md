@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-device
   - topic/zt-encryption
+  - topic/zt-identity
+  - topic/zt-trust
 claim_id: "gb-ch4-6.5"
 statement: "Device identity requires binding software credentials to hardware"
 confidence: "high"

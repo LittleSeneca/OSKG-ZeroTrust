@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-governance
   - topic/zt-network
+  - topic/zt-identity
+  - topic/zt-architecture
 claim_id: "go-ch6-8.3"
 statement: 'The five-pillar methodology for segmentation operationalizes ZT by making contextual identity the engine of policy — but organizations must start with 5–7 broad enclaves and refine iteratively, treating segmentation as "eating an elephant — one small step at a time."'
 confidence: "high"

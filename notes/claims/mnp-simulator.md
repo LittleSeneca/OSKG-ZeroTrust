@@ -6,6 +6,8 @@ tags:
   - source/beyondcorp
   - topic/zt-implementation
   - topic/zt-architecture
+  - topic/zt-network
+  - topic/zt-governance
 claim_id: "beyondcorp.6"
 statement: "The MNP Simulator — translating the network ACL into local iptables rules with logging and enforcement modes — was the operational linchpin that enabled high-velocity migration by testing enforcement at the client level before committing to network-level VLAN changes."
 confidence: "high"

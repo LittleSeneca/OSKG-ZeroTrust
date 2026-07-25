@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-network
   - topic/zt-segmentation
+  - topic/zt-architecture
+  - topic/zt-cloud
 claim_id: "go-ch6-8.1"
 statement: "True ZT segmentation requires enforcement at every OSI layer — layering is not optional but the ideal-world answer, pushing back against the firewall-centric mindset that considers one enforcement point sufficient."
 confidence: "high"

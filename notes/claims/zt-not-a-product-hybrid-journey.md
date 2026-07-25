@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-definition
   - topic/zt-migration
+  - topic/zt-implementation
+  - topic/zt-governance
 claim_id: "nist207-ch1.4"
 statement: "ZT is an architectural paradigm, not a product — adoption is a journey of risk evaluation, incremental, and most enterprises will operate in hybrid mode."
 confidence: "high"

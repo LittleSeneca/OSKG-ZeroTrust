@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-governance
   - topic/zt-policy
+  - topic/zt-implementation
+  - topic/zt-architecture
 claim_id: "go-intro.4"
 statement: 'Policy & Governance is the "badge and shield" — it authorizes enforcement and defines the rules'
 confidence: "medium"

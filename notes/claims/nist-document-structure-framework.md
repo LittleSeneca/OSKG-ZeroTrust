@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/nist-sp-800-207
   - topic/zt-definition
+  - topic/zt-governance
+  - topic/zt-architecture
 claim_id: "nist207-ch1.8"
 statement: "The document's organization — definitions → components → use cases → threats → federal guidance → migration roadmap — represents the essential framework for understanding and implementing ZTA."
 confidence: "low"

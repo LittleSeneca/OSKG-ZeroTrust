@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-identity
   - topic/zt-access-mgmt
+  - topic/zt-authentication
+  - topic/zt-device
 claim_id: "gc-net-access.8"
 statement: "PAM provides valuable functions (secrets management, session recording) that persist under ZT, but password vaulting is premised on the non-ZT model of a too-open network — and PAM is identity-aware rather than identity-centric."
 confidence: "high"

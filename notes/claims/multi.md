@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207a
   - topic/zt-cloud
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-network
 claim_id: "nist-207a.5"
 statement: "For multi-cluster, multi-cloud deployments, a global control plane is required to define uniform policies across service mesh instances, but a single service mesh control plane should NOT be used across clusters — it creates a single failure domain."
 confidence: "high"

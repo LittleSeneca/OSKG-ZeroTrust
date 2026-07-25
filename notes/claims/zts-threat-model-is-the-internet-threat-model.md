@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-threats
   - topic/zt-definition
+  - topic/zt-network
+  - topic/zt-governance
 claim_id: "gb-ch2.1"
 statement: "ZT's threat model is the Internet Threat Model plus endpoint compromise"
 confidence: "high"

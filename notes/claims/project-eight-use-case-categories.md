@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/nist-sp-1800-35
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-governance
 claim_id: "nist-1800-35.5"
 statement: "The project's eight use case categories (A–H) provide a comprehensive ZTA testing framework — from discovery through data-level security — that organizations can adapt for their own validation."
 confidence: "high"

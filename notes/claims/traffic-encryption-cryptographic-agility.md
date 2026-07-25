@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-network
   - topic/zt-encryption
+  - topic/zt-device
+  - topic/zt-access-mgmt
 claim_id: "cisa-ztmm-dnad.8"
 statement: "Traffic Encryption — maturity progresses from encrypting minimal traffic with manual key management to encrypting all appropriate traffic, enforcing least privilege for secure key management enterprise-wide, and incorporating cryptographic agility as widely as possible."
 confidence: "high"

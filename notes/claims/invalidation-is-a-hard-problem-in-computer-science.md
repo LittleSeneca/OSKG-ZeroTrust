@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-access-mgmt
   - topic/zt-implementation
+  - topic/zt-network
+  - topic/zt-identity
 claim_id: "gb-ch10.6"
 statement: 'Invalidation is a "hard problem in computer science" — ZT addresses it through granular authorization, not push-based revocation'
 confidence: "high"

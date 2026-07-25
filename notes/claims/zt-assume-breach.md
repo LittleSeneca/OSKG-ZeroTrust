@@ -6,6 +6,8 @@ tags:
   - source/nsa-embracing-zt
   - topic/zt-definition
   - topic/zt-threats
+  - topic/zt-network
+  - topic/zt-implementation
 claim_id: "nsa-embrace.1"
 statement: 'Zero Trust is defined by "assume breach," not architecture'
 confidence: "high"

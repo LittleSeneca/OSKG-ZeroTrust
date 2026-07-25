@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-identity
   - topic/zt-governance
+  - topic/zt-definition
+  - topic/zt-implementation
 claim_id: "cisa-ztmm-id.8"
 statement: 'CISA and NSA identity frameworks are complementary, not redundant — CISA provides the maturity model framework (what to measure, what "good" looks like for FCEB agencies), while NSA provides the implementation roadmap (how to get there, tailored for national security systems but broadly applicable), and together they form the most complete federal guidance for identity maturity in a ZTA context.'
 confidence: "medium"

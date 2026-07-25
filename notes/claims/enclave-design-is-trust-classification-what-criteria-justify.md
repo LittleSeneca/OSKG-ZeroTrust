@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-architecture
   - topic/zt-segmentation
+  - topic/zt-implementation
+  - topic/zt-definition
 claim_id: "go-ch3-5.2"
 statement: "Enclave design is trust classification — what criteria justify grouping and what criteria justify access between groups"
 confidence: "high"

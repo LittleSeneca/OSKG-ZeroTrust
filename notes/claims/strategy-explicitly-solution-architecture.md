@@ -6,6 +6,8 @@ tags:
   - source/dod-zt-strategy
   - topic/zt-governance
   - topic/zt-migration
+  - topic/zt-implementation
+  - topic/zt-architecture
 claim_id: "dod-strategy.5"
 statement: "The Strategy is explicitly NOT a solution architecture — Components retain freedom to choose technologies as long as they deliver specified capability outcomes."
 confidence: "high"

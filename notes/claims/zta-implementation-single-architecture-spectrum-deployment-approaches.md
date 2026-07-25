@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/nist-sp-1800-35
   - topic/zt-implementation
+  - topic/zt-cloud
+  - topic/zt-architecture
 claim_id: "nist-1800-35.1"
 statement: "ZTA implementation is not a single architecture but a spectrum of deployment approaches — EIG, SDP, Microsegmentation, and SASE — each appropriate for different organizational contexts and maturity levels. The most complete ZTAs combine multiple approaches."
 confidence: "high"

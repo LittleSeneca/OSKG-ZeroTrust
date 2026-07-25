@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-app
   - topic/zt-encryption
+  - topic/zt-implementation
+  - topic/zt-governance
 claim_id: "gb-ch7-8.2"
 statement: "Git's content-addressable storage provides tamper-proof history but not authenticity — signed commits bridge the gap"
 confidence: "high"

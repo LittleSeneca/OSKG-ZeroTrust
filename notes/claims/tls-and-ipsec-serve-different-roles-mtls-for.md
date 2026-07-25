@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-encryption
   - topic/zt-network
+  - topic/zt-implementation
+  - topic/zt-device
 claim_id: "gb-ch7-8.9"
 statement: "TLS and IPsec serve different roles — mTLS for client/server, IPsec for server/server datacenter"
 confidence: "high"

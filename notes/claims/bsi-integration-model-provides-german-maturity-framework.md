@@ -6,6 +6,8 @@ tags:
   - source/bsi
   - topic/zt-definition
   - topic/zt-governance
+  - topic/zt-identity
+  - topic/zt-architecture
 claim_id: "bsi-zt.4"
 statement: "BSI's integration model provides a German maturity framework with VS (classified information) integration"
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/ncsc
   - topic/zt-cloud
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-governance
 claim_id: "ncsc.3"
 statement: "Google's ZT architecture maps to the PDP/PEP model with IAP as the Policy Enforcement Point, Access Context Manager as the Rules Engine, and Cloud IAM/Identity as the Policy Decision Point."
 confidence: "high"

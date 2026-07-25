@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-network
   - topic/zt-architecture
+  - topic/zt-policy
+  - topic/zt-identity
 claim_id: "gc-net-access.1"
 statement: "Firewalls persist under Zero Trust but their role bifurcates — rules simplify dramatically as enforcement shifts to ZT PEPs, and the access controls historically attempted with firewalls are achieved more effectively through identity-centric policy."
 confidence: "high"

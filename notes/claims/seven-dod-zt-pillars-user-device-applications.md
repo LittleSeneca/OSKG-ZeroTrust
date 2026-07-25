@@ -6,6 +6,8 @@ tags:
   - source/dod-zt-strategy
   - topic/zt-governance
   - topic/zt-migration
+  - topic/zt-identity
+  - topic/zt-architecture
 claim_id: "dod-strategy.2"
 statement: "The seven DoD ZT Pillars (User, Device, Applications/Workloads, Data, Network/Environment, Automation/Orchestration, Visibility/Analytics) provide the organizing construct for all ZT capabilities, with Data at the center."
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/finney-project-zt
   - topic/zt-app
   - topic/zt-governance
+  - topic/zt-identity
+  - topic/zt-implementation
 claim_id: "finney-ch4-7.7"
 statement: "DevOps culture can be an ally or adversary to ZT — the difference is whether security integrates with existing developer workflows or imposes new ones."
 confidence: "high"

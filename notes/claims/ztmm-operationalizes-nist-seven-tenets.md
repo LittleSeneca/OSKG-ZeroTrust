@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-governance
   - topic/zt-definition
+  - topic/zt-identity
+  - topic/zt-architecture
 claim_id: "cisa-ztmm-ov.9"
 statement: "The ZTMM operationalizes all seven NIST 800-207 tenets into measurable capabilities"
 confidence: "high"

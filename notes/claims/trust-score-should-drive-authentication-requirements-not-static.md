@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-trust
   - topic/zt-authentication
+  - topic/zt-identity
+  - topic/zt-architecture
 claim_id: "gb-ch4-6.10"
 statement: "Trust score should drive authentication requirements, not static sensitivity labels"
 confidence: "high"

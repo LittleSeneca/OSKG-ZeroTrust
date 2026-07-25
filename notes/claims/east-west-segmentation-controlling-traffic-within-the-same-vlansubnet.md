@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-network
   - topic/zt-segmentation
+  - topic/zt-implementation
+  - topic/zt-architecture
 claim_id: "go-ch6-8.2"
 statement: "East-west segmentation — controlling traffic within the same VLAN/subnet — is the harder problem that most distinguishes ZT from traditional perimeter security, requiring Layer 2 identity-based enforcement that doesn't depend on routing."
 confidence: "high"

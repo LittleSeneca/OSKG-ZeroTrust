@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-migration
   - topic/zt-monitoring
+  - topic/zt-implementation
+  - topic/zt-network
 claim_id: "gb-ch9.6"
 statement: "Log-then-enforce is THE migration procedure — validated by two independent case studies"
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/dod-zt-ra
   - topic/zt-migration
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-network
 claim_id: "dod-ra-ov.3"
 statement: "ZT is an evolution of existing capabilities, not a greenfield deployment"
 confidence: "high"

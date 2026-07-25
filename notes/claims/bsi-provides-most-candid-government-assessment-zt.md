@@ -6,6 +6,8 @@ tags:
   - source/bsi
   - topic/zt-definition
   - topic/zt-governance
+  - topic/zt-identity
+  - topic/zt-architecture
 claim_id: "bsi-zt.6"
 statement: "BSI provides the most candid government assessment of ZT's limitations"
 confidence: "high"

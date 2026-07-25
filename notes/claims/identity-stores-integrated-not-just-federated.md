@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-identity
   - topic/zt-implementation
+  - topic/zt-governance
+  - topic/zt-cloud
 claim_id: "cisa-ztmm-id.4"
 statement: "Identity stores must be integrated across environments, not just federated — the maturity progression from siloed on-premises to securely integrated across all partners and environments is a significant architectural undertaking, not achievable through SSO alone."
 confidence: "high"

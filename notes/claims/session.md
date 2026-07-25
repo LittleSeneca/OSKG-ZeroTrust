@@ -6,6 +6,8 @@ tags:
   - source/anssi-bsi
   - topic/zt-definition
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-governance
 claim_id: "anssi-bsi.3"
 statement: 'Session-level memory isolation is a critical ZT requirement for LLM systems — the failure to isolate sessions creates cross-session file leakage and persistent Prompt Injection vectors that violate the "no implicit trust" principle.'
 confidence: "high"

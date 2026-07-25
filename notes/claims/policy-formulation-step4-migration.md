@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-migration
   - topic/zt-policy
+  - topic/zt-implementation
+  - topic/zt-governance
 claim_id: "nist207-ch7.8"
 statement: "Policy formulation for the ZTA candidate requires evaluating asset value/risk via RMF, identifying all upstream/downstream resources, and choosing between criteria-based (binary) and score-based (confidence-weighted) trust evaluation — a choice with cascading effects on tooling and operational complexity."
 confidence: "high"

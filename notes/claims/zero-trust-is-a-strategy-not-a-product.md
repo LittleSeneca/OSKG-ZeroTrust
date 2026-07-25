@@ -5,6 +5,8 @@ tags:
   - evidence/secondary-book
   - source/finney-project-zt
   - topic/zt-definition
+  - topic/zt-architecture
+  - topic/zt-trust
 claim_id: "finney-ch1-3.3"
 statement: "Zero Trust is a strategy, not a product or marketing term"
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/beyondcorp
   - topic/zt-implementation
   - topic/zt-architecture
+  - topic/zt-network
+  - topic/zt-governance
 claim_id: "beyondcorp.1"
 statement: "The perimeter security model's core assumptions no longer hold — the internal network is as dangerous as the public Internet, and trust in network location is fundamentally misplaced."
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/finney-project-zt
   - topic/zt-authentication
   - topic/zt-threats
+  - topic/zt-identity
+  - topic/zt-monitoring
 claim_id: "finney-ch4-7.5"
 statement: "MFA is necessary but insufficient — attackers have at least three distinct bypass strategies that ZT must address."
 confidence: "high"

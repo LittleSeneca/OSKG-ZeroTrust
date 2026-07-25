@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-app
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-network
 claim_id: "gb-ch7-8.4"
 statement: "Immutable artifacts with decoupled version numbers prevent masquerade attacks"
 confidence: "high"

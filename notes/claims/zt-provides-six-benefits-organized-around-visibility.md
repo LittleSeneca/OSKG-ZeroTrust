@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/cccs
   - topic/zt-definition
+  - topic/zt-governance
+  - topic/zt-threats
 claim_id: "cccs-model.3"
 statement: "ZT provides six benefits organized around visibility, protection, and modernization"
 confidence: "high"

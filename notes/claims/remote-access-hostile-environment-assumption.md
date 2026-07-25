@@ -6,6 +6,8 @@ tags:
   - source/nsa-zt-device-pillar
   - topic/zt-device
   - topic/zt-remote-access
+  - topic/zt-identity
+  - topic/zt-network
 claim_id: "nsa-device.4"
 statement: "Remote access requires heightened scrutiny — assume the remote environment is hostile"
 confidence: "high"

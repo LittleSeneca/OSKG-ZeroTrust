@@ -6,6 +6,8 @@ tags:
   - source/nsa-zt-network-pillar
   - topic/zt-network
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-migration
 claim_id: "nsa-network.2"
 statement: "Data flow mapping is the foundational capability — you can't segment what you don't understand"
 confidence: "high"

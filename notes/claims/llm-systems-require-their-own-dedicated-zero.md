@@ -6,6 +6,8 @@ tags:
   - source/anssi-bsi
   - topic/zt-definition
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-governance
 claim_id: "anssi-bsi.1"
 statement: "LLM systems require their own dedicated Zero Trust design principles — the six principles defined by ANSSI/BSI extend traditional ZT into a domain where none of the existing ZT standards (NIST, CISA, NSA) provide guidance."
 confidence: "high"

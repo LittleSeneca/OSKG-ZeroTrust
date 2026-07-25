@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-app
   - topic/zt-implementation
+  - topic/zt-network
+  - topic/zt-governance
 claim_id: "cisa-ztmm-dnad.14"
 statement: "Secure Application Development & Deployment — maturity progresses from ad hoc development/testing/production environments with non-robust code deployment to immutable workloads where changes only occur through redeployment, with automated processes replacing administrator access to deployment environments."
 confidence: "high"

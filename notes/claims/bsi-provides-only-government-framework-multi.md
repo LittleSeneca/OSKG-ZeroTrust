@@ -6,6 +6,8 @@ tags:
   - source/bsi
   - topic/zt-definition
   - topic/zt-governance
+  - topic/zt-architecture
+  - topic/zt-policy
 claim_id: "bsi-zt.8"
 statement: "BSI provides the only government framework for multi-organizational ZT architectures"
 confidence: "medium"

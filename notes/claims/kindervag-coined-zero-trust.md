@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/nist-sp-800-207
   - topic/zt-definition
+  - topic/zt-governance
+  - topic/zt-architecture
 claim_id: "nist207-ch1.6"
 statement: 'John Kindervag at Forrester coined the term "zero trust," which then became the dominant term for security solutions that evaluate trust per-transaction rather than by network location.'
 confidence: "high"

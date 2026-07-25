@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-definition
   - topic/zt-risk
+  - topic/zt-architecture
+  - topic/zt-threats
 claim_id: "gb-ch10.8"
 statement: "The adversarial view reveals that ZT is a risk reduction strategy, not a risk elimination strategy"
 confidence: "high"

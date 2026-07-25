@@ -6,6 +6,8 @@ tags:
   - source/nsa-zt-device-pillar
   - topic/zt-device
   - topic/zt-architecture
+  - topic/zt-implementation
+  - topic/zt-identity
 claim_id: "nsa-device.1"
 statement: "The device pillar has seven interdependent capabilities that collectively establish device trust"
 confidence: "high"

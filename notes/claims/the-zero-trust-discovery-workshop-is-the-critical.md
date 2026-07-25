@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-implementation
   - topic/zt-governance
+  - topic/zt-cloud
+  - topic/zt-architecture
 claim_id: "go-intro.2"
 statement: "The Zero Trust Discovery Workshop is the critical first step — skip it at your peril"
 confidence: "medium"

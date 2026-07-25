@@ -6,6 +6,8 @@ tags:
   - source/cccs
   - topic/zt-architecture
   - topic/zt-implementation
+  - topic/zt-definition
+  - topic/zt-migration
 claim_id: "cccs-arch.1"
 statement: "ZT is a comprehensive security architecture strategy, not a product or technology"
 confidence: "high"

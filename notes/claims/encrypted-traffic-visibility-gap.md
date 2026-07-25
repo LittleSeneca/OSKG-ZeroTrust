@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-threats
   - topic/zt-monitoring
+  - topic/zt-network
+  - topic/zt-implementation
 claim_id: "nist207-ch5.4"
 statement: "Encrypted traffic under ZTA creates a visibility gap — all traffic is inspected but much of it is opaque to Layer 3 analysis, requiring alternative assessment methods like metadata analysis and ML-based traffic categorization."
 confidence: "medium"

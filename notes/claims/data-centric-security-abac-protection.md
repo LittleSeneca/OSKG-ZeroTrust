@@ -6,6 +6,8 @@ tags:
   - source/dod-zt-ra
   - topic/zt-data
   - topic/zt-access-mgmt
+  - topic/zt-network
+  - topic/zt-device
 claim_id: "dod-ra-cap.5"
 statement: "Data-Centric Security (Use Cases 1–4) — data protection must shift from network-centric RBAC to attribute-based ABAC with four coordinating protection mechanisms (Data Tagging, DRM, DLP, DDM) operating around the Data Store, and encryption decisions made by the ZT policy engine rather than as a separate concern."
 confidence: "high"

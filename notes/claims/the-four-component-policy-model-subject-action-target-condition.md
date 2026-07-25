@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-policy
   - topic/zt-architecture
+  - topic/zt-implementation
+  - topic/zt-network
 claim_id: "gc-iam-policy.9"
 statement: "The four-component policy model (Subject → Action → Target + Condition) is the universal grammar of Zero Trust access control"
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-access-mgmt
   - topic/zt-implementation
+  - topic/zt-network
+  - topic/zt-definition
 claim_id: "gb-ch3.3"
 statement: "Revoke authorization first, credentials second"
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-policy
   - topic/zt-architecture
+  - topic/zt-implementation
+  - topic/zt-definition
 claim_id: "gb-ch4-6.3"
 statement: "Policy should be defined in terms of logical components, not network addressing"
 confidence: "high"

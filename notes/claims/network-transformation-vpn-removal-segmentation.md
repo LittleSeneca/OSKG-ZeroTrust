@@ -6,6 +6,8 @@ tags:
   - source/dod-zt-ra
   - topic/zt-network
   - topic/zt-segmentation
+  - topic/zt-architecture
+  - topic/zt-definition
 claim_id: "dod-ra-cap.8"
 statement: "Network Transformation (Use Cases 10–11) — VPN removal is an architectural consequence of ZT's \"no distinction between internal and external users\" principle, with all users passing through the same PEPs and gateways; east-west segmentation requires three levels (network-level micro-segmentation, process-level host-based inspection, API-level per-call auth) to prevent lateral movement."
 confidence: "high"

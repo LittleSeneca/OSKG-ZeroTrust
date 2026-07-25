@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-network
   - topic/zt-implementation
+  - topic/zt-cloud
+  - topic/zt-architecture
 claim_id: "gc-net-access.6"
 statement: "VPNs must be replaced — not augmented, not integrated, but retired. This is the authors' strongest and most unequivocal verdict, grounded in five architectural flaws that Zero Trust inherently solves."
 confidence: "high"

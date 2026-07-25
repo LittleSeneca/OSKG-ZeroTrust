@@ -6,6 +6,8 @@ tags:
   - source/cccs
   - topic/zt-architecture
   - topic/zt-implementation
+  - topic/zt-migration
+  - topic/zt-governance
 claim_id: "cccs-arch.7"
 statement: "ZT implementation faces significant organizational and technical challenges"
 confidence: "high"

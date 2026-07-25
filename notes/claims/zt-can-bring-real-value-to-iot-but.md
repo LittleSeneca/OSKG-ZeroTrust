@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-device
   - topic/zt-network
+  - topic/zt-implementation
+  - topic/zt-segmentation
 claim_id: "gc-soc-data-iot.5"
 statement: "ZT can bring real value to IoT, but IoT networks present fundamental limitations — closed systems, unencrypted protocols, weak authentication, and unpatchable firmware mean ZT cannot provide the same robustness as with standard enterprise devices."
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/yu-cdm
   - topic/zt-architecture
   - topic/zt-definition
+  - topic/zt-implementation
+  - topic/zt-governance
 claim_id: "yu-cdm.3"
 statement: "The dependency curves reveal ZT's operational limits"
 confidence: "medium"

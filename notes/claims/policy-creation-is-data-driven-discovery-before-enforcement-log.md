@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-policy
   - topic/zt-monitoring
+  - topic/zt-architecture
+  - topic/zt-network
 claim_id: "go-ch3-5.4"
 statement: "Policy creation is data-driven — discovery before enforcement, log before block"
 confidence: "high"

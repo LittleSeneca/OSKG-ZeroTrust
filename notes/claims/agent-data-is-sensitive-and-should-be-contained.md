@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-architecture
   - topic/zt-data
+  - topic/zt-definition
+  - topic/zt-network
 claim_id: "gb-ch3.4"
 statement: "Agent data is sensitive and should be contained to the control plane, with controlled, format-flexible exposure to the data plane"
 confidence: "medium"

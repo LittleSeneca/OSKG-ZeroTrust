@@ -6,6 +6,8 @@ tags:
   - source/dod-zt-ra
   - topic/zt-definition
   - topic/zt-governance
+  - topic/zt-implementation
+  - topic/zt-architecture
 claim_id: "dod-ra-ov.1"
 statement: "DoD's ZT strategy is operational, not architectural"
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-app
   - topic/zt-threats
+  - topic/zt-network
+  - topic/zt-governance
 claim_id: "cisa-ztmm-dnad.12"
 statement: "Application Threat Protections — maturity progresses from minimal integration with application workflows and general-purpose protections to advanced threat protections integrated into all application workflows with real-time visibility and content-aware protections against sophisticated attacks tailored to applications."
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/cccs
   - topic/zt-architecture
   - topic/zt-implementation
+  - topic/zt-governance
+  - topic/zt-identity
 claim_id: "cccs-arch.2"
 statement: "The GC is developing its own ZT framework aligned with CISA and NIST pillars"
 confidence: "medium"

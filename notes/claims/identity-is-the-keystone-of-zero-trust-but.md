@@ -5,6 +5,8 @@ tags:
   - evidence/secondary-book
   - source/garbis-chapman-zt-enterprise
   - topic/zt-identity
+  - topic/zt-governance
+  - topic/zt-architecture
 claim_id: "gc-iam-policy.5"
 statement: "Identity is the keystone of Zero Trust — but perfection is not a prerequisite"
 confidence: "high"

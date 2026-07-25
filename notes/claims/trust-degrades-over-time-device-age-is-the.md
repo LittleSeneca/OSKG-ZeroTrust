@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-device
   - topic/zt-trust
+  - topic/zt-access-mgmt
+  - topic/zt-definition
 claim_id: "gb-ch4-6.7"
 statement: "Trust degrades over time — device age is the strongest negative signal"
 confidence: "high"

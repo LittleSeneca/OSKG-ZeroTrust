@@ -6,6 +6,8 @@ tags:
   - source/nstac
   - topic/zt-identity
   - topic/zt-governance
+  - topic/zt-device
+  - topic/zt-architecture
 claim_id: "nstac.5"
 statement: "Internet-accessible asset discovery is a foundational prerequisite for ZT that many agencies lack — CISA should provide it as a shared service."
 confidence: "high"

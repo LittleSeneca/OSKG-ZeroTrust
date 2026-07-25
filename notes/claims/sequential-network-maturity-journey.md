@@ -6,6 +6,8 @@ tags:
   - source/nsa-zt-network-pillar
   - topic/zt-network
   - topic/zt-maturity
+  - topic/zt-implementation
+  - topic/zt-segmentation
 claim_id: "nsa-network.6"
 statement: "The four capabilities form an integrated, sequential maturity journey"
 confidence: "high"

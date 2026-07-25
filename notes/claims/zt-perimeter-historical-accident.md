@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth
   - topic/zt-network
   - topic/zt-definition
+  - topic/zt-implementation
+  - topic/zt-architecture
 claim_id: "gilmanbarth-ch1.3"
 statement: "The perimeter model's history reveals why it failed — it was an accident, not a design"
 confidence: "high"

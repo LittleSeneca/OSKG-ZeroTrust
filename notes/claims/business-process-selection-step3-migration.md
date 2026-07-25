@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/nist-sp-800-207
   - topic/zt-migration
+  - topic/zt-governance
+  - topic/zt-maturity
 claim_id: "nist207-ch7.7"
 statement: "Business process selection for ZTA migration should start with low-risk processes and cloud-based/remote-worker workflows, using the NIST RMF to evaluate tradeoffs in performance, user experience, and workflow fragility."
 confidence: "high"

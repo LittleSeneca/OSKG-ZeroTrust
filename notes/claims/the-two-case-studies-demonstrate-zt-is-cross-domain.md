@@ -5,6 +5,8 @@ tags:
   - evidence/secondary-book
   - source/gilman-barth-zt-networks
   - topic/zt-implementation
+  - topic/zt-cloud
+  - topic/zt-architecture
 claim_id: "gb-ch9.7"
 statement: "The two case studies demonstrate ZT is cross-domain applicable"
 confidence: "high"

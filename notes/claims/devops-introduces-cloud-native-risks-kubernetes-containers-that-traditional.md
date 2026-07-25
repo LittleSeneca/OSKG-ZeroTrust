@@ -6,6 +6,8 @@ tags:
   - source/finney-project-zt
   - topic/zt-cloud
   - topic/zt-app
+  - topic/zt-implementation
+  - topic/zt-network
 claim_id: "finney-ch4-7.8"
 statement: "DevOps introduces cloud-native risks (Kubernetes, containers) that traditional perimeter security cannot address — ZT provides the model for securing them."
 confidence: "high"

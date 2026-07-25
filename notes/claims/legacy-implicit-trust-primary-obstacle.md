@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-migration
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-network
 claim_id: "cisa-ztmm-ov.5"
 statement: "Legacy implicit-trust systems are the primary obstacle to ZTA adoption"
 confidence: "high"

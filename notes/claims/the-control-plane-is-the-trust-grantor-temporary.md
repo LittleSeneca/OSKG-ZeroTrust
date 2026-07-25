@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-architecture
   - topic/zt-authentication
+  - topic/zt-implementation
+  - topic/zt-definition
 claim_id: "gb-ch2.5"
 statement: "The control plane is the trust grantor — temporary trust and leased tokens are its operational expression"
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth
   - topic/zt-definition
   - topic/zt-network
+  - topic/zt-implementation
+  - topic/zt-architecture
 claim_id: "gilmanbarth-ch1.1"
 statement: "The five fundamental assertions define ZT operationally, not abstractly"
 confidence: "high"

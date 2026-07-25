@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-architecture
   - topic/zt-implementation
+  - topic/zt-cloud
+  - topic/zt-network
 claim_id: "gc-ch1-3.12"
 statement: "Four deployment models cover the ZT solution space, and each has distinct trade-offs that must be evaluated against enterprise requirements."
 confidence: "high"

@@ -5,6 +5,8 @@ tags:
   - evidence/secondary-book
   - source/finney-project-zt
   - topic/zt-identity
+  - topic/zt-implementation
+  - topic/zt-access-mgmt
 claim_id: "finney-ch4-7.4"
 statement: "Identity is simultaneously the most important protect surface AND the most important ZT enabler — it must be both protected and consumed."
 confidence: "high"

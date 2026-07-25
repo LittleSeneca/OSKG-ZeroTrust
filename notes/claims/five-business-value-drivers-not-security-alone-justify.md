@@ -5,6 +5,8 @@ tags:
   - evidence/secondary-book
   - source/garbis-chapman-zt-enterprise
   - topic/zt-governance
+  - topic/zt-identity
+  - topic/zt-architecture
 claim_id: "gc-scenarios.3"
 statement: "Five business value drivers — not security alone — justify ZT investment"
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-device
   - topic/zt-access-mgmt
+  - topic/zt-identity
+  - topic/zt-network
 claim_id: "cisa-ztmm-dnad.3"
 statement: "Device Resource Access — maturity progresses from requiring no device visibility for access decisions to considering real-time risk analytics within devices and virtual assets, integrating device posture with identity and environmental context."
 confidence: "high"

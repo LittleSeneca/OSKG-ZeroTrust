@@ -6,6 +6,8 @@ tags:
   - source/beyondprod
   - topic/zt-cloud
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-network
 claim_id: "beyondprod.1"
 statement: "Perimeter security breaks down for microservices because services are mobile, ephemeral, share infrastructure, and change at extreme velocity — BeyondProd replaces network-location trust with verifiable attributes (identity, code provenance, hardware integrity)."
 confidence: "high"

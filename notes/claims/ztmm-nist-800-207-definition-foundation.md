@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-definition
   - topic/zt-governance
+  - topic/zt-identity
+  - topic/zt-implementation
 claim_id: "cisa-ztmm-ov.3"
 statement: "The ZTMM is built on NIST SP 800-207's operative definition — zero trust minimizes uncertainty, not risk"
 confidence: "high"

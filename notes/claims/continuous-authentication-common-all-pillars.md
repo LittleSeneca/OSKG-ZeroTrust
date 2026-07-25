@@ -6,6 +6,8 @@ tags:
   - source/dod-zt-ra
   - topic/zt-identity
   - topic/zt-authentication
+  - topic/zt-governance
+  - topic/zt-device
 claim_id: "dod-ra-cap.2"
 statement: "Continuous authentication and identity validation are common to all pillars — every access transaction requires it regardless of what pillar the capability falls under — and three enterprise-scale enablers (federated enterprise identity service, enterprise analytics, enterprise orchestration) are prerequisites, not optional."
 confidence: "high"

@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/nist-sp-800-207
   - topic/zt-governance
+  - topic/zt-identity
+  - topic/zt-architecture
 claim_id: "nist207-ch6.10"
 statement: "The chapter's seven federal program interactions reveal that ZTA is a compliance *complement*, identity and asset visibility are hard prerequisites, TIC 3.0 and CDM are converging with ZTA, ZTA generates better data for existing programs, and privacy is an explicit unresolved tension."
 confidence: "high"

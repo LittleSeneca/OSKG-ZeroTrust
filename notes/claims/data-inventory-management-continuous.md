@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-data
   - topic/zt-inventory
+  - topic/zt-maturity
+  - topic/zt-governance
 claim_id: "cisa-ztmm-dnad.17"
 statement: "Data Inventory Management — maturity progresses from manual identification and inventory of some agency data to continuous inventory of all applicable agency data with robust data loss prevention strategies that dynamically block suspected data exfiltration."
 confidence: "high"

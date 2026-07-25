@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-architecture
   - topic/zt-cloud
+  - topic/zt-network
+  - topic/zt-policy
 claim_id: "gc-cloud.2"
 statement: "The PEP works best at the cloud boundary — source IP restrictions are the enabling primitive"
 confidence: "high"

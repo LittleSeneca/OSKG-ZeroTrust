@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-definition
   - topic/zt-architecture
+  - topic/zt-implementation
+  - topic/zt-network
 claim_id: "gc-ch1-3.7"
 statement: 'The working definition centers ZT as an "integrated security platform" — broader than network architecture.'
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-identity
   - topic/zt-authentication
+  - topic/zt-governance
+  - topic/zt-device
 claim_id: "gb-ch4-6.11"
 statement: "The strongest user authentication binds identity to hardware tokens with additional factors"
 confidence: "high"

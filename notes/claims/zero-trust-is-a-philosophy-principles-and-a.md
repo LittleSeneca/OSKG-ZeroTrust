@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-definition
   - topic/zt-governance
+  - topic/zt-implementation
+  - topic/zt-architecture
 claim_id: "gc-ch1-3.3"
 statement: "Zero Trust is a philosophy, principles, and a journey — not a product, not a one-and-done project, and not a single architecture."
 confidence: "high"

@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/nist-sp-800-207
   - topic/zt-migration
+  - topic/zt-governance
+  - topic/zt-device
 claim_id: "nist207-ch7.12"
 statement: "The single biggest barrier to ZTA migration is incomplete knowledge of the enterprise — the three foundational inventories (actors, assets, processes) create a chicken-and-egg problem where you need complete inventories to migrate but need to migrate to justify building complete inventories."
 confidence: "medium"

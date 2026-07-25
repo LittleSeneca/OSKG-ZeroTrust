@@ -5,6 +5,8 @@ tags:
   - evidence/secondary-book
   - source/finney-project-zt
   - topic/zt-implementation
+  - topic/zt-cloud
+  - topic/zt-architecture
 claim_id: "finney-ch4-7.1"
 statement: "The first protect surface must be what the business depends on to make money — not what's easiest for security to fix."
 confidence: "high"

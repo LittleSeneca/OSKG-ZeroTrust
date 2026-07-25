@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-architecture
   - topic/zt-governance
+  - topic/zt-network
+  - topic/zt-policy
 claim_id: "cisa-ztmm-dnad.24"
 statement: "CISA's three cross-cutting capabilities — Visibility & Analytics, Automation & Orchestration, and Governance — become increasingly integrated across pillars as maturity increases, with the Optimal stage characterized by centralized dynamic monitoring, infrastructure-as-code, and fully automated enterprise-wide policies with continuous enforcement."
 confidence: "high"

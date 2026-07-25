@@ -6,6 +6,8 @@ tags:
   - source/beyondprod
   - topic/zt-cloud
   - topic/zt-implementation
+  - topic/zt-network
+  - topic/zt-governance
 claim_id: "beyondprod.3"
 statement: "Code provenance enforcement (Binary Authorization for Borg) closes a critical gap that most ZT frameworks overlook — ensuring that only reviewed, trusted-built code reaches production."
 confidence: "high"

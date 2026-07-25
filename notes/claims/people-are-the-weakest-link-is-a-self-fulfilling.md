@@ -5,6 +5,8 @@ tags:
   - evidence/secondary-book
   - source/finney-project-zt
   - topic/zt-governance
+  - topic/zt-architecture
+  - topic/zt-migration
 claim_id: "finney-ch8-11.6"
 statement: '"People are the weakest link" is a self-fulfilling prophecy — we trust people, not packets'
 confidence: "medium"

@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-device
   - topic/zt-policy
+  - topic/zt-identity
+  - topic/zt-network
 claim_id: "go-ch9-11.2"
 statement: "Distributed enforcement — applying policies as close to the endpoint as possible across four layers (intra-VLAN, inter-VLAN, inter-VRF, host-level) — yields substantial firewall rule reduction and enables firewall consolidation."
 confidence: "high"

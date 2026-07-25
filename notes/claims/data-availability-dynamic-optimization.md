@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-data
   - topic/zt-implementation
+  - topic/zt-cloud
+  - topic/zt-network
 claim_id: "cisa-ztmm-dnad.19"
 statement: "Data Availability — maturity progresses from primarily on-premises data stores with some off-site backups to dynamic methods optimizing data availability, including historical data, according to user and entity need."
 confidence: "high"

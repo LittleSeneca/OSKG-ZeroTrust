@@ -6,6 +6,8 @@ tags:
   - source/dod-zt-ra
   - topic/zt-device
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-network
 claim_id: "dod-ra-cap.9"
 statement: "Device Hygiene (Use Cases 12–13) — device hygiene must shift from checklist-based (STIG benchmarks, version numbers) to Event-Condition-Action automation where device posture is continuously checked by multiple tools, confidence scoring for devices considers behavioral patterns beyond patch status, and severity determines response speed (gradual restriction to instant termination)."
 confidence: "high"

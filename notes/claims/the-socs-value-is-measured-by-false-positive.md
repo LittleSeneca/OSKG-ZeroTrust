@@ -5,6 +5,8 @@ tags:
   - evidence/secondary-book
   - source/finney-project-zt
   - topic/zt-monitoring
+  - topic/zt-governance
+  - topic/zt-implementation
 claim_id: "finney-ch4-7.10"
 statement: "The SOC's value is measured by false positive reduction and dwell time containment, not by ticket counts or response SLAs."
 confidence: "high"

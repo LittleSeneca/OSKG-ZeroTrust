@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207a
   - topic/zt-cloud
   - topic/zt-implementation
+  - topic/zt-network
+  - topic/zt-governance
 claim_id: "nist-207a.1"
 statement: "Network-IP-based security controls are insufficient for cloud-native applications because microservices are ephemeral, geographically distributed, and proxy-mediated — identity must become the primary security primitive instead of network location."
 confidence: "high"

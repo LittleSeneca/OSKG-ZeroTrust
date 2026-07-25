@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-network
   - topic/zt-governance
+  - topic/zt-identity
+  - topic/zt-device
 claim_id: "cisa-ztmm-dnad.10"
 statement: "Network Cross-Cutting Capabilities — progress from boundary-focused manual monitoring to enterprise-wide situational awareness with advanced automated telemetry correlation; from manual configuration management to infrastructure-as-code with automated change management; from static perimeter-focused policies to enterprise-wide policies enabling tailored local controls with dynamic updates."
 confidence: "high"

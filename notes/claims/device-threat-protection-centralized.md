@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-device
   - topic/zt-threats
+  - topic/zt-network
+  - topic/zt-trust
 claim_id: "cisa-ztmm-dnad.4"
 statement: "Device Threat Protection — maturity progresses from manual deployment to some devices to centralized, unified threat protection with advanced capabilities for all devices and virtual assets, integrated with policy enforcement and compliance monitoring."
 confidence: "high"

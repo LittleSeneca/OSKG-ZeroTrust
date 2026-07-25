@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-identity
   - topic/zt-governance
+  - topic/zt-policy
+  - topic/zt-monitoring
 claim_id: "cisa-ztmm-id.7"
 statement: "Three cross-cutting capabilities — Visibility & Analytics, Automation & Orchestration, and Governance — operate within the Identity pillar and become increasingly automated and integrated across environments as maturity increases."
 confidence: "high"

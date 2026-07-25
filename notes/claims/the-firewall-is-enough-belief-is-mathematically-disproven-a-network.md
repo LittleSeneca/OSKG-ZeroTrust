@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-network
   - topic/zt-architecture
+  - topic/zt-implementation
+  - topic/zt-segmentation
 claim_id: "go-ch6-8.5"
 statement: "The firewall-is-enough belief is mathematically disproven — a network with 2,046 VLANs passing through a firewall requires a minimum of 12,000 initial rules just for shared services, not counting business-specific rules."
 confidence: "high"

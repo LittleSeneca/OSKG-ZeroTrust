@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-migration
   - topic/zt-monitoring
+  - topic/zt-implementation
+  - topic/zt-governance
 claim_id: "nist207-ch7.10"
 statement: "Initial ZTA deployment should operate in reporting-only (observation) mode — not immediate enforcement — because few policy sets are complete on the first iteration, and the monitoring phase collects real access pattern data to establish a baseline against which anomalous behavior can be identified."
 confidence: "high"

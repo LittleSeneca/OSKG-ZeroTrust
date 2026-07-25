@@ -6,6 +6,8 @@ tags:
   - source/anssi-bsi
   - topic/zt-definition
   - topic/zt-implementation
+  - topic/zt-governance
+  - topic/zt-identity
 claim_id: "anssi-bsi.5"
 statement: "The AI+ZT intersection is the least-developed area of the ZT knowledge graph — existing standards were written before LLM/agentic AI became a deployment reality, and ANSSI-BSI (2025) is the first authoritative document to bridge the gap."
 confidence: "medium"

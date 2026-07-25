@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-threats
   - topic/zt-network
+  - topic/zt-implementation
+  - topic/zt-architecture
 claim_id: "nist207-ch5.2"
 statement: "DoS and network disruption against the PA/PEP are a unique ZTA pathology — even if access is authorized, the PA may be unable to configure the communication path, making resources unreachable despite valid authorization."
 confidence: "high"

@@ -5,6 +5,8 @@ tags:
   - evidence/secondary-book
   - source/gilman-barth-zt-networks
   - topic/zt-threats
+  - topic/zt-network
+  - topic/zt-device
 claim_id: "gb-ch10.5"
 statement: "Social engineering and physical coercion are the threats ZT can't solve — only contain"
 confidence: "high"

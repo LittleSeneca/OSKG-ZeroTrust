@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-app
   - topic/zt-governance
+  - topic/zt-network
+  - topic/zt-policy
 claim_id: "cisa-ztmm-dnad.16"
 statement: "Application Cross-Cutting Capabilities — progress from some performance/security monitoring of mission-critical apps with limited aggregation to continuous dynamic monitoring across all applications; from manual static application hosting to automated configurations continuously optimizing for security and performance; from manual enforcement policies to fully automated policies with dynamic updates through CI/CD."
 confidence: "high"

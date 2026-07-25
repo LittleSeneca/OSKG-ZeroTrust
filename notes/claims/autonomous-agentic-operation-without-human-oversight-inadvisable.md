@@ -6,6 +6,8 @@ tags:
   - source/anssi-bsi
   - topic/zt-definition
   - topic/zt-implementation
+  - topic/zt-governance
+  - topic/zt-trust
 claim_id: "anssi-bsi.4"
 statement: "Autonomous agentic operation without human oversight is inadvisable — this is the document's strongest claim and places ANSSI/BSI firmly in the \"cautious deployment\" camp for LLM systems."
 confidence: "high"

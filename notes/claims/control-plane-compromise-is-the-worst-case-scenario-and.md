@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-architecture
   - topic/zt-threats
+  - topic/zt-implementation
+  - topic/zt-definition
 claim_id: "gb-ch10.7"
 statement: "Control plane compromise is the worst-case scenario — and it must be defended with the highest rigor"
 confidence: "high"

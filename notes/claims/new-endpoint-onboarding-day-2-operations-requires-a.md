@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-implementation
   - topic/zt-device
+  - topic/zt-architecture
+  - topic/zt-identity
 claim_id: "go-ch6-8.7"
 statement: 'New endpoint onboarding ("Day 2 Operations") requires a centralized receiving process — a secured, isolated network segment with lenient NAC policy, separate Internet access, and full NetFlow collection, followed by a structured onboarding checklist.'
 confidence: "high"

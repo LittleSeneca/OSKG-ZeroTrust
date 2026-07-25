@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-migration
   - topic/zt-maturity
+  - topic/zt-implementation
+  - topic/zt-monitoring
 claim_id: "go-intro.8"
 statement: "Analytics closes the loop — the ZT journey is cyclical, not linear"
 confidence: "medium"

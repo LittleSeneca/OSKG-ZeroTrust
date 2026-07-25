@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-identity
   - topic/zt-access-mgmt
+  - topic/zt-governance
+  - topic/zt-maturity
 claim_id: "cisa-ztmm-id.6"
 statement: "Access management operationalizes least privilege through the progression from permanent access → expiring access → need-based/session-based → automated JIT/JEA, with NSA providing the tactical implementation layer (PAM tools, privileged access workstations, ABAC, risk-adaptive policies)."
 confidence: "high"

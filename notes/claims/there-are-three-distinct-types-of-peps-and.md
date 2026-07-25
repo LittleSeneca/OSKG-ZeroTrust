@@ -5,6 +5,8 @@ tags:
   - evidence/secondary-book
   - source/garbis-chapman-zt-enterprise
   - topic/zt-architecture
+  - topic/zt-network
+  - topic/zt-policy
 claim_id: "gc-ch1-3.10"
 statement: "There are three distinct types of PEPs, and understanding their differences is essential for architecture design."
 confidence: "high"

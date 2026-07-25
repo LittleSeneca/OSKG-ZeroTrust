@@ -5,6 +5,8 @@ tags:
   - evidence/secondary-book
   - source/garbis-chapman-zt-enterprise
   - topic/zt-architecture
+  - topic/zt-network
+  - topic/zt-policy
 claim_id: "gc-ch1-3.9"
 statement: "The NIST PDP/PEP model is the correct foundation, but needs enterprise-specific refinement and extension."
 confidence: "high"

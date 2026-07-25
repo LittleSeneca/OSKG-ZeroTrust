@@ -6,6 +6,8 @@ tags:
   - source/dod-zt-ra
   - topic/zt-architecture
   - topic/zt-implementation
+  - topic/zt-definition
+  - topic/zt-governance
 claim_id: "dod-ra-ov.6"
 statement: "DoD's seven RA principles are the architectural bridge between tenets and implementation"
 confidence: "high"

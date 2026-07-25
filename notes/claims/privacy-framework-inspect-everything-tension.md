@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-governance
   - topic/zt-monitoring
+  - topic/zt-definition
+  - topic/zt-identity
 claim_id: "nist207-ch6.4"
 statement: "Privacy Framework — ZTA's \"inspect everything\" tenet creates an explicit tension with privacy obligations; traffic inspection and metadata logging may capture PII, requiring formal privacy risk management via the NIST Privacy Framework [NISTPRIV]."
 confidence: "high"

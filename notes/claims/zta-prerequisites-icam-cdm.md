@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-governance
   - topic/zt-identity
+  - topic/zt-device
+  - topic/zt-architecture
 claim_id: "nist207-ch6.2"
 statement: "ZTA exposes two hard prerequisites in existing programs — mature ICAM (identity) and CDM (asset inventory) — without which ZTA cannot function, because the Policy Engine cannot authorize access without sufficient subject/resource identity information and complete asset visibility."
 confidence: "high"

@@ -5,6 +5,7 @@ tags:
   - evidence/secondary-book
   - source/finney-project-zt
   - topic/zt-governance
+  - topic/zt-identity
 claim_id: "finney-ch1-3.4"
 statement: "Executive sponsorship and crisis create the window for ZT adoption"
 confidence: "medium"

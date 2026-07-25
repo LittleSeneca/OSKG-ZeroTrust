@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-governance
   - topic/zt-cloud
+  - topic/zt-architecture
+  - topic/zt-network
 claim_id: "nist207-ch6.9"
 statement: "Cloud Smart and the Federal Data Strategy drive ZTA prioritization — cloud-hosted and remote-accessed resources are the best ZTA candidates because they already operate outside the perimeter model, making cloud migration and ZTA adoption mutually reinforcing."
 confidence: "medium"

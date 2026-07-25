@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth
   - topic/zt-network
   - topic/zt-threats
+  - topic/zt-implementation
+  - topic/zt-segmentation
 claim_id: "gilmanbarth-ch1.4"
 statement: "The phone-home attack pattern is perimeter security's fatal flaw"
 confidence: "high"

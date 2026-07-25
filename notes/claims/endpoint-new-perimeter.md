@@ -6,6 +6,8 @@ tags:
   - source/beyondcorp
   - topic/zt-implementation
   - topic/zt-architecture
+  - topic/zt-network
+  - topic/zt-governance
 claim_id: "beyondcorp.9"
 statement: 'The endpoint is the new perimeter — fleet health and device trustworthiness replace network location as the foundation of access decisions, and the "identified state" solves the chicken-and-egg problem of transitioning untrusted devices into a trustworthy state.'
 confidence: "high"

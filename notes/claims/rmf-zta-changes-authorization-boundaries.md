@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/nist-sp-800-207
   - topic/zt-governance
+  - topic/zt-implementation
+  - topic/zt-architecture
 claim_id: "nist207-ch6.3"
 statement: "RMF — ZTA changes authorization boundaries but not the RMF process itself; risk acceptance decisions become per-resource and per-session, encoded algorithmically in the Policy Engine rather than assessed per-network-zone."
 confidence: "high"

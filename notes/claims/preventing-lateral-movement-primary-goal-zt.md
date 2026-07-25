@@ -6,6 +6,8 @@ tags:
   - source/cccs
   - topic/zt-architecture
   - topic/zt-implementation
+  - topic/zt-cloud
+  - topic/zt-network
 claim_id: "cccs-arch.3"
 statement: "Preventing lateral movement is the *primary* goal of ZT"
 confidence: "high"

@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/nist-sp-800-207
   - topic/zt-migration
+  - topic/zt-governance
+  - topic/zt-maturity
 claim_id: "nist207-ch7.3"
 statement: "The hybrid model — ZTA workflows coexisting with non-ZTA workflows — is the expected indefinite reality, requiring common infrastructure (ID management, device management, logging) to operate in dual mode and migration to proceed one business process at a time."
 confidence: "high"

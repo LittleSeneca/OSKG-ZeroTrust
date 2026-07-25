@@ -6,6 +6,8 @@ tags:
   - source/beyondcorp
   - topic/zt-implementation
   - topic/zt-architecture
+  - topic/zt-network
+  - topic/zt-governance
 claim_id: "beyondcorp.8"
 statement: "BeyondCorp caused 30% fewer support issues than comparable wide-scale IT changes, and was responsible for only 0.3% of tech support issues — the user experience emphasis (self-service, grace periods, VPN elimination as productivity win) made the migration a net positive for users."
 confidence: "high"

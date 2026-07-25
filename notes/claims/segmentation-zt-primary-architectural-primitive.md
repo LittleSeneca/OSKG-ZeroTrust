@@ -6,6 +6,8 @@ tags:
   - source/halley-resilient-cloud
   - topic/zt-cloud
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-network
 claim_id: "halley.2"
 statement: "Segmentation is ZT's primary architectural primitive — macro for trust zones, micro for workload isolation"
 confidence: "high"

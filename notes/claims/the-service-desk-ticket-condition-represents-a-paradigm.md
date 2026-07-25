@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-governance
   - topic/zt-access-mgmt
+  - topic/zt-definition
+  - topic/zt-identity
 claim_id: "gc-iam-policy.11"
 statement: "The service desk ticket condition represents a paradigm shift — ZT can make business process compliance a runtime network enforcement, not an audit afterthought"
 confidence: "high"

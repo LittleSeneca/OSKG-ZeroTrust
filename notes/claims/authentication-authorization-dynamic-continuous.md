@@ -6,6 +6,8 @@ tags:
   - source/dod-zt-ra
   - topic/zt-authentication
   - topic/zt-identity
+  - topic/zt-governance
+  - topic/zt-device
 claim_id: "dod-ra-cap.10"
 statement: "Authentication and Authorization (Use Cases 14–17) — authentication must become dynamic and continuous, driven by UEBA-based confidence scoring that triggers real-time access changes (deny, challenge, re-authenticate, downgrade) throughout sessions; authorization is no longer binary (yes/no) but scalar — a confidence score compared against a threshold that varies by data sensitivity, with the same user potentially authorized for unclassified but denied for classified data in the same session."
 confidence: "high"

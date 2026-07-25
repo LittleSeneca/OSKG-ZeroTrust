@@ -6,6 +6,8 @@ tags:
   - source/green-ortiz-zt-architecture
   - topic/zt-governance
   - topic/zt-maturity
+  - topic/zt-identity
+  - topic/zt-architecture
 claim_id: "go-ch9-11.6"
 statement: "The Zero Trust journey is cyclical, not linear — five capabilities (Policy & Governance, Identity, Vulnerability Management, Enforcement, Analytics) form a continuous feedback loop with no final destination."
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/finney-project-zt
   - topic/zt-threats
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-identity
 claim_id: "finney-ch8-11.10"
 statement: "Red herrings and the fog of war — the tabletop must simulate confusion, not just attack"
 confidence: "medium"

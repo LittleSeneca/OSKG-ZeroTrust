@@ -6,6 +6,8 @@ tags:
   - source/nsa-zt-network-pillar
   - topic/zt-network
   - topic/zt-segmentation
+  - topic/zt-implementation
+  - topic/zt-architecture
 claim_id: "nsa-network.4"
 statement: "Micro segmentation limits blast radius within segments — it's the granular layer"
 confidence: "high"

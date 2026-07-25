@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-implementation
   - topic/zt-network
+  - topic/zt-cloud
+  - topic/zt-segmentation
 claim_id: "gb-ch9.2"
 statement: "Flow enumeration is the hardest requirement and the highest-value one"
 confidence: "high"

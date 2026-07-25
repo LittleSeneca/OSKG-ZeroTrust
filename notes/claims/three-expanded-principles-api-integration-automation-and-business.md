@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-governance
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-definition
 claim_id: "gc-ch1-3.6"
 statement: "Three expanded principles — API integration, automation, and business value delivery — are equally necessary for enterprise-class ZT."
 confidence: "high"

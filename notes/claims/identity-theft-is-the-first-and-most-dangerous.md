@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-identity
   - topic/zt-threats
+  - topic/zt-authentication
+  - topic/zt-device
 claim_id: "gb-ch10.1"
 statement: "Identity theft is the first and most dangerous threat — ZT requires stealing *two* identities"
 confidence: "high"

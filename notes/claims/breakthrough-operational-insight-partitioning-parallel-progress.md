@@ -6,6 +6,8 @@ tags:
   - source/beyondcorp
   - topic/zt-implementation
   - topic/zt-architecture
+  - topic/zt-network
+  - topic/zt-migration
 claim_id: "beyondcorp.5"
 statement: "The breakthrough operational insight was partitioning for parallel progress — deploying a new VLAN in its final BeyondCorp configuration and incrementally moving devices to it, rather than incrementally restricting the privileged VLAN."
 confidence: "high"

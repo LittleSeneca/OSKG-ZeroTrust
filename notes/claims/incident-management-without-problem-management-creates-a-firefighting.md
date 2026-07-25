@@ -6,6 +6,7 @@ tags:
   - source/finney-project-zt
   - topic/zt-implementation
   - topic/zt-governance
+  - topic/zt-trust
 claim_id: "finney-ch1-3.11"
 statement: "Incident management without problem management creates a firefighting culture"
 confidence: "high"

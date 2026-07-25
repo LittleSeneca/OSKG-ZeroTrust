@@ -6,6 +6,8 @@ tags:
   - source/nstac
   - topic/zt-identity
   - topic/zt-governance
+  - topic/zt-migration
+  - topic/zt-maturity
 claim_id: "nstac.6"
 statement: "The U.S. Government must incentivize non-federal ZT adoption through grants, procurement preferences, international standards, and regulatory relief — not just lead by example."
 confidence: "high"

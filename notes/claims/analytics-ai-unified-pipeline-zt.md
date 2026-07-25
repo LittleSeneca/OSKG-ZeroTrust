@@ -6,6 +6,8 @@ tags:
   - source/dod-zt-ra
   - topic/zt-monitoring
   - topic/zt-implementation
+  - topic/zt-architecture
+  - topic/zt-governance
 claim_id: "dod-ra-cap.6"
 statement: "Analytics and AI (Use Cases 5–6) — ZT must unify siloed domain data through a pipeline (Sensors → SIEM → SOAR + AI → ZT Controller → ML/AI storage) to enable consistent policies, user/NPE confidence scoring, advanced threat detection, and automated threat mitigation, collecting far more data than traditional architectures to power automation."
 confidence: "medium"

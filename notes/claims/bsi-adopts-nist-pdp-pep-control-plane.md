@@ -6,6 +6,8 @@ tags:
   - source/bsi
   - topic/zt-definition
   - topic/zt-governance
+  - topic/zt-identity
+  - topic/zt-architecture
 claim_id: "bsi-zt.3"
 statement: "BSI adopts NIST's PDP/PEP/Control Plane/Data Plane model as its reference architecture"
 confidence: "high"

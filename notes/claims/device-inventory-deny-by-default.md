@@ -6,6 +6,8 @@ tags:
   - source/nsa-zt-device-pillar
   - topic/zt-device
   - topic/zt-inventory
+  - topic/zt-identity
+  - topic/zt-architecture
 claim_id: "nsa-device.2"
 statement: "Device Inventory progresses from manual lists to real-time, deny-by-default enrollment"
 confidence: "high"

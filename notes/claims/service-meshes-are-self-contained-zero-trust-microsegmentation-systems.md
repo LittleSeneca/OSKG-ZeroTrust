@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-network
   - topic/zt-segmentation
+  - topic/zt-implementation
+  - topic/zt-architecture
 claim_id: "gc-cloud.3"
 statement: "Service meshes are self-contained Zero Trust microsegmentation systems"
 confidence: "high"

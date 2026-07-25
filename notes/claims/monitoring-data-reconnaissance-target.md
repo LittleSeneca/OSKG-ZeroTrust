@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-threats
   - topic/zt-monitoring
+  - topic/zt-network
+  - topic/zt-architecture
 claim_id: "nist207-ch5.5"
 statement: "The monitoring data and policy management tools that enable ZTA's contextual policies become high-value reconnaissance targets — compromising them reveals which accounts have access to which resources, enabling attackers to prioritize targets."
 confidence: "high"

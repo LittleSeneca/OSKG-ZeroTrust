@@ -5,6 +5,8 @@ tags:
   - evidence/primary-standard
   - source/nist-sp-800-207
   - topic/zt-architecture
+  - topic/zt-definition
+  - topic/zt-network
 claim_id: "nist207-ch3.1"
 statement: "ZTA has three core decision-making components (PE, PA, PEP)"
 confidence: "high"

@@ -6,6 +6,8 @@ tags:
   - source/nstac
   - topic/zt-identity
   - topic/zt-governance
+  - topic/zt-access-mgmt
+  - topic/zt-migration
 claim_id: "nstac.4"
 statement: "The Federal Government needs two dedicated ZT Program Offices — a Civilian Office (at CISA) and coordination with the existing Defense Office (at DoD) — to provide sustained institutional capacity."
 confidence: "high"

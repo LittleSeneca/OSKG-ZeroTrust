@@ -6,6 +6,8 @@ tags:
   - source/cisa-ztmm
   - topic/zt-architecture
   - topic/zt-governance
+  - topic/zt-network
+  - topic/zt-identity
 claim_id: "cisa-ztmm-ov.6"
 statement: "The five-pillar structure provides a comprehensive, independently-assessable decomposition of ZTA"
 confidence: "high"

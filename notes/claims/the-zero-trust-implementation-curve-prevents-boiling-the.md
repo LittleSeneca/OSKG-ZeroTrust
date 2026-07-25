@@ -6,6 +6,8 @@ tags:
   - source/finney-project-zt
   - topic/zt-implementation
   - topic/zt-migration
+  - topic/zt-governance
+  - topic/zt-definition
 claim_id: "finney-ch1-3.7"
 statement: 'The Zero Trust Implementation Curve prevents "boiling the ocean"'
 confidence: "high"

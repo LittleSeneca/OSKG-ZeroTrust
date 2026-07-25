@@ -6,6 +6,8 @@ tags:
   - source/garbis-chapman-zt-enterprise
   - topic/zt-monitoring
   - topic/zt-governance
+  - topic/zt-identity
+  - topic/zt-implementation
 claim_id: "gc-soc-data-iot.1"
 statement: "SIEM and SOAR integration with ZT is a force multiplier — ZT adoption increases the value of SOC tooling by enriching logs with identity and enabling bidirectional policy automation."
 confidence: "high"

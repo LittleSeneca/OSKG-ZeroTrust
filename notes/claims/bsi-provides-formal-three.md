@@ -6,6 +6,8 @@ tags:
   - source/bsi
   - topic/zt-definition
   - topic/zt-governance
+  - topic/zt-implementation
+  - topic/zt-network
 claim_id: "bsi-zt.2"
 statement: "BSI provides a formal three-part definition that extends NIST with German regulatory context"
 confidence: "high"

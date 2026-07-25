@@ -6,6 +6,8 @@ tags:
   - source/finney-project-zt
   - topic/zt-supply-chain
   - topic/zt-cloud
+  - topic/zt-governance
+  - topic/zt-threats
 claim_id: "finney-ch8-11.2"
 statement: "Vendor contracts and third-party risk management are your primary defense against cloud risk — because the cloud is outsourcing"
 confidence: "high"

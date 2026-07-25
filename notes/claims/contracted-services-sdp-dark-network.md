@@ -6,6 +6,8 @@ tags:
   - source/nist-sp-800-207
   - topic/zt-implementation
   - topic/zt-network
+  - topic/zt-cloud
+  - topic/zt-architecture
 claim_id: "nist207-ch4.4"
 statement: 'Contracted services and nonemployee access should use the SDP "dark network" model — enterprise resources are obscured from network discovery, preventing lateral movement, with the PA ensuring nonenterprise assets can access the internet but cannot discover or reach enterprise resources.'
 confidence: "high"

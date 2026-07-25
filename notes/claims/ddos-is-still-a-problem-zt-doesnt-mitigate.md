@@ -6,6 +6,8 @@ tags:
   - source/gilman-barth-zt-networks
   - topic/zt-threats
   - topic/zt-network
+  - topic/zt-implementation
+  - topic/zt-architecture
 claim_id: "gb-ch10.2"
 statement: "DDoS is still a problem — ZT doesn't mitigate it, it reframes how you respond"
 confidence: "medium"

@@ -6,6 +6,8 @@ tags:
   - source/finney-project-zt
   - topic/zt-governance
   - topic/zt-implementation
+  - topic/zt-data
+  - topic/zt-trust
 claim_id: "finney-ch8-11.7"
 statement: 'Culture change requires rituals, not just policies — the "security minute" as cultural signal'
 confidence: "medium"

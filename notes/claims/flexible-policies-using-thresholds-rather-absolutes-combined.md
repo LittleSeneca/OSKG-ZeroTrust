@@ -6,6 +6,8 @@ tags:
   - source/beyondcorp
   - topic/zt-implementation
   - topic/zt-architecture
+  - topic/zt-definition
+  - topic/zt-governance
 claim_id: "beyondcorp.10"
 statement: 'Flexible policies using thresholds rather than absolutes, combined with platform-normalized security evaluations, prevent draconian enforcement that causes users to seek workarounds — "100% uniform control deployment is a mythical state where unicorns frolic unconcerned about malware."'
 confidence: "high"

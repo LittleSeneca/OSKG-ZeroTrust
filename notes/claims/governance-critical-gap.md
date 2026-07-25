@@ -6,6 +6,8 @@ tags:
   - source/nstac
   - topic/zt-identity
   - topic/zt-governance
+  - topic/zt-architecture
+  - topic/zt-definition
 claim_id: "nstac.3"
 statement: "Governance is the critical gap — the Federal Government must integrate ZT into existing structures (FISMA, CDM, NIST 800-53, procurement) rather than treating it as a standalone initiative."
 confidence: "high"

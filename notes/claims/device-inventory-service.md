@@ -6,6 +6,8 @@ tags:
   - source/beyondcorp
   - topic/zt-implementation
   - topic/zt-architecture
+  - topic/zt-governance
+  - topic/zt-device
 claim_id: "beyondcorp.4"
 statement: "The Device Inventory Service — ingesting 3M deltas/day from 15+ sources, correlating disparate identifiers, and precomputing trust evaluations — is the single most important operational component of BeyondCorp, and its data quality directly determines access availability."
 confidence: "high"
