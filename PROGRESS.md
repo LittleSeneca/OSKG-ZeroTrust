@@ -25,10 +25,10 @@ updated: 2026-07-24
 
 - **Total chapter notes:** 50 (36 with claims + 14 without claims yet extracted)
 - **Total estimated claims:** ~405
-- **Claims extracted:** 129
-- **Remaining:** ~276
-- **Batches completed:** 3
-- **Last batch:** 2026-07-24 — Batch 3 (6 notes, 62 claims)
+- **Claims extracted:** 299
+- **Remaining:** ~106
+- **Batches completed:** 4
+- **Last batch:** 2026-07-24 — Batch 4 (19 notes, 170 claims)
 
 ### Batch Log
 
@@ -127,25 +127,25 @@ Target: future sessions, ~10 notes
 
 ### Tier 2 — Core Books (20 notes, ~180 claims)
 - [x] Gilman & Barth Ch1 — Zero Trust Fundamentals (4 claims → Batch 1)
-- [ ] Gilman & Barth Ch2 — Managing Trust
-- [ ] Gilman & Barth Ch3 — Network Agents
-- [ ] Gilman & Barth Ch4-6 — Authorization Devices Users
-- [ ] Gilman & Barth Ch7-8 — Applications and Traffic
-- [ ] Gilman & Barth Ch9 — Realizing a Zero Trust Network
-- [ ] Gilman & Barth Ch10 — The Adversarial View
-- [ ] Garbis & Chapman Ch1-3 — Introduction and Architecture
-- [ ] Garbis & Chapman — Network and Access Technologies
-- [ ] Garbis & Chapman — Practice IAM Policy
-- [ ] Garbis & Chapman — Cloud IaaS SaaS
-- [ ] Garbis & Chapman — SOC Data IoT
-- [ ] Garbis & Chapman — Scenarios and Conclusion
-- [ ] Finney Ch1-3 — The Zero Trust Story
-- [ ] Finney Ch4-7 — Building the ZT Strategy
-- [ ] Finney Ch8-11 — Execution and Sustainability
-- [ ] Green-Ortiz Intro Ch1-2 — Foundations
-- [ ] Green-Ortiz Ch3-5 — Trust and Policy
-- [ ] Green-Ortiz Ch6-8 — Implementation
-- [ ] Green-Ortiz Ch9-11 — Advanced and Future
+- [x] Gilman & Barth Ch2 — Managing Trust (6 claims → Batch 4)
+- [x] Gilman & Barth Ch3 — Network Agents (5 claims → Batch 4)
+- [x] Gilman & Barth Ch4-6 — Authorization Devices Users (14 claims → Batch 4)
+- [x] Gilman & Barth Ch7-8 — Applications and Traffic (13 claims → Batch 4)
+- [x] Gilman & Barth Ch9 — Realizing a Zero Trust Network (7 claims → Batch 4)
+- [x] Gilman & Barth Ch10 — The Adversarial View (8 claims → Batch 4)
+- [x] Garbis & Chapman Ch1-3 — Introduction and Architecture (14 claims → Batch 4)
+- [x] Garbis & Chapman — Network and Access Technologies (8 claims → Batch 4)
+- [x] Garbis & Chapman — Practice IAM Policy (13 claims → Batch 4)
+- [x] Garbis & Chapman — Cloud IaaS SaaS (6 claims → Batch 4)
+- [x] Garbis & Chapman — SOC Data IoT (5 claims → Batch 4)
+- [x] Garbis & Chapman — Scenarios and Conclusion (5 claims → Batch 4)
+- [x] Finney Ch1-3 — The Zero Trust Story (12 claims → Batch 4)
+- [x] Finney Ch4-7 — Building the ZT Strategy (11 claims → Batch 4)
+- [x] Finney Ch8-11 — Execution and Sustainability (13 claims → Batch 4)
+- [x] Green-Ortiz Intro Ch1-2 — Foundations (8 claims → Batch 4)
+- [x] Green-Ortiz Ch3-5 — Trust and Policy (6 claims → Batch 4)
+- [x] Green-Ortiz Ch6-8 — Implementation (9 claims → Batch 4)
+- [x] Green-Ortiz Ch9-11 — Advanced and Future (7 claims → Batch 4)
 
 ### Tier 3 — Supplementary (20 notes, ~120 claims)
 - [ ] NIST 800-207A — Cloud-Native Access Control
@@ -204,6 +204,14 @@ Target: future sessions, ~10 notes
 - **Quality review:** PASS — 0 issues (all frontmatter, evidence sections, tags verified)
 - **Model:** DeepSeek V4 Pro (extraction script authored manually, run via python3)
 - **Method:** Adapted extract_batch2.py pattern; added NSA/CISA claim markers; manual slug derivation for 56 claims
+
+### 2026-07-24 — Phase 2 Batch 4
+- **Notes processed:** 19 (all Tier 2 core books: Gilman & Barth 6, Garbis & Chapman 6, Finney 3, Green-Ortiz 4)
+- **Claims extracted:** 170
+- **Artifacts created:** 170 claim files + 19 chapter note updates + 2 scripts (extract_batch4.py, update_chapter_notes_batch4.py)
+- **Quality review:** PASS — sampled 19 claims across all 4 books, all frontmatter/evidence/tags verified
+- **Model:** DeepSeek V4 Pro (manual script adaptation from batch3 pattern, META auto-generated + hand-reviewed)
+- **Method:** Adapted extract_batch3.py with 4 new claim markers (authors', finney's, green-ortiz's), 19 CHAPTERS, 170 META entries
 
 ### 2026-07-24 — Phase 2 Batch 1
 - **Notes processed:** 3 (NIST 800-207 Ch2, NSA Embracing ZT, G&B Ch1)
